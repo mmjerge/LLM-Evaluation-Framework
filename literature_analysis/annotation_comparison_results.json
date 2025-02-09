@@ -1,0 +1,1512 @@
+{
+    "total_papers": {
+      "human": 109,
+      "gpt": 50,
+      "matching": 50
+    },
+    "paper_comparisons": [
+      {
+        "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 0.6666666666666666,
+        "human_benchmarks": [
+          "HotPotQA",
+          "FEVER",
+          "ALFWorld",
+          "WebShop"
+        ],
+        "gpt_benchmarks": [
+          "HotpotQA",
+          "Fever",
+          "ALFWorld",
+          "WebShop"
+        ],
+        "human_models": [
+          "GPT-3",
+          "PaLM-540B",
+          "BUTLER"
+        ],
+        "gpt_models": [
+          "PaLM-540B",
+          "GPT-3"
+        ],
+        "note": "Human incorrectly labeled BUTLER as a foundation model."
+      },
+      {
+        "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+        "benchmark_similarity": 0.5,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "Game of 24",
+          "Creative Writing",
+          "5x5 Crosswords"
+        ],
+        "gpt_benchmarks": [
+          "Game of 24",
+          "Creative Writing",
+          "Mini Crosswords"
+        ],
+        "human_models": [
+          "GPT-4"
+        ],
+        "gpt_models": [
+          "GPT-4"
+        ]
+      },
+      {
+        "title": "Boosted Prompt Ensembles for Large Language Models",
+        "benchmark_similarity": 0.42857142857142855,
+        "model_similarity": 0.75,
+        "human_benchmarks": [
+          "AQUA",
+          "GSM8K",
+          "MMLU",
+          "MATH",
+          "SVAMP"
+        ],
+        "gpt_benchmarks": [
+          "GSM8K",
+          "AQUA",
+          "MMLU570",
+          "CMATH420",
+          "SVAMP"
+        ],
+        "human_models": [
+          "code-davinci-002",
+          "text-curie-001",
+          "text-davinci-003",
+          "GPT-3.5-turbo"
+        ],
+        "gpt_models": [
+          "code-davinci-002",
+          "text-davinci-003",
+          "gpt-3.5-turbo"
+        ],
+        "note": "Missing text-curie-001 from model categorization."
+      },
+      {
+        "title": "Ask Me Anything: A simple strategy for prompting language models",
+        "benchmark_similarity": 0.85,
+        "model_similarity": 0.75,
+        "human_benchmarks": [
+        "SuperGLUE",
+        "BoolQ",
+        "COPA",
+        "MultiRC",
+        "ReCoRD",
+        "WiC",
+        "ANLI",
+        "StoryCloze",
+        "SST",
+        "DROP",
+        "NQ",
+        "RealTimeQA",
+        "WebQs"
+      ],
+      "gpt_benchmarks": [
+        "SuperGLUE (CB, RTE, WSC)",
+        "DBPedia",
+        "AGNews",
+        "BoolQ",
+        "COPA",
+        "MultiRC",
+        "ReCoRD",
+        "WiC",
+        "ANLI R1",
+        "ANLI R2",
+        "ANLI R3",
+        "StoryCloze",
+        "SST",
+        "DROP",
+        "NQ",
+        "RealTimeQA",
+        "WebQs"
+      ],
+        "human_models": [
+          "GPT-J",
+          "GPT-3",
+          "T0",
+          "BLOOM",
+          "OPT",
+          "EleutherAI"
+        ],
+        "gpt_models": [
+          "GPT-J-6B",
+          "GPT-3 (175B)",
+          "EleutherAI (125M-175B)",
+          "BLOOM",
+          "OPT",
+          "T0"
+        ],
+        "note": "Human did not correctly categorize the Eleuther models into separate models."
+      },
+      {
+        "title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 0.8,
+        "human_benchmarks": [          
+            "sorting",
+            "keyword counting",
+            "set operations",
+            "document merging"
+        ],
+        "gpt_benchmarks": [
+          "sorting",
+          "keyword counting",
+          "set operations",
+          "document merging"
+        ],
+        "human_models": [
+          "GPT-3.5",
+          "LLaMA-2 70B"
+        ],
+        "gpt_models": [
+          "GPT-3.5",
+          "GPT-4",
+          "Llama-2"
+        ],
+        "note": "GPT-4 incorrectly labeled by gpt."
+      },
+      {
+        "title": "More Agents Is All You Need",
+        "benchmark_similarity": 0.8,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "GSM8K",
+          "MMLU",
+          "MATH",
+          "HumanEval",
+          "Chess"
+        ],
+        "gpt_benchmarks": [
+          "GSM8K",
+          "MMLU",
+          "MATH",
+          "HumanEval",
+          "Chess-Move"
+        ],
+        "human_models": [
+          "GPT-3.5-turbo",
+          "GPT-4",
+          "LLaMA-2 13B",
+          "LLaMA-2 70B"
+        ],
+        "gpt_models": [
+          "GPT-3.5-turbo",
+          "GPT-4",
+          "Llama2-13B",
+          "Llama2-70B"
+        ]
+      },
+      {
+        "title": "ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 0.85714,
+        "human_benchmarks": [
+          "AQUA",
+          "GSM8K",
+          "MATH",
+          "CommonsenseQA",
+          "StrategyQA",
+          "Date Understanding"
+        ],
+        "gpt_benchmarks": [
+          "AQUA",
+          "GSM8K",
+          "MATH",
+          "CommonsenseQA",
+          "StrategyQA",
+          "Date Understanding"
+        ],
+        "human_models": [
+          "GPT-3",
+          "GPT-4",
+          "Bard",
+          "Claude 2",
+          "LLaMA-2 70B",
+          "DeepSeekMath"
+        ],
+        "gpt_models": [
+          "GPT-3",
+          "GPT-4",
+          "Bard",
+          "Claude2",
+          "Llama2-70B",
+          "DeepSeekMath",
+          "ChatGPT"
+        ],
+        "note": "Model identified ChatGPT"
+      },
+      {
+        "title": "Boosting of Thoughts: Trial-and-Error Problem Solving with Large Language Models",
+        "benchmark_similarity": 0.66,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "Game of 24",
+          "AQUA",
+          "GSM8K",
+          "MATH",
+          "MMLU",
+          "SVAMP"
+        ],
+        "gpt_benchmarks": [
+          "Game of 24",
+          "AQuA",
+          "GSM8K",
+          "MATH"
+        ],
+        "human_models": [
+          "GPT-4",
+          "LLaMA-2 13B"
+        ],
+        "gpt_models": [
+          "GPT-4",
+          "Llama2-13B"
+        ]
+      },
+      {
+        "title": "Fill in the Blank: Exploring and Enhancing LLM Capabilities for Backward Reasoning in Math Word Problems",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "GSM8K",
+          "SVAMP",
+          "MultiArith"
+        ],
+        "gpt_benchmarks": [
+          "GSM8k",
+          "SVAMP",
+          "MultiArith"
+        ],
+        "human_models": [
+          "GPT-3.5-turbo",
+          "GPT-4",
+          "LLaMA-2 70B",
+          "PaLM-540B"
+        ],
+        "gpt_models": [
+          "GPT-4",
+          "GPT-3.5-turbo",
+          "PaLM-2",
+          "LLaMa-2-70B"
+        ]
+      },
+      {
+        "title": "InferFix: End-to-End Program Repair with LLMs",
+        "benchmark_similarity": 0.0,
+        "model_similarity": 1.0,
+        "human_benchmarks": [],
+        "gpt_benchmarks": [
+          "InferredBugs"
+        ],
+        "human_models": [
+          "Codex"
+        ],
+        "gpt_models": [
+          "Codex Cushman (12B)"
+        ],
+        "note": "GPT correct benchmark."
+      },
+      {
+        "title": "Revisit Input Perturbation Problems for LLMs: A Unified Robustness Evaluation Framework for Noisy Slot Filling Task",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "RADDLE",
+          "SNIPS",
+          "Noise-LLM"
+        ],
+        "gpt_benchmarks": [
+          "RADDLE",
+          "SNIPS",
+          "Noise-LLM"
+        ],
+        "human_models": [
+          "text-davinci-003",
+          "ChatGPT",
+          "Claude-1"
+        ],
+        "gpt_models": [
+          "GPT-3.5 (Text-davinci-003)",
+          "ChatGPT",
+          "Claude-1"
+        ]
+      },
+      {
+        "title": "FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation",
+        "benchmark_similarity": 0.66,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "FreshQA",
+          "RecentEvents",
+          "NewsQA"
+        ],
+        "gpt_benchmarks": [
+          "FRESH QA",
+          "CurrentEvents",
+          "NewsQA"
+        ],
+        "human_models": [
+          "GPT-3.5",
+          "GPT-4",
+          "T5",
+          "PaLM"
+        ],
+        "gpt_models": [
+          "GPT-3.5",
+          "GPT-4",
+          "T5",
+          "PaLM"
+        ]
+      },
+      {
+        "title": "DiversiGATE: A Comprehensive Framework for Reliable Large Language Models",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "GSM8K",
+          "Synthetic Dataset"
+        ],
+        "gpt_benchmarks": [
+          "GSM8K",
+          "Synthetic-Reliability"
+        ],
+        "human_models": [
+          "text-davinci-003"
+        ],
+        "gpt_models": [
+          "text-davinci-003"
+        ],
+        "note": "Synthetic dataset are the same."
+      },
+      {
+        "title": "Large Language Models are Zero-Shot Reasoners",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 0.8,
+        "human_benchmarks": [
+          "MultiArith",
+          "GSM8K",
+          "AQUA-RAT",
+          "SVAMP",
+          "Last Letter",
+          "Coin Flip",
+          "Date Understanding",
+          "Tracking Shuffled Objects",
+          "CommonsenseQA",
+          "StrategyQA"
+        ],
+        "gpt_benchmarks": [
+          "MultiArith",
+          "GSM8K",
+          "AQUA-RAT",
+          "SVAMP",
+          "Last Letter",
+          "Coin Flip",
+          "Date Understanding",
+          "Tracking Shuffled Objects",
+          "CommonsenseQA",
+          "StrategyQA"
+        ],
+        "human_models": [
+          "InstructGPT (text-davinci-002)",
+          "PaLM-540B",
+          "GPT-3 (ada, babbage, curie, davinci)",
+          "GPT-Neo",
+          "GPT-J",
+          "T0",
+          "OPT"
+        ],
+        "gpt_models": [
+          "InstructGPT (text-davinci-002)",
+          "PaLM-540B",
+          "GPT-3 (ada, babbage, curie, davinci)",
+          "GPT-2",
+          "GPT-Neo",
+          "GPT-J",
+          "T0",
+          "OPT"
+        ],
+        "note": "GPT includes GPT-2."
+      },
+      {
+        "title": "ART: Automatic Multi-Step Reasoning and Tool-use for Large Language Models",
+        "benchmark_similarity": 0.85,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "MMLU",
+          "BigBench",
+          "SQuAD",
+          "TriviaQA"
+        ],
+        "gpt_benchmarks": [
+          "MMLU",
+          "Big-Bench",
+          "Squad",
+          "TriviaQA",
+          "MAWPS"
+        ],
+        "human_models": [
+          "text-davinci-003",
+          "ChatGPT",
+          "Codex",
+          "GPT-4"
+        ],
+        "gpt_models": [
+          "text-davinci-003",
+          "ChatGPT",
+          "code-davinci-002",
+          "GPT-4"
+        ],
+        "note": "Model and human correctly labeled codex and code-davinci"
+      },
+      {
+        "title": "MathPrompter: Mathematical Reasoning using Large Language Models",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 0.8,
+        "human_benchmarks": [
+          "MultiArith",
+          "SVAMP",
+          "MathQA"
+        ],
+        "gpt_benchmarks": [
+          "MultiArith",
+          "SVAMP",
+          "MathQA"
+        ],
+        "human_models": [
+          "GPT-3",
+          "PaLM-540B"        
+        ],
+        "gpt_models": [
+          "GPT-3 DaVinci",
+          "PaLM-540B",
+          "FLAN-PaLM"
+        ],
+        "note": "GPT categorized FLAN-PaLM"
+      },
+      {
+        "title": "Prompting GPT-3 To Be Reliable",
+        "benchmark_similarity": 0.9,
+        "model_similarity": 0.85,
+        "human_benchmarks": [
+          "MRQA",
+          "AdvGLUE",
+          "Contrast Sets",
+          "HANS",
+          "PAWS",
+          "WinoBias",
+          "BBQ",
+          "NQ",
+          "TriviaQA",
+          "HotpotQA",
+          "SQuAD"
+        ],
+        "gpt_benchmarks": [
+          "MRQA",
+          "AdvGLUE",
+          "Contrast Sets",
+          "HANS",
+          "PAWS",
+          "WinoBias",
+          "BBQ",
+          "NQ",
+          "TriviaQA",
+          "HotpotQA",
+          "SQuAD"
+        ],
+        "human_models": [
+          "GPT-3"
+        ],
+        "gpt_models": [
+          "GPT-3",
+          "Code-Davinci-002"
+        ]
+      },
+      {
+        "title": "Beyond Self-Consistency: Ensemble Reasoning Boosts Consistency and Accuracy of LLMs in Cancer Staging",
+        "benchmark_similarity": 0.95,
+        "model_similarity": 0.85,
+        "human_benchmarks": [],
+        "gpt_benchmarks": [
+          "Cancer Genomic Atlas (TCGA) project"
+        ],
+        "human_models": [
+          "Med42-70B"
+        ],
+        "gpt_models": [
+          "Med42-70B",
+          "Llama2-70B"
+        ]
+      },
+      {
+        "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "MultiSpanQA",
+          "Wikidata",
+          "Wiki-Category"
+        ],
+        "gpt_benchmarks": [
+          "MultiSpanQA",
+          "Wikidata",
+          "Wiki-Category List"
+        ],
+        "human_models": [
+          "LLaMA 65B",
+          "LLaMA-2 70B"
+        ],
+        "gpt_models": [
+          "Llama 65B",
+          "Llama 2 70B Chat"
+        ],
+        "note": "Wiki-Category same as Wiki-Category List"
+      },
+      {
+        "title": "LM vs LM: Detecting Factual Errors via Cross Examination",
+        "benchmark_similarity": 0.9,
+        "model_similarity": 0.8,
+        "human_benchmarks": [],
+        "gpt_benchmarks": [
+          "LAMA",
+          "TriviaQA",
+          "Natural Questions (NQ)",
+          "PopQA"
+        ],
+        "human_models": [
+          "GPT-3",
+          "GPT-3.5-turbo",
+          "LLaMA 7B"
+        ],
+        "gpt_models": [
+          "ChatGPT",
+          "GPT-3",
+          "LLAMA-7B",
+          "Claude-1"
+        ]
+      },
+      {
+        "title": "REFINER: Reasoning Feedback on Intermediate Representations",
+        "benchmark_similarity": 0.75,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "GSM8K",
+          "SVAMP",
+          "Natural Language Reasoning",
+          "Moral Stories"
+        ],
+        "gpt_benchmarks": [
+          "GSM8K",
+          "SVAMP",
+          "sNLR",
+          "MS"
+        ],
+        "human_models": [
+          "GPT-3.5",
+          "GPT-3.5-turbo",
+          "UnifiedQA-T5-base",
+          "UnifiedQA-T5-large"
+        ],
+        "gpt_models": [
+          "GPT-3.5",
+          "ChatGPT",
+          "UnifiedQA-T5-base",
+          "UnifiedQA-T5-large"
+        ],
+        "note": "Terminology ambiguity with sNLR"
+      },
+      {
+        "title": "Reliable Natural Language Understanding with Large Language Models and Answer Set Programming",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 0.85,
+        "human_benchmarks": [
+          "QuaRel"
+        ],
+        "gpt_benchmarks": [
+          "QuaRel"
+        ],
+        "human_models": [
+          "text-curie-001",
+          "text-davinci-003"
+        ],
+        "gpt_models": [
+          "GPT-3 Davinci",
+          "GPT-3 Curie",
+          "Claude-1"
+        ]
+      },
+      {
+        "title": "Complexity-based Prompting for Multi-step Reasoning",
+        "benchmark_similarity": 0.85,
+        "model_similarity": 0.9,
+        "human_benchmarks": [
+          "GSM8K",
+          "MATH",
+          "StrategyQA",
+          "Date Understanding"
+        ],
+        "gpt_benchmarks": [
+          "GSM8K",
+          "MATH",
+          "StrategyQA",
+          "Date Understanding",
+          "Penguins"
+        ],
+        "human_models": [
+          "code-davinci-002",
+          "text-davinci-003"
+        ],
+        "gpt_models": [
+          "code-davinci-002",
+          "text-davinci-003"
+        ]
+      },
+      {
+        "title": "Reprompting: Automated Chain-of-Thought Prompt Inference Through Gibbs Sampling",
+        "benchmark_similarity": 0.95,
+        "model_similarity": 0.85,
+        "human_benchmarks": [          
+          "GSM8K",
+          "MATH"
+        ],
+        "gpt_benchmarks": [
+          "Big-Bench Hard (BBH)",
+          "GSM8K",
+          "MATH"
+        ],
+        "human_models": [
+          "text-davinci-003",
+          "GPT-3.5-turbo"
+        ],
+        "gpt_models": [
+          "text-davinci-003",
+          "gpt-3.5-turbo",
+          "Claude-1"
+        ]
+      },
+      {
+        "title": "Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "HotPotQA",
+          "2WikiMultihopQA",
+          "MuSiQue",
+          "IIRC"
+        ],
+        "gpt_benchmarks": [
+          "HotpotQA",
+          "2WikiMultihopQA",
+          "MuSiQue",
+          "IIRC"
+        ],
+        "human_models": [
+          "code-davinci-002",
+          "T5"
+        ],
+        "gpt_models": [
+          "code-davinci-002",
+          "Flan-T5-large",
+          "Flan-T5-XL"
+        ],
+        "note": "Model over categorized."
+      },
+      {
+        "title": "Rationale-Augmented Ensembles in Language Models",
+        "benchmark_similarity": 0.85,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "BoolQ",
+          "WiC",
+          "SST-2",
+          "QQP",
+          "e-SNLI",
+          "HotpotQA",
+          "OpenBookQA",
+          "ANLI",
+          "MNLI",
+          "RTE",
+          "ARC"
+        ],
+        "gpt_benchmarks": [
+          "BoolQ",
+          "WiC",
+          "SST-2",
+          "QQP",
+          "e-SNLI",
+          "HotpotQA",
+          "OpenBookQA",
+          "ANLI",
+          "MNLI",
+          "RTE",
+          "ARC",
+          "GSM8K"
+        ],
+        "human_models": [
+          "GPT-3",
+          "PaLM-540B"
+        ],
+        "gpt_models": [
+          "GPT-3",
+          "PaLM-540B"
+        ],
+        "note": "GPT added GSM8K"
+      },
+      {
+        "title": "Automatic Chain of Thought Prompting in Large Language Models",
+        "benchmark_similarity": 0.9,
+        "model_similarity": 0.85,
+        "human_benchmarks": [
+          "CSQA",
+          "AQUA",
+          "GSM8K",
+          "AddSub",
+          "StrategyQA",
+          "MultiArith"
+        ],
+        "gpt_benchmarks": [
+          "CSQA",
+          "AQUA",
+          "GSM8K",
+          "AddSub",
+          "StrategyQA",
+          "MultiArith",
+          "SingleEq"
+        ],
+        "human_models": [
+          "GPT-3",
+          "Codex"
+        ],
+        "gpt_models": [
+          "GPT-3",
+          "Codex",
+          "Claude-1"
+        ]
+      },
+      {
+        "title": "Inference-Time Intervention: Eliciting Truthful Answers from a Language Model",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 0.8,
+        "human_benchmarks": [
+          "TruthfulQA"
+        ],
+        "gpt_benchmarks": [
+          "TruthfulQA"
+        ],
+        "human_models": [
+          "LLaMA 7B",
+          "Vicuna 13B",
+          "Alpaca 13B"
+        ],
+        "gpt_models": [
+          "LLaMA-7B",
+          "Vicuna-13B",
+          "Alpaca-13B",
+          "Claude-1"
+        ]
+      },
+      {
+        "title": "Large Language Models Can Self-Improve",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "DROP",
+          "OpenBookQA",
+          "GSM8K",
+          "ANLI",
+          "AQUA",
+          "StrategyQA",
+          "MNLI"
+        ],
+        "gpt_benchmarks": [
+          "GSM8K",
+          "DROP",
+          "OpenBookQA",
+          "ANLI-A3",
+          "AQUA",
+          "StrategyQA",
+          "MNLI"
+        ],
+        "human_models": [
+          "PaLM-540B"
+        ],
+        "gpt_models": [
+          "PaLM-540B"
+        ],
+        "note": "GPT categorized ANLI-A3"
+      },
+      {
+        "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+        "benchmark_similarity": 0.85,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "Dialogue Generation",
+          "Code Optimization",
+          "Math Reasoning",
+          "Sentiment Analysis"
+        ],
+        "gpt_benchmarks": [
+          "Dialogue Response Generation",
+          "Code Optimization",
+          "Math Reasoning",
+          "Sentiment Reversal"
+        ],
+        "human_models": [
+          "text-davinci-003",
+          "GPT-3.5-turbo",
+          "GPT-4",
+          "Codex"
+        ],
+        "gpt_models": [
+          "text-davinci-003",
+          "GPT-3.5-turbo",
+          "GPT-4",
+          "code-davinci-002"
+        ]
+      },
+      {
+        "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 0.8,
+        "human_benchmarks": [
+          "HotPotQA",
+          "ALFWorld",
+          "HumanEval",
+          "MBPP"
+        ],
+        "gpt_benchmarks": [
+          "HotPotQA",
+          "ALFWorld",
+          "HumanEval",
+          "MBPP"
+        ],
+        "human_models": [
+          "GPT-3",
+          "GPT-3.5",
+          "GPT-4",
+          "Claude-1"
+        ],
+        "gpt_models": [
+          "GPT-3",
+          "GPT-3.5",
+          "GPT-4",
+          "Claude-1",
+          "PaLM-2"
+        ],
+        "note": "GPT added PaLM-2"
+      },
+      {
+        "title": "PREFER: Prompt Ensemble Learning via Feedback-Reflect-Refine",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 0.8,
+        "human_benchmarks": [
+          "SNLI",
+          "MNLI",
+          "RTE",
+          "QNLI",
+          "Ethos"
+        ],
+        "gpt_benchmarks": [
+          "SNLI",
+          "MNLI",
+          "RTE",
+          "QNLI",
+          "Ethos"
+        ],
+        "human_models": [
+          "GPT-3.5-turbo",
+          "GPT-4",
+          "Claude-2"
+        ],
+        "gpt_models": [
+          "GPT-3.5-turbo",
+          "GPT-4",
+          "Claude-2",
+          "PaLM-2"
+        ],
+        "note": "GPT added PaLM-2"
+      },
+      {
+        "title": "N-CRITICS: Self-Refinement of Large Language Models with Ensemble of Critics",
+        "benchmark_similarity": 0.85,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "TriviaQA",
+          "AmbigNQ",
+          "HotPotQA",
+          "Toxicity"
+        ],
+        "gpt_benchmarks": [
+          "TriviaQA",
+          "AmbigQ",
+          "HotpotQA",
+          "REALTOXICITYPROMPTS"
+        ],
+        "human_models": [
+          "LLaMA-2 70B",
+          "Koala 13B",
+          "Vicuna 13B",
+          "WizardLM"
+        ],
+        "gpt_models": [
+          "Llama2-70b",
+          "Koala-13b",
+          "Vicuna-13b",
+          "WizardLM"
+        ],
+        "note": "Ambiguous benchmark labeling."
+      },
+      {
+        "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+        "benchmark_similarity": 0.75,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "Chess Move",
+          "GSM8K",
+          "MMLU"
+        ],
+        "gpt_benchmarks": [
+          "GSM8K",
+          "MMLU",
+          "BIG-Bench Chess-State Tracking Benchmark",
+          "Biographies of computer scientists (custom dataset)"
+        ],
+        "human_models": [
+          "GPT-3.5-turbo",
+          "Bard (PaLM 2)"
+        ],
+        "gpt_models": [
+          "chatGPT",
+          "Bard"
+        ],
+        "note": "GPT correctly identified biographies of computer scientists custom dataset."
+      },
+      {
+        "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+        "benchmark_similarity": 0.85,
+        "model_similarity": 0.8,
+        "human_benchmarks": [
+          "ARC-challenge",
+          "CSQA",
+          "AQUA",
+          "GSM8K",
+          "SVAMP",
+          "MultiArith"
+        ],
+        "gpt_benchmarks": [
+          "ARC-c",
+          "CommonsenseQA",
+          "AQUA",
+          "GSM8K",
+          "SVAMP",
+          "MultiArith"
+        ],
+        "human_models": [
+          "code-davinci-002",
+          "GPT-3.5-turbo",
+          "PaLM-540B",
+          "UL2-20B"
+        ],
+        "gpt_models": [
+          "code-davinci-002",
+          "GPT-3.5-turbo",
+          "PaLM-540B",
+          "UL2-20B",
+          "LaMDA-137B"
+        ]
+      },
+      {
+        "title": "Universal Self-Consistency for Large Language Model Generation",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 0.8,
+        "human_benchmarks": [
+          "GSM8K",
+          "MATH",
+          "TruthfulQA",
+          "BIRD-SQL"
+        ],
+        "gpt_benchmarks": [
+          "GSM8K",
+          "MATH",
+          "TruthfulQA",
+          "BIRD-SQL"
+        ],
+        "human_models": [
+          "GPT-3.5-turbo",
+          "PaLM 2-L",
+          "Claude-2"
+        ],
+        "gpt_models": [
+          "GPT-3.5-turbo",
+          "PaLM 2-L",
+          "Claude-2",
+          "LLaMA-2 70B"
+        ]
+      },
+      {
+        "title": "Found in the Middle: Permutation Self-Consistency Improves Listwise Ranking in Large Language Models",
+        "benchmark_similarity": 0.9,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "TREC-DL19",
+          "TREC-DL20",
+          "MathSort",
+          "WordSort"
+        ],
+        "gpt_benchmarks": [
+          "TREC-DL19",
+          "TREC-DL20",
+          "MathSort",
+          "WordSort",
+          "GSM8KSort"
+        ],
+        "human_models": [
+          "GPT-3.5-turbo",
+          "GPT-4",
+          "Mistral-7B",
+          "Zephyr-7B"
+        ],
+        "gpt_models": [
+          "GPT-3.5",
+          "GPT-4",
+          "Mistral-7B",
+          "Zephyr-7B"
+        ]
+      },
+      {
+        "title": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 0.75,
+        "human_benchmarks": [
+          "Chess Move",
+          "GSM8K",
+          "MMLU",
+          "BIG-Bench"
+        ],
+        "gpt_benchmarks": [
+          "Chess Move",
+          "GSM8K",
+          "MMLU",
+          "BIG-Bench"
+        ],
+        "human_models": [
+          "GPT-3.5-turbo",
+          "Bard",
+          "Claude-2"
+        ],
+        "gpt_models": [
+          "ChatGPT",
+          "Bard",
+          "Claude-2",
+          "PaLM-2"
+        ]
+      },
+      {
+        "title": "Boosting Language Models Reasoning with Chain-of-Knowledge Prompting",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 0.66,
+        "human_benchmarks": [          
+          "CommonsenseQA",
+          "StrategyQA",
+          "OpenBookQA",
+          "ARC-c",
+          "Sports Understanding (BIG-Bench)",
+          "BoolQ",
+          "Last Letter Concatenation",
+          "Coin Flip",
+          "GSM8K",
+          "SVAMP",
+          "AQuA",
+          "MultiArith"
+        ],
+        "gpt_benchmarks": [
+          "CommonsenseQA",
+          "StrategyQA",
+          "OpenBookQA",
+          "ARC-c",
+          "Sports Understanding (BIG-Bench)",
+          "BoolQ",
+          "Last Letter Concatenation",
+          "Coin Flip",
+          "GSM8K",
+          "SVAMP",
+          "AQuA",
+          "MultiArith"
+        ],
+        "human_models": [
+          "text-davinci-002",
+          "GPT-3.5-turbo"
+        ],
+        "gpt_models": [
+          "GPT-3 (text-davinci-002, 175B)",
+          "GPT-3.5-turbo (175B)",
+          "GPT-4"
+        ],
+        "note": "Human did not capture GPT-4."
+      },
+      {
+        "title": "Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 0.5,
+        "human_benchmarks": [
+          "NQ",
+          "TriviaQA",
+          "WebQ",
+          "RealTimeQA"
+        ],
+        "gpt_benchmarks": [
+          "NQ",
+          "TriviaQA",
+          "WebQ",
+          "RealTimeQA"
+        ],
+        "human_models": [
+          "LLaMA 7B"
+        ],
+        "gpt_models": [
+          "LLaMa-2 7B",
+          "GPT-4"
+        ],
+        "note": "Model incorreclty labeled GPT-4."
+      },
+      {
+        "title": "Active Prompting with Chain-of-Thought for Large Language Models",
+        "benchmark_similarity": 0.875,
+        "model_similarity": 0.8,
+        "human_benchmarks": [
+          "CSQA",
+          "AQUA",
+          "GSM8K",
+          "ASDiv",
+          "SVAMP",
+          "StrategyQA",
+          "SingleEq"
+        ],
+        "gpt_benchmarks": [
+          "CommonsenseQA",
+          "AQUA",
+          "GSM8K",
+          "ASDiv",
+          "SVAMP",
+          "StrategyQA",
+          "SingleEq"
+        ],
+        "human_models": [
+          "text-davinci-003",
+          "GPT-3.5-turbo",
+          "Codex",
+          "LLaMA-2 70B"
+        ],
+        "gpt_models": [
+          "text-davinci-003",
+          "gpt-3.5-turbo",
+          "code-davinci-002",
+          "Llama2-70b-chat",
+          "Claude-1"
+        ]
+      },
+      {
+        "title": "Rephrase and Respond: Let Large Language Models Ask Better Questions for Themselves",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 0.75,
+        "human_benchmarks": [
+          "MultiNLI",
+          "CSQA",
+          "Date Understanding",
+          "StereoSet"
+        ],
+        "gpt_benchmarks": [
+          "MultiNLI",
+          "CSQA",
+          "Date Understanding",
+          "StereoSet"
+        ],
+        "human_models": [
+          "GPT-4",
+          "Vicuna-13b",
+          "Claude-2"
+        ],
+        "gpt_models": [
+          "GPT-4",
+          "Vicuna-13b-v1.5",
+          "Claude-2",
+          "PaLM-2"
+        ]
+      },
+      {
+        "title": "Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models",
+        "benchmark_similarity": 0.85,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "MMLU-Science",
+          "TimeQA",
+          "MuSiQue",
+          "StrategyQA"
+        ],
+        "gpt_benchmarks": [
+          "MMLU (Physics and Chemistry)",
+          "TimeQA",
+          "MuSiQue",
+          "StrategyQA"
+        ],
+        "human_models": [
+          "PaLM 2-L",
+          "GPT-4",
+          "LLaMA-2 70B"
+        ],
+        "gpt_models": [
+          "PaLM-2L",
+          "GPT-4",
+          "Llama2-70B"
+        ]
+      },
+      {
+        "title": "Synthetic Prompting: Generating Chain-of-Thought Demonstrations for Large Language Models",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "GSM8K",
+          "GSM-Hard",
+          "ASDiv",
+          "SVAMP",
+          "SingleEq"
+        ],
+        "gpt_benchmarks": [
+          "GSM8K",
+          "GSM-Hard",
+          "ASDiv",
+          "SVAMP",
+          "SingleEq"
+        ],
+        "human_models": [
+          "text-davinci-003",
+          "GPT-4",
+          "Claude-1",
+          "PaLM-2"
+        ],
+        "gpt_models": [
+          "text-davinci-003",
+          "GPT-4",
+          "Claude-1",
+          "PaLM-2"
+        ]
+      },
+      {
+        "title": "Towards Expert-Level Medical Question Answering with Large Language Models",
+        "benchmark_similarity": 0.9,
+        "model_similarity": 0.85,
+        "human_benchmarks": [
+          "MedQA",
+          "MedMCQA",
+          "PubMedQA",
+          "MMLU-Medical",
+          "MultiMedQA"
+        ],
+        "gpt_benchmarks": [
+          "MedQA (USMLE)",
+          "MedMCQA",
+          "PubMedQA",
+          "MMLU clinical topics",
+          "MultiMedQA"
+        ],
+        "human_models": [
+          "PaLM-540B",
+          "Med-PaLM",
+          "GPT-4",
+          "MedAlpaca"
+        ],
+        "gpt_models": [
+          "PaLM-540B",
+          "Med-PaLM",
+          "GPT-4",
+          "MedAlpaca",
+          "Claude-2"
+        ]
+      },
+      {
+        "title": "Embodied LLM Agents Learn to Cooperate in Organized Teams",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 0.8,
+        "human_benchmarks": [
+          "VirtualHome-Social",
+          "ALFWorld-Team",
+          "WebShop-Multi"
+        ],
+        "gpt_benchmarks": [
+          "VirtualHome-Social",
+          "ALFWorld-Team",
+          "WebShop-Multi"
+        ],
+        "human_models": [
+          "GPT-3.5-turbo",
+          "GPT-4",
+          "LLaMA-2 70B",
+          "Claude-2"
+        ],
+        "gpt_models": [
+          "GPT-3.5-turbo",
+          "GPT-4",
+          "Llama2-70B",
+          "Claude-2",
+          "PaLM-2"
+        ]
+      },
+      {
+        "title": "The Consensus Game: Language Model Generation via Equilibrium Search",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 0.75,
+        "human_benchmarks": [
+          "RACE",
+          "HHH",
+          "ARC-c",
+          "MMLU",
+          "TruthfulQA"
+        ],
+        "gpt_benchmarks": [
+          "RACE",
+          "HHH",
+          "ARC-c",
+          "MMLU",
+          "TruthfulQA"
+        ],
+        "human_models": [
+          "LLaMA 7B",
+          "LLaMA-2 13B",
+          "PaLM-540B"
+        ],
+        "gpt_models": [
+          "LLaMa-7B",
+          "LLaMa-13B",
+          "PaLM-540B",
+          "Claude-1"
+        ]
+      },
+      {
+        "title": "RELIC: Investigating Large Language Model Responses using Self-Consistency",
+        "benchmark_similarity": 0.8,
+        "model_similarity": 1.0,
+        "human_benchmarks": [
+          "TruthfulQA",
+          "FEVER",
+          "Natural Questions"
+        ],
+        "gpt_benchmarks": [
+          "TruthfulQA",
+          "FEVER",
+          "NQ",
+          "RealTimeQA"
+        ],
+        "human_models": [
+          "GPT-3.5",
+          "GPT-3.5-turbo",
+          "InstructGPT"
+        ],
+        "gpt_models": [
+          "GPT-3.5",
+          "GPT-3.5-turbo",
+          "InstructGPT"
+        ]
+      },
+      {
+        "title": "Better Zero-Shot Reasoning with Self-Adaptive Prompting",
+        "benchmark_similarity": 1.0,
+        "model_similarity": 0.8,
+        "human_benchmarks": [
+          "MultiArith",
+          "AddSub",
+          "SingleEq",
+          "GSM8K",
+          "CSQA",
+          "StrategyQA"
+        ],
+        "gpt_benchmarks": [
+          "MultiArith",
+          "AddSub",
+          "SingleEq",
+          "GSM8K",
+          "CSQA",
+          "StrategyQA"
+        ],
+        "human_models": [
+          "PaLM-62B",
+          "PaLM-540B",
+          "GPT-3",
+          "Claude-1"
+        ],
+        "gpt_models": [
+          "PaLM-62B",
+          "PaLM-540B",
+          "GPT-3",
+          "Claude-1",
+          "Anthropic-Claude"
+        ]
+      },
+      {
+        "title": "Universal Self-Adaptive Prompting",
+        "benchmark_similarity": 0.913,
+        "model_similarity": 0.66,
+        "human_benchmarks": [
+          "storycloze",
+          "anlir1",
+          "anlir2",
+          "anlir3",
+          "boolq",
+          "copa",
+          "rte",
+          "wic",
+          "wsc",
+          "arc_e",
+          "arc_c",
+          "raceh",
+          "racem",
+          "lambada",
+          "web_questions",
+          "natural_questions",
+          "triviaqa_wiki",
+          "squad",
+          "xsum",
+          "wikilingua (en)",
+          "BIG-bench Hard (BBH)"
+        ],
+        "gpt_benchmarks": [
+          "winogrande",
+          "piqa",
+          "storycloze",
+          "anlir1",
+          "anlir2",
+          "anlir3",
+          "boolq",
+          "copa",
+          "rte",
+          "wic",
+          "wsc",
+          "arc_e",
+          "arc_c",
+          "raceh",
+          "racem",
+          "lambada",
+          "web_questions",
+          "natural_questions",
+          "triviaqa_wiki",
+          "squad",
+          "xsum",
+          "wikilingua (en)",
+          "BIG-bench Hard (BBH)"
+        ],
+        "human_models": [
+          "PaLM-62B",
+          "PaLM-540B"        
+        ],
+        "gpt_models": [
+          "PaLM-62B",
+          "PaLM-540B",
+          "PaLM 2-M"
+        ],
+        "note": "Human missed PaLM 2-M"
+      }
+    ],
+    "average_similarities": {
+      "benchmarks": 0.887,
+      "models": 0.0
+    }
+  }
