@@ -1,0 +1,51 @@
+{
+    "llama": {
+        "API_URL": "https://n0azvg1iya5dafwt.us-east-1.aws.endpoints.huggingface.cloud",
+        "headers": {
+            "Authorization": "Bearer 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",
+            "Content-Type": "application/json"
+        }
+    },
+    "llama31": {
+        "API_URL": "https://n0azvg1iya5dafwt.us-east-1.aws.endpoints.huggingface.cloud",
+        "headers": {
+            "Authorization": "Bearer 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",
+            "Content-Type": "application/json"
+        }
+    },
+    "vicuna": {
+        "API_URL": "",
+        "headers": {
+            "Authorization": "Bearer ",
+            "Content-Type": "application/json"
+        }
+    },
+    "falcon": {
+        "API_URL": "",
+        "headers": {
+            "Authorization": "Bearer ",
+            "Content-Type": "application/json"
+        }
+    },
+    "falcon-instruct": {
+        "API_URL": "",
+        "headers": {
+            "Authorization": "Bearer ",
+            "Content-Type": "application/json"
+        }
+    },
+    "orca": {
+        "API_URL": "",
+        "headers": {
+            "Authorization": "Bearer ",
+            "Content-Type": "application/json"
+        }
+    },
+    "wizardlm": {
+        "API_URL": "",
+        "headers": {
+            "Authorization": "Bearer ",
+            "Content-Type": "application/json"
+        }
+    }
+}
