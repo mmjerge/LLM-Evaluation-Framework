@@ -1,0 +1,61 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Travelling through Norway, Anna came across ancient tales of Viking expeditions to Ireland. The stories described how the fierce Vikings from Norway had established settlements in many parts of Ireland, transforming its landscape and culture. After her trip to Norway, she journeyed to Ireland, hoping to unearth more about the Viking history hidden in its verdant valleys. In Ireland, the Vikings' influence was still palpable through the myriad of artifacts displayed in the local museums and the intriguing tales spun by the locals. While in Ireland, she met a researcher from Australia who was studying the movements of the Vikings. He shared some fascinating insights about the Vikings' travels to the United Kingdom, and how they had left a profound impact there too, raiding and settling in what are now England, Scotland, and Northern Ireland. This sparked Anna's curiosity about Australia, prompting her next career move to the continent down under. Once in Australia, she discovered an entirely different narrative of indigenous cultures and European colonization. Interestingly, she found parallels to the history of colonisation in New Zealand. Discussions with locals and historians led her to understand that Australia and New Zealand share a complex cultural and political history, their paths shaped by European interventions. Recalling her earlier passion for the Viking history, she decided to travel to Sweden, another country with a rich Viking past. The country's history reminded her of the tales she had heard in Norway, especially the exploits of the Vikings in Sweden and their adventures across the North Sea. In Sweden, she delved deeper into the history of Viking travels to Russia, a country that had been significantly impacted by the Vikings. She found the connections between Sweden and Russia fascinating, the imprint of Viking trade routes still visible through the historical sites scattered across Russia. Her journey through Norway, Ireland, Australia, New Zealand, Sweden and Russia had been a fascinating exploration of historical links and cultural exchanges, leaving her with a deeper understanding and appreciation of the interconnected world.",
+        "ground_truth": "[Norway, Ireland, Norway, Ireland, Norway, Ireland, Ireland, Ireland, Australia, United Kingdom, Ireland, Australia, Australia, New Zealand, Australia, New Zealand, Sweden, Norway, Sweden, Sweden, Russia, Sweden, Russia, Russia, Norway, Ireland, Australia, New Zealand, Sweden, Russia]",
+        "current": "{\n    \"Norway\": 2,\n    \"Ireland\": 2,\n    \"Australia\": 1,\n    \"United Kingdom\": 1,\n    \"England\": 1,\n    \"Scotland\": 1,\n    \"Northern Ireland\": 1,\n    \"New Zealand\": 1,\n    \"Sweden\": 2,\n    \"Russia\": 1\n}",
+        "phase": 2,
+        "method": "io"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Travelling through Norway, Anna came across ancient tales of Viking expeditions to Ireland. The stories described how the fierce Vikings from Norway had established settlements in many parts of Ireland, transforming its landscape and culture. After her trip to Norway, she journeyed to Ireland, hoping to unearth more about the Viking history hidden in its verdant valleys. In Ireland, the Vikings' influence was still palpable through the myriad of artifacts displayed in the local museums and the intriguing tales spun by the locals. While in Ireland, she met a researcher from Australia who was studying the movements of the Vikings. He shared some fascinating insights about the Vikings' travels to the United Kingdom, and how they had left a profound impact there too, raiding and settling in what are now England, Scotland, and Northern Ireland. This sparked Anna's curiosity about Australia, prompting her next career move to the continent down under. Once in Australia, she discovered an entirely different narrative of indigenous cultures and European colonization. Interestingly, she found parallels to the history of colonisation in New Zealand. Discussions with locals and historians led her to understand that Australia and New Zealand share a complex cultural and political history, their paths shaped by European interventions. Recalling her earlier passion for the Viking history, she decided to travel to Sweden, another country with a rich Viking past. The country's history reminded her of the tales she had heard in Norway, especially the exploits of the Vikings in Sweden and their adventures across the North Sea. In Sweden, she delved deeper into the history of Viking travels to Russia, a country that had been significantly impacted by the Vikings. She found the connections between Sweden and Russia fascinating, the imprint of Viking trade routes still visible through the historical sites scattered across Russia. Her journey through Norway, Ireland, Australia, New Zealand, Sweden and Russia had been a fascinating exploration of historical links and cultural exchanges, leaving her with a deeper understanding and appreciation of the interconnected world.",
+        "ground_truth": "[Norway, Ireland, Norway, Ireland, Norway, Ireland, Ireland, Ireland, Australia, United Kingdom, Ireland, Australia, Australia, New Zealand, Australia, New Zealand, Sweden, Norway, Sweden, Sweden, Russia, Sweden, Russia, Russia, Norway, Ireland, Australia, New Zealand, Sweden, Russia]",
+        "current": "{\n    \"Norway\": 2,\n    \"Ireland\": 2,\n    \"Australia\": 1,\n    \"United Kingdom\": 1,\n    \"England\": 1,\n    \"Scotland\": 1,\n    \"Northern Ireland\": 1,\n    \"New Zealand\": 1,\n    \"Sweden\": 2,\n    \"Russia\": 1\n}",
+        "phase": 2,
+        "method": "io"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      23
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Travelling through Norway, Anna came across ancient tales of Viking expeditions to Ireland. The stories described how the fierce Vikings from Norway had established settlements in many parts of Ireland, transforming its landscape and culture. After her trip to Norway, she journeyed to Ireland, hoping to unearth more about the Viking history hidden in its verdant valleys. In Ireland, the Vikings' influence was still palpable through the myriad of artifacts displayed in the local museums and the intriguing tales spun by the locals. While in Ireland, she met a researcher from Australia who was studying the movements of the Vikings. He shared some fascinating insights about the Vikings' travels to the United Kingdom, and how they had left a profound impact there too, raiding and settling in what are now England, Scotland, and Northern Ireland. This sparked Anna's curiosity about Australia, prompting her next career move to the continent down under. Once in Australia, she discovered an entirely different narrative of indigenous cultures and European colonization. Interestingly, she found parallels to the history of colonisation in New Zealand. Discussions with locals and historians led her to understand that Australia and New Zealand share a complex cultural and political history, their paths shaped by European interventions. Recalling her earlier passion for the Viking history, she decided to travel to Sweden, another country with a rich Viking past. The country's history reminded her of the tales she had heard in Norway, especially the exploits of the Vikings in Sweden and their adventures across the North Sea. In Sweden, she delved deeper into the history of Viking travels to Russia, a country that had been significantly impacted by the Vikings. She found the connections between Sweden and Russia fascinating, the imprint of Viking trade routes still visible through the historical sites scattered across Russia. Her journey through Norway, Ireland, Australia, New Zealand, Sweden and Russia had been a fascinating exploration of historical links and cultural exchanges, leaving her with a deeper understanding and appreciation of the interconnected world.",
+        "ground_truth": "[Norway, Ireland, Norway, Ireland, Norway, Ireland, Ireland, Ireland, Australia, United Kingdom, Ireland, Australia, Australia, New Zealand, Australia, New Zealand, Sweden, Norway, Sweden, Sweden, Russia, Sweden, Russia, Russia, Norway, Ireland, Australia, New Zealand, Sweden, Russia]",
+        "current": "{\n    \"Norway\": 2,\n    \"Ireland\": 2,\n    \"Australia\": 1,\n    \"United Kingdom\": 1,\n    \"England\": 1,\n    \"Scotland\": 1,\n    \"Northern Ireland\": 1,\n    \"New Zealand\": 1,\n    \"Sweden\": 2,\n    \"Russia\": 1\n}",
+        "phase": 2,
+        "method": "io"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      23
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      false
+    ]
+  },
+  {
+    "prompt_tokens": 900,
+    "completion_tokens": 77,
+    "cost": 0.0015040000000000001
+  }
+]
