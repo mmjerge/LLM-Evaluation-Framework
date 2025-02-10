@@ -1,0 +1,120 @@
+{
+    "os": "Linux-5.15.0-113-generic-x86_64-with-glibc2.35",
+    "python": "3.11.9",
+    "heartbeatAt": "2024-08-24T19:36:15.944254",
+    "startedAt": "2024-08-24T19:36:15.493668",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/test_aqua.py",
+    "codePathLocal": "test_aqua.py",
+    "codePath": "SoK_Self_Consistency/scripts/test_aqua.py",
+    "git": {
+        "remote": "git@github.com:awwang10/llmpromptboosting.git",
+        "commit": "d786931a94f8521bd328df21a3b479755afb75df"
+    },
+    "email": "mj6ux@virginia.edu",
+    "root": "/p/llmreliability/test_repos/llmpromptboosting",
+    "host": "portal09",
+    "username": "mj6ux",
+    "executable": "/u/mj6ux/.conda/envs/new_env/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 1944.8335,
+        "min": 800.0,
+        "max": 3200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1069.455,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 990.523,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1084.65,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1007.042,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 3200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1096.6946105957031,
+            "used": 81.8269271850586
+        }
+    },
+    "memory": {
+        "total": 377.36561584472656
+    }
+}

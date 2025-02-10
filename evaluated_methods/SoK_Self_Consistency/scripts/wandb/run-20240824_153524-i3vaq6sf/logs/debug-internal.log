@@ -1,0 +1,197 @@
+2024-08-24 15:35:24,200 INFO    StreamThr :1460455 [internal.py:wandb_internal():85] W&B internal server running at pid: 1460455, started at: 2024-08-24 15:35:24.198725
+2024-08-24 15:35:24,203 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: status
+2024-08-24 15:35:24,207 INFO    WriterThread:1460455 [datastore.py:open_for_write():87] open: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/run-i3vaq6sf.wandb
+2024-08-24 15:35:24,210 DEBUG   SenderThread:1460455 [sender.py:send():391] send: header
+2024-08-24 15:35:24,218 DEBUG   SenderThread:1460455 [sender.py:send():391] send: run
+2024-08-24 15:35:24,403 INFO    SenderThread:1460455 [dir_watcher.py:__init__():211] watching files in: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files
+2024-08-24 15:35:24,403 INFO    SenderThread:1460455 [sender.py:_start_run_threads():1200] run started: i3vaq6sf with start time 1724528124.198813
+2024-08-24 15:35:24,419 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: check_version
+2024-08-24 15:35:24,419 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: check_version
+2024-08-24 15:35:24,474 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: run_start
+2024-08-24 15:35:24,513 ERROR   HandlerThread:1460455 [gpu.py:is_available():381] Error initializing NVML: Driver Not Loaded
+2024-08-24 15:35:24,513 DEBUG   HandlerThread:1460455 [system_info.py:__init__():26] System info init
+2024-08-24 15:35:24,513 DEBUG   HandlerThread:1460455 [system_info.py:__init__():41] System info init done
+2024-08-24 15:35:24,513 INFO    HandlerThread:1460455 [system_monitor.py:start():194] Starting system monitor
+2024-08-24 15:35:24,513 INFO    SystemMonitor:1460455 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-24 15:35:24,514 INFO    HandlerThread:1460455 [system_monitor.py:probe():214] Collecting system info
+2024-08-24 15:35:24,516 INFO    SystemMonitor:1460455 [interfaces.py:start():188] Started cpu monitoring
+2024-08-24 15:35:24,519 INFO    SystemMonitor:1460455 [interfaces.py:start():188] Started disk monitoring
+2024-08-24 15:35:24,521 INFO    SystemMonitor:1460455 [interfaces.py:start():188] Started memory monitoring
+2024-08-24 15:35:24,522 INFO    SystemMonitor:1460455 [interfaces.py:start():188] Started network monitoring
+2024-08-24 15:35:24,554 DEBUG   HandlerThread:1460455 [system_info.py:probe():152] Probing system
+2024-08-24 15:35:24,560 DEBUG   HandlerThread:1460455 [system_info.py:_probe_git():137] Probing git
+2024-08-24 15:35:24,578 DEBUG   HandlerThread:1460455 [system_info.py:_probe_git():145] Probing git done
+2024-08-24 15:35:24,579 DEBUG   HandlerThread:1460455 [system_info.py:probe():200] Probing system done
+2024-08-24 15:35:24,579 DEBUG   HandlerThread:1460455 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-113-generic-x86_64-with-glibc2.35', 'python': '3.11.9', 'heartbeatAt': '2024-08-24T19:35:24.554548', 'startedAt': '2024-08-24T19:35:24.160727', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/test_aqua.py', 'codePathLocal': 'test_aqua.py', 'codePath': 'SoK_Self_Consistency/scripts/test_aqua.py', 'git': {'remote': 'git@github.com:awwang10/llmpromptboosting.git', 'commit': 'd786931a94f8521bd328df21a3b479755afb75df'}, 'email': 'mj6ux@virginia.edu', 'root': '/p/llmreliability/test_repos/llmpromptboosting', 'host': 'portal09', 'username': 'mj6ux', 'executable': '/u/mj6ux/.conda/envs/new_env/bin/python3', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2038.2071875000001, 'min': 800.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 1111.315, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}], 'disk': {'/': {'total': 1096.6946105957031, 'used': 81.8269271850586}}, 'memory': {'total': 377.36561584472656}}
+2024-08-24 15:35:24,579 INFO    HandlerThread:1460455 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-24 15:35:24,579 INFO    HandlerThread:1460455 [system_monitor.py:probe():227] Publishing system info
+2024-08-24 15:35:24,579 DEBUG   HandlerThread:1460455 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-08-24 15:35:25,406 INFO    Thread-12 :1460455 [dir_watcher.py:_on_file_created():271] file/dir created: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/conda-environment.yaml
+2024-08-24 15:35:27,607 DEBUG   HandlerThread:1460455 [system_info.py:_save_conda():224] Saving conda packages done
+2024-08-24 15:35:27,641 INFO    HandlerThread:1460455 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-24 15:35:27,646 DEBUG   SenderThread:1460455 [sender.py:send():391] send: files
+2024-08-24 15:35:27,647 INFO    SenderThread:1460455 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-08-24 15:35:27,721 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: python_packages
+2024-08-24 15:35:27,721 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: python_packages
+2024-08-24 15:35:27,722 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-24 15:35:27,724 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-24 15:35:27,726 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: stop_status
+2024-08-24 15:35:27,828 DEBUG   SenderThread:1460455 [sender.py:send():391] send: telemetry
+2024-08-24 15:35:27,873 INFO    wandb-upload_0:1460455 [upload_job.py:push():130] Uploaded file /tmp/tmpryq3h803wandb/2sqx1h6q-wandb-metadata.json
+2024-08-24 15:35:28,408 INFO    Thread-12 :1460455 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/conda-environment.yaml
+2024-08-24 15:35:28,409 INFO    Thread-12 :1460455 [dir_watcher.py:_on_file_created():271] file/dir created: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/requirements.txt
+2024-08-24 15:35:28,409 INFO    Thread-12 :1460455 [dir_watcher.py:_on_file_created():271] file/dir created: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/wandb-metadata.json
+2024-08-24 15:35:28,411 INFO    Thread-12 :1460455 [dir_watcher.py:_on_file_created():271] file/dir created: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/output.log
+2024-08-24 15:35:28,723 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-24 15:35:29,723 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-24 15:35:29,838 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: status_report
+2024-08-24 15:35:30,410 INFO    Thread-12 :1460455 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/output.log
+2024-08-24 15:35:30,723 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-24 15:35:31,723 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-24 15:35:32,723 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-24 15:35:33,724 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-24 15:35:34,724 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-24 15:35:35,723 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: status_report
+2024-08-24 15:35:35,724 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-24 15:35:36,724 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-24 15:35:37,724 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-24 15:35:38,515 DEBUG   SenderThread:1460455 [sender.py:send():391] send: exit
+2024-08-24 15:35:38,516 INFO    SenderThread:1460455 [sender.py:send_exit():598] handling exit code: 1
+2024-08-24 15:35:38,516 INFO    SenderThread:1460455 [sender.py:send_exit():600] handling runtime: 14
+2024-08-24 15:35:38,522 INFO    SenderThread:1460455 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-24 15:35:38,522 INFO    SenderThread:1460455 [sender.py:send_exit():606] send defer
+2024-08-24 15:35:38,524 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: defer
+2024-08-24 15:35:38,525 INFO    HandlerThread:1460455 [handler.py:handle_request_defer():184] handle defer: 0
+2024-08-24 15:35:38,525 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: defer
+2024-08-24 15:35:38,526 INFO    SenderThread:1460455 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-08-24 15:35:38,526 INFO    SenderThread:1460455 [sender.py:transition_state():626] send defer: 1
+2024-08-24 15:35:38,527 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: defer
+2024-08-24 15:35:38,528 INFO    HandlerThread:1460455 [handler.py:handle_request_defer():184] handle defer: 1
+2024-08-24 15:35:38,528 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: defer
+2024-08-24 15:35:38,529 INFO    SenderThread:1460455 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-08-24 15:35:38,530 INFO    SenderThread:1460455 [sender.py:transition_state():626] send defer: 2
+2024-08-24 15:35:38,530 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: defer
+2024-08-24 15:35:38,531 INFO    HandlerThread:1460455 [handler.py:handle_request_defer():184] handle defer: 2
+2024-08-24 15:35:38,531 INFO    HandlerThread:1460455 [system_monitor.py:finish():203] Stopping system monitor
+2024-08-24 15:35:38,531 DEBUG   SystemMonitor:1460455 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-24 15:35:38,532 INFO    HandlerThread:1460455 [interfaces.py:finish():200] Joined cpu monitor
+2024-08-24 15:35:38,532 DEBUG   SystemMonitor:1460455 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-08-24 15:35:38,533 INFO    HandlerThread:1460455 [interfaces.py:finish():200] Joined disk monitor
+2024-08-24 15:35:38,533 DEBUG   SystemMonitor:1460455 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-08-24 15:35:38,534 INFO    HandlerThread:1460455 [interfaces.py:finish():200] Joined memory monitor
+2024-08-24 15:35:38,536 INFO    HandlerThread:1460455 [interfaces.py:finish():200] Joined network monitor
+2024-08-24 15:35:38,536 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: defer
+2024-08-24 15:35:38,537 INFO    SenderThread:1460455 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-08-24 15:35:38,537 INFO    SenderThread:1460455 [sender.py:transition_state():626] send defer: 3
+2024-08-24 15:35:38,537 DEBUG   SenderThread:1460455 [sender.py:send():391] send: stats
+2024-08-24 15:35:38,538 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: defer
+2024-08-24 15:35:38,539 INFO    HandlerThread:1460455 [handler.py:handle_request_defer():184] handle defer: 3
+2024-08-24 15:35:38,539 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: defer
+2024-08-24 15:35:38,540 INFO    SenderThread:1460455 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-08-24 15:35:38,541 INFO    SenderThread:1460455 [sender.py:transition_state():626] send defer: 4
+2024-08-24 15:35:38,541 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: defer
+2024-08-24 15:35:38,542 INFO    HandlerThread:1460455 [handler.py:handle_request_defer():184] handle defer: 4
+2024-08-24 15:35:38,542 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: defer
+2024-08-24 15:35:38,543 INFO    SenderThread:1460455 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-08-24 15:35:38,543 INFO    SenderThread:1460455 [sender.py:transition_state():626] send defer: 5
+2024-08-24 15:35:38,543 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: defer
+2024-08-24 15:35:38,543 INFO    HandlerThread:1460455 [handler.py:handle_request_defer():184] handle defer: 5
+2024-08-24 15:35:38,545 DEBUG   SenderThread:1460455 [sender.py:send():391] send: summary
+2024-08-24 15:35:38,548 INFO    SenderThread:1460455 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-24 15:35:38,548 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: defer
+2024-08-24 15:35:38,548 INFO    SenderThread:1460455 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-08-24 15:35:38,548 INFO    SenderThread:1460455 [sender.py:transition_state():626] send defer: 6
+2024-08-24 15:35:38,549 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: defer
+2024-08-24 15:35:38,550 INFO    HandlerThread:1460455 [handler.py:handle_request_defer():184] handle defer: 6
+2024-08-24 15:35:38,551 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: defer
+2024-08-24 15:35:38,551 INFO    SenderThread:1460455 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-08-24 15:35:38,554 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: status_report
+2024-08-24 15:35:38,613 INFO    SenderThread:1460455 [sender.py:transition_state():626] send defer: 7
+2024-08-24 15:35:38,613 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: defer
+2024-08-24 15:35:38,614 INFO    HandlerThread:1460455 [handler.py:handle_request_defer():184] handle defer: 7
+2024-08-24 15:35:38,614 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: defer
+2024-08-24 15:35:38,615 INFO    SenderThread:1460455 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-08-24 15:35:39,421 INFO    Thread-12 :1460455 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/config.yaml
+2024-08-24 15:35:39,421 INFO    Thread-12 :1460455 [dir_watcher.py:_on_file_created():271] file/dir created: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/wandb-summary.json
+2024-08-24 15:35:39,516 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-24 15:35:39,853 INFO    SenderThread:1460455 [sender.py:transition_state():626] send defer: 8
+2024-08-24 15:35:39,853 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: poll_exit
+2024-08-24 15:35:39,853 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: defer
+2024-08-24 15:35:39,855 INFO    HandlerThread:1460455 [handler.py:handle_request_defer():184] handle defer: 8
+2024-08-24 15:35:39,855 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: defer
+2024-08-24 15:35:39,856 INFO    SenderThread:1460455 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-08-24 15:35:39,856 INFO    SenderThread:1460455 [job_builder.py:build():443] Attempting to build job artifact
+2024-08-24 15:35:39,857 INFO    SenderThread:1460455 [job_builder.py:_get_source_type():572] is repo sourced job
+2024-08-24 15:35:39,891 INFO    SenderThread:1460455 [job_builder.py:build():548] adding wandb-job metadata file
+2024-08-24 15:35:39,900 INFO    SenderThread:1460455 [sender.py:transition_state():626] send defer: 9
+2024-08-24 15:35:39,901 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: defer
+2024-08-24 15:35:39,901 DEBUG   SenderThread:1460455 [sender.py:send():391] send: artifact
+2024-08-24 15:35:39,902 INFO    HandlerThread:1460455 [handler.py:handle_request_defer():184] handle defer: 9
+2024-08-24 15:35:40,251 INFO    SenderThread:1460455 [sender.py:send_artifact():1549] sent artifact job-git_github.com_awwang10_llmpromptboosting.git_SoK_Self_Consistency_scripts_test_aqua.py - {'id': 'QXJ0aWZhY3Q6MTE2Mzc3Njc1NA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQxNjg0MjgyOA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTE2Mzk2OTI3OA==', 'versionIndex': 3}}}
+2024-08-24 15:35:40,252 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: defer
+2024-08-24 15:35:40,252 INFO    SenderThread:1460455 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-08-24 15:35:40,252 INFO    SenderThread:1460455 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-08-24 15:35:40,445 INFO    SenderThread:1460455 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/output.log
+2024-08-24 15:35:40,446 INFO    SenderThread:1460455 [dir_watcher.py:finish():388] scan: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files
+2024-08-24 15:35:40,458 INFO    SenderThread:1460455 [dir_watcher.py:finish():402] scan save: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/wandb-metadata.json wandb-metadata.json
+2024-08-24 15:35:40,458 INFO    SenderThread:1460455 [dir_watcher.py:finish():402] scan save: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/wandb-summary.json wandb-summary.json
+2024-08-24 15:35:40,459 INFO    SenderThread:1460455 [dir_watcher.py:finish():402] scan save: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/output.log output.log
+2024-08-24 15:35:40,464 INFO    SenderThread:1460455 [dir_watcher.py:finish():402] scan save: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/config.yaml config.yaml
+2024-08-24 15:35:40,464 INFO    SenderThread:1460455 [dir_watcher.py:finish():402] scan save: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/requirements.txt requirements.txt
+2024-08-24 15:35:40,481 INFO    SenderThread:1460455 [dir_watcher.py:finish():402] scan save: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/conda-environment.yaml conda-environment.yaml
+2024-08-24 15:35:40,482 INFO    SenderThread:1460455 [sender.py:transition_state():626] send defer: 10
+2024-08-24 15:35:40,491 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: defer
+2024-08-24 15:35:40,491 INFO    HandlerThread:1460455 [handler.py:handle_request_defer():184] handle defer: 10
+2024-08-24 15:35:40,492 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: defer
+2024-08-24 15:35:40,494 INFO    SenderThread:1460455 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-08-24 15:35:40,494 INFO    SenderThread:1460455 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-24 15:35:40,517 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-24 15:35:40,522 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: poll_exit
+2024-08-24 15:35:40,633 INFO    wandb-upload_0:1460455 [upload_job.py:push():130] Uploaded file /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/wandb-summary.json
+2024-08-24 15:35:40,656 INFO    wandb-upload_1:1460455 [upload_job.py:push():130] Uploaded file /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/output.log
+2024-08-24 15:35:40,683 INFO    wandb-upload_2:1460455 [upload_job.py:push():130] Uploaded file /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/config.yaml
+2024-08-24 15:35:40,704 INFO    wandb-upload_3:1460455 [upload_job.py:push():130] Uploaded file /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/requirements.txt
+2024-08-24 15:35:40,710 INFO    wandb-upload_4:1460455 [upload_job.py:push():130] Uploaded file /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/files/conda-environment.yaml
+2024-08-24 15:35:40,911 INFO    Thread-11 (_thread_body):1460455 [sender.py:transition_state():626] send defer: 11
+2024-08-24 15:35:40,911 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: defer
+2024-08-24 15:35:40,913 INFO    HandlerThread:1460455 [handler.py:handle_request_defer():184] handle defer: 11
+2024-08-24 15:35:40,914 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: defer
+2024-08-24 15:35:40,915 INFO    SenderThread:1460455 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-08-24 15:35:40,915 INFO    SenderThread:1460455 [file_pusher.py:join():175] waiting for file pusher
+2024-08-24 15:35:40,916 INFO    SenderThread:1460455 [sender.py:transition_state():626] send defer: 12
+2024-08-24 15:35:40,917 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: defer
+2024-08-24 15:35:40,919 INFO    HandlerThread:1460455 [handler.py:handle_request_defer():184] handle defer: 12
+2024-08-24 15:35:40,919 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: defer
+2024-08-24 15:35:40,921 INFO    SenderThread:1460455 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-08-24 15:35:40,921 INFO    SenderThread:1460455 [file_stream.py:finish():601] file stream finish called
+2024-08-24 15:35:40,994 INFO    SenderThread:1460455 [file_stream.py:finish():605] file stream finish is done
+2024-08-24 15:35:40,994 INFO    SenderThread:1460455 [sender.py:transition_state():626] send defer: 13
+2024-08-24 15:35:40,994 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: defer
+2024-08-24 15:35:40,996 INFO    HandlerThread:1460455 [handler.py:handle_request_defer():184] handle defer: 13
+2024-08-24 15:35:40,996 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: defer
+2024-08-24 15:35:40,997 INFO    SenderThread:1460455 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-08-24 15:35:40,998 INFO    SenderThread:1460455 [sender.py:transition_state():626] send defer: 14
+2024-08-24 15:35:40,999 DEBUG   SenderThread:1460455 [sender.py:send():391] send: final
+2024-08-24 15:35:41,000 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: defer
+2024-08-24 15:35:41,000 DEBUG   SenderThread:1460455 [sender.py:send():391] send: footer
+2024-08-24 15:35:41,001 INFO    HandlerThread:1460455 [handler.py:handle_request_defer():184] handle defer: 14
+2024-08-24 15:35:41,002 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: defer
+2024-08-24 15:35:41,003 INFO    SenderThread:1460455 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-08-24 15:35:41,004 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-24 15:35:41,005 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: server_info
+2024-08-24 15:35:41,005 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-24 15:35:41,005 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: get_summary
+2024-08-24 15:35:41,006 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: poll_exit
+2024-08-24 15:35:41,006 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: sampled_history
+2024-08-24 15:35:41,007 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: server_info
+2024-08-24 15:35:41,008 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-24 15:35:41,050 DEBUG   SenderThread:1460455 [sender.py:send_request():418] send_request: poll_exit
+2024-08-24 15:35:41,051 INFO    MainThread:1460455 [wandb_run.py:_footer_history_summary_info():4076] rendering history
+2024-08-24 15:35:41,052 INFO    MainThread:1460455 [wandb_run.py:_footer_history_summary_info():4108] rendering summary
+2024-08-24 15:35:41,053 INFO    MainThread:1460455 [wandb_run.py:_footer_sync_info():4035] logging synced files
+2024-08-24 15:35:41,053 DEBUG   HandlerThread:1460455 [handler.py:handle_request():158] handle_request: shutdown
+2024-08-24 15:35:41,054 INFO    HandlerThread:1460455 [handler.py:finish():880] shutting down handler
+2024-08-24 15:35:42,006 INFO    WriterThread:1460455 [datastore.py:close():296] close: /p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/wandb/run-20240824_153524-i3vaq6sf/run-i3vaq6sf.wandb
+2024-08-24 15:35:42,051 INFO    SenderThread:1460455 [sender.py:finish():1631] shutting down sender
+2024-08-24 15:35:42,051 INFO    SenderThread:1460455 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-24 15:35:42,051 INFO    SenderThread:1460455 [file_pusher.py:join():175] waiting for file pusher

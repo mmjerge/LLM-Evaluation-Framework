@@ -1,0 +1,22 @@
+{
+    "os": "Linux-5.15.0-112-generic-x86_64-with-glibc2.35",
+    "python": "3.10.9",
+    "heartbeatAt": "2024-09-03T17:40:50.640047",
+    "startedAt": "2024-09-03T17:40:49.949121",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/test_aqua.py",
+    "codePath": "SoK_Self_Consistency/scripts/test_aqua.py",
+    "git": {
+        "remote": "git@github.com:awwang10/llmpromptboosting.git",
+        "commit": "d786931a94f8521bd328df21a3b479755afb75df"
+    },
+    "email": "mj6ux@virginia.edu",
+    "root": "/p/llmreliability/test_repos/llmpromptboosting",
+    "host": "portal12",
+    "username": "mj6ux",
+    "executable": "/sw/ubuntu-22.04/anaconda3/2023.03/bin/python3"
+}

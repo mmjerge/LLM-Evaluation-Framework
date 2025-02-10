@@ -1,0 +1,42 @@
+/p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/test_aqua.py:149: FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_json('answers.ndjson', lines=True)
+  0%|                                                                                                                                                                                                      | 0/50 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/test_aqua.py", line 160, in <module>
+    results = multi_step_solver(question, options, n_experts=n_experts, n_attempts=n_attempts)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/test_aqua.py", line 133, in multi_step_solver
+    attempts = pool.starmap(self_consistency_solver, zip([question]*n_attempts, [options]*n_attempts, [n_experts]*n_attempts))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/new_env/lib/python3.11/multiprocessing/pool.py", line 375, in starmap
+    return self._map_async(func, iterable, starmapstar, chunksize).get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/new_env/lib/python3.11/multiprocessing/pool.py", line 774, in get
+    raise self._value
+  File "/u/mj6ux/.conda/envs/new_env/lib/python3.11/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/new_env/lib/python3.11/multiprocessing/pool.py", line 51, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/test_aqua.py", line 81, in self_consistency_solver
+    return get_response(messages=messages, temp=0.5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/llmreliability/test_repos/llmpromptboosting/SoK_Self_Consistency/scripts/test_aqua.py", line 34, in get_response
+    response = client.messages.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/new_env/lib/python3.11/site-packages/anthropic/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/new_env/lib/python3.11/site-packages/anthropic/resources/messages.py", line 860, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/new_env/lib/python3.11/site-packages/anthropic/_base_client.py", line 1260, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/new_env/lib/python3.11/site-packages/anthropic/_base_client.py", line 937, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/new_env/lib/python3.11/site-packages/anthropic/_base_client.py", line 1041, in _request
+    raise self._make_status_error_from_response(err.response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
