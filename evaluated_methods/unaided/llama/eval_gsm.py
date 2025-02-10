@@ -1,58 +1,77 @@
+import json
+import re
+import pandas as pd
+import numpy as np
+
 def extract_answer(text):
-  # Extract number after ####
-    if '####' not in text:
-        return None
-    try:
-        return int(text.split('####')[1].strip())
-    except:
-        return None
+    """Extract the numerical answer from ground truth."""
+    match = re.search(r'####\s*([\d,]+)', text)
+    if match:
+        return int(match.group(1).replace(',', ''))
+    return None
 
-def extract_model_answer(text):
-    # Extract number after "Final answer:" or similar
-    if 'final answer:' not in text.lower():
-        return None
-    try:
-        ans = text.lower().split('final answer:')[1].strip().split()[0]
-        # Remove any $ signs and convert to int
-        ans = ans.replace('$','').replace(',','')
-        return int(float(ans))
-    except:
-        return None
+def extract_prediction(text):
+    """Extract the numerical answer from model prediction."""
+    patterns = [
+        r'Final answer:?\s*([\d,]+)',
+        r'The answer is:?\s*([\d,]+)',
+        r'Therefore,? the answer is:?\s*([\d,]+)',
+        r'So,? the answer is:?\s*([\d,]+)',
+        r'Thus,? the answer is:?\s*([\d,]+)',
+        r'[\.\n](\d+)$'  # Last number in text
+    ]
+    
+    for pattern in patterns:
+        match = re.search(pattern, text, re.IGNORECASE)
+        if match:
+            return int(match.group(1).replace(',', ''))
+    return None
 
-# Load the JSON file
-with open('cot_gsm-symbolic_eval_results.json', 'r') as f:
+with open('cot_gsm8k_eval_results.json', 'r') as f:
     data = json.load(f)
 
-correct = 0
-total = 0
-evaluated = []
-
-for item in data:
+rows = []
+for idx, item in enumerate(data):
     ground_truth = extract_answer(item['ground_truth'])
-    prediction = extract_model_answer(item['model_prediction'])
+    prediction = extract_prediction(item['model_prediction'])
     
-    if ground_truth is not None and prediction is not None:
-        total += 1
-        if ground_truth == prediction:
-            correct += 1
-        evaluated.append({
-            'id': item['id'],
-            'question': item['question'][:50] + '...',
-            'ground_truth': ground_truth,
-            'prediction': prediction,
-            'correct': ground_truth == prediction
-        })
+    rows.append({
+        'index': idx,
+        'question': item['question'],
+        'ground_truth': ground_truth,
+        'prediction': prediction,
+        'is_correct': ground_truth == prediction if (ground_truth is not None and prediction is not None) else None,
+        'is_evaluated': (ground_truth is not None and prediction is not None)
+    })
 
-accuracy = (correct / total) * 100 if total > 0 else 0
+df = pd.DataFrame(rows)
 
-print(f"\nResults:")
-print(f"Total evaluated: {total}")
-print(f"Correct: {correct}")
-print(f"Accuracy: {accuracy:.1f}%")
+total_problems = len(df)
+evaluated_problems = df['is_evaluated'].sum()
+correct_predictions = df['is_correct'].sum()
 
-print("\nFirst few evaluations:")
-for item in evaluated[:5]:
-    print(f"\nQ{item['id']}: {item['question']}")
-    print(f"Ground truth: {item['ground_truth']}")
-    print(f"Prediction: {item['prediction']}")
-    print(f"Correct: {item['correct']}")
+accuracy_all = (correct_predictions / total_problems) * 100
+accuracy_evaluated = (correct_predictions / evaluated_problems) * 100 if evaluated_problems > 0 else 0
+
+print("\nAccuracy Metrics:")
+print(f"Total problems: {total_problems}")
+print(f"Successfully evaluated problems: {evaluated_problems}")
+print(f"Failed to evaluate: {total_problems - evaluated_problems}")
+print(f"Correct predictions: {correct_predictions}")
+print(f"Accuracy (all problems): {accuracy_all:.2f}%")
+print(f"Accuracy (evaluated problems only): {accuracy_evaluated:.2f}%")
+
+print("\nFirst few rows of the DataFrame:")
+display_df = df.copy()
+display_df['question'] = display_df['question'].str[:50] + '...'
+print(display_df.head())
+
+print("\nSample of unevaluated problems:")
+unevaluated = df[~df['is_evaluated']].head()
+unevaluated['question'] = unevaluated['question'].str[:50] + '...'
+print(unevaluated)
+
+print("\nSample of incorrect predictions:")
+incorrect = df[df['is_correct'] == False].head()
+incorrect['question'] = incorrect['question'].str[:50] + '...'
+print(incorrect)
