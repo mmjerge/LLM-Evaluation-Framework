@@ -1,0 +1,802 @@
+[
+    {
+        "question": "A car is being driven, in a straight line and at a uniform speed, towards the base of a vertical tower. The top of the tower is observed from the car and, in the process, it takes 10 minutes for the angle of elevation to change from 45\u00b0 to 60\u00b0. After how much more time will this car reach the base of the tower?",
+        "options": [
+            "A)5(\u221a3 + 1)",
+            "B)6(\u221a3 + \u221a2)",
+            "C)7(\u221a3 \u2013 1)",
+            "D)8(\u221a3 \u2013 2)",
+            "E)None of these"
+        ],
+        "model_response": {
+            "input": "A car is being driven, in a straight line and at a uniform speed, towards the base of a vertical tower. The top of the tower is observed from the car and, in the process, it takes 10 minutes for the angle of elevation to change from 45\u00b0 to 60\u00b0. After how much more time will this car reach the base of the tower?\nOptions: A)5(\u221a3 + 1), B)6(\u221a3 + \u221a2), C)7(\u221a3 \u2013 1), D)8(\u221a3 \u2013 2), E)None of these",
+            "output": "A) 5(\u221a3 + 1)"
+        },
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "The original price of an item is discounted 22%. A customer buys the item at this discounted price using a $20-off coupon. There is no tax on the item, and this was the only item the customer bought. If the customer paid $1.90 more than half the original price of the item, what was the original price of the item?",
+        "options": [
+            "A)$61",
+            "B)$65",
+            "C)$67.40",
+            "D)$70",
+            "E)$78.20"
+        ],
+        "model_response": {
+            "input": "The original price of an item is discounted 22%. A customer buys the item at this discounted price using a $20-off coupon. There is no tax on the item, and this was the only item the customer bought. If the customer paid $1.90 more than half the original price of the item, what was the original price of the item?\nOptions: A)$61, B)$65, C)$67.40, D)$70, E)$78.20",
+            "output": "E) $78.20"
+        },
+        "correct_answer": "E",
+        "answered_correctly": true
+    },
+    {
+        "question": "Find out which of the following values is the multiple of X, if it is divisible by 9 and 12?",
+        "options": [
+            "A)36",
+            "B)15",
+            "C)17",
+            "D)5",
+            "E)7"
+        ],
+        "model_response": {
+            "input": "Find out which of the following values is the multiple of X, if it is divisible by 9 and 12?\nOptions: A)36, B)15, C)17, D)5, E)7",
+            "output": "A) 36"
+        },
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "If the probability that Stock A will increase in value during the next month is 0.56, and the probability that Stock B will increase in value during the next month is 0.74. What is the greatest value for the probability that neither of these two events will occur?",
+        "options": [
+            "A)0.22",
+            "B)0.26",
+            "C)0.37",
+            "D)0.46",
+            "E)0.63"
+        ],
+        "model_response": {
+            "input": "If the probability that Stock A will increase in value during the next month is 0.56, and the probability that Stock B will increase in value during the next month is 0.74. What is the greatest value for the probability that neither of these two events will occur?\nOptions: A)0.22, B)0.26, C)0.37, D)0.46, E)0.63",
+            "output": "None of the provided options exactly match the computed probability of 0.1144."
+        },
+        "correct_answer": "B",
+        "answered_correctly": false
+    },
+    {
+        "question": "A trader sold an article at a profit of 20% for Rs.360. What is the cost price of the article?",
+        "options": [
+            "A)270",
+            "B)300",
+            "C)280",
+            "D)320",
+            "E)315"
+        ],
+        "model_response": {
+            "input": "A trader sold an article at a profit of 20% for Rs.360. What is the cost price of the article?\nOptions: A)270, B)300, C)280, D)320, E)315",
+            "output": "B) 300"
+        },
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "20 marbles were pulled out of a bag of only white marbles, painted black, and then put back in. Then, another 20 marbles were pulled out, of which 1 was black, after which they were all returned to the bag. If the percentage of black marbles pulled out the second time represents their percentage in the bag, how many marbles in total Q does the bag currently hold?",
+        "options": [
+            "A)40",
+            "B)200",
+            "C)380",
+            "D)400",
+            "E)3200"
+        ],
+        "model_response": {
+            "input": "20 marbles were pulled out of a bag of only white marbles, painted black, and then put back in. Then, another 20 marbles were pulled out, of which 1 was black, after which they were all returned to the bag. If the percentage of black marbles pulled out the second time represents their percentage in the bag, how many marbles in total Q does the bag currently hold?\nOptions: A)40, B)200, C)380, D)400, E)3200",
+            "output": "D) 400"
+        },
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "Find the total no. of distinct bike no.'s that can beformed using 2 letters followed by 2 no.'s. How many letters need to be distinct?",
+        "options": [
+            "A)74453",
+            "B)64543",
+            "C)74325",
+            "D)65000",
+            "E)97656"
+        ],
+        "model_response": {
+            "input": "Find the total no. of distinct bike no.'s that can beformed using 2 letters followed by 2 no.'s. How many letters need to be distinct?\nOptions: A)74453, B)64543, C)74325, D)65000, E)97656",
+            "output": "None of the provided options match the correct answer of 67,600."
+        },
+        "correct_answer": "D",
+        "answered_correctly": false
+    },
+    {
+        "question": "A train running at a speed of 100 miles/hour, takes 10 hours to reach its destination. After covering quarter of the distance, it starts raining and the train has to be slowed to speed of 75 miles/hour. What is the total journey duration?",
+        "options": [
+            "A)10",
+            "B)11.5",
+            "C)12.5",
+            "D)13.5",
+            "E)15"
+        ],
+        "model_response": {
+            "input": "A train running at a speed of 100 miles/hour, takes 10 hours to reach its destination. After covering quarter of the distance, it starts raining and the train has to be slowed to speed of 75 miles/hour. What is the total journey duration?\nOptions: A)10, B)11.5, C)12.5, D)13.5, E)15",
+            "output": "The total journey duration is 12.5 hours. (Option C)"
+        },
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "Of the 200 students in a school, at least 45% attended the prom night and at least 35% took part in the debating session. What is the maximum number of students who could have neither attended the prom night nor the debating session?",
+        "options": [
+            "A)27",
+            "B)81",
+            "C)90",
+            "D)99",
+            "E)110"
+        ],
+        "model_response": {
+            "input": "Of the 200 students in a school, at least 45% attended the prom night and at least 35% took part in the debating session. What is the maximum number of students who could have neither attended the prom night nor the debating session?\nOptions: A)27, B)81, C)90, D)99, E)110",
+            "output": "D) 99"
+        },
+        "correct_answer": "E",
+        "answered_correctly": false
+    },
+    {
+        "question": "A sales person gets a 10% commission on each sale he makes. How many sales of $250 each must he make in order to reach a salary of at least $1000?",
+        "options": [
+            "A)15",
+            "B)24",
+            "C)25",
+            "D)40",
+            "E)52"
+        ],
+        "model_response": {
+            "input": "A sales person gets a 10% commission on each sale he makes. How many sales of $250 each must he make in order to reach a salary of at least $1000?\nOptions: A)15, B)24, C)25, D)40, E)52",
+            "output": "D) 40"
+        },
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?",
+        "options": [
+            "A)226",
+            "B)230",
+            "C)240",
+            "D)260",
+            "E)280"
+        ],
+        "model_response": {
+            "input": "A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?\nOptions: A)226, B)230, C)240, D)260, E)280",
+            "output": "C) 240"
+        },
+        "correct_answer": "B",
+        "answered_correctly": false
+    },
+    {
+        "question": "At a certain factory, 10 percent of the staplers produced on Monday were defective and 2 percent of the non-defective staplers were rejected by mistake. If 72 of the non-defective staplers were rejected, what was the number of staplers produced that day?",
+        "options": [
+            "A)4,000",
+            "B)4,200",
+            "C)4,500",
+            "D)4,800",
+            "E)5,000"
+        ],
+        "model_response": {
+            "input": "At a certain factory, 10 percent of the staplers produced on Monday were defective and 2 percent of the non-defective staplers were rejected by mistake. If 72 of the non-defective staplers were rejected, what was the number of staplers produced that day?\nOptions: A)4,000, B)4,200, C)4,500, D)4,800, E)5,000",
+            "output": "A) 4,000"
+        },
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "Machine A puts out a yo-yo every 6 minutes. Machine B puts out a yo-yo every 9 minutes. After how many minutes will they have produced 10 yo-yos?",
+        "options": [
+            "A)24 minutes",
+            "B)32 minutes",
+            "C)36 minutes",
+            "D)64 minutes",
+            "E)72 minutes"
+        ],
+        "model_response": {
+            "input": "Machine A puts out a yo-yo every 6 minutes. Machine B puts out a yo-yo every 9 minutes. After how many minutes will they have produced 10 yo-yos?\nOptions: A)24 minutes, B)32 minutes, C)36 minutes, D)64 minutes, E)72 minutes",
+            "output": "C) 36 minutes"
+        },
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "Add: +45 and -30",
+        "options": [
+            "A)-30",
+            "B)+30",
+            "C)0",
+            "D)15",
+            "E)-15"
+        ],
+        "model_response": {
+            "input": "Add: +45 and -30\nOptions: A)-30, B)+30, C)0, D)15, E)-15",
+            "output": "D) 15"
+        },
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "In how many ways can the letters of the word \"PROBLEC\" be rearranged to make 7 letter words such that none of the letters repeat?",
+        "options": [
+            "A)2!",
+            "B)3!",
+            "C)7!",
+            "D)8!",
+            "E)9!"
+        ],
+        "model_response": {
+            "input": "In how many ways can the letters of the word \"PROBLEC\" be rearranged to make 7 letter words such that none of the letters repeat?\nOptions: A)2!, B)3!, C)7!, D)8!, E)9!",
+            "output": "The number of ways the letters of the word \"PROBLEC\" can be rearranged to make 7-letter words such that none of the letters repeat is 5040, which corresponds to option C) 7!."
+        },
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "Let A and B be independent events with P (A) = 0.2 and P(B) = 0.8. Find P(A/B)?",
+        "options": [
+            "A)0.2",
+            "B)0.4",
+            "C)0.6",
+            "D)1.2",
+            "E)1.5"
+        ],
+        "model_response": {
+            "input": "Let A and B be independent events with P (A) = 0.2 and P(B) = 0.8. Find P(A/B)?\nOptions: A)0.2, B)0.4, C)0.6, D)1.2, E)1.5",
+            "output": "A) 0.2"
+        },
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "Consider there is an staircase elevator and you are coming down. If you walk 20 steps and stop, then you reach bottom in 10 minutes. If you walk 10 steps and stop, you reach to the ground in 20 minutes. What is the speed of the elevator?",
+        "options": [
+            "A)1 step/minute",
+            "B)2 step/minute",
+            "C)3 step/minute",
+            "D)4 step/minute",
+            "E)None of the above"
+        ],
+        "model_response": {
+            "input": "Consider there is an staircase elevator and you are coming down. If you walk 20 steps and stop, then you reach bottom in 10 minutes. If you walk 10 steps and stop, you reach to the ground in 20 minutes. What is the speed of the elevator?\nOptions: A)1 step/minute, B)2 step/minute, C)3 step/minute, D)4 step/minute, E)None of the above",
+            "output": "The speed of the elevator is 1 step/minute, which corresponds to Option A."
+        },
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "Last year, a Home Appliance Store sold an average(arithmetic mean) of 42 microwave ovens per month. In the first 10 months of this year,the store has sold an average(arithmetic mean) of only 20 microwave ovens per month. What was the average number of microwave ovens sold per month during the entire 22 months period ?",
+        "options": [
+            "A)21",
+            "B)30",
+            "C)31",
+            "D)32",
+            "E)None of the above"
+        ],
+        "model_response": {
+            "input": "Last year, a Home Appliance Store sold an average(arithmetic mean) of 42 microwave ovens per month. In the first 10 months of this year,the store has sold an average(arithmetic mean) of only 20 microwave ovens per month. What was the average number of microwave ovens sold per month during the entire 22 months period ?\nOptions: A)21, B)30, C)31, D)32, E)None of the above",
+            "output": "D) 32"
+        },
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "An exam is given in a certain class. The average (arithmetic mean) of the highest score and the lowest score is equal to x. If the average score for the entire class is equal to y and there are z students in the class, where z > 5, then in terms of x, y, and z, what is the average score for the class excluding the highest and lowest scorers?",
+        "options": [
+            "A)(zy \u2013 2x)/z",
+            "B)(zy \u2013 2)/z",
+            "C)(zx \u2013 y)/(z \u2013 2)",
+            "D)(zy \u2013 2x)/(z -2)",
+            "E)(zy \u2013 x)/(z + 2)"
+        ],
+        "model_response": {
+            "input": "An exam is given in a certain class. The average (arithmetic mean) of the highest score and the lowest score is equal to x. If the average score for the entire class is equal to y and there are z students in the class, where z > 5, then in terms of x, y, and z, what is the average score for the class excluding the highest and lowest scorers?\nOptions: A)(zy \u2013 2x)/z, B)(zy \u2013 2)/z, C)(zx \u2013 y)/(z \u2013 2), D)(zy \u2013 2x)/(z -2), E)(zy \u2013 x)/(z + 2)",
+            "output": "D) \\(\\frac{zy - 2x}{z - 2}\\)"
+        },
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "[5 + ? \u00d7 19 - 15 - 7]/[13 \u00d7 13 - 156] = 6",
+        "options": [
+            "A)4",
+            "B)4.5",
+            "C)5",
+            "D)5.5",
+            "E)6.5"
+        ],
+        "model_response": {
+            "input": "[5 + ? \u00d7 19 - 15 - 7]/[13 \u00d7 13 - 156] = 6\nOptions: A)4, B)4.5, C)5, D)5.5, E)6.5",
+            "output": "C) 5"
+        },
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "A grocer makes a 25% profit on the selling price for each bag of flour it sells. If he sells each bag for $100 and makes $3,000 in profit, how many bags did he sell?",
+        "options": [
+            "A)12",
+            "B)16",
+            "C)24",
+            "D)30",
+            "E)40"
+        ],
+        "model_response": {
+            "input": "A grocer makes a 25% profit on the selling price for each bag of flour it sells. If he sells each bag for $100 and makes $3,000 in profit, how many bags did he sell?\nOptions: A)12, B)16, C)24, D)30, E)40",
+            "output": "None of the provided options (A)12, B)16, C)24, D)30, E)40 match the correct number of bags, which is 120. The correct answer is 120."
+        },
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "Alex and Jacob works at a toy shop that make toys. Alex takes 7 hours to make a toy, and Jacob takes 9 hours to make a toy. During a month, both of them makes 35 toys in total. If both of them have worked for almost similar number of hours how many toys have been prepared by Jacob?",
+        "options": [
+            "A)15",
+            "B)16",
+            "C)17",
+            "D)18",
+            "E)19"
+        ],
+        "model_response": {
+            "input": "Alex and Jacob works at a toy shop that make toys. Alex takes 7 hours to make a toy, and Jacob takes 9 hours to make a toy. During a month, both of them makes 35 toys in total. If both of them have worked for almost similar number of hours how many toys have been prepared by Jacob?\nOptions: A)15, B)16, C)17, D)18, E)19",
+            "output": "A) 15"
+        },
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "John likes to have lightly flavored tea every evening. In a 50% strong milk tea, he replaces 15% of it with milk twice. Then, he replaces 10 percent of the resultant solution with more milk.\nWhat is the final concentration of tea John drinks?",
+        "options": [
+            "A)15.38%",
+            "B)42%",
+            "C)39.86%",
+            "D)22.35%",
+            "E)32.51%"
+        ],
+        "model_response": {
+            "input": "John likes to have lightly flavored tea every evening. In a 50% strong milk tea, he replaces 15% of it with milk twice. Then, he replaces 10 percent of the resultant solution with more milk.\nWhat is the final concentration of tea John drinks?\nOptions: A)15.38%, B)42%, C)39.86%, D)22.35%, E)32.51%",
+            "output": "E) 32.51%"
+        },
+        "correct_answer": "E",
+        "answered_correctly": true
+    },
+    {
+        "question": "In a class 1/16 of the students study math, 1/10 of the students study bio, 1/8 of the students study english. The total number of students is a 4 digit number. Find the diffrence between maximum number of students and minimum number of students.",
+        "options": [
+            "A)8880",
+            "B)8870",
+            "C)8890",
+            "D)7890",
+            "E)6780"
+        ],
+        "model_response": {
+            "input": "In a class 1/16 of the students study math, 1/10 of the students study bio, 1/8 of the students study english. The total number of students is a 4 digit number. Find the diffrence between maximum number of students and minimum number of students.\nOptions: A)8880, B)8870, C)8890, D)7890, E)6780",
+            "output": "A) 8880"
+        },
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "On a normal day Bill usually averages about 15 mph when riding his bicycle. On a windy day, his speed is reduced by 4 mph. How far can Bill travel on a windy day in 21 minutes? Round to the nearest hundredth.",
+        "options": [
+            "A)2 miles",
+            "B)2.25 miles",
+            "C)3.25 miles",
+            "D)3.85 miles",
+            "E)2.85 miles"
+        ],
+        "model_response": {
+            "input": "On a normal day Bill usually averages about 15 mph when riding his bicycle. On a windy day, his speed is reduced by 4 mph. How far can Bill travel on a windy day in 21 minutes? Round to the nearest hundredth.\nOptions: A)2 miles, B)2.25 miles, C)3.25 miles, D)3.85 miles, E)2.85 miles",
+            "output": "D) 3.85 miles"
+        },
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "A retailer sold an appliance for 40 percent above cost, which represented a gross profit of $20.00. For what price did the retailer sell the appliance?",
+        "options": [
+            "A)$27.30",
+            "B)$51.00",
+            "C)$63.00",
+            "D)$70.00",
+            "E)$91.00"
+        ],
+        "model_response": {
+            "input": "A retailer sold an appliance for 40 percent above cost, which represented a gross profit of $20.00. For what price did the retailer sell the appliance?\nOptions: A)$27.30, B)$51.00, C)$63.00, D)$70.00, E)$91.00",
+            "output": "D) $70.00"
+        },
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years",
+        "options": [
+            "A)750",
+            "B)700",
+            "C)620",
+            "D)600",
+            "E)None of these"
+        ],
+        "model_response": {
+            "input": "At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years\nOptions: A)750, B)700, C)620, D)600, E)None of these",
+            "output": "C) 620"
+        },
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "A computer routine was developed to generate two numbers (x,y) the first being a random number between 0 and 100 inclusive, and the second being less than or equal to the square root of the first. Each of the following pair satisfies the routine except",
+        "options": [
+            "A)(99,10)",
+            "B)(85,9)",
+            "C)(50,7)",
+            "D)(1,1)",
+            "E)(1,0)"
+        ],
+        "model_response": {
+            "input": "A computer routine was developed to generate two numbers (x,y) the first being a random number between 0 and 100 inclusive, and the second being less than or equal to the square root of the first. Each of the following pair satisfies the routine except\nOptions: A)(99,10), B)(85,9), C)(50,7), D)(1,1), E)(1,0)",
+            "output": "The pair (99, 10) does not satisfy the routine. Therefore, the correct option is A)(99,10)."
+        },
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "A jeep travels a certain distance taking 6 hours in the forward journey. During the return journey, it increased its speed by 12km/hr and took 4 hours. What is the distance travelled by the jeep?",
+        "options": [
+            "A)126km",
+            "B)144km",
+            "C)127km",
+            "D)228km",
+            "E)128km"
+        ],
+        "model_response": {
+            "input": "A jeep travels a certain distance taking 6 hours in the forward journey. During the return journey, it increased its speed by 12km/hr and took 4 hours. What is the distance travelled by the jeep?\nOptions: A)126km, B)144km, C)127km, D)228km, E)128km",
+            "output": "B) 144km"
+        },
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "When I was 2 years old, my brother was half my age. Now I am 60 years old, how old is my brother?",
+        "options": [
+            "A)A)59",
+            "B)B)69",
+            "C)C)79",
+            "D)D)89",
+            "E)E)99"
+        ],
+        "model_response": {
+            "input": "When I was 2 years old, my brother was half my age. Now I am 60 years old, how old is my brother?\nOptions: A)A)59, B)B)69, C)C)79, D)D)89, E)E)99",
+            "output": "A) 59"
+        },
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?",
+        "options": [
+            "A)20%",
+            "B)28%",
+            "C)36%",
+            "D)40%",
+            "E)42%"
+        ],
+        "model_response": {
+            "input": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?\nOptions: A)20%, B)28%, C)36%, D)40%, E)42%",
+            "output": "B) 28%"
+        },
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "On a map, the length of the road from Town F to Town G is measured to be 20 inches. On this map, 1/4 inch represents an actual distance of 10 miles. What is the actual distance, in miles, from Town F to Town G along this road?",
+        "options": [
+            "A)800",
+            "B)720",
+            "C)960",
+            "D)1140",
+            "E)1160"
+        ],
+        "model_response": {
+            "input": "On a map, the length of the road from Town F to Town G is measured to be 20 inches. On this map, 1/4 inch represents an actual distance of 10 miles. What is the actual distance, in miles, from Town F to Town G along this road?\nOptions: A)800, B)720, C)960, D)1140, E)1160",
+            "output": "A) 800"
+        },
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "When folded into two equal halves a rectangular sheet had a perimeter of 48cm for each part folded along one set of sides and the same is 66cm when folded along the other set of sides. Find the area of the sheet.",
+        "options": [
+            "A)1584",
+            "B)1120",
+            "C)792",
+            "D)1320",
+            "E)1200"
+        ],
+        "model_response": {
+            "input": "When folded into two equal halves a rectangular sheet had a perimeter of 48cm for each part folded along one set of sides and the same is 66cm when folded along the other set of sides. Find the area of the sheet.\nOptions: A)1584, B)1120, C)792, D)1320, E)1200",
+            "output": "The area of the sheet is 280 cm\u00b2. However, none of the provided options match this result."
+        },
+        "correct_answer": "B",
+        "answered_correctly": false
+    },
+    {
+        "question": "Suppose you can travel from a place M to a place N by 3 buses, from place N to place O by 4 buses, from place O to place P by 1 buses and from place P to place Q by 3 buses. In how many ways can you travel from M to Q ?",
+        "options": [
+            "A)24",
+            "B)36",
+            "C)72",
+            "D)84",
+            "E)None"
+        ],
+        "model_response": {
+            "input": "Suppose you can travel from a place M to a place N by 3 buses, from place N to place O by 4 buses, from place O to place P by 1 buses and from place P to place Q by 3 buses. In how many ways can you travel from M to Q ?\nOptions: A)24, B)36, C)72, D)84, E)None",
+            "output": "B) 36"
+        },
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "A rectangular solid, 3 x 4 x 15, is inscribed in a sphere, so that all eight of its vertices are on the sphere. What is the diameter of the sphere?",
+        "options": [
+            "A) 13.3542",
+            "B) 15.8113",
+            "C) 18.3451",
+            "D) 19.5667",
+            "E) 20.8888"
+        ],
+        "model_response": {
+            "input": "A rectangular solid, 3 x 4 x 15, is inscribed in a sphere, so that all eight of its vertices are on the sphere. What is the diameter of the sphere?\nOptions: A) 13.3542, B) 15.8113, C) 18.3451, D) 19.5667, E) 20.8888",
+            "output": "B) 15.8113"
+        },
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "A starts travel towards south 3km, then travel 5 km towards east, and again travels 3 km to north, and finally travels 2km towards west. In the end how far from is A from home?",
+        "options": [
+            "A)3km",
+            "B)2km",
+            "C)4km",
+            "D)5km",
+            "E)6km"
+        ],
+        "model_response": {
+            "input": "A starts travel towards south 3km, then travel 5 km towards east, and again travels 3 km to north, and finally travels 2km towards west. In the end how far from is A from home?\nOptions: A)3km, B)2km, C)4km, D)5km, E)6km",
+            "output": "A) 3km"
+        },
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "While selling a watch, a shopkeeper gives a discount of 5%. If he gives a discount of 7%, he earns Rs. 15 less as profit. The marked price of the watch is:",
+        "options": [
+            "A)Rs. 697.50",
+            "B)Rs. 712.50",
+            "C)Rs. 787.50",
+            "D)Rs. 750",
+            "E)Rs. 780"
+        ],
+        "model_response": {
+            "input": "While selling a watch, a shopkeeper gives a discount of 5%. If he gives a discount of 7%, he earns Rs. 15 less as profit. The marked price of the watch is:\nOptions: A)Rs. 697.50, B)Rs. 712.50, C)Rs. 787.50, D)Rs. 750, E)Rs. 780",
+            "output": "D) Rs. 750"
+        },
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "A student instead of finding the value of 7/8 of a number, found the value of 7/18 of the number. If his answer differed from the actual one by 770, find the that number.",
+        "options": [
+            "A)1584",
+            "B)2520",
+            "C)1728",
+            "D)1656",
+            "E)None"
+        ],
+        "model_response": {
+            "input": "A student instead of finding the value of 7/8 of a number, found the value of 7/18 of the number. If his answer differed from the actual one by 770, find the that number.\nOptions: A)1584, B)2520, C)1728, D)1656, E)None",
+            "output": "A)1584"
+        },
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "The monthly salary S of a shop assistant is the sum of a fixed salary of $500 plus 5% of all monthly sales. What should the monthly sales be so that her monthly salary reaches $1500?",
+        "options": [
+            "A)$50000",
+            "B)$40000",
+            "C)$30000",
+            "D)$20000",
+            "E)None of these"
+        ],
+        "model_response": {
+            "input": "The monthly salary S of a shop assistant is the sum of a fixed salary of $500 plus 5% of all monthly sales. What should the monthly sales be so that her monthly salary reaches $1500?\nOptions: A)$50000, B)$40000, C)$30000, D)$20000, E)None of these",
+            "output": "D) $20000"
+        },
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "An aeroplane flies along the four sides of a square at the speeds of 200, 400, 600 and 800km/hr. Find the average speed of the plane around the field?",
+        "options": [
+            "A)384",
+            "B)562",
+            "C)458",
+            "D)156",
+            "E)452"
+        ],
+        "model_response": {
+            "input": "An aeroplane flies along the four sides of a square at the speeds of 200, 400, 600 and 800km/hr. Find the average speed of the plane around the field?\nOptions: A)384, B)562, C)458, D)156, E)452",
+            "output": "A) 384"
+        },
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "Jack buys 18 sharpeners (white and brown) for rs. 100. If he pays 1 rupee more for each white than brown sharpeners. How many of white and how many brown sharpeners did he buy?",
+        "options": [
+            "A)10,8",
+            "B)9,8",
+            "C)7,8",
+            "D)5,6",
+            "E)11,12"
+        ],
+        "model_response": {
+            "input": "Jack buys 18 sharpeners (white and brown) for rs. 100. If he pays 1 rupee more for each white than brown sharpeners. How many of white and how many brown sharpeners did he buy?\nOptions: A)10,8, B)9,8, C)7,8, D)5,6, E)11,12",
+            "output": "Option A) 10 white sharpeners and 8 brown sharpeners."
+        },
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "Hoses A and B spout water at different constant rates, and hose A can fill a certain pool in 8 hours. Hose A filled the pool alone for the first 2 hours and the two hoses, working together, then finished filling the pool in another 3 hours. How many hours would it have taken hose B, working alone, to fill the entire pool?",
+        "options": [
+            "A)8",
+            "B)15",
+            "C)12",
+            "D)6",
+            "E)3"
+        ],
+        "model_response": {
+            "input": "Hoses A and B spout water at different constant rates, and hose A can fill a certain pool in 8 hours. Hose A filled the pool alone for the first 2 hours and the two hoses, working together, then finished filling the pool in another 3 hours. How many hours would it have taken hose B, working alone, to fill the entire pool?\nOptions: A)8, B)15, C)12, D)6, E)3",
+            "output": "A) 8"
+        },
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "If 120 is reduced to 96, what is the reduction percent?",
+        "options": [
+            "A)30%",
+            "B)40%",
+            "C)20%",
+            "D)10%",
+            "E)5%"
+        ],
+        "model_response": {
+            "input": "If 120 is reduced to 96, what is the reduction percent?\nOptions: A)30%, B)40%, C)20%, D)10%, E)5%",
+            "output": "C) 20%"
+        },
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "I know a 5 digit number having a property that with a 1 after it, it is three times as large as it would be with a 1 before it.\nWhat is that number?",
+        "options": [
+            "A)42857",
+            "B)32456",
+            "C)76523",
+            "D)24567",
+            "E)43566"
+        ],
+        "model_response": {
+            "input": "I know a 5 digit number having a property that with a 1 after it, it is three times as large as it would be with a 1 before it.\nWhat is that number?\nOptions: A)42857, B)32456, C)76523, D)24567, E)43566",
+            "output": "A) 42857"
+        },
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "At Daifu university, 24% of all students are members of both a chess club and a swim team. If 20% of members of the swim team are not members of the chess club, what percentage of all Daifu students are members of the swim team?",
+        "options": [
+            "A)20%",
+            "B)30%",
+            "C)40%",
+            "D)50%",
+            "E)60%"
+        ],
+        "model_response": {
+            "input": "At Daifu university, 24% of all students are members of both a chess club and a swim team. If 20% of members of the swim team are not members of the chess club, what percentage of all Daifu students are members of the swim team?\nOptions: A)20%, B)30%, C)40%, D)50%, E)60%",
+            "output": "B) 30%"
+        },
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000?",
+        "options": [
+            "A)81900",
+            "B)85995",
+            "C)85800",
+            "D)90000",
+            "E)None of these"
+        ],
+        "model_response": {
+            "input": "If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000?\nOptions: A)81900, B)85995, C)85800, D)90000, E)None of these",
+            "output": "B)85995"
+        },
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "Two cars start at the same time from opposite ends of a highway that is 50 miles long. One car is riding at 12 mph and the second car is riding at 13 mph. How long after they begin will they meet?",
+        "options": [
+            "A) 1",
+            "B) 1.25",
+            "C) 1.50",
+            "D) 1.75",
+            "E) 2"
+        ],
+        "model_response": {
+            "input": "Two cars start at the same time from opposite ends of a highway that is 50 miles long. One car is riding at 12 mph and the second car is riding at 13 mph. How long after they begin will they meet?\nOptions: A) 1, B) 1.25, C) 1.50, D) 1.75, E) 2",
+            "output": "E) 2"
+        },
+        "correct_answer": "E",
+        "answered_correctly": true
+    },
+    {
+        "question": "A shopkeeper employed a servant at a monthly salary of 1500. In addition to it, he agreed to pay him a commission of 15% on the monthly sale. How much sale in Rupees should the servant do if he wants his monthly income as 6000?",
+        "options": [
+            "A)30000",
+            "B)415000",
+            "C)31500",
+            "D)50000",
+            "E)None of these"
+        ],
+        "model_response": {
+            "input": "A shopkeeper employed a servant at a monthly salary of 1500. In addition to it, he agreed to pay him a commission of 15% on the monthly sale. How much sale in Rupees should the servant do if he wants his monthly income as 6000?\nOptions: A)30000, B)415000, C)31500, D)50000, E)None of these",
+            "output": "A) 30000"
+        },
+        "correct_answer": "A", 
+        "answered_correctly": true
+    },
+    {
+        "question": "A man borrows Rs.360 If he pays it back in 12 monthly installments of Rs.31.50, what is his interest rate?",
+        "options": [
+            "A)1.5%",
+            "B)4.5%",
+            "C)10%",
+            "D)5%",
+            "E)12%"
+        ],
+        "model_response": {
+            "input": "A man borrows Rs.360 If he pays it back in 12 monthly installments of Rs.31.50, what is his interest rate?\nOptions: A)1.5%, B)4.5%, C)10%, D)5%, E)12%",
+            "output": "D) 5%"
+        },
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "The price of a product is reduced by 30% . By what percentage should it be increased to make it 100%",
+        "options": [
+            "A)41.86%",
+            "B)42.86%",
+            "C)43.86%",
+            "D)44.86%",
+            "E)45.86%"
+        ],
+        "model_response": {
+            "input": "The price of a product is reduced by 30% . By what percentage should it be increased to make it 100%\nOptions: A)41.86%, B)42.86%, C)43.86%, D)44.86%, E)45.86%",
+            "output": "B) 42.86%"
+        },
+        "correct_answer": "B",
+        "answered_correctly": true
+    }
+]

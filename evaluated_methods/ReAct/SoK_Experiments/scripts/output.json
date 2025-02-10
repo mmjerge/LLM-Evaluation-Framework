@@ -1,0 +1,1250 @@
+[
+    {
+        "question": "A point on the edge of a fan blade that is rotating in a plane 10 centimeters from the center of the fan. What is the distance traveled, in centimeters, by this point after 30 seconds when the fan runs at the rate of 300 revolutions per minutes?",
+        "options": [
+            "A)750pi",
+            "B)1500pi",
+            "C)1875pi",
+            "D)3000pi",
+            "E)7500pi"
+        ],
+        "model_response": "The distance traveled by the point on the fan blade after 30 seconds is approximately 94.25 cm.",
+        "correct_answer": "D"
+    },
+    {
+        "question": "A bag of cat food weighs 7 pounds and 4 ounces. How much does the bag weigh in ounces?",
+        "options": [
+            "A) 108",
+            "B) 112",
+            "C) 116",
+            "D) 120",
+            "E) 124"
+        ],
+        "model_response": "C) 116",
+        "correct_answer": "C"
+    },
+    {
+        "question": "Train A leaves a station every 16 minutes and Train B leaves every 17 minutes. If both trains just left the station simultaneously, how long until they do so again?",
+        "options": [
+            "A)272 minutes",
+            "B)304 minutes",
+            "C)190 minutes",
+            "D)70 minutes",
+            "E)35 minutes"
+        ],
+        "model_response": "A) 272 minutes",
+        "correct_answer": "A"
+    },
+    {
+        "question": "The price of a product is reduced by 30% . By what percentage should it be increased to make it 100%",
+        "options": [
+            "A)41.86%",
+            "B)42.86%",
+            "C)43.86%",
+            "D)44.86%",
+            "E)45.86%"
+        ],
+        "model_response": "B) 42.86%",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A shopkeeper in order to promote his new shop put a discount of 20% on all the items for one day. Now he must sell the items at original price the other day. By what percentage must he increase the price to original?",
+        "options": [
+            "A)21%",
+            "B)20%",
+            "C)25%",
+            "D)33%",
+            "E)18%"
+        ],
+        "model_response": "C) 25%",
+        "correct_answer": "C"
+    },
+    {
+        "question": "The events A and B are independent. The probability that event A occurs is 0.6, and the probability that at least one of the events A or B occurs is 0.96. What is the probability that event B occurs?",
+        "options": [
+            "A)0.5",
+            "B)0.6",
+            "C)0.7",
+            "D)0.8",
+            "E)0.9"
+        ],
+        "model_response": "E) 0.9",
+        "correct_answer": "E"
+    },
+    {
+        "question": "A paper is in a square form whose one side is 20 cm. Two semi circles are drawn on its opposites as diameters. If these semi circles are cut down what is the area of the remaining paper?",
+        "options": [
+            "A)8.75",
+            "B)8.79",
+            "C)8.75",
+            "D)8.71",
+            "E)8.72"
+        ],
+        "model_response": "B) 8.79",
+        "correct_answer": "C"
+    },
+    {
+        "question": "The ratio of the volumes of a cube to that of the sphere which will fit inside the cube is?",
+        "options": [
+            "A)2: \u03c0",
+            "B)7:2",
+            "C)8:2",
+            "D)6: \u03c0",
+            "E)8:3"
+        ],
+        "model_response": "A) 2: \u03c0",
+        "correct_answer": "D"
+    },
+    {
+        "question": "Find out which of the following values is the multiple of X, if it is divisible by 9 and 12?",
+        "options": [
+            "A)36",
+            "B)15",
+            "C)17",
+            "D)5",
+            "E)7"
+        ],
+        "model_response": "A) 36",
+        "correct_answer": "A"
+    },
+    {
+        "question": "Find the total no. of distinct bike no.'s that can beformed using 2 letters followed by 2 no.'s. How many letters need to be distinct?",
+        "options": [
+            "A)74453",
+            "B)64543",
+            "C)74325",
+            "D)65000",
+            "E)97656"
+        ],
+        "model_response": "D) 65000",
+        "correct_answer": "D"
+    },
+    {
+        "question": "A box contains a certain number of balls, marked successively from 1 to n. If there are 45 different ways that two balls can be selected from the box such that the ball with number 3 marked on it is not selected, then what is the value of n?",
+        "options": [
+            "A)11",
+            "B)10",
+            "C)9",
+            "D)8",
+            "E)7"
+        ],
+        "model_response": "B) 10",
+        "correct_answer": "A"
+    },
+    {
+        "question": "Suppose you want to arrange your English, Hindi, Mathematics, History, Geography and Science books on a shelf. In how many ways can you do it ?",
+        "options": [
+            "A)520",
+            "B)720",
+            "C)920",
+            "D)None",
+            "E)Cannot be determined"
+        ],
+        "model_response": "B) 720",
+        "correct_answer": "B"
+    },
+    {
+        "question": "During one season, a tennis team won 20 matches and lost 30% of their matches. What was the number of matches that the team lost?",
+        "options": [
+            "A)70",
+            "B)30",
+            "C)3",
+            "D)7",
+            "E)5"
+        ],
+        "model_response": "C) 3",
+        "correct_answer": "C"
+    },
+    {
+        "question": "Suppose you can travel from a place M to a place N by 3 buses, from place N to place O by 4 buses, from place O to place P by 1 buses and from place P to place Q by 3 buses. In how many ways can you travel from M to Q ?",
+        "options": [
+            "A)24",
+            "B)36",
+            "C)72",
+            "D)84",
+            "E)None"
+        ],
+        "model_response": "B) 36",
+        "correct_answer": "B"
+    },
+    {
+        "question": "What is the units digit of 9^3-7?",
+        "options": [
+            "A)1",
+            "B)3",
+            "C)5",
+            "D)2",
+            "E)4"
+        ],
+        "model_response": "D) 2",
+        "correct_answer": "D"
+    },
+    {
+        "question": "At Daifu university, 24% of all students are members of both a chess club and a swim team. If 20% of members of the swim team are not members of the chess club, what percentage of all Daifu students are members of the swim team?",
+        "options": [
+            "A)20%",
+            "B)30%",
+            "C)40%",
+            "D)50%",
+            "E)60%"
+        ],
+        "model_response": "C) 40%",
+        "correct_answer": "B"
+    },
+    {
+        "question": "If Raj was one-third as old as Rahim 5 years back and Raj is 17 years old now, How old is Rahim now?",
+        "options": [
+            "A)37",
+            "B)41",
+            "C)40",
+            "D)42",
+            "E)43"
+        ],
+        "model_response": "C) 40",
+        "correct_answer": "B"
+    },
+    {
+        "question": "At a conference, one team is made up of 4 men and 4 women. Four presenters are chosen to present the team's findings in front of the entire conference. How many different groups of presenters can be chosen from the team if a team cannot be composed of men only or women only? (Two groups of presenters are considered different if at least one presenter is different.)",
+        "options": [
+            "A)120",
+            "B)19",
+            "C)180",
+            "D)420",
+            "E)460"
+        ],
+        "model_response": "B) 19",
+        "correct_answer": "B"
+    },
+    {
+        "question": "The sum of the 5 consecutive two digit odd numbers when divided by 10 becomes a perfect square, which of the following can be one of these 5 numbers?",
+        "options": [
+            "A)47",
+            "B)91",
+            "C)41",
+            "D)67",
+            "E)44"
+        ],
+        "model_response": "None of the above choices can be one of these 5 numbers.",
+        "correct_answer": "C"
+    },
+    {
+        "question": "A starts a business with Rs.40,000. After 2 months, B joined him with Rs.60,000. C joined them after some more time with Rs.120,000. At the end of the year, out of a total profit of Rs.375,000, C gets Rs.150,000 as his share. How many months after B joined the business, did C join?",
+        "options": [
+            "A)2 months",
+            "B)4 months",
+            "C)23 months",
+            "D)24 months",
+            "E)84 months"
+        ],
+        "model_response": "B) 4 months",
+        "correct_answer": "B"
+    },
+    {
+        "question": "5 horses are in a race. Mr.Jain selects two of horses at random and bets on them. The probability that he selected the winning horse is",
+        "options": [
+            "A)1/5",
+            "B)2/5",
+            "C)3/5",
+            "D)4/5",
+            "E)6/5"
+        ],
+        "model_response": "B) 2/5",
+        "correct_answer": "B"
+    },
+    {
+        "question": "Silu and Meenu were walking on the road.\nSilu said, \"I weigh 51 Kgs. How much do you weigh?\"\nMeenu replied that she wouldn't reveal her weight directly as she is overweight.\nBut she said, \"I weigh 29 Kgs plus half of my weight. \"How much does Meenu weigh?",
+        "options": [
+            "A)12",
+            "B)28",
+            "C)27",
+            "D)58",
+            "E)91"
+        ],
+        "model_response": "D) 58",
+        "correct_answer": "D"
+    },
+    {
+        "question": "[(272 - 32) (124 + 176)] / (17 x 15 - 15) = ?",
+        "options": [
+            "A)0",
+            "B)2.25",
+            "C)300",
+            "D)400",
+            "E)None of these"
+        ],
+        "model_response": "C) 300",
+        "correct_answer": "C"
+    },
+    {
+        "question": "A shopkeeper employed a servant at a monthly salary of 1500. In addition to it, he agreed to pay him a commission of 15% on the monthly sale. How much sale in Rupees should the servant do if he wants his monthly income as 6000?",
+        "options": [
+            "A)30000",
+            "B)415000",
+            "C)31500",
+            "D)50000",
+            "E)None of these"
+        ],
+        "model_response": "A) 30000",
+        "correct_answer": "A"
+    },
+    {
+        "question": "Two ants are standing side-by-side. One ant, which is 4 inches tall, casts a shadow that is 10 inches long. The other ant is 6 inches tall. Compute, in inches, the length of the shadow that the taller ant casts.",
+        "options": [
+            "A)36",
+            "B)28",
+            "C)42",
+            "D)15",
+            "E)20"
+        ],
+        "model_response": "D) 15",
+        "correct_answer": "D"
+    },
+    {
+        "question": "The telephone bill of a certain establishment is party fixed and partly varies as the number of calls consumed. When in a certain month 540 calls made the bill is Rs.1800. In another month 620 calls are consumed then the bill becomes Rs.2040. In another month 500 units are consumed due to more\nholidays. The bill for that month would be :",
+        "options": [
+            "A)Rs.1560",
+            "B)Rs.1680",
+            "C)Rs.1840",
+            "D)Rs.1950",
+            "E)Rs.1690"
+        ],
+        "model_response": "B) Rs.1680",
+        "correct_answer": "B"
+    },
+    {
+        "question": "On a test the passing students had an average of 83, while the failing students had an average\nof 55. If the overall class average was 76, what percent of the class passed?",
+        "options": [
+            "A)44%",
+            "B)66%",
+            "C)68%",
+            "D)72%",
+            "E)75%"
+        ],
+        "model_response": "C) 68%",
+        "correct_answer": "E"
+    },
+    {
+        "question": "In a railway station, there are two trains going. One in the harbor line and one in the main line, each having a frequency of 10 minutes. The main line service starts at 5 o'clock and the harbor line starts at 5.02 A.M. A man goes to the station every day to catch the first train that comes. What is the probability of the man catching the first train?",
+        "options": [
+            "A)0.9",
+            "B)0.8",
+            "C)0.6",
+            "D)0.65",
+            "E)1.5"
+        ],
+        "model_response": "B) 0.8",
+        "correct_answer": "B"
+    },
+    {
+        "question": "In a sale, a discount of 20% was available on all the articles. If Vinit purchased an article for Rs.4578 in the sale. What was the actual selling price of the article?",
+        "options": [
+            "A)s.5050",
+            "B)s.5723",
+            "C)s.5040",
+            "D)s.4950",
+            "E)s.4870"
+        ],
+        "model_response": "D) Rs. 4950",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A trader sold an article at a profit of 20% for Rs.360. What is the cost price of the article?",
+        "options": [
+            "A)270",
+            "B)300",
+            "C)280",
+            "D)320",
+            "E)315"
+        ],
+        "model_response": "B) 300",
+        "correct_answer": "B"
+    },
+    {
+        "question": "The number of water lilies on a certain lake doubles every two days. If there is exactly one water lily on the lake, it takes 60 days for the lake to be fully covered with water lilies. In how many days will the lake be fully covered with lilies, if initially there were 64 water lilies on it?",
+        "options": [
+            "A)15",
+            "B)28",
+            "C)30",
+            "D)53",
+            "E)59"
+        ],
+        "model_response": "A) 15",
+        "correct_answer": "D"
+    },
+    {
+        "question": "A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?",
+        "options": [
+            "A)226",
+            "B)230",
+            "C)240",
+            "D)260",
+            "E)280"
+        ],
+        "model_response": "C) 240",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A man spends Rs. 3500 per month and saves 12 1/2% of his income. His monthly income is ?",
+        "options": [
+            "A)Rs. 4400",
+            "B)Rs. 4270",
+            "C)Rs. 4000",
+            "D)Rs. 3937.50",
+            "E)None of these"
+        ],
+        "model_response": "C) Rs. 4000",
+        "correct_answer": "C"
+    },
+    {
+        "question": "Peter wants to find 10 additional people to form a scavenger hunt team with him. If he has 10 friends who would like to participate, how many choices does he have for forming his team?",
+        "options": [
+            "A)0",
+            "B)1",
+            "C)2",
+            "D)3",
+            "E)4"
+        ],
+        "model_response": "A) 0",
+        "correct_answer": "B"
+    },
+    {
+        "question": "The sum of k consecutive integers is 51. If the least integer is -50, then k =",
+        "options": [
+            "A)40",
+            "B)62",
+            "C)82",
+            "D)92",
+            "E)102"
+        ],
+        "model_response": "None of the options are correct.",
+        "correct_answer": "E"
+    },
+    {
+        "question": "If 120 is reduced to 96, what is the reduction percent?",
+        "options": [
+            "A)30%",
+            "B)40%",
+            "C)20%",
+            "D)10%",
+            "E)5%"
+        ],
+        "model_response": "C) 20%",
+        "correct_answer": "C"
+    },
+    {
+        "question": "A number is as much greater than 36 as is less than 86. Find the Number.",
+        "options": [
+            "A)60",
+            "B)56",
+            "C)51",
+            "D)61",
+            "E)41"
+        ],
+        "model_response": "D) 61",
+        "correct_answer": "D"
+    },
+    {
+        "question": "An exam is given in a certain class. The average (arithmetic mean) of the highest score and the lowest score is equal to x. If the average score for the entire class is equal to y and there are z students in the class, where z > 5, then in terms of x, y, and z, what is the average score for the class excluding the highest and lowest scorers?",
+        "options": [
+            "A)(zy \u2013 2x)/z",
+            "B)(zy \u2013 2)/z",
+            "C)(zx \u2013 y)/(z \u2013 2)",
+            "D)(zy \u2013 2x)/(z -2)",
+            "E)(zy \u2013 x)/(z + 2)"
+        ],
+        "model_response": "D) (zy - 2x)/(z - 2)",
+        "correct_answer": "D"
+    },
+    {
+        "question": "One gram of a certain health food contains 9 percent of the minimum daily requirement of vitamin E and 8 percent of the minimum daily requirement of vitamin A. If vitamins E and A are to be obtained from no other source, how many grams of the health food must be eaten daily to provide at least the minimum daily requirement of both vitamins?",
+        "options": [
+            "A)8.5",
+            "B)10.5",
+            "C)12.5",
+            "D)14.5",
+            "E)16.5"
+        ],
+        "model_response": "E) 16.5",
+        "correct_answer": "C"
+    },
+    {
+        "question": "What is 60% of 30% of 1400 grams?",
+        "options": [
+            "A)450 gms",
+            "B)100 gms",
+            "C)252 gms",
+            "D)240 gms",
+            "E)None of these"
+        ],
+        "model_response": "C) 252 gms",
+        "correct_answer": "C"
+    },
+    {
+        "question": "A club consists of members whose ages are in A.P. The common difference being 3 months. If the youngest member of the club is just 7 years old and the sum of the ages of all the members is 250, then number of members in the club are :",
+        "options": [
+            "A)18",
+            "B)20",
+            "C)25",
+            "D)26",
+            "E)27"
+        ],
+        "model_response": "A) 18",
+        "correct_answer": "C"
+    },
+    {
+        "question": "900 + 5 \u00d7 12 = ?",
+        "options": [
+            "A)820",
+            "B)202",
+            "C)420",
+            "D)209",
+            "E)960"
+        ],
+        "model_response": "E) 960",
+        "correct_answer": "E"
+    },
+    {
+        "question": "If Q, a positive integer, has 5 factors, which of the following must be true about Q?\nI. Q is the square of a prime number.\nII. Q is the fourth power of a prime number.\nIII. Q is the product of two prime numbers.",
+        "options": [
+            "A)I only",
+            "B)III only",
+            "C)II only",
+            "D)I and II only",
+            "E)I and III only"
+        ],
+        "model_response": "E) E)I and III only",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A square piece of cloth is trimmed by 4 feet on one edge to form a rectangular piece, which is then cut diagonally in half to create two triangles. If the area of each of triangle is 70 square feet, what was the perimeter (in feet) of the original piece of square cloth?",
+        "options": [
+            "A)56",
+            "B)58",
+            "C)60",
+            "D)62",
+            "E)64"
+        ],
+        "model_response": "A) 56",
+        "correct_answer": "A"
+    },
+    {
+        "question": "On a map, the length of the road from Town F to Town G is measured to be 20 inches. On this map, 1/4 inch represents an actual distance of 10 miles. What is the actual distance, in miles, from Town F to Town G along this road?",
+        "options": [
+            "A)800",
+            "B)720",
+            "C)960",
+            "D)1140",
+            "E)1160"
+        ],
+        "model_response": "A) 800",
+        "correct_answer": "A"
+    },
+    {
+        "question": "An aeroplane flies along the four sides of a square at the speeds of 200, 400, 600 and 800km/hr. Find the average speed of the plane around the field?",
+        "options": [
+            "A)384",
+            "B)562",
+            "C)458",
+            "D)156",
+            "E)452"
+        ],
+        "model_response": "B) 562",
+        "correct_answer": "A"
+    },
+    {
+        "question": "At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years",
+        "options": [
+            "A)750",
+            "B)700",
+            "C)620",
+            "D)600",
+            "E)None of these"
+        ],
+        "model_response": "C) C)620",
+        "correct_answer": "C"
+    },
+    {
+        "question": "I have a money pouch containing Rs. 700. There are equal number of 25 paise coins, 50 paise coins and one rupee coins.\nHow many of each are there?",
+        "options": [
+            "A)453",
+            "B)651",
+            "C)400",
+            "D)487",
+            "E)286"
+        ],
+        "model_response": "C) 400",
+        "correct_answer": "C"
+    },
+    {
+        "question": "Two numbers are said to be relatively prime if they share no common positive factors other than 1. Set S contains the set of integers from 1 to 1,000, inclusive. What is the probability that a number chosen from S is relatively prime to 1,000?",
+        "options": [
+            "A)5/7",
+            "B)3/5",
+            "C)4/7",
+            "D)2/5",
+            "E)2/7"
+        ],
+        "model_response": "D) 2/5",
+        "correct_answer": "D"
+    },
+    {
+        "question": "8 man work for 6 days to complete a work. How many men are required to complete same work in 1/2 day.",
+        "options": [
+            "A)93 men",
+            "B)94 men",
+            "C)95 men",
+            "D)96 men",
+            "E)97 men"
+        ],
+        "model_response": "D) 96 men",
+        "correct_answer": "D"
+    },
+    {
+        "question": "At a certain factory, 10 percent of the staplers produced on Monday were defective and 2 percent of the non-defective staplers were rejected by mistake. If 72 of the non-defective staplers were rejected, what was the number of staplers produced that day?",
+        "options": [
+            "A)4,000",
+            "B)4,200",
+            "C)4,500",
+            "D)4,800",
+            "E)5,000"
+        ],
+        "model_response": "A) 4,000",
+        "correct_answer": "A"
+    },
+    {
+        "question": "Six pita breads contain the same amount of falafel as do two rolls. Three rolls contain the same amount of falafel as five baguettes do. Two baguettes contain the same amount of falafel as how many pita breads?",
+        "options": [
+            "A)12/25",
+            "B)3/2",
+            "C)3",
+            "D)2",
+            "E)25/3"
+        ],
+        "model_response": "B) 3/2",
+        "correct_answer": "C"
+    },
+    {
+        "question": "In an exam, a candidate secured 504 marks of the maximum mark of M. If the maximum mark M is converted into 800 marks, he would have secured 420 marks. What is the value of M?",
+        "options": [
+            "A)278",
+            "B)2890",
+            "C)270",
+            "D)2702",
+            "E)960"
+        ],
+        "model_response": "E) 960",
+        "correct_answer": "E"
+    },
+    {
+        "question": "Jim filled his dog's bowl with dog food. Starting at 8:00 am, Jim's dog ate exactly once an hour, consuming exactly 1/3 of the dog food remaining in the bowl at each feeding session. Approximately, what percent of the original food was in the dog's bowl right before the dog began to eat at noon of the same day?",
+        "options": [
+            "A)20%",
+            "B)25%",
+            "C)30%",
+            "D)35%",
+            "E)40%"
+        ],
+        "model_response": "C) 30%",
+        "correct_answer": "A"
+    },
+    {
+        "question": "A pen company produces very fine quality of writing pens. Company knows that on average 10% of the produced pens are always defective so are rejected before packing. Company promises to deliver 7200 pens to its wholesaler at Rs. 10 each. It estimates the overall profit on all the manufactured pens to be 25%. What is the manufactured cost of each pen?",
+        "options": [
+            "A)Rs. 6",
+            "B)Rs. 7.2",
+            "C)Rs. 5.6",
+            "D)Rs. 8",
+            "E)None of these"
+        ],
+        "model_response": "D) Rs. 8",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A flagstaff 17.5 metre high casts a shadow of length 40.25 metre. The height of building, which casts a shadow of length 28.75 metre under similar conditions will be :",
+        "options": [
+            "A)12 metre",
+            "B)12.5 metre",
+            "C)13.5 metre",
+            "D)14 metre",
+            "E)15 metre"
+        ],
+        "model_response": "B) 12.5 metre",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A merchant receives an invoice for a motor boat for $20 000 with terms 4/30, n/100. What is the highest simple interest rate at which he can afford to borrow money in order to take advantage of the discount?",
+        "options": [
+            "A)247.67",
+            "B)237.67",
+            "C)227.67",
+            "D)215.67",
+            "E)None of these"
+        ],
+        "model_response": "None of these",
+        "correct_answer": "A"
+    },
+    {
+        "question": "An express electric train takes exact three seconds to enter tunnel which is 1 mile long.\nIf train is traveling at 120 mile an hour, how long will it take to pass completely through the tunnel ?",
+        "options": [
+            "A)43 seconds",
+            "B)39 seconds",
+            "C)20 seconds",
+            "D)33 seconds",
+            "E)55 seconds"
+        ],
+        "model_response": "D) 33 seconds",
+        "correct_answer": "D"
+    },
+    {
+        "question": "A bee bypasses 0.05% of flowers it flies by because it can sense they don't have any nectar in them. How many flowers will the bee fly by to bypass 8 flowers?",
+        "options": [
+            "A)2000",
+            "B)4000",
+            "C)8000",
+            "D)16000",
+            "E)32000"
+        ],
+        "model_response": "D) 16000",
+        "correct_answer": "D"
+    },
+    {
+        "question": "Two cars start at the same time from opposite ends of a highway that is 50 miles long. One car is riding at 12 mph and the second car is riding at 13 mph. How long after they begin will they meet?",
+        "options": [
+            "A) 1",
+            "B) 1.25",
+            "C) 1.50",
+            "D) 1.75",
+            "E) 2"
+        ],
+        "model_response": "E) 2",
+        "correct_answer": "E"
+    },
+    {
+        "question": "A wire in the shape of rectangle of length 27 cm and breadth 17 cm is rebent to form a square. What will be the measure of each side?",
+        "options": [
+            "A)9",
+            "B)11",
+            "C)22",
+            "D)25",
+            "E)31"
+        ],
+        "model_response": "C) 22",
+        "correct_answer": "C"
+    },
+    {
+        "question": "A man wants to eat fruit for breakfast and vegetable for dinner. He has 6 different types of fruit and 8 different types of vegetables. He can only eat one type at a time. In how many ways can he eat breakfast and dinner.",
+        "options": [
+            "A)54",
+            "B)24",
+            "C)48",
+            "D)20",
+            "E)36"
+        ],
+        "model_response": "C) 48",
+        "correct_answer": "C"
+    },
+    {
+        "question": "The capacity of a tank of dimensions (8 m \u00d7 6 m \u00d7 2.5 m) is",
+        "options": [
+            "A)120 litres",
+            "B)1200 litres",
+            "C)12000 litres",
+            "D)120000 litres",
+            "E)None of these"
+        ],
+        "model_response": "D) 120,000 litres",
+        "correct_answer": "D"
+    },
+    {
+        "question": "When I was 2 years old, my brother was half my age. Now I am 60 years old, how old is my brother?",
+        "options": [
+            "A)A)59",
+            "B)B)69",
+            "C)C)79",
+            "D)D)89",
+            "E)E)99"
+        ],
+        "model_response": "A) 59",
+        "correct_answer": "A"
+    },
+    {
+        "question": "What will be the cost of gardening 1-metre \u2013 broad boundary around a rectangular plot having perimeter of 340 metres at the rate of 10 per square metre?",
+        "options": [
+            "A)3400",
+            "B)1700",
+            "C)3440",
+            "D)Cannot be determined",
+            "E)None of these"
+        ],
+        "model_response": "B) 1700",
+        "correct_answer": "C"
+    },
+    {
+        "question": "In a row of children Neha is 12th from left end and Radha is 6th from right end. When Radha is shifted to left by 2 places and Neha is shifted to right by 2 places there 6 children between Radha and Neha. How many children are there in the row?",
+        "options": [
+            "A)23",
+            "B)27",
+            "C)26",
+            "D)28",
+            "E)29"
+        ],
+        "model_response": "D) 28",
+        "correct_answer": "D"
+    },
+    {
+        "question": "A hollow cube of size 5cm is taken, with the thickness of 1cm. It is made of smaller cubes of size 1cm .If the outer surface of the cube is painted how many faces of the smaller cubes remain unpainted?",
+        "options": [
+            "A)438",
+            "B)550",
+            "C)500",
+            "D)450",
+            "E)498"
+        ],
+        "model_response": "C) 500",
+        "correct_answer": "A"
+    },
+    {
+        "question": "Calculate the percentage gain of a merchant who purchased 90 kg of oranges for Rs. 450 and sold the whole lot at the rate of Rs. 7.50 per kg.",
+        "options": [
+            "A)50 %",
+            "B)60 %",
+            "C)55 %",
+            "D)70 %",
+            "E)58%"
+        ],
+        "model_response": "A) 50%",
+        "correct_answer": "A"
+    },
+    {
+        "question": "There is well of depth 30m and frog is at bottom of the well. He jumps 3m up one day and falls back 2m down the same day. How many days will it take for the frog to come out of the well?",
+        "options": [
+            "A)25 days",
+            "B)26 days",
+            "C)27 days",
+            "D)28 days",
+            "E)29 days"
+        ],
+        "model_response": "C) 27 days",
+        "correct_answer": "D"
+    },
+    {
+        "question": "Let A and B be independent events with P (A) = 0.2 and P(B) = 0.8. Find P(A/B)?",
+        "options": [
+            "A)0.2",
+            "B)0.4",
+            "C)0.6",
+            "D)1.2",
+            "E)1.5"
+        ],
+        "model_response": "None of the options provided are correct.",
+        "correct_answer": "A"
+    },
+    {
+        "question": "Printer A and Printer B can each print 1\u20442 page per second. How long will it take both printers working together to print 100 pages?",
+        "options": [
+            "A)25 seconds",
+            "B)50 seconds",
+            "C)100 seconds",
+            "D)200 seconds",
+            "E)400 seconds"
+        ],
+        "model_response": "C) 100 seconds",
+        "correct_answer": "C"
+    },
+    {
+        "question": "A man borrows Rs.360 If he pays it back in 12 monthly installments of Rs.31.50, what is his interest rate?",
+        "options": [
+            "A)1.5%",
+            "B)4.5%",
+            "C)10%",
+            "D)5%",
+            "E)12%"
+        ],
+        "model_response": "D) 5%",
+        "correct_answer": "D"
+    },
+    {
+        "question": "A grocery sells a bag of ice for $1.25, and makes 20% profit. If it sells 500 bags of ice, how much total profit does it make?",
+        "options": [
+            "A)125",
+            "B)150",
+            "C)225",
+            "D)250",
+            "E)275"
+        ],
+        "model_response": "A) 125",
+        "correct_answer": "A"
+    },
+    {
+        "question": "Suppose for any real number x, [x] denotes the greatest integer less than or equal to x. Let L(x,y) = [x] + [y] + [x + y] and R(x,y) = [2x] + [2y]. Then it is impossible to find any two positive real numbers x and y for which",
+        "options": [
+            "A)L(x,y) = R(x,y)",
+            "B)L(x,y) \u2260 R(x,y)",
+            "C)L(x,y) < R(x,y)",
+            "D)L(x,y) < R(x,y)",
+            "E)None"
+        ],
+        "model_response": "A) A)L(x,y) = R(x,y) is impossible to find for any two positive real numbers x and y.",
+        "correct_answer": "D"
+    },
+    {
+        "question": "If 10 is subtracted from 2/3 of a number the result is equal to sum of 40 and 1/3 of the number. Find the number",
+        "options": [
+            "A)100",
+            "B)160",
+            "C)150",
+            "D)210",
+            "E)220"
+        ],
+        "model_response": "D) 210",
+        "correct_answer": "C"
+    },
+    {
+        "question": "Allen starts from X, goes to Y. At the same time Bob starts from Y and goes towards X. Once Allen reaches Y he changes his direction and returns to X. Once Bob reaches X, he changes his direction and returns to Y. Throughout Allen travels at 54 kmph and Bob travels at 78kmph. By the time they meet for the second time, Bob covers 48 km more than Allen. Find the distance between X and Y.",
+        "options": [
+            "A)144km",
+            "B)72 km",
+            "C)126km",
+            "D)84 km",
+            "E)48km"
+        ],
+        "model_response": "C) 126 km",
+        "correct_answer": "E"
+    },
+    {
+        "question": "A rectangular solid, 3 x 4 x 15, is inscribed in a sphere, so that all eight of its vertices are on the sphere. What is the diameter of the sphere?",
+        "options": [
+            "A) 13.3542",
+            "B) 15.8113",
+            "C) 18.3451",
+            "D) 19.5667",
+            "E) 20.8888"
+        ],
+        "model_response": "B) 15.8113",
+        "correct_answer": "B"
+    },
+    {
+        "question": "The bus fare of one adult is Rs. 140 from Ranchi to Patna and bus fare of a child is half the fare of one adult between the same places. What is the total bus fare of 4 adults and 3 children between same places?",
+        "options": [
+            "A)Rs. 666",
+            "B)Rs. 670",
+            "C)Rs. 700",
+            "D)Rs. 570",
+            "E)Rs. 770"
+        ],
+        "model_response": "E) Rs. 770",
+        "correct_answer": "E"
+    },
+    {
+        "question": "Ram and Krishna start from A and B, respectively, at the same time and travel towards each other at constant speeds of 20m/s and 40m/s, respectively, along the same route. Ram meets Krishna at point C on the road after 10 seconds. Find the total distance between A to B.",
+        "options": [
+            "A)700 meters",
+            "B)1000 meters",
+            "C)700 kilometers",
+            "D)555 meters",
+            "E)600 meters"
+        ],
+        "model_response": "B) 1000 meters",
+        "correct_answer": "E"
+    },
+    {
+        "question": "A rectangular parking space is marked out by painting three of its sides. If the length of the unpainted side is 9 feet, and the sum of the lengths of the painted sides is 37 feet, then what is the area of the parking space in square feet?",
+        "options": [
+            "A)46",
+            "B)81",
+            "C)126",
+            "D)252",
+            "E)None"
+        ],
+        "model_response": "C) 126",
+        "correct_answer": "C"
+    },
+    {
+        "question": "Decipher the following multiplication table:\nM A D\nB E\n-------------\nM A D\nR A E\n-------------\nA M I D",
+        "options": [
+            "A)9 2 0 0",
+            "B)9 2 0 9",
+            "C)9 2 0 1",
+            "D)9 2 0 7",
+            "E)9 2 2 2"
+        ],
+        "model_response": "B) 9 2 0 9",
+        "correct_answer": "D"
+    },
+    {
+        "question": "Janice bikes at 10 miles per hour, while Jennie bikes at 20. How long until they have collectively biked 1 mile?",
+        "options": [
+            "A)1 minute",
+            "B)2 minutes",
+            "C)3 minutes",
+            "D)4 minutes",
+            "E)5 minutes"
+        ],
+        "model_response": "A) 1 minute",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A certain liquid passes through a drain at a rate of w/25 gallons every x seconds. At that rate, how many minutes will it take y gallons to pass through the drain?",
+        "options": [
+            "A)y/(1200xy)",
+            "B)20xy/w",
+            "C)5xy/(12w)",
+            "D)w/(3xy)",
+            "E)3y/(wx)"
+        ],
+        "model_response": "C) 5xy/(12w)",
+        "correct_answer": "C"
+    },
+    {
+        "question": "Last year, a Home Appliance Store sold an average(arithmetic mean) of 42 microwave ovens per month. In the first 10 months of this year,the store has sold an average(arithmetic mean) of only 20 microwave ovens per month. What was the average number of microwave ovens sold per month during the entire 22 months period ?",
+        "options": [
+            "A)21",
+            "B)30",
+            "C)31",
+            "D)32",
+            "E)None of the above"
+        ],
+        "model_response": "D) 32",
+        "correct_answer": "D"
+    },
+    {
+        "question": "Anna has 4 books. If she decide to arrange the 4 books in every possible combination and moved just one book every minute, how long would it taken by her ?",
+        "options": [
+            "A)22 minutes",
+            "B)30 minutes",
+            "C)15 minutes",
+            "D)24 minutes",
+            "E)35 minutes"
+        ],
+        "model_response": "C) 15 minutes",
+        "correct_answer": "D"
+    },
+    {
+        "question": "there are more than 501 students in a school such that 20% of them exactly took physics and 28% of them exactly took math. What could be the least possible no of students in the school?",
+        "options": [
+            "A)550",
+            "B)570",
+            "C)600",
+            "D)700",
+            "E)none of these"
+        ],
+        "model_response": "E) none of these",
+        "correct_answer": "E"
+    },
+    {
+        "question": "A cow is tethered in the middle of a field with a 14 feet long rope. If the cow grazes 10 sq.ft. per day, then approximately what time will be taken by the cow to graze the whole field?",
+        "options": [
+            "A)51 days",
+            "B)61 days",
+            "C)71 days",
+            "D)81 days",
+            "E)91 days"
+        ],
+        "model_response": "Approximately 31 days, which is closest to option A) 51 days.",
+        "correct_answer": "B"
+    },
+    {
+        "question": "If n is such that 36 \u2264 n \u2264 72, then x = (n2 + 2\u221an(n + 4) + 16) / (n+ 4\u221an+ 4) satisfies",
+        "options": [
+            "A)20 < x < 54",
+            "B)23 < x < 58",
+            "C)25 < x < 64",
+            "D)28 < x < 60",
+            "E)None of these"
+        ],
+        "model_response": "A) 20 < x < 54",
+        "correct_answer": "D"
+    },
+    {
+        "question": "The population of a city is 5265526. If there are 4169516 adults in the city, how many children are there in the city?",
+        "options": [
+            "A)1095961",
+            "B)1065961",
+            "C)1085961",
+            "D)1097961",
+            "E)1096061"
+        ],
+        "model_response": "A) 1095961",
+        "correct_answer": "E"
+    },
+    {
+        "question": "If Jill needed to buy 10 bottles of soda for a party in which 8 people attended, how many bottles of soda will she need to buy for a party in which 12 people are attending?",
+        "options": [
+            "A)6",
+            "B)8",
+            "C)10",
+            "D)12",
+            "E)14"
+        ],
+        "model_response": "E) 15",
+        "correct_answer": "C"
+    },
+    {
+        "question": "M men agree to purchase a gift for Rs. D. If 3 men drop out how much more will each have to contribute towards the purchase of the gift?",
+        "options": [
+            "A)D/(M-3)",
+            "B)MD/3",
+            "C)M/(D-3)",
+            "D)3D/(M2-3M)",
+            "E)None of these"
+        ],
+        "model_response": "A) D/(M-3)",
+        "correct_answer": "D"
+    },
+    {
+        "question": "If there are 5,000 voters out of which 20% are not eligible to vote and there are two candidates contesting. The winning candidate won by 15% of the votes. What is the total number of votes he got ?",
+        "options": [
+            "A)3267",
+            "B)2678",
+            "C)2797",
+            "D)2300",
+            "E)2781"
+        ],
+        "model_response": "E) 2781",
+        "correct_answer": "D"
+    },
+    {
+        "question": "Sharon works for 5 hours to earn enough tips to buy an ice cream cake, while Karen works for 4. After how many hours will they be able to buy the cake together?",
+        "options": [
+            "A)1 hour",
+            "B)2 hours",
+            "C)3 hours",
+            "D)4 hours",
+            "E)5 hours"
+        ],
+        "model_response": "B) 2 hours",
+        "correct_answer": "C"
+    },
+    {
+        "question": "The cross-section of a canal is shaped like a trapezium. If the canal is 10 m wide at the top and 6 m wide at the bottom and the area of cross-section is 640 square meters, the depth of cannel is?",
+        "options": [
+            "A)26",
+            "B)28",
+            "C)21",
+            "D)80",
+            "E)23"
+        ],
+        "model_response": "D) 80",
+        "correct_answer": "D"
+    },
+    {
+        "question": "If 27 bottles of soda cost A cents, how much will B bottles cost in dollars?",
+        "options": [
+            "A)AB/2700",
+            "B)27/AB",
+            "C)AB/270",
+            "D)2700/AB",
+            "E)100AB/27"
+        ],
+        "model_response": "E) 0.00037037037037037*A*B",
+        "correct_answer": "A"
+    },
+    {
+        "question": "R, S, T, and U are points on a line, and U is the midpoint of line segment ST. If the lengths of line segments RS, RT, and ST are 5, 17, and 22, respectively. What is the length of line segment RU?",
+        "options": [
+            "A)6",
+            "B)7",
+            "C)8",
+            "D)9",
+            "E)10"
+        ],
+        "model_response": "A) 6",
+        "correct_answer": "A"
+    },
+    {
+        "question": "Exactly 2/5th of the children in a certain class are girls. If there are 100 boys in the class, how many girls are in the class?",
+        "options": [
+            "A)50",
+            "B)100",
+            "C)150",
+            "D)200",
+            "E)70"
+        ],
+        "model_response": "D) 200",
+        "correct_answer": "C"
+    },
+    {
+        "question": "My wall contains 8 red colour ties, 13 violet colour ties,10 blue colour ties, 5 pink colour ties, 4 green colour ties. If electricity is gone and I want at least two ties of same colour then how many ties I should take out from my rack?",
+        "options": [
+            "A)2",
+            "B)3",
+            "C)4",
+            "D)5",
+            "E)6"
+        ],
+        "model_response": "D) 5",
+        "correct_answer": "E"
+    },
+    {
+        "question": "The manufacturer of tyres is offering a 20% discount on the price of its tubeless tyres. Some retailers are offering additional discounts. If a retailer offers an additional 20% discount, then what is the total discount available at that retailer?",
+        "options": [
+            "A)10%",
+            "B)25%",
+            "C)28%",
+            "D)30%",
+            "E)36%"
+        ],
+        "model_response": "E) 36%",
+        "correct_answer": "E"
+    },
+    {
+        "question": "In IPL season, Sachin current batting average is 51. In the finals, he scores 78 runs, then is batting average will be 54. Find out the total number of matches played by Sachin in this season.",
+        "options": [
+            "A)6",
+            "B)8",
+            "C)9",
+            "D)10",
+            "E)11"
+        ],
+        "model_response": "B) 8",
+        "correct_answer": "C"
+    },
+    {
+        "question": "Two friends are eating a jar full of candies. Had P eaten alone, it would have taken him 10 minutes to finish the candies in the jar. Had Q eaten alone, it would have taken her 5 minutes to finish half the jar. Since both of them are eating simultaneously, how many minutes would it take them to empty the jar?",
+        "options": [
+            "A)4",
+            "B)5",
+            "C)6",
+            "D)7",
+            "E)8"
+        ],
+        "model_response": "D) 7",
+        "correct_answer": "B"
+    },
+    {
+        "question": "Boomtown urban planners expect the city\u2019s population to increase by 10% per year over the next two years. If that projection were to come true, the population two years from now would be exactly double the population of one year ago. Which of the following is closest to the percent population increase in Boomtown over the last year?",
+        "options": [
+            "A)20%",
+            "B)40%",
+            "C)50%",
+            "D)65%",
+            "E)75%"
+        ],
+        "model_response": "B) 40%",
+        "correct_answer": "D"
+    },
+    {
+        "question": "All 250 files on Sam's hard drive are infected by either a virus or a worm or both. The number of files that are infected only by a worm is 2.5 times the number of files that are infected by both a virus and a worm. If 50% of the files were not infected by a virus, how many of Sam's files were NOT infected by a worm?",
+        "options": [
+            "A)50",
+            "B)70",
+            "C)75",
+            "D)100",
+            "E)125"
+        ],
+        "model_response": "C) 75",
+        "correct_answer": "C"
+    },
+    {
+        "question": "A sales person gets a 10% commission on each sale he makes. How many sales of $250 each must he make in order to reach a salary of at least $1000?",
+        "options": [
+            "A)15",
+            "B)24",
+            "C)25",
+            "D)40",
+            "E)52"
+        ],
+        "model_response": "D) 40",
+        "correct_answer": "D"
+    }
+]

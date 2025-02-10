@@ -1,0 +1,197 @@
+[
+    {
+        "dataset": "reasoning",
+        "question": [
+            "There are 3 people standing in a line numbered 1 through 3 in a left to right order.\nEach person has a set of attributes: Food, Nationality, Hobby.\nThe attributes have the following possible values:\n- Food: nectarine, garlic, cucumber\n- Nationality: chinese, japanese, thai\n- Hobby: magic-tricks, filmmaking, puzzles\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person that likes garlic is on the far left\n- the person who is thai is somewhere to the right of the person who likes magic-tricks\n- the person who is chinese is somewhere between the person that likes cucumber and the person who likes puzzles\n\nAnswer the following question:\nWhat is the hobby of the person who is thai? Return your answer as a single word, in the following format: ***X***, where X is the answer."
+        ],
+        "model_response": {
+            "input": [
+                "There are 3 people standing in a line numbered 1 through 3 in a left to right order.\nEach person has a set of attributes: Food, Nationality, Hobby.\nThe attributes have the following possible values:\n- Food: nectarine, garlic, cucumber\n- Nationality: chinese, japanese, thai\n- Hobby: magic-tricks, filmmaking, puzzles\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person that likes garlic is on the far left\n- the person who is thai is somewhere to the right of the person who likes magic-tricks\n- the person who is chinese is somewhere between the person that likes cucumber and the person who likes puzzles\n\nAnswer the following question:\nWhat is the hobby of the person who is thai? Return your answer as a single word, in the following format: ***X***, where X is the answer."
+            ],
+            "output": "***puzzles***"
+        },
+        "correct_answer": "filmmaking"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "Suppose I have a physical, solid, regular heptagon with vertices ABCDEFG, and I make three cuts through AC, AE, and BG. Of the resulting pieces, how many quadrilaterals are there? Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "Suppose I have a physical, solid, regular heptagon with vertices ABCDEFG, and I make three cuts through AC, AE, and BG. Of the resulting pieces, how many quadrilaterals are there? Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+            ],
+            "output": "**2**"
+        },
+        "correct_answer": "1"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "In this question, assume each person either always tells the truth or always lies. Mateo is at the barbershop. Priya is at the planetarium. The person at the art gallery lies. The person at the vineyard thinks their friend is lying. The person at the vineyard says the person at the gym tells the truth. Quan is at the vineyard. Anika is at the shopping mall. Theo is at the botanical garden. Ayaan is at the bookstore. The person at the planetarium says the person at the skate park lies. The person at the shopping mall tells the truth. The person at the skate park says the person at the beach tells the truth. The person at the barbershop says the person at the vineyard tells the truth. The person at the ice skating rink lies. The person at the skate park says the person at the vineyard lies. The person at the botanical garden thinks their friend is lying. Nia is at the beach. Emily is at the airport. The person at the vineyard saw a firetruck. Grace is at the skate park. The person at the skate park saw a firetruck. The person at the botanical garden says the person at the skate park lies. Maya is at the gym. Soren is at the ice skating rink. The person at the gym says the person at the shopping mall tells the truth. Ethan is at the art gallery. The person at the bookstore says the person at the vineyard lies. The person at the airport says the person at the gym tells the truth. Does the person at the botanical garden tell the truth? Does the person at the skate park tell the truth? Does the person at the vineyard tell the truth? Think step by step, and then put your answer in **bold** as a list of three words, yes or no (for example, **yes, no, yes**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "In this question, assume each person either always tells the truth or always lies. Mateo is at the barbershop. Priya is at the planetarium. The person at the art gallery lies. The person at the vineyard thinks their friend is lying. The person at the vineyard says the person at the gym tells the truth. Quan is at the vineyard. Anika is at the shopping mall. Theo is at the botanical garden. Ayaan is at the bookstore. The person at the planetarium says the person at the skate park lies. The person at the shopping mall tells the truth. The person at the skate park says the person at the beach tells the truth. The person at the barbershop says the person at the vineyard tells the truth. The person at the ice skating rink lies. The person at the skate park says the person at the vineyard lies. The person at the botanical garden thinks their friend is lying. Nia is at the beach. Emily is at the airport. The person at the vineyard saw a firetruck. Grace is at the skate park. The person at the skate park saw a firetruck. The person at the botanical garden says the person at the skate park lies. Maya is at the gym. Soren is at the ice skating rink. The person at the gym says the person at the shopping mall tells the truth. Ethan is at the art gallery. The person at the bookstore says the person at the vineyard lies. The person at the airport says the person at the gym tells the truth. Does the person at the botanical garden tell the truth? Does the person at the skate park tell the truth? Does the person at the vineyard tell the truth? Think step by step, and then put your answer in **bold** as a list of three words, yes or no (for example, **yes, no, yes**). If you don't know, guess."
+            ],
+            "output": "**yes, no, no**"
+        },
+        "correct_answer": "yes, no, yes"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "There are 4 people standing in a line numbered 1 through 4 in a left to right order.\nEach person has a set of attributes: Movie-Genre, Beverage, Job.\nThe attributes have the following possible values:\n- Movie-Genre: animation movies, thriller movies, scientific movies, disaster movies\n- Beverage: soy-milk, 7up, lemonade, water\n- Job: architect, chef, entrepreneur, teacher\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person that watches scientific movies is somewhere to the right of the person that watches animation movies\n- the person who drinks 7up is somewhere between the person who is a entrepreneur and the person who drinks soy-milk\n- the person that watches thriller movies is somewhere between the person who drinks 7up and the person who drinks water\n- the person that watches disaster movies is not anywhere to the left of the person who is a entrepreneur\n- the person who is a architect is not anywhere to the right of the person who drinks lemonade\n- the person that watches thriller movies is in an odd position\n- the person who is a architect watches thriller movies or the person who is a architect drinks water or both\n- the person who is a chef dislikes 7up\n\nAnswer the following question:\nWhat does the person who is a teacher prefer to drink? Return your answer as a single word, in the following format: ***X***, where X is the answer."
+        ],
+        "model_response": {
+            "input": [
+                "There are 4 people standing in a line numbered 1 through 4 in a left to right order.\nEach person has a set of attributes: Movie-Genre, Beverage, Job.\nThe attributes have the following possible values:\n- Movie-Genre: animation movies, thriller movies, scientific movies, disaster movies\n- Beverage: soy-milk, 7up, lemonade, water\n- Job: architect, chef, entrepreneur, teacher\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person that watches scientific movies is somewhere to the right of the person that watches animation movies\n- the person who drinks 7up is somewhere between the person who is a entrepreneur and the person who drinks soy-milk\n- the person that watches thriller movies is somewhere between the person who drinks 7up and the person who drinks water\n- the person that watches disaster movies is not anywhere to the left of the person who is a entrepreneur\n- the person who is a architect is not anywhere to the right of the person who drinks lemonade\n- the person that watches thriller movies is in an odd position\n- the person who is a architect watches thriller movies or the person who is a architect drinks water or both\n- the person who is a chef dislikes 7up\n\nAnswer the following question:\nWhat does the person who is a teacher prefer to drink? Return your answer as a single word, in the following format: ***X***, where X is the answer."
+            ],
+            "output": "***soy-milk***"
+        },
+        "correct_answer": "7up"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "There are 4 people standing in a line numbered 1 through 4 in a left to right order.\nEach person has a set of attributes: Movie-Genre, Nationality, Beverage, Pet.\nThe attributes have the following possible values:\n- Movie-Genre: scientific movies, mystery movies, epic movies, horror movies\n- Nationality: french, malaysian, indian, polish\n- Beverage: mirinda, cola, fanta, juice\n- Pet: pony, fish, ferret, cat\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who is polish is not anywhere to the left of the person that watches epic movies\n- the person that watches horror movies is somewhere between the person who is french and the person who is malaysian\n- the person who is french and the person that has a ferret have different parity positions\n- the person who drinks cola is somewhere to the right of the person who is french\n- the person that watches epic movies has a pony or the person that watches epic movies is polish, but not both\n- the person who drinks juice has a cat or the person who drinks juice is polish, but not both\n- the person that has a cat is somewhere to the left of the person who is french\n- the person that has a fish is polish or the person that has a fish watches epic movies, but not both\n- the person that watches horror movies is french or the person that watches horror movies drinks fanta, but not both\n- the person that watches horror movies is not anywhere to the right of the person that watches mystery movies\n\nAnswer the following question:\nWhat is the nationality of the second person? Return your answer as a single word, in the following format: ***X***, where X is the answer."
+        ],
+        "model_response": {
+            "input": [
+                "There are 4 people standing in a line numbered 1 through 4 in a left to right order.\nEach person has a set of attributes: Movie-Genre, Nationality, Beverage, Pet.\nThe attributes have the following possible values:\n- Movie-Genre: scientific movies, mystery movies, epic movies, horror movies\n- Nationality: french, malaysian, indian, polish\n- Beverage: mirinda, cola, fanta, juice\n- Pet: pony, fish, ferret, cat\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who is polish is not anywhere to the left of the person that watches epic movies\n- the person that watches horror movies is somewhere between the person who is french and the person who is malaysian\n- the person who is french and the person that has a ferret have different parity positions\n- the person who drinks cola is somewhere to the right of the person who is french\n- the person that watches epic movies has a pony or the person that watches epic movies is polish, but not both\n- the person who drinks juice has a cat or the person who drinks juice is polish, but not both\n- the person that has a cat is somewhere to the left of the person who is french\n- the person that has a fish is polish or the person that has a fish watches epic movies, but not both\n- the person that watches horror movies is french or the person that watches horror movies drinks fanta, but not both\n- the person that watches horror movies is not anywhere to the right of the person that watches mystery movies\n\nAnswer the following question:\nWhat is the nationality of the second person? Return your answer as a single word, in the following format: ***X***, where X is the answer."
+            ],
+            "output": "***Unknown***"
+        },
+        "correct_answer": "indian"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "Suppose I have three physical, solid spheres of radius 3 resting on a plane. Each sphere is tangent to the other two spheres. Now I add a fourth physical, solid sphere of radius 4 in a way that maximizes the number of tangent points among all pairs of spheres. How many tangent points are there among all pairs of spheres?  Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "Suppose I have three physical, solid spheres of radius 3 resting on a plane. Each sphere is tangent to the other two spheres. Now I add a fourth physical, solid sphere of radius 4 in a way that maximizes the number of tangent points among all pairs of spheres. How many tangent points are there among all pairs of spheres?  Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+            ],
+            "output": "**6**"
+        },
+        "correct_answer": "6"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "Suppose I have a physical, solid, regular pentagon with vertices ABCDE, and I make two cuts through AC and BD. How many pieces are there after the cuts?  Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "Suppose I have a physical, solid, regular pentagon with vertices ABCDE, and I make two cuts through AC and BD. How many pieces are there after the cuts?  Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+            ],
+            "output": "**5**"
+        },
+        "correct_answer": "4"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "Suppose I have a physical, solid, regular pentagon with vertices ABCDE, and I make two cuts through AC and BD. Of the resulting pieces, how many triangles are there? Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "Suppose I have a physical, solid, regular pentagon with vertices ABCDE, and I make two cuts through AC and BD. Of the resulting pieces, how many triangles are there? Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+            ],
+            "output": "**4**"
+        },
+        "correct_answer": "3"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "There are 3 people standing in a line numbered 1 through 3 in a left to right order.\nEach person has a set of attributes: Pet, Sport, Nationality, Beverage.\nThe attributes have the following possible values:\n- Pet: rat, snake, rabbit\n- Sport: ice-hockey, climbing, golf\n- Nationality: argentine, turkish, italian\n- Beverage: hot-chocolate, water, 7up\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who is turkish does not own a rabbit\n- the person that plays golf and the person who drinks water have different parity positions\n- the person that plays golf and the person that has a snake have different parity positions\n- the person who drinks hot-chocolate is not anywhere to the left of the person that has a snake\n- the person who drinks 7up is not anywhere to the left of the person who is argentine\n- the person that has a rat is somewhere between the person that has a snake and the person that has a rabbit\n- the person who is italian is somewhere between the person that plays climbing and the person who is argentine\n- the person who drinks 7up is not anywhere to the right of the person that has a rabbit\n\nAnswer the following question:\nAt what position is the person who is argentine? Return a single digit number, in the following format: ***N***, where N is the position."
+        ],
+        "model_response": {
+            "input": [
+                "There are 3 people standing in a line numbered 1 through 3 in a left to right order.\nEach person has a set of attributes: Pet, Sport, Nationality, Beverage.\nThe attributes have the following possible values:\n- Pet: rat, snake, rabbit\n- Sport: ice-hockey, climbing, golf\n- Nationality: argentine, turkish, italian\n- Beverage: hot-chocolate, water, 7up\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who is turkish does not own a rabbit\n- the person that plays golf and the person who drinks water have different parity positions\n- the person that plays golf and the person that has a snake have different parity positions\n- the person who drinks hot-chocolate is not anywhere to the left of the person that has a snake\n- the person who drinks 7up is not anywhere to the left of the person who is argentine\n- the person that has a rat is somewhere between the person that has a snake and the person that has a rabbit\n- the person who is italian is somewhere between the person that plays climbing and the person who is argentine\n- the person who drinks 7up is not anywhere to the right of the person that has a rabbit\n\nAnswer the following question:\nAt what position is the person who is argentine? Return a single digit number, in the following format: ***N***, where N is the position."
+            ],
+            "output": "***3***"
+        },
+        "correct_answer": "3"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "There are 3 people standing in a line numbered 1 through 3 in a left to right order.\nEach person has a set of attributes: Hobby, Music-Genre, Pet.\nThe attributes have the following possible values:\n- Hobby: rock-climbing, sudoku, traveling\n- Music-Genre: indie, folk, disco\n- Pet: rabbit, cat, pony\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who listens to indie is not anywhere to the right of the person who listens to folk\n- the person that has a cat is somewhere between the person who likes traveling and the person who listens to disco\n- the person who listens to folk is on the immediate left or immediate right of the person that has a rabbit\n- the person who likes rock-climbing and the person that has a pony have different parity positions\n- the person who likes sudoku does not own a rabbit\n\nAnswer the following question:\nAt what position is the person that has a rabbit? Return a single digit number, in the following format: ***N***, where N is the position."
+        ],
+        "model_response": {
+            "input": [
+                "There are 3 people standing in a line numbered 1 through 3 in a left to right order.\nEach person has a set of attributes: Hobby, Music-Genre, Pet.\nThe attributes have the following possible values:\n- Hobby: rock-climbing, sudoku, traveling\n- Music-Genre: indie, folk, disco\n- Pet: rabbit, cat, pony\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who listens to indie is not anywhere to the right of the person who listens to folk\n- the person that has a cat is somewhere between the person who likes traveling and the person who listens to disco\n- the person who listens to folk is on the immediate left or immediate right of the person that has a rabbit\n- the person who likes rock-climbing and the person that has a pony have different parity positions\n- the person who likes sudoku does not own a rabbit\n\nAnswer the following question:\nAt what position is the person that has a rabbit? Return a single digit number, in the following format: ***N***, where N is the position."
+            ],
+            "output": "***1***"
+        },
+        "correct_answer": "1"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "In this question, assume each person either always tells the truth or always lies. Beatriz is at the vineyard. The person at the city hall says the person at the school lies. The person at the ice skating rink says the person at the school tells the truth. Quan is at the ice skating rink. The person at the amusement park says the person at the school tells the truth. Olivia is at the restaurant. The person at the vineyard says the person at the botanical garden tells the truth. The person at the vineyard says the person at the campground tells the truth. Charlie is at the campground. Soren is at the school. Grace is at the barbershop. The person at the school says the person at the vineyard tells the truth. The person at the barbershop says the person at the campground tells the truth. Mateo is at the amusement park. Tala is at the botanical garden. The person at the campground tells the truth. The person at the restaurant tells the truth. Devika is at the city hall. The person at the amusement park thinks their neighbor is telling the truth. The person at the amusement park thinks their friend is lying. Does the person at the amusement park tell the truth? Does the person at the school tell the truth? Does the person at the vineyard tell the truth? Think step by step, and then put your answer in **bold** as a list of three words, yes or no (for example, **yes, no, yes**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "In this question, assume each person either always tells the truth or always lies. Beatriz is at the vineyard. The person at the city hall says the person at the school lies. The person at the ice skating rink says the person at the school tells the truth. Quan is at the ice skating rink. The person at the amusement park says the person at the school tells the truth. Olivia is at the restaurant. The person at the vineyard says the person at the botanical garden tells the truth. The person at the vineyard says the person at the campground tells the truth. Charlie is at the campground. Soren is at the school. Grace is at the barbershop. The person at the school says the person at the vineyard tells the truth. The person at the barbershop says the person at the campground tells the truth. Mateo is at the amusement park. Tala is at the botanical garden. The person at the campground tells the truth. The person at the restaurant tells the truth. Devika is at the city hall. The person at the amusement park thinks their neighbor is telling the truth. The person at the amusement park thinks their friend is lying. Does the person at the amusement park tell the truth? Does the person at the school tell the truth? Does the person at the vineyard tell the truth? Think step by step, and then put your answer in **bold** as a list of three words, yes or no (for example, **yes, no, yes**). If you don't know, guess."
+            ],
+            "output": "The question asks about the truthfulness of the people at the amusement park, school, and vineyard. Based on the given information and logical deductions, while there is some uncertainty, the most likely conclusion is that all three tell the truth. Therefore, the answer in the requested format is:\n\n**yes, yes, yes**\n\nThis means:\n- The person at the amusement park (Mateo) tells the truth: yes\n- The person at the school (Soren) tells the truth: yes\n- The person at the vineyard (Beatriz) tells the truth: yes"
+        },
+        "correct_answer": "yes, yes, yes"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "There are 4 people standing in a line numbered 1 through 4 in a left to right order.\nEach person has a set of attributes: Music-Genre, Transport, Nationality.\nThe attributes have the following possible values:\n- Music-Genre: punk, d&b, country, funk\n- Transport: tram, boat, car, helicopter\n- Nationality: british, french, chinese, italian\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who listens to d&b is on the immediate left or immediate right of the person who is british\n- the person that travels by tram and the person who is italian have the same parity positions\n- the person who listens to d&b and the person who is chinese have different parity positions\n- the person who is french is not anywhere to the right of the person that travels by tram\n- the person who listens to d&b is somewhere between the person who is british and the person that travels by car\n- the person who is italian is not anywhere to the left of the person that travels by tram\n- the person who listens to funk and the person who is british have the same parity positions\n- the person who is french is somewhere to the right of the person who is chinese\n- the person that travels by helicopter is somewhere between the person who listens to punk and the person who is british\n\nAnswer the following question:\nHow does the person who is british travel? Return your answer as a single word, in the following format: ***X***, where X is the answer."
+        ],
+        "model_response": {
+            "input": [
+                "There are 4 people standing in a line numbered 1 through 4 in a left to right order.\nEach person has a set of attributes: Music-Genre, Transport, Nationality.\nThe attributes have the following possible values:\n- Music-Genre: punk, d&b, country, funk\n- Transport: tram, boat, car, helicopter\n- Nationality: british, french, chinese, italian\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who listens to d&b is on the immediate left or immediate right of the person who is british\n- the person that travels by tram and the person who is italian have the same parity positions\n- the person who listens to d&b and the person who is chinese have different parity positions\n- the person who is french is not anywhere to the right of the person that travels by tram\n- the person who listens to d&b is somewhere between the person who is british and the person that travels by car\n- the person who is italian is not anywhere to the left of the person that travels by tram\n- the person who listens to funk and the person who is british have the same parity positions\n- the person who is french is somewhere to the right of the person who is chinese\n- the person that travels by helicopter is somewhere between the person who listens to punk and the person who is british\n\nAnswer the following question:\nHow does the person who is british travel? Return your answer as a single word, in the following format: ***X***, where X is the answer."
+            ],
+            "output": "***boat***"
+        },
+        "correct_answer": "boat"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "There are 4 people standing in a line numbered 1 through 4 in a left to right order.\nEach person has a set of attributes: Nationality, Sport, Music-Genre, Food.\nThe attributes have the following possible values:\n- Nationality: canadian, colombian, thai, german\n- Sport: skateboarding, climbing, tennis, volleyball\n- Music-Genre: rock, folk, hip-hop, jazz\n- Food: peas, pineapple, corn, pumpkin\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who listens to jazz plays tennis or the person that plays tennis is thai, but not both\n- the person who is thai is not anywhere to the left of the person who listens to folk\n- the person who is thai is somewhere to the right of the person who is german\n- the person that plays skateboarding and the person who is canadian have different parity positions\n- the person who is thai is in an odd position\n- the person that plays climbing is somewhere to the left of the person that likes pineapple\n- the person that likes pumpkin is somewhere to the left of the person who is german\n- the person that plays climbing is not german\n- the person that plays skateboarding cannot stand rock\n- the person that likes corn is not anywhere to the right of the person that plays skateboarding\n- the person who listens to folk is on the immediate left or immediate right of the person that likes corn\n- the person that likes pumpkin is not anywhere to the left of the person that plays tennis\n- the person who listens to hip-hop is somewhere between the person that likes pineapple and the person that likes pumpkin\n\nAnswer the following question:\nWhat sport does the person in the third position play? Return your answer as a single word, in the following format: ***X***, where X is the answer."
+        ],
+        "model_response": {
+            "input": [
+                "There are 4 people standing in a line numbered 1 through 4 in a left to right order.\nEach person has a set of attributes: Nationality, Sport, Music-Genre, Food.\nThe attributes have the following possible values:\n- Nationality: canadian, colombian, thai, german\n- Sport: skateboarding, climbing, tennis, volleyball\n- Music-Genre: rock, folk, hip-hop, jazz\n- Food: peas, pineapple, corn, pumpkin\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who listens to jazz plays tennis or the person that plays tennis is thai, but not both\n- the person who is thai is not anywhere to the left of the person who listens to folk\n- the person who is thai is somewhere to the right of the person who is german\n- the person that plays skateboarding and the person who is canadian have different parity positions\n- the person who is thai is in an odd position\n- the person that plays climbing is somewhere to the left of the person that likes pineapple\n- the person that likes pumpkin is somewhere to the left of the person who is german\n- the person that plays climbing is not german\n- the person that plays skateboarding cannot stand rock\n- the person that likes corn is not anywhere to the right of the person that plays skateboarding\n- the person who listens to folk is on the immediate left or immediate right of the person that likes corn\n- the person that likes pumpkin is not anywhere to the left of the person that plays tennis\n- the person who listens to hip-hop is somewhere between the person that likes pineapple and the person that likes pumpkin\n\nAnswer the following question:\nWhat sport does the person in the third position play? Return your answer as a single word, in the following format: ***X***, where X is the answer."
+            ],
+            "output": "***volleyball***"
+        },
+        "correct_answer": "climbing"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "In this question, assume each person either always tells the truth or always lies. Tala is at the movie theater. The person at the restaurant says the person at the aquarium lies. Ayaan is at the aquarium. Ryan is at the botanical garden. The person at the park says the person at the art gallery lies. The person at the museum tells the truth. Zara is at the museum. Jake is at the art gallery. The person at the art gallery says the person at the theater lies. Beatriz is at the park. The person at the movie theater says the person at the train station lies. Nadia is at the campground. The person at the campground says the person at the art gallery tells the truth. The person at the theater lies. The person at the amusement park says the person at the aquarium tells the truth. Grace is at the restaurant. The person at the aquarium thinks their friend is lying. Nia is at the theater. Kehinde is at the train station. The person at the theater thinks their friend is lying. The person at the botanical garden says the person at the train station tells the truth. The person at the aquarium says the person at the campground tells the truth. The person at the aquarium saw a firetruck. The person at the train station says the person at the amusement park lies. Mateo is at the amusement park. Does the person at the train station tell the truth? Does the person at the amusement park tell the truth? Does the person at the aquarium tell the truth? Think step by step, and then put your answer in **bold** as a list of three words, yes or no (for example, **yes, no, yes**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "In this question, assume each person either always tells the truth or always lies. Tala is at the movie theater. The person at the restaurant says the person at the aquarium lies. Ayaan is at the aquarium. Ryan is at the botanical garden. The person at the park says the person at the art gallery lies. The person at the museum tells the truth. Zara is at the museum. Jake is at the art gallery. The person at the art gallery says the person at the theater lies. Beatriz is at the park. The person at the movie theater says the person at the train station lies. Nadia is at the campground. The person at the campground says the person at the art gallery tells the truth. The person at the theater lies. The person at the amusement park says the person at the aquarium tells the truth. Grace is at the restaurant. The person at the aquarium thinks their friend is lying. Nia is at the theater. Kehinde is at the train station. The person at the theater thinks their friend is lying. The person at the botanical garden says the person at the train station tells the truth. The person at the aquarium says the person at the campground tells the truth. The person at the aquarium saw a firetruck. The person at the train station says the person at the amusement park lies. Mateo is at the amusement park. Does the person at the train station tell the truth? Does the person at the amusement park tell the truth? Does the person at the aquarium tell the truth? Think step by step, and then put your answer in **bold** as a list of three words, yes or no (for example, **yes, no, yes**). If you don't know, guess."
+            ],
+            "output": "**yes, no, no**"
+        },
+        "correct_answer": "no, yes, yes"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "Suppose I have a regular dodecagon, and I can make three straight cuts. Each cut cannot pass through any of the vertices of the dodecagon. Also, exactly two of the cuts must be parallel. What is the maximum number of resulting pieces? Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "Suppose I have a regular dodecagon, and I can make three straight cuts. Each cut cannot pass through any of the vertices of the dodecagon. Also, exactly two of the cuts must be parallel. What is the maximum number of resulting pieces? Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+            ],
+            "output": "**16**"
+        },
+        "correct_answer": "6"
+    }
+]

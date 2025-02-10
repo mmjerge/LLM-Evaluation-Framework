@@ -1,0 +1,552 @@
+[
+    {
+        "id": 0,
+        "unsorted_list": "[0, 0, 5, 9, 0, 7, 9, 9, 1, 2, 6, 1, 1, 9, 0, 1, 3, 5, 2, 3, 5, 6, 0, 2, 7, 4, 6, 2, 9, 7, 5, 9]",
+        "model_sorted_list": {
+            "input": "[0, 0, 5, 9, 0, 7, 9, 9, 1, 2, 6, 1, 1, 9, 0, 1, 3, 5, 2, 3, 5, 6, 0, 2, 7, 4, 6, 2, 9, 7, 5, 9]",
+            "output": "Here is the list sorted in ascending order:\n\n[0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 9, 9, 9, 9, 9, 9]\n\nTo break it down:\n- 0 appears 5 times\n- 1 appears 4 times\n- 2 appears 4 times\n- 3 appears 2 times\n- 4 appears 1 time\n- 5 appears 4 times\n- 6 appears 3 times\n- 7 appears 3 times\n- 9 appears 6 times\n\nThis is the complete list sorted in ascending order."
+        },
+        "correct_sorted_list": "[0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 9, 9, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 9, 9, 9, 9, 9, 9], but got {'input': '[0, 0, 5, 9, 0, 7, 9, 9, 1, 2, 6, 1, 1, 9, 0, 1, 3, 5, 2, 3, 5, 6, 0, 2, 7, 4, 6, 2, 9, 7, 5, 9]', 'output': 'Here is the list sorted in ascending order:\\n\\n[0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 9, 9, 9, 9, 9, 9]\\n\\nTo break it down:\\n- 0 appears 5 times\\n- 1 appears 4 times\\n- 2 appears 4 times\\n- 3 appears 2 times\\n- 4 appears 1 time\\n- 5 appears 4 times\\n- 6 appears 3 times\\n- 7 appears 3 times\\n- 9 appears 6 times\\n\\nThis is the complete list sorted in ascending order.'}.",
+        "is_correct": false
+    },
+    {
+        "id": 1,
+        "unsorted_list": "[5, 6, 2, 3, 1, 4, 9, 0, 5, 7, 0, 7, 1, 3, 2, 4, 5, 5, 6, 6, 3, 6, 4, 4, 2, 3, 7, 1, 7, 0, 2, 5]",
+        "model_sorted_list": {
+            "input": "[5, 6, 2, 3, 1, 4, 9, 0, 5, 7, 0, 7, 1, 3, 2, 4, 5, 5, 6, 6, 3, 6, 4, 4, 2, 3, 7, 1, 7, 0, 2, 5]",
+            "output": "The list sorted in ascending order is:\n[0, 0, 0, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 9]"
+        },
+        "correct_sorted_list": "[0, 0, 0, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 9], but got {'input': '[5, 6, 2, 3, 1, 4, 9, 0, 5, 7, 0, 7, 1, 3, 2, 4, 5, 5, 6, 6, 3, 6, 4, 4, 2, 3, 7, 1, 7, 0, 2, 5]', 'output': 'The list sorted in ascending order is:\\n[0, 0, 0, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 9]'}.",
+        "is_correct": false
+    },
+    {
+        "id": 2,
+        "unsorted_list": "[9, 6, 7, 0, 7, 7, 4, 7, 9, 3, 6, 5, 0, 8, 1, 8, 6, 1, 5, 3, 3, 5, 3, 4, 2, 2, 4, 5, 8, 6, 0, 3]",
+        "model_sorted_list": {
+            "input": "[9, 6, 7, 0, 7, 7, 4, 7, 9, 3, 6, 5, 0, 8, 1, 8, 6, 1, 5, 3, 3, 5, 3, 4, 2, 2, 4, 5, 8, 6, 0, 3]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 1, 1, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9]\n\nThis list contains all the numbers from the original list, arranged from smallest (0) to largest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 0, 1, 1, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 1, 1, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 9, 9], but got {'input': '[9, 6, 7, 0, 7, 7, 4, 7, 9, 3, 6, 5, 0, 8, 1, 8, 6, 1, 5, 3, 3, 5, 3, 4, 2, 2, 4, 5, 8, 6, 0, 3]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 1, 1, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9]\\n\\nThis list contains all the numbers from the original list, arranged from smallest (0) to largest (9), with each number appearing as many times as it did in the original list.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 3,
+        "unsorted_list": "[8, 7, 1, 1, 1, 1, 3, 3, 0, 9, 4, 1, 0, 2, 5, 1, 0, 5, 6, 7, 1, 4, 5, 9, 4, 6, 2, 5, 8, 6, 2, 6]",
+        "model_sorted_list": {
+            "input": "[8, 7, 1, 1, 1, 1, 3, 3, 0, 9, 4, 1, 0, 2, 5, 1, 0, 5, 6, 7, 1, 4, 5, 9, 4, 6, 2, 5, 8, 6, 2, 6]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9]\n\nThis sorted list contains all the numbers from the original list, arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9], but got {'input': '[8, 7, 1, 1, 1, 1, 3, 3, 0, 9, 4, 1, 0, 2, 5, 1, 0, 5, 6, 7, 1, 4, 5, 9, 4, 6, 2, 5, 8, 6, 2, 6]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9]\\n\\nThis sorted list contains all the numbers from the original list, arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 4,
+        "unsorted_list": "[5, 3, 9, 6, 3, 2, 9, 8, 2, 4, 2, 1, 8, 1, 8, 0, 0, 3, 7, 4, 4, 9, 9, 5, 4, 6, 5, 4, 3, 4, 1, 1]",
+        "model_sorted_list": {
+            "input": "[5, 3, 9, 6, 3, 2, 9, 8, 2, 4, 2, 1, 8, 1, 8, 0, 0, 3, 7, 4, 4, 9, 9, 5, 4, 6, 5, 4, 3, 4, 1, 1]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 6, 6, 7, 8, 8, 8, 9, 9, 9, 9]\n\nThis list contains all the same numbers as the original list, but they are now arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 6, 6, 7, 8, 8, 8, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 6, 6, 7, 8, 8, 8, 9, 9, 9, 9], but got {'input': '[5, 3, 9, 6, 3, 2, 9, 8, 2, 4, 2, 1, 8, 1, 8, 0, 0, 3, 7, 4, 4, 9, 9, 5, 4, 6, 5, 4, 3, 4, 1, 1]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 6, 6, 7, 8, 8, 8, 9, 9, 9, 9]\\n\\nThis list contains all the same numbers as the original list, but they are now arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 5,
+        "unsorted_list": "[4, 6, 9, 5, 8, 6, 5, 4, 0, 4, 2, 6, 3, 6, 8, 5, 5, 2, 3, 5, 0, 9, 8, 6, 5, 5, 5, 8, 1, 5, 8, 7]",
+        "model_sorted_list": {
+            "input": "[4, 6, 9, 5, 8, 6, 5, 4, 0, 4, 2, 6, 3, 6, 8, 5, 5, 2, 3, 5, 0, 9, 8, 6, 5, 5, 5, 8, 1, 5, 8, 7]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 1, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 8, 8, 8, 8, 9, 9]\n\nThis sorted list contains all the numbers from the original list, arranged from the smallest (0) to the largest (9). Each number appears as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 1, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 8, 8, 8, 8, 8, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 1, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 8, 8, 8, 8, 8, 9, 9], but got {'input': '[4, 6, 9, 5, 8, 6, 5, 4, 0, 4, 2, 6, 3, 6, 8, 5, 5, 2, 3, 5, 0, 9, 8, 6, 5, 5, 5, 8, 1, 5, 8, 7]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 1, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 8, 8, 8, 8, 9, 9]\\n\\nThis sorted list contains all the numbers from the original list, arranged from the smallest (0) to the largest (9). Each number appears as many times as it did in the original list.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 6,
+        "unsorted_list": "[9, 6, 4, 1, 9, 6, 3, 1, 1, 7, 3, 9, 2, 6, 2, 9, 9, 4, 2, 7, 4, 0, 2, 3, 1, 7, 9, 8, 3, 0, 7, 3]",
+        "model_sorted_list": {
+            "input": "[9, 6, 4, 1, 9, 6, 3, 1, 1, 7, 3, 9, 2, 6, 2, 9, 9, 4, 2, 7, 4, 0, 2, 3, 1, 7, 9, 8, 3, 0, 7, 3]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 6, 6, 6, 7, 7, 7, 8, 9, 9, 9, 9, 9, 9, 9]"
+        },
+        "correct_sorted_list": "[0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 6, 6, 6, 7, 7, 7, 7, 8, 9, 9, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 6, 6, 6, 7, 7, 7, 7, 8, 9, 9, 9, 9, 9, 9], but got {'input': '[9, 6, 4, 1, 9, 6, 3, 1, 1, 7, 3, 9, 2, 6, 2, 9, 9, 4, 2, 7, 4, 0, 2, 3, 1, 7, 9, 8, 3, 0, 7, 3]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 6, 6, 6, 7, 7, 7, 8, 9, 9, 9, 9, 9, 9, 9]\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 7,
+        "unsorted_list": "[9, 2, 4, 7, 4, 8, 8, 4, 7, 5, 8, 9, 0, 1, 0, 0, 0, 0, 7, 3, 4, 7, 7, 7, 9, 8, 6, 3, 2, 6, 6, 8]",
+        "model_sorted_list": {
+            "input": "[9, 2, 4, 7, 4, 8, 8, 4, 7, 5, 8, 9, 0, 1, 0, 0, 0, 0, 7, 3, 4, 7, 7, 7, 9, 8, 6, 3, 2, 6, 6, 8]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 0, 0, 1, 2, 2, 3, 3, 4, 4, 4, 4, 5, 6, 6, 6, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9]"
+        },
+        "correct_sorted_list": "[0, 0, 0, 0, 0, 1, 2, 2, 3, 3, 4, 4, 4, 4, 5, 6, 6, 6, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 0, 0, 1, 2, 2, 3, 3, 4, 4, 4, 4, 5, 6, 6, 6, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9], but got {'input': '[9, 2, 4, 7, 4, 8, 8, 4, 7, 5, 8, 9, 0, 1, 0, 0, 0, 0, 7, 3, 4, 7, 7, 7, 9, 8, 6, 3, 2, 6, 6, 8]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 0, 0, 1, 2, 2, 3, 3, 4, 4, 4, 4, 5, 6, 6, 6, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9]\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 8,
+        "unsorted_list": "[6, 6, 9, 1, 7, 3, 5, 9, 7, 9, 1, 4, 8, 2, 5, 7, 0, 8, 8, 8, 9, 8, 1, 0, 5, 6, 5, 9, 2, 1, 7, 7]",
+        "model_sorted_list": {
+            "input": "[6, 6, 9, 1, 7, 3, 5, 9, 7, 9, 1, 4, 8, 2, 5, 7, 0, 8, 8, 8, 9, 8, 1, 0, 5, 6, 5, 9, 2, 1, 7, 7]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 1, 1, 1, 1, 2, 2, 3, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9]"
+        },
+        "correct_sorted_list": "[0, 0, 1, 1, 1, 1, 2, 2, 3, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 1, 1, 1, 1, 2, 2, 3, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9], but got {'input': '[6, 6, 9, 1, 7, 3, 5, 9, 7, 9, 1, 4, 8, 2, 5, 7, 0, 8, 8, 8, 9, 8, 1, 0, 5, 6, 5, 9, 2, 1, 7, 7]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 1, 1, 1, 1, 2, 2, 3, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9]\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 9,
+        "unsorted_list": "[0, 3, 5, 9, 3, 1, 0, 2, 9, 9, 8, 1, 7, 6, 8, 1, 7, 1, 7, 1, 3, 2, 4, 2, 8, 4, 6, 8, 3, 2, 7, 0]",
+        "model_sorted_list": {
+            "input": "[0, 3, 5, 9, 3, 1, 0, 2, 9, 9, 8, 1, 7, 6, 8, 1, 7, 1, 7, 1, 3, 2, 4, 2, 8, 4, 6, 8, 3, 2, 7, 0]",
+            "output": "[0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9]\n\nThis is the original list sorted in ascending order. Each number appears the same number of times as in the original list, but they are now arranged from smallest to largest."
+        },
+        "correct_sorted_list": "[0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9], but got {'input': '[0, 3, 5, 9, 3, 1, 0, 2, 9, 9, 8, 1, 7, 6, 8, 1, 7, 1, 7, 1, 3, 2, 4, 2, 8, 4, 6, 8, 3, 2, 7, 0]', 'output': '[0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9]\\n\\nThis is the original list sorted in ascending order. Each number appears the same number of times as in the original list, but they are now arranged from smallest to largest.'}.",
+        "is_correct": false
+    },
+    {
+        "id": 10,
+        "unsorted_list": "[5, 2, 2, 3, 5, 5, 6, 2, 6, 9, 9, 9, 9, 7, 5, 1, 4, 5, 0, 4, 0, 3, 6, 6, 8, 1, 2, 2, 2, 3, 7, 2]",
+        "model_sorted_list": {
+            "input": "[5, 2, 2, 3, 5, 5, 6, 2, 6, 9, 9, 9, 9, 7, 5, 1, 4, 5, 0, 4, 0, 3, 6, 6, 8, 1, 2, 2, 2, 3, 7, 2]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 9, 9, 9, 9]\n\nThis list contains all the same numbers as the original list, but arranged from the smallest (0) to the largest (9), with each number appearing the same number of times as in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 9, 9, 9, 9], but got {'input': '[5, 2, 2, 3, 5, 5, 6, 2, 6, 9, 9, 9, 9, 7, 5, 1, 4, 5, 0, 4, 0, 3, 6, 6, 8, 1, 2, 2, 2, 3, 7, 2]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 9, 9, 9, 9]\\n\\nThis list contains all the same numbers as the original list, but arranged from the smallest (0) to the largest (9), with each number appearing the same number of times as in the original list.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 11,
+        "unsorted_list": "[4, 1, 7, 1, 8, 8, 7, 5, 7, 1, 6, 1, 6, 1, 4, 4, 0, 0, 3, 3, 5, 6, 9, 3, 4, 9, 9, 2, 3, 0, 5, 5]",
+        "model_sorted_list": {
+            "input": "[4, 1, 7, 1, 8, 8, 7, 5, 7, 1, 6, 1, 6, 1, 4, 4, 0, 0, 3, 3, 5, 6, 9, 3, 4, 9, 9, 2, 3, 0, 5, 5]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 1, 1, 1, 1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9]"
+        },
+        "correct_sorted_list": "[0, 0, 0, 1, 1, 1, 1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 1, 1, 1, 1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9], but got {'input': '[4, 1, 7, 1, 8, 8, 7, 5, 7, 1, 6, 1, 6, 1, 4, 4, 0, 0, 3, 3, 5, 6, 9, 3, 4, 9, 9, 2, 3, 0, 5, 5]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 1, 1, 1, 1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9]\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 12,
+        "unsorted_list": "[6, 6, 5, 3, 1, 7, 2, 8, 7, 2, 0, 5, 4, 5, 0, 5, 8, 0, 4, 8, 5, 9, 0, 0, 2, 3, 4, 3, 2, 0, 4, 4]",
+        "model_sorted_list": {
+            "input": "[6, 6, 5, 3, 1, 7, 2, 8, 7, 2, 0, 5, 4, 5, 0, 5, 8, 0, 4, 8, 5, 9, 0, 0, 2, 3, 4, 3, 2, 0, 4, 4]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9]\n\nThis sorted list contains all the numbers from the original list, arranged from smallest (0) to largest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9], but got {'input': '[6, 6, 5, 3, 1, 7, 2, 8, 7, 2, 0, 5, 4, 5, 0, 5, 8, 0, 4, 8, 5, 9, 0, 0, 2, 3, 4, 3, 2, 0, 4, 4]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9]\\n\\nThis sorted list contains all the numbers from the original list, arranged from smallest (0) to largest (9), with each number appearing as many times as it did in the original list.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 13,
+        "unsorted_list": "[7, 0, 9, 2, 0, 6, 5, 9, 3, 5, 6, 2, 0, 1, 4, 7, 5, 7, 0, 9, 8, 2, 1, 3, 4, 4, 8, 4, 2, 7, 9, 7]",
+        "model_sorted_list": {
+            "input": "[7, 0, 9, 2, 0, 6, 5, 9, 3, 5, 6, 2, 0, 1, 4, 7, 5, 7, 0, 9, 8, 2, 1, 3, 4, 4, 8, 4, 2, 7, 9, 7]",
+            "output": "[0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9, 9]\n\nThis list contains all the numbers from the original list, sorted from lowest (0) to highest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9], but got {'input': '[7, 0, 9, 2, 0, 6, 5, 9, 3, 5, 6, 2, 0, 1, 4, 7, 5, 7, 0, 9, 8, 2, 1, 3, 4, 4, 8, 4, 2, 7, 9, 7]', 'output': '[0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9, 9]\\n\\nThis list contains all the numbers from the original list, sorted from lowest (0) to highest (9), with each number appearing as many times as it did in the original list.'}.",
+        "is_correct": false
+    },
+    {
+        "id": 14,
+        "unsorted_list": "[3, 4, 7, 1, 9, 8, 3, 0, 6, 4, 4, 1, 9, 9, 9, 2, 8, 4, 7, 4, 7, 9, 7, 6, 9, 7, 2, 1, 4, 5, 3, 1]",
+        "model_sorted_list": {
+            "input": "[3, 4, 7, 1, 9, 8, 3, 0, 6, 4, 4, 1, 9, 9, 9, 2, 8, 4, 7, 4, 7, 9, 7, 6, 9, 7, 2, 1, 4, 5, 3, 1]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 1, 1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 6, 6, 7, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9, 9, 9]"
+        },
+        "correct_sorted_list": "[0, 1, 1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 6, 6, 7, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 1, 1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 6, 6, 7, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9, 9, 9], but got {'input': '[3, 4, 7, 1, 9, 8, 3, 0, 6, 4, 4, 1, 9, 9, 9, 2, 8, 4, 7, 4, 7, 9, 7, 6, 9, 7, 2, 1, 4, 5, 3, 1]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 1, 1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 6, 6, 7, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9, 9, 9]\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 15,
+        "unsorted_list": "[8, 7, 0, 7, 8, 6, 3, 6, 6, 9, 8, 0, 3, 9, 3, 1, 7, 7, 4, 2, 5, 8, 2, 8, 7, 2, 1, 2, 6, 5, 5, 2]",
+        "model_sorted_list": {
+            "input": "[8, 7, 0, 7, 8, 6, 3, 6, 6, 9, 8, 0, 3, 9, 3, 1, 7, 7, 4, 2, 5, 8, 2, 8, 7, 2, 1, 2, 6, 5, 5, 2]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9]\n\nThis sorted list contains all the same numbers as the original list, but arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9], but got {'input': '[8, 7, 0, 7, 8, 6, 3, 6, 6, 9, 8, 0, 3, 9, 3, 1, 7, 7, 4, 2, 5, 8, 2, 8, 7, 2, 1, 2, 6, 5, 5, 2]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9]\\n\\nThis sorted list contains all the same numbers as the original list, but arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 16,
+        "unsorted_list": "[9, 7, 1, 8, 7, 9, 5, 0, 9, 0, 6, 4, 5, 7, 0, 9, 2, 5, 8, 4, 3, 9, 6, 4, 6, 1, 7, 2, 2, 5, 3, 0]",
+        "model_sorted_list": {
+            "input": "[9, 7, 1, 8, 7, 9, 5, 0, 9, 0, 6, 4, 5, 7, 0, 9, 2, 5, 8, 4, 3, 9, 6, 4, 6, 1, 7, 2, 2, 5, 3, 0]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 0, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9, 9]\n\nThis list contains all the numbers from the original list, arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 0, 0, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 0, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9, 9], but got {'input': '[9, 7, 1, 8, 7, 9, 5, 0, 9, 0, 6, 4, 5, 7, 0, 9, 2, 5, 8, 4, 3, 9, 6, 4, 6, 1, 7, 2, 2, 5, 3, 0]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 0, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9, 9]\\n\\nThis list contains all the numbers from the original list, arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 17,
+        "unsorted_list": "[7, 5, 1, 8, 1, 5, 9, 6, 0, 9, 8, 2, 1, 2, 7, 4, 5, 7, 3, 7, 8, 5, 1, 0, 4, 7, 8, 1, 4, 1, 4, 2]",
+        "model_sorted_list": {
+            "input": "[7, 5, 1, 8, 1, 5, 9, 6, 0, 9, 8, 2, 1, 2, 7, 4, 5, 7, 3, 7, 8, 5, 1, 0, 4, 7, 8, 1, 4, 1, 4, 2]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 7, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9]"
+        },
+        "correct_sorted_list": "[0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 7, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 7, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9], but got {'input': '[7, 5, 1, 8, 1, 5, 9, 6, 0, 9, 8, 2, 1, 2, 7, 4, 5, 7, 3, 7, 8, 5, 1, 0, 4, 7, 8, 1, 4, 1, 4, 2]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 7, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9]\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 18,
+        "unsorted_list": "[4, 3, 6, 3, 7, 8, 5, 6, 5, 6, 8, 3, 6, 5, 5, 6, 0, 8, 4, 9, 2, 0, 4, 3, 2, 2, 5, 0, 8, 5, 2, 6]",
+        "model_sorted_list": {
+            "input": "[4, 3, 6, 3, 7, 8, 5, 6, 5, 6, 8, 3, 6, 5, 5, 6, 0, 8, 4, 9, 2, 0, 4, 3, 2, 2, 5, 0, 8, 5, 2, 6]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 7, 8, 8, 8, 8, 9]"
+        },
+        "correct_sorted_list": "[0, 0, 0, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 7, 8, 8, 8, 8, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 7, 8, 8, 8, 8, 9], but got {'input': '[4, 3, 6, 3, 7, 8, 5, 6, 5, 6, 8, 3, 6, 5, 5, 6, 0, 8, 4, 9, 2, 0, 4, 3, 2, 2, 5, 0, 8, 5, 2, 6]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 7, 8, 8, 8, 8, 9]\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 19,
+        "unsorted_list": "[9, 7, 8, 2, 6, 2, 9, 7, 6, 8, 1, 0, 6, 3, 5, 0, 3, 6, 2, 4, 2, 0, 6, 8, 3, 1, 9, 7, 7, 2, 6, 4]",
+        "model_sorted_list": {
+            "input": "[9, 7, 8, 2, 6, 2, 9, 7, 6, 8, 1, 0, 6, 3, 5, 0, 3, 6, 2, 4, 2, 0, 6, 8, 3, 1, 9, 7, 7, 2, 6, 4]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 4, 4, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 9, 9, 9]\n\nThis list contains all the numbers from the original list, arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 0, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 4, 4, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 4, 4, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 9, 9, 9], but got {'input': '[9, 7, 8, 2, 6, 2, 9, 7, 6, 8, 1, 0, 6, 3, 5, 0, 3, 6, 2, 4, 2, 0, 6, 8, 3, 1, 9, 7, 7, 2, 6, 4]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 4, 4, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 9, 9, 9]\\n\\nThis list contains all the numbers from the original list, arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 20,
+        "unsorted_list": "[8, 7, 6, 4, 5, 6, 4, 0, 2, 1, 8, 0, 2, 0, 8, 1, 8, 4, 4, 9, 7, 6, 0, 9, 6, 6, 1, 2, 5, 4, 7, 3]",
+        "model_sorted_list": {
+            "input": "[8, 7, 6, 4, 5, 6, 4, 0, 2, 1, 8, 0, 2, 0, 8, 1, 8, 4, 4, 9, 7, 6, 0, 9, 6, 6, 1, 2, 5, 4, 7, 3]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 4, 4, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9, 9]"
+        },
+        "correct_sorted_list": "[0, 0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 4, 4, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 4, 4, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9, 9], but got {'input': '[8, 7, 6, 4, 5, 6, 4, 0, 2, 1, 8, 0, 2, 0, 8, 1, 8, 4, 4, 9, 7, 6, 0, 9, 6, 6, 1, 2, 5, 4, 7, 3]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 4, 4, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9, 9]\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 21,
+        "unsorted_list": "[6, 6, 4, 0, 7, 9, 5, 2, 0, 4, 2, 4, 8, 4, 0, 3, 7, 0, 4, 3, 1, 3, 0, 1, 9, 6, 7, 4, 9, 1, 3, 0]",
+        "model_sorted_list": {
+            "input": "[6, 6, 4, 0, 7, 9, 5, 2, 0, 4, 2, 4, 8, 4, 0, 3, 7, 0, 4, 3, 1, 3, 0, 1, 9, 6, 7, 4, 9, 1, 3, 0]",
+            "output": "[0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 6, 6, 6, 7, 7, 7, 8, 9, 9, 9]\n\nThis list contains the same numbers as the original, but arranged from the smallest (0) to the largest (9), with each number appearing the same number of times as in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 6, 6, 6, 7, 7, 7, 8, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 6, 6, 6, 7, 7, 7, 8, 9, 9, 9], but got {'input': '[6, 6, 4, 0, 7, 9, 5, 2, 0, 4, 2, 4, 8, 4, 0, 3, 7, 0, 4, 3, 1, 3, 0, 1, 9, 6, 7, 4, 9, 1, 3, 0]', 'output': '[0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 6, 6, 6, 7, 7, 7, 8, 9, 9, 9]\\n\\nThis list contains the same numbers as the original, but arranged from the smallest (0) to the largest (9), with each number appearing the same number of times as in the original list.'}.",
+        "is_correct": false
+    },
+    {
+        "id": 22,
+        "unsorted_list": "[6, 8, 0, 2, 7, 7, 9, 7, 9, 0, 6, 6, 8, 9, 1, 4, 2, 9, 6, 6, 2, 0, 0, 7, 5, 2, 5, 1, 3, 5, 2, 6]",
+        "model_sorted_list": {
+            "input": "[6, 8, 0, 2, 7, 7, 9, 7, 9, 0, 6, 6, 8, 9, 1, 4, 2, 9, 6, 6, 2, 0, 0, 7, 5, 2, 5, 1, 3, 5, 2, 6]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 2, 3, 4, 5, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9]\n\nThis sorted list contains:\n- Four 0s\n- Two 1s\n- Five 2s\n- One 3\n- One 4\n- Three 5s\n- Six 6s\n- Four 7s\n- Two 8s\n- Four 9s\n\nAll numbers are now arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 2, 3, 4, 5, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 2, 3, 4, 5, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9], but got {'input': '[6, 8, 0, 2, 7, 7, 9, 7, 9, 0, 6, 6, 8, 9, 1, 4, 2, 9, 6, 6, 2, 0, 0, 7, 5, 2, 5, 1, 3, 5, 2, 6]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 2, 3, 4, 5, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9]\\n\\nThis sorted list contains:\\n- Four 0s\\n- Two 1s\\n- Five 2s\\n- One 3\\n- One 4\\n- Three 5s\\n- Six 6s\\n- Four 7s\\n- Two 8s\\n- Four 9s\\n\\nAll numbers are now arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 23,
+        "unsorted_list": "[8, 5, 0, 3, 6, 5, 6, 5, 4, 8, 0, 0, 7, 3, 9, 2, 9, 2, 0, 4, 1, 0, 5, 5, 8, 2, 8, 4, 4, 3, 5, 1]",
+        "model_sorted_list": {
+            "input": "[8, 5, 0, 3, 6, 5, 6, 5, 4, 8, 0, 0, 7, 3, 9, 2, 9, 2, 0, 4, 1, 0, 5, 5, 8, 2, 8, 4, 4, 3, 5, 1]",
+            "output": "The list sorted in ascending order is:\n\n[0, 0, 0, 0, 0, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 7, 8, 8, 8, 8, 9, 9]\n\nThis list contains all the original numbers, but now they are arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 0, 0, 0, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 7, 8, 8, 8, 8, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 0, 0, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 7, 8, 8, 8, 8, 9, 9], but got {'input': '[8, 5, 0, 3, 6, 5, 6, 5, 4, 8, 0, 0, 7, 3, 9, 2, 9, 2, 0, 4, 1, 0, 5, 5, 8, 2, 8, 4, 4, 3, 5, 1]', 'output': 'The list sorted in ascending order is:\\n\\n[0, 0, 0, 0, 0, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 7, 8, 8, 8, 8, 9, 9]\\n\\nThis list contains all the original numbers, but now they are arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list.'}.",
+        "is_correct": false
+    },
+    {
+        "id": 24,
+        "unsorted_list": "[8, 0, 5, 9, 3, 9, 2, 1, 7, 2, 1, 9, 7, 4, 8, 4, 2, 2, 9, 2, 1, 7, 3, 4, 4, 3, 3, 0, 8, 1, 8, 6]",
+        "model_sorted_list": {
+            "input": "[8, 0, 5, 9, 3, 9, 2, 1, 7, 2, 1, 9, 7, 4, 8, 4, 2, 2, 9, 2, 1, 7, 3, 4, 4, 3, 3, 0, 8, 1, 8, 6]",
+            "output": "The list sorted in ascending order is:\n[0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 6, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9]"
+        },
+        "correct_sorted_list": "[0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 6, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 6, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9], but got {'input': '[8, 0, 5, 9, 3, 9, 2, 1, 7, 2, 1, 9, 7, 4, 8, 4, 2, 2, 9, 2, 1, 7, 3, 4, 4, 3, 3, 0, 8, 1, 8, 6]', 'output': 'The list sorted in ascending order is:\\n[0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 6, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9]'}.",
+        "is_correct": false
+    },
+    {
+        "id": 25,
+        "unsorted_list": "[9, 8, 8, 9, 8, 1, 9, 6, 5, 8, 0, 8, 5, 5, 5, 4, 3, 5, 8, 4, 0, 3, 3, 6, 6, 1, 4, 7, 0, 7, 2, 8]",
+        "model_sorted_list": {
+            "input": "[9, 8, 8, 9, 8, 1, 9, 6, 5, 8, 0, 8, 5, 5, 5, 4, 3, 5, 8, 4, 0, 3, 3, 6, 6, 1, 4, 7, 0, 7, 2, 8]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 1, 1, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9]\n\nThis list contains the same numbers as the original, but arranged from smallest (0) to largest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 0, 1, 1, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 1, 1, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9], but got {'input': '[9, 8, 8, 9, 8, 1, 9, 6, 5, 8, 0, 8, 5, 5, 5, 4, 3, 5, 8, 4, 0, 3, 3, 6, 6, 1, 4, 7, 0, 7, 2, 8]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 1, 1, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9]\\n\\nThis list contains the same numbers as the original, but arranged from smallest (0) to largest (9), with each number appearing as many times as it did in the original list.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 26,
+        "unsorted_list": "[3, 0, 9, 6, 0, 7, 0, 2, 7, 8, 8, 9, 7, 5, 6, 0, 2, 3, 4, 9, 6, 4, 8, 9, 3, 5, 6, 2, 0, 1, 5, 3]",
+        "model_sorted_list": {
+            "input": "[3, 0, 9, 6, 0, 7, 0, 2, 7, 8, 8, 9, 7, 5, 6, 0, 2, 3, 4, 9, 6, 4, 8, 9, 3, 5, 6, 2, 0, 1, 5, 3]",
+            "output": "[0, 0, 0, 0, 1, 2, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9]\n\nThis list contains all the numbers from the original list, sorted from lowest (0) to highest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 0, 0, 0, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 0, 0, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9], but got {'input': '[3, 0, 9, 6, 0, 7, 0, 2, 7, 8, 8, 9, 7, 5, 6, 0, 2, 3, 4, 9, 6, 4, 8, 9, 3, 5, 6, 2, 0, 1, 5, 3]', 'output': '[0, 0, 0, 0, 1, 2, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9]\\n\\nThis list contains all the numbers from the original list, sorted from lowest (0) to highest (9), with each number appearing as many times as it did in the original list.'}.",
+        "is_correct": false
+    },
+    {
+        "id": 27,
+        "unsorted_list": "[6, 4, 9, 0, 5, 9, 0, 8, 5, 5, 9, 2, 6, 4, 8, 1, 9, 1, 3, 9, 4, 6, 6, 9, 7, 8, 8, 8, 9, 1, 1, 4]",
+        "model_sorted_list": {
+            "input": "[6, 4, 9, 0, 5, 9, 0, 8, 5, 5, 9, 2, 6, 4, 8, 1, 9, 1, 3, 9, 4, 6, 6, 9, 7, 8, 8, 8, 9, 1, 1, 4]",
+            "output": "Here is the list sorted in ascending order:\n\n[0, 0, 1, 1, 1, 1, 2, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9]"
+        },
+        "correct_sorted_list": "[0, 0, 1, 1, 1, 1, 2, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 1, 1, 1, 1, 2, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9], but got {'input': '[6, 4, 9, 0, 5, 9, 0, 8, 5, 5, 9, 2, 6, 4, 8, 1, 9, 1, 3, 9, 4, 6, 6, 9, 7, 8, 8, 8, 9, 1, 1, 4]', 'output': 'Here is the list sorted in ascending order:\\n\\n[0, 0, 1, 1, 1, 1, 2, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9]'}.",
+        "is_correct": false
+    },
+    {
+        "id": 28,
+        "unsorted_list": "[3, 9, 6, 5, 2, 1, 2, 7, 6, 9, 6, 4, 7, 2, 9, 1, 6, 6, 1, 6, 4, 7, 1, 0, 5, 7, 6, 2, 2, 2, 4, 8]",
+        "model_sorted_list": {
+            "input": "[3, 9, 6, 5, 2, 1, 2, 7, 6, 9, 6, 4, 7, 2, 9, 1, 6, 6, 1, 6, 4, 7, 1, 0, 5, 7, 6, 2, 2, 2, 4, 8]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 8, 9, 9, 9]"
+        },
+        "correct_sorted_list": "[0, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 8, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 8, 9, 9, 9], but got {'input': '[3, 9, 6, 5, 2, 1, 2, 7, 6, 9, 6, 4, 7, 2, 9, 1, 6, 6, 1, 6, 4, 7, 1, 0, 5, 7, 6, 2, 2, 2, 4, 8]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 8, 9, 9, 9]\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 29,
+        "unsorted_list": "[3, 9, 5, 1, 3, 9, 0, 8, 0, 1, 9, 5, 8, 7, 3, 1, 6, 6, 2, 2, 0, 2, 7, 2, 5, 5, 5, 1, 6, 6, 9, 0]",
+        "model_sorted_list": {
+            "input": "[3, 9, 5, 1, 3, 9, 0, 8, 0, 1, 9, 5, 8, 7, 3, 1, 6, 6, 2, 2, 0, 2, 7, 2, 5, 5, 5, 1, 6, 6, 9, 0]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9, 9, 9]"
+        },
+        "correct_sorted_list": "[0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9, 9, 9], but got {'input': '[3, 9, 5, 1, 3, 9, 0, 8, 0, 1, 9, 5, 8, 7, 3, 1, 6, 6, 2, 2, 0, 2, 7, 2, 5, 5, 5, 1, 6, 6, 9, 0]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9, 9, 9]\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 30,
+        "unsorted_list": "[5, 1, 2, 2, 1, 9, 1, 7, 7, 1, 4, 1, 1, 3, 7, 0, 2, 0, 7, 8, 0, 1, 9, 2, 0, 4, 5, 6, 6, 1, 8, 9]",
+        "model_sorted_list": {
+            "input": "[5, 1, 2, 2, 1, 9, 1, 7, 7, 1, 4, 1, 1, 3, 7, 0, 2, 0, 7, 8, 0, 1, 9, 2, 0, 4, 5, 6, 6, 1, 8, 9]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 4, 4, 5, 5, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9, 9]\n\nThis list contains all the same numbers as the original, but arranged from smallest to largest."
+        },
+        "correct_sorted_list": "[0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 4, 4, 5, 5, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 4, 4, 5, 5, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9, 9], but got {'input': '[5, 1, 2, 2, 1, 9, 1, 7, 7, 1, 4, 1, 1, 3, 7, 0, 2, 0, 7, 8, 0, 1, 9, 2, 0, 4, 5, 6, 6, 1, 8, 9]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 4, 4, 5, 5, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9, 9]\\n\\nThis list contains all the same numbers as the original, but arranged from smallest to largest.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 31,
+        "unsorted_list": "[4, 2, 6, 4, 7, 2, 5, 2, 8, 4, 9, 5, 7, 7, 3, 2, 5, 5, 0, 2, 2, 8, 2, 8, 2, 6, 5, 3, 3, 5, 8, 4]",
+        "model_sorted_list": {
+            "input": "[4, 2, 6, 4, 7, 2, 5, 2, 8, 4, 9, 5, 7, 7, 3, 2, 5, 5, 0, 2, 2, 8, 2, 8, 2, 6, 5, 3, 3, 5, 8, 4]",
+            "output": "Here is the list sorted in ascending order:\n\n[0, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9]\n\nThis list contains all the same numbers as the original list, but now they are arranged from the smallest (0) to the largest (9), with repeated numbers grouped together."
+        },
+        "correct_sorted_list": "[0, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9], but got {'input': '[4, 2, 6, 4, 7, 2, 5, 2, 8, 4, 9, 5, 7, 7, 3, 2, 5, 5, 0, 2, 2, 8, 2, 8, 2, 6, 5, 3, 3, 5, 8, 4]', 'output': 'Here is the list sorted in ascending order:\\n\\n[0, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9]\\n\\nThis list contains all the same numbers as the original list, but now they are arranged from the smallest (0) to the largest (9), with repeated numbers grouped together.'}.",
+        "is_correct": false
+    },
+    {
+        "id": 32,
+        "unsorted_list": "[6, 6, 2, 2, 9, 8, 7, 2, 5, 3, 5, 7, 1, 3, 4, 0, 3, 6, 9, 1, 6, 1, 0, 4, 1, 2, 6, 7, 7, 6, 9, 1]",
+        "model_sorted_list": {
+            "input": "[6, 6, 2, 2, 9, 8, 7, 2, 5, 3, 5, 7, 1, 3, 4, 0, 3, 6, 9, 1, 6, 1, 0, 4, 1, 2, 6, 7, 7, 6, 9, 1]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 8, 9, 9, 9]\n\nThis list contains all the numbers from the original list, but now they are arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 8, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 8, 9, 9, 9], but got {'input': '[6, 6, 2, 2, 9, 8, 7, 2, 5, 3, 5, 7, 1, 3, 4, 0, 3, 6, 9, 1, 6, 1, 0, 4, 1, 2, 6, 7, 7, 6, 9, 1]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 8, 9, 9, 9]\\n\\nThis list contains all the numbers from the original list, but now they are arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 33,
+        "unsorted_list": "[6, 3, 9, 8, 1, 4, 2, 1, 0, 0, 1, 3, 7, 9, 8, 1, 3, 1, 5, 3, 9, 7, 8, 9, 3, 9, 4, 0, 2, 7, 3, 9]",
+        "model_sorted_list": {
+            "input": "[6, 3, 9, 8, 1, 4, 2, 1, 0, 0, 1, 3, 7, 9, 8, 1, 3, 1, 5, 3, 9, 7, 8, 9, 3, 9, 4, 0, 2, 7, 3, 9]",
+            "output": "[0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 5, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9, 9, 9]\n\nThis list contains all the numbers from the original list, sorted from smallest (0) to largest (9), with each number appearing the same number of times as in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 5, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 5, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9, 9, 9], but got {'input': '[6, 3, 9, 8, 1, 4, 2, 1, 0, 0, 1, 3, 7, 9, 8, 1, 3, 1, 5, 3, 9, 7, 8, 9, 3, 9, 4, 0, 2, 7, 3, 9]', 'output': '[0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 5, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9, 9, 9]\\n\\nThis list contains all the numbers from the original list, sorted from smallest (0) to largest (9), with each number appearing the same number of times as in the original list.'}.",
+        "is_correct": false
+    },
+    {
+        "id": 34,
+        "unsorted_list": "[2, 6, 4, 5, 8, 1, 9, 3, 6, 3, 9, 7, 3, 3, 8, 4, 6, 7, 2, 7, 3, 2, 3, 3, 5, 5, 6, 4, 1, 6, 6, 2]",
+        "model_sorted_list": {
+            "input": "[2, 6, 4, 5, 8, 1, 9, 3, 6, 3, 9, 7, 3, 3, 8, 4, 6, 7, 2, 7, 3, 2, 3, 3, 5, 5, 6, 4, 1, 6, 6, 2]",
+            "output": "Here's the list sorted in ascending order:\n\n[1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 8, 8, 9, 9]"
+        },
+        "correct_sorted_list": "[1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 8, 8, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 8, 8, 9, 9], but got {'input': '[2, 6, 4, 5, 8, 1, 9, 3, 6, 3, 9, 7, 3, 3, 8, 4, 6, 7, 2, 7, 3, 2, 3, 3, 5, 5, 6, 4, 1, 6, 6, 2]', 'output': \"Here's the list sorted in ascending order:\\n\\n[1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 8, 8, 9, 9]\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 35,
+        "unsorted_list": "[6, 6, 0, 8, 0, 6, 8, 4, 9, 8, 3, 8, 8, 1, 7, 1, 5, 0, 9, 1, 9, 9, 8, 1, 5, 3, 2, 2, 7, 0, 5, 6]",
+        "model_sorted_list": {
+            "input": "[6, 6, 0, 8, 0, 6, 8, 4, 9, 8, 3, 8, 8, 1, 7, 1, 5, 0, 9, 1, 9, 9, 8, 1, 5, 3, 2, 2, 7, 0, 5, 6]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 3, 3, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9]"
+        },
+        "correct_sorted_list": "[0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 3, 3, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 3, 3, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9], but got {'input': '[6, 6, 0, 8, 0, 6, 8, 4, 9, 8, 3, 8, 8, 1, 7, 1, 5, 0, 9, 1, 9, 9, 8, 1, 5, 3, 2, 2, 7, 0, 5, 6]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 3, 3, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9]\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 36,
+        "unsorted_list": "[8, 9, 1, 5, 7, 4, 2, 6, 2, 8, 8, 9, 3, 0, 6, 7, 7, 8, 6, 5, 8, 3, 3, 0, 1, 6, 4, 0, 8, 8, 1, 7]",
+        "model_sorted_list": {
+            "input": "[8, 9, 1, 5, 7, 4, 2, 6, 2, 8, 8, 9, 3, 0, 6, 7, 7, 8, 6, 5, 8, 3, 3, 0, 1, 6, 4, 0, 8, 8, 1, 7]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 9, 9]\n\nThis sorted list contains all the numbers from the original list, arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 0, 1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 9, 9], but got {'input': '[8, 9, 1, 5, 7, 4, 2, 6, 2, 8, 8, 9, 3, 0, 6, 7, 7, 8, 6, 5, 8, 3, 3, 0, 1, 6, 4, 0, 8, 8, 1, 7]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 9, 9]\\n\\nThis sorted list contains all the numbers from the original list, arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 37,
+        "unsorted_list": "[9, 5, 1, 1, 3, 1, 0, 4, 4, 6, 1, 9, 4, 8, 0, 9, 4, 0, 5, 1, 9, 5, 6, 7, 9, 1, 2, 7, 1, 3, 9, 6]",
+        "model_sorted_list": {
+            "input": "[9, 5, 1, 1, 3, 1, 0, 4, 4, 6, 1, 9, 4, 8, 0, 9, 4, 0, 5, 1, 9, 5, 6, 7, 9, 1, 2, 7, 1, 3, 9, 6]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 8, 9, 9, 9, 9, 9, 9]"
+        },
+        "correct_sorted_list": "[0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 8, 9, 9, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 8, 9, 9, 9, 9, 9, 9], but got {'input': '[9, 5, 1, 1, 3, 1, 0, 4, 4, 6, 1, 9, 4, 8, 0, 9, 4, 0, 5, 1, 9, 5, 6, 7, 9, 1, 2, 7, 1, 3, 9, 6]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 8, 9, 9, 9, 9, 9, 9]\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 38,
+        "unsorted_list": "[4, 1, 1, 8, 1, 7, 9, 1, 5, 5, 1, 9, 0, 8, 7, 7, 9, 0, 7, 0, 4, 9, 8, 5, 9, 6, 6, 2, 6, 5, 1, 1]",
+        "model_sorted_list": {
+            "input": "[4, 1, 1, 8, 1, 7, 9, 1, 5, 5, 1, 9, 0, 8, 7, 7, 9, 0, 7, 0, 4, 9, 8, 5, 9, 6, 6, 2, 6, 5, 1, 1]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9, 9]\n\nThis list contains:\n- 3 zeros\n- 7 ones\n- 1 two\n- 2 fours\n- 4 fives\n- 3 sixes\n- 4 sevens\n- 3 eights\n- 5 nines\n\nThe smallest number is 0 and the largest is 9."
+        },
+        "correct_sorted_list": "[0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9, 9], but got {'input': '[4, 1, 1, 8, 1, 7, 9, 1, 5, 5, 1, 9, 0, 8, 7, 7, 9, 0, 7, 0, 4, 9, 8, 5, 9, 6, 6, 2, 6, 5, 1, 1]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9, 9]\\n\\nThis list contains:\\n- 3 zeros\\n- 7 ones\\n- 1 two\\n- 2 fours\\n- 4 fives\\n- 3 sixes\\n- 4 sevens\\n- 3 eights\\n- 5 nines\\n\\nThe smallest number is 0 and the largest is 9.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 39,
+        "unsorted_list": "[6, 1, 6, 5, 7, 1, 6, 3, 8, 7, 6, 1, 3, 8, 6, 9, 3, 1, 1, 9, 4, 8, 3, 1, 9, 4, 5, 9, 5, 4, 1, 8]",
+        "model_sorted_list": {
+            "input": "[6, 1, 6, 5, 7, 1, 6, 3, 8, 7, 6, 1, 3, 8, 6, 9, 3, 1, 1, 9, 4, 8, 3, 1, 9, 4, 5, 9, 5, 4, 1, 8]",
+            "output": "Here is the list sorted in ascending order:\n\n[1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 6, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9]\n\nThis list contains all the numbers from the original list, arranged from the smallest (1) to the largest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 6, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 6, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9], but got {'input': '[6, 1, 6, 5, 7, 1, 6, 3, 8, 7, 6, 1, 3, 8, 6, 9, 3, 1, 1, 9, 4, 8, 3, 1, 9, 4, 5, 9, 5, 4, 1, 8]', 'output': 'Here is the list sorted in ascending order:\\n\\n[1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 6, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9]\\n\\nThis list contains all the numbers from the original list, arranged from the smallest (1) to the largest (9), with each number appearing as many times as it did in the original list.'}.",
+        "is_correct": false
+    },
+    {
+        "id": 40,
+        "unsorted_list": "[2, 1, 6, 3, 9, 3, 8, 3, 2, 3, 9, 9, 5, 4, 3, 2, 1, 9, 3, 4, 3, 3, 5, 4, 4, 4, 9, 7, 8, 3, 0, 8]",
+        "model_sorted_list": {
+            "input": "[2, 1, 6, 3, 9, 3, 8, 3, 2, 3, 9, 9, 5, 4, 3, 2, 1, 9, 3, 4, 3, 3, 5, 4, 4, 4, 9, 7, 8, 3, 0, 8]",
+            "output": "[0, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 6, 7, 8, 8, 8, 9, 9, 9, 9, 9]\n\nThis is the original list sorted in ascending order."
+        },
+        "correct_sorted_list": "[0, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 6, 7, 8, 8, 8, 9, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 6, 7, 8, 8, 8, 9, 9, 9, 9, 9], but got {'input': '[2, 1, 6, 3, 9, 3, 8, 3, 2, 3, 9, 9, 5, 4, 3, 2, 1, 9, 3, 4, 3, 3, 5, 4, 4, 4, 9, 7, 8, 3, 0, 8]', 'output': '[0, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 6, 7, 8, 8, 8, 9, 9, 9, 9, 9]\\n\\nThis is the original list sorted in ascending order.'}.",
+        "is_correct": false
+    },
+    {
+        "id": 41,
+        "unsorted_list": "[6, 5, 6, 4, 3, 7, 3, 0, 6, 9, 1, 0, 1, 7, 0, 1, 8, 6, 5, 9, 5, 9, 4, 2, 5, 3, 8, 8, 8, 0, 9, 7]",
+        "model_sorted_list": {
+            "input": "[6, 5, 6, 4, 3, 7, 3, 0, 6, 9, 1, 0, 1, 7, 0, 1, 8, 6, 5, 9, 5, 9, 4, 2, 5, 3, 8, 8, 8, 0, 9, 7]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 0, 1, 1, 1, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9]\n\nThis list contains:\n4 zeros\n3 ones\n1 two\n3 threes\n2 fours\n4 fives\n4 sixes\n3 sevens\n4 eights\n4 nines\n\nThe numbers range from 0 to 9, and each number appears at least once in the list."
+        },
+        "correct_sorted_list": "[0, 0, 0, 0, 1, 1, 1, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 0, 1, 1, 1, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9], but got {'input': '[6, 5, 6, 4, 3, 7, 3, 0, 6, 9, 1, 0, 1, 7, 0, 1, 8, 6, 5, 9, 5, 9, 4, 2, 5, 3, 8, 8, 8, 0, 9, 7]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 0, 1, 1, 1, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9]\\n\\nThis list contains:\\n4 zeros\\n3 ones\\n1 two\\n3 threes\\n2 fours\\n4 fives\\n4 sixes\\n3 sevens\\n4 eights\\n4 nines\\n\\nThe numbers range from 0 to 9, and each number appears at least once in the list.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 42,
+        "unsorted_list": "[9, 2, 6, 8, 4, 0, 5, 0, 8, 6, 1, 6, 6, 6, 7, 6, 5, 2, 3, 4, 3, 9, 2, 9, 3, 2, 0, 0, 1, 4, 6, 6]",
+        "model_sorted_list": {
+            "input": "[9, 2, 6, 8, 4, 0, 5, 0, 8, 6, 1, 6, 6, 6, 7, 6, 5, 2, 3, 4, 3, 9, 2, 9, 3, 2, 0, 0, 1, 4, 6, 6]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 7, 8, 8, 9, 9, 9]"
+        },
+        "correct_sorted_list": "[0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 7, 8, 8, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 7, 8, 8, 9, 9, 9], but got {'input': '[9, 2, 6, 8, 4, 0, 5, 0, 8, 6, 1, 6, 6, 6, 7, 6, 5, 2, 3, 4, 3, 9, 2, 9, 3, 2, 0, 0, 1, 4, 6, 6]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 7, 8, 8, 9, 9, 9]\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 43,
+        "unsorted_list": "[7, 7, 7, 8, 7, 9, 4, 3, 5, 5, 1, 7, 7, 4, 0, 5, 6, 2, 7, 3, 2, 2, 3, 2, 0, 8, 6, 7, 8, 4, 6, 4]",
+        "model_sorted_list": {
+            "input": "[7, 7, 7, 8, 7, 9, 4, 3, 5, 5, 1, 7, 7, 4, 0, 5, 6, 2, 7, 3, 2, 2, 3, 2, 0, 8, 6, 7, 8, 4, 6, 4]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 9]\n\nThis list contains:\n- Two 0s\n- One 1\n- Four 2s\n- Three 3s\n- Four 4s\n- Three 5s\n- Three 6s\n- Eight 7s\n- Three 8s\n- One 9\n\nThe numbers are now arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 9], but got {'input': '[7, 7, 7, 8, 7, 9, 4, 3, 5, 5, 1, 7, 7, 4, 0, 5, 6, 2, 7, 3, 2, 2, 3, 2, 0, 8, 6, 7, 8, 4, 6, 4]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 9]\\n\\nThis list contains:\\n- Two 0s\\n- One 1\\n- Four 2s\\n- Three 3s\\n- Four 4s\\n- Three 5s\\n- Three 6s\\n- Eight 7s\\n- Three 8s\\n- One 9\\n\\nThe numbers are now arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 44,
+        "unsorted_list": "[0, 1, 6, 5, 4, 6, 9, 3, 7, 0, 0, 1, 1, 6, 7, 1, 9, 9, 4, 5, 9, 1, 2, 2, 7, 5, 6, 1, 9, 1, 2, 4]",
+        "model_sorted_list": {
+            "input": "[0, 1, 6, 5, 4, 6, 9, 3, 7, 0, 0, 1, 1, 6, 7, 1, 9, 9, 4, 5, 9, 1, 2, 2, 7, 5, 6, 1, 9, 1, 2, 4]",
+            "output": "The list sorted in ascending order is:\n[0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 9, 9, 9, 9, 9]"
+        },
+        "correct_sorted_list": "[0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 9, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 9, 9, 9, 9, 9], but got {'input': '[0, 1, 6, 5, 4, 6, 9, 3, 7, 0, 0, 1, 1, 6, 7, 1, 9, 9, 4, 5, 9, 1, 2, 2, 7, 5, 6, 1, 9, 1, 2, 4]', 'output': 'The list sorted in ascending order is:\\n[0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 9, 9, 9, 9, 9]'}.",
+        "is_correct": false
+    },
+    {
+        "id": 45,
+        "unsorted_list": "[1, 8, 6, 5, 0, 6, 2, 4, 2, 2, 0, 8, 7, 6, 1, 3, 1, 9, 7, 5, 9, 8, 1, 8, 2, 7, 7, 3, 7, 7, 8, 7]",
+        "model_sorted_list": {
+            "input": "[1, 8, 6, 5, 0, 6, 2, 4, 2, 2, 0, 8, 7, 6, 1, 3, 1, 9, 7, 5, 9, 8, 1, 8, 2, 7, 7, 3, 7, 7, 8, 7]",
+            "output": "[0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 4, 5, 5, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9]\n\nThis list is now sorted in ascending order, with each number appearing the correct number of times as in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 4, 5, 5, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 4, 5, 5, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9], but got {'input': '[1, 8, 6, 5, 0, 6, 2, 4, 2, 2, 0, 8, 7, 6, 1, 3, 1, 9, 7, 5, 9, 8, 1, 8, 2, 7, 7, 3, 7, 7, 8, 7]', 'output': '[0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 4, 5, 5, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9]\\n\\nThis list is now sorted in ascending order, with each number appearing the correct number of times as in the original list.'}.",
+        "is_correct": false
+    },
+    {
+        "id": 46,
+        "unsorted_list": "[4, 7, 0, 6, 4, 5, 0, 3, 0, 3, 4, 6, 5, 2, 6, 5, 5, 9, 7, 1, 0, 8, 0, 4, 9, 1, 3, 5, 1, 7, 2, 0]",
+        "model_sorted_list": {
+            "input": "[4, 7, 0, 6, 4, 5, 0, 3, 0, 3, 4, 6, 5, 2, 6, 5, 5, 9, 7, 1, 0, 8, 0, 4, 9, 1, 3, 5, 1, 7, 2, 0]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 9, 9]"
+        },
+        "correct_sorted_list": "[0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 9, 9], but got {'input': '[4, 7, 0, 6, 4, 5, 0, 3, 0, 3, 4, 6, 5, 2, 6, 5, 5, 9, 7, 1, 0, 8, 0, 4, 9, 1, 3, 5, 1, 7, 2, 0]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 9, 9]\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 47,
+        "unsorted_list": "[9, 6, 0, 1, 8, 4, 9, 6, 3, 6, 0, 7, 0, 8, 9, 3, 6, 6, 9, 3, 2, 2, 2, 9, 4, 9, 3, 8, 1, 9, 6, 1]",
+        "model_sorted_list": {
+            "input": "[9, 6, 0, 1, 8, 4, 9, 6, 3, 6, 0, 7, 0, 8, 9, 3, 6, 6, 9, 3, 2, 2, 2, 9, 4, 9, 3, 8, 1, 9, 6, 1]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 6, 6, 6, 6, 6, 7, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9, 9]\n\nThis list contains all the numbers from the original list, arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 6, 6, 6, 6, 6, 6, 7, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 6, 6, 6, 6, 6, 6, 7, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9], but got {'input': '[9, 6, 0, 1, 8, 4, 9, 6, 3, 6, 0, 7, 0, 8, 9, 3, 6, 6, 9, 3, 2, 2, 2, 9, 4, 9, 3, 8, 1, 9, 6, 1]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 6, 6, 6, 6, 6, 7, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9, 9]\\n\\nThis list contains all the numbers from the original list, arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list.\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 48,
+        "unsorted_list": "[7, 3, 4, 8, 4, 2, 8, 3, 1, 0, 7, 3, 1, 9, 1, 8, 0, 1, 9, 8, 3, 2, 4, 1, 7, 3, 1, 3, 2, 0, 4, 0]",
+        "model_sorted_list": {
+            "input": "[7, 3, 4, 8, 4, 2, 8, 3, 1, 0, 7, 3, 1, 9, 1, 8, 0, 1, 9, 8, 3, 2, 4, 1, 7, 3, 1, 3, 2, 0, 4, 0]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 7, 7, 7, 8, 8, 8, 8, 9, 9]"
+        },
+        "correct_sorted_list": "[0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 7, 7, 7, 8, 8, 8, 8, 9, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 7, 7, 7, 8, 8, 8, 8, 9, 9], but got {'input': '[7, 3, 4, 8, 4, 2, 8, 3, 1, 0, 7, 3, 1, 9, 1, 8, 0, 1, 9, 8, 3, 2, 4, 1, 7, 3, 1, 3, 2, 0, 4, 0]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 7, 7, 7, 8, 8, 8, 8, 9, 9]\"}.",
+        "is_correct": false
+    },
+    {
+        "id": 49,
+        "unsorted_list": "[2, 3, 7, 6, 5, 7, 5, 2, 8, 6, 8, 3, 7, 2, 3, 8, 6, 5, 4, 5, 3, 6, 8, 3, 0, 9, 2, 1, 7, 5, 5, 8]",
+        "model_sorted_list": {
+            "input": "[2, 3, 7, 6, 5, 7, 5, 2, 8, 6, 8, 3, 7, 2, 3, 8, 6, 5, 4, 5, 3, 6, 8, 3, 0, 9, 2, 1, 7, 5, 5, 8]",
+            "output": "Here's the list sorted in ascending order:\n\n[0, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9]\n\nThis list contains all the original numbers, but now they are arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list."
+        },
+        "correct_sorted_list": "[0, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9]",
+        "final_thought": "The final sorted list is incorrect. Expected [0, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9], but got {'input': '[2, 3, 7, 6, 5, 7, 5, 2, 8, 6, 8, 3, 7, 2, 3, 8, 6, 5, 4, 5, 3, 6, 8, 3, 0, 9, 2, 1, 7, 5, 5, 8]', 'output': \"Here's the list sorted in ascending order:\\n\\n[0, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9]\\n\\nThis list contains all the original numbers, but now they are arranged from the smallest (0) to the largest (9), with each number appearing as many times as it did in the original list.\"}.",
+        "is_correct": false
+    }
+]

@@ -1,0 +1,197 @@
+[
+    {
+        "dataset": "reasoning",
+        "question": [
+            "Suppose I have two physical, solid squares. The vertices of the squares are ABCD and EFGH. I place both squares on a plane and arrange them so that they are not overlapping at all, but C is touching F and D is touching E. Then I make two cuts: the first cut through AG, and the second cut through BH. Then I separate all the pieces (e.g. so C is no longer touching F, and so on). How many triangles are there? Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "Suppose I have two physical, solid squares. The vertices of the squares are ABCD and EFGH. I place both squares on a plane and arrange them so that they are not overlapping at all, but C is touching F and D is touching E. Then I make two cuts: the first cut through AG, and the second cut through BH. Then I separate all the pieces (e.g. so C is no longer touching F, and so on). How many triangles are there? Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+            ],
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "6"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "There are 3 people standing in a line numbered 1 through 3 in a left to right order.\nEach person has a set of attributes: Movie-Genre, Music-Genre, Transport, Pet.\nThe attributes have the following possible values:\n- Movie-Genre: western movies, horror movies, romance movies\n- Music-Genre: trance, blues, r&b\n- Transport: van, jet-ski, trike\n- Pet: rabbit, rat, goldfish\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who listens to trance is on the immediate right of the person who listens to r&b\n- the person that watches romance movies is not anywhere to the left of the person that travels by trike\n- the person who listens to blues watches western movies\n- the person that has a rat is somewhere between the person that has a goldfish and the person that watches romance movies\n- the person that travels by jet-ski is on the immediate right of the person that watches romance movies\n\nAnswer the following question:\nWhat kind of music does the person that has a rat enjoy? Return your answer as a single word, in the following format: ***X***, where X is the answer."
+        ],
+        "model_response": {
+            "input": [
+                "There are 3 people standing in a line numbered 1 through 3 in a left to right order.\nEach person has a set of attributes: Movie-Genre, Music-Genre, Transport, Pet.\nThe attributes have the following possible values:\n- Movie-Genre: western movies, horror movies, romance movies\n- Music-Genre: trance, blues, r&b\n- Transport: van, jet-ski, trike\n- Pet: rabbit, rat, goldfish\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who listens to trance is on the immediate right of the person who listens to r&b\n- the person that watches romance movies is not anywhere to the left of the person that travels by trike\n- the person who listens to blues watches western movies\n- the person that has a rat is somewhere between the person that has a goldfish and the person that watches romance movies\n- the person that travels by jet-ski is on the immediate right of the person that watches romance movies\n\nAnswer the following question:\nWhat kind of music does the person that has a rat enjoy? Return your answer as a single word, in the following format: ***X***, where X is the answer."
+            ],
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "trance"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "Suppose I have two physical, solid rectangles. The vertices of the first rectangle are ABCD, and AB is strictly larger than BC. The vertices of the second rectangle are EFGH, and EH is strictly larger than EF. I place both rectangles on a plane and arrange them so that they are not overlapping at all, but C is touching F and D is touching E. Then I make two cuts: the first cut through AG, and the second cut through BH. Then I separate all the pieces (e.g. so C is no longer touching F, and so on). How many of the pieces are triangles? Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "Suppose I have two physical, solid rectangles. The vertices of the first rectangle are ABCD, and AB is strictly larger than BC. The vertices of the second rectangle are EFGH, and EH is strictly larger than EF. I place both rectangles on a plane and arrange them so that they are not overlapping at all, but C is touching F and D is touching E. Then I make two cuts: the first cut through AG, and the second cut through BH. Then I separate all the pieces (e.g. so C is no longer touching F, and so on). How many of the pieces are triangles? Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+            ],
+            "output": "**0**"
+        },
+        "correct_answer": "4"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "In this question, assume each person either always tells the truth or always lies. The person at the art gallery says the person at the bookstore tells the truth. Zara is at the barbershop. Quan is at the city hall. The person at the city hall tells the truth. Tala is at the bookstore. Beatriz is at the restaurant. The person at the barbershop says the person at the planetarium lies. The person at the zoo says the person at the art gallery tells the truth. The person at the art gallery thinks their friend is lying. The person at the bookstore tells the truth. Farid is at the ice skating rink. Ethan is at the zoo. Mateo is at the hotel. The person at the restaurant lies. The person at the ice skating rink lies. The person at the planetarium says the person at the zoo lies. Luna is at the art gallery. The person at the hotel lies. Emily is at the planetarium. Does the person at the barbershop tell the truth? Does the person at the planetarium tell the truth? Does the person at the zoo tell the truth? Think step by step, and then put your answer in **bold** as a list of three words, yes or no (for example, **yes, no, yes**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "In this question, assume each person either always tells the truth or always lies. The person at the art gallery says the person at the bookstore tells the truth. Zara is at the barbershop. Quan is at the city hall. The person at the city hall tells the truth. Tala is at the bookstore. Beatriz is at the restaurant. The person at the barbershop says the person at the planetarium lies. The person at the zoo says the person at the art gallery tells the truth. The person at the art gallery thinks their friend is lying. The person at the bookstore tells the truth. Farid is at the ice skating rink. Ethan is at the zoo. Mateo is at the hotel. The person at the restaurant lies. The person at the ice skating rink lies. The person at the planetarium says the person at the zoo lies. Luna is at the art gallery. The person at the hotel lies. Emily is at the planetarium. Does the person at the barbershop tell the truth? Does the person at the planetarium tell the truth? Does the person at the zoo tell the truth? Think step by step, and then put your answer in **bold** as a list of three words, yes or no (for example, **yes, no, yes**). If you don't know, guess."
+            ],
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "yes, no, yes"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "In this question, assume each person either always tells the truth or always lies. Emily is at the skate park. Priya is at the farm. Soren is at the train station. The person at the farm says the person at the beach lies. The person at the museum lies. Hiroshi is at the observatory. The person at the zoo saw a firetruck. The person at the shopping mall tells the truth. Devika is at the zoo. The person at the theater says the person at the train station lies. Zara is at the city hall. Beatriz is at the cafe. Nia is at the museum. Isabella is at the shopping mall. The person at the observatory says the person at the farm lies. Ethan is at the beach. The person at the cafe says the person at the train station lies. The person at the zoo lies. The person at the train station says the person at the zoo tells the truth. Farid is at the restaurant. The person at the restaurant says the person at the zoo tells the truth. The person at the city hall tells the truth. The person at the skate park says the person at the farm tells the truth. Tala is at the theater. The person at the farm says the person at the train station tells the truth. Does the person at the farm tell the truth? Does the person at the train station tell the truth? Does the person at the zoo tell the truth? Think step by step, and then put your answer in **bold** as a list of three words, yes or no (for example, **yes, no, yes**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "In this question, assume each person either always tells the truth or always lies. Emily is at the skate park. Priya is at the farm. Soren is at the train station. The person at the farm says the person at the beach lies. The person at the museum lies. Hiroshi is at the observatory. The person at the zoo saw a firetruck. The person at the shopping mall tells the truth. Devika is at the zoo. The person at the theater says the person at the train station lies. Zara is at the city hall. Beatriz is at the cafe. Nia is at the museum. Isabella is at the shopping mall. The person at the observatory says the person at the farm lies. Ethan is at the beach. The person at the cafe says the person at the train station lies. The person at the zoo lies. The person at the train station says the person at the zoo tells the truth. Farid is at the restaurant. The person at the restaurant says the person at the zoo tells the truth. The person at the city hall tells the truth. The person at the skate park says the person at the farm tells the truth. Tala is at the theater. The person at the farm says the person at the train station tells the truth. Does the person at the farm tell the truth? Does the person at the train station tell the truth? Does the person at the zoo tell the truth? Think step by step, and then put your answer in **bold** as a list of three words, yes or no (for example, **yes, no, yes**). If you don't know, guess."
+            ],
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "no, no, no"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "There are 4 people standing in a line numbered 1 through 4 in a left to right order.\nEach person has a set of attributes: Movie-Genre, Hobby, Food.\nThe attributes have the following possible values:\n- Movie-Genre: mystery movies, disaster movies, action movies, zombie movies\n- Hobby: drawing, singing, chess, writing\n- Food: apricot, apple, cucumber, nectarine\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who likes writing is somewhere to the left of the person that watches action movies\n- the person that likes cucumber is not anywhere to the left of the person who likes writing\n- the person who likes writing is on the immediate left or immediate right of the person that likes nectarine\n- the person who likes chess is somewhere between the person who likes singing and the person that watches zombie movies\n- the person who likes chess is somewhere to the right of the person who likes singing\n- the person that watches zombie movies likes apple or the person that watches zombie movies likes drawing, but not both\n- the person that likes apricot hates mystery movies\n- the person that likes apple is not anywhere to the left of the person that watches zombie movies\n\nAnswer the following question:\nWhat is the hobby of the person that watches zombie movies? Return your answer as a single word, in the following format: ***X***, where X is the answer."
+        ],
+        "model_response": {
+            "input": [
+                "There are 4 people standing in a line numbered 1 through 4 in a left to right order.\nEach person has a set of attributes: Movie-Genre, Hobby, Food.\nThe attributes have the following possible values:\n- Movie-Genre: mystery movies, disaster movies, action movies, zombie movies\n- Hobby: drawing, singing, chess, writing\n- Food: apricot, apple, cucumber, nectarine\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who likes writing is somewhere to the left of the person that watches action movies\n- the person that likes cucumber is not anywhere to the left of the person who likes writing\n- the person who likes writing is on the immediate left or immediate right of the person that likes nectarine\n- the person who likes chess is somewhere between the person who likes singing and the person that watches zombie movies\n- the person who likes chess is somewhere to the right of the person who likes singing\n- the person that watches zombie movies likes apple or the person that watches zombie movies likes drawing, but not both\n- the person that likes apricot hates mystery movies\n- the person that likes apple is not anywhere to the left of the person that watches zombie movies\n\nAnswer the following question:\nWhat is the hobby of the person that watches zombie movies? Return your answer as a single word, in the following format: ***X***, where X is the answer."
+            ],
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "writing"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "There are 3 people standing in a line numbered 1 through 3 in a left to right order.\nEach person has a set of attributes: Hobby, Music-Genre, Pet.\nThe attributes have the following possible values:\n- Hobby: rock-climbing, sudoku, traveling\n- Music-Genre: indie, folk, disco\n- Pet: rabbit, cat, pony\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who listens to indie is not anywhere to the right of the person who listens to folk\n- the person that has a cat is somewhere between the person who likes traveling and the person who listens to disco\n- the person who listens to folk is on the immediate left or immediate right of the person that has a rabbit\n- the person who likes rock-climbing and the person that has a pony have different parity positions\n- the person who likes sudoku does not own a rabbit\n\nAnswer the following question:\nAt what position is the person that has a rabbit? Return a single digit number, in the following format: ***N***, where N is the position."
+        ],
+        "model_response": {
+            "input": [
+                "There are 3 people standing in a line numbered 1 through 3 in a left to right order.\nEach person has a set of attributes: Hobby, Music-Genre, Pet.\nThe attributes have the following possible values:\n- Hobby: rock-climbing, sudoku, traveling\n- Music-Genre: indie, folk, disco\n- Pet: rabbit, cat, pony\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who listens to indie is not anywhere to the right of the person who listens to folk\n- the person that has a cat is somewhere between the person who likes traveling and the person who listens to disco\n- the person who listens to folk is on the immediate left or immediate right of the person that has a rabbit\n- the person who likes rock-climbing and the person that has a pony have different parity positions\n- the person who likes sudoku does not own a rabbit\n\nAnswer the following question:\nAt what position is the person that has a rabbit? Return a single digit number, in the following format: ***N***, where N is the position."
+            ],
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "1"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "Suppose I have a physical, solid rectangle with vertices ABCD, and I make two cuts through AC and BD. How many pieces are there after the cuts?  Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "Suppose I have a physical, solid rectangle with vertices ABCD, and I make two cuts through AC and BD. How many pieces are there after the cuts?  Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+            ],
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "4"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "In this question, assume each person either always tells the truth or always lies. The person at the vineyard says the person at the library tells the truth. Olivia is at the movie theater. The person at the library says the person at the movie theater lies. The person at the bookstore tells the truth. Liam is at the library. The person at the bookstore thinks their friend is lying. The person at the park lies. The person at the library saw a firetruck. Jake is at the train station. The person at the movie theater says the person at the bookstore tells the truth. The person at the museum says the person at the farm tells the truth. The person at the farm says the person at the city hall tells the truth. The person at the library thinks their neighbor is telling the truth. The person at the train station lies. Anika is at the planetarium. Zara is at the museum. Jaxon is at the park. Maya is at the vineyard. The person at the farm says the person at the vineyard lies. The person at the farm thinks their friend is lying. Grace is at the bookstore. Emily is at the farm. The person at the planetarium tells the truth. Soren is at the city hall. Does the person at the farm tell the truth? Does the person at the vineyard tell the truth? Does the person at the library tell the truth? Think step by step, and then put your answer in **bold** as a list of three words, yes or no (for example, **yes, no, yes**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "In this question, assume each person either always tells the truth or always lies. The person at the vineyard says the person at the library tells the truth. Olivia is at the movie theater. The person at the library says the person at the movie theater lies. The person at the bookstore tells the truth. Liam is at the library. The person at the bookstore thinks their friend is lying. The person at the park lies. The person at the library saw a firetruck. Jake is at the train station. The person at the movie theater says the person at the bookstore tells the truth. The person at the museum says the person at the farm tells the truth. The person at the farm says the person at the city hall tells the truth. The person at the library thinks their neighbor is telling the truth. The person at the train station lies. Anika is at the planetarium. Zara is at the museum. Jaxon is at the park. Maya is at the vineyard. The person at the farm says the person at the vineyard lies. The person at the farm thinks their friend is lying. Grace is at the bookstore. Emily is at the farm. The person at the planetarium tells the truth. Soren is at the city hall. Does the person at the farm tell the truth? Does the person at the vineyard tell the truth? Does the person at the library tell the truth? Think step by step, and then put your answer in **bold** as a list of three words, yes or no (for example, **yes, no, yes**). If you don't know, guess."
+            ],
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "yes, no, no"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "In this question, assume each person either always tells the truth or always lies. Elowen is at the hotel. Max is at the park. Grace is at the ice skating rink. The person at the barbershop says the person at the library tells the truth. Charlie is at the library. Tala is at the campground. Farid is at the theater. The person at the hotel saw a firetruck. The person at the vineyard says the person at the campground lies. The person at the farm says the person at the movie theater lies. The person at the movie theater says the person at the park lies. The person at the park says the person at the hotel tells the truth. The person at the hotel says the person at the library tells the truth. Jaxon is at the skate park. Theo is at the barbershop. The person at the airport tells the truth. The person at the bowling alley thinks their neighbor is telling the truth. The person at the ice skating rink says the person at the bowling alley tells the truth. Anika is at the airport. The person at the bookstore says the person at the vineyard lies. The person at the campground says the person at the movie theater tells the truth. The person at the restaurant says the person at the campground tells the truth. The person at the theater says the person at the park lies. Hiroshi is at the school. Zara is at the bowling alley. The person at the bowling alley says the person at the school tells the truth. The person at the park thinks their neighbor is telling the truth. The person at the skate park lies. The person at the bowling alley saw a firetruck. The person at the observatory lies. Liam is at the restaurant. The person at the library says the person at the observatory tells the truth. The person at the bowling alley says the person at the vineyard lies. Beatriz is at the observatory. Priya is at the movie theater. Nia is at the farm. Ryan is at the vineyard. Isabella is at the bookstore. Does the person at the ice skating rink tell the truth? Does the person at the bowling alley tell the truth? Does the person at the vineyard tell the truth? Think step by step, and then put your answer in **bold** as a list of three words, yes or no (for example, **yes, no, yes**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "In this question, assume each person either always tells the truth or always lies. Elowen is at the hotel. Max is at the park. Grace is at the ice skating rink. The person at the barbershop says the person at the library tells the truth. Charlie is at the library. Tala is at the campground. Farid is at the theater. The person at the hotel saw a firetruck. The person at the vineyard says the person at the campground lies. The person at the farm says the person at the movie theater lies. The person at the movie theater says the person at the park lies. The person at the park says the person at the hotel tells the truth. The person at the hotel says the person at the library tells the truth. Jaxon is at the skate park. Theo is at the barbershop. The person at the airport tells the truth. The person at the bowling alley thinks their neighbor is telling the truth. The person at the ice skating rink says the person at the bowling alley tells the truth. Anika is at the airport. The person at the bookstore says the person at the vineyard lies. The person at the campground says the person at the movie theater tells the truth. The person at the restaurant says the person at the campground tells the truth. The person at the theater says the person at the park lies. Hiroshi is at the school. Zara is at the bowling alley. The person at the bowling alley says the person at the school tells the truth. The person at the park thinks their neighbor is telling the truth. The person at the skate park lies. The person at the bowling alley saw a firetruck. The person at the observatory lies. Liam is at the restaurant. The person at the library says the person at the observatory tells the truth. The person at the bowling alley says the person at the vineyard lies. Beatriz is at the observatory. Priya is at the movie theater. Nia is at the farm. Ryan is at the vineyard. Isabella is at the bookstore. Does the person at the ice skating rink tell the truth? Does the person at the bowling alley tell the truth? Does the person at the vineyard tell the truth? Think step by step, and then put your answer in **bold** as a list of three words, yes or no (for example, **yes, no, yes**). If you don't know, guess."
+            ],
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "yes, yes, no"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "In this question, assume each person either always tells the truth or always lies. Hiroshi is at the farm. The person at the school tells the truth. The person at the train station says the person at the airport tells the truth. Nia is at the train station. The person at the city hall lies. Max is at the bowling alley. Quan is at the city hall. Theo is at the planetarium. The person at the museum tells the truth. The person at the observatory says the person at the airport lies. The person at the airport says the person at the bowling alley tells the truth. The person at the farm says the person at the barbershop lies. Ryan is at the school. Farid is at the airport. The person at the farm says the person at the theater tells the truth. The person at the planetarium says the person at the city hall lies. Tala is at the museum. Charlie is at the theater. The person at the barbershop says the person at the city hall tells the truth. The person at the observatory says the person at the shopping mall lies. The person at the airport says the person at the farm tells the truth. The person at the beach says the person at the city hall lies. Jaxon is at the beach. Liam is at the barbershop. The person at the airport says the person at the movie theater tells the truth. Kehinde is at the shopping mall. Ethan is at the movie theater. Mateo is at the observatory. Zara is at the vineyard. The person at the barbershop says the person at the vineyard lies. Does the person at the observatory tell the truth? Does the person at the airport tell the truth? Does the person at the farm tell the truth? Think step by step, and then put your answer in **bold** as a list of three words, yes or no (for example, **yes, no, yes**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "In this question, assume each person either always tells the truth or always lies. Hiroshi is at the farm. The person at the school tells the truth. The person at the train station says the person at the airport tells the truth. Nia is at the train station. The person at the city hall lies. Max is at the bowling alley. Quan is at the city hall. Theo is at the planetarium. The person at the museum tells the truth. The person at the observatory says the person at the airport lies. The person at the airport says the person at the bowling alley tells the truth. The person at the farm says the person at the barbershop lies. Ryan is at the school. Farid is at the airport. The person at the farm says the person at the theater tells the truth. The person at the planetarium says the person at the city hall lies. Tala is at the museum. Charlie is at the theater. The person at the barbershop says the person at the city hall tells the truth. The person at the observatory says the person at the shopping mall lies. The person at the airport says the person at the farm tells the truth. The person at the beach says the person at the city hall lies. Jaxon is at the beach. Liam is at the barbershop. The person at the airport says the person at the movie theater tells the truth. Kehinde is at the shopping mall. Ethan is at the movie theater. Mateo is at the observatory. Zara is at the vineyard. The person at the barbershop says the person at the vineyard lies. Does the person at the observatory tell the truth? Does the person at the airport tell the truth? Does the person at the farm tell the truth? Think step by step, and then put your answer in **bold** as a list of three words, yes or no (for example, **yes, no, yes**). If you don't know, guess."
+            ],
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "no, yes, yes"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "Suppose I have a physical, solid square pyramid. The bottom square has vertices A, B, C, D, and the final vertex is E. Then I make a cut through the plane defined by ACE. There are now two pieces. What are the pieces? Are they tetrahedra, squares, square pyramids, circles, triangular prisms, rectangular prisms, or are they both different shapes? Think step by step, and then put your answer in **bold** as a single phrase (for example, **squares**, or **different**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "Suppose I have a physical, solid square pyramid. The bottom square has vertices A, B, C, D, and the final vertex is E. Then I make a cut through the plane defined by ACE. There are now two pieces. What are the pieces? Are they tetrahedra, squares, square pyramids, circles, triangular prisms, rectangular prisms, or are they both different shapes? Think step by step, and then put your answer in **bold** as a single phrase (for example, **squares**, or **different**). If you don't know, guess."
+            ],
+            "output": "**tetrahedra**"
+        },
+        "correct_answer": "tetrahedra"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "Suppose I have a physical, solid, regular pentagon with vertices ABCDE, and I make two cuts. The two cuts are from two parallel lines, and both cuts pass through the interior of the pentagon. How many pieces are there after the cuts? Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+        ],
+        "model_response": {
+            "input": [
+                "Suppose I have a physical, solid, regular pentagon with vertices ABCDE, and I make two cuts. The two cuts are from two parallel lines, and both cuts pass through the interior of the pentagon. How many pieces are there after the cuts? Think step by step, and then put your answer in **bold** as a single integer (for example, **0**). If you don't know, guess."
+            ],
+            "output": "**5**"
+        },
+        "correct_answer": "3"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "There are 4 people standing in a line numbered 1 through 4 in a left to right order.\nEach person has a set of attributes: Job, Sport, Hobby.\nThe attributes have the following possible values:\n- Job: photographer, pilot, engineer, bartender\n- Sport: sailing, golf, volleyball, handball\n- Hobby: collecting, rock-climbing, traveling, chess\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who is a photographer is on the immediate left or immediate right of the person who is a engineer\n- the person that plays golf is somewhere to the right of the person who is a pilot\n- the person who likes traveling plays golf or the person who is a pilot likes traveling or both\n- the person who is a engineer is somewhere to the right of the person who is a photographer\n- the person who likes collecting is somewhere to the left of the person who is a pilot\n- the person who likes collecting is on the immediate left or immediate right of the person who likes rock-climbing\n- the person that plays handball is on the far right\n- the person who likes rock-climbing is not a pilot or the person who likes rock-climbing cannot play volleyball or both\n\nAnswer the following question:\nAt what position is the person who likes chess? Return a single digit number, in the following format: ***N***, where N is the position."
+        ],
+        "model_response": {
+            "input": [
+                "There are 4 people standing in a line numbered 1 through 4 in a left to right order.\nEach person has a set of attributes: Job, Sport, Hobby.\nThe attributes have the following possible values:\n- Job: photographer, pilot, engineer, bartender\n- Sport: sailing, golf, volleyball, handball\n- Hobby: collecting, rock-climbing, traveling, chess\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who is a photographer is on the immediate left or immediate right of the person who is a engineer\n- the person that plays golf is somewhere to the right of the person who is a pilot\n- the person who likes traveling plays golf or the person who is a pilot likes traveling or both\n- the person who is a engineer is somewhere to the right of the person who is a photographer\n- the person who likes collecting is somewhere to the left of the person who is a pilot\n- the person who likes collecting is on the immediate left or immediate right of the person who likes rock-climbing\n- the person that plays handball is on the far right\n- the person who likes rock-climbing is not a pilot or the person who likes rock-climbing cannot play volleyball or both\n\nAnswer the following question:\nAt what position is the person who likes chess? Return a single digit number, in the following format: ***N***, where N is the position."
+            ],
+            "output": "3"
+        },
+        "correct_answer": "4"
+    },
+    {
+        "dataset": "reasoning",
+        "question": [
+            "There are 3 people standing in a line numbered 1 through 3 in a left to right order.\nEach person has a set of attributes: Sport, Music-Genre, Hobby, Nationality.\nThe attributes have the following possible values:\n- Sport: weightlifting, ice-hockey, sailing\n- Music-Genre: pop, dubstep, r&b\n- Hobby: chess, drawing, baking\n- Nationality: indonesian, malaysian, egyptian\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who likes baking is somewhere to the left of the person that plays ice-hockey\n- the person who is indonesian is somewhere between the person who is malaysian and the person who likes chess\n- the person who likes chess is not anywhere to the right of the person who is indonesian\n- the person who likes drawing cannot stand dubstep or the person who likes drawing is not malaysian or both\n- the person who listens to r&b is in an even position\n- the person who is indonesian and the person that plays weightlifting have different parity positions\n\nAnswer the following question:\nWhat is the nationality of the person who listens to dubstep? Return your answer as a single word, in the following format: ***X***, where X is the answer."
+        ],
+        "model_response": {
+            "input": [
+                "There are 3 people standing in a line numbered 1 through 3 in a left to right order.\nEach person has a set of attributes: Sport, Music-Genre, Hobby, Nationality.\nThe attributes have the following possible values:\n- Sport: weightlifting, ice-hockey, sailing\n- Music-Genre: pop, dubstep, r&b\n- Hobby: chess, drawing, baking\n- Nationality: indonesian, malaysian, egyptian\nand exactly one person in the line has a given value for an attribute.\n\nGiven the following premises about the line of people:\n- the person who likes baking is somewhere to the left of the person that plays ice-hockey\n- the person who is indonesian is somewhere between the person who is malaysian and the person who likes chess\n- the person who likes chess is not anywhere to the right of the person who is indonesian\n- the person who likes drawing cannot stand dubstep or the person who likes drawing is not malaysian or both\n- the person who listens to r&b is in an even position\n- the person who is indonesian and the person that plays weightlifting have different parity positions\n\nAnswer the following question:\nWhat is the nationality of the person who listens to dubstep? Return your answer as a single word, in the following format: ***X***, where X is the answer."
+            ],
+            "output": "Malaysian"
+        },
+        "correct_answer": "egyptian"
+    }
+]

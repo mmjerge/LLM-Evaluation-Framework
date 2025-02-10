@@ -1,0 +1,1302 @@
+[
+    {
+        "question": "In a large forest, 300 deer were caught, tagged, and returned during 2001. During 2002, 500 deer were caught at random, of which only 20 had tags from the previous year. If the percent of deer in the forest that had tags during the second year and were caught in the 500 deer sample is representative of the percent of the total deer population in the forest with tags, what is the total deer population in the forest (assuming no change in population between 2001 and 2002)?",
+        "options": [
+            "A)300",
+            "B)500",
+            "C)5000",
+            "D)6000",
+            "E)7500"
+        ],
+        "model_response": "E) 7500\nExplanation: The total deer population in the forest is 7500 based on the proportion set up using the percentages of tagged deer in 2001 and 2002.",
+        "correct_answer": "E",
+        "answered_correctly": true
+    },
+    {
+        "question": "A rectangle has a length of 8 centimeters and a width of 3 centimeters. Find the perimeter.",
+        "options": [
+            "A)18cm",
+            "B)22cm",
+            "C)20cm",
+            "D)30cm",
+            "E)28cm"
+        ],
+        "model_response": "B) 22cm",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "You can rent DVDs at a local video store for $4.00 per movie without a membership. However, if you purchase a membership for $7.00 per month, you can rent DVDs for $2.00 each. What is the minimum amount of DVDs you would have to rent to make it worth it to purchase the membership?",
+        "options": [
+            "A)1",
+            "B)2",
+            "C)3",
+            "D)4",
+            "E)5"
+        ],
+        "model_response": "D) 4",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "A train running at a speed of 100 miles/hour, takes 10 hours to reach its destination. After covering quarter of the distance, it starts raining and the train has to be slowed to speed of 75 miles/hour. What is the total journey duration?",
+        "options": [
+            "A)10",
+            "B)11.5",
+            "C)12.5",
+            "D)13.5",
+            "E)15"
+        ],
+        "model_response": "D) 13.5",
+        "correct_answer": "C",
+        "answered_correctly": false
+    },
+    {
+        "question": "What is the sum of three consecutive integers whose product can be expressed as 727+728+729.",
+        "options": [
+            "A)37",
+            "B)38",
+            "C)36",
+            "D)30",
+            "E)39"
+        ],
+        "model_response": "C) 36",
+        "correct_answer": "E",
+        "answered_correctly": false
+    },
+    {
+        "question": "Two ants are standing side-by-side. One ant, which is 4 inches tall, casts a shadow that is 10 inches long. The other ant is 6 inches tall. Compute, in inches, the length of the shadow that the taller ant casts.",
+        "options": [
+            "A)36",
+            "B)28",
+            "C)42",
+            "D)15",
+            "E)20"
+        ],
+        "model_response": "D) 15",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "20 marbles were pulled out of a bag of only white marbles, painted black, and then put back in. Then, another 20 marbles were pulled out, of which 1 was black, after which they were all returned to the bag. If the percentage of black marbles pulled out the second time represents their percentage in the bag, how many marbles in total Q does the bag currently hold?",
+        "options": [
+            "A)40",
+            "B)200",
+            "C)380",
+            "D)400",
+            "E)3200"
+        ],
+        "model_response": "A) 40",
+        "correct_answer": "D",
+        "answered_correctly": false
+    },
+    {
+        "question": "John would make the 3-letter codes with diffenrent 5 vowels and 20 consonants with the condition that the middle letter must be vowel and the first letter and the third letter must be different from each other and are both consonant. How many different codes can be made?",
+        "options": [
+            "A)1,980",
+            "B)2,020",
+            "C)2,100",
+            "D)2,200",
+            "E)1,900"
+        ],
+        "model_response": "E) 1,900",
+        "correct_answer": "E",
+        "answered_correctly": false
+    },
+    {
+        "question": "X and Y are two alloys which were made by mixing zinc and copper in the ratio 6:9 and 7:11, respectively. If 40 grams of alloy X and 60 grams of alloy Y are melted and mixed to form alloy Z, what is the ratio of zinc and copper in the alloy Z ?",
+        "options": [
+            "A)69:91",
+            "B)59:91",
+            "C)59:90",
+            "D)59:91",
+            "E)69:101"
+        ],
+        "model_response": "B) 59:91",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "A man wants to eat fruit for breakfast and vegetable for dinner. He has 6 different types of fruit and 8 different types of vegetables. He can only eat one type at a time. In how many ways can he eat breakfast and dinner.",
+        "options": [
+            "A)54",
+            "B)24",
+            "C)48",
+            "D)20",
+            "E)36"
+        ],
+        "model_response": "C) 48\nExplanation: The man can eat breakfast and dinner in 48 different ways by choosing one type of fruit and one type of vegetable independently.",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "Find 25/12*5",
+        "options": [
+            "A)2.5498",
+            "B)0.4167",
+            "C)3.3987",
+            "D)8.5497",
+            "E)5.6312"
+        ],
+        "model_response": "B) 0.4167",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "Two cars are travelling from the same starting point in the same direction, having started their commute at the same time. The first car travels at a steady rate of 55 mph, while the second travels at a steady rate of 52 mph. How much time will pass before the cars are 15 miles away from each other?",
+        "options": [
+            "A)3 hours",
+            "B)5 hours",
+            "C)6 hours",
+            "D)4 hours",
+            "E)7 hours"
+        ],
+        "model_response": "A) 5 hours",
+        "correct_answer": "B",
+        "answered_correctly": false
+    },
+    {
+        "question": "Amy is organizing her bookshelves and finds that she has 10 different types of books. She then codes each book with either a single letter or a pair of two different letters. If each type of book is uniquely represented by either a single letter or pair of letters, what is the smallest number of letters Amy will need to create the codes for all 10 types of books? (Assume the order of letters in a pair does not matter.)",
+        "options": [
+            "A)3",
+            "B)4",
+            "C)5",
+            "D)10",
+            "E)20"
+        ],
+        "model_response": "C) 5",
+        "correct_answer": "D",
+        "answered_correctly": false
+    },
+    {
+        "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?",
+        "options": [
+            "A)20%",
+            "B)28%",
+            "C)36%",
+            "D)40%",
+            "E)42%"
+        ],
+        "model_response": "B) 28%. The appliance was sold for 28% more than its wholesale cost.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "Roy was suffering from severe headaches. He went to see his doctor and the doctor gave him 5 tablets asking him to take one tablet every 15 minutes.\nHow much time will it take Roy to consume all the 5 tablets?",
+        "options": [
+            "A)45 Min",
+            "B)75 Min",
+            "C)90 Min",
+            "D)120 Min",
+            "E)60 Min"
+        ],
+        "model_response": "B) 75 Min",
+        "correct_answer": "E",
+        "answered_correctly": false
+    },
+    {
+        "question": "A jeep travels a certain distance taking 6 hours in the forward journey. During the return journey, it increased its speed by 12km/hr and took 4 hours. What is the distance travelled by the jeep?",
+        "options": [
+            "A)126km",
+            "B)144km",
+            "C)127km",
+            "D)228km",
+            "E)128km"
+        ],
+        "model_response": "B) 144km",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "On dividing 2272 and 875 by a 3-digit number N, we get the same remainder. The sum of the digits of N is:",
+        "options": [
+            "A)10",
+            "B)11",
+            "C)12",
+            "D)13",
+            "E)14"
+        ],
+        "model_response": "A) 10",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "A man spend 810 in buying trouser at Rs 70 each and shirt at 30 each. What will be the ratio of trouser and shirt when the maximum number of trouser is purchased?",
+        "options": [
+            "A)9 Trousers",
+            "B)8 Trousers",
+            "C)10 Trousers",
+            "D)7 Trousers",
+            "E)11 Trousers"
+        ],
+        "model_response": "E) 11 Trousers",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "If one third of 3/4 of a number is 21. Then, find the number?",
+        "options": [
+            "A)84",
+            "B)66",
+            "C)28",
+            "D)19",
+            "E)11"
+        ],
+        "model_response": "A) 84",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "Two numbers are said to be relatively prime if they share no common positive factors other than 1. Set S contains the set of integers from 1 to 1,000, inclusive. What is the probability that a number chosen from S is relatively prime to 1,000?",
+        "options": [
+            "A)5/7",
+            "B)3/5",
+            "C)4/7",
+            "D)2/5",
+            "E)2/7"
+        ],
+        "model_response": "C) 4/7",
+        "correct_answer": "D",
+        "answered_correctly": false
+    },
+    {
+        "question": "A retailer sold an appliance for 40 percent above cost, which represented a gross profit of $20.00. For what price did the retailer sell the appliance?",
+        "options": [
+            "A)$27.30",
+            "B)$51.00",
+            "C)$63.00",
+            "D)$70.00",
+            "E)$91.00"
+        ],
+        "model_response": "A) $27.30",
+        "correct_answer": "D",
+        "answered_correctly": false
+    },
+    {
+        "question": "Roberts has a property worth of $1023.65. But in a record his property worth is written as greatest positive even integer less than or equal to his property worth and it is divisible by 100. Find the difference between actual property and recorded property worth?",
+        "options": [
+            "A)23.65",
+            "B)1000",
+            "C)35.62",
+            "D)2.65",
+            "E)1023.65"
+        ],
+        "model_response": "A) $23.65",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "A special cereal mixture contains rice, wheat and corn in the ratio of 2:3:5. If a bag of the mixture contains 3 pounds of rice, how much corn does it contain?",
+        "options": [
+            "A)6.5",
+            "B)7.5",
+            "C)7",
+            "D)6",
+            "E)None of the above"
+        ],
+        "model_response": "D) 15",
+        "correct_answer": "B",
+        "answered_correctly": false
+    },
+    {
+        "question": "There are 10 oranges in a basket. Find the no. of ways in which 2 oranges are chosen from the basket?",
+        "options": [
+            "A)45",
+            "B)90",
+            "C)120",
+            "D)150",
+            "E)180"
+        ],
+        "model_response": "C) 120",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "A man divides Rs 8600 among 5 sons, 4 daughters and 2 nephews. If each daughter receives four times as much as each nephew, and each son receives five as much as each nephew. How much does each daughter receive ?",
+        "options": [
+            "A)Rs 400",
+            "B)Rs 500",
+            "C)Rs 600",
+            "D)Rs 700",
+            "E)Rs 800"
+        ],
+        "model_response": "C) Rs 600",
+        "correct_answer": "E",
+        "answered_correctly": false
+    },
+    {
+        "question": "The difference between simple interest and C.I. at the same rate for Rs.5000 for 2 years in Rs.72. The rate of interest is?",
+        "options": [
+            "A)10%",
+            "B)12%",
+            "C)6%",
+            "D)8%",
+            "E)4%"
+        ],
+        "model_response": "A) 10%",
+        "correct_answer": "B",
+        "answered_correctly": false
+    },
+    {
+        "question": "The sum of the 5 consecutive two digit odd numbers when divided by 10 becomes a perfect square, which of the following can be one of these 5 numbers?",
+        "options": [
+            "A)47",
+            "B)91",
+            "C)41",
+            "D)67",
+            "E)44"
+        ],
+        "model_response": "None of the given numbers can be one of the 5 consecutive two-digit odd numbers.",
+        "correct_answer": "C",
+        "answered_correctly": false
+    },
+    {
+        "question": "On a normal day Bill usually averages about 15 mph when riding his bicycle. On a windy day, his speed is reduced by 4 mph. How far can Bill travel on a windy day in 21 minutes? Round to the nearest hundredth.",
+        "options": [
+            "A)2 miles",
+            "B)2.25 miles",
+            "C)3.25 miles",
+            "D)3.85 miles",
+            "E)2.85 miles"
+        ],
+        "model_response": "D) 3.85 miles",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "Silu and Meenu were walking on the road.\nSilu said, \"I weigh 51 Kgs. How much do you weigh?\"\nMeenu replied that she wouldn't reveal her weight directly as she is overweight.\nBut she said, \"I weigh 29 Kgs plus half of my weight. \"How much does Meenu weigh?",
+        "options": [
+            "A)12",
+            "B)28",
+            "C)27",
+            "D)58",
+            "E)91"
+        ],
+        "model_response": "D) 58",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "A certain liquid passes through a drain at a rate of w/25 gallons every x seconds. At that rate, how many minutes will it take y gallons to pass through the drain?",
+        "options": [
+            "A)y/(1200xy)",
+            "B)20xy/w",
+            "C)5xy/(12w)",
+            "D)w/(3xy)",
+            "E)3y/(wx)"
+        ],
+        "model_response": "C) 5xy/(12w) - It will take 5xy/(12w) minutes for y gallons to pass through the drain.",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "On a test the passing students had an average of 83, while the failing students had an average\nof 55. If the overall class average was 76, what percent of the class passed?",
+        "options": [
+            "A)44%",
+            "B)66%",
+            "C)68%",
+            "D)72%",
+            "E)75%"
+        ],
+        "model_response": "B) 66%",
+        "correct_answer": "E",
+        "answered_correctly": false
+    },
+    {
+        "question": "If 6x - y = 24 and y = 3x, what is the value of x?",
+        "options": [
+            "A)8",
+            "B)9",
+            "C)10",
+            "D)11",
+            "E)12"
+        ],
+        "model_response": "Agent stopped due to iteration limit or time limit.",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "A number is as much greater than 36 as is less than 86. Find the Number.",
+        "options": [
+            "A)60",
+            "B)56",
+            "C)51",
+            "D)61",
+            "E)41"
+        ],
+        "model_response": "D) 61",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "Jerry purchased a 1-year $5,000 bond that paid an annual interest rate of 12% compounded every six months. How much interest had this bond accrued at maturity?",
+        "options": [
+            "A)$5102",
+            "B)$618",
+            "C)$216",
+            "D)$202",
+            "E)$200"
+        ],
+        "model_response": "B) $618",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "Professors borrowed Rs. 5000 from the university at simple interest. After 3 years, the university got Rs. 300 on interest. What was the rate of interest per annum?",
+        "options": [
+            "A)2%",
+            "B)8%",
+            "C)5%",
+            "D)10%",
+            "E)None of these"
+        ],
+        "model_response": "Agent stopped due to iteration limit or time limit.",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "One gram of a certain health food contains 9 percent of the minimum daily requirement of vitamin E and 8 percent of the minimum daily requirement of vitamin A. If vitamins E and A are to be obtained from no other source, how many grams of the health food must be eaten daily to provide at least the minimum daily requirement of both vitamins?",
+        "options": [
+            "A)8.5",
+            "B)10.5",
+            "C)12.5",
+            "D)14.5",
+            "E)16.5"
+        ],
+        "model_response": "C) 12.5",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "[(272 - 32) (124 + 176)] / (17 x 15 - 15) = ?",
+        "options": [
+            "A)0",
+            "B)2.25",
+            "C)300",
+            "D)400",
+            "E)None of these"
+        ],
+        "model_response": "C) 300",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "John conducted a survey about car color. 60% of the people who took the survey were women. Of the men who were surveyed, 75% preferred red cars over green cars. If 10 men liked green cars more than red, how many people took the survey?",
+        "options": [
+            "A)100",
+            "B)120",
+            "C)50",
+            "D)200",
+            "E)80"
+        ],
+        "model_response": "Agent stopped due to iteration limit or time limit.",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "At a certain factory, 10 percent of the staplers produced on Monday were defective and 2 percent of the non-defective staplers were rejected by mistake. If 72 of the non-defective staplers were rejected, what was the number of staplers produced that day?",
+        "options": [
+            "A)4,000",
+            "B)4,200",
+            "C)4,500",
+            "D)4,800",
+            "E)5,000"
+        ],
+        "model_response": "A) 4,000 - The number of staplers produced that day was 4,000.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "Exactly 2/5th of the children in a certain class are girls. If there are 100 boys in the class, how many girls are in the class?",
+        "options": [
+            "A)50",
+            "B)100",
+            "C)150",
+            "D)200",
+            "E)70"
+        ],
+        "model_response": "A) 50",
+        "correct_answer": "C",
+        "answered_correctly": false
+    },
+    {
+        "question": "Points A, B, C, D lie in this order on the circumference of a circle. Minor arc AC is 160\u00b0, and minor arc BD is 150\u00b0. If B bisects minor arc AC, then what is the measure of minor arc AD?",
+        "options": [
+            "A)80\u00b0",
+            "B)130\u00b0",
+            "C)140\u00b0",
+            "D)160\u00b0",
+            "E)220\u00b0"
+        ],
+        "model_response": "B) 130\u00b0\n\nThe measure of minor arc AD is 50\u00b0, as B bisects minor arc AC, making the measure of minor arc DC equal to 80\u00b0. Therefore, the measure of minor arc AD is 80\u00b0 + 50\u00b0 = 130\u00b0.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "During one season, a tennis team won 20 matches and lost 30% of their matches. What was the number of matches that the team lost?",
+        "options": [
+            "A)70",
+            "B)30",
+            "C)3",
+            "D)7",
+            "E)5"
+        ],
+        "model_response": "C) 3",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "A hollow cube of size 5cm is taken, with the thickness of 1cm. It is made of smaller cubes of size 1cm .If the outer surface of the cube is painted how many faces of the smaller cubes remain unpainted?",
+        "options": [
+            "A)438",
+            "B)550",
+            "C)500",
+            "D)450",
+            "E)498"
+        ],
+        "model_response": "D) 450",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "Five dozen toys are packed in a box and 98 boxes are kept in a tempo. How many tempos can lift 29400 toys in one round ?",
+        "options": [
+            "A)4",
+            "B)5",
+            "C)7",
+            "D)6",
+            "E)8"
+        ],
+        "model_response": "B) 5",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "A rectangular solid, 3 x 4 x 15, is inscribed in a sphere, so that all eight of its vertices are on the sphere. What is the diameter of the sphere?",
+        "options": [
+            "A) 13.3542",
+            "B) 15.8113",
+            "C) 18.3451",
+            "D) 19.5667",
+            "E) 20.8888"
+        ],
+        "model_response": "B) 15.8113",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "In how many ways can the letters of the word \"PROBLEC\" be rearranged to make 7 letter words such that none of the letters repeat?",
+        "options": [
+            "A)2!",
+            "B)3!",
+            "C)7!",
+            "D)8!",
+            "E)9!"
+        ],
+        "model_response": "C) 7!",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "At its maximum speed, a space shuttle can travel 700m high in 40 seconds. It will also take 5 seconds to pass a point. What then is the length of the space shuttle?",
+        "options": [
+            "A)50 m",
+            "B)75 m",
+            "C)100 m",
+            "D)125 m",
+            "E)150 m"
+        ],
+        "model_response": "B) 75 m\n\nThe length of the space shuttle is 75 meters.",
+        "correct_answer": "C",
+        "answered_correctly": false
+    },
+    {
+        "question": "If a subscription for 15 issues of a magazine costs $42.00 and represents a saving of 25 percent of the cover prices, what is the cover price per issue?",
+        "options": [
+            "A)$7.73",
+            "B)$6.73",
+            "C)$5.73",
+            "D)$4.73",
+            "E)$3.73"
+        ],
+        "model_response": "B) $6.73",
+        "correct_answer": "E",
+        "answered_correctly": false
+    },
+    {
+        "question": "8 man work for 6 days to complete a work. How many men are required to complete same work in 1/2 day.",
+        "options": [
+            "A)93 men",
+            "B)94 men",
+            "C)95 men",
+            "D)96 men",
+            "E)97 men"
+        ],
+        "model_response": "D) 96 men\n\nExplanation: The total work done by 8 men in 6 days is 48 units of work. The work rate per man per day is 1.0. To complete the same work in 1/2 day, 96 men are required.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "What is the greatest number of identical bouquets that can be made out of 28 white and 98 red tulips if no flowers are to be left out? (Two bouquets are identical whenever the number of red tulips in the two bouquets is equal and the number of white tulips in the two bouquets is equal.)",
+        "options": [
+            "A)4",
+            "B)7",
+            "C)10",
+            "D)14",
+            "E)21"
+        ],
+        "model_response": "D) 14\nExplanation: The greatest number of identical bouquets that can be made out of 28 white and 98 red tulips is 14, as determined by the GCD of 28 and 98.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "A man borrows Rs.360 If he pays it back in 12 monthly installments of Rs.31.50, what is his interest rate?",
+        "options": [
+            "A)1.5%",
+            "B)4.5%",
+            "C)10%",
+            "D)5%",
+            "E)12%"
+        ],
+        "model_response": "D) 5%\n\nThe interest rate is 5%, calculated by dividing the interest amount by the principal amount borrowed and converting it to a percentage.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "Machine A puts out a yo-yo every 6 minutes. Machine B puts out a yo-yo every 9 minutes. After how many minutes will they have produced 10 yo-yos?",
+        "options": [
+            "A)24 minutes",
+            "B)32 minutes",
+            "C)36 minutes",
+            "D)64 minutes",
+            "E)72 minutes"
+        ],
+        "model_response": "E) 72 minutes",
+        "correct_answer": "C",
+        "answered_correctly": false
+    },
+    {
+        "question": "Decipher the following multiplication table:\nM A D\nB E\n-------------\nM A D\nR A E\n-------------\nA M I D",
+        "options": [
+            "A)9 2 0 0",
+            "B)9 2 0 9",
+            "C)9 2 0 1",
+            "D)9 2 0 7",
+            "E)9 2 2 2"
+        ],
+        "model_response": "A) 9 2 0 0",
+        "correct_answer": "D",
+        "answered_correctly": false
+    },
+    {
+        "question": "At the of his one-year investment, Charles received $54,080, including interest and principal from a certain investment. If the investment paid an annual interest of 8 percent compounded semi-annually, which of the following is the amount of money that Charles originally invested?",
+        "options": [
+            "A)$45,000",
+            "B)$50,000",
+            "C)$54,000",
+            "D)$59,000",
+            "E)$62,000"
+        ],
+        "model_response": "Agent stopped due to iteration limit or time limit.",
+        "correct_answer": "B",
+        "answered_correctly": false
+    },
+    {
+        "question": "A club consists of members whose ages are in A.P. The common difference being 3 months. If the youngest member of the club is just 7 years old and the sum of the ages of all the members is 250, then number of members in the club are :",
+        "options": [
+            "A)18",
+            "B)20",
+            "C)25",
+            "D)26",
+            "E)27"
+        ],
+        "model_response": "Agent stopped due to iteration limit or time limit.",
+        "correct_answer": "C",
+        "answered_correctly": false
+    },
+    {
+        "question": "A newspaper costs $4 on Sunday and $1 the rest of the days of the week. If a hotel orders twice as many papers on Sunday as it does the rest of the days of the week and pays $210 per week for newspapers, how many newspapers does it buy on Monday?",
+        "options": [
+            "A)15",
+            "B)30",
+            "C)45",
+            "D)60",
+            "E)75"
+        ],
+        "model_response": "A) 15",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "If Q, a positive integer, has 5 factors, which of the following must be true about Q?\nI. Q is the square of a prime number.\nII. Q is the fourth power of a prime number.\nIII. Q is the product of two prime numbers.",
+        "options": [
+            "A)I only",
+            "B)III only",
+            "C)II only",
+            "D)I and II only",
+            "E)I and III only"
+        ],
+        "model_response": "D) I and III only",
+        "correct_answer": "B",
+        "answered_correctly": false
+    },
+    {
+        "question": "You can purchase one soda and two energy bars for 150 cents, or two sodas and three energy bars for 300\ncents. If the costs of the items do not change, compute the cost in cents of six sodas and seven bars.",
+        "options": [
+            "A)500",
+            "B)600",
+            "C)750",
+            "D)800",
+            "E)900"
+        ],
+        "model_response": "E) 900",
+        "correct_answer": "E",
+        "answered_correctly": true
+    },
+    {
+        "question": "John conducted a survey about car color. 60% of the people who took the survey were women. Of the men who were surveyed, 75% preferred red cars over green cars. If 10 men liked green cars more than red, how many people took the survey?",
+        "options": [
+            "A)100",
+            "B)120",
+            "C)50",
+            "D)200",
+            "E)80"
+        ],
+        "model_response": "Agent stopped due to iteration limit or time limit.",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "If Raj was one-third as old as Rahim 5 years back and Raj is 17 years old now, How old is Rahim now?",
+        "options": [
+            "A)37",
+            "B)41",
+            "C)40",
+            "D)42",
+            "E)43"
+        ],
+        "model_response": "B) 41",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "An exam is given in a certain class. The average (arithmetic mean) of the highest score and the lowest score is equal to x. If the average score for the entire class is equal to y and there are z students in the class, where z > 5, then in terms of x, y, and z, what is the average score for the class excluding the highest and lowest scorers?",
+        "options": [
+            "A)(zy \u2013 2x)/z",
+            "B)(zy \u2013 2)/z",
+            "C)(zx \u2013 y)/(z \u2013 2)",
+            "D)(zy \u2013 2x)/(z -2)",
+            "E)(zy \u2013 x)/(z + 2)"
+        ],
+        "model_response": "D) (zy - 2x)/(z - 2)",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "A number is as much greater than 36 as is less than 86. Find the Number.",
+        "options": [
+            "A)60",
+            "B)56",
+            "C)51",
+            "D)61",
+            "E)41"
+        ],
+        "model_response": "D)61",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "At an election meeting 10 speakers are to address the meeting. The only protocol to be observed is that whenever they speak the pm should speak before the mp and the mp should speak before the mla. In how many ways can the meeting be held?",
+        "options": [
+            "A)10!/3",
+            "B)10!/6",
+            "C)10!/2",
+            "D)10!/4",
+            "E)10!/5"
+        ],
+        "model_response": "D) 10!/4",
+        "correct_answer": "B",
+        "answered_correctly": false
+    },
+    {
+        "question": "[(272 - 32) (124 + 176)] / (17 x 15 - 15) = ?",
+        "options": [
+            "A)0",
+            "B)2.25",
+            "C)300",
+            "D)400",
+            "E)None of these"
+        ],
+        "model_response": "C) 300\n\nThe result of the expression is 300 after simplification and division.",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "A hollow cube of size 5cm is taken, with the thickness of 1cm. It is made of smaller cubes of size 1cm .If the outer surface of the cube is painted how many faces of the smaller cubes remain unpainted?",
+        "options": [
+            "A)438",
+            "B)550",
+            "C)500",
+            "D)450",
+            "E)498"
+        ],
+        "model_response": "A) 438",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "My wall contains 8 red colour ties, 13 violet colour ties,10 blue colour ties, 5 pink colour ties, 4 green colour ties. If electricity is gone and I want at least two ties of same colour then how many ties I should take out from my rack?",
+        "options": [
+            "A)2",
+            "B)3",
+            "C)4",
+            "D)5",
+            "E)6"
+        ],
+        "model_response": "D) 5",
+        "correct_answer": "E",
+        "answered_correctly": true
+    },
+    {
+        "question": "Car \u2018X\u2019 covers a distance of 320 kms in 8 hours and car \u2018Y\u2019 covers a distance of 415 kms in 5 hrs. What is the difference in the speed of the two cars?",
+        "options": [
+            "A)42kms/hr",
+            "B)41km/hr",
+            "C)43kms/hr",
+            "D)45kms/hr",
+            "E)None of these"
+        ],
+        "model_response": "C) 43kms/hr\nExplanation: The difference in speed between the two cars is 43 km/hr.",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "A bookshelf contains 45 books, 30 of which are hardcover and 20 of which are fiction. What is the maximum number of books that are both hardcover and fiction?",
+        "options": [
+            "A)10",
+            "B)15",
+            "C)18",
+            "D)20",
+            "E)30"
+        ],
+        "model_response": "D) 20",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "An athlete runs M miles in 4 hours, then rides a bike N miles in the same number of hours. Which of the following represents the average speed, in miles per hour, for these two activities combined?",
+        "options": [
+            "A)M + N / 8",
+            "B)2M + N / 8",
+            "C)M + N / 4",
+            "D)M + 3N / 8",
+            "E)M + N / 5"
+        ],
+        "model_response": "C) M + N / 4\n\nExplanation: The total distance covered is M + N miles, and the total time taken for both activities is 4 hours. The average speed is the total distance divided by the total time, which gives us (M + N) / 4. So, option C is the correct representation for the average speed of the combined activities.",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "Professors borrowed Rs. 5000 from the university at simple interest. After 3 years, the university got Rs. 300 on interest. What was the rate of interest per annum?",
+        "options": [
+            "A)2%",
+            "B)8%",
+            "C)5%",
+            "D)10%",
+            "E)None of these"
+        ],
+        "model_response": "Agent stopped due to iteration limit or time limit.",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "Jim filled his dog's bowl with dog food. Starting at 8:00 am, Jim's dog ate exactly once an hour, consuming exactly 1/3 of the dog food remaining in the bowl at each feeding session. Approximately, what percent of the original food was in the dog's bowl right before the dog began to eat at noon of the same day?",
+        "options": [
+            "A)20%",
+            "B)25%",
+            "C)30%",
+            "D)35%",
+            "E)40%"
+        ],
+        "model_response": "A) 20%",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "Consider there is an staircase elevator and you are coming down. If you walk 20 steps and stop, then you reach bottom in 10 minutes. If you walk 10 steps and stop, you reach to the ground in 20 minutes. What is the speed of the elevator?",
+        "options": [
+            "A)1 step/minute",
+            "B)2 step/minute",
+            "C)3 step/minute",
+            "D)4 step/minute",
+            "E)None of the above"
+        ],
+        "model_response": "B) 2 step/minute",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "The sum of the 5 consecutive two digit odd numbers when divided by 10 becomes a perfect square, which of the following can be one of these 5 numbers?",
+        "options": [
+            "A)47",
+            "B)91",
+            "C)41",
+            "D)67",
+            "E)44"
+        ],
+        "model_response": "B) 91",
+        "correct_answer": "C",
+        "answered_correctly": false
+    },
+    {
+        "question": "What is the greatest number of identical bouquets that can be made out of 28 white and 98 red tulips if no flowers are to be left out? (Two bouquets are identical whenever the number of red tulips in the two bouquets is equal and the number of white tulips in the two bouquets is equal.)",
+        "options": [
+            "A)4",
+            "B)7",
+            "C)10",
+            "D)14",
+            "E)21"
+        ],
+        "model_response": "D) 14",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "Train A leaves a station every 16 minutes and Train B leaves every 17 minutes. If both trains just left the station simultaneously, how long until they do so again?",
+        "options": [
+            "A)272 minutes",
+            "B)304 minutes",
+            "C)190 minutes",
+            "D)70 minutes",
+            "E)35 minutes"
+        ],
+        "model_response": "A) 272 minutes - The next time both trains leave the station simultaneously is after 272 minutes.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "At Daifu university, 24% of all students are members of both a chess club and a swim team. If 20% of members of the swim team are not members of the chess club, what percentage of all Daifu students are members of the swim team?",
+        "options": [
+            "A)20%",
+            "B)30%",
+            "C)40%",
+            "D)50%",
+            "E)60%"
+        ],
+        "model_response": "C) 40%",
+        "correct_answer": "B",
+        "answered_correctly": false
+    },
+    {
+        "question": "The greatest common factor of two positive integers is 11. The least common multiple of these two integers is 7700. If one of the integers is 350, what is the other?",
+        "options": [
+            "A)242",
+            "B)308",
+            "C)352",
+            "D)412",
+            "E)456"
+        ],
+        "model_response": "A) 242. The other integer is 242.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "What is the units digit of 9^3-7?",
+        "options": [
+            "A)1",
+            "B)3",
+            "C)5",
+            "D)2",
+            "E)4"
+        ],
+        "model_response": "D) 2",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000?",
+        "options": [
+            "A)81900",
+            "B)85995",
+            "C)85800",
+            "D)90000",
+            "E)None of these"
+        ],
+        "model_response": "B) 85995",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "Train \u2018A\u2019 leaves Mumbai Central for Lucknow at 11 am, running at the speed of 40 kmph. Train \u2018B\u2019 leaves Mumbai Central for Lucknow by the same route at 2 pm on the same day, running at the speed of 72 kmph. At what time will the two trains meet each other?",
+        "options": [
+            "A)12 am on the next day",
+            "B)5 am on the next day",
+            "C)5 pm on the next day",
+            "D)2 pm on the next day",
+            "E)None of these"
+        ],
+        "model_response": "D) 2 pm on the next day",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "On a test the passing students had an average of 83, while the failing students had an average\nof 55. If the overall class average was 76, what percent of the class passed?",
+        "options": [
+            "A)44%",
+            "B)66%",
+            "C)68%",
+            "D)72%",
+            "E)75%"
+        ],
+        "model_response": "B) 66%\n\nExplanation: By solving the equation \\( 83x + 55(100 - x) = 76 \\), we find that \\( x = 66 \\). This means that 66% of the class passed. Option B) 66% is the correct answer.",
+        "correct_answer": "E",
+        "answered_correctly": false
+    },
+    {
+        "question": "The average wages of a worker during a fortnight comprising of 15 consecutive working days was $90 per day. During the first 7 days, his average wage was $87 per day and the average wage during the last 7 days was $92 per day. What was his wage on the 8th day?",
+        "options": [
+            "A)$83",
+            "B)$92",
+            "C)$90",
+            "D)$97",
+            "E)$104"
+        ],
+        "model_response": "D) $97\nExplanation: By solving the equations based on the average wages given, we found that the worker's wage on the 8th day was $97.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "A grocery sells a bag of ice for $1.25, and makes 20% profit. If it sells 500 bags of ice, how much total profit does it make?",
+        "options": [
+            "A)125",
+            "B)150",
+            "C)225",
+            "D)250",
+            "E)275"
+        ],
+        "model_response": "A) $125. The total profit made by selling 500 bags of ice is $125.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "What is the largest integral value of 'k' for which the quadratic equation x2 - 5x + k = 0 will have two real and distinct roots?",
+        "options": [
+            "A)9",
+            "B)7",
+            "C)3",
+            "D)8",
+            "E)12"
+        ],
+        "model_response": "C) 3",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "Find 25/12*5",
+        "options": [
+            "A)2.5498",
+            "B)0.4167",
+            "C)3.3987",
+            "D)8.5497",
+            "E)5.6312"
+        ],
+        "model_response": "B) 0.4167",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "A point on the edge of a fan blade that is rotating in a plane 10 centimeters from the center of the fan. What is the distance traveled, in centimeters, by this point after 30 seconds when the fan runs at the rate of 300 revolutions per minutes?",
+        "options": [
+            "A)750pi",
+            "B)1500pi",
+            "C)1875pi",
+            "D)3000pi",
+            "E)7500pi"
+        ],
+        "model_response": "B) 1500pi\n\nThe total distance traveled by the point on the edge of the fan blade after 30 seconds is approximately 1500pi centimeters.",
+        "correct_answer": "D",
+        "answered_correctly": false
+    },
+    {
+        "question": "I know a 5 digit number having a property that with a 1 after it, it is three times as large as it would be with a 1 before it.\nWhat is that number?",
+        "options": [
+            "A)42857",
+            "B)32456",
+            "C)76523",
+            "D)24567",
+            "E)43566"
+        ],
+        "model_response": "[Your final answer - the letter A, B, C, or D, followed by a brief explanation]",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "Roberts has a property worth of $1023.65. But in a record his property worth is written as greatest positive even integer less than or equal to his property worth and it is divisible by 100. Find the difference between actual property and recorded property worth?",
+        "options": [
+            "A)23.65",
+            "B)1000",
+            "C)35.62",
+            "D)2.65",
+            "E)1023.65"
+        ],
+        "model_response": "A) 23.65",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "The difference between simple interest and C.I. at the same rate for Rs.5000 for 2 years in Rs.72. The rate of interest is?",
+        "options": [
+            "A)10%",
+            "B)12%",
+            "C)6%",
+            "D)8%",
+            "E)4%"
+        ],
+        "model_response": "B) 12%\nExplanation: After solving the equation, the rate of interest comes out to be 12%.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "On a map, the length of the road from Town F to Town G is measured to be 20 inches. On this map, 1/4 inch represents an actual distance of 10 miles. What is the actual distance, in miles, from Town F to Town G along this road?",
+        "options": [
+            "A)800",
+            "B)720",
+            "C)960",
+            "D)1140",
+            "E)1160"
+        ],
+        "model_response": "A) 800",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "Alice wants to put up fencing around three sides of her rectangular yard and leave one side of 10 meters unfenced. If the yard has an area of 240 square meters, how many meters of fencing does she need?",
+        "options": [
+            "A)58",
+            "B)62",
+            "C)66",
+            "D)70",
+            "E)74"
+        ],
+        "model_response": "Agent stopped due to iteration limit or time limit.",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "The ratio of the volumes of a cube to that of the sphere which will fit inside the cube is?",
+        "options": [
+            "A)2: \u03c0",
+            "B)7:2",
+            "C)8:2",
+            "D)6: \u03c0",
+            "E)8:3"
+        ],
+        "model_response": "B) 7:2",
+        "correct_answer": "D",
+        "answered_correctly": false
+    },
+    {
+        "question": "If the probability that Stock A will increase in value during the next month is 0.56, and the probability that Stock B will increase in value during the next month is 0.74. What is the greatest value for the probability that neither of these two events will occur?",
+        "options": [
+            "A)0.22",
+            "B)0.26",
+            "C)0.37",
+            "D)0.46",
+            "E)0.63"
+        ],
+        "model_response": "C) 0.37",
+        "correct_answer": "B",
+        "answered_correctly": false
+    },
+    {
+        "question": "In a chocolate store, all chocolates are either vanilla or cocoa flavored only. 10% of the chocolates are cocoa flavored, 90% of the rest are squashed. What percentage of the chocolates are both vanilla flavored and not squashed?",
+        "options": [
+            "A)1%",
+            "B)2%",
+            "C)5%",
+            "D)9%",
+            "E)10%"
+        ],
+        "model_response": "B) 2%",
+        "correct_answer": "D",
+        "answered_correctly": false
+    },
+    {
+        "question": "Mark told John \"If you give me half your money I will have Rs.75. John said, \"if you give me one third of your money, I will have Rs.75/-. How much money did John have ?",
+        "options": [
+            "A)22",
+            "B)60",
+            "C)28",
+            "D)26",
+            "E)18"
+        ],
+        "model_response": "C) 28",
+        "correct_answer": "B",
+        "answered_correctly": false
+    },
+    {
+        "question": "If there are 5,000 voters out of which 20% are not eligible to vote and there are two candidates contesting. The winning candidate won by 15% of the votes. What is the total number of votes he got ?",
+        "options": [
+            "A)3267",
+            "B)2678",
+            "C)2797",
+            "D)2300",
+            "E)2781"
+        ],
+        "model_response": "Agent stopped due to iteration limit or time limit.",
+        "correct_answer": "D",
+        "answered_correctly": false
+    },
+    {
+        "question": "A can construct a wall in 40 min and B can construct the wall in 45 min. How many hours is needed to contruct a wall if both the person working together.",
+        "options": [
+            "A)20 min",
+            "B)22 min",
+            "C)23 min",
+            "D)21 min",
+            "E)20 min"
+        ],
+        "model_response": "D) 21 min\nExplanation: When A and B work together, they can construct the wall in approximately 21 minutes.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "On dividing 2272 and 875 by a 3-digit number N, we get the same remainder. The sum of the digits of N is:",
+        "options": [
+            "A)10",
+            "B)11",
+            "C)12",
+            "D)13",
+            "E)14"
+        ],
+        "model_response": "Agent stopped due to iteration limit or time limit.",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "If 6x - y = 24 and y = 3x, what is the value of x?",
+        "options": [
+            "A)8",
+            "B)9",
+            "C)10",
+            "D)11",
+            "E)12"
+        ],
+        "model_response": "Agent stopped due to iteration limit or time limit.",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "A rectangular solid, 3 x 4 x 15, is inscribed in a sphere, so that all eight of its vertices are on the sphere. What is the diameter of the sphere?",
+        "options": [
+            "A) 13.3542",
+            "B) 15.8113",
+            "C) 18.3451",
+            "D) 19.5667",
+            "E) 20.8888"
+        ],
+        "model_response": "Agent stopped due to iteration limit or time limit.",
+        "correct_answer": "B",
+        "answered_correctly": false
+    }
+]

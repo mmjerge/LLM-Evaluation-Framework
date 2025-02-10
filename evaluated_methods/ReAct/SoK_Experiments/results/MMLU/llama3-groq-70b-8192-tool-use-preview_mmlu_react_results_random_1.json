@@ -1,0 +1,652 @@
+[
+    {
+        "question": "Q: Find 1 over 6 + 1 over 8. (a) 7 over 24 (b) 2 over 14 (c) 1 over 7 (d) 1 over 4\nA:",
+        "question_type": "elementary_mathematics",
+        "model_response": {
+            "input": "Q: Find 1 over 6 + 1 over 8. (a) 7 over 24 (b) 2 over 14 (c) 1 over 7 (d) 1 over 4\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(a) 0.29166666666666663"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: In xyz-space, what are the coordinates of the point on the plane 2x + y + 3z = 3 that is closest to the origin? (a) (0, 0, 1) (b) (3/7, 3/14, 9/14) (c) (7/15, 8/15, 1/15) (d) (5/6, 1/3, 1/3)\nA:",
+        "question_type": "college_mathematics",
+        "model_response": {
+            "input": "Q: In xyz-space, what are the coordinates of the point on the plane 2x + y + 3z = 3 that is closest to the origin? (a) (0, 0, 1) (b) (3/7, 3/14, 9/14) (c) (7/15, 8/15, 1/15) (d) (5/6, 1/3, 1/3)\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(b) (3/7, 3/14, 9/14)"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: Even a small amount of sleep deprivation seems to (a) Increase weight (b) Improve sleep quality (c) Disrupt attention the next day (d) Increase irritability\nA:",
+        "question_type": "human_aging",
+        "model_response": {
+            "input": "Q: Even a small amount of sleep deprivation seems to (a) Increase weight (b) Improve sleep quality (c) Disrupt attention the next day (d) Increase irritability\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "The correct answer is (c) Disrupt attention the next day."
+        },
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: FM stands for (a) frequent modulation. (b) frequency modulation. (c) frequency moderator. (d) frequent moderator.\nA:",
+        "question_type": "electrical_engineering",
+        "model_response": {
+            "input": "Q: FM stands for (a) frequent modulation. (b) frequency modulation. (c) frequency moderator. (d) frequent moderator.\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(b) FM stands for frequency modulation."
+        },
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: Which proposition below may be characterized as the most powerful refutation by Hart of Lord Devlin's argument? (a) Society has no right to preserve its moral and social cohesion through the criminal law. (b) Homosexual acts cause public outrage. (c) The courts are the best place to resolve moral questions such as those concerning homosexuality and prostitution. (d) The law is anachronistic.\nA:",
+        "question_type": "jurisprudence",
+        "model_response": {
+            "input": "Q: Which proposition below may be characterized as the most powerful refutation by Hart of Lord Devlin's argument? (a) Society has no right to preserve its moral and social cohesion through the criminal law. (b) Homosexual acts cause public outrage. (c) The courts are the best place to resolve moral questions such as those concerning homosexuality and prostitution. (d) The law is anachronistic.\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: A demand curve slopes downward for an individual as the result of (a) diminishing marginal utility (b) diminishing marginal returns (c) the Fisher effect (d) diminishing returns to scale\nA:",
+        "question_type": "high_school_microeconomics",
+        "model_response": {
+            "input": "Q: A demand curve slopes downward for an individual as the result of (a) diminishing marginal utility (b) diminishing marginal returns (c) the Fisher effect (d) diminishing returns to scale\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "The correct answer is (a) diminishing marginal utility."
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: Which of the following concerning self-disclosure in relationships is supported by research? (a) when one partner in a relationship self-discloses, the other is unlikely to do so (b) self-disclosure on the part of one partner often leads to self-disclosure on the part of the other (c) there is a negative correlation between amount of self-disclosure and relationship satisfaction (d) there is no relationship between amount of self-disclosure and relationship satisfaction\nA:",
+        "question_type": "human_sexuality",
+        "model_response": {
+            "input": "Q: Which of the following concerning self-disclosure in relationships is supported by research? (a) when one partner in a relationship self-discloses, the other is unlikely to do so (b) self-disclosure on the part of one partner often leads to self-disclosure on the part of the other (c) there is a negative correlation between amount of self-disclosure and relationship satisfaction (d) there is no relationship between amount of self-disclosure and relationship satisfaction\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(b) self-disclosure on the part of one partner often leads to self-disclosure on the part of the other"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: Severe anaemia at birth is a feature of what? (a) Alpha-thalassaemia (b) Beta-thalassaemia (c) Hereditary persistence of fetal haemoglobin (d) Sickle cell disease\nA:",
+        "question_type": "medical_genetics",
+        "model_response": {
+            "input": "Q: Severe anaemia at birth is a feature of what? (a) Alpha-thalassaemia (b) Beta-thalassaemia (c) Hereditary persistence of fetal haemoglobin (d) Sickle cell disease\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "Severe anaemia at birth is a feature of (b) Beta-thalassemia."
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: Which of the following is the correct anatomical order of structures in the mammalian female reproductive tract? (a) Oviduct, uterus, rete, vagina (b) Oviduct, epididymis, uterus, vagina (c) Ovary, oviduct, uterus, vagina (d) Ovary, uterus, vagina, rete\nA:",
+        "question_type": "college_biology",
+        "model_response": {
+            "input": "Q: Which of the following is the correct anatomical order of structures in the mammalian female reproductive tract? (a) Oviduct, uterus, rete, vagina (b) Oviduct, epididymis, uterus, vagina (c) Ovary, oviduct, uterus, vagina (d) Ovary, uterus, vagina, rete\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(c) The correct anatomical order of structures in the mammalian female reproductive tract is: Ovary, oviduct, uterus, vagina."
+        },
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: The base composition of DNA varies from one species to another. Which of the following ratios would you expect to remain constant in the DNA? (a) Cytosine : Adenine (b) Pyrimidine : Purine (c) Adenine : Guanine (d) Guanine : Deoxyribose\nA:",
+        "question_type": "high_school_biology",
+        "model_response": {
+            "input": "Q: The base composition of DNA varies from one species to another. Which of the following ratios would you expect to remain constant in the DNA? (a) Cytosine : Adenine (b) Pyrimidine : Purine (c) Adenine : Guanine (d) Guanine : Deoxyribose\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: In what ways does the idea of 'victim' impact on the way in which gender security is regarded? (a) Woman as 'victim' is, and continues to be, an important narrative of war stories. In 1990 an estimated 90% of war casualties were civilian, the majority women and children. Reports that women are the primary casualties of war has contributed to the enduring perception that women are dependent on men for protection, and that men are responsible for sacrificing their own well bring for the protection of women and the state (often confused with one another through propaganda and imagery). (b) The role of men as intrinsically heroic has been marginalized as the traumas of war, desertion, and conscription become more apparent. When imagining victims, there is no longer a gender divide. Instead, there is a growing perception that those who fight are courageous and heroic, whilst those who do not take on female characteristics. (c) Increasing awareness regarding the barbaric nature of warfare and the problems of trauma in war has led to a reversal in the belief that the idea of war is a natural place for males. In contemporary societies across the globe, men are regarded as the victims of gender stereotypes that coerce them into violent behaviour as 'protectors' or aggressors on behalf of the state. (d) All of these options.\nA:",
+        "question_type": "security_studies",
+        "model_response": {
+            "input": "Q: In what ways does the idea of 'victim' impact on the way in which gender security is regarded? (a) Woman as 'victim' is, and continues to be, an important narrative of war stories. In 1990 an estimated 90% of war casualties were civilian, the majority women and children. Reports that women are the primary casualties of war has contributed to the enduring perception that women are dependent on men for protection, and that men are responsible for sacrificing their own well bring for the protection of women and the state (often confused with one another through propaganda and imagery). (b) The role of men as intrinsically heroic has been marginalized as the traumas of war, desertion, and conscription become more apparent. When imagining victims, there is no longer a gender divide. Instead, there is a growing perception that those who fight are courageous and heroic, whilst those who do not take on female characteristics. (c) Increasing awareness regarding the barbaric nature of warfare and the problems of trauma in war has led to a reversal in the belief that the idea of war is a natural place for males. In contemporary societies across the globe, men are regarded as the victims of gender stereotypes that coerce them into violent behaviour as 'protectors' or aggressors on behalf of the state. (d) All of these options.\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(a) The impact of the idea of 'victim' on gender security is multifaceted. Firstly, the concept of 'victim' has traditionally been associated with women and girls, who are disproportionately affected by armed conflict. This perception has led to the belief that men are responsible for protecting women and the state, and that those who fight are courageous and heroic. However, this narrative has been challenged by the growing awareness of the traumas of war and the problems of trauma in war, leading to a reversal in the belief that war is a natural place for males. Men are now also regarded as victims of gender stereotypes that coerce them into violent behaviour as 'protectors' or aggressors on behalf of the state.\n\nSecondly, the inclusion of women in peacekeeping operations has been recognized as crucial for achieving long-lasting peace agreements and reducing violence. Women peacekeepers have been instrumental in addressing issues such as sexual violence, human trafficking, and gender-based discrimination, which are prevalent in conflict-affected areas. Women peacekeepers also serve as role models for women and girls in these areas, showing them that women can be powerful and influential agents of change.\n\nLastly, the United Nations Security Council Resolution 1325, adopted in 2000, acknowledged the disproportionate and unique impact of armed conflict on women and girls. It calls for the adoption of a gender perspective to consider the special needs of women and girls during conflict, repatriation and resettlement, rehabilitation, reintegration, and post-conflict reconstruction. The resolution has since become an organizing framework for the women, peace, and security agenda, which focuses on advancing the components of Resolution 1325."
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: The fallacy of laudatory personality is a specific type of (a) The fallacy of accident (b) False dilemma (c) Begging the question (d) Circular reasoning\nA:",
+        "question_type": "logical_fallacies",
+        "model_response": {
+            "input": "Q: The fallacy of laudatory personality is a specific type of (a) The fallacy of accident (b) False dilemma (c) Begging the question (d) Circular reasoning\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(a) The fallacy of accident"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: Lake Trust a simple trust reported the following items of income and expense during the year: Dividend income $2500 Taxable interest income 2000 Capital gains (allocable to corpus) 5000 Accounting fees (allocable to income) (500) Trustee fees (allocable to income) (750) What is Lake's distributable net income? (a) $9,500 (b) $8,250 (c) $5,000 (d) 3250\nA:",
+        "question_type": "professional_accounting",
+        "model_response": {
+            "input": "Q: Lake Trust a simple trust reported the following items of income and expense during the year: Dividend income $2500 Taxable interest income 2000 Capital gains (allocable to corpus) 5000 Accounting fees (allocable to income) (500) Trustee fees (allocable to income) (750) What is Lake's distributable net income? (a) $9,500 (b) $8,250 (c) $5,000 (d) 3250\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(b) $8,250"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: According to the scripture that Butler discusses in Sermon One, human beings are: (a) independent and autonomous individuals. (b) all a part of one body. (c) all a part of God. (d) part of the animal kingdom.\nA:",
+        "question_type": "philosophy",
+        "model_response": {
+            "input": "Q: According to the scripture that Butler discusses in Sermon One, human beings are: (a) independent and autonomous individuals. (b) all a part of one body. (c) all a part of God. (d) part of the animal kingdom.\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(b) The scripture says that human beings are all a part of one body."
+        },
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: A 35-year-old man comes to the office for follow-up of sarcoidosis. His only new complaint is pain in his legs that increases with weight-bearing. He has been taking glucocorticoid therapy for the past 6 months. Vital signs now are temperature 37.0\u00b0C (98.6\u00b0F), pulse 78/min, respirations 14/min, and blood pressure 110/70 mm Hg. The patient is thin and is in no acute distress. Auscultation of the chest discloses scattered bilateral basilar crackles. There is mild left hip pain present with both active and passive range of motion. Dorsalis pedis pulse is intact. Neurologic examination is normal. Which of the following is the most likely cause of this patient's symptoms? (a) Avascular necrosis of the femoral head (b) Herniated nucleus pulposus (c) Narrowing of the hip joint (d) Osteoporosis\nA:",
+        "question_type": "professional_medicine",
+        "model_response": {
+            "input": "Q: A 35-year-old man comes to the office for follow-up of sarcoidosis. His only new complaint is pain in his legs that increases with weight-bearing. He has been taking glucocorticoid therapy for the past 6 months. Vital signs now are temperature 37.0\u00b0C (98.6\u00b0F), pulse 78/min, respirations 14/min, and blood pressure 110/70 mm Hg. The patient is thin and is in no acute distress. Auscultation of the chest discloses scattered bilateral basilar crackles. There is mild left hip pain present with both active and passive range of motion. Dorsalis pedis pulse is intact. Neurologic examination is normal. Which of the following is the most likely cause of this patient's symptoms? (a) Avascular necrosis of the femoral head (b) Herniated nucleus pulposus (c) Narrowing of the hip joint (d) Osteoporosis\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(a) The most likely cause of the patient's symptoms is avascular necrosis of the femoral head."
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q:  Thomas Nagel call the two kinds of moral considerations he discusses in \"War and Massacre\" (a) consequentialist and dignity-based (b) forward-looking and backward-looking (c) utilitarian and absolutist (d) All of the above\nA:",
+        "question_type": "moral_disputes",
+        "model_response": {
+            "input": "Q:  Thomas Nagel call the two kinds of moral considerations he discusses in \"War and Massacre\" (a) consequentialist and dignity-based (b) forward-looking and backward-looking (c) utilitarian and absolutist (d) All of the above\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(c) utilitarian and absolutist"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: Which of the following is false? (a) The following fully connected network without activation functions is linear: $g_3(g_2(g_1(x)))$, where $g_i(x) = W_i x$ and $W_i$ are matrices. (b) Leaky ReLU $\\max\\{0.01x,x\\}$ is convex. (c) A combination of ReLUs such as $ReLU(x) - ReLU(x-1)$ is convex. (d) The loss $\\log \\sigma(x)= -\\log(1+e^{-x})$ is concave\nA:",
+        "question_type": "machine_learning",
+        "model_response": {
+            "input": "Q: Which of the following is false? (a) The following fully connected network without activation functions is linear: $g_3(g_2(g_1(x)))$, where $g_i(x) = W_i x$ and $W_i$ are matrices. (b) Leaky ReLU $\\max\\{0.01x,x\\}$ is convex. (c) A combination of ReLUs such as $ReLU(x) - ReLU(x-1)$ is convex. (d) The loss $\\log \\sigma(x)= -\\log(1+e^{-x})$ is concave\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "The false statement is (d) The loss $\\log \\sigma(x)= -\\log(1+e^{-x})$ is concave."
+        },
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: What is an act jure gestionis? (a) Acts jure gestionis are those undertaken by States in a private capacity (b) All purchases by the State are acts jure gestionis (c) All acts undertaken by State corporations are jure gestionis (d) All conduct undertaken by government officials in their free time is considered jus gestionis.\nA:",
+        "question_type": "international_law",
+        "model_response": {
+            "input": "Q: What is an act jure gestionis? (a) Acts jure gestionis are those undertaken by States in a private capacity (b) All purchases by the State are acts jure gestionis (c) All acts undertaken by State corporations are jure gestionis (d) All conduct undertaken by government officials in their free time is considered jus gestionis.\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(a) An act jure gestionis is an act undertaken by a sovereign state in a private capacity, as opposed to acts of a sovereign character, which are considered to be acts jure imperii."
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: Identify the conclusion of the following argument. All of psychology has gotten stuck in moral prejudices and fears. No one has come close to understanding it as the development of the will to power. However, if a person even begins to regard the effects of hatred, envy, covetousness, and the lust to rule as conditions of life and furthermore, as factors essential to the general economy of life, he will begin to get seasick. At this point, he begins to lose himself, and sail over morality. Thus, psychology becomes again the path to fundamental problems. (Friedrich Nietzsche, Beyond Good and Evil) (a) All of psychology has gotten stuck in moral prejudices and fears. (b) No one has come close to understanding it as the development of the will to power. (c) If a person even begins to regard the effects of hatred, envy, covetousness, and the lust to rule as conditions of life and furthermore, as factors essential to the general economy of life, he will begin to get seasick. (d) Psychology becomes again the path to fundamental problems.\nA:",
+        "question_type": "formal_logic",
+        "model_response": {
+            "input": "Q: Identify the conclusion of the following argument. All of psychology has gotten stuck in moral prejudices and fears. No one has come close to understanding it as the development of the will to power. However, if a person even begins to regard the effects of hatred, envy, covetousness, and the lust to rule as conditions of life and furthermore, as factors essential to the general economy of life, he will begin to get seasick. At this point, he begins to lose himself, and sail over morality. Thus, psychology becomes again the path to fundamental problems. (Friedrich Nietzsche, Beyond Good and Evil) (a) All of psychology has gotten stuck in moral prejudices and fears. (b) No one has come close to understanding it as the development of the will to power. (c) If a person even begins to regard the effects of hatred, envy, covetousness, and the lust to rule as conditions of life and furthermore, as factors essential to the general economy of life, he will begin to get seasick. (d) Psychology becomes again the path to fundamental problems.\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(d) The conclusion of the argument is that psychology becomes again the path to fundamental problems."
+        },
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: The slowing that occurs with advanced age appears to be centered in (a) The sense organs themselves (b) The brain (c) The muscle fibers (d) The peripheral nervous system\nA:",
+        "question_type": "human_aging",
+        "model_response": {
+            "input": "Q: The slowing that occurs with advanced age appears to be centered in (a) The sense organs themselves (b) The brain (c) The muscle fibers (d) The peripheral nervous system\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "The slowing that occurs with advanced age is centered in the macula of the retina."
+        },
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: Socialization is: (a) the formation of an attachment bond between an infant and its carer (b) a tendency of social theorists to explain everything in terms of social causes (c) the process of becoming part of a society by learning its norms and values (d) the historical process by which societies change from traditional to modern\nA:",
+        "question_type": "sociology",
+        "model_response": {
+            "input": "Q: Socialization is: (a) the formation of an attachment bond between an infant and its carer (b) a tendency of social theorists to explain everything in terms of social causes (c) the process of becoming part of a society by learning its norms and values (d) the historical process by which societies change from traditional to modern\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(c) the process of becoming part of a society by learning its norms and values."
+        },
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: What is a derogation? (a) Derogations are exemptions from particular human rights obligations contained in a treaty (b) A derogation refers to the ability of rights holders to bring a claim against the State for breach of an obligation (c) A State may suspend particular rights by means of a derogation in circumstances that threaten its existence (d) Derogations are enforcement clauses in human rights treaties\nA:",
+        "question_type": "international_law",
+        "model_response": {
+            "input": "Q: What is a derogation? (a) Derogations are exemptions from particular human rights obligations contained in a treaty (b) A derogation refers to the ability of rights holders to bring a claim against the State for breach of an obligation (c) A State may suspend particular rights by means of a derogation in circumstances that threaten its existence (d) Derogations are enforcement clauses in human rights treaties\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(c) A State may suspend particular rights by means of a derogation in circumstances that threaten its existence."
+        },
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: Statement 1 | Every free abelian group is torsion free. Statement 2 | Every finitely generated torsion-free abelian group is a free abelian group. (a) True, True (b) False, False (c) True, False (d) False, True\nA:",
+        "question_type": "abstract_algebra",
+        "model_response": {
+            "input": "Q: Statement 1 | Every free abelian group is torsion free. Statement 2 | Every finitely generated torsion-free abelian group is a free abelian group. (a) True, True (b) False, False (c) True, False (d) False, True\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: Which of the following is true for a firm operating under perfect competition in the long run? (a) The firm will engage in non-price competition. (b) The firm will realize economic profits. (c) The firm will incur economic losses. (d) The firm will realize zero economic profits.\nA:",
+        "question_type": "high_school_microeconomics",
+        "model_response": {
+            "input": "Q: Which of the following is true for a firm operating under perfect competition in the long run? (a) The firm will engage in non-price competition. (b) The firm will realize economic profits. (c) The firm will incur economic losses. (d) The firm will realize zero economic profits.\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: According to the Solar Nebular theory what are asteroids and comets? (a) They are the shattered remains of collisions between planets. (b) They are chunks of rock or ice that condensed long after the planets and moons had formed. (c) They are chunks of rock or ice that were expelled from planets by volcanoes. (d) They are leftover planetesimals that never accreted into planets.\nA:",
+        "question_type": "astronomy",
+        "model_response": {
+            "input": "Q: According to the Solar Nebular theory what are asteroids and comets? (a) They are the shattered remains of collisions between planets. (b) They are chunks of rock or ice that condensed long after the planets and moons had formed. (c) They are chunks of rock or ice that were expelled from planets by volcanoes. (d) They are leftover planetesimals that never accreted into planets.\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(d) Asteroids and comets are thought to be leftover planetesimals that never accreted into planets, according to the Solar Nebular theory."
+        },
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Nitronyl nitroxides are stable radicals in which the unpaired electron is coupled to two equivalent nitrogen nuclei. How many lines will appear in the EPR spectrum of a solution of a rigid nitronyl nitroxide diradical with J >> a? (a) 3 lines (b) 9 lines (c) 5 lines (d) 7 lines\nA:",
+        "question_type": "college_chemistry",
+        "model_response": {
+            "input": "Q: Nitronyl nitroxides are stable radicals in which the unpaired electron is coupled to two equivalent nitrogen nuclei. How many lines will appear in the EPR spectrum of a solution of a rigid nitronyl nitroxide diradical with J >> a? (a) 3 lines (b) 9 lines (c) 5 lines (d) 7 lines\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: How does an increasing national debt impact the market for U.S. dollars and the value of the dollar with respect to other currencies? MARKET FOR THE DOLLAR \u00a0\u00a0\u00a0 VALUE OF THE DOLLAR (a) Increased demand \u00a0\u00a0\u00a0 Appreciating (b) Increased supply \u00a0\u00a0\u00a0 Appreciating (c) Decreased supply \u00a0\u00a0\u00a0 Depreciating (d) Decreased demand \u00a0\u00a0\u00a0 Depreciating\nA:",
+        "question_type": "high_school_macroeconomics",
+        "model_response": {
+            "input": "Q: How does an increasing national debt impact the market for U.S. dollars and the value of the dollar with respect to other currencies? MARKET FOR THE DOLLAR \u00a0\u00a0\u00a0 VALUE OF THE DOLLAR (a) Increased demand \u00a0\u00a0\u00a0 Appreciating (b) Increased supply \u00a0\u00a0\u00a0 Appreciating (c) Decreased supply \u00a0\u00a0\u00a0 Depreciating (d) Decreased demand \u00a0\u00a0\u00a0 Depreciating\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: A fluid of density \u03c1 flows through a horizontal pipe with negligible viscosity. The flow is streamlined with constant flow rate. The diameter of the pipe at Point 1 is d and the flow speed is V. If the diameter of the pipe at Point 2 is d/3, then the pressure at Point 2 is (a) less than the pressure at Point 1 by 4 \u03c1v^2 (b) less than the pressure at Point 1 by 40 \u03c1v^2 (c) more than the pressure at Point 1 by 4 \u03c1v^2 (d) more than the pressure at Point 1 by 40 \u03c1v^2\nA:",
+        "question_type": "high_school_physics",
+        "model_response": {
+            "input": "Q: A fluid of density \u03c1 flows through a horizontal pipe with negligible viscosity. The flow is streamlined with constant flow rate. The diameter of the pipe at Point 1 is d and the flow speed is V. If the diameter of the pipe at Point 2 is d/3, then the pressure at Point 2 is (a) less than the pressure at Point 1 by 4 \u03c1v^2 (b) less than the pressure at Point 1 by 40 \u03c1v^2 (c) more than the pressure at Point 1 by 4 \u03c1v^2 (d) more than the pressure at Point 1 by 40 \u03c1v^2\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: War became possible between nation states in the nineteenth century because: (a) the world was divided into several rival overseas empires (b) industrialization provided better transport, technology and administration (c) there was intense economic, political and military competition (d) all of the above\nA:",
+        "question_type": "sociology",
+        "model_response": {
+            "input": "Q: War became possible between nation states in the nineteenth century because: (a) the world was divided into several rival overseas empires (b) industrialization provided better transport, technology and administration (c) there was intense economic, political and military competition (d) all of the above\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Picornavirus replication as a positive strand RNA virus is particularly typified by which of the following? (a) Virions carry RNA transcriptase enzyme into the cell (b) The virion RNA is translated into a single large polyprotein (c) The virion RNA acting as mRNA (d) The virus exits by apoptosis of the cell\nA:",
+        "question_type": "virology",
+        "model_response": {
+            "input": "Q: Picornavirus replication as a positive strand RNA virus is particularly typified by which of the following? (a) Virions carry RNA transcriptase enzyme into the cell (b) The virion RNA is translated into a single large polyprotein (c) The virion RNA acting as mRNA (d) The virus exits by apoptosis of the cell\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(c) The virion RNA acting as mRNA"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: The gut microbes metabolize L-carnitine into which metabolite that has been shown increase cardiovascular disease?\n (a) choline (b) betaine (c) Trimethylamine (d) All of the above\nA:",
+        "question_type": "nutrition",
+        "model_response": {
+            "input": "Q: The gut microbes metabolize L-carnitine into which metabolite that has been shown increase cardiovascular disease?\n (a) choline (b) betaine (c) Trimethylamine (d) All of the above\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: The name of the black hole in the center of our Milky Way is ... (a) Altair A* (b) Alsephina A* (c) Fomalhaut A* (d) Sagittarius A*\nA:",
+        "question_type": "astronomy",
+        "model_response": {
+            "input": "Q: The name of the black hole in the center of our Milky Way is ... (a) Altair A* (b) Alsephina A* (c) Fomalhaut A* (d) Sagittarius A*\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(d) Sagittarius A*"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Mr. Thomas, a school psychologist, works with Ms. Riddle, a special education teacher, to meet the needs of Mark, a student with autism spectrum disorder. Mr. Thomas does not work with Mark directly; Ms. Riddle acts as his mediator. This collaboration is an example of which consultation model? (a) Systems (b) Resource (c) Triadic (d) Adaptive learning environments\nA:",
+        "question_type": "high_school_psychology",
+        "model_response": {
+            "input": "Q: Mr. Thomas, a school psychologist, works with Ms. Riddle, a special education teacher, to meet the needs of Mark, a student with autism spectrum disorder. Mr. Thomas does not work with Mark directly; Ms. Riddle acts as his mediator. This collaboration is an example of which consultation model? (a) Systems (b) Resource (c) Triadic (d) Adaptive learning environments\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(c) The collaboration between Mr. Thomas, a school psychologist, and Ms. Riddle, a special education teacher, to meet the needs of Mark, a student with autism spectrum disorder, is an example of the Triadic consultation model."
+        },
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: The 'new racism' refers to: (a) a subtler form of prejudice, masked by nationalist pride (b) a post-modern deconstruction of racist ideas to reveal their lack of depth (c) racist practices found in newly emerging areas of social life, such as cyberspace (d) an anti-fascist movement which challenges nationalist politics\nA:",
+        "question_type": "sociology",
+        "model_response": {
+            "input": "Q: The 'new racism' refers to: (a) a subtler form of prejudice, masked by nationalist pride (b) a post-modern deconstruction of racist ideas to reveal their lack of depth (c) racist practices found in newly emerging areas of social life, such as cyberspace (d) an anti-fascist movement which challenges nationalist politics\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(a) The 'new racism' refers to a subtler form of prejudice, masked by nationalist pride."
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: The polynomial x^3 + 2x^2 + 2x + 1 can be factored into linear factors in Z_7[x]. Find this factorization. (a) (x \u2212 2)(x + 2)(x \u2212 1) (b) (x + 1)(x + 4)(x \u2212 2) (c) (x + 1)(x \u2212 4)(x \u2212 2) (d) (x - 1)(x \u2212 4)(x \u2212 2)\nA:",
+        "question_type": "abstract_algebra",
+        "model_response": {
+            "input": "Q: The polynomial x^3 + 2x^2 + 2x + 1 can be factored into linear factors in Z_7[x]. Find this factorization. (a) (x \u2212 2)(x + 2)(x \u2212 1) (b) (x + 1)(x + 4)(x \u2212 2) (c) (x + 1)(x \u2212 4)(x \u2212 2) (d) (x - 1)(x \u2212 4)(x \u2212 2)\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "The final answer is (b) (x + 1)(x + 4)(x - 2)."
+        },
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: Which of the following is a type of bacterium that produces a toxin in food under anaerobic conditions? (a) Clostridium botulinum (b) Clostridium tetani (c) Mycobacterium bovis (d) Staphylococcus aureus\nA:",
+        "question_type": "miscellaneous",
+        "model_response": {
+            "input": "Q: Which of the following is a type of bacterium that produces a toxin in food under anaerobic conditions? (a) Clostridium botulinum (b) Clostridium tetani (c) Mycobacterium bovis (d) Staphylococcus aureus\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "The answer is (a) Clostridium botulinum."
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: The reaction time difference between younger and older adults is reduced when older adults (a) Practice regular aerobic exercise (b) Lift weights on a regular schedule (c) Consume large quantities of vitamins (d) Practice Tai chi\nA:",
+        "question_type": "human_aging",
+        "model_response": {
+            "input": "Q: The reaction time difference between younger and older adults is reduced when older adults (a) Practice regular aerobic exercise (b) Lift weights on a regular schedule (c) Consume large quantities of vitamins (d) Practice Tai chi\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "The answer to the question is not directly found in the provided information."
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: Why are members of the astrovirus family only recently recognised as significant enteric viruses for humans? (a) The genome has been identified by the new method of deep sequencing (b) A new vector has been discovered (c) They infect a wide range of domestic animals and so contaminate meat (d) Knowledge of their replication as positive sense ssRNA viruses is now complete\nA:",
+        "question_type": "virology",
+        "model_response": {
+            "input": "Q: Why are members of the astrovirus family only recently recognised as significant enteric viruses for humans? (a) The genome has been identified by the new method of deep sequencing (b) A new vector has been discovered (c) They infect a wide range of domestic animals and so contaminate meat (d) Knowledge of their replication as positive sense ssRNA viruses is now complete\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "The correct answer is (a) The genome has been identified by the new method of deep sequencing."
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: Which of the following pairs of scientists pioneered the ecological discipline known as island biogeography? (a) Robert MacArthur and E. O. Wilson (b) James Watson and Francis Crick (c) Matthias Schleiden and Theodor Schwann (d) Alfred Hershey and Martha Chase\nA:",
+        "question_type": "high_school_biology",
+        "model_response": {
+            "input": "Q: Which of the following pairs of scientists pioneered the ecological discipline known as island biogeography? (a) Robert MacArthur and E. O. Wilson (b) James Watson and Francis Crick (c) Matthias Schleiden and Theodor Schwann (d) Alfred Hershey and Martha Chase\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(a) Robert MacArthur and E. O. Wilson are the pair of scientists who pioneered the ecological discipline known as island biogeography."
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: As a result of substance abuse throughout adolescence, a young adult suffers from a number of psychological symptoms reflecting diminished executive functioning. Which of the following are likely true of this patient?\nI. Pathological changes to the prefrontal cortex.\nII. Increased susceptibility to auditory hallucinations.\nIII. Reduced behavioral impulse control. (a) I only (b) III only (c) I and III only (d) II and III only\nA:",
+        "question_type": "college_medicine",
+        "model_response": {
+            "input": "Q: As a result of substance abuse throughout adolescence, a young adult suffers from a number of psychological symptoms reflecting diminished executive functioning. Which of the following are likely true of this patient?\nI. Pathological changes to the prefrontal cortex.\nII. Increased susceptibility to auditory hallucinations.\nIII. Reduced behavioral impulse control. (a) I only (b) III only (c) I and III only (d) II and III only\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(c) I and III only"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q:  What interior discipline must be adopted to achieve spiritual liberation within Sikhism? (a) Remembering the Divine Name (b) Meditating on the sacred hymns (c) Remembering that death is inevitable (d) Meditating on the goodness of the created world\nA:",
+        "question_type": "world_religions",
+        "model_response": {
+            "input": "Q:  What interior discipline must be adopted to achieve spiritual liberation within Sikhism? (a) Remembering the Divine Name (b) Meditating on the sacred hymns (c) Remembering that death is inevitable (d) Meditating on the goodness of the created world\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q:  Which of the following best characterizes de Marneffe's view? (a) The use, sale, and manufacturing of drugs should be legal. (b) The use, sale, and manufacturing of drugs should be illegal. (c) The use of drugs should be legal, but the sale and manufacturing of them should be illegal. (d) The use of drugs should be illegal, but the sale and manufacturing of them should be legal.\nA:",
+        "question_type": "moral_disputes",
+        "model_response": {
+            "input": "Q:  Which of the following best characterizes de Marneffe's view? (a) The use, sale, and manufacturing of drugs should be legal. (b) The use, sale, and manufacturing of drugs should be illegal. (c) The use of drugs should be legal, but the sale and manufacturing of them should be illegal. (d) The use of drugs should be illegal, but the sale and manufacturing of them should be legal.\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "The answer to the question is (a) The use, sale, and manufacturing of drugs should be legal."
+        },
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: What are major reasons why organizations retain outside public relations counsel?  (a) They offer flexibility of talents and skills. (b) They bring greater credibility to the work.  (c) They will provide sound ROI on the project or program. (d) They can provide more attention and detail to a project that in-house staff.\nA:",
+        "question_type": "public_relations",
+        "model_response": {
+            "input": "Q: What are major reasons why organizations retain outside public relations counsel?  (a) They offer flexibility of talents and skills. (b) They bring greater credibility to the work.  (c) They will provide sound ROI on the project or program. (d) They can provide more attention and detail to a project that in-house staff.\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "The answer to the question is (a), they offer flexibility of talents."
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: To claim that one has a prima facie duty to obey the law is to assert that: (a) One is under a duty to obey the law without exception, regardless of its content. (b) There is no duty to obey a law to which one hasn't agreed. (c) The duty applies only to those who are directly affected by the law in question. (d) The obligation arises independently of the precise legal provisions involved - unless there are grounds to justify a specific exception.\nA:",
+        "question_type": "jurisprudence",
+        "model_response": {
+            "input": "Q: To claim that one has a prima facie duty to obey the law is to assert that: (a) One is under a duty to obey the law without exception, regardless of its content. (b) There is no duty to obey a law to which one hasn't agreed. (c) The duty applies only to those who are directly affected by the law in question. (d) The obligation arises independently of the precise legal provisions involved - unless there are grounds to justify a specific exception.\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(d) The obligation arises independently of the precise legal provisions involved - unless there are grounds to justify a specific exception."
+        },
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: What is the term for the extent to which competition in one country is influenced by competition in other countries? (a) International trade (b) Global economics (c) Global competition (d) Globalisation\nA:",
+        "question_type": "management",
+        "model_response": {
+            "input": "Q: What is the term for the extent to which competition in one country is influenced by competition in other countries? (a) International trade (b) Global economics (c) Global competition (d) Globalisation\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "The term for the extent to which competition in one country is influenced by competition in other countries is \"Global competition\"."
+        },
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: A man was arrested and charged with sexually assaulting a child. At trial, in its case-in-chief, the prosecution seeks to introduce evidence that the man had twice been previously involved in similar cases with other children. The prosecution argues that these past crimes demonstrate the likelihood that the man molested this child. Defense counsel objects to the evidence regarding other children. The judge should find the evidence (a) admissible, because the man's past crimes may be introduced to show that he is more likely to have committed the crime with which he is charged. (b) admissible, because a common plan or scheme may be proven by other similar criminal acts. (c) inadmissible, because past crimes may not be introduced to prove disposition to commit certain acts. (d) inadmissible, because the prosecution cannot initiate evidence of bad character.\nA:",
+        "question_type": "professional_law",
+        "model_response": {
+            "input": "Q: A man was arrested and charged with sexually assaulting a child. At trial, in its case-in-chief, the prosecution seeks to introduce evidence that the man had twice been previously involved in similar cases with other children. The prosecution argues that these past crimes demonstrate the likelihood that the man molested this child. Defense counsel objects to the evidence regarding other children. The judge should find the evidence (a) admissible, because the man's past crimes may be introduced to show that he is more likely to have committed the crime with which he is charged. (b) admissible, because a common plan or scheme may be proven by other similar criminal acts. (c) inadmissible, because past crimes may not be introduced to prove disposition to commit certain acts. (d) inadmissible, because the prosecution cannot initiate evidence of bad character.\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(c) inadmissible, because past crimes may not be introduced to prove disposition to commit certain acts."
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: Identify the conclusion of the following argument. Utilitarian theory is embarrassed by the possibility of utility monsters. A utility monster gets enormous gains in utility, greater than the utility lost by the sacrifices of others. The sacrifices of even large numbers of other people are outweighed by the gains of the utility monster. The theory seems to require that we all be sacrificed in the monste's maw in order to increase total utility. (Robert Nozick, Anarchy, State, and Utopia) (a) Utilitarian theory is embarrassed by the possibility of utility monsters. (b) A utility monster gets enormous gains in utility. (c) A utility monster gets gains in utility greater than the utility lost by the sacrifices of others. (d) The sacrifices of even large numbers of other people are outweighed by the gains of the utility monster.\nA:",
+        "question_type": "formal_logic",
+        "model_response": {
+            "input": "Q: Identify the conclusion of the following argument. Utilitarian theory is embarrassed by the possibility of utility monsters. A utility monster gets enormous gains in utility, greater than the utility lost by the sacrifices of others. The sacrifices of even large numbers of other people are outweighed by the gains of the utility monster. The theory seems to require that we all be sacrificed in the monste's maw in order to increase total utility. (Robert Nozick, Anarchy, State, and Utopia) (a) Utilitarian theory is embarrassed by the possibility of utility monsters. (b) A utility monster gets enormous gains in utility. (c) A utility monster gets gains in utility greater than the utility lost by the sacrifices of others. (d) The sacrifices of even large numbers of other people are outweighed by the gains of the utility monster.\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "(a) Utilitarian theory is embarrassed by the possibility of utility monsters."
+        },
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: We are interested in the proportion p of people who are unemployed in a large city. Eight percent of a simple random sample of 500 people are unemployed. What is the midpoint for a 95% confidence interval estimate of p? (a) 0.012 (b) 0.025 (c) 0.475 (d) None of the above.\nA:",
+        "question_type": "high_school_statistics",
+        "model_response": {
+            "input": "Q: We are interested in the proportion p of people who are unemployed in a large city. Eight percent of a simple random sample of 500 people are unemployed. What is the midpoint for a 95% confidence interval estimate of p? (a) 0.012 (b) 0.025 (c) 0.475 (d) None of the above.\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Who has legal responsibility for a patient's care during hospital admission, stay, and discharge? (a) The named nurse. (b) The named consultant. (c) The ward manager. (d) The GP.\nA:",
+        "question_type": "clinical_knowledge",
+        "model_response": {
+            "input": "Q: Who has legal responsibility for a patient's care during hospital admission, stay, and discharge? (a) The named nurse. (b) The named consultant. (c) The ward manager. (d) The GP.\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "The legal responsibility for a patient's care during hospital admission, stay, and discharge is not explicitly stated as belonging to a single individual. It seems that the overall legal responsibility would be shared among the named nurse, named consultant, ward manager, and GP, as well as the hospital as an institution."
+        },
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: This is when a product or service is offered together with another typically complementary product or service: (a) Product pricing. (b) Price differentiation. (c) Pure price bundling. (d) Odd-Number pricing.\nA:",
+        "question_type": "marketing",
+        "model_response": {
+            "input": "Q: This is when a product or service is offered together with another typically complementary product or service: (a) Product pricing. (b) Price differentiation. (c) Pure price bundling. (d) Odd-Number pricing.\nA:",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "c"
+    }
+]

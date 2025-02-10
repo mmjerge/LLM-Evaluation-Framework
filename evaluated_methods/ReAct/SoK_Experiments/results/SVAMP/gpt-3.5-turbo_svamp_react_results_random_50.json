@@ -1,0 +1,502 @@
+[
+    {
+        "ID": "chal-926",
+        "Body": "Nell collects cards. She had 438 baseball cards and 18 Ace cards. She gave some of her cards to Jeff and now has 55 Ace cards and 178 baseball cards left.",
+        "Question": "How many more baseball cards than Ace cards does Nell have?",
+        "model_response": "178",
+        "correct_answer": 123.0,
+        "Equation": "( 178.0 - 55.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": false
+    },
+    {
+        "ID": "chal-228",
+        "Body": "Matthew had 14 crackers and 21 cakes. If Matthew gave equal numbers of crackers and cakes to his 7 friends",
+        "Question": "How many crackers and cakes did each person eat?",
+        "model_response": "5",
+        "correct_answer": 5.0,
+        "Equation": "( ( 14.0 + 21.0 ) / 7.0 )",
+        "Type": "Common-Division",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-940",
+        "Body": "There were 5 roses and 3 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 12 roses and 2 orchids in the vase.",
+        "Question": "How many more roses than orchids are there in the vase now?",
+        "model_response": "7 more roses than orchids are there in the vase now.",
+        "correct_answer": 10.0,
+        "Equation": "( 12.0 - 2.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": false
+    },
+    {
+        "ID": "chal-766",
+        "Body": "There are 203 bananas and 63 oranges in Philip's collection. If the bananas are organized into 7 groups and oranges are organized into 95 groups",
+        "Question": "How big is each group of bananas?",
+        "model_response": "29",
+        "correct_answer": 29.0,
+        "Equation": "( 203.0 / 7.0 )",
+        "Type": "Common-Division",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-552",
+        "Body": "Baker made 155 cakes. If his friend bought 140 cakes from him",
+        "Question": "How many cakes would baker still have?",
+        "model_response": "15",
+        "correct_answer": 15.0,
+        "Equation": "( 155.0 - 140.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-597",
+        "Body": "Jesse's room is 7 feet wide. If she needs a carpet of size 14 square feet",
+        "Question": "What is the length of her room?",
+        "model_response": "2",
+        "correct_answer": 2.0,
+        "Equation": "( 14.0 / 7.0 )",
+        "Type": "Common-Division",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-365",
+        "Body": "Rachel picked 7 ripe apples from her tree. Now the tree has 5 apples still on it. If 3 of those are ripe and the rest are unripe",
+        "Question": "How many unripe apples does the tree have now?",
+        "model_response": "5",
+        "correct_answer": 2.0,
+        "Equation": "( 5.0 - 3.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": false
+    },
+    {
+        "ID": "chal-265",
+        "Body": "Every day Ryan spends 7 hours on learning english, 2 hours on learning chinese and 4 hours on learning spanish.",
+        "Question": "How many more hours does he spend on learning english than he does on learning spanish?",
+        "model_response": "3",
+        "correct_answer": 3.0,
+        "Equation": "( 7.0 - 4.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-439",
+        "Body": "At the arcade Dave had won 7 tickets. He used some tickets to buy toys. If he still has 2 tickets left",
+        "Question": "How many tickets did Dave use to buy toys?",
+        "model_response": "5",
+        "correct_answer": 5.0,
+        "Equation": "( 7.0 - 2.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-683",
+        "Body": "Melissa scored a total of 91 points in 13 games scoring the same for each game.",
+        "Question": "How many points did she score in each game?",
+        "model_response": "7",
+        "correct_answer": 7.0,
+        "Equation": "( 91.0 / 13.0 )",
+        "Type": "Common-Division",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-580",
+        "Body": "Olivia spent 38 dollars at a supermarket. If there were 128 dollars in her wallet initially",
+        "Question": "How much money does she have left?",
+        "model_response": "90",
+        "correct_answer": 90.0,
+        "Equation": "( 128.0 - 38.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-652",
+        "Body": "Mary is baking a cake. The recipe calls for 9 cups of flour and 11 cups of sugar. She already put in 4 cups of flour.",
+        "Question": "How many more cups of sugar than cups of flour does she need to add now?",
+        "model_response": "7",
+        "correct_answer": 6.0,
+        "Equation": "( 11.0 - ( 9.0 - 4.0 ) )",
+        "Type": "Subtraction",
+        "answered_correctly": false
+    },
+    {
+        "ID": "chal-91",
+        "Body": "Josh had 3 marbles in his collection. He found 6 marbles while he lost 5 marbles.",
+        "Question": "How many more marbles did he find than those he lost?",
+        "model_response": "1",
+        "correct_answer": 1.0,
+        "Equation": "( 6.0 - 5.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-759",
+        "Body": "Allan brought 5 balloons. If Allan and Jake brought total of 6 balloons to the park",
+        "Question": "How many balloons did Jake bring to the park?",
+        "model_response": "1",
+        "correct_answer": 1.0,
+        "Equation": "( 6.0 - 5.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-447",
+        "Body": "Brenda's mother made cookies for guests. Each guest had 2 cookies. If she prepared a total of 10 cookies",
+        "Question": "How many guests did she prepare cookies for?",
+        "model_response": "5",
+        "correct_answer": 5.0,
+        "Equation": "( 10.0 / 2.0 )",
+        "Type": "Common-Division",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-777",
+        "Body": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups",
+        "Question": "How big is each group of bananas?",
+        "model_response": "145",
+        "correct_answer": 145.0,
+        "Equation": "( 290.0 / 2.0 )",
+        "Type": "Common-Division",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-765",
+        "Body": "If the cave is 919 feet deep and they need to travel 1307 feet",
+        "Question": "How far is the end of the cave?",
+        "model_response": "388",
+        "correct_answer": 2226.0,
+        "Equation": "( 919.0 + 1307.0 )",
+        "Type": "Addition",
+        "answered_correctly": false
+    },
+    {
+        "ID": "chal-46",
+        "Body": "Zachary did 35 push-ups and 3 crunches in gym class today. David did 58 more push-ups but 87 less crunches than zachary.",
+        "Question": "How many more push-ups than crunches did Zachary do?",
+        "model_response": "Agent stopped due to iteration limit or time limit.",
+        "correct_answer": 32.0,
+        "Equation": "( 35.0 - 3.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": false
+    },
+    {
+        "ID": "chal-317",
+        "Body": "Julia played tag with 5 kids on tuesday. She had played tag with 6 kids on monday.",
+        "Question": "How many more kids did she play with on monday than on tuesday?",
+        "model_response": "1",
+        "correct_answer": 1.0,
+        "Equation": "( 6.0 - 5.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-543",
+        "Body": "Zachary did 53 push-ups and 14 crunches in gym class today. David did 17 more push-ups but 10 less crunches than zachary.",
+        "Question": "How many push-ups and crunches did Zachary do?",
+        "model_response": "Zachary did 53 push-ups and 14 crunches.",
+        "correct_answer": 67.0,
+        "Equation": "( 53.0 + 14.0 )",
+        "Type": "Addition",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-799",
+        "Body": "Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles",
+        "Question": "How many marbles does Doug have now?",
+        "model_response": "9",
+        "correct_answer": 9.0,
+        "Equation": "( ( 22.0 - 6.0 ) - 7.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-540",
+        "Body": "He had 15 aquariums for saltwater animals and 62 aquariums for freshwater animals. Each aquarium has 19 animals in it.",
+        "Question": "How many animals does he have in total?",
+        "model_response": "1463.",
+        "correct_answer": 1463.0,
+        "Equation": "( ( 15.0 + 62.0 ) * 19.0 )",
+        "Type": "Multiplication",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-966",
+        "Body": "A chef had 40 apples and 54 peaches. After making some pies, he had 39 apples left.",
+        "Question": "How many apples did he use?",
+        "model_response": "1",
+        "correct_answer": 1.0,
+        "Equation": "( 40.0 - 39.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-454",
+        "Body": "Jake has 3 fewer peaches and 4 more apples than Steven. Steven has 19 apples and 15 peaches.",
+        "Question": "How many more apples than peaches does Steven have?",
+        "model_response": "8",
+        "correct_answer": 4.0,
+        "Equation": "( 19.0 - 15.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": false
+    },
+    {
+        "ID": "chal-899",
+        "Body": "Jack received 5 emails in the morning, 8 emails in the afternoon and 72 emails in the evening.",
+        "Question": "How many emails did Jack receive in the morning and afternoon?",
+        "model_response": "13.",
+        "correct_answer": 13.0,
+        "Equation": "( 5.0 + 8.0 )",
+        "Type": "Addition",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-509",
+        "Body": "Julia played tag with 5 kids on monday, 9 kids on tuesday and 15 kids on wednesday.",
+        "Question": "How many kids did she play with on monday and wednesday?",
+        "model_response": "20",
+        "correct_answer": 20.0,
+        "Equation": "( 5.0 + 15.0 )",
+        "Type": "Addition",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-720",
+        "Body": "Baker made 52 pastries and 84 cakes. If he sold 102 cakes and 94 pastries",
+        "Question": "How many more cakes than pastries did baker make?",
+        "model_response": "Baker made 2 fewer cakes than pastries.",
+        "correct_answer": 32.0,
+        "Equation": "( 84.0 - 52.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": false
+    },
+    {
+        "ID": "chal-568",
+        "Body": "Mary is baking a cake. The recipe calls for 5 cups of sugar and 13 cups of flour. She already put in some cups of flour. If she still needs 12 more cups of flour",
+        "Question": "How many cups of flour did she put in?",
+        "model_response": "1",
+        "correct_answer": 1.0,
+        "Equation": "( 13.0 - 12.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-953",
+        "Body": "After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that 132 visitors came to the Buckingham palace that day. If 406 people visited the Buckingham palace within the past 327 days",
+        "Question": "How many visitors visited the Buckingham palace on the previous day?",
+        "model_response": "274",
+        "correct_answer": 274.0,
+        "Equation": "( 406.0 - 132.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-252",
+        "Body": "Because of the decision Sofia asked the students to suggest specific types of food. If 144 students suggested adding mashed potatoes 467 suggested adding bacon to the menu and 79 suggested adding tomatoes",
+        "Question": "How many more students suggested mashed potatoes than those that suggested tomatoes?",
+        "model_response": "65",
+        "correct_answer": 65.0,
+        "Equation": "( 144.0 - 79.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-7",
+        "Body": "Jerry had some action figures on a shelf in his room. Later he added 7 more action figures to the shelf. If there are a total of 10 action figures on his shelf now",
+        "Question": "How many action figures did he have initially on the shelf?",
+        "model_response": "3",
+        "correct_answer": 3.0,
+        "Equation": "( 10.0 - 7.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-47",
+        "Body": "Jack received 4 emails in the morning, 5 emails in the afternoon and 8 emails in the evening.",
+        "Question": "How many emails did Jack receive in the afternoon and evening?",
+        "model_response": "Jack received 13 emails in the afternoon and evening.",
+        "correct_answer": 13.0,
+        "Equation": "( 5.0 + 8.0 )",
+        "Type": "Addition",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-294",
+        "Body": "Every day Ryan spends 6 hours on learning english 3 hours on learning chinese and 58 hours on learning spanish.",
+        "Question": "How many more hours does he spend on learning english than he does on learning chinese?",
+        "model_response": "3.",
+        "correct_answer": 3.0,
+        "Equation": "( 6.0 - 3.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-224",
+        "Body": "We ordered some pizzas. Each pizza has 2 slices. If there were a total of 28 slices",
+        "Question": "How many pizzas did we order?",
+        "model_response": "14",
+        "correct_answer": 14.0,
+        "Equation": "( 28.0 / 2.0 )",
+        "Type": "Common-Division",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-226",
+        "Body": "41 children were riding on the bus. At the bus stop some children got off the bus. Then there were 18 children left on the bus.",
+        "Question": "How many more children were on the bus before the bus stop than there are now?",
+        "model_response": "23",
+        "correct_answer": 23.0,
+        "Equation": "( 41.0 - 18.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-618",
+        "Body": "Katie had 57 new games and 39 old games. Her friends had 34 new games.",
+        "Question": "How many more games does Katie have than her friends?",
+        "model_response": "62",
+        "correct_answer": 62.0,
+        "Equation": "( ( 57.0 + 39.0 ) - 34.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-371",
+        "Body": "Julia played tag with 9 kids on monday, 7 kids on tuesday and 96 kids on wednesday.",
+        "Question": "How many more kids did she play with on monday than on tuesday?",
+        "model_response": "2",
+        "correct_answer": 2.0,
+        "Equation": "( 9.0 - 7.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-989",
+        "Body": "Melissa scored 109 points in each game. She also got 82 bonus points in each game.",
+        "Question": "How many points did she score in 79 games?",
+        "model_response": "15089",
+        "correct_answer": 15089.0,
+        "Equation": "( ( 109.0 + 82.0 ) * 79.0 )",
+        "Type": "Multiplication",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-507",
+        "Body": "Paul had 108 books and 55 pens. After selling some books and pens in a garage sale he had 66 books and 59 pens left.",
+        "Question": "How many books did he sell in the garage sale?",
+        "model_response": "42",
+        "correct_answer": 42.0,
+        "Equation": "( 108.0 - 66.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-67",
+        "Body": "An industrial machine made 9 shirts yesterday and 8 shirts today. It can make 2 shirts a minute.",
+        "Question": "How many minutes did the machine work today?",
+        "model_response": "8.5",
+        "correct_answer": 4.0,
+        "Equation": "( 8.0 / 2.0 )",
+        "Type": "Common-Division",
+        "answered_correctly": false
+    },
+    {
+        "ID": "chal-102",
+        "Body": "Josh lost 11 marbles. If he had 19 marbles in his collection earlier",
+        "Question": "How many marbles does he have now?",
+        "model_response": "8",
+        "correct_answer": 8.0,
+        "Equation": "( 19.0 - 11.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-949",
+        "Body": "Luke gained 146 points in each round of a game. If he played 157 rounds of a trivia game",
+        "Question": "How many points did he score in the game?",
+        "model_response": "22,922",
+        "correct_answer": 22922.0,
+        "Equation": "( 157.0 * 146.0 )",
+        "Type": "Multiplication",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-355",
+        "Body": "At the arcade Dave had won some tickets. He used 12 tickets to buy some toys. If he still has 14 tickets left",
+        "Question": "How many tickets did Dave win at the arcade?",
+        "model_response": "26",
+        "correct_answer": 26.0,
+        "Equation": "( 12.0 + 14.0 )",
+        "Type": "Addition",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-363",
+        "Body": "Mary is baking a cake. The recipe calls for 6 cups of flour 8 cups of sugar and 7 cups of salt. She already put in 5 cups of flour.",
+        "Question": "How many more cups of sugar than cups of salt does she need to add now?",
+        "model_response": "1",
+        "correct_answer": 1.0,
+        "Equation": "( 8.0 - 7.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-778",
+        "Body": "There are 384 oranges and 192 bananas in Philip's collection. If the bananas are organized into 345 groups and oranges are organized into 16 groups",
+        "Question": "How big is each group of oranges?",
+        "model_response": "Each group of oranges will have 24 oranges.",
+        "correct_answer": 24.0,
+        "Equation": "( 384.0 / 16.0 )",
+        "Type": "Common-Division",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-343",
+        "Body": "Rachel had to complete 3 pages of math homework and 4 pages of reading homework.",
+        "Question": "How many more pages of reading homework than math homework did she have?",
+        "model_response": "1",
+        "correct_answer": 1.0,
+        "Equation": "( 4.0 - 3.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-496",
+        "Body": "Paul had 42 pens and 143 books. After selling some books and pens in a garage sale he had 113 books and 19 pens left.",
+        "Question": "How many pens did he sell in the garage sale?",
+        "model_response": "23",
+        "correct_answer": 23.0,
+        "Equation": "( 42.0 - 19.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-912",
+        "Body": "Baker made 157 cakes and 169 pastries. If he sold 158 cakes and 147 pastries",
+        "Question": "How many more cakes than pastries did baker sell?",
+        "model_response": "11",
+        "correct_answer": 11.0,
+        "Equation": "( 158.0 - 147.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-847",
+        "Body": "He then went to see the oranges being harvested. He found out that they harvest 28 sacks of ripe oranges and 52 sacks of unripe oranges per day.",
+        "Question": "How many sacks of oranges will they have after 26 days of harvest?",
+        "model_response": "2080",
+        "correct_answer": 2080.0,
+        "Equation": "( ( 28.0 + 52.0 ) * 26.0 )",
+        "Type": "Multiplication",
+        "answered_correctly": true
+    },
+    {
+        "ID": "chal-585",
+        "Body": "Jessie weighed 92 kilograms. After she started to go jogging everyday she lost 56 kilograms in the first week and 99 kilograms in the second week.",
+        "Question": "How much did she weigh after the first week of jogging?",
+        "model_response": "36",
+        "correct_answer": 36.0,
+        "Equation": "( 92.0 - 56.0 )",
+        "Type": "Subtraction",
+        "answered_correctly": true
+    }
+]

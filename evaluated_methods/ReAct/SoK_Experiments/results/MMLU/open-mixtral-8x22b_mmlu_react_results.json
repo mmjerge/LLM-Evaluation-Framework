@@ -1,0 +1,502 @@
+[
+    {
+        "question": "Q: Severe anaemia at birth is a feature of what? (a) Alpha-thalassaemia (b) Beta-thalassaemia (c) Hereditary persistence of fetal haemoglobin (d) Sickle cell disease\nA:",
+        "question_type": "medical_genetics",
+        "model_response": {
+            "input": "Q: Severe anaemia at birth is a feature of what? (a) Alpha-thalassaemia (b) Beta-thalassaemia (c) Hereditary persistence of fetal haemoglobin (d) Sickle cell disease\nA:",
+            "output": "(a) Alpha-thalassemia is the correct answer."
+        },
+        "correct_answer": "a",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: Which of the following statements are true concerning a triangular or recursive system?\n\ni) The parameters can be validly estimated using separate applications of OLS to\n\neach equation\n\n\nii) The independent variables may be correlated with the error terms in other\n\nequations\n\n\niii) An application of 2SLS would lead to unbiased but inefficient parameter estimates\n\n\niv) The independent variables may be correlated with the error terms in the equations\n\nin which they appear as independent variables (a) (ii) and (iv) only (b) (i) and (iii) only (c) (i), (ii), and (iii) only (d) (i), (ii), (iii), and (iv)\nA:",
+        "question_type": "econometrics",
+        "model_response": {
+            "input": "Q: Which of the following statements are true concerning a triangular or recursive system?\n\ni) The parameters can be validly estimated using separate applications of OLS to\n\neach equation\n\n\nii) The independent variables may be correlated with the error terms in other\n\nequations\n\n\niii) An application of 2SLS would lead to unbiased but inefficient parameter estimates\n\n\niv) The independent variables may be correlated with the error terms in the equations\n\nin which they appear as independent variables (a) (ii) and (iv) only (b) (i) and (iii) only (c) (i), (ii), and (iii) only (d) (i), (ii), (iii), and (iv)\nA:",
+            "output": "(a) (ii) and (iv) only"
+        },
+        "correct_answer": "c",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q: This question refers to the following information.\n\"Those whose condition is such that their function is the use of their bodies and nothing better can be expected of them, those, I say, are slaves of nature. It is better for them to be ruled thus.\"\nJuan de Sepulveda, Politics, 1522\n\"When Latin American nations gained independence in the 19th century, those two strains converged, and merged with an older, more universalist, natural law tradition. The result was a distinctively Latin American form of rights discourse. Paolo Carozza traces the roots of that discourse to a distinctive application, and extension, of Thomistic moral philosophy to the injustices of Spanish conquests in the New World. The key figure in that development seems to have been Bartolom\u00e9 de Las Casas, a 16th-century Spanish bishop who condemned slavery and championed the cause of Indians on the basis of a natural right to liberty grounded in their membership in a single common humanity. 'All the peoples of the world are humans,' Las Casas wrote, and 'all the races of humankind are one.' According to Brian Tierney, Las Casas and other Spanish Dominican philosophers laid the groundwork for a doctrine of natural rights that was independent of religious revelation 'by drawing on a juridical tradition that derived natural rights and natural law from human rationality and free will, and by appealing to Aristotelian philosophy.'\"\nMary Ann Glendon, \"The Forgotten Crucible: The Latin American Influence on the Universal Human Rights Idea,\u201d 2003\nWhich one of the following statements about the Spanish conquest of the Americas is most accurate? (a) African slavery was a direct result of Spanish settlements in Florida. (b) Early native civilizations in Mexico introduced Spanish explorers to cattle ranching and wheat cultivation. (c) Christopher Columbus was not the first European to have explored North America. (d) Due to racial prejudice, Spanish explorers shunned intermarriage with native people.\nA:",
+        "question_type": "high_school_us_history",
+        "model_response": {
+            "input": "Q: This question refers to the following information.\n\"Those whose condition is such that their function is the use of their bodies and nothing better can be expected of them, those, I say, are slaves of nature. It is better for them to be ruled thus.\"\nJuan de Sepulveda, Politics, 1522\n\"When Latin American nations gained independence in the 19th century, those two strains converged, and merged with an older, more universalist, natural law tradition. The result was a distinctively Latin American form of rights discourse. Paolo Carozza traces the roots of that discourse to a distinctive application, and extension, of Thomistic moral philosophy to the injustices of Spanish conquests in the New World. The key figure in that development seems to have been Bartolom\u00e9 de Las Casas, a 16th-century Spanish bishop who condemned slavery and championed the cause of Indians on the basis of a natural right to liberty grounded in their membership in a single common humanity. 'All the peoples of the world are humans,' Las Casas wrote, and 'all the races of humankind are one.' According to Brian Tierney, Las Casas and other Spanish Dominican philosophers laid the groundwork for a doctrine of natural rights that was independent of religious revelation 'by drawing on a juridical tradition that derived natural rights and natural law from human rationality and free will, and by appealing to Aristotelian philosophy.'\"\nMary Ann Glendon, \"The Forgotten Crucible: The Latin American Influence on the Universal Human Rights Idea,\u201d 2003\nWhich one of the following statements about the Spanish conquest of the Americas is most accurate? (a) African slavery was a direct result of Spanish settlements in Florida. (b) Early native civilizations in Mexico introduced Spanish explorers to cattle ranching and wheat cultivation. (c) Christopher Columbus was not the first European to have explored North America. (d) Due to racial prejudice, Spanish explorers shunned intermarriage with native people.\nA:",
+            "output": "None of the provided options can be confirmed as accurate based on the given information."
+        },
+        "correct_answer": "c",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q: Castration in adulthood (a) will produce a high voice because of decreased testosterone production. (b) will produce a high voice because of the pain that accompanies the procedure. (c) will not produce a high voice because the larynx has already grown. (d) will not produce a high voice because castration does not affect testosterone production.\nA:",
+        "question_type": "human_sexuality",
+        "model_response": {
+            "input": "Q: Castration in adulthood (a) will produce a high voice because of decreased testosterone production. (b) will produce a high voice because of the pain that accompanies the procedure. (c) will not produce a high voice because the larynx has already grown. (d) will not produce a high voice because castration does not affect testosterone production.\nA:",
+            "output": "(c) will not produce a high voice because the larynx has already grown."
+        },
+        "correct_answer": "c",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: The mucosa of the hard palate is (a) keratinised and has submucosa and minor salivary glands posterolaterally. (b) non-keratinised and has submucosa and minor salivary glands posteromedially. (c) keratinised and lacks submucosa and minor salivary glands. (d) non-keratinised and lacks submucosa and minor salivary glands.\nA:",
+        "question_type": "anatomy",
+        "model_response": {
+            "input": "Q: The mucosa of the hard palate is (a) keratinised and has submucosa and minor salivary glands posterolaterally. (b) non-keratinised and has submucosa and minor salivary glands posteromedially. (c) keratinised and lacks submucosa and minor salivary glands. (d) non-keratinised and lacks submucosa and minor salivary glands.\nA:",
+            "output": "The mucosa of the hard palate is keratinised and has submucosa and minor salivary glands posterolaterally."
+        },
+        "correct_answer": "a",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: A resident announced his candidacy for state representative. A law in the state requires new political entrants, regardless of party affiliation, to obtain five times the number of signatures as other candidates who have run for office previously. The resident, however, failed to obtain the necessary number of authenticating signatures to have his name placed on the ballot. On the substantive constitutional issue regarding the validity of the authenticating requirement, the most probable judicial resolution will be to (a) hold the authenticating requirement unconstitutional as violative of the due process clause of the Fourteenth Amendment. (b) hold the authenticating requirement unconstitutional as violative of the equal protection clause of the Fourteenth Amendment. (c) dismiss the cause of action because state election procedures are a sovereign state function. (d) assign the burden of proving the validity of the authenticating requirement to thestate.\nA:",
+        "question_type": "professional_law",
+        "model_response": {
+            "input": "Q: A resident announced his candidacy for state representative. A law in the state requires new political entrants, regardless of party affiliation, to obtain five times the number of signatures as other candidates who have run for office previously. The resident, however, failed to obtain the necessary number of authenticating signatures to have his name placed on the ballot. On the substantive constitutional issue regarding the validity of the authenticating requirement, the most probable judicial resolution will be to (a) hold the authenticating requirement unconstitutional as violative of the due process clause of the Fourteenth Amendment. (b) hold the authenticating requirement unconstitutional as violative of the equal protection clause of the Fourteenth Amendment. (c) dismiss the cause of action because state election procedures are a sovereign state function. (d) assign the burden of proving the validity of the authenticating requirement to thestate.\nA:",
+            "output": "Therefore, based on the information provided and the understanding of the Equal Protection Clause, the most probable judicial resolution would be to (b) hold the authenticating requirement unconstitutional as violative of the equal protection clause of the Fourteenth Amendment. However, this is a general prediction based on the information provided and may not reflect the actual outcome of a legal case, as the analysis would require a more detailed examination of the law and the specific circumstances of the case."
+        },
+        "correct_answer": "d",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q: A magnetic field is directed perpendicular to the plane of a circular coil of area 0.2 m^2 and 250 turns. If the magnetic field is increased from 0.01 T to 0.06 T during a time interval of 0.25 s, the average induced EMF in the coil is (a) 0.04 V (b) 0.1 V (c) 2.5 V (d) 10 V\nA:",
+        "question_type": "college_physics",
+        "model_response": {
+            "input": "Q: A magnetic field is directed perpendicular to the plane of a circular coil of area 0.2 m^2 and 250 turns. If the magnetic field is increased from 0.01 T to 0.06 T during a time interval of 0.25 s, the average induced EMF in the coil is (a) 0.04 V (b) 0.1 V (c) 2.5 V (d) 10 V\nA:",
+            "output": "(d) 10 V"
+        },
+        "correct_answer": "d",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: Opponents of genetically modified organisms (GMOs) in food are afraid that the GMOs (a) will hinder global trade. (b) make plants more resistant to disease. (c) may cause irreversible changes in humans. (d) make plants more resistant to drought.\nA:",
+        "question_type": "high_school_geography",
+        "model_response": {
+            "input": "Q: Opponents of genetically modified organisms (GMOs) in food are afraid that the GMOs (a) will hinder global trade. (b) make plants more resistant to disease. (c) may cause irreversible changes in humans. (d) make plants more resistant to drought.\nA:",
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "c",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q: What is a derogation? (a) Derogations are exemptions from particular human rights obligations contained in a treaty (b) A derogation refers to the ability of rights holders to bring a claim against the State for breach of an obligation (c) A State may suspend particular rights by means of a derogation in circumstances that threaten its existence (d) Derogations are enforcement clauses in human rights treaties\nA:",
+        "question_type": "international_law",
+        "model_response": {
+            "input": "Q: What is a derogation? (a) Derogations are exemptions from particular human rights obligations contained in a treaty (b) A derogation refers to the ability of rights holders to bring a claim against the State for breach of an obligation (c) A State may suspend particular rights by means of a derogation in circumstances that threaten its existence (d) Derogations are enforcement clauses in human rights treaties\nA:",
+            "output": "(c) A State may suspend particular rights by means of a derogation in circumstances that threaten its existence."
+        },
+        "correct_answer": "c",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: Amy's therapist shakes her head affirmatively and says, \"Yes, uh huh,\" as Amy talks about her problems. Which of the following treatments did she experience? (a) psychoanalysis (b) behavior therapy (c) humanistic therapy (d) cognitive therapy\nA:",
+        "question_type": "high_school_psychology",
+        "model_response": {
+            "input": "Q: Amy's therapist shakes her head affirmatively and says, \"Yes, uh huh,\" as Amy talks about her problems. Which of the following treatments did she experience? (a) psychoanalysis (b) behavior therapy (c) humanistic therapy (d) cognitive therapy\nA:",
+            "output": "(c) humanistic therapy"
+        },
+        "correct_answer": "c",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: A scientist studied the migration patterns of two types of whales. The humpback whales traveled 2,240 miles in 28 days. The gray whales traveled 2,368 miles in 32 days. If the humpback whales had traveled at the same rate for 32 days, how many more miles would they have traveled than the gray whales? (a) 128 (b) 192 (c) 280 (d) 408\nA:",
+        "question_type": "elementary_mathematics",
+        "model_response": {
+            "input": "Q: A scientist studied the migration patterns of two types of whales. The humpback whales traveled 2,240 miles in 28 days. The gray whales traveled 2,368 miles in 32 days. If the humpback whales had traveled at the same rate for 32 days, how many more miles would they have traveled than the gray whales? (a) 128 (b) 192 (c) 280 (d) 408\nA:",
+            "output": "(b) 192"
+        },
+        "correct_answer": "b",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: Which of the following might be considered part of the 'deepening and broadening' of security? (a) The nexus between identity and security. (b) War, the military, and the sovereign state. (c) Environmental changes. (d) All of these options.\nA:",
+        "question_type": "security_studies",
+        "model_response": {
+            "input": "Q: Which of the following might be considered part of the 'deepening and broadening' of security? (a) The nexus between identity and security. (b) War, the military, and the sovereign state. (c) Environmental changes. (d) All of these options.\nA:",
+            "output": "(d) All of these options."
+        },
+        "correct_answer": "d",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: Why do jovian planets bulge around the equator that is have a \"squashed\" appearance? (a) Their large systems of moons and rings gravitationally attract the mass around the equator more. (b) They are much more massive than the terrestrial planets. (c) Their rapid rotation flings the mass near the equator outward. (d) Their internal heat sources exert a pressure against the sides of the planets.\nA:",
+        "question_type": "astronomy",
+        "model_response": {
+            "input": "Q: Why do jovian planets bulge around the equator that is have a \"squashed\" appearance? (a) Their large systems of moons and rings gravitationally attract the mass around the equator more. (b) They are much more massive than the terrestrial planets. (c) Their rapid rotation flings the mass near the equator outward. (d) Their internal heat sources exert a pressure against the sides of the planets.\nA:",
+            "output": "(c) Their rapid rotation flings the mass near the equator outward."
+        },
+        "correct_answer": "c",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: This question refers to the following information.\nAt a meeting of working girls held at Hull House during a strike in a large shoe factory, the discussions made it clear that the strikers who had been most easily frightened, and therefore the first to capitulate, were naturally those girls who were paying board and were afraid of being put out if they fell too far behind. After a recital of a case of peculiar hardship one of them exclaimed: \"Wouldn't it be fine if we had a boarding club of our own, and then we could stand behind each other in a time like this?\" After that events moved quickly. We \u2026 discussed all the difficulties and fascinations of such an undertaking, and on the first of May, 1891, two comfortable apartments near Hull House were rented and furnished. The Settlement was responsible for the furniture and paid the first month's rent, but beyond that the members managed the club themselves.\u2026 At the end of the third year the club occupied all of the six apartments which the original building contained, and numbered fifty members.\n\u2014Jane Addams, Twenty Years at Hull House, 1912\nWhich of the following best reflects the perspective of Jane Addams in the passage above? (a) Poor people need the leadership of reformers like herself. (b) Poor people need support in helping themselves. (c) Poor people don't need outside help. (d) Poor people don't deserve help.\nA:",
+        "question_type": "high_school_us_history",
+        "model_response": {
+            "input": "Q: This question refers to the following information.\nAt a meeting of working girls held at Hull House during a strike in a large shoe factory, the discussions made it clear that the strikers who had been most easily frightened, and therefore the first to capitulate, were naturally those girls who were paying board and were afraid of being put out if they fell too far behind. After a recital of a case of peculiar hardship one of them exclaimed: \"Wouldn't it be fine if we had a boarding club of our own, and then we could stand behind each other in a time like this?\" After that events moved quickly. We \u2026 discussed all the difficulties and fascinations of such an undertaking, and on the first of May, 1891, two comfortable apartments near Hull House were rented and furnished. The Settlement was responsible for the furniture and paid the first month's rent, but beyond that the members managed the club themselves.\u2026 At the end of the third year the club occupied all of the six apartments which the original building contained, and numbered fifty members.\n\u2014Jane Addams, Twenty Years at Hull House, 1912\nWhich of the following best reflects the perspective of Jane Addams in the passage above? (a) Poor people need the leadership of reformers like herself. (b) Poor people need support in helping themselves. (c) Poor people don't need outside help. (d) Poor people don't deserve help.\nA:",
+            "output": "(b) Poor people need support in helping themselves.\n\nExplanation: The passage reflects Jane Addams' perspective that poor people need support in helping themselves. This is evident in her actions of providing resources and support for the working girls during the strike, while still allowing them to manage the boarding club themselves. This approach aligns with option (b) and does not support options (a), (c), or (d)."
+        },
+        "correct_answer": "b",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: Oedema is the presence of: (a) excessive intravascular fluid. (b) excessive extravascular fluid. (c) excessive intracranial fluid. (d) excessive necrotic cells.\nA:",
+        "question_type": "clinical_knowledge",
+        "model_response": {
+            "input": "Q: Oedema is the presence of: (a) excessive intravascular fluid. (b) excessive extravascular fluid. (c) excessive intracranial fluid. (d) excessive necrotic cells.\nA:",
+            "output": "(b) excessive extravascular fluid."
+        },
+        "correct_answer": "b",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: Which of the following must be true in order for evolution to have occurred? (a) The frequencies of some alleles in a population's gene pool has changed over successive generations. (b) The frequencies of some alleles in a population's gene pool has changed during the organisms' lifetimes. (c) The frequencies of each allele in a population's gene pool has remained constant over successive generations. (d) The frequencies of each allele in an organism's genotype has remained constant within the organism's lifetime.\nA:",
+        "question_type": "college_biology",
+        "model_response": {
+            "input": "Q: Which of the following must be true in order for evolution to have occurred? (a) The frequencies of some alleles in a population's gene pool has changed over successive generations. (b) The frequencies of some alleles in a population's gene pool has changed during the organisms' lifetimes. (c) The frequencies of each allele in a population's gene pool has remained constant over successive generations. (d) The frequencies of each allele in an organism's genotype has remained constant within the organism's lifetime.\nA:",
+            "output": "(a) The frequencies of some alleles in a population's gene pool has changed over successive generations.\n\nExplanation:\n- Evolution is defined as the change in the frequency of alleles within a population's gene pool over successive generations.\n- Therefore, option (a) is correct because it aligns with the definition of evolution.\n- Option (b) is incorrect because evolution occurs over generations, not within an organism's lifetime.\n- Option (c) is incorrect because evolution requires changes in allele frequencies, not constancy.\n- Option (d) is incorrect because evolution affects populations, not individual organisms."
+        },
+        "correct_answer": "a",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: Given that P(E) = 0.32, P(F) = 0.15, and P(E \u2229 F) = 0.048, which of the following is a correct conclusion? (a) The events E and F are both independent and mutually exclusive. (b) The events E and F are neither independent nor mutually exclusive. (c) The events E and F are mutually exclusive but not independent. (d) The events E and F are independent but not mutually exclusive.\nA:",
+        "question_type": "high_school_statistics",
+        "model_response": {
+            "input": "Q: Given that P(E) = 0.32, P(F) = 0.15, and P(E \u2229 F) = 0.048, which of the following is a correct conclusion? (a) The events E and F are both independent and mutually exclusive. (b) The events E and F are neither independent nor mutually exclusive. (c) The events E and F are mutually exclusive but not independent. (d) The events E and F are independent but not mutually exclusive.\nA:",
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "d",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q: Which of the following adaptations would limit pollination by bees and promote hummingbird pollination? (a) Patterns of ultraviolet color on the petals (b) Modified petals to provide a landing space (c) Pendant (hanging) red-colored flowers (d) Nectar with high sugar concentration produced in limited amounts\nA:",
+        "question_type": "college_biology",
+        "model_response": {
+            "input": "Q: Which of the following adaptations would limit pollination by bees and promote hummingbird pollination? (a) Patterns of ultraviolet color on the petals (b) Modified petals to provide a landing space (c) Pendant (hanging) red-colored flowers (d) Nectar with high sugar concentration produced in limited amounts\nA:",
+            "output": "(c) Pendant (hanging) red-colored flowers"
+        },
+        "correct_answer": "c",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: What do we know about the people who built Stonehenge based on the analysis of animal teeth from a nearby village? (a) They raised livestock at the site, including cattle, sheep, and goats. (b) They brought animals to the site from outside of the region. (c) They had no domesticated animals but hunted wild animals for meat. (d) They hunted antelope, gazelle, and bear.\nA:",
+        "question_type": "prehistory",
+        "model_response": {
+            "input": "Q: What do we know about the people who built Stonehenge based on the analysis of animal teeth from a nearby village? (a) They raised livestock at the site, including cattle, sheep, and goats. (b) They brought animals to the site from outside of the region. (c) They had no domesticated animals but hunted wild animals for meat. (d) They hunted antelope, gazelle, and bear.\nA:",
+            "output": "The correct answer is (a). The people who built Stonehenge raised livestock at the site, including cattle, sheep, and goats.\n\nObservation: The final answer is (a). The people who built Stonehenge raised livestock at the site, including cattle, sheep, and goats."
+        },
+        "correct_answer": "b",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q: Find the degree for the given field extension Q(sqrt(2)) over Q. (a) 0 (b) 2 (c) 1 (d) 3\nA:",
+        "question_type": "abstract_algebra",
+        "model_response": {
+            "input": "Q: Find the degree for the given field extension Q(sqrt(2)) over Q. (a) 0 (b) 2 (c) 1 (d) 3\nA:",
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "b",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q: The respiratory tract is crossed by the isthmus of the thyroid gland at the level of the (a) thyroid cartilage. (b) cricothyroid membrane. (c) cricoid cartilage. (d) tracheal rings.\nA:",
+        "question_type": "anatomy",
+        "model_response": {
+            "input": "Q: The respiratory tract is crossed by the isthmus of the thyroid gland at the level of the (a) thyroid cartilage. (b) cricothyroid membrane. (c) cricoid cartilage. (d) tracheal rings.\nA:",
+            "output": "The correct answer is (d) tracheal rings. The isthmus of the thyroid gland crosses the respiratory tract at the level of the tracheal rings."
+        },
+        "correct_answer": "d",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: This question refers to the following information.\n\"After all the slaves had been brought together and severally marked with the letter G, the emperor's fifths and then Cort\u00e9s' were deducted before we were aware of it; and, besides this, on the night preceding, the finest of the Indian females had been secretly set apart, so that when it came to a division among us soldiers, we found none left but old and ugly women&\u2026.Another soldier asked Cort\u00e9s if the division he had made of the gold in Mexico was not a sufficient imposition, for, at first, he had merely spoken of 300,000 pesos, but when we were obliged to retreat from the city, it was estimated at 700,000 pesos. And now he was going to deprive the poor soldier, who had undergone so many hardships, and suffered from innumerable wounds, of this small remuneration, and not even allow him a pretty Indian female for a companion&\u2026\n[Later], when Cort\u00e9s learnt that there were still a great many bars of gold among the men, and heavy gambling in consequence, (for, according to the old saying, gold and love cannot lie long concealed,) he made known, under threats of severe punishment, that everyone should produce the gold he had obtained on the night of our retreat, of which one third was to be returned to him; but that anyone who refused to pay this, should have the whole taken from him. Many of our men refused downright to comply with this; yet Cort\u00e9s managed to extort a good deal of it under the pretence of a loan&\u2026\"\nThe Memoirs of the Conquistador Bernal Diaz del Castillo, 1568\nUpon the return of Cort\u00e9s's expedition, which of the following was a consequence of the actions described in the memoir? (a) A decentralized political state (b) A strengthened agricultural sector (c) An increased rate of inflation (d) Less tolerance for Jews and Muslims\nA:",
+        "question_type": "high_school_european_history",
+        "model_response": {
+            "input": "Q: This question refers to the following information.\n\"After all the slaves had been brought together and severally marked with the letter G, the emperor's fifths and then Cort\u00e9s' were deducted before we were aware of it; and, besides this, on the night preceding, the finest of the Indian females had been secretly set apart, so that when it came to a division among us soldiers, we found none left but old and ugly women&\u2026.Another soldier asked Cort\u00e9s if the division he had made of the gold in Mexico was not a sufficient imposition, for, at first, he had merely spoken of 300,000 pesos, but when we were obliged to retreat from the city, it was estimated at 700,000 pesos. And now he was going to deprive the poor soldier, who had undergone so many hardships, and suffered from innumerable wounds, of this small remuneration, and not even allow him a pretty Indian female for a companion&\u2026\n[Later], when Cort\u00e9s learnt that there were still a great many bars of gold among the men, and heavy gambling in consequence, (for, according to the old saying, gold and love cannot lie long concealed,) he made known, under threats of severe punishment, that everyone should produce the gold he had obtained on the night of our retreat, of which one third was to be returned to him; but that anyone who refused to pay this, should have the whole taken from him. Many of our men refused downright to comply with this; yet Cort\u00e9s managed to extort a good deal of it under the pretence of a loan&\u2026\"\nThe Memoirs of the Conquistador Bernal Diaz del Castillo, 1568\nUpon the return of Cort\u00e9s's expedition, which of the following was a consequence of the actions described in the memoir? (a) A decentralized political state (b) A strengthened agricultural sector (c) An increased rate of inflation (d) Less tolerance for Jews and Muslims\nA:",
+            "output": "If the Wikipedia search confirms an increased rate of inflation in the Spanish Empire around the time of Cort\u00e9s's expedition, then the answer is (c) An increased rate of inflation."
+        },
+        "correct_answer": "c",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: Assume that a TLS connection has been established successfully between a client and a server. Establishing the session included checking the server certificate and executing a DiffieHelmann exchange, but the client did not provide a client certificate. Further, assume that the client and server are honest, that the client and server don\u2019t leak their keys, and that the cryptography is good. Which of the following attacks does TLS protect against?\n1. An attacker replacing bytes sent by a client with bytes of the attacker\u2019s own choosing.\n2. An attacker reading the plaintext bytes sent by a client. (a) True, True (b) False, False (c) True, False (d) False, True\nA:",
+        "question_type": "computer_security",
+        "model_response": {
+            "input": "Q: Assume that a TLS connection has been established successfully between a client and a server. Establishing the session included checking the server certificate and executing a DiffieHelmann exchange, but the client did not provide a client certificate. Further, assume that the client and server are honest, that the client and server don\u2019t leak their keys, and that the cryptography is good. Which of the following attacks does TLS protect against?\n1. An attacker replacing bytes sent by a client with bytes of the attacker\u2019s own choosing.\n2. An attacker reading the plaintext bytes sent by a client. (a) True, True (b) False, False (c) True, False (d) False, True\nA:",
+            "output": "(c) True, False. TLS protects against an attacker replacing bytes sent by a client with bytes of the attacker\u2019s own choosing but does not protect against an attacker reading the plaintext bytes sent by a client in this scenario."
+        },
+        "correct_answer": "a",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q: Which of the following characteristics distinguishes angiosperms from gymnosperms? (a) Perennial growth (b) True roots (c) Apical growth (d) Seeds enclosed in ovaries\nA:",
+        "question_type": "college_biology",
+        "model_response": {
+            "input": "Q: Which of the following characteristics distinguishes angiosperms from gymnosperms? (a) Perennial growth (b) True roots (c) Apical growth (d) Seeds enclosed in ovaries\nA:",
+            "output": "(d) Seeds enclosed in ovaries"
+        },
+        "correct_answer": "d",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: To verify a digital signature we need the (a) Sender\u2019s Private key (b) Sender\u2019s Public key (c) Receiver\u2019s Private key (d) Receiver\u2019s Public key\nA:",
+        "question_type": "computer_security",
+        "model_response": {
+            "input": "Q: To verify a digital signature we need the (a) Sender\u2019s Private key (b) Sender\u2019s Public key (c) Receiver\u2019s Private key (d) Receiver\u2019s Public key\nA:",
+            "output": "(b) Sender\u2019s Public key"
+        },
+        "correct_answer": "b",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: One of the ethical problems with covert participant observation is: (a) not being able to write comprehensive fieldnotes or record conversations (b) deceiving the respondents as to the reason for your presence (c) observing people outside of their natural setting (d) subjecting the participants to physical harm\nA:",
+        "question_type": "sociology",
+        "model_response": {
+            "input": "Q: One of the ethical problems with covert participant observation is: (a) not being able to write comprehensive fieldnotes or record conversations (b) deceiving the respondents as to the reason for your presence (c) observing people outside of their natural setting (d) subjecting the participants to physical harm\nA:",
+            "output": "The ethical problem with covert participant observation is (b) deceiving the respondents as to the reason for your presence. This is because covert participant observation involves the researcher concealing their identity as a researcher, which can be seen as a form of deception. This can raise ethical concerns about informed consent and the potential harm that may be caused to the participants."
+        },
+        "correct_answer": "b",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: This question refers to the following information.\nBut the decline of Rome was the natural and inevitable effect of immoderate greatness. Prosperity ripened the principle of decay; the causes of destruction multiplied with the extent of conquest; and, as soon as time or accident had removed the artificial supports, the stupendous fabric yielded to the pressure of its own weight. . . . The victorious legions, who, in distant wars, acquired the vices of strangers and mercenaries, first oppressed the freedom of the republic, and afterwards violated the majesty of the purple. The emperors, anxious for their personal safety and the public peace, were reduced to the base expedient of corrupting the discipline which rendered them alike formidable to their sovereign and to the enemy; the vigour of the military . . . was relaxed . . . ; and the Roman world was overwhelmed by a deluge of Barbarians.\n\u2014Adapted from Decline and Fall of the Roman Empire, by Edward Gibbon\nThe author of the above passage claims: \"Prosperity ripened the principle of decay; the causes of destruction multiplied with the extent of conquest.\" What does he mean by this? (a) The rulers became too rich and thus were overthrown. (b) The empire became too large to control effectively. (c) Decay begins the minute something begins to grow. (d) Conquest and prosperity are mutually exclusive.\nA:",
+        "question_type": "high_school_world_history",
+        "model_response": {
+            "input": "Q: This question refers to the following information.\nBut the decline of Rome was the natural and inevitable effect of immoderate greatness. Prosperity ripened the principle of decay; the causes of destruction multiplied with the extent of conquest; and, as soon as time or accident had removed the artificial supports, the stupendous fabric yielded to the pressure of its own weight. . . . The victorious legions, who, in distant wars, acquired the vices of strangers and mercenaries, first oppressed the freedom of the republic, and afterwards violated the majesty of the purple. The emperors, anxious for their personal safety and the public peace, were reduced to the base expedient of corrupting the discipline which rendered them alike formidable to their sovereign and to the enemy; the vigour of the military . . . was relaxed . . . ; and the Roman world was overwhelmed by a deluge of Barbarians.\n\u2014Adapted from Decline and Fall of the Roman Empire, by Edward Gibbon\nThe author of the above passage claims: \"Prosperity ripened the principle of decay; the causes of destruction multiplied with the extent of conquest.\" What does he mean by this? (a) The rulers became too rich and thus were overthrown. (b) The empire became too large to control effectively. (c) Decay begins the minute something begins to grow. (d) Conquest and prosperity are mutually exclusive.\nA:",
+            "output": "(b) The empire became too large to control effectively."
+        },
+        "correct_answer": "b",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: What letters are on the '3' button of a touch-tone telephone? (a) ABC (b) DEF (c) GHI (d) WXY\nA:",
+        "question_type": "miscellaneous",
+        "model_response": {
+            "input": "Q: What letters are on the '3' button of a touch-tone telephone? (a) ABC (b) DEF (c) GHI (d) WXY\nA:",
+            "output": "The answer to the question is (b) DEF."
+        },
+        "correct_answer": "b",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: Which of these vowels does NOT have a vertical axis of symmetry? (a) A (b) E (c) I (d) O\nA:",
+        "question_type": "high_school_mathematics",
+        "model_response": {
+            "input": "Q: Which of these vowels does NOT have a vertical axis of symmetry? (a) A (b) E (c) I (d) O\nA:",
+            "output": "(b) E"
+        },
+        "correct_answer": "b",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: As of 2016, about what percentage of adults aged 18 years or older were obese? (a) 6% (b) 13% (c) 27% (d) 46%\nA:",
+        "question_type": "global_facts",
+        "model_response": {
+            "input": "Q: As of 2016, about what percentage of adults aged 18 years or older were obese? (a) 6% (b) 13% (c) 27% (d) 46%\nA:",
+            "output": "(b) 13%\n\nExplanation: According to the World Health Organization (WHO), in 2016, around 13% of the world's adult population (aged 18 years and older) were obese. Therefore, the correct answer is (b) 13%."
+        },
+        "correct_answer": "b",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: International development may be tied to the security of the state, why? (a) Threats to the state centralize political and economic power, threatening state development (b) Too many casualties drain the productive power of the state (c) Threats to the state encourage socialism (d) The two are correlated, but there is no causal effect\nA:",
+        "question_type": "us_foreign_policy",
+        "model_response": {
+            "input": "Q: International development may be tied to the security of the state, why? (a) Threats to the state centralize political and economic power, threatening state development (b) Too many casualties drain the productive power of the state (c) Threats to the state encourage socialism (d) The two are correlated, but there is no causal effect\nA:",
+            "output": "International development may be tied to the security of the state because (a) threats to the state can centralize political and economic power, threatening state development, and (b) too many casualties can drain the productive power of the state."
+        },
+        "correct_answer": "a", 
+        "answered_correctly": true
+    },
+    {
+        "question": "Q:  Which of the following is not an objection Pence gives to the argument that SCNT is not best for the child? (a) The argument assumes genetic determinism or genetic reductionism. (b) The expectations people will place on SCNT individuals could be no worse than normal expectations of children created sexually. (c) People's prejudicial attitudes are likely to change. (d) If people's prejudicial attitudes do not change, then we should not allow SCNT.\nA:",
+        "question_type": "moral_disputes",
+        "model_response": {
+            "input": "Q:  Which of the following is not an objection Pence gives to the argument that SCNT is not best for the child? (a) The argument assumes genetic determinism or genetic reductionism. (b) The expectations people will place on SCNT individuals could be no worse than normal expectations of children created sexually. (c) People's prejudicial attitudes are likely to change. (d) If people's prejudicial attitudes do not change, then we should not allow SCNT.\nA:",
+            "output": "(d) If people's prejudicial attitudes do not change, then we should not allow SCNT."
+        },
+        "correct_answer": "d",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: Statement 1| The Stanford Sentiment Treebank contained movie reviews, not book reviews. Statement 2| The Penn Treebank has been used for language modeling. (a) True, True (b) False, False (c) True, False (d) False, True\nA:",
+        "question_type": "machine_learning",
+        "model_response": {
+            "input": "Q: Statement 1| The Stanford Sentiment Treebank contained movie reviews, not book reviews. Statement 2| The Penn Treebank has been used for language modeling. (a) True, True (b) False, False (c) True, False (d) False, True\nA:",
+            "output": "(a) True, True\n\nExplanation: The Stanford Sentiment Treebank contained movie reviews, not book reviews, making the first statement true. The Penn Treebank has been used for language modeling, which makes the second statement true. Therefore, the correct answer is (a) True, True."
+        },
+        "correct_answer": "a",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: Consider the following numbers.\n   \u00b0 Binary 1100\n   \u00b0 Decimal 11\n   \u00b0 Hexadecimal D\n Which of the following lists the numbers in order from least to greatest? (a) Binary 1100, Decimal 11, Hexadecimal D (b) Decimal 11, Binary 1100, Hexadecimal D (c) Decimal 11, Hexadecimal D, Binary 1100 (d) Hexadecimal D, Decimal 11, Binary 1100\nA:",
+        "question_type": "high_school_computer_science",
+        "model_response": {
+            "input": "Q: Consider the following numbers.\n   \u00b0 Binary 1100\n   \u00b0 Decimal 11\n   \u00b0 Hexadecimal D\n Which of the following lists the numbers in order from least to greatest? (a) Binary 1100, Decimal 11, Hexadecimal D (b) Decimal 11, Binary 1100, Hexadecimal D (c) Decimal 11, Hexadecimal D, Binary 1100 (d) Hexadecimal D, Decimal 11, Binary 1100\nA:",
+            "output": "(c) Decimal 11, Hexadecimal D, Binary 1100\n\nExplanation:\nBinary 1100 = 12 in decimal\nDecimal 11 = 11 in decimal\nHexadecimal D = 13 in decimal\n\nSo the order from least to greatest is: Decimal 11, Hexadecimal D, Binary 1100."
+        },
+        "correct_answer": "b",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q: While ratifying the Constitution, the primary point of disagreement between Federalists and Anti-Federalists was over (a) whether representation in Congress should be equal among states or proportional to population (b) the strength of the federal government relative to the states (c) the future of the slave trade (d) whether people had inalienable rights\nA:",
+        "question_type": "high_school_government_and_politics",
+        "model_response": {
+            "input": "Q: While ratifying the Constitution, the primary point of disagreement between Federalists and Anti-Federalists was over (a) whether representation in Congress should be equal among states or proportional to population (b) the strength of the federal government relative to the states (c) the future of the slave trade (d) whether people had inalienable rights\nA:",
+            "output": "(b) the strength of the federal government relative to the states"
+        },
+        "correct_answer": "b",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: What are the main metabolites of alcohol metabolism?\n (a) Acetaldehyde, acetate, (b) Pyruvate, beta-hydroxybutyrate, (c) Acetyl-CoA, lipids, (d) Acetone, lactate\nA:",
+        "question_type": "nutrition",
+        "model_response": {
+            "input": "Q: What are the main metabolites of alcohol metabolism?\n (a) Acetaldehyde, acetate, (b) Pyruvate, beta-hydroxybutyrate, (c) Acetyl-CoA, lipids, (d) Acetone, lactate\nA:",
+            "output": "(a) Acetaldehyde, acetate"
+        },
+        "correct_answer": "a",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: A woman has a schizophrenic brother. According to research area, the probability thar she is or will become schizophrenic is about (a) 0.01 (b) 0.42 (c) 0.5 (d) 0.7\nA:",
+        "question_type": "professional_psychology",
+        "model_response": {
+            "input": "Q: A woman has a schizophrenic brother. According to research area, the probability thar she is or will become schizophrenic is about (a) 0.01 (b) 0.42 (c) 0.5 (d) 0.7\nA:",
+            "output": "The probability that a woman is or will become schizophrenic if her brother has the condition is (d) 0.1, which is equivalent to 10%.\n\nExplanation: According to the Wikipedia page on \"Schizophrenia,\" the heritability of schizophrenia is estimated to be around 0.80, and first-degree relatives of individuals with schizophrenia have a 10% chance of developing the disorder. Since a woman with a schizophrenic brother is a first-degree relative of an individual with schizophrenia, the probability that she is or will become schizophrenic is 10%, or 0.1. Therefore, the answer is (d) 0.1.\n\nNote: It's important to remember that this probability is an estimate based on population-level data and may not accurately reflect an individual's risk of developing schizophrenia. Additionally, the development of schizophrenia is influenced by a complex interplay of genetic and environmental factors, and not everyone with a family history of the disorder will develop it."
+        },
+        "correct_answer": "b",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q: An internal hash table has 5 buckets, numbered 0, 1, 2, 3, 4. Keys are integers, and the hash function h(i) = i mod 5 is used, with linear resolution of collisions (i.e., if bucket h(i) is filled, the buckets h(i) + 1, h(i) + 2, ... are tried successively with all bucket numbers computed modulo 5). If elements with keys 13, 8, 24, 10, and 3 are inserted, m that order, into an initially blank hash table, then the content of the bucket numbered 2 is (a) 3 (b) 8 (c) 10 (d) 13\nA:",
+        "question_type": "college_computer_science",
+        "model_response": {
+            "input": "Q: An internal hash table has 5 buckets, numbered 0, 1, 2, 3, 4. Keys are integers, and the hash function h(i) = i mod 5 is used, with linear resolution of collisions (i.e., if bucket h(i) is filled, the buckets h(i) + 1, h(i) + 2, ... are tried successively with all bucket numbers computed modulo 5). If elements with keys 13, 8, 24, 10, and 3 are inserted, m that order, into an initially blank hash table, then the content of the bucket numbered 2 is (a) 3 (b) 8 (c) 10 (d) 13\nA:",
+            "output": "(c) 10"
+        },
+        "correct_answer": "a",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q: X is a finite set with the following property: The number of subsets of X that contain exactly 3 elements is 14 more than the number of subsets of X that contain exactly 2 elements. How many subsets of X contain exactly 4 elements? (a) 24 (b) 25 (c) 28 (d) 35\nA:",
+        "question_type": "college_mathematics",
+        "model_response": {
+            "input": "Q: X is a finite set with the following property: The number of subsets of X that contain exactly 3 elements is 14 more than the number of subsets of X that contain exactly 2 elements. How many subsets of X contain exactly 4 elements? (a) 24 (b) 25 (c) 28 (d) 35\nA:",
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "d",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q: This question refers to the following information.\n\"And then Shapur, King of Kings, passed away. Then his son Hormizd, King of Kings, rose over the empire. And Hormizd, King of Kings, conferred on me cap and belt and created for me a higher rank and dignity, and at court and in kingdom after kingdom, place after place, throughout the whole empire he gave me more authority and power in matters of the divine services, and created for me the title \"Kerdir, Ahura Mazda's [Chief Priest]\" after the name of Ahura Mazda, the Deity. And thereupon in kingdom after kingdom, place after place, many divine services were performed in magnificence, and many Warham fires were established, and many magi became happy and prosperous, and many fires and magi were imperially installed\u2026\nAnd then Hormizd, King of Kings, passed away. Then Bahram, King of Kings, son of Shapur, King of Kings, and brother of Hormizd, King of Kings, rose over the empire. And Bahram, King of Kings, also held me in high honor and dignity and at court and in kingdom after kingdom, place after place, gave me authority and power for divine services of every sort. And thereupon in kingdom after kingdom, place after place, many divine services were performed in magnificence and many Warharan fires were established, and many magi became happy and prosperous, and many fires and magi were imperially installed\u2026\nAnd in kingdom after kingdom and place after place throughout the whole empire the services of Ahura Mazda and the gods became preeminent, and great dignity came to the Mazdayanian religion and the magi in the empire, and the gods and water and fire and small cattle in the empire attained great satisfaction, while Ahriman [the evil counterpart to Ahura Mazda] and the demons were punished and rebuked, and the teachings of Ahriman and the demons departed from the empire and were abandoned. And Jews, Buddhists, Hindus, Nasoreans [Orthodox Christians], Christians, Maktak [Baptists], and Manichaeans in the empire were smitten, and destruction of idols and scattering of the stores of the demons and god-seats and nests was abandoned.\"\nExcerpt from the inscription of Kerdir at Naqsh-e-Rustam, Persia, late third century C.E.\nWhich of the following best explains the presence of Buddhist communities within Sassanid Persia? (a) Persian efforts to convert people away from Buddhism inspired further followers. (b) Buddhism's apocalyptic message swayed converts in Persia. (c) Persia's location sat astride international trade routes with India. (d) Buddhists were granted limited toleration by Zoroastrians.\nA:",
+        "question_type": "high_school_world_history",
+        "model_response": {
+            "input": "Q: This question refers to the following information.\n\"And then Shapur, King of Kings, passed away. Then his son Hormizd, King of Kings, rose over the empire. And Hormizd, King of Kings, conferred on me cap and belt and created for me a higher rank and dignity, and at court and in kingdom after kingdom, place after place, throughout the whole empire he gave me more authority and power in matters of the divine services, and created for me the title \"Kerdir, Ahura Mazda's [Chief Priest]\" after the name of Ahura Mazda, the Deity. And thereupon in kingdom after kingdom, place after place, many divine services were performed in magnificence, and many Warham fires were established, and many magi became happy and prosperous, and many fires and magi were imperially installed\u2026\nAnd then Hormizd, King of Kings, passed away. Then Bahram, King of Kings, son of Shapur, King of Kings, and brother of Hormizd, King of Kings, rose over the empire. And Bahram, King of Kings, also held me in high honor and dignity and at court and in kingdom after kingdom, place after place, gave me authority and power for divine services of every sort. And thereupon in kingdom after kingdom, place after place, many divine services were performed in magnificence and many Warharan fires were established, and many magi became happy and prosperous, and many fires and magi were imperially installed\u2026\nAnd in kingdom after kingdom and place after place throughout the whole empire the services of Ahura Mazda and the gods became preeminent, and great dignity came to the Mazdayanian religion and the magi in the empire, and the gods and water and fire and small cattle in the empire attained great satisfaction, while Ahriman [the evil counterpart to Ahura Mazda] and the demons were punished and rebuked, and the teachings of Ahriman and the demons departed from the empire and were abandoned. And Jews, Buddhists, Hindus, Nasoreans [Orthodox Christians], Christians, Maktak [Baptists], and Manichaeans in the empire were smitten, and destruction of idols and scattering of the stores of the demons and god-seats and nests was abandoned.\"\nExcerpt from the inscription of Kerdir at Naqsh-e-Rustam, Persia, late third century C.E.\nWhich of the following best explains the presence of Buddhist communities within Sassanid Persia? (a) Persian efforts to convert people away from Buddhism inspired further followers. (b) Buddhism's apocalyptic message swayed converts in Persia. (c) Persia's location sat astride international trade routes with India. (d) Buddhists were granted limited toleration by Zoroastrians.\nA:",
+            "output": "(c) Persia's location sat astride international trade routes with India.\n\nExplanation: The inscription of Kerdir at Naqsh-e-Rustam mentions the persecution of Buddhists and other religious groups. However, this does not explain why Buddhist communities were present in the first place. Given the information, it is unlikely that options (a) and (b) are correct. Option (d) is possible, but it does not explain how Buddhism spread to Persia in the first place. Therefore, the most likely answer is (c) Persia's location sat astride international trade routes with India, which would have allowed for the spread of Buddhism from India to Persia."
+        },
+        "correct_answer": "a",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q: The energy stored in the magnetic field in a solenoid 30 cm long and 3 cm diameter wound with 1000 turns of wire carrying a current at 10 amp, is (a) 0.015 joule. (b) 0.15 joule. (c) 0.015 joule. (d) 1.15 joule.\nA:",
+        "question_type": "electrical_engineering",
+        "model_response": {
+            "input": "Q: The energy stored in the magnetic field in a solenoid 30 cm long and 3 cm diameter wound with 1000 turns of wire carrying a current at 10 amp, is (a) 0.015 joule. (b) 0.15 joule. (c) 0.015 joule. (d) 1.15 joule.\nA:",
+            "output": "(a) 0.015 joule"
+        },
+        "correct_answer": "b",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q: Of the following, which best characterizes computers that use memory-mapped I/O? (a) The computer provides special instructions for manipulating I/O ports. (b) I/O ports are placed at addresses on the bus and are accessed just like other memory locations. (c) To perform an I/O operation, it is sufficient to place the data in an address register and call the channel to perform the operation. (d) Ports are referenced only by memory-mapped instructions of the computer and are located at hardwired memory locations.\nA:",
+        "question_type": "college_computer_science",
+        "model_response": {
+            "input": "Q: Of the following, which best characterizes computers that use memory-mapped I/O? (a) The computer provides special instructions for manipulating I/O ports. (b) I/O ports are placed at addresses on the bus and are accessed just like other memory locations. (c) To perform an I/O operation, it is sufficient to place the data in an address register and call the channel to perform the operation. (d) Ports are referenced only by memory-mapped instructions of the computer and are located at hardwired memory locations.\nA:",
+            "output": "Agent stopped due to iteration limit or time limit."
+        },
+        "correct_answer": "b",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q: What is the approximate speed of light? (a) 165 miles per hour (b) 122000 miles per hour (c) 186000 miles per second (d) 293000 miles per second\nA:",
+        "question_type": "miscellaneous",
+        "model_response": {
+            "input": "Q: What is the approximate speed of light? (a) 165 miles per hour (b) 122000 miles per hour (c) 186000 miles per second (d) 293000 miles per second\nA:",
+            "output": "(c) 186000 miles per second"
+        },
+        "correct_answer": "c",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: To prevent desiccation and injury, the embryos of terrestrial vertebrates are encased within a fluid secreted by the (a) amnion (b) chorion (c) allantois (d) yolk sac\nA:",
+        "question_type": "college_biology",
+        "model_response": {
+            "input": "Q: To prevent desiccation and injury, the embryos of terrestrial vertebrates are encased within a fluid secreted by the (a) amnion (b) chorion (c) allantois (d) yolk sac\nA:",
+            "output": "(a) amnion"
+        },
+        "correct_answer": "a",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: Which of the following is the correct anatomical order of structures in the mammalian female reproductive tract? (a) Oviduct, uterus, rete, vagina (b) Oviduct, epididymis, uterus, vagina (c) Ovary, oviduct, uterus, vagina (d) Ovary, uterus, vagina, rete\nA:",
+        "question_type": "college_biology",
+        "model_response": {
+            "input": "Q: Which of the following is the correct anatomical order of structures in the mammalian female reproductive tract? (a) Oviduct, uterus, rete, vagina (b) Oviduct, epididymis, uterus, vagina (c) Ovary, oviduct, uterus, vagina (d) Ovary, uterus, vagina, rete\nA:",
+            "output": "(c) Ovary, oviduct, uterus, vagina"
+        },
+        "correct_answer": "c",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: Phophocreatine resynthesis during recovery from exercise is inhibited by: (a) an excess of creatine. (b) hyperventilation. (c) an excess of oxygen. (d) a lack of oxygen.\nA:",
+        "question_type": "college_medicine",
+        "model_response": {
+            "input": "Q: Phophocreatine resynthesis during recovery from exercise is inhibited by: (a) an excess of creatine. (b) hyperventilation. (c) an excess of oxygen. (d) a lack of oxygen.\nA:",
+            "output": "(a) an excess of creatine.\n\nExplanation: Phosphocreatine resynthesis during recovery from exercise is inhibited by an excess of creatine. This is because when there is too much creatine present, it can interfere with the process of resynthesizing phosphocreatine, which is needed to replenish energy stores in the muscles."
+        },
+        "correct_answer": "d",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q: Given the following major premise, which of the following minor premises could lead to a valid conclusion?\n\n\"Either I'm going to do well on this test or I'm going to be mad.\" (a) \"I won't do well on the test\" (b) \"I won't take the test\" (c) \"My birthday is today\" (d) both A and B\nA:",
+        "question_type": "logical_fallacies",
+        "model_response": {
+            "input": "Q: Given the following major premise, which of the following minor premises could lead to a valid conclusion?\n\n\"Either I'm going to do well on this test or I'm going to be mad.\" (a) \"I won't do well on the test\" (b) \"I won't take the test\" (c) \"My birthday is today\" (d) both A and B\nA:",
+            "output": "(d) both A and B"
+        },
+        "correct_answer": "a",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q:  Where is the key to liberation found within Sikhism? (a) In the community (b) In faith in God (c) In ascetic renunciation (d) In the life of the householder\nA:",
+        "question_type": "world_religions",
+        "model_response": {
+            "input": "Q:  Where is the key to liberation found within Sikhism? (a) In the community (b) In faith in God (c) In ascetic renunciation (d) In the life of the householder\nA:",
+            "output": "The key to liberation in Sikhism is found in faith in God.\n\nExplanation:\nIn Sikhism, the ultimate goal is to achieve liberation (Mukti or Moksha), which is seen as a state of bliss and union with God. This can be achieved by living a disciplined life, leading an honest and truthful existence, and engaging in meditation and selfless service. Sikhs believe that liberation is possible in this life and can be achieved by following the teachings of the Guru Granth Sahib, the holy scripture of Sikhism. According to Sikhism, the key to liberation is found in faith in God and in leading a virtuous life. Therefore, the answer is (b) In faith in God.\n\nThe Wikipedia tool was used to find this information, as the answer is not something I inherently know. The search query \"Sikhism liberation\" was used to find the relevant information. Based on the search results, it was determined that the key to liberation in Sikhism is found in union with the divine, which can be achieved through meditation and remembering God's name. This aligns with the option (b) In faith in God."
+        },
+        "correct_answer": "d",
+        "answered_correctly": false
+    },
+    {
+        "question": "Q: Socialization is: (a) the formation of an attachment bond between an infant and its carer (b) a tendency of social theorists to explain everything in terms of social causes (c) the process of becoming part of a society by learning its norms and values (d) the historical process by which societies change from traditional to modern\nA:",
+        "question_type": "sociology",
+        "model_response": {
+            "input": "Q: Socialization is: (a) the formation of an attachment bond between an infant and its carer (b) a tendency of social theorists to explain everything in terms of social causes (c) the process of becoming part of a society by learning its norms and values (d) the historical process by which societies change from traditional to modern\nA:",
+            "output": "(c) the process of becoming part of a society by learning its norms and values."
+        },
+        "correct_answer": "c",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q: Which of the following is a type of bacterium that produces a toxin in food under anaerobic conditions? (a) Clostridium botulinum (b) Clostridium tetani (c) Mycobacterium bovis (d) Staphylococcus aureus\nA:",
+        "question_type": "miscellaneous",
+        "model_response": {
+            "input": "Q: Which of the following is a type of bacterium that produces a toxin in food under anaerobic conditions? (a) Clostridium botulinum (b) Clostridium tetani (c) Mycobacterium bovis (d) Staphylococcus aureus\nA:",
+            "output": "(a) Clostridium botulinum"
+        },
+        "correct_answer": "a",
+        "answered_correctly": true
+    }
+]
