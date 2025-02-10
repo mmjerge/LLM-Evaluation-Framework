@@ -1,0 +1,34 @@
+2024-08-26 21:50:15,320 INFO    MainThread:2329093 [wandb_setup.py:_flush():76] Current SDK version is 0.17.7
+2024-08-26 21:50:15,320 INFO    MainThread:2329093 [wandb_setup.py:_flush():76] Configure stats pid to 2329093
+2024-08-26 21:50:15,320 INFO    MainThread:2329093 [wandb_setup.py:_flush():76] Loading settings from /u/mj6ux/.config/wandb/settings
+2024-08-26 21:50:15,321 INFO    MainThread:2329093 [wandb_setup.py:_flush():76] Loading settings from /p/llmreliability/test_repos/tree-of-thought-llm/wandb/settings
+2024-08-26 21:50:15,321 INFO    MainThread:2329093 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2024-08-26 21:50:15,322 INFO    MainThread:2329093 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-08-26 21:50:15,322 INFO    MainThread:2329093 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'run_aqua_again.py', 'program_abspath': '/p/llmreliability/test_repos/tree-of-thought-llm/run_aqua_again.py', 'program': '/p/llmreliability/test_repos/tree-of-thought-llm/run_aqua_again.py'}
+2024-08-26 21:50:15,322 INFO    MainThread:2329093 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-08-26 21:50:15,323 INFO    MainThread:2329093 [wandb_init.py:_log_setup():524] Logging user logs to /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_215015-ttejv4nl/logs/debug.log
+2024-08-26 21:50:15,324 INFO    MainThread:2329093 [wandb_init.py:_log_setup():525] Logging internal logs to /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_215015-ttejv4nl/logs/debug-internal.log
+2024-08-26 21:50:15,325 INFO    MainThread:2329093 [wandb_init.py:init():607] calling init triggers
+2024-08-26 21:50:15,325 INFO    MainThread:2329093 [wandb_init.py:init():614] wandb.init called with sweep_config: {}
+config: {'model': 'gpt-4o', 'max_depth': 3, 'num_thoughts': 3}
+2024-08-26 21:50:15,325 INFO    MainThread:2329093 [wandb_init.py:init():657] starting backend
+2024-08-26 21:50:15,326 INFO    MainThread:2329093 [wandb_init.py:init():661] setting up manager
+2024-08-26 21:50:15,328 INFO    MainThread:2329093 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-08-26 21:50:15,329 INFO    MainThread:2329093 [wandb_init.py:init():669] backend started and connected
+2024-08-26 21:50:15,332 INFO    MainThread:2329093 [wandb_init.py:init():764] updated telemetry
+2024-08-26 21:50:15,340 INFO    MainThread:2329093 [wandb_init.py:init():797] communicating run to backend with 90.0 second timeout
+2024-08-26 21:50:15,613 INFO    MainThread:2329093 [wandb_run.py:_on_init():2479] communicating current version
+2024-08-26 21:50:15,650 INFO    MainThread:2329093 [wandb_run.py:_on_init():2488] got version response 
+2024-08-26 21:50:15,651 INFO    MainThread:2329093 [wandb_init.py:init():848] starting run threads in backend
+2024-08-26 21:50:23,509 INFO    MainThread:2329093 [wandb_run.py:_console_start():2457] atexit reg
+2024-08-26 21:50:23,509 INFO    MainThread:2329093 [wandb_run.py:_redirect():2303] redirect: wrap_raw
+2024-08-26 21:50:23,509 INFO    MainThread:2329093 [wandb_run.py:_redirect():2368] Wrapping output streams.
+2024-08-26 21:50:23,510 INFO    MainThread:2329093 [wandb_run.py:_redirect():2393] Redirects installed.
+2024-08-26 21:50:23,512 INFO    MainThread:2329093 [wandb_init.py:init():891] run started, returning control to user process
+2024-08-26 21:52:27,105 INFO    MainThread:2329093 [wandb_run.py:_finish():2154] finishing run uva-ml-project/aqua-tot-api-metrics/ttejv4nl
+2024-08-26 21:52:27,106 INFO    MainThread:2329093 [wandb_run.py:_atexit_cleanup():2418] got exitcode: 0
+2024-08-26 21:52:27,107 INFO    MainThread:2329093 [wandb_run.py:_restore():2400] restore
+2024-08-26 21:52:27,108 INFO    MainThread:2329093 [wandb_run.py:_restore():2406] restore done
+2024-08-26 21:52:31,274 INFO    MainThread:2329093 [wandb_run.py:_footer_history_summary_info():4076] rendering history
+2024-08-26 21:52:31,274 INFO    MainThread:2329093 [wandb_run.py:_footer_history_summary_info():4108] rendering summary
+2024-08-26 21:52:31,333 INFO    MainThread:2329093 [wandb_run.py:_footer_sync_info():4035] logging synced files

@@ -1,0 +1,102 @@
+
+Processing problem 1/25
+Traceback (most recent call last):
+  File "/p/llmreliability/test_repos/tree-of-thought-llm/run_mmlu_again.py", line 152, in <module>
+    results = process_mmlu_problems(dataset, num_problems, max_depth, num_thoughts, log_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/llmreliability/test_repos/tree-of-thought-llm/run_mmlu_again.py", line 122, in process_mmlu_problems
+    _, model_answer = tree_of_thoughts(question, max_depth, num_thoughts)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/llmreliability/test_repos/tree-of-thought-llm/run_mmlu_again.py", line 108, in tree_of_thoughts
+    result, answer = solve([], 0)
+                     ^^^^^^^^^^^^
+  File "/p/llmreliability/test_repos/tree-of-thought-llm/run_mmlu_again.py", line 102, in solve
+    result, answer = solve(thoughts + [thought], depth + 1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/llmreliability/test_repos/tree-of-thought-llm/run_mmlu_again.py", line 102, in solve
+    result, answer = solve(thoughts + [thought], depth + 1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/llmreliability/test_repos/tree-of-thought-llm/run_mmlu_again.py", line 102, in solve
+    result, answer = solve(thoughts + [thought], depth + 1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "/p/llmreliability/test_repos/tree-of-thought-llm/run_mmlu_again.py", line 93, in solve
+    new_thoughts = thought_generator.generate_thoughts(question, thoughts, num_thoughts)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/llmreliability/test_repos/tree-of-thought-llm/run_mmlu_again.py", line 65, in generate_thoughts
+    response = self.llm.invoke(prompt_value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/langchain_core/language_models/llms.py", line 385, in invoke
+    self.generate_prompt(
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/langchain_core/language_models/llms.py", line 750, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/langchain_core/language_models/llms.py", line 944, in generate
+    output = self._generate_helper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/langchain_core/language_models/llms.py", line 787, in _generate_helper
+    raise e
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/langchain_core/language_models/llms.py", line 774, in _generate_helper
+    self._generate(
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/langchain_openai/llms/base.py", line 360, in _generate
+    response = self.client.create(prompt=_prompts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/openai/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/openai/resources/completions.py", line 528, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/openai/_base_client.py", line 1260, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/openai/_base_client.py", line 937, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/openai/_base_client.py", line 973, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/httpx/_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/httpx/_transports/default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
+    raise exc
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 113, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 186, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 224, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/site-packages/httpcore/_backends/sync.py", line 126, in read
+    return self._sock.recv(max_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/ssl.py", line 1295, in recv
+    return self.read(buflen)
+           ^^^^^^^^^^^^^^^^^
+  File "/u/mj6ux/.conda/envs/tot_env/lib/python3.11/ssl.py", line 1168, in read
+    return self._sslobj.read(len)
+           ^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

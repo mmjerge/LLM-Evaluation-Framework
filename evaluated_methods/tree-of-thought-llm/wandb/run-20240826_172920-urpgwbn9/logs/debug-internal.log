@@ -1,0 +1,384 @@
+2024-08-26 17:29:20,857 INFO    StreamThr :2233572 [internal.py:wandb_internal():85] W&B internal server running at pid: 2233572, started at: 2024-08-26 17:29:20.854343
+2024-08-26 17:29:20,859 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status
+2024-08-26 17:29:20,860 INFO    WriterThread:2233572 [datastore.py:open_for_write():87] open: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/run-urpgwbn9.wandb
+2024-08-26 17:29:20,862 DEBUG   SenderThread:2233572 [sender.py:send():391] send: header
+2024-08-26 17:29:20,871 DEBUG   SenderThread:2233572 [sender.py:send():391] send: run
+2024-08-26 17:29:21,100 INFO    SenderThread:2233572 [dir_watcher.py:__init__():211] watching files in: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files
+2024-08-26 17:29:21,100 INFO    SenderThread:2233572 [sender.py:_start_run_threads():1200] run started: urpgwbn9 with start time 1724707760.855111
+2024-08-26 17:29:21,117 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: check_version
+2024-08-26 17:29:21,118 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: check_version
+2024-08-26 17:29:21,167 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: run_start
+2024-08-26 17:29:21,185 ERROR   HandlerThread:2233572 [gpu.py:is_available():381] Error initializing NVML: Driver Not Loaded
+2024-08-26 17:29:21,186 DEBUG   HandlerThread:2233572 [system_info.py:__init__():26] System info init
+2024-08-26 17:29:21,186 DEBUG   HandlerThread:2233572 [system_info.py:__init__():41] System info init done
+2024-08-26 17:29:21,186 INFO    HandlerThread:2233572 [system_monitor.py:start():194] Starting system monitor
+2024-08-26 17:29:21,187 INFO    SystemMonitor:2233572 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-26 17:29:21,188 INFO    HandlerThread:2233572 [system_monitor.py:probe():214] Collecting system info
+2024-08-26 17:29:21,189 INFO    SystemMonitor:2233572 [interfaces.py:start():188] Started cpu monitoring
+2024-08-26 17:29:21,191 INFO    SystemMonitor:2233572 [interfaces.py:start():188] Started disk monitoring
+2024-08-26 17:29:21,192 INFO    SystemMonitor:2233572 [interfaces.py:start():188] Started memory monitoring
+2024-08-26 17:29:21,193 INFO    SystemMonitor:2233572 [interfaces.py:start():188] Started network monitoring
+2024-08-26 17:29:21,225 DEBUG   HandlerThread:2233572 [system_info.py:probe():152] Probing system
+2024-08-26 17:29:21,228 DEBUG   HandlerThread:2233572 [system_info.py:_probe_git():137] Probing git
+2024-08-26 17:29:21,245 DEBUG   HandlerThread:2233572 [system_info.py:_probe_git():145] Probing git done
+2024-08-26 17:29:21,245 DEBUG   HandlerThread:2233572 [system_info.py:probe():200] Probing system done
+2024-08-26 17:29:21,245 DEBUG   HandlerThread:2233572 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-113-generic-x86_64-with-glibc2.35', 'python': '3.11.9', 'heartbeatAt': '2024-08-26T21:29:21.225131', 'startedAt': '2024-08-26T21:29:20.821690', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/p/llmreliability/test_repos/tree-of-thought-llm/run_mmlu_again.py', 'codePathLocal': 'run_mmlu_again.py', 'codePath': 'run_mmlu_again.py', 'git': {'remote': 'git@github.com:princeton-nlp/tree-of-thought-llm.git', 'commit': 'ab400345c5ea39d28ea6d7d3be0e417b11113c87'}, 'email': 'mj6ux@virginia.edu', 'root': '/p/llmreliability/test_repos/tree-of-thought-llm', 'host': 'portal03', 'username': 'mj6ux', 'executable': '/u/mj6ux/.conda/envs/tot_env/bin/python3', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 1.5936249999999996, 'min': 1200.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 2.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1.9, 'min': 1200.0, 'max': 3000.0}, {'current': 1.9, 'min': 1200.0, 'max': 3000.0}, {'current': 3.0, 'min': 1200.0, 'max': 3000.0}, {'current': 2.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1.2, 'min': 1200.0, 'max': 3000.0}, {'current': 1.2, 'min': 1200.0, 'max': 3000.0}, {'current': 2.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1.2, 'min': 1200.0, 'max': 3000.0}, {'current': 1.9, 'min': 1200.0, 'max': 3000.0}, {'current': 1.2, 'min': 1200.0, 'max': 3000.0}, {'current': 1.2, 'min': 1200.0, 'max': 3000.0}, {'current': 1.2, 'min': 1200.0, 'max': 3000.0}, {'current': 1.198, 'min': 1200.0, 'max': 3000.0}, {'current': 1.2, 'min': 1200.0, 'max': 3000.0}, {'current': 1.2, 'min': 1200.0, 'max': 3000.0}], 'disk': {'/': {'total': 913.7821273803711, 'used': 80.73123931884766}}, 'memory': {'total': 133.35359954833984}}
+2024-08-26 17:29:21,246 INFO    HandlerThread:2233572 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-26 17:29:21,246 INFO    HandlerThread:2233572 [system_monitor.py:probe():227] Publishing system info
+2024-08-26 17:29:21,247 DEBUG   HandlerThread:2233572 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-08-26 17:29:22,103 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_created():271] file/dir created: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/conda-environment.yaml
+2024-08-26 17:29:28,575 DEBUG   HandlerThread:2233572 [system_info.py:_save_conda():224] Saving conda packages done
+2024-08-26 17:29:28,578 INFO    HandlerThread:2233572 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-26 17:29:28,581 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:29:28,582 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: keepalive
+2024-08-26 17:29:28,583 DEBUG   SenderThread:2233572 [sender.py:send():391] send: files
+2024-08-26 17:29:28,584 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-08-26 17:29:28,770 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: python_packages
+2024-08-26 17:29:28,771 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: python_packages
+2024-08-26 17:29:28,771 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-26 17:29:28,773 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:28,774 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: stop_status
+2024-08-26 17:29:28,826 INFO    wandb-upload_0:2233572 [upload_job.py:push():130] Uploaded file /tmp/tmpy1hkn9pywandb/lz6w42yi-wandb-metadata.json
+2024-08-26 17:29:28,861 DEBUG   SenderThread:2233572 [sender.py:send():391] send: telemetry
+2024-08-26 17:29:29,105 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/conda-environment.yaml
+2024-08-26 17:29:29,106 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_created():271] file/dir created: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/requirements.txt
+2024-08-26 17:29:29,107 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_created():271] file/dir created: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-metadata.json
+2024-08-26 17:29:29,108 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_created():271] file/dir created: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/output.log
+2024-08-26 17:29:29,771 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:30,771 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:31,107 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/output.log
+2024-08-26 17:29:31,771 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:31,864 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:29:32,772 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:33,772 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:33,918 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 17:29:33,920 DEBUG   SenderThread:2233572 [sender.py:send():391] send: history
+2024-08-26 17:29:33,920 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 17:29:33,925 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:29:34,109 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_created():271] file/dir created: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-summary.json
+2024-08-26 17:29:34,772 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:35,772 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:36,772 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:36,925 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:29:37,699 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 17:29:37,700 DEBUG   SenderThread:2233572 [sender.py:send():391] send: history
+2024-08-26 17:29:37,700 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 17:29:37,703 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:29:37,772 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:38,111 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-summary.json
+2024-08-26 17:29:38,772 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:39,772 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:40,772 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:41,772 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:42,478 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 17:29:42,479 DEBUG   SenderThread:2233572 [sender.py:send():391] send: history
+2024-08-26 17:29:42,480 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 17:29:42,482 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:29:42,483 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:29:42,773 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:43,115 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-summary.json
+2024-08-26 17:29:43,771 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-26 17:29:43,771 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: stop_status
+2024-08-26 17:29:43,811 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:44,773 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:45,773 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:46,773 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:47,173 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 17:29:47,174 DEBUG   SenderThread:2233572 [sender.py:send():391] send: history
+2024-08-26 17:29:47,174 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 17:29:47,178 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:29:47,773 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:48,117 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-summary.json
+2024-08-26 17:29:48,179 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:29:48,773 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:49,773 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:50,773 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:51,773 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:51,882 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 17:29:51,883 DEBUG   SenderThread:2233572 [sender.py:send():391] send: history
+2024-08-26 17:29:51,884 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 17:29:51,887 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:29:52,120 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-summary.json
+2024-08-26 17:29:52,774 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:53,777 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:29:53,778 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:54,121 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/config.yaml
+2024-08-26 17:29:54,774 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:55,774 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:55,969 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 17:29:55,970 DEBUG   SenderThread:2233572 [sender.py:send():391] send: history
+2024-08-26 17:29:55,970 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 17:29:55,975 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:29:56,122 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-summary.json
+2024-08-26 17:29:56,774 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:57,774 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:58,771 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-26 17:29:58,771 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: stop_status
+2024-08-26 17:29:58,811 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:29:58,857 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:29:59,774 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:00,774 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:01,774 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:02,296 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 17:30:02,297 DEBUG   SenderThread:2233572 [sender.py:send():391] send: history
+2024-08-26 17:30:02,297 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 17:30:02,301 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:30:02,775 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:03,126 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-summary.json
+2024-08-26 17:30:03,774 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:04,772 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:30:04,775 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:05,775 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:06,775 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:07,546 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 17:30:07,547 DEBUG   SenderThread:2233572 [sender.py:send():391] send: history
+2024-08-26 17:30:07,547 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 17:30:07,551 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:30:07,775 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:08,129 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-summary.json
+2024-08-26 17:30:08,775 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:09,775 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:10,773 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:30:10,775 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:11,775 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:12,756 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 17:30:12,757 DEBUG   SenderThread:2233572 [sender.py:send():391] send: history
+2024-08-26 17:30:12,757 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 17:30:12,761 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:30:12,799 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:13,132 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-summary.json
+2024-08-26 17:30:13,771 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-26 17:30:13,772 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: stop_status
+2024-08-26 17:30:13,815 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:14,776 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:15,776 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:16,101 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:30:16,776 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:17,776 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:18,776 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:19,776 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:20,776 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:21,062 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 17:30:21,063 DEBUG   SenderThread:2233572 [sender.py:send():391] send: history
+2024-08-26 17:30:21,063 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 17:30:21,066 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:30:21,137 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-summary.json
+2024-08-26 17:30:21,193 DEBUG   SystemMonitor:2233572 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-26 17:30:21,195 DEBUG   SenderThread:2233572 [sender.py:send():391] send: stats
+2024-08-26 17:30:21,195 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:30:21,776 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:22,777 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:23,776 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:24,777 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:25,777 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:26,773 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:30:26,777 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:27,777 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:28,331 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 17:30:28,332 DEBUG   SenderThread:2233572 [sender.py:send():391] send: history
+2024-08-26 17:30:28,332 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 17:30:28,336 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:30:28,771 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-26 17:30:28,772 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: stop_status
+2024-08-26 17:30:28,777 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:29,142 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-summary.json
+2024-08-26 17:30:29,777 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:30,777 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:31,777 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:31,905 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:30:32,778 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:33,778 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:34,713 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 17:30:34,714 DEBUG   SenderThread:2233572 [sender.py:send():391] send: history
+2024-08-26 17:30:34,715 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 17:30:34,718 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:30:34,778 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:35,145 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-summary.json
+2024-08-26 17:30:35,778 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:36,778 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:37,718 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:30:37,778 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:38,778 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:39,778 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:40,778 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:41,778 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:42,773 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:30:42,778 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:43,771 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-26 17:30:43,772 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: stop_status
+2024-08-26 17:30:43,815 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:44,779 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:45,624 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 17:30:45,626 DEBUG   SenderThread:2233572 [sender.py:send():391] send: history
+2024-08-26 17:30:45,626 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 17:30:45,629 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:30:45,779 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:46,151 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-summary.json
+2024-08-26 17:30:46,779 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:47,779 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:48,630 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:30:48,779 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:49,779 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:50,779 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:51,196 DEBUG   SenderThread:2233572 [sender.py:send():391] send: stats
+2024-08-26 17:30:51,779 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:52,780 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:53,216 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 17:30:53,217 DEBUG   SenderThread:2233572 [sender.py:send():391] send: history
+2024-08-26 17:30:53,218 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 17:30:53,221 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:30:53,773 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:30:53,779 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:54,155 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-summary.json
+2024-08-26 17:30:54,780 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:55,780 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:56,780 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:57,780 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:58,771 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-26 17:30:58,772 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: stop_status
+2024-08-26 17:30:58,815 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:58,874 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:30:59,780 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:30:59,889 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 17:30:59,890 DEBUG   SenderThread:2233572 [sender.py:send():391] send: history
+2024-08-26 17:30:59,891 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 17:30:59,895 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:30:59,931 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 17:30:59,933 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: server_info
+2024-08-26 17:30:59,934 DEBUG   SenderThread:2233572 [sender.py:send():391] send: history
+2024-08-26 17:30:59,934 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 17:30:59,938 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:30:59,938 DEBUG   SenderThread:2233572 [sender.py:send():391] send: telemetry
+2024-08-26 17:30:59,939 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: server_info
+2024-08-26 17:31:00,000 DEBUG   SenderThread:2233572 [sender.py:send():391] send: exit
+2024-08-26 17:31:00,000 INFO    SenderThread:2233572 [sender.py:send_exit():598] handling exit code: 0
+2024-08-26 17:31:00,002 INFO    SenderThread:2233572 [sender.py:send_exit():600] handling runtime: 98
+2024-08-26 17:31:00,016 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:31:00,016 INFO    SenderThread:2233572 [sender.py:send_exit():606] send defer
+2024-08-26 17:31:00,017 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 17:31:00,018 INFO    HandlerThread:2233572 [handler.py:handle_request_defer():184] handle defer: 0
+2024-08-26 17:31:00,019 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: defer
+2024-08-26 17:31:00,020 INFO    SenderThread:2233572 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-08-26 17:31:00,020 INFO    SenderThread:2233572 [sender.py:transition_state():626] send defer: 1
+2024-08-26 17:31:00,020 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 17:31:00,021 INFO    HandlerThread:2233572 [handler.py:handle_request_defer():184] handle defer: 1
+2024-08-26 17:31:00,021 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: defer
+2024-08-26 17:31:00,022 INFO    SenderThread:2233572 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-08-26 17:31:00,022 INFO    SenderThread:2233572 [sender.py:transition_state():626] send defer: 2
+2024-08-26 17:31:00,022 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 17:31:00,023 INFO    HandlerThread:2233572 [handler.py:handle_request_defer():184] handle defer: 2
+2024-08-26 17:31:00,023 INFO    HandlerThread:2233572 [system_monitor.py:finish():203] Stopping system monitor
+2024-08-26 17:31:00,024 DEBUG   SystemMonitor:2233572 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-08-26 17:31:00,025 INFO    HandlerThread:2233572 [interfaces.py:finish():200] Joined cpu monitor
+2024-08-26 17:31:00,026 DEBUG   SystemMonitor:2233572 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-08-26 17:31:00,026 INFO    HandlerThread:2233572 [interfaces.py:finish():200] Joined disk monitor
+2024-08-26 17:31:00,028 INFO    HandlerThread:2233572 [interfaces.py:finish():200] Joined memory monitor
+2024-08-26 17:31:00,029 INFO    HandlerThread:2233572 [interfaces.py:finish():200] Joined network monitor
+2024-08-26 17:31:00,031 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: defer
+2024-08-26 17:31:00,031 INFO    SenderThread:2233572 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-08-26 17:31:00,031 INFO    SenderThread:2233572 [sender.py:transition_state():626] send defer: 3
+2024-08-26 17:31:00,033 DEBUG   SenderThread:2233572 [sender.py:send():391] send: stats
+2024-08-26 17:31:00,033 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 17:31:00,035 INFO    HandlerThread:2233572 [handler.py:handle_request_defer():184] handle defer: 3
+2024-08-26 17:31:00,035 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: defer
+2024-08-26 17:31:00,036 INFO    SenderThread:2233572 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-08-26 17:31:00,036 INFO    SenderThread:2233572 [sender.py:transition_state():626] send defer: 4
+2024-08-26 17:31:00,037 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 17:31:00,038 INFO    HandlerThread:2233572 [handler.py:handle_request_defer():184] handle defer: 4
+2024-08-26 17:31:00,039 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: defer
+2024-08-26 17:31:00,039 INFO    SenderThread:2233572 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-08-26 17:31:00,039 INFO    SenderThread:2233572 [sender.py:transition_state():626] send defer: 5
+2024-08-26 17:31:00,040 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 17:31:00,041 INFO    HandlerThread:2233572 [handler.py:handle_request_defer():184] handle defer: 5
+2024-08-26 17:31:00,041 DEBUG   SenderThread:2233572 [sender.py:send():391] send: summary
+2024-08-26 17:31:00,044 INFO    SenderThread:2233572 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 17:31:00,044 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: defer
+2024-08-26 17:31:00,045 INFO    SenderThread:2233572 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-08-26 17:31:00,045 INFO    SenderThread:2233572 [sender.py:transition_state():626] send defer: 6
+2024-08-26 17:31:00,046 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 17:31:00,046 INFO    HandlerThread:2233572 [handler.py:handle_request_defer():184] handle defer: 6
+2024-08-26 17:31:00,047 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: defer
+2024-08-26 17:31:00,048 INFO    SenderThread:2233572 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-08-26 17:31:00,053 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 17:31:00,112 INFO    SenderThread:2233572 [sender.py:transition_state():626] send defer: 7
+2024-08-26 17:31:00,112 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 17:31:00,113 INFO    HandlerThread:2233572 [handler.py:handle_request_defer():184] handle defer: 7
+2024-08-26 17:31:00,114 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: defer
+2024-08-26 17:31:00,114 INFO    SenderThread:2233572 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-08-26 17:31:00,159 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/config.yaml
+2024-08-26 17:31:00,159 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-summary.json
+2024-08-26 17:31:00,878 INFO    SenderThread:2233572 [sender.py:transition_state():626] send defer: 8
+2024-08-26 17:31:00,878 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 17:31:00,879 INFO    HandlerThread:2233572 [handler.py:handle_request_defer():184] handle defer: 8
+2024-08-26 17:31:00,879 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: defer
+2024-08-26 17:31:00,880 INFO    SenderThread:2233572 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-08-26 17:31:00,881 INFO    SenderThread:2233572 [job_builder.py:build():443] Attempting to build job artifact
+2024-08-26 17:31:00,882 INFO    SenderThread:2233572 [job_builder.py:_get_source_type():572] is repo sourced job
+2024-08-26 17:31:00,939 INFO    SenderThread:2233572 [job_builder.py:build():548] adding wandb-job metadata file
+2024-08-26 17:31:01,000 INFO    SenderThread:2233572 [sender.py:transition_state():626] send defer: 9
+2024-08-26 17:31:01,001 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-26 17:31:01,001 DEBUG   SenderThread:2233572 [sender.py:send():391] send: artifact
+2024-08-26 17:31:01,001 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 17:31:01,004 INFO    HandlerThread:2233572 [handler.py:handle_request_defer():184] handle defer: 9
+2024-08-26 17:31:01,159 INFO    Thread-12 :2233572 [dir_watcher.py:_on_file_modified():288] file/dir modified: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/output.log
+2024-08-26 17:31:01,313 INFO    SenderThread:2233572 [sender.py:send_artifact():1549] sent artifact job-git_github.com_princeton-nlp_tree-of-thought-llm.git_run_mmlu_again.py - {'id': 'QXJ0aWZhY3Q6MTE2NjYxNzI0OA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQxNzQ1MDI4MQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTE2NjY2ODkxOQ==', 'versionIndex': 2}}}
+2024-08-26 17:31:01,314 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: poll_exit
+2024-08-26 17:31:01,314 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: defer
+2024-08-26 17:31:01,315 INFO    SenderThread:2233572 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-08-26 17:31:01,315 INFO    SenderThread:2233572 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-08-26 17:31:02,001 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-26 17:31:02,161 INFO    SenderThread:2233572 [dir_watcher.py:finish():388] scan: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files
+2024-08-26 17:31:02,161 INFO    SenderThread:2233572 [dir_watcher.py:finish():402] scan save: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/config.yaml config.yaml
+2024-08-26 17:31:02,162 INFO    SenderThread:2233572 [dir_watcher.py:finish():402] scan save: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-metadata.json wandb-metadata.json
+2024-08-26 17:31:02,166 INFO    SenderThread:2233572 [dir_watcher.py:finish():402] scan save: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/conda-environment.yaml conda-environment.yaml
+2024-08-26 17:31:02,166 INFO    SenderThread:2233572 [dir_watcher.py:finish():402] scan save: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/output.log output.log
+2024-08-26 17:31:02,169 INFO    SenderThread:2233572 [dir_watcher.py:finish():402] scan save: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-summary.json wandb-summary.json
+2024-08-26 17:31:02,172 INFO    SenderThread:2233572 [dir_watcher.py:finish():402] scan save: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/requirements.txt requirements.txt
+2024-08-26 17:31:02,175 INFO    SenderThread:2233572 [sender.py:transition_state():626] send defer: 10
+2024-08-26 17:31:02,175 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: poll_exit
+2024-08-26 17:31:02,176 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 17:31:02,179 INFO    HandlerThread:2233572 [handler.py:handle_request_defer():184] handle defer: 10
+2024-08-26 17:31:02,180 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: defer
+2024-08-26 17:31:02,181 INFO    SenderThread:2233572 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-08-26 17:31:02,181 INFO    SenderThread:2233572 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-26 17:31:02,348 INFO    wandb-upload_0:2233572 [upload_job.py:push():130] Uploaded file /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/config.yaml
+2024-08-26 17:31:02,388 INFO    wandb-upload_3:2233572 [upload_job.py:push():130] Uploaded file /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/wandb-summary.json
+2024-08-26 17:31:02,402 INFO    wandb-upload_1:2233572 [upload_job.py:push():130] Uploaded file /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/conda-environment.yaml
+2024-08-26 17:31:02,402 INFO    wandb-upload_4:2233572 [upload_job.py:push():130] Uploaded file /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/requirements.txt
+2024-08-26 17:31:02,408 INFO    wandb-upload_2:2233572 [upload_job.py:push():130] Uploaded file /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/files/output.log
+2024-08-26 17:31:02,608 INFO    Thread-11 (_thread_body):2233572 [sender.py:transition_state():626] send defer: 11
+2024-08-26 17:31:02,609 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 17:31:02,610 INFO    HandlerThread:2233572 [handler.py:handle_request_defer():184] handle defer: 11
+2024-08-26 17:31:02,610 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: defer
+2024-08-26 17:31:02,611 INFO    SenderThread:2233572 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-08-26 17:31:02,611 INFO    SenderThread:2233572 [file_pusher.py:join():175] waiting for file pusher
+2024-08-26 17:31:02,612 INFO    SenderThread:2233572 [sender.py:transition_state():626] send defer: 12
+2024-08-26 17:31:02,613 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 17:31:02,615 INFO    HandlerThread:2233572 [handler.py:handle_request_defer():184] handle defer: 12
+2024-08-26 17:31:02,615 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: defer
+2024-08-26 17:31:02,616 INFO    SenderThread:2233572 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-08-26 17:31:02,616 INFO    SenderThread:2233572 [file_stream.py:finish():601] file stream finish called
+2024-08-26 17:31:02,846 INFO    SenderThread:2233572 [file_stream.py:finish():605] file stream finish is done
+2024-08-26 17:31:02,847 INFO    SenderThread:2233572 [sender.py:transition_state():626] send defer: 13
+2024-08-26 17:31:02,847 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 17:31:02,848 INFO    HandlerThread:2233572 [handler.py:handle_request_defer():184] handle defer: 13
+2024-08-26 17:31:02,848 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: defer
+2024-08-26 17:31:02,849 INFO    SenderThread:2233572 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-08-26 17:31:02,849 INFO    SenderThread:2233572 [sender.py:transition_state():626] send defer: 14
+2024-08-26 17:31:02,850 DEBUG   SenderThread:2233572 [sender.py:send():391] send: final
+2024-08-26 17:31:02,851 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 17:31:02,852 DEBUG   SenderThread:2233572 [sender.py:send():391] send: footer
+2024-08-26 17:31:02,852 INFO    HandlerThread:2233572 [handler.py:handle_request_defer():184] handle defer: 14
+2024-08-26 17:31:02,853 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: defer
+2024-08-26 17:31:02,854 INFO    SenderThread:2233572 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-08-26 17:31:02,855 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-26 17:31:02,855 DEBUG   SenderThread:2233572 [sender.py:send_request():418] send_request: poll_exit
+2024-08-26 17:31:02,857 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 17:31:02,858 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: get_summary
+2024-08-26 17:31:02,859 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: sampled_history
+2024-08-26 17:31:02,861 DEBUG   HandlerThread:2233572 [handler.py:handle_request():158] handle_request: shutdown
+2024-08-26 17:31:02,862 INFO    HandlerThread:2233572 [handler.py:finish():880] shutting down handler
+2024-08-26 17:31:03,855 INFO    WriterThread:2233572 [datastore.py:close():296] close: /p/llmreliability/test_repos/tree-of-thought-llm/wandb/run-20240826_172920-urpgwbn9/run-urpgwbn9.wandb
+2024-08-26 17:31:03,856 INFO    SenderThread:2233572 [sender.py:finish():1631] shutting down sender
+2024-08-26 17:31:03,857 INFO    SenderThread:2233572 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-26 17:31:03,857 INFO    SenderThread:2233572 [file_pusher.py:join():175] waiting for file pusher

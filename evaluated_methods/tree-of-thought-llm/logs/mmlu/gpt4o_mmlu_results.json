@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Q: Which pair of reactants will have no net ionic equation (that is, all the ions cancel)? (a) Na2SO3 + FeCl2 (b) CaCl2 + MnSO4 (c) NH4I + Pb(NO3)2 (d) KOH + HClO4\nA:",
+    "model_answer": "a",
+    "correct_answer": "b",
+    "processing_time": 192.3560221195221
+  },
+  {
+    "question": "Q: In the procedure Mystery below, the parameter number is a positive integer.\n\n PROCEDURE Mystery (number)\n {\n  REPEAT UNTIL (number <= 0)\n  {\n   number \u2190 number - 2\n  }\n  IF (number = 0)\n  {\n   RETURN (true)\n  }\n  ELSE\n  {\n   RETURN (false)\n  }\n }\n\n Which of the following best describes the result of running the procedure Mystery? (a) The procedure returns true when the initial value of number is 2, and it otherwise returns false. (b) The procedure returns true when the initial value of number is greater than 2, and it otherwise returns false. (c) The procedure returns true when the initial value of number is even, and it otherwise returns false. (d) The procedure returns true when the initial value of number is odd, and it otherwise returns false.\nA:",
+    "model_answer": "a",
+    "correct_answer": "c",
+    "processing_time": 258.5743525028229
+  },
+  {
+    "question": "Q: The blood glucose concentration during 80-90 minutes of intermittent high intensity exercise: (a) frequently rises by 1 - 3 mM. (b) remains relatively unchanged. (c) frequently falls by 1 - 3 mM. (d) falls to hypoglycaemic levels.\nA:",
+    "model_answer": "b",
+    "correct_answer": "a",
+    "processing_time": 298.34561586380005
+  },
+  {
+    "question": "Q: Arguing that someone should do something because other people are doing it is a description of which of the following fallacies? (a) appeal to common practice (b) snob appeal (c) argument by consensus (d) appeal to tradition\nA:",
+    "model_answer": "a",
+    "correct_answer": "a",
+    "processing_time": 854.412835597992
+  },
+  {
+    "question": "Q: Consanguinity shows a strong association with which pattern of inheritance? (a) Autosomal dominant (b) Autosomal recessive (c) X-linked dominant (d) X-linked recessive\nA:",
+    "model_answer": "a",
+    "correct_answer": "b",
+    "processing_time": 361.64090037345886
+  },
+  {
+    "question": "Q: In what country are the most Basque speakers found? (a) Denmark (b) Finland (c) Luxembourg (d) Spain\nA:",
+    "model_answer": "d",
+    "correct_answer": "d",
+    "processing_time": 21.751116037368774
+  },
+  {
+    "question": "Q: Businesses have _____ within society and have the potential to provide a ____ to society while ____ has the potential to inflict enormous harm on individuals, communities and the environment. (a) Little power, Small contribution, Business malpractice (b) Little power, Major contribution, Corporate social responsibility (c) Huge power, Small contribution, Corporate social responsibility (d) Huge power, Major contribution, Business malpractice\nA:",
+    "model_answer": "d",
+    "correct_answer": "d",
+    "processing_time": 151.60399103164673
+  },
+  {
+    "question": "Q: When the following equation is balanced, which of the following is true?\n__ MnO4\u2212 + __ I\u2212 + __ H+ <-> __ Mn2+ + __ IO3\u2212 + __ H2O (a) The I\u2212 : IO3\u2212 ratio is 3:1. (b) The MnO4- : I- ratio is 6:5. (c) The MnO4- : Mn2+ ratio is 3:1. (d) The H+ : I\u2212 ratio is 2:1.\nA:",
+    "model_answer": "a",
+    "correct_answer": "b",
+    "processing_time": 65.21648812294006
+  },
+  {
+    "question": "Q: What designation for a pottery style was eventually applied to an entire cultural complex that moved across the Pacific? (a) Clovis (b) Nenana Complex (c) Lapita (d) Micronesian Pottery Tradition\nA:",
+    "model_answer": "a",
+    "correct_answer": "c",
+    "processing_time": 20.957746744155884
+  },
+  {
+    "question": "Q: The waiting times for a new roller coaster ride are normally distributed with a mean of 35 minutes and a standard deviation of 10 minutes. If there are 150,000 riders the first summer, which of the following is the shortest time interval associated with 100,000 riders? (a) 0 to 31.7 minutes (b) 31.7 to 39.3 minutes (c) 25.3 to 44.7 minutes (d) 25.3 to 35 minutes\nA:",
+    "model_answer": "a",
+    "correct_answer": "c",
+    "processing_time": 661.3735082149506
+  },
+  {
+    "question": "Q: In Python 3, what is the following function returns item from the list with max value? (a) cmp(list) (b) len(list) (c) max(list) (d) min(list)\nA:",
+    "model_answer": "c",
+    "correct_answer": "c",
+    "processing_time": 30.16489601135254
+  },
+  {
+    "question": "Q: The slowing that occurs with advanced age appears to be centered in (a) The sense organs themselves (b) The brain (c) The muscle fibers (d) The peripheral nervous system\nA:",
+    "model_answer": "b",
+    "correct_answer": "b",
+    "processing_time": 436.03585028648376
+  },
+  {
+    "question": "Q: Chemical reactions can be classified as either heterogeneous or homogeneous. Which of the following equations below is best classified as a heterogeneous reaction? (a) 2C2H2(g) + 5O2(g) \u2192 4CO2(g) + 2H2O(g) (b) C2H5OH(aq) + O2(aq) \u2192 HC2H3O2(aq) + H2O(aq) (c) C(s) + H2O(g) \u2192 H2(g) + CO(g) (d) C2H2(g) + 5N2O(g) \u2192 CO2(g) + H2O(g) + 5N2(g)\nA:",
+    "model_answer": "a",
+    "correct_answer": "c",
+    "processing_time": 12.4882230758667
+  },
+  {
+    "question": "Q: What was the outcome before the European Court of Human Rights in the Al-Adsani case? (a) The Court held that the right to a fair trial trumped the privilege of immunity (b) The Court held that immunity trumped the right to a fair trial (c) The Court held that immunities were not in conflict with the right to a fair trial (d) The Court held that human rights considerations prevailed over all other contrary rules of international law, including most immunities\nA:",
+    "model_answer": "a",
+    "correct_answer": "c",
+    "processing_time": 77.70339107513428
+  },
+  {
+    "question": "Q: What is $$\\frac{-\\frac{18}{7}}{-\\frac{6}{5}}?$$ (a) \\frac{7}{15} (b) \\frac{15}{7} (c) \\frac{15}{8} (d) \\frac{15}{11}\nA:",
+    "model_answer": "a",
+    "correct_answer": "b",
+    "processing_time": 35.303682804107666
+  },
+  {
+    "question": "Q: \u00c9mile Durkheim believed the primary focus of sociology should be which of the following? (a) Social action (b) Social facts (c) Class relations (d) Cultural dynamics\nA:",
+    "model_answer": "b",
+    "correct_answer": "b",
+    "processing_time": 88.02353072166443
+  },
+  {
+    "question": "Q: A psychologist who shares an office with another psychologist reruns around midnight to retrieve some papers and unexpectedly comes upon the colleague engaging in sexual relations with one of that colleague's clients. According to ethics codes published by the American and Canadian Psychological Associations, the first psychologist should (a) speak with the colleague privately to resolve this incident informally (b) report the colleague to the appropriate local, state/provincial, or national ethics committee (c) say nothing further regarding this incident unless there is 2 complaint from the client (d) contact the colleague's client to offer assistance and/or professional advice\nA:",
+    "model_answer": "a",
+    "correct_answer": "b",
+    "processing_time": 596.4508235454559
+  },
+  {
+    "question": "Q: Emma is browsing a popular website when she runs across the story of a well-known actor who was recently pulled over for speeding and driving down the wrong side of the street. It turns out he had been drinking, and the arresting police officer found drugs in the car. The actor's publicist issued a statement claiming the actor was just tired and that the drugs belonged to someone else. Emma can't help having the impression that all public relations are ________ and occur only after something negative has occurred. (a) proactive (b) reactive (c) manipulative (d) manipulative\nA:",
+    "model_answer": "a",
+    "correct_answer": "b",
+    "processing_time": 17.021383047103882
+  },
+  {
+    "question": "Q: What is an act jure gestionis? (a) Acts jure gestionis are those undertaken by States in a private capacity (b) All purchases by the State are acts jure gestionis (c) All acts undertaken by State corporations are jure gestionis (d) All conduct undertaken by government officials in their free time is considered jus gestionis.\nA:",
+    "model_answer": "a",
+    "correct_answer": "a",
+    "processing_time": 985.4509193897247
+  },
+  {
+    "question": "Q: Nine bags of bird feed are in the storage room. Seventeen more bags will be delivered on Monday. Twenty-two bags will be delivered on Tuesday. Three bags will be delivered on Wednesday. Eleven bags will be delivered on Thursday. Lastly, eighteen bags will be delivered on Friday. By the end of the week, how many bags of bird feed will there be in total? (a) 9 (b) 25 (c) 60 (d) 80\nA:",
+    "model_answer": "a",
+    "correct_answer": "d",
+    "processing_time": 79.19304060935974
+  },
+  {
+    "question": "Q: Among these colors, the one that has the most energy per photon is (a) red (b) yellow-green (c) blue (d) violet\nA:",
+    "model_answer": "d",
+    "correct_answer": "d",
+    "processing_time": 163.50334191322327
+  },
+  {
+    "question": "Q: Which of the following will shift the supply curve for textbooks to the left? (a) A decrease in the demand for a substitute in production (b) A decrease in the number of buyers (c) An increase in printing costs (d) Expectations of future surpluses\nA:",
+    "model_answer": "a",
+    "correct_answer": "c",
+    "processing_time": 713.4285426139832
+  },
+  {
+    "question": "Q: Which of the following is an example of monosomy? (a) 46,XX (b) 47,XXX (c) 69,XYY (d) 45,X\nA:",
+    "model_answer": "d",
+    "correct_answer": "d",
+    "processing_time": 131.6089723110199
+  },
+  {
+    "question": "Q: A woman has a schizophrenic brother. According to research area, the probability thar she is or will become schizophrenic is about (a) 0.01 (b) 0.42 (c) 0.5 (d) 0.7\nA:",
+    "model_answer": "a",
+    "correct_answer": "b",
+    "processing_time": 888.6612372398376
+  },
+  {
+    "question": "Q: In which of the following situations involving a source of sound and a detector of the sound is it possible that there is NO perceived Doppler shift? (a) The source travels toward the stationary detector. (b) The detector travels toward the stationary source. (c) Both the source and detector travel in the same direction. (d) Both the source and detector travel in opposite directions, with the source and detector moving away from each other.\nA:",
+    "model_answer": "a",
+    "correct_answer": "c",
+    "processing_time": 255.4209213256836
+  }
+]

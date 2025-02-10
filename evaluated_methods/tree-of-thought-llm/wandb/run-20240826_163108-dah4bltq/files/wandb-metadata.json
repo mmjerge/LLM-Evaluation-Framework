@@ -1,0 +1,120 @@
+{
+    "os": "Linux-5.15.0-113-generic-x86_64-with-glibc2.35",
+    "python": "3.11.9",
+    "heartbeatAt": "2024-08-26T20:31:09.064898",
+    "startedAt": "2024-08-26T20:31:08.620121",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/p/llmreliability/test_repos/tree-of-thought-llm/run_mmlu_again.py",
+    "codePathLocal": "run_mmlu_again.py",
+    "codePath": "run_mmlu_again.py",
+    "git": {
+        "remote": "git@github.com:princeton-nlp/tree-of-thought-llm.git",
+        "commit": "ab400345c5ea39d28ea6d7d3be0e417b11113c87"
+    },
+    "email": "mj6ux@virginia.edu",
+    "root": "/p/llmreliability/test_repos/tree-of-thought-llm",
+    "host": "portal07",
+    "username": "mj6ux",
+    "executable": "/u/mj6ux/.conda/envs/tot_env/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2.0187500000000007,
+        "min": 800.0,
+        "max": 3200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2.1,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.1,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.1,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.1,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.1,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.1,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.1,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.1,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.1,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.1,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.1,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.1,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.1,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.1,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.1,
+            "min": 800.0,
+            "max": 3200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 913.7821273803711,
+            "used": 81.48081970214844
+        }
+    },
+    "memory": {
+        "total": 125.4587631225586
+    }
+}

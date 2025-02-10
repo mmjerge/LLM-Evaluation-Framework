@@ -1,0 +1,208 @@
+[
+    {
+        "question": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack How much do you have to pay to buy each pack?",
+        "model_response": "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\nThe next step in solving this problem is to write the calculation as a subtraction problem and perform the operation.\nThe next step in solving this problem is to perform the subtraction operation using the numbers given in the problem, which is:\n\n76 - 25 = 51\n\nSo the final answer is: #### [51]",
+        "extracted_answer": 51.0,
+        "correct_answer": 51.0,
+        "solve_info": {
+            "steps": [
+                {
+                    "step": 0,
+                    "x": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack How much do you have to pay to buy each pack?",
+                    "ys": [
+                        ""
+                    ],
+                    "new_ys": [
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\n",
+                        "\n",
+                        "Original price = $76\n",
+                        "Discount = $25\n",
+                        "\n",
+                        "So, the next step is to calculate:\n",
+                        "$76 - $25 = $51\n",
+                        "\n",
+                        "Therefore, the answer is:\n",
+                        "$51\n"
+                    ],
+                    "values": [
+                        0.5,
+                        0.0,
+                        0.375,
+                        0.375,
+                        0,
+                        0.375,
+                        0.375,
+                        0,
+                        0.25,
+                        0.375
+                    ],
+                    "select_new_ys": [
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\n"
+                    ]
+                },
+                {
+                    "step": 1,
+                    "x": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack How much do you have to pay to buy each pack?",
+                    "ys": [
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\n"
+                    ],
+                    "new_ys": [
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\n\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nSo, we subtract the discount from the original price of the pack of DVDs:\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\n76 (original price) - 25 (discount) = 51\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\n\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nTherefore, the next step is to determine that you have to pay 51 dollars to buy each pack.\n"
+                    ],
+                    "values": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.5,
+                        0,
+                        0.5
+                    ],
+                    "select_new_ys": [
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n"
+                    ]
+                },
+                {
+                    "step": 2,
+                    "x": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack How much do you have to pay to buy each pack?",
+                    "ys": [
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n"
+                    ],
+                    "new_ys": [
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \nThe next step is to perform the subtraction operation:\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \nTo do this, you would subtract 25 from 76.\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 - 20 = 56\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 - 5 = 71\n"
+                    ],
+                    "values": [
+                        0.5,
+                        0.5,
+                        0.75,
+                        0,
+                        0.5,
+                        0,
+                        0.25,
+                        0.25
+                    ],
+                    "select_new_ys": [
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\n"
+                    ]
+                },
+                {
+                    "step": 3,
+                    "x": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack How much do you have to pay to buy each pack?",
+                    "ys": [
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\n"
+                    ],
+                    "new_ys": [
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\nThe next step in solving this problem is to write the calculation as a subtraction problem and perform the operation.\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\n\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\n76 - 25 = 51\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\n\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\nThe final answer is: 51\n"
+                    ],
+                    "values": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0,
+                        0.375
+                    ],
+                    "select_new_ys": [
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\nThe next step in solving this problem is to write the calculation as a subtraction problem and perform the operation.\n"
+                    ]
+                },
+                {
+                    "step": 4,
+                    "x": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack How much do you have to pay to buy each pack?",
+                    "ys": [
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\nThe next step in solving this problem is to write the calculation as a subtraction problem and perform the operation.\n"
+                    ],
+                    "new_ys": [
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\nThe next step in solving this problem is to write the calculation as a subtraction problem and perform the operation.\nThe next step in solving this problem is to perform the subtraction operation using the numbers given in the problem, which is:\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\nThe next step in solving this problem is to write the calculation as a subtraction problem and perform the operation.\n\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\nThe next step in solving this problem is to write the calculation as a subtraction problem and perform the operation.\n76 (original price) - 25 (discount) = ?\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\nThe next step in solving this problem is to write the calculation as a subtraction problem and perform the operation.\n\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\nThe next step in solving this problem is to write the calculation as a subtraction problem and perform the operation.\nTo perform the subtraction, we need to calculate the difference between 76 and 25.\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\nThe next step in solving this problem is to write the calculation as a subtraction problem and perform the operation.\n\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\nThe next step in solving this problem is to write the calculation as a subtraction problem and perform the operation.\n76 - 25 = 51\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\nThe next step in solving this problem is to write the calculation as a subtraction problem and perform the operation.\n\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\nThe next step in solving this problem is to write the calculation as a subtraction problem and perform the operation.\nSo, the answer is:\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\nThe next step in solving this problem is to write the calculation as a subtraction problem and perform the operation.\n\n",
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\nThe next step in solving this problem is to write the calculation as a subtraction problem and perform the operation.\n51\n"
+                    ],
+                    "values": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0,
+                        0.5,
+                        0,
+                        0.5,
+                        0,
+                        0.5,
+                        0,
+                        0.375
+                    ],
+                    "select_new_ys": [
+                        "The next step is to subtract the discount from the original price of the pack of DVDs.\nThe next step is to perform the subtraction operation using the numbers given in the problem. \n76 (original price) - 25 (discount) = ?\nThe next step in solving this problem is to write the calculation as a subtraction problem and perform the operation.\nThe next step in solving this problem is to perform the subtraction operation using the numbers given in the problem, which is:\n\n76 - 25 = 51\n\nSo the final answer is: #### [51]"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "question": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack How much do you have to pay to buy each pack?",
+        "error": "cannot access local variable 'cost' where it is not associated with a value"
+    },
+    {
+        "question": "Dan had $ 3 left with him after he bought a candy bar. If he had $ 4 at the start How much did the candy bar cost?",
+        "model_response": "$4 (initial amount) - $3 (amount left) = $1 (cost of the candy bar)\n",
+        "extracted_answer": 1.0,
+        "correct_answer": 1.0,
+        "solve_info": {
+            "steps": [
+                {
+                    "step": 0,
+                    "x": "Dan had $ 3 left with him after he bought a candy bar. If he had $ 4 at the start How much did the candy bar cost?",
+                    "ys": [
+                        ""
+                    ],
+                    "new_ys": [
+                        "To find the cost of the candy bar, we need to subtract the amount Dan had left from the amount he had at the start. The next step is to calculate the difference:\n",
+                        "\n",
+                        "$4 (initial amount) - $3 (amount left) = $1 (cost of the candy bar)\n",
+                        "\n",
+                        "So, the next step is to perform the subtraction, which is:\n",
+                        "\n",
+                        "$4 - $3 = $1\n"
+                    ],
+                    "values": [
+                        0.5,
+                        0.125,
+                        1.0,
+                        0,
+                        0.25,
+                        0,
+                        0.5
+                    ],
+                    "select_new_ys": [
+                        "$4 (initial amount) - $3 (amount left) = $1 (cost of the candy bar)\n"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "question": "Dan had $ 3 left with him after he bought a candy bar. If he had $ 4 at the start How much did the candy bar cost?",
+        "error": "cannot access local variable 'cost' where it is not associated with a value"
+    }
+]
