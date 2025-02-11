@@ -1,1 +1,40 @@
 
+name: llm-eval-framework
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.8
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - polars
+  - matplotlib
+  - seaborn
+  - plotly
+  - jupyter
+  - jupyterlab
+  - ipywidgets
+  - tqdm
+  - pytest
+  - black
+  - flake8
+  - isort
+  - mypy
+  - pip:
+    - transformers
+    - datasets
+    - tensorboard
+    - wandb
+    - streamlit
+    - opencv-python
+    - albumentations
+    - timm
+    - accelerate
