@@ -1,0 +1,88 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?",
+          "options": [
+            "A)20%",
+            "B)28%",
+            "C)36%",
+            "D)40%",
+            "E)42%"
+          ],
+          "rationale": "wholesale cost = 100;\noriginal price = 100*1.6 = 160;\nactual price = 160*0.8 = 128.\nAnswer: B.",
+          "correct": "B"
+        },
+        "current": "Let's take the wholesale cost of the appliance to be \\( W \\).\n\nAccording to the problem, the original retail price was 60 percent more than the wholesale cost.\nSo, the original retail price \\( R \\) can be expressed as:\n\\[ R = W + 0.6W = 1.6W \\]\n\nThe appliance was sold for 20 percent less than the original retail price.\nSo, the selling price \\( S \\) can be expressed as:\n\\[ S = R - 0.2R = 0.8R \\]\nSubstitute \\( R \\) with \\( 1.6W \\):\n\\[ S = 0.8 \\times 1.6W = 1.28W \\]\n\nNow, we need to find the selling price as a percent more than the wholesale cost.\nThe percent increase over the wholesale cost \\( W \\) is given by:\n\\[ \\frac{S - W}{W} \\times 100\\% \\]\n\nSubstitute \\( S \\) with \\( 1.28W \\):\n\\[ \\frac{1.28W - W}{W} \\times 100\\% \\]\n\\[ \\frac{0.28W}{W} \\times 100\\% \\]\n\\[ 0.28 \\times 100\\% \\]\n\\[ 28\\% \\]\n\nAnswer: B) 28%",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?",
+          "options": [
+            "A)20%",
+            "B)28%",
+            "C)36%",
+            "D)40%",
+            "E)42%"
+          ],
+          "rationale": "wholesale cost = 100;\noriginal price = 100*1.6 = 160;\nactual price = 160*0.8 = 128.\nAnswer: B.",
+          "correct": "B"
+        },
+        "current": "Let's take the wholesale cost of the appliance to be \\( W \\).\n\nAccording to the problem, the original retail price was 60 percent more than the wholesale cost.\nSo, the original retail price \\( R \\) can be expressed as:\n\\[ R = W + 0.6W = 1.6W \\]\n\nThe appliance was sold for 20 percent less than the original retail price.\nSo, the selling price \\( S \\) can be expressed as:\n\\[ S = R - 0.2R = 0.8R \\]\nSubstitute \\( R \\) with \\( 1.6W \\):\n\\[ S = 0.8 \\times 1.6W = 1.28W \\]\n\nNow, we need to find the selling price as a percent more than the wholesale cost.\nThe percent increase over the wholesale cost \\( W \\) is given by:\n\\[ \\frac{S - W}{W} \\times 100\\% \\]\n\nSubstitute \\( S \\) with \\( 1.28W \\):\n\\[ \\frac{1.28W - W}{W} \\times 100\\% \\]\n\\[ \\frac{0.28W}{W} \\times 100\\% \\]\n\\[ 0.28 \\times 100\\% \\]\n\\[ 28\\% \\]\n\nAnswer: B) 28%",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "B"
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?",
+          "options": [
+            "A)20%",
+            "B)28%",
+            "C)36%",
+            "D)40%",
+            "E)42%"
+          ],
+          "rationale": "wholesale cost = 100;\noriginal price = 100*1.6 = 160;\nactual price = 160*0.8 = 128.\nAnswer: B.",
+          "correct": "B"
+        },
+        "current": "Let's take the wholesale cost of the appliance to be \\( W \\).\n\nAccording to the problem, the original retail price was 60 percent more than the wholesale cost.\nSo, the original retail price \\( R \\) can be expressed as:\n\\[ R = W + 0.6W = 1.6W \\]\n\nThe appliance was sold for 20 percent less than the original retail price.\nSo, the selling price \\( S \\) can be expressed as:\n\\[ S = R - 0.2R = 0.8R \\]\nSubstitute \\( R \\) with \\( 1.6W \\):\n\\[ S = 0.8 \\times 1.6W = 1.28W \\]\n\nNow, we need to find the selling price as a percent more than the wholesale cost.\nThe percent increase over the wholesale cost \\( W \\) is given by:\n\\[ \\frac{S - W}{W} \\times 100\\% \\]\n\nSubstitute \\( S \\) with \\( 1.28W \\):\n\\[ \\frac{1.28W - W}{W} \\times 100\\% \\]\n\\[ \\frac{0.28W}{W} \\times 100\\% \\]\n\\[ 0.28 \\times 100\\% \\]\n\\[ 28\\% \\]\n\nAnswer: B) 28%",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "B"
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 122,
+    "completion_tokens": 283,
+    "cost": 0.02064
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years",
+          "options": [
+            "A)750",
+            "B)700",
+            "C)620",
+            "D)600",
+            "E)None of these"
+          ],
+          "rationale": "We need to calculate the total amount to be paid by him after 4 years, so it will be Principal + simple interest.\nSo,\n=>500+500\u22176\u22174 /100=>Rs.620\nOption C",
+          "correct": "C"
+        },
+        "current": "<Step 1> Calculate the interest amount for 4 years at 6% per annum on Rs. 500.\n\nInterest = (Principal * Rate * Time) / 100\nInterest = (500 * 6 * 4) / 100\nInterest = 120\n\n<Step 2> Add the interest amount to the principal amount to find the total amount to be paid.\n\nTotal amount = Principal + Interest\nTotal amount = 500 + 120\nTotal amount = Rs. 620\n\n<Step 3> Compare the total amount with the given options.\n\nAnswer: C) 620",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years",
+          "options": [
+            "A)750",
+            "B)700",
+            "C)620",
+            "D)600",
+            "E)None of these"
+          ],
+          "rationale": "We need to calculate the total amount to be paid by him after 4 years, so it will be Principal + simple interest.\nSo,\n=>500+500\u22176\u22174 /100=>Rs.620\nOption C",
+          "correct": "C"
+        },
+        "current": "<Step 1> Calculate the interest amount for 4 years at 6% per annum on Rs. 500.\n\nInterest = (Principal * Rate * Time) / 100\nInterest = (500 * 6 * 4) / 100\nInterest = 120\n\n<Step 2> Add the interest amount to the principal amount to find the total amount to be paid.\n\nTotal amount = Principal + Interest\nTotal amount = 500 + 120\nTotal amount = Rs. 620\n\n<Step 3> Compare the total amount with the given options.\n\nAnswer: C) 620",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years",
+          "options": [
+            "A)750",
+            "B)700",
+            "C)620",
+            "D)600",
+            "E)None of these"
+          ],
+          "rationale": "We need to calculate the total amount to be paid by him after 4 years, so it will be Principal + simple interest.\nSo,\n=>500+500\u22176\u22174 /100=>Rs.620\nOption C",
+          "correct": "C"
+        },
+        "current": "<Step 1> Calculate the interest amount for 4 years at 6% per annum on Rs. 500.\n\nInterest = (Principal * Rate * Time) / 100\nInterest = (500 * 6 * 4) / 100\nInterest = 120\n\n<Step 2> Add the interest amount to the principal amount to find the total amount to be paid.\n\nTotal amount = Principal + Interest\nTotal amount = 500 + 120\nTotal amount = Rs. 620\n\n<Step 3> Compare the total amount with the given options.\n\nAnswer: C) 620",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years",
+          "options": [
+            "A)750",
+            "B)700",
+            "C)620",
+            "D)600",
+            "E)None of these"
+          ],
+          "rationale": "We need to calculate the total amount to be paid by him after 4 years, so it will be Principal + simple interest.\nSo,\n=>500+500\u22176\u22174 /100=>Rs.620\nOption C",
+          "correct": "C"
+        },
+        "current": "<Step 1> Calculate the interest amount for 4 years at 6% per annum on Rs. 500.\n\nInterest = (Principal * Rate * Time) / 100\nInterest = (500 * 6 * 4) / 100\nInterest = 120\n\n<Step 2> Add the interest amount to the principal amount to find the total amount to be paid.\n\nTotal amount = Principal + Interest\nTotal amount = 500 + 120\nTotal amount = Rs. 620\n\n<Step 3> Compare the total amount with the given options.\n\nAnswer: C) 620",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years",
+          "options": [
+            "A)750",
+            "B)700",
+            "C)620",
+            "D)600",
+            "E)None of these"
+          ],
+          "rationale": "We need to calculate the total amount to be paid by him after 4 years, so it will be Principal + simple interest.\nSo,\n=>500+500\u22176\u22174 /100=>Rs.620\nOption C",
+          "correct": "C"
+        },
+        "current": "<Step 1> Calculate the interest amount for 4 years at 6% per annum on Rs. 500.\n\nInterest = (Principal * Rate * Time) / 100\nInterest = (500 * 6 * 4) / 100\nInterest = 120\n\n<Step 2> Add the interest amount to the principal amount to find the total amount to be paid.\n\nTotal amount = Principal + Interest\nTotal amount = 500 + 120\nTotal amount = Rs. 620\n\n<Step 3> Compare the total amount with the given options.\n\nAnswer: C) 620",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 106,
+    "completion_tokens": 124,
+    "cost": 0.000407
+  }
+]

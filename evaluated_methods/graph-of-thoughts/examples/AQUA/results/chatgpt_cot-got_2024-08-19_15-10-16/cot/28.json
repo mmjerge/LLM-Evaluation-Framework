@@ -1,0 +1,88 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "A jeep travels a certain distance taking 6 hours in the forward journey. During the return journey, it increased its speed by 12km/hr and took 4 hours. What is the distance travelled by the jeep?",
+          "options": [
+            "A)126km",
+            "B)144km",
+            "C)127km",
+            "D)228km",
+            "E)128km"
+          ],
+          "rationale": "Let 'x' be the distance and 'y' be the speed of the forward journey. Then, we have 6v=d and 4(v+12)=d\n=> v=d/6 and v=d/4 - 12\n=> d/6 = d/4 - 12\n=> d/12 = 12\n=> d=144\nAnswer: B",
+          "correct": "B"
+        },
+        "current": "Given information:\nLet the initial speed of the jeep be x km/hr.\nLet the distance traveled be D km.\n\nStep 1: Calculate the time taken for the forward journey.\nTime = Distance / Speed\n6 = D / x\n\nStep 2: Calculate the time taken for the return journey.\n4 = D / (x + 12)\n\nStep 3: Solve the equations simultaneously to find the distance traveled.\nFrom the first equation: D = 6x\nSubstitute D = 6x into the second equation:\n4 = 6x / (x + 12)\n4(x + 12) = 6x\n4x + 48 = 6x\n48 = 2x\nx = 24\n\nStep 4: Calculate the distance using x = 24\nD = 6*24\nD = 144\n\nAnswer: B) 144km",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "question": "A jeep travels a certain distance taking 6 hours in the forward journey. During the return journey, it increased its speed by 12km/hr and took 4 hours. What is the distance travelled by the jeep?",
+          "options": [
+            "A)126km",
+            "B)144km",
+            "C)127km",
+            "D)228km",
+            "E)128km"
+          ],
+          "rationale": "Let 'x' be the distance and 'y' be the speed of the forward journey. Then, we have 6v=d and 4(v+12)=d\n=> v=d/6 and v=d/4 - 12\n=> d/6 = d/4 - 12\n=> d/12 = 12\n=> d=144\nAnswer: B",
+          "correct": "B"
+        },
+        "current": "Given information:\nLet the initial speed of the jeep be x km/hr.\nLet the distance traveled be D km.\n\nStep 1: Calculate the time taken for the forward journey.\nTime = Distance / Speed\n6 = D / x\n\nStep 2: Calculate the time taken for the return journey.\n4 = D / (x + 12)\n\nStep 3: Solve the equations simultaneously to find the distance traveled.\nFrom the first equation: D = 6x\nSubstitute D = 6x into the second equation:\n4 = 6x / (x + 12)\n4(x + 12) = 6x\n4x + 48 = 6x\n48 = 2x\nx = 24\n\nStep 4: Calculate the distance using x = 24\nD = 6*24\nD = 144\n\nAnswer: B) 144km",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "B"
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "A jeep travels a certain distance taking 6 hours in the forward journey. During the return journey, it increased its speed by 12km/hr and took 4 hours. What is the distance travelled by the jeep?",
+          "options": [
+            "A)126km",
+            "B)144km",
+            "C)127km",
+            "D)228km",
+            "E)128km"
+          ],
+          "rationale": "Let 'x' be the distance and 'y' be the speed of the forward journey. Then, we have 6v=d and 4(v+12)=d\n=> v=d/6 and v=d/4 - 12\n=> d/6 = d/4 - 12\n=> d/12 = 12\n=> d=144\nAnswer: B",
+          "correct": "B"
+        },
+        "current": "Given information:\nLet the initial speed of the jeep be x km/hr.\nLet the distance traveled be D km.\n\nStep 1: Calculate the time taken for the forward journey.\nTime = Distance / Speed\n6 = D / x\n\nStep 2: Calculate the time taken for the return journey.\n4 = D / (x + 12)\n\nStep 3: Solve the equations simultaneously to find the distance traveled.\nFrom the first equation: D = 6x\nSubstitute D = 6x into the second equation:\n4 = 6x / (x + 12)\n4(x + 12) = 6x\n4x + 48 = 6x\n48 = 2x\nx = 24\n\nStep 4: Calculate the distance using x = 24\nD = 6*24\nD = 144\n\nAnswer: B) 144km",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "B"
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 123,
+    "completion_tokens": 184,
+    "cost": 0.0005525
+  }
+]

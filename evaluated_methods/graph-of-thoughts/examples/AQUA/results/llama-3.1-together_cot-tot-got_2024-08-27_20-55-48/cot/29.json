@@ -1,0 +1,88 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "When I was 2 years old, my brother was half my age. Now I am 60 years old, how old is my brother?",
+          "options": [
+            "A)A)59",
+            "B)B)69",
+            "C)C)79",
+            "D)D)89",
+            "E)E)99"
+          ],
+          "rationale": "Half of 2 is 1. =>2+58=60-> 1+58=59\nAnswer A",
+          "correct": "A"
+        },
+        "current": "To solve this problem, we need to find the age of the brother when the narrator was 2 years old, and then find the brother's current age.\n\nStep 1: When the narrator was 2 years old, the brother was half the narrator's age. So, the brother's age at that time was 2 / 2 = 1 year.\n\nStep 2: Now, the narrator is 60 years old. To find the brother's current age, we need to find the difference between the narrator's current age and the brother's age when the narrator was 2 years old. The brother's age when the narrator was 2 years old was 1 year. So, the brother's current age is 60 - 1 = 59 years.\n\nTherefore, the brother's current age is 59 years.\n\nAnswer: A)59",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "question": "When I was 2 years old, my brother was half my age. Now I am 60 years old, how old is my brother?",
+          "options": [
+            "A)A)59",
+            "B)B)69",
+            "C)C)79",
+            "D)D)89",
+            "E)E)99"
+          ],
+          "rationale": "Half of 2 is 1. =>2+58=60-> 1+58=59\nAnswer A",
+          "correct": "A"
+        },
+        "current": "To solve this problem, we need to find the age of the brother when the narrator was 2 years old, and then find the brother's current age.\n\nStep 1: When the narrator was 2 years old, the brother was half the narrator's age. So, the brother's age at that time was 2 / 2 = 1 year.\n\nStep 2: Now, the narrator is 60 years old. To find the brother's current age, we need to find the difference between the narrator's current age and the brother's age when the narrator was 2 years old. The brother's age when the narrator was 2 years old was 1 year. So, the brother's current age is 60 - 1 = 59 years.\n\nTherefore, the brother's current age is 59 years.\n\nAnswer: A)59",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "A"
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "When I was 2 years old, my brother was half my age. Now I am 60 years old, how old is my brother?",
+          "options": [
+            "A)A)59",
+            "B)B)69",
+            "C)C)79",
+            "D)D)89",
+            "E)E)99"
+          ],
+          "rationale": "Half of 2 is 1. =>2+58=60-> 1+58=59\nAnswer A",
+          "correct": "A"
+        },
+        "current": "To solve this problem, we need to find the age of the brother when the narrator was 2 years old, and then find the brother's current age.\n\nStep 1: When the narrator was 2 years old, the brother was half the narrator's age. So, the brother's age at that time was 2 / 2 = 1 year.\n\nStep 2: Now, the narrator is 60 years old. To find the brother's current age, we need to find the difference between the narrator's current age and the brother's age when the narrator was 2 years old. The brother's age when the narrator was 2 years old was 1 year. So, the brother's current age is 60 - 1 = 59 years.\n\nTherefore, the brother's current age is 59 years.\n\nAnswer: A)59",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "A"
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

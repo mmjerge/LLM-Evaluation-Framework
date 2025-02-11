@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?",
+          "options": [
+            "A)226",
+            "B)230",
+            "C)240",
+            "D)260",
+            "E)280"
+          ],
+          "rationale": "450*12(x-110)=626400\nwhere x is a selling cost of one item\nx-110, is a profit from one item\n450 - number of items produced and sold per month\n12 - is a number of month in a year\nSimplifying the equation will lead to x-110=116, then x = 230\nB",
+          "correct": "B"
+        },
+        "current": "Given:\n- Production cost per unit = $110\n- Number of units produced per month = 420\n- Yearly profit required = $626,400\n\nStep 1: Find the total monthly production cost\nTotal monthly production cost = Production cost per unit * Number of units produced per month\nTotal monthly production cost = $110 * 420\nTotal monthly production cost = $46,200\n\nStep 2: Find the total yearly production cost\nTotal yearly production cost = Total monthly production cost * 12\nTotal yearly production cost = $46,200 * 12\nTotal yearly production cost = $554,400\n\nStep 3: Calculate the minimum total revenue needed to achieve a profit of $626,400\nMinimum total revenue = Total yearly production cost + Required profit\nMinimum total revenue = $554,400 + $626,400\nMinimum total revenue = $1,180,800\n\nStep 4: Calculate the minimum selling price per component to achieve the minimum total revenue\nMinimum selling price per unit = Minimum total revenue / Number of units produced per year\nMinimum selling price per unit = $1,180,800 / (420 * 12)\nMinimum selling price per unit = $1,180,800 / 5040\nMinimum selling price per unit = $234.52\n\nAnswer: $240 (Option C)",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?",
+          "options": [
+            "A)226",
+            "B)230",
+            "C)240",
+            "D)260",
+            "E)280"
+          ],
+          "rationale": "450*12(x-110)=626400\nwhere x is a selling cost of one item\nx-110, is a profit from one item\n450 - number of items produced and sold per month\n12 - is a number of month in a year\nSimplifying the equation will lead to x-110=116, then x = 230\nB",
+          "correct": "B"
+        },
+        "current": "Given:\n- Production cost per unit = $110\n- Number of units produced per month = 420\n- Yearly profit required = $626,400\n\nStep 1: Find the total monthly production cost\nTotal monthly production cost = Production cost per unit * Number of units produced per month\nTotal monthly production cost = $110 * 420\nTotal monthly production cost = $46,200\n\nStep 2: Find the total yearly production cost\nTotal yearly production cost = Total monthly production cost * 12\nTotal yearly production cost = $46,200 * 12\nTotal yearly production cost = $554,400\n\nStep 3: Calculate the minimum total revenue needed to achieve a profit of $626,400\nMinimum total revenue = Total yearly production cost + Required profit\nMinimum total revenue = $554,400 + $626,400\nMinimum total revenue = $1,180,800\n\nStep 4: Calculate the minimum selling price per component to achieve the minimum total revenue\nMinimum selling price per unit = Minimum total revenue / Number of units produced per year\nMinimum selling price per unit = $1,180,800 / (420 * 12)\nMinimum selling price per unit = $1,180,800 / 5040\nMinimum selling price per unit = $234.52\n\nAnswer: $240 (Option C)",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?",
+          "options": [
+            "A)226",
+            "B)230",
+            "C)240",
+            "D)260",
+            "E)280"
+          ],
+          "rationale": "450*12(x-110)=626400\nwhere x is a selling cost of one item\nx-110, is a profit from one item\n450 - number of items produced and sold per month\n12 - is a number of month in a year\nSimplifying the equation will lead to x-110=116, then x = 230\nB",
+          "correct": "B"
+        },
+        "current": "Given:\n- Production cost per unit = $110\n- Number of units produced per month = 420\n- Yearly profit required = $626,400\n\nStep 1: Find the total monthly production cost\nTotal monthly production cost = Production cost per unit * Number of units produced per month\nTotal monthly production cost = $110 * 420\nTotal monthly production cost = $46,200\n\nStep 2: Find the total yearly production cost\nTotal yearly production cost = Total monthly production cost * 12\nTotal yearly production cost = $46,200 * 12\nTotal yearly production cost = $554,400\n\nStep 3: Calculate the minimum total revenue needed to achieve a profit of $626,400\nMinimum total revenue = Total yearly production cost + Required profit\nMinimum total revenue = $554,400 + $626,400\nMinimum total revenue = $1,180,800\n\nStep 4: Calculate the minimum selling price per component to achieve the minimum total revenue\nMinimum selling price per unit = Minimum total revenue / Number of units produced per year\nMinimum selling price per unit = $1,180,800 / (420 * 12)\nMinimum selling price per unit = $1,180,800 / 5040\nMinimum selling price per unit = $234.52\n\nAnswer: $240 (Option C)",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?",
+          "options": [
+            "A)226",
+            "B)230",
+            "C)240",
+            "D)260",
+            "E)280"
+          ],
+          "rationale": "450*12(x-110)=626400\nwhere x is a selling cost of one item\nx-110, is a profit from one item\n450 - number of items produced and sold per month\n12 - is a number of month in a year\nSimplifying the equation will lead to x-110=116, then x = 230\nB",
+          "correct": "B"
+        },
+        "current": "Given:\n- Production cost per unit = $110\n- Number of units produced per month = 420\n- Yearly profit required = $626,400\n\nStep 1: Find the total monthly production cost\nTotal monthly production cost = Production cost per unit * Number of units produced per month\nTotal monthly production cost = $110 * 420\nTotal monthly production cost = $46,200\n\nStep 2: Find the total yearly production cost\nTotal yearly production cost = Total monthly production cost * 12\nTotal yearly production cost = $46,200 * 12\nTotal yearly production cost = $554,400\n\nStep 3: Calculate the minimum total revenue needed to achieve a profit of $626,400\nMinimum total revenue = Total yearly production cost + Required profit\nMinimum total revenue = $554,400 + $626,400\nMinimum total revenue = $1,180,800\n\nStep 4: Calculate the minimum selling price per component to achieve the minimum total revenue\nMinimum selling price per unit = Minimum total revenue / Number of units produced per year\nMinimum selling price per unit = $1,180,800 / (420 * 12)\nMinimum selling price per unit = $1,180,800 / 5040\nMinimum selling price per unit = $234.52\n\nAnswer: $240 (Option C)",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?",
+          "options": [
+            "A)226",
+            "B)230",
+            "C)240",
+            "D)260",
+            "E)280"
+          ],
+          "rationale": "450*12(x-110)=626400\nwhere x is a selling cost of one item\nx-110, is a profit from one item\n450 - number of items produced and sold per month\n12 - is a number of month in a year\nSimplifying the equation will lead to x-110=116, then x = 230\nB",
+          "correct": "B"
+        },
+        "current": "Given:\n- Production cost per unit = $110\n- Number of units produced per month = 420\n- Yearly profit required = $626,400\n\nStep 1: Find the total monthly production cost\nTotal monthly production cost = Production cost per unit * Number of units produced per month\nTotal monthly production cost = $110 * 420\nTotal monthly production cost = $46,200\n\nStep 2: Find the total yearly production cost\nTotal yearly production cost = Total monthly production cost * 12\nTotal yearly production cost = $46,200 * 12\nTotal yearly production cost = $554,400\n\nStep 3: Calculate the minimum total revenue needed to achieve a profit of $626,400\nMinimum total revenue = Total yearly production cost + Required profit\nMinimum total revenue = $554,400 + $626,400\nMinimum total revenue = $1,180,800\n\nStep 4: Calculate the minimum selling price per component to achieve the minimum total revenue\nMinimum selling price per unit = Minimum total revenue / Number of units produced per year\nMinimum selling price per unit = $1,180,800 / (420 * 12)\nMinimum selling price per unit = $1,180,800 / 5040\nMinimum selling price per unit = $234.52\n\nAnswer: $240 (Option C)",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "prompt_tokens": 147,
+    "completion_tokens": 276,
+    "cost": 0.0007725000000000001
+  }
+]

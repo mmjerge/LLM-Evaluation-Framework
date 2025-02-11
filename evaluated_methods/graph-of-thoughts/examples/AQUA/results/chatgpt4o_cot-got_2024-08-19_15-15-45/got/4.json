@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "A trader sold an article at a profit of 20% for Rs.360. What is the cost price of the article?",
+          "options": [
+            "A)270",
+            "B)300",
+            "C)280",
+            "D)320",
+            "E)315"
+          ],
+          "rationale": "Cost Price = Selling Price / (100+Profit%) \u00d7 100 => 360 / (100+20) \u00d7 100 => 360 / 120 \u00d7 100 = Rs.300\nOption B",
+          "correct": "B"
+        },
+        "current": "To solve this problem, we need to determine the cost price of the article, given that the trader sold it at a profit of 20% for Rs.360. Here are the steps:\n\n1. **Understand the relationship between cost price (CP) and selling price (SP) given a profit percentage:**\n   \\[\n   SP = CP + (Profit \\% \\times CP)\n   \\]\n   Given that the profit is 20%, we can rewrite this as:\n   \\[\n   SP = CP + (0.20 \\times CP)\n   \\]\n   Simplifying the equation, we get:\n   \\[\n   SP = 1.20 \\times CP\n   \\]\n2. **Substitute the given selling price (SP) into the equation:**\n   \\[\n   360 = 1.20 \\times CP\n   \\]\n3. **Solve for the cost price (CP):**\n   To isolate CP, divide both sides of the equation by 1.20:\n   \\[\n   CP = \\frac{360}{1.20}\n   \\]\n4. **Perform the division:**\n   \\[\n   CP = 300\n   \\]\n5. **Verify the calculation:**\n   \\[\n   300 \\times 1.20 = 360\n   \\]\n   The calculation checks out.\n\nTherefore, the cost price of the article is Rs.300. Checking the given options, we find that option B matches the calculated cost price.\n\nAnswer: B (300)",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "A trader sold an article at a profit of 20% for Rs.360. What is the cost price of the article?",
+          "options": [
+            "A)270",
+            "B)300",
+            "C)280",
+            "D)320",
+            "E)315"
+          ],
+          "rationale": "Cost Price = Selling Price / (100+Profit%) \u00d7 100 => 360 / (100+20) \u00d7 100 => 360 / 120 \u00d7 100 = Rs.300\nOption B",
+          "correct": "B"
+        },
+        "current": "To solve this problem, we need to determine the cost price of the article, given that the trader sold it at a profit of 20% for Rs.360. Here are the steps:\n\n1. **Understand the relationship between cost price (CP) and selling price (SP) given a profit percentage:**\n   \\[\n   SP = CP + (Profit \\% \\times CP)\n   \\]\n   Given that the profit is 20%, we can rewrite this as:\n   \\[\n   SP = CP + (0.20 \\times CP)\n   \\]\n   Simplifying the equation, we get:\n   \\[\n   SP = 1.20 \\times CP\n   \\]\n2. **Substitute the given selling price (SP) into the equation:**\n   \\[\n   360 = 1.20 \\times CP\n   \\]\n3. **Solve for the cost price (CP):**\n   To isolate CP, divide both sides of the equation by 1.20:\n   \\[\n   CP = \\frac{360}{1.20}\n   \\]\n4. **Perform the division:**\n   \\[\n   CP = 300\n   \\]\n5. **Verify the calculation:**\n   \\[\n   300 \\times 1.20 = 360\n   \\]\n   The calculation checks out.\n\nTherefore, the cost price of the article is Rs.300. Checking the given options, we find that option B matches the calculated cost price.\n\nAnswer: B (300)",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A trader sold an article at a profit of 20% for Rs.360. What is the cost price of the article?",
+          "options": [
+            "A)270",
+            "B)300",
+            "C)280",
+            "D)320",
+            "E)315"
+          ],
+          "rationale": "Cost Price = Selling Price / (100+Profit%) \u00d7 100 => 360 / (100+20) \u00d7 100 => 360 / 120 \u00d7 100 = Rs.300\nOption B",
+          "correct": "B"
+        },
+        "current": "To solve this problem, we need to determine the cost price of the article, given that the trader sold it at a profit of 20% for Rs.360. Here are the steps:\n\n1. **Understand the relationship between cost price (CP) and selling price (SP) given a profit percentage:**\n   \\[\n   SP = CP + (Profit \\% \\times CP)\n   \\]\n   Given that the profit is 20%, we can rewrite this as:\n   \\[\n   SP = CP + (0.20 \\times CP)\n   \\]\n   Simplifying the equation, we get:\n   \\[\n   SP = 1.20 \\times CP\n   \\]\n2. **Substitute the given selling price (SP) into the equation:**\n   \\[\n   360 = 1.20 \\times CP\n   \\]\n3. **Solve for the cost price (CP):**\n   To isolate CP, divide both sides of the equation by 1.20:\n   \\[\n   CP = \\frac{360}{1.20}\n   \\]\n4. **Perform the division:**\n   \\[\n   CP = 300\n   \\]\n5. **Verify the calculation:**\n   \\[\n   300 \\times 1.20 = 360\n   \\]\n   The calculation checks out.\n\nTherefore, the cost price of the article is Rs.300. Checking the given options, we find that option B matches the calculated cost price.\n\nAnswer: B (300)",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A trader sold an article at a profit of 20% for Rs.360. What is the cost price of the article?",
+          "options": [
+            "A)270",
+            "B)300",
+            "C)280",
+            "D)320",
+            "E)315"
+          ],
+          "rationale": "Cost Price = Selling Price / (100+Profit%) \u00d7 100 => 360 / (100+20) \u00d7 100 => 360 / 120 \u00d7 100 = Rs.300\nOption B",
+          "correct": "B"
+        },
+        "current": "To solve this problem, we need to determine the cost price of the article, given that the trader sold it at a profit of 20% for Rs.360. Here are the steps:\n\n1. **Understand the relationship between cost price (CP) and selling price (SP) given a profit percentage:**\n   \\[\n   SP = CP + (Profit \\% \\times CP)\n   \\]\n   Given that the profit is 20%, we can rewrite this as:\n   \\[\n   SP = CP + (0.20 \\times CP)\n   \\]\n   Simplifying the equation, we get:\n   \\[\n   SP = 1.20 \\times CP\n   \\]\n2. **Substitute the given selling price (SP) into the equation:**\n   \\[\n   360 = 1.20 \\times CP\n   \\]\n3. **Solve for the cost price (CP):**\n   To isolate CP, divide both sides of the equation by 1.20:\n   \\[\n   CP = \\frac{360}{1.20}\n   \\]\n4. **Perform the division:**\n   \\[\n   CP = 300\n   \\]\n5. **Verify the calculation:**\n   \\[\n   300 \\times 1.20 = 360\n   \\]\n   The calculation checks out.\n\nTherefore, the cost price of the article is Rs.300. Checking the given options, we find that option B matches the calculated cost price.\n\nAnswer: B (300)",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A trader sold an article at a profit of 20% for Rs.360. What is the cost price of the article?",
+          "options": [
+            "A)270",
+            "B)300",
+            "C)280",
+            "D)320",
+            "E)315"
+          ],
+          "rationale": "Cost Price = Selling Price / (100+Profit%) \u00d7 100 => 360 / (100+20) \u00d7 100 => 360 / 120 \u00d7 100 = Rs.300\nOption B",
+          "correct": "B"
+        },
+        "current": "To solve this problem, we need to determine the cost price of the article, given that the trader sold it at a profit of 20% for Rs.360. Here are the steps:\n\n1. **Understand the relationship between cost price (CP) and selling price (SP) given a profit percentage:**\n   \\[\n   SP = CP + (Profit \\% \\times CP)\n   \\]\n   Given that the profit is 20%, we can rewrite this as:\n   \\[\n   SP = CP + (0.20 \\times CP)\n   \\]\n   Simplifying the equation, we get:\n   \\[\n   SP = 1.20 \\times CP\n   \\]\n2. **Substitute the given selling price (SP) into the equation:**\n   \\[\n   360 = 1.20 \\times CP\n   \\]\n3. **Solve for the cost price (CP):**\n   To isolate CP, divide both sides of the equation by 1.20:\n   \\[\n   CP = \\frac{360}{1.20}\n   \\]\n4. **Perform the division:**\n   \\[\n   CP = 300\n   \\]\n5. **Verify the calculation:**\n   \\[\n   300 \\times 1.20 = 360\n   \\]\n   The calculation checks out.\n\nTherefore, the cost price of the article is Rs.300. Checking the given options, we find that option B matches the calculated cost price.\n\nAnswer: B (300)",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 101,
+    "completion_tokens": 312,
+    "cost": 0.021750000000000002
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "On a normal day Bill usually averages about 15 mph when riding his bicycle. On a windy day, his speed is reduced by 4 mph. How far can Bill travel on a windy day in 21 minutes? Round to the nearest hundredth.",
+          "options": [
+            "A)2 miles",
+            "B)2.25 miles",
+            "C)3.25 miles",
+            "D)3.85 miles",
+            "E)2.85 miles"
+          ],
+          "rationale": "15 mph - 4 mph= 11 mph\n11 mph x (21/60)= 3.85 miles\nAnswer D",
+          "correct": "D"
+        },
+        "current": "Given:\n- Bill usually averages 15 mph on a normal day\n- On a windy day, his speed is reduced by 4 mph\n\nStep 1: Convert 21 minutes to hours\n21 minutes = 21/60 hours = 0.35 hours\n\nStep 2: Calculate the speed on a windy day\nSpeed on a windy day = 15 mph - 4 mph = 11 mph\n\nStep 3: Calculate the distance Bill can travel on a windy day in 0.35 hours\nDistance = Speed x Time\nDistance = 11 mph x 0.35 hours\nDistance = 3.85 miles\n\nAnswer: D) 3.85 miles",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "On a normal day Bill usually averages about 15 mph when riding his bicycle. On a windy day, his speed is reduced by 4 mph. How far can Bill travel on a windy day in 21 minutes? Round to the nearest hundredth.",
+          "options": [
+            "A)2 miles",
+            "B)2.25 miles",
+            "C)3.25 miles",
+            "D)3.85 miles",
+            "E)2.85 miles"
+          ],
+          "rationale": "15 mph - 4 mph= 11 mph\n11 mph x (21/60)= 3.85 miles\nAnswer D",
+          "correct": "D"
+        },
+        "current": "Given:\n- Bill usually averages 15 mph on a normal day\n- On a windy day, his speed is reduced by 4 mph\n\nStep 1: Convert 21 minutes to hours\n21 minutes = 21/60 hours = 0.35 hours\n\nStep 2: Calculate the speed on a windy day\nSpeed on a windy day = 15 mph - 4 mph = 11 mph\n\nStep 3: Calculate the distance Bill can travel on a windy day in 0.35 hours\nDistance = Speed x Time\nDistance = 11 mph x 0.35 hours\nDistance = 3.85 miles\n\nAnswer: D) 3.85 miles",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "On a normal day Bill usually averages about 15 mph when riding his bicycle. On a windy day, his speed is reduced by 4 mph. How far can Bill travel on a windy day in 21 minutes? Round to the nearest hundredth.",
+          "options": [
+            "A)2 miles",
+            "B)2.25 miles",
+            "C)3.25 miles",
+            "D)3.85 miles",
+            "E)2.85 miles"
+          ],
+          "rationale": "15 mph - 4 mph= 11 mph\n11 mph x (21/60)= 3.85 miles\nAnswer D",
+          "correct": "D"
+        },
+        "current": "Given:\n- Bill usually averages 15 mph on a normal day\n- On a windy day, his speed is reduced by 4 mph\n\nStep 1: Convert 21 minutes to hours\n21 minutes = 21/60 hours = 0.35 hours\n\nStep 2: Calculate the speed on a windy day\nSpeed on a windy day = 15 mph - 4 mph = 11 mph\n\nStep 3: Calculate the distance Bill can travel on a windy day in 0.35 hours\nDistance = Speed x Time\nDistance = 11 mph x 0.35 hours\nDistance = 3.85 miles\n\nAnswer: D) 3.85 miles",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "On a normal day Bill usually averages about 15 mph when riding his bicycle. On a windy day, his speed is reduced by 4 mph. How far can Bill travel on a windy day in 21 minutes? Round to the nearest hundredth.",
+          "options": [
+            "A)2 miles",
+            "B)2.25 miles",
+            "C)3.25 miles",
+            "D)3.85 miles",
+            "E)2.85 miles"
+          ],
+          "rationale": "15 mph - 4 mph= 11 mph\n11 mph x (21/60)= 3.85 miles\nAnswer D",
+          "correct": "D"
+        },
+        "current": "Given:\n- Bill usually averages 15 mph on a normal day\n- On a windy day, his speed is reduced by 4 mph\n\nStep 1: Convert 21 minutes to hours\n21 minutes = 21/60 hours = 0.35 hours\n\nStep 2: Calculate the speed on a windy day\nSpeed on a windy day = 15 mph - 4 mph = 11 mph\n\nStep 3: Calculate the distance Bill can travel on a windy day in 0.35 hours\nDistance = Speed x Time\nDistance = 11 mph x 0.35 hours\nDistance = 3.85 miles\n\nAnswer: D) 3.85 miles",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "On a normal day Bill usually averages about 15 mph when riding his bicycle. On a windy day, his speed is reduced by 4 mph. How far can Bill travel on a windy day in 21 minutes? Round to the nearest hundredth.",
+          "options": [
+            "A)2 miles",
+            "B)2.25 miles",
+            "C)3.25 miles",
+            "D)3.85 miles",
+            "E)2.85 miles"
+          ],
+          "rationale": "15 mph - 4 mph= 11 mph\n11 mph x (21/60)= 3.85 miles\nAnswer D",
+          "correct": "D"
+        },
+        "current": "Given:\n- Bill usually averages 15 mph on a normal day\n- On a windy day, his speed is reduced by 4 mph\n\nStep 1: Convert 21 minutes to hours\n21 minutes = 21/60 hours = 0.35 hours\n\nStep 2: Calculate the speed on a windy day\nSpeed on a windy day = 15 mph - 4 mph = 11 mph\n\nStep 3: Calculate the distance Bill can travel on a windy day in 0.35 hours\nDistance = Speed x Time\nDistance = 11 mph x 0.35 hours\nDistance = 3.85 miles\n\nAnswer: D) 3.85 miles",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 138,
+    "completion_tokens": 141,
+    "cost": 0.000489
+  }
+]

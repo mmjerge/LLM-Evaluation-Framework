@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "If 120 is reduced to 96, what is the reduction percent?",
+          "options": [
+            "A)30%",
+            "B)40%",
+            "C)20%",
+            "D)10%",
+            "E)5%"
+          ],
+          "rationale": "reduction = 120 \u2013 96 = 24\n\u2234 Reduction percent = (24/120)\u00d7100% =20%\nAnswer:C",
+          "correct": "C"
+        },
+        "current": "Step 1: Calculate the reduction amount.\nReduction amount = 120 - 96 = 24\n\nStep 2: Calculate the reduction percent.\nReduction percent = (Reduction amount / Original amount) * 100\nReduction percent = (24 / 120) * 100 = 20%\n\nAnswer: 20%",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "If 120 is reduced to 96, what is the reduction percent?",
+          "options": [
+            "A)30%",
+            "B)40%",
+            "C)20%",
+            "D)10%",
+            "E)5%"
+          ],
+          "rationale": "reduction = 120 \u2013 96 = 24\n\u2234 Reduction percent = (24/120)\u00d7100% =20%\nAnswer:C",
+          "correct": "C"
+        },
+        "current": "Step 1: Calculate the reduction amount.\nReduction amount = 120 - 96 = 24\n\nStep 2: Calculate the reduction percent.\nReduction percent = (Reduction amount / Original amount) * 100\nReduction percent = (24 / 120) * 100 = 20%\n\nAnswer: 20%",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "If 120 is reduced to 96, what is the reduction percent?",
+          "options": [
+            "A)30%",
+            "B)40%",
+            "C)20%",
+            "D)10%",
+            "E)5%"
+          ],
+          "rationale": "reduction = 120 \u2013 96 = 24\n\u2234 Reduction percent = (24/120)\u00d7100% =20%\nAnswer:C",
+          "correct": "C"
+        },
+        "current": "Step 1: Calculate the reduction amount.\nReduction amount = 120 - 96 = 24\n\nStep 2: Calculate the reduction percent.\nReduction percent = (Reduction amount / Original amount) * 100\nReduction percent = (24 / 120) * 100 = 20%\n\nAnswer: 20%",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "If 120 is reduced to 96, what is the reduction percent?",
+          "options": [
+            "A)30%",
+            "B)40%",
+            "C)20%",
+            "D)10%",
+            "E)5%"
+          ],
+          "rationale": "reduction = 120 \u2013 96 = 24\n\u2234 Reduction percent = (24/120)\u00d7100% =20%\nAnswer:C",
+          "correct": "C"
+        },
+        "current": "Step 1: Calculate the reduction amount.\nReduction amount = 120 - 96 = 24\n\nStep 2: Calculate the reduction percent.\nReduction percent = (Reduction amount / Original amount) * 100\nReduction percent = (24 / 120) * 100 = 20%\n\nAnswer: 20%",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "If 120 is reduced to 96, what is the reduction percent?",
+          "options": [
+            "A)30%",
+            "B)40%",
+            "C)20%",
+            "D)10%",
+            "E)5%"
+          ],
+          "rationale": "reduction = 120 \u2013 96 = 24\n\u2234 Reduction percent = (24/120)\u00d7100% =20%\nAnswer:C",
+          "correct": "C"
+        },
+        "current": "Step 1: Calculate the reduction amount.\nReduction amount = 120 - 96 = 24\n\nStep 2: Calculate the reduction percent.\nReduction percent = (Reduction amount / Original amount) * 100\nReduction percent = (24 / 120) * 100 = 20%\n\nAnswer: 20%",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 89,
+    "completion_tokens": 69,
+    "cost": 0.00027150000000000004
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "A shopkeeper employed a servant at a monthly salary of 1500. In addition to it, he agreed to pay him a commission of 15% on the monthly sale. How much sale in Rupees should the servant do if he wants his monthly income as 6000?",
+          "options": [
+            "A)30000",
+            "B)415000",
+            "C)31500",
+            "D)50000",
+            "E)None of these"
+          ],
+          "rationale": "Servant\u2019s commission amount\n= 6000 \u2013 1500 = 4500\ni.e.,15% = 4500\nor,100% = 4500\u204415 \u00d7 100 = 30000\nAnswer A",
+          "correct": "A"
+        },
+        "current": "Given:\nMonthly salary = 1500\nCommission rate = 15%\nDesired monthly income = 6000\n\nLet x be the monthly sale amount in Rupees.\n\nStep 1: Calculate the commission the servant will receive:\nCommission = 15% of x = 0.15x\n\nStep 2: Write an equation based on the information provided:\nTotal income = Monthly salary + Commission\n6000 = 1500 + 0.15x\n\nStep 3: Solve for x:\n0.15x = 6000 - 1500\n0.15x = 4500\nx = 4500 / 0.15\nx = 30000\n\nAnswer: A) 30000",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "A shopkeeper employed a servant at a monthly salary of 1500. In addition to it, he agreed to pay him a commission of 15% on the monthly sale. How much sale in Rupees should the servant do if he wants his monthly income as 6000?",
+          "options": [
+            "A)30000",
+            "B)415000",
+            "C)31500",
+            "D)50000",
+            "E)None of these"
+          ],
+          "rationale": "Servant\u2019s commission amount\n= 6000 \u2013 1500 = 4500\ni.e.,15% = 4500\nor,100% = 4500\u204415 \u00d7 100 = 30000\nAnswer A",
+          "correct": "A"
+        },
+        "current": "Given:\nMonthly salary = 1500\nCommission rate = 15%\nDesired monthly income = 6000\n\nLet x be the monthly sale amount in Rupees.\n\nStep 1: Calculate the commission the servant will receive:\nCommission = 15% of x = 0.15x\n\nStep 2: Write an equation based on the information provided:\nTotal income = Monthly salary + Commission\n6000 = 1500 + 0.15x\n\nStep 3: Solve for x:\n0.15x = 6000 - 1500\n0.15x = 4500\nx = 4500 / 0.15\nx = 30000\n\nAnswer: A) 30000",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A shopkeeper employed a servant at a monthly salary of 1500. In addition to it, he agreed to pay him a commission of 15% on the monthly sale. How much sale in Rupees should the servant do if he wants his monthly income as 6000?",
+          "options": [
+            "A)30000",
+            "B)415000",
+            "C)31500",
+            "D)50000",
+            "E)None of these"
+          ],
+          "rationale": "Servant\u2019s commission amount\n= 6000 \u2013 1500 = 4500\ni.e.,15% = 4500\nor,100% = 4500\u204415 \u00d7 100 = 30000\nAnswer A",
+          "correct": "A"
+        },
+        "current": "Given:\nMonthly salary = 1500\nCommission rate = 15%\nDesired monthly income = 6000\n\nLet x be the monthly sale amount in Rupees.\n\nStep 1: Calculate the commission the servant will receive:\nCommission = 15% of x = 0.15x\n\nStep 2: Write an equation based on the information provided:\nTotal income = Monthly salary + Commission\n6000 = 1500 + 0.15x\n\nStep 3: Solve for x:\n0.15x = 6000 - 1500\n0.15x = 4500\nx = 4500 / 0.15\nx = 30000\n\nAnswer: A) 30000",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A shopkeeper employed a servant at a monthly salary of 1500. In addition to it, he agreed to pay him a commission of 15% on the monthly sale. How much sale in Rupees should the servant do if he wants his monthly income as 6000?",
+          "options": [
+            "A)30000",
+            "B)415000",
+            "C)31500",
+            "D)50000",
+            "E)None of these"
+          ],
+          "rationale": "Servant\u2019s commission amount\n= 6000 \u2013 1500 = 4500\ni.e.,15% = 4500\nor,100% = 4500\u204415 \u00d7 100 = 30000\nAnswer A",
+          "correct": "A"
+        },
+        "current": "Given:\nMonthly salary = 1500\nCommission rate = 15%\nDesired monthly income = 6000\n\nLet x be the monthly sale amount in Rupees.\n\nStep 1: Calculate the commission the servant will receive:\nCommission = 15% of x = 0.15x\n\nStep 2: Write an equation based on the information provided:\nTotal income = Monthly salary + Commission\n6000 = 1500 + 0.15x\n\nStep 3: Solve for x:\n0.15x = 6000 - 1500\n0.15x = 4500\nx = 4500 / 0.15\nx = 30000\n\nAnswer: A) 30000",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A shopkeeper employed a servant at a monthly salary of 1500. In addition to it, he agreed to pay him a commission of 15% on the monthly sale. How much sale in Rupees should the servant do if he wants his monthly income as 6000?",
+          "options": [
+            "A)30000",
+            "B)415000",
+            "C)31500",
+            "D)50000",
+            "E)None of these"
+          ],
+          "rationale": "Servant\u2019s commission amount\n= 6000 \u2013 1500 = 4500\ni.e.,15% = 4500\nor,100% = 4500\u204415 \u00d7 100 = 30000\nAnswer A",
+          "correct": "A"
+        },
+        "current": "Given:\nMonthly salary = 1500\nCommission rate = 15%\nDesired monthly income = 6000\n\nLet x be the monthly sale amount in Rupees.\n\nStep 1: Calculate the commission the servant will receive:\nCommission = 15% of x = 0.15x\n\nStep 2: Write an equation based on the information provided:\nTotal income = Monthly salary + Commission\n6000 = 1500 + 0.15x\n\nStep 3: Solve for x:\n0.15x = 6000 - 1500\n0.15x = 4500\nx = 4500 / 0.15\nx = 30000\n\nAnswer: A) 30000",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 137,
+    "completion_tokens": 149,
+    "cost": 0.0005035
+  }
+]

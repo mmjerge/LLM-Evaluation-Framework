@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?",
+          "options": [
+            "A)20%",
+            "B)28%",
+            "C)36%",
+            "D)40%",
+            "E)42%"
+          ],
+          "rationale": "wholesale cost = 100;\noriginal price = 100*1.6 = 160;\nactual price = 160*0.8 = 128.\nAnswer: B.",
+          "correct": "B"
+        },
+        "current": "Let's solve this problem step by step:\n\nStep 1: Define variables\nLet's say the wholesale cost is x.\n\nStep 2: Calculate the original retail price\nThe original retail price is 60% more than the wholesale cost.\nOriginal retail price = x + 60% of x = x + 0.6x = 1.6x\n\nStep 3: Calculate the actual selling price\nThe appliance was sold for 20% less than the original retail price.\nActual selling price = Original retail price - 20% of original retail price\n= 1.6x - 0.2(1.6x)\n= 1.6x - 0.32x\n= 1.28x\n\nStep 4: Calculate the percentage increase from wholesale cost to actual selling price\nPercentage increase = (Increase / Original) \u00d7 100\n= ((Actual selling price - Wholesale cost) / Wholesale cost) \u00d7 100\n= ((1.28x - x) / x) \u00d7 100\n= (0.28x / x) \u00d7 100\n= 0.28 \u00d7 100\n= 28%\n\nTherefore, the appliance was sold for 28% more than its wholesale cost.\n\nAnswer: B) 28%",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?",
+          "options": [
+            "A)20%",
+            "B)28%",
+            "C)36%",
+            "D)40%",
+            "E)42%"
+          ],
+          "rationale": "wholesale cost = 100;\noriginal price = 100*1.6 = 160;\nactual price = 160*0.8 = 128.\nAnswer: B.",
+          "correct": "B"
+        },
+        "current": "Let's solve this problem step by step:\n\nStep 1: Define variables\nLet's say the wholesale cost is x.\n\nStep 2: Calculate the original retail price\nThe original retail price is 60% more than the wholesale cost.\nOriginal retail price = x + 60% of x = x + 0.6x = 1.6x\n\nStep 3: Calculate the actual selling price\nThe appliance was sold for 20% less than the original retail price.\nActual selling price = Original retail price - 20% of original retail price\n= 1.6x - 0.2(1.6x)\n= 1.6x - 0.32x\n= 1.28x\n\nStep 4: Calculate the percentage increase from wholesale cost to actual selling price\nPercentage increase = (Increase / Original) \u00d7 100\n= ((Actual selling price - Wholesale cost) / Wholesale cost) \u00d7 100\n= ((1.28x - x) / x) \u00d7 100\n= (0.28x / x) \u00d7 100\n= 0.28 \u00d7 100\n= 28%\n\nTherefore, the appliance was sold for 28% more than its wholesale cost.\n\nAnswer: B) 28%",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?",
+          "options": [
+            "A)20%",
+            "B)28%",
+            "C)36%",
+            "D)40%",
+            "E)42%"
+          ],
+          "rationale": "wholesale cost = 100;\noriginal price = 100*1.6 = 160;\nactual price = 160*0.8 = 128.\nAnswer: B.",
+          "correct": "B"
+        },
+        "current": "Let's solve this problem step by step:\n\nStep 1: Define variables\nLet's say the wholesale cost is x.\n\nStep 2: Calculate the original retail price\nThe original retail price is 60% more than the wholesale cost.\nOriginal retail price = x + 60% of x = x + 0.6x = 1.6x\n\nStep 3: Calculate the actual selling price\nThe appliance was sold for 20% less than the original retail price.\nActual selling price = Original retail price - 20% of original retail price\n= 1.6x - 0.2(1.6x)\n= 1.6x - 0.32x\n= 1.28x\n\nStep 4: Calculate the percentage increase from wholesale cost to actual selling price\nPercentage increase = (Increase / Original) \u00d7 100\n= ((Actual selling price - Wholesale cost) / Wholesale cost) \u00d7 100\n= ((1.28x - x) / x) \u00d7 100\n= (0.28x / x) \u00d7 100\n= 0.28 \u00d7 100\n= 28%\n\nTherefore, the appliance was sold for 28% more than its wholesale cost.\n\nAnswer: B) 28%",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?",
+          "options": [
+            "A)20%",
+            "B)28%",
+            "C)36%",
+            "D)40%",
+            "E)42%"
+          ],
+          "rationale": "wholesale cost = 100;\noriginal price = 100*1.6 = 160;\nactual price = 160*0.8 = 128.\nAnswer: B.",
+          "correct": "B"
+        },
+        "current": "Let's solve this problem step by step:\n\nStep 1: Define variables\nLet's say the wholesale cost is x.\n\nStep 2: Calculate the original retail price\nThe original retail price is 60% more than the wholesale cost.\nOriginal retail price = x + 60% of x = x + 0.6x = 1.6x\n\nStep 3: Calculate the actual selling price\nThe appliance was sold for 20% less than the original retail price.\nActual selling price = Original retail price - 20% of original retail price\n= 1.6x - 0.2(1.6x)\n= 1.6x - 0.32x\n= 1.28x\n\nStep 4: Calculate the percentage increase from wholesale cost to actual selling price\nPercentage increase = (Increase / Original) \u00d7 100\n= ((Actual selling price - Wholesale cost) / Wholesale cost) \u00d7 100\n= ((1.28x - x) / x) \u00d7 100\n= (0.28x / x) \u00d7 100\n= 0.28 \u00d7 100\n= 28%\n\nTherefore, the appliance was sold for 28% more than its wholesale cost.\n\nAnswer: B) 28%",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?",
+          "options": [
+            "A)20%",
+            "B)28%",
+            "C)36%",
+            "D)40%",
+            "E)42%"
+          ],
+          "rationale": "wholesale cost = 100;\noriginal price = 100*1.6 = 160;\nactual price = 160*0.8 = 128.\nAnswer: B.",
+          "correct": "B"
+        },
+        "current": "Let's solve this problem step by step:\n\nStep 1: Define variables\nLet's say the wholesale cost is x.\n\nStep 2: Calculate the original retail price\nThe original retail price is 60% more than the wholesale cost.\nOriginal retail price = x + 60% of x = x + 0.6x = 1.6x\n\nStep 3: Calculate the actual selling price\nThe appliance was sold for 20% less than the original retail price.\nActual selling price = Original retail price - 20% of original retail price\n= 1.6x - 0.2(1.6x)\n= 1.6x - 0.32x\n= 1.28x\n\nStep 4: Calculate the percentage increase from wholesale cost to actual selling price\nPercentage increase = (Increase / Original) \u00d7 100\n= ((Actual selling price - Wholesale cost) / Wholesale cost) \u00d7 100\n= ((1.28x - x) / x) \u00d7 100\n= (0.28x / x) \u00d7 100\n= 0.28 \u00d7 100\n= 28%\n\nTherefore, the appliance was sold for 28% more than its wholesale cost.\n\nAnswer: B) 28%",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

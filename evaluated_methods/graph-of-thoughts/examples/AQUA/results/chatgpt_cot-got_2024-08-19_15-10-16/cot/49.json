@@ -1,0 +1,88 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "The price of a product is reduced by 30% . By what percentage should it be increased to make it 100%",
+          "options": [
+            "A)41.86%",
+            "B)42.86%",
+            "C)43.86%",
+            "D)44.86%",
+            "E)45.86%"
+          ],
+          "rationale": "If initial price is Rs 100 and reduced price is Rs 70.\nThen, to make it 100 again, price should increase by 100*30/70= 300/7 % or 42.86% approx\nANSWER:B",
+          "correct": "B"
+        },
+        "current": "Given:\n- Price reduced by 30%\n- Price needs to be increased to reach 100%\n\nStep 1: Calculate the percentage of the original price after the reduction.\n100% - 30% = 70%\n\nStep 2: Calculate the percentage increase needed to reach 100%.\n(100% - 70%) / 70% * 100% = 42.86%\n\nAnswer: B) 42.86%",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "question": "The price of a product is reduced by 30% . By what percentage should it be increased to make it 100%",
+          "options": [
+            "A)41.86%",
+            "B)42.86%",
+            "C)43.86%",
+            "D)44.86%",
+            "E)45.86%"
+          ],
+          "rationale": "If initial price is Rs 100 and reduced price is Rs 70.\nThen, to make it 100 again, price should increase by 100*30/70= 300/7 % or 42.86% approx\nANSWER:B",
+          "correct": "B"
+        },
+        "current": "Given:\n- Price reduced by 30%\n- Price needs to be increased to reach 100%\n\nStep 1: Calculate the percentage of the original price after the reduction.\n100% - 30% = 70%\n\nStep 2: Calculate the percentage increase needed to reach 100%.\n(100% - 70%) / 70% * 100% = 42.86%\n\nAnswer: B) 42.86%",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "B"
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "The price of a product is reduced by 30% . By what percentage should it be increased to make it 100%",
+          "options": [
+            "A)41.86%",
+            "B)42.86%",
+            "C)43.86%",
+            "D)44.86%",
+            "E)45.86%"
+          ],
+          "rationale": "If initial price is Rs 100 and reduced price is Rs 70.\nThen, to make it 100 again, price should increase by 100*30/70= 300/7 % or 42.86% approx\nANSWER:B",
+          "correct": "B"
+        },
+        "current": "Given:\n- Price reduced by 30%\n- Price needs to be increased to reach 100%\n\nStep 1: Calculate the percentage of the original price after the reduction.\n100% - 30% = 70%\n\nStep 2: Calculate the percentage increase needed to reach 100%.\n(100% - 70%) / 70% * 100% = 42.86%\n\nAnswer: B) 42.86%",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "B"
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 109,
+    "completion_tokens": 90,
+    "cost": 0.00034349999999999995
+  }
+]

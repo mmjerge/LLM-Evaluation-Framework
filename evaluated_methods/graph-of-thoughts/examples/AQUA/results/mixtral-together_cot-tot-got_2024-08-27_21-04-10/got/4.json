@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "A trader sold an article at a profit of 20% for Rs.360. What is the cost price of the article?",
+          "options": [
+            "A)270",
+            "B)300",
+            "C)280",
+            "D)320",
+            "E)315"
+          ],
+          "rationale": "Cost Price = Selling Price / (100+Profit%) \u00d7 100 => 360 / (100+20) \u00d7 100 => 360 / 120 \u00d7 100 = Rs.300\nOption B",
+          "correct": "B"
+        },
+        "current": " Solution: To find the cost price of the article, we can use the given information about the selling price and the profit percentage.\n\nLet the cost price of the article be \\( C \\).\n\nThe trader sold the article at a profit of 20%, so the selling price (SP) is 120% of the cost price.\n\nWe can write this as:\n\\[ SP = C + \\frac{20}{100} \\times C \\]\n\\[ SP = C \\times (1 + \\frac{20}{100}) \\]\n\\[ SP = C \\times 1.20 \\]\n\nWe are given that the selling price (SP) is Rs.360. So we can write:\n\\[ 360 = C \\times 1.20 \\]\n\nNow, we can solve for \\( C \\) to find the cost price:\n\\[ C = \\frac{360}{1.20} \\]\n\\[ C = 300 \\]\n\nTherefore, the cost price of the article is Rs.300.\n\nAnswer: \\( B)300 \\)",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "A trader sold an article at a profit of 20% for Rs.360. What is the cost price of the article?",
+          "options": [
+            "A)270",
+            "B)300",
+            "C)280",
+            "D)320",
+            "E)315"
+          ],
+          "rationale": "Cost Price = Selling Price / (100+Profit%) \u00d7 100 => 360 / (100+20) \u00d7 100 => 360 / 120 \u00d7 100 = Rs.300\nOption B",
+          "correct": "B"
+        },
+        "current": " Solution: To find the cost price of the article, we can use the given information about the selling price and the profit percentage.\n\nLet the cost price of the article be \\( C \\).\n\nThe trader sold the article at a profit of 20%, so the selling price (SP) is 120% of the cost price.\n\nWe can write this as:\n\\[ SP = C + \\frac{20}{100} \\times C \\]\n\\[ SP = C \\times (1 + \\frac{20}{100}) \\]\n\\[ SP = C \\times 1.20 \\]\n\nWe are given that the selling price (SP) is Rs.360. So we can write:\n\\[ 360 = C \\times 1.20 \\]\n\nNow, we can solve for \\( C \\) to find the cost price:\n\\[ C = \\frac{360}{1.20} \\]\n\\[ C = 300 \\]\n\nTherefore, the cost price of the article is Rs.300.\n\nAnswer: \\( B)300 \\)",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A trader sold an article at a profit of 20% for Rs.360. What is the cost price of the article?",
+          "options": [
+            "A)270",
+            "B)300",
+            "C)280",
+            "D)320",
+            "E)315"
+          ],
+          "rationale": "Cost Price = Selling Price / (100+Profit%) \u00d7 100 => 360 / (100+20) \u00d7 100 => 360 / 120 \u00d7 100 = Rs.300\nOption B",
+          "correct": "B"
+        },
+        "current": " Solution: To find the cost price of the article, we can use the given information about the selling price and the profit percentage.\n\nLet the cost price of the article be \\( C \\).\n\nThe trader sold the article at a profit of 20%, so the selling price (SP) is 120% of the cost price.\n\nWe can write this as:\n\\[ SP = C + \\frac{20}{100} \\times C \\]\n\\[ SP = C \\times (1 + \\frac{20}{100}) \\]\n\\[ SP = C \\times 1.20 \\]\n\nWe are given that the selling price (SP) is Rs.360. So we can write:\n\\[ 360 = C \\times 1.20 \\]\n\nNow, we can solve for \\( C \\) to find the cost price:\n\\[ C = \\frac{360}{1.20} \\]\n\\[ C = 300 \\]\n\nTherefore, the cost price of the article is Rs.300.\n\nAnswer: \\( B)300 \\)",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A trader sold an article at a profit of 20% for Rs.360. What is the cost price of the article?",
+          "options": [
+            "A)270",
+            "B)300",
+            "C)280",
+            "D)320",
+            "E)315"
+          ],
+          "rationale": "Cost Price = Selling Price / (100+Profit%) \u00d7 100 => 360 / (100+20) \u00d7 100 => 360 / 120 \u00d7 100 = Rs.300\nOption B",
+          "correct": "B"
+        },
+        "current": " Solution: To find the cost price of the article, we can use the given information about the selling price and the profit percentage.\n\nLet the cost price of the article be \\( C \\).\n\nThe trader sold the article at a profit of 20%, so the selling price (SP) is 120% of the cost price.\n\nWe can write this as:\n\\[ SP = C + \\frac{20}{100} \\times C \\]\n\\[ SP = C \\times (1 + \\frac{20}{100}) \\]\n\\[ SP = C \\times 1.20 \\]\n\nWe are given that the selling price (SP) is Rs.360. So we can write:\n\\[ 360 = C \\times 1.20 \\]\n\nNow, we can solve for \\( C \\) to find the cost price:\n\\[ C = \\frac{360}{1.20} \\]\n\\[ C = 300 \\]\n\nTherefore, the cost price of the article is Rs.300.\n\nAnswer: \\( B)300 \\)",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A trader sold an article at a profit of 20% for Rs.360. What is the cost price of the article?",
+          "options": [
+            "A)270",
+            "B)300",
+            "C)280",
+            "D)320",
+            "E)315"
+          ],
+          "rationale": "Cost Price = Selling Price / (100+Profit%) \u00d7 100 => 360 / (100+20) \u00d7 100 => 360 / 120 \u00d7 100 = Rs.300\nOption B",
+          "correct": "B"
+        },
+        "current": " Solution: To find the cost price of the article, we can use the given information about the selling price and the profit percentage.\n\nLet the cost price of the article be \\( C \\).\n\nThe trader sold the article at a profit of 20%, so the selling price (SP) is 120% of the cost price.\n\nWe can write this as:\n\\[ SP = C + \\frac{20}{100} \\times C \\]\n\\[ SP = C \\times (1 + \\frac{20}{100}) \\]\n\\[ SP = C \\times 1.20 \\]\n\nWe are given that the selling price (SP) is Rs.360. So we can write:\n\\[ 360 = C \\times 1.20 \\]\n\nNow, we can solve for \\( C \\) to find the cost price:\n\\[ C = \\frac{360}{1.20} \\]\n\\[ C = 300 \\]\n\nTherefore, the cost price of the article is Rs.300.\n\nAnswer: \\( B)300 \\)",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

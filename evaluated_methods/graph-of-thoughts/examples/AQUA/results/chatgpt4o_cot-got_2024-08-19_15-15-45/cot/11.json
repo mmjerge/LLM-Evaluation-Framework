@@ -1,0 +1,88 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "At a certain factory, 10 percent of the staplers produced on Monday were defective and 2 percent of the non-defective staplers were rejected by mistake. If 72 of the non-defective staplers were rejected, what was the number of staplers produced that day?",
+          "options": [
+            "A)4,000",
+            "B)4,200",
+            "C)4,500",
+            "D)4,800",
+            "E)5,000"
+          ],
+          "rationale": "We're told that 10% of staplers in a factory are defective.\nX = Total staplers\n0.1X = defective staplers\n0.9X = normal staplers\nNext, we're told that 2% of the normal staplers were rejected by mistake and that this = 72 staplers.\n0.9X(0.02) = 72\n0.018X = 72\n18X = 72,000\nX = 4,000\nFinal Answer:\nA",
+          "correct": "A"
+        },
+        "current": "To solve the problem, let's denote the total number of staplers produced on Monday as \\( N \\).\n\nFirst, we know that 10 percent of the staplers produced were defective. Hence, the number of defective staplers can be calculated as:\n\\[\n0.1N\n\\]\n\nNext, the non-defective staplers would be:\n\\[\nN - 0.1N = 0.9N\n\\]\n\nFrom the problem, 2 percent of the non-defective staplers were rejected by mistake. Therefore, the number of non-defective staplers that were mistakenly rejected is:\n\\[\n0.02 \\times 0.9N = 0.018N\n\\]\n\nWe know from the problem statement that 72 non-defective staplers were rejected. Hence, we can set up the equation:\n\\[\n0.018N = 72\n\\]\n\nTo find \\( N \\), we solve the equation:\n\\[\nN = \\frac{72}{0.018}\n\\]\n\\[\nN = 4000\n\\]\n\nThus, the total number of staplers produced that day is:\n\\[\nN = 4000\n\\]\n\nAnswer: A) 4,000",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "question": "At a certain factory, 10 percent of the staplers produced on Monday were defective and 2 percent of the non-defective staplers were rejected by mistake. If 72 of the non-defective staplers were rejected, what was the number of staplers produced that day?",
+          "options": [
+            "A)4,000",
+            "B)4,200",
+            "C)4,500",
+            "D)4,800",
+            "E)5,000"
+          ],
+          "rationale": "We're told that 10% of staplers in a factory are defective.\nX = Total staplers\n0.1X = defective staplers\n0.9X = normal staplers\nNext, we're told that 2% of the normal staplers were rejected by mistake and that this = 72 staplers.\n0.9X(0.02) = 72\n0.018X = 72\n18X = 72,000\nX = 4,000\nFinal Answer:\nA",
+          "correct": "A"
+        },
+        "current": "To solve the problem, let's denote the total number of staplers produced on Monday as \\( N \\).\n\nFirst, we know that 10 percent of the staplers produced were defective. Hence, the number of defective staplers can be calculated as:\n\\[\n0.1N\n\\]\n\nNext, the non-defective staplers would be:\n\\[\nN - 0.1N = 0.9N\n\\]\n\nFrom the problem, 2 percent of the non-defective staplers were rejected by mistake. Therefore, the number of non-defective staplers that were mistakenly rejected is:\n\\[\n0.02 \\times 0.9N = 0.018N\n\\]\n\nWe know from the problem statement that 72 non-defective staplers were rejected. Hence, we can set up the equation:\n\\[\n0.018N = 72\n\\]\n\nTo find \\( N \\), we solve the equation:\n\\[\nN = \\frac{72}{0.018}\n\\]\n\\[\nN = 4000\n\\]\n\nThus, the total number of staplers produced that day is:\n\\[\nN = 4000\n\\]\n\nAnswer: A) 4,000",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "A"
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "At a certain factory, 10 percent of the staplers produced on Monday were defective and 2 percent of the non-defective staplers were rejected by mistake. If 72 of the non-defective staplers were rejected, what was the number of staplers produced that day?",
+          "options": [
+            "A)4,000",
+            "B)4,200",
+            "C)4,500",
+            "D)4,800",
+            "E)5,000"
+          ],
+          "rationale": "We're told that 10% of staplers in a factory are defective.\nX = Total staplers\n0.1X = defective staplers\n0.9X = normal staplers\nNext, we're told that 2% of the normal staplers were rejected by mistake and that this = 72 staplers.\n0.9X(0.02) = 72\n0.018X = 72\n18X = 72,000\nX = 4,000\nFinal Answer:\nA",
+          "correct": "A"
+        },
+        "current": "To solve the problem, let's denote the total number of staplers produced on Monday as \\( N \\).\n\nFirst, we know that 10 percent of the staplers produced were defective. Hence, the number of defective staplers can be calculated as:\n\\[\n0.1N\n\\]\n\nNext, the non-defective staplers would be:\n\\[\nN - 0.1N = 0.9N\n\\]\n\nFrom the problem, 2 percent of the non-defective staplers were rejected by mistake. Therefore, the number of non-defective staplers that were mistakenly rejected is:\n\\[\n0.02 \\times 0.9N = 0.018N\n\\]\n\nWe know from the problem statement that 72 non-defective staplers were rejected. Hence, we can set up the equation:\n\\[\n0.018N = 72\n\\]\n\nTo find \\( N \\), we solve the equation:\n\\[\nN = \\frac{72}{0.018}\n\\]\n\\[\nN = 4000\n\\]\n\nThus, the total number of staplers produced that day is:\n\\[\nN = 4000\n\\]\n\nAnswer: A) 4,000",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "A"
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 142,
+    "completion_tokens": 249,
+    "cost": 0.0192
+  }
+]

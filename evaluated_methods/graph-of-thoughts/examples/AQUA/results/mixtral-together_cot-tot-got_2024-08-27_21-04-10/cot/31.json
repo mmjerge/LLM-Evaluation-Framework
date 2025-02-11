@@ -1,0 +1,88 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "On a map, the length of the road from Town F to Town G is measured to be 20 inches. On this map, 1/4 inch represents an actual distance of 10 miles. What is the actual distance, in miles, from Town F to Town G along this road?",
+          "options": [
+            "A)800",
+            "B)720",
+            "C)960",
+            "D)1140",
+            "E)1160"
+          ],
+          "rationale": "Here we are given a ratio: 1/4 inch on the map = 10 miles, so 1 inch on the map = 40 miles. If the map-distance between the towns is 20 inches, then the actual distance must be 20 x 40 = 800\nAnswer: A.",
+          "correct": "A"
+        },
+        "current": " Solution: To find the actual distance from Town F to Town G, we first need to determine how many 1/4 inch segments are in 20 inches.\n\nSince 1 inch is equal to 4 segments of 1/4 inch, we can find the number of 1/4 inch segments in 20 inches by multiplying 20 by 4:\n\n20 inches * 4 = 80 segments of 1/4 inch\n\nNow that we know there are 80 segments of 1/4 inch in 20 inches, we can find the actual distance by multiplying the number of segments by the actual distance each segment represents:\n\n80 segments * 10 miles/segment = 800 miles\n\nTherefore, the actual distance from Town F to Town G is 800 miles.\n\nAnswer: A) 800",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "question": "On a map, the length of the road from Town F to Town G is measured to be 20 inches. On this map, 1/4 inch represents an actual distance of 10 miles. What is the actual distance, in miles, from Town F to Town G along this road?",
+          "options": [
+            "A)800",
+            "B)720",
+            "C)960",
+            "D)1140",
+            "E)1160"
+          ],
+          "rationale": "Here we are given a ratio: 1/4 inch on the map = 10 miles, so 1 inch on the map = 40 miles. If the map-distance between the towns is 20 inches, then the actual distance must be 20 x 40 = 800\nAnswer: A.",
+          "correct": "A"
+        },
+        "current": " Solution: To find the actual distance from Town F to Town G, we first need to determine how many 1/4 inch segments are in 20 inches.\n\nSince 1 inch is equal to 4 segments of 1/4 inch, we can find the number of 1/4 inch segments in 20 inches by multiplying 20 by 4:\n\n20 inches * 4 = 80 segments of 1/4 inch\n\nNow that we know there are 80 segments of 1/4 inch in 20 inches, we can find the actual distance by multiplying the number of segments by the actual distance each segment represents:\n\n80 segments * 10 miles/segment = 800 miles\n\nTherefore, the actual distance from Town F to Town G is 800 miles.\n\nAnswer: A) 800",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "A"
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "On a map, the length of the road from Town F to Town G is measured to be 20 inches. On this map, 1/4 inch represents an actual distance of 10 miles. What is the actual distance, in miles, from Town F to Town G along this road?",
+          "options": [
+            "A)800",
+            "B)720",
+            "C)960",
+            "D)1140",
+            "E)1160"
+          ],
+          "rationale": "Here we are given a ratio: 1/4 inch on the map = 10 miles, so 1 inch on the map = 40 miles. If the map-distance between the towns is 20 inches, then the actual distance must be 20 x 40 = 800\nAnswer: A.",
+          "correct": "A"
+        },
+        "current": " Solution: To find the actual distance from Town F to Town G, we first need to determine how many 1/4 inch segments are in 20 inches.\n\nSince 1 inch is equal to 4 segments of 1/4 inch, we can find the number of 1/4 inch segments in 20 inches by multiplying 20 by 4:\n\n20 inches * 4 = 80 segments of 1/4 inch\n\nNow that we know there are 80 segments of 1/4 inch in 20 inches, we can find the actual distance by multiplying the number of segments by the actual distance each segment represents:\n\n80 segments * 10 miles/segment = 800 miles\n\nTherefore, the actual distance from Town F to Town G is 800 miles.\n\nAnswer: A) 800",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "A"
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

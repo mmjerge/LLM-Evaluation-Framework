@@ -1,0 +1,88 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "Last year, a Home Appliance Store sold an average(arithmetic mean) of 42 microwave ovens per month. In the first 10 months of this year,the store has sold an average(arithmetic mean) of only 20 microwave ovens per month. What was the average number of microwave ovens sold per month during the entire 22 months period ?",
+          "options": [
+            "A)21",
+            "B)30",
+            "C)31",
+            "D)32",
+            "E)None of the above"
+          ],
+          "rationale": "42\u00d712+20\u00d710 /12+10=504+200/22=704/22=32\nAnswer D",
+          "correct": "D"
+        },
+        "current": "To find the average number of microwave ovens sold per month during the entire 22-month period, we need to calculate the total number of microwave ovens sold in the first 10 months and the last 12 months, and then divide by the total number of months.\n\nStep 1: Calculate the total number of microwave ovens sold in the first 10 months.\nThe store sold an average of 20 microwave ovens per month in the first 10 months, so the total number of microwave ovens sold in the first 10 months is:\n20 * 10 = 200\n\nStep 2: Calculate the total number of microwave ovens sold in the last 12 months.\nThe store sold an average of 42 microwave ovens per month last year, so the total number of microwave ovens sold in the last 12 months is:\n42 * 12 = 504\n\nStep 3: Calculate the total number of microwave ovens sold in the entire 22-month period.\nAdd the total number of microwave ovens sold in the first 10 months and the last 12 months:\n200 + 504 = 704\n\nStep 4: Calculate the average number of microwave ovens sold per month during the entire 22-month period.\nDivide the total number of microwave ovens sold in the entire 22-month period by the total number of months:\n704 / 22 = 32\n\nAnswer: D)32",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "question": "Last year, a Home Appliance Store sold an average(arithmetic mean) of 42 microwave ovens per month. In the first 10 months of this year,the store has sold an average(arithmetic mean) of only 20 microwave ovens per month. What was the average number of microwave ovens sold per month during the entire 22 months period ?",
+          "options": [
+            "A)21",
+            "B)30",
+            "C)31",
+            "D)32",
+            "E)None of the above"
+          ],
+          "rationale": "42\u00d712+20\u00d710 /12+10=504+200/22=704/22=32\nAnswer D",
+          "correct": "D"
+        },
+        "current": "To find the average number of microwave ovens sold per month during the entire 22-month period, we need to calculate the total number of microwave ovens sold in the first 10 months and the last 12 months, and then divide by the total number of months.\n\nStep 1: Calculate the total number of microwave ovens sold in the first 10 months.\nThe store sold an average of 20 microwave ovens per month in the first 10 months, so the total number of microwave ovens sold in the first 10 months is:\n20 * 10 = 200\n\nStep 2: Calculate the total number of microwave ovens sold in the last 12 months.\nThe store sold an average of 42 microwave ovens per month last year, so the total number of microwave ovens sold in the last 12 months is:\n42 * 12 = 504\n\nStep 3: Calculate the total number of microwave ovens sold in the entire 22-month period.\nAdd the total number of microwave ovens sold in the first 10 months and the last 12 months:\n200 + 504 = 704\n\nStep 4: Calculate the average number of microwave ovens sold per month during the entire 22-month period.\nDivide the total number of microwave ovens sold in the entire 22-month period by the total number of months:\n704 / 22 = 32\n\nAnswer: D)32",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "D"
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "Last year, a Home Appliance Store sold an average(arithmetic mean) of 42 microwave ovens per month. In the first 10 months of this year,the store has sold an average(arithmetic mean) of only 20 microwave ovens per month. What was the average number of microwave ovens sold per month during the entire 22 months period ?",
+          "options": [
+            "A)21",
+            "B)30",
+            "C)31",
+            "D)32",
+            "E)None of the above"
+          ],
+          "rationale": "42\u00d712+20\u00d710 /12+10=504+200/22=704/22=32\nAnswer D",
+          "correct": "D"
+        },
+        "current": "To find the average number of microwave ovens sold per month during the entire 22-month period, we need to calculate the total number of microwave ovens sold in the first 10 months and the last 12 months, and then divide by the total number of months.\n\nStep 1: Calculate the total number of microwave ovens sold in the first 10 months.\nThe store sold an average of 20 microwave ovens per month in the first 10 months, so the total number of microwave ovens sold in the first 10 months is:\n20 * 10 = 200\n\nStep 2: Calculate the total number of microwave ovens sold in the last 12 months.\nThe store sold an average of 42 microwave ovens per month last year, so the total number of microwave ovens sold in the last 12 months is:\n42 * 12 = 504\n\nStep 3: Calculate the total number of microwave ovens sold in the entire 22-month period.\nAdd the total number of microwave ovens sold in the first 10 months and the last 12 months:\n200 + 504 = 704\n\nStep 4: Calculate the average number of microwave ovens sold per month during the entire 22-month period.\nDivide the total number of microwave ovens sold in the entire 22-month period by the total number of months:\n704 / 22 = 32\n\nAnswer: D)32",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "D"
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

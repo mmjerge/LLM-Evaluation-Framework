@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "The original price of an item is discounted 22%. A customer buys the item at this discounted price using a $20-off coupon. There is no tax on the item, and this was the only item the customer bought. If the customer paid $1.90 more than half the original price of the item, what was the original price of the item?",
+          "options": [
+            "A)$61",
+            "B)$65",
+            "C)$67.40",
+            "D)$70",
+            "E)$78.20"
+          ],
+          "rationale": "Let x be the original price of the item\nDiscounted price = 0.78x\nPayment made by the customer after using the $20 coupon = 0.78x - 20\n0.78x - 20 = x/2 + 1.9\nx = 78.20\nAnswer: E",
+          "correct": "E"
+        },
+        "current": "To solve this problem, let \\( x \\) be the original price of the item. Let's break the problem down step by step:\n\n1. **Calculate the discounted price:**\n   The item is discounted by 22%, so the discount amount is \\( 0.22x \\). Therefore, the discounted price is:\n   \\[\n   x - 0.22x = 0.78x\n   \\]\n\n2. **Apply the $20-off coupon:**\n   After applying the $20-off coupon, the price the customer pays is:\n   \\[\n   0.78x - 20\n   \\]\n\n3. **Relate the price paid to half the original price plus $1.90:**\n   According to the problem, the customer paid $1.90 more than half the original price. Thus:\n   \\[\n   0.78x - 20 = \\frac{x}{2} + 1.90\n   \\]\n\n4. **Set up and solve the equation:**\n   Rearrange the equation to isolate \\( x \\):\n   \\[\n   0.78x - 20 = \\frac{x}{2} + 1.90\n   \\]\n   \n   To clear the fraction, multiply everything by 2:\n   \\[\n   2(0.78x) - 2(20) = 2\\left(\\frac{x}{2}\\right) + 2(1.90)\n   \\]\n   Which simplifies to:\n   \\[\n   1.56x - 40 = x + 3.80\n   \\]\n   \n   Isolate \\( x \\) by subtracting \\( x \\) from both sides:\n   \\[\n   0.56x - 40 = 3.80\n   \\]\n   \n   Add 40 to both sides:\n   \\[\n   0.56x = 43.80\n   \\]\n   \n   Finally, solve for \\( x \\) by dividing both sides by 0.56:\n   \\[\n   x = \\frac{43.80}{0.56} = 78.21428571428571 \\approx 78.20\n   \\]\n\nSince there is an option provided that is closest to this value, the correct answer is:\n\\[\n\\boxed{E}\n\\]\n\nAnswer: \\( E: $78.20 \\)",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "The original price of an item is discounted 22%. A customer buys the item at this discounted price using a $20-off coupon. There is no tax on the item, and this was the only item the customer bought. If the customer paid $1.90 more than half the original price of the item, what was the original price of the item?",
+          "options": [
+            "A)$61",
+            "B)$65",
+            "C)$67.40",
+            "D)$70",
+            "E)$78.20"
+          ],
+          "rationale": "Let x be the original price of the item\nDiscounted price = 0.78x\nPayment made by the customer after using the $20 coupon = 0.78x - 20\n0.78x - 20 = x/2 + 1.9\nx = 78.20\nAnswer: E",
+          "correct": "E"
+        },
+        "current": "To solve this problem, let \\( x \\) be the original price of the item. Let's break the problem down step by step:\n\n1. **Calculate the discounted price:**\n   The item is discounted by 22%, so the discount amount is \\( 0.22x \\). Therefore, the discounted price is:\n   \\[\n   x - 0.22x = 0.78x\n   \\]\n\n2. **Apply the $20-off coupon:**\n   After applying the $20-off coupon, the price the customer pays is:\n   \\[\n   0.78x - 20\n   \\]\n\n3. **Relate the price paid to half the original price plus $1.90:**\n   According to the problem, the customer paid $1.90 more than half the original price. Thus:\n   \\[\n   0.78x - 20 = \\frac{x}{2} + 1.90\n   \\]\n\n4. **Set up and solve the equation:**\n   Rearrange the equation to isolate \\( x \\):\n   \\[\n   0.78x - 20 = \\frac{x}{2} + 1.90\n   \\]\n   \n   To clear the fraction, multiply everything by 2:\n   \\[\n   2(0.78x) - 2(20) = 2\\left(\\frac{x}{2}\\right) + 2(1.90)\n   \\]\n   Which simplifies to:\n   \\[\n   1.56x - 40 = x + 3.80\n   \\]\n   \n   Isolate \\( x \\) by subtracting \\( x \\) from both sides:\n   \\[\n   0.56x - 40 = 3.80\n   \\]\n   \n   Add 40 to both sides:\n   \\[\n   0.56x = 43.80\n   \\]\n   \n   Finally, solve for \\( x \\) by dividing both sides by 0.56:\n   \\[\n   x = \\frac{43.80}{0.56} = 78.21428571428571 \\approx 78.20\n   \\]\n\nSince there is an option provided that is closest to this value, the correct answer is:\n\\[\n\\boxed{E}\n\\]\n\nAnswer: \\( E: $78.20 \\)",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "The original price of an item is discounted 22%. A customer buys the item at this discounted price using a $20-off coupon. There is no tax on the item, and this was the only item the customer bought. If the customer paid $1.90 more than half the original price of the item, what was the original price of the item?",
+          "options": [
+            "A)$61",
+            "B)$65",
+            "C)$67.40",
+            "D)$70",
+            "E)$78.20"
+          ],
+          "rationale": "Let x be the original price of the item\nDiscounted price = 0.78x\nPayment made by the customer after using the $20 coupon = 0.78x - 20\n0.78x - 20 = x/2 + 1.9\nx = 78.20\nAnswer: E",
+          "correct": "E"
+        },
+        "current": "To solve this problem, let \\( x \\) be the original price of the item. Let's break the problem down step by step:\n\n1. **Calculate the discounted price:**\n   The item is discounted by 22%, so the discount amount is \\( 0.22x \\). Therefore, the discounted price is:\n   \\[\n   x - 0.22x = 0.78x\n   \\]\n\n2. **Apply the $20-off coupon:**\n   After applying the $20-off coupon, the price the customer pays is:\n   \\[\n   0.78x - 20\n   \\]\n\n3. **Relate the price paid to half the original price plus $1.90:**\n   According to the problem, the customer paid $1.90 more than half the original price. Thus:\n   \\[\n   0.78x - 20 = \\frac{x}{2} + 1.90\n   \\]\n\n4. **Set up and solve the equation:**\n   Rearrange the equation to isolate \\( x \\):\n   \\[\n   0.78x - 20 = \\frac{x}{2} + 1.90\n   \\]\n   \n   To clear the fraction, multiply everything by 2:\n   \\[\n   2(0.78x) - 2(20) = 2\\left(\\frac{x}{2}\\right) + 2(1.90)\n   \\]\n   Which simplifies to:\n   \\[\n   1.56x - 40 = x + 3.80\n   \\]\n   \n   Isolate \\( x \\) by subtracting \\( x \\) from both sides:\n   \\[\n   0.56x - 40 = 3.80\n   \\]\n   \n   Add 40 to both sides:\n   \\[\n   0.56x = 43.80\n   \\]\n   \n   Finally, solve for \\( x \\) by dividing both sides by 0.56:\n   \\[\n   x = \\frac{43.80}{0.56} = 78.21428571428571 \\approx 78.20\n   \\]\n\nSince there is an option provided that is closest to this value, the correct answer is:\n\\[\n\\boxed{E}\n\\]\n\nAnswer: \\( E: $78.20 \\)",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "The original price of an item is discounted 22%. A customer buys the item at this discounted price using a $20-off coupon. There is no tax on the item, and this was the only item the customer bought. If the customer paid $1.90 more than half the original price of the item, what was the original price of the item?",
+          "options": [
+            "A)$61",
+            "B)$65",
+            "C)$67.40",
+            "D)$70",
+            "E)$78.20"
+          ],
+          "rationale": "Let x be the original price of the item\nDiscounted price = 0.78x\nPayment made by the customer after using the $20 coupon = 0.78x - 20\n0.78x - 20 = x/2 + 1.9\nx = 78.20\nAnswer: E",
+          "correct": "E"
+        },
+        "current": "To solve this problem, let \\( x \\) be the original price of the item. Let's break the problem down step by step:\n\n1. **Calculate the discounted price:**\n   The item is discounted by 22%, so the discount amount is \\( 0.22x \\). Therefore, the discounted price is:\n   \\[\n   x - 0.22x = 0.78x\n   \\]\n\n2. **Apply the $20-off coupon:**\n   After applying the $20-off coupon, the price the customer pays is:\n   \\[\n   0.78x - 20\n   \\]\n\n3. **Relate the price paid to half the original price plus $1.90:**\n   According to the problem, the customer paid $1.90 more than half the original price. Thus:\n   \\[\n   0.78x - 20 = \\frac{x}{2} + 1.90\n   \\]\n\n4. **Set up and solve the equation:**\n   Rearrange the equation to isolate \\( x \\):\n   \\[\n   0.78x - 20 = \\frac{x}{2} + 1.90\n   \\]\n   \n   To clear the fraction, multiply everything by 2:\n   \\[\n   2(0.78x) - 2(20) = 2\\left(\\frac{x}{2}\\right) + 2(1.90)\n   \\]\n   Which simplifies to:\n   \\[\n   1.56x - 40 = x + 3.80\n   \\]\n   \n   Isolate \\( x \\) by subtracting \\( x \\) from both sides:\n   \\[\n   0.56x - 40 = 3.80\n   \\]\n   \n   Add 40 to both sides:\n   \\[\n   0.56x = 43.80\n   \\]\n   \n   Finally, solve for \\( x \\) by dividing both sides by 0.56:\n   \\[\n   x = \\frac{43.80}{0.56} = 78.21428571428571 \\approx 78.20\n   \\]\n\nSince there is an option provided that is closest to this value, the correct answer is:\n\\[\n\\boxed{E}\n\\]\n\nAnswer: \\( E: $78.20 \\)",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "The original price of an item is discounted 22%. A customer buys the item at this discounted price using a $20-off coupon. There is no tax on the item, and this was the only item the customer bought. If the customer paid $1.90 more than half the original price of the item, what was the original price of the item?",
+          "options": [
+            "A)$61",
+            "B)$65",
+            "C)$67.40",
+            "D)$70",
+            "E)$78.20"
+          ],
+          "rationale": "Let x be the original price of the item\nDiscounted price = 0.78x\nPayment made by the customer after using the $20 coupon = 0.78x - 20\n0.78x - 20 = x/2 + 1.9\nx = 78.20\nAnswer: E",
+          "correct": "E"
+        },
+        "current": "To solve this problem, let \\( x \\) be the original price of the item. Let's break the problem down step by step:\n\n1. **Calculate the discounted price:**\n   The item is discounted by 22%, so the discount amount is \\( 0.22x \\). Therefore, the discounted price is:\n   \\[\n   x - 0.22x = 0.78x\n   \\]\n\n2. **Apply the $20-off coupon:**\n   After applying the $20-off coupon, the price the customer pays is:\n   \\[\n   0.78x - 20\n   \\]\n\n3. **Relate the price paid to half the original price plus $1.90:**\n   According to the problem, the customer paid $1.90 more than half the original price. Thus:\n   \\[\n   0.78x - 20 = \\frac{x}{2} + 1.90\n   \\]\n\n4. **Set up and solve the equation:**\n   Rearrange the equation to isolate \\( x \\):\n   \\[\n   0.78x - 20 = \\frac{x}{2} + 1.90\n   \\]\n   \n   To clear the fraction, multiply everything by 2:\n   \\[\n   2(0.78x) - 2(20) = 2\\left(\\frac{x}{2}\\right) + 2(1.90)\n   \\]\n   Which simplifies to:\n   \\[\n   1.56x - 40 = x + 3.80\n   \\]\n   \n   Isolate \\( x \\) by subtracting \\( x \\) from both sides:\n   \\[\n   0.56x - 40 = 3.80\n   \\]\n   \n   Add 40 to both sides:\n   \\[\n   0.56x = 43.80\n   \\]\n   \n   Finally, solve for \\( x \\) by dividing both sides by 0.56:\n   \\[\n   x = \\frac{43.80}{0.56} = 78.21428571428571 \\approx 78.20\n   \\]\n\nSince there is an option provided that is closest to this value, the correct answer is:\n\\[\n\\boxed{E}\n\\]\n\nAnswer: \\( E: $78.20 \\)",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 151,
+    "completion_tokens": 493,
+    "cost": 0.03411
+  }
+]

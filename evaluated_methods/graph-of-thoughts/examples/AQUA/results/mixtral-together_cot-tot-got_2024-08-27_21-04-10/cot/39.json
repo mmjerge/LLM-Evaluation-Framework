@@ -1,0 +1,88 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "An aeroplane flies along the four sides of a square at the speeds of 200, 400, 600 and 800km/hr. Find the average speed of the plane around the field?",
+          "options": [
+            "A)384",
+            "B)562",
+            "C)458",
+            "D)156",
+            "E)452"
+          ],
+          "rationale": "Let the each side of the square is x km\naverage speed of plane is y km/hr\n(x/200)+(x/400)+(x/600)+(x/800) = 4x/y\n25x/2400 = 4x/y\ny= 384 km/hr\nAnswer is A",
+          "correct": "A"
+        },
+        "current": " Solution: To find the average speed of the aeroplane around the square field, we need to find the total distance traveled and the total time taken.\n\nThe total distance traveled is the perimeter of the square, which is 4 times the length of one side. Since the aeroplane flies along all four sides, the total distance is 4 * side. However, we don't know the length of the side, so we'll call it \"s\".\n\nThe total time taken is the sum of the time taken to fly along each side. The time taken to fly along each side is the length of the side divided by the speed of the aeroplane for that side. So, the total time is:\n\nTotal time = (s / 200) + (s / 400) + (s / 600) + (s / 800)\n\nTo simplify this, we find a common denominator for the fractions, which is 2400. So we get:\n\nTotal time = (12s / 2400) + (6s / 2400) + (4s / 2400) + (3s / 2400)\n\nTotal time = (12s + 6s + 4s + 3s) / 2400\n\nTotal time = 25s / 2400\n\nNow, the average speed is the total distance divided by the total time. Since the total distance is 4s, we have:\n\nAverage speed = (4s) / (25s / 2400)\n\nThe \"s\" cancels out, and we are left with:\n\nAverage speed = 4 * 2400 / 25\n\nAverage speed = 9600 / 25\n\nAverage speed = 384\n\nSo, the average speed of the aeroplane around the field is 384 km/hr.\n\nAnswer: A) 384",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "question": "An aeroplane flies along the four sides of a square at the speeds of 200, 400, 600 and 800km/hr. Find the average speed of the plane around the field?",
+          "options": [
+            "A)384",
+            "B)562",
+            "C)458",
+            "D)156",
+            "E)452"
+          ],
+          "rationale": "Let the each side of the square is x km\naverage speed of plane is y km/hr\n(x/200)+(x/400)+(x/600)+(x/800) = 4x/y\n25x/2400 = 4x/y\ny= 384 km/hr\nAnswer is A",
+          "correct": "A"
+        },
+        "current": " Solution: To find the average speed of the aeroplane around the square field, we need to find the total distance traveled and the total time taken.\n\nThe total distance traveled is the perimeter of the square, which is 4 times the length of one side. Since the aeroplane flies along all four sides, the total distance is 4 * side. However, we don't know the length of the side, so we'll call it \"s\".\n\nThe total time taken is the sum of the time taken to fly along each side. The time taken to fly along each side is the length of the side divided by the speed of the aeroplane for that side. So, the total time is:\n\nTotal time = (s / 200) + (s / 400) + (s / 600) + (s / 800)\n\nTo simplify this, we find a common denominator for the fractions, which is 2400. So we get:\n\nTotal time = (12s / 2400) + (6s / 2400) + (4s / 2400) + (3s / 2400)\n\nTotal time = (12s + 6s + 4s + 3s) / 2400\n\nTotal time = 25s / 2400\n\nNow, the average speed is the total distance divided by the total time. Since the total distance is 4s, we have:\n\nAverage speed = (4s) / (25s / 2400)\n\nThe \"s\" cancels out, and we are left with:\n\nAverage speed = 4 * 2400 / 25\n\nAverage speed = 9600 / 25\n\nAverage speed = 384\n\nSo, the average speed of the aeroplane around the field is 384 km/hr.\n\nAnswer: A) 384",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "A"
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "An aeroplane flies along the four sides of a square at the speeds of 200, 400, 600 and 800km/hr. Find the average speed of the plane around the field?",
+          "options": [
+            "A)384",
+            "B)562",
+            "C)458",
+            "D)156",
+            "E)452"
+          ],
+          "rationale": "Let the each side of the square is x km\naverage speed of plane is y km/hr\n(x/200)+(x/400)+(x/600)+(x/800) = 4x/y\n25x/2400 = 4x/y\ny= 384 km/hr\nAnswer is A",
+          "correct": "A"
+        },
+        "current": " Solution: To find the average speed of the aeroplane around the square field, we need to find the total distance traveled and the total time taken.\n\nThe total distance traveled is the perimeter of the square, which is 4 times the length of one side. Since the aeroplane flies along all four sides, the total distance is 4 * side. However, we don't know the length of the side, so we'll call it \"s\".\n\nThe total time taken is the sum of the time taken to fly along each side. The time taken to fly along each side is the length of the side divided by the speed of the aeroplane for that side. So, the total time is:\n\nTotal time = (s / 200) + (s / 400) + (s / 600) + (s / 800)\n\nTo simplify this, we find a common denominator for the fractions, which is 2400. So we get:\n\nTotal time = (12s / 2400) + (6s / 2400) + (4s / 2400) + (3s / 2400)\n\nTotal time = (12s + 6s + 4s + 3s) / 2400\n\nTotal time = 25s / 2400\n\nNow, the average speed is the total distance divided by the total time. Since the total distance is 4s, we have:\n\nAverage speed = (4s) / (25s / 2400)\n\nThe \"s\" cancels out, and we are left with:\n\nAverage speed = 4 * 2400 / 25\n\nAverage speed = 9600 / 25\n\nAverage speed = 384\n\nSo, the average speed of the aeroplane around the field is 384 km/hr.\n\nAnswer: A) 384",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "A"
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

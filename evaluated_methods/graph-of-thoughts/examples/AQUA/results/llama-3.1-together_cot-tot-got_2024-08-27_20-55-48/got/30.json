@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?",
+          "options": [
+            "A)20%",
+            "B)28%",
+            "C)36%",
+            "D)40%",
+            "E)42%"
+          ],
+          "rationale": "wholesale cost = 100;\noriginal price = 100*1.6 = 160;\nactual price = 160*0.8 = 128.\nAnswer: B.",
+          "correct": "B"
+        },
+        "current": "Let's break down the problem step by step.\n\nStep 1:  To begin, we are given that the original retail price of an appliance is 60 percent more than its wholesale cost. This means that if the wholesale cost is represented by the variable \"x,\" the original retail price can be calculated as 1.6x (since 100% + 60% = 160%, or 1.6 times the wholesale cost).\n\nStep 2:  Next, we are told that the appliance was actually sold for 20 percent less than the original retail price. This implies that the selling price is 80% of the original retail price, or 0.8 times the original retail price.\n\nStep 3:  To find the selling price in terms of the wholesale cost, we multiply the original retail price (1.6x) by 0.8, which gives us 1.28x.\n\nStep 4:  Now, we need to determine the percentage by which the selling price exceeds the wholesale cost. This can be calculated by finding the difference between the selling price (1.28x) and the wholesale cost (x), and then expressing this difference as a percentage of the wholesale cost.\n\nStep 5:  The difference between the selling price and the wholesale cost is 1.28x - x = 0.28x.\n\nStep 6:  To find the percentage by which the selling price exceeds the wholesale cost, we divide the difference (0.28x) by the wholesale cost (x) and then multiply by 100 to get the percentage.\n\nStep 7:  This gives us (0.28x / x) * 100 = 28%.\n\nStep 8:  Therefore, the appliance was sold for 28% more than its wholesale cost.\n\nAnswer: B) 28%",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?",
+          "options": [
+            "A)20%",
+            "B)28%",
+            "C)36%",
+            "D)40%",
+            "E)42%"
+          ],
+          "rationale": "wholesale cost = 100;\noriginal price = 100*1.6 = 160;\nactual price = 160*0.8 = 128.\nAnswer: B.",
+          "correct": "B"
+        },
+        "current": "Let's break down the problem step by step.\n\nStep 1:  To begin, we are given that the original retail price of an appliance is 60 percent more than its wholesale cost. This means that if the wholesale cost is represented by the variable \"x,\" the original retail price can be calculated as 1.6x (since 100% + 60% = 160%, or 1.6 times the wholesale cost).\n\nStep 2:  Next, we are told that the appliance was actually sold for 20 percent less than the original retail price. This implies that the selling price is 80% of the original retail price, or 0.8 times the original retail price.\n\nStep 3:  To find the selling price in terms of the wholesale cost, we multiply the original retail price (1.6x) by 0.8, which gives us 1.28x.\n\nStep 4:  Now, we need to determine the percentage by which the selling price exceeds the wholesale cost. This can be calculated by finding the difference between the selling price (1.28x) and the wholesale cost (x), and then expressing this difference as a percentage of the wholesale cost.\n\nStep 5:  The difference between the selling price and the wholesale cost is 1.28x - x = 0.28x.\n\nStep 6:  To find the percentage by which the selling price exceeds the wholesale cost, we divide the difference (0.28x) by the wholesale cost (x) and then multiply by 100 to get the percentage.\n\nStep 7:  This gives us (0.28x / x) * 100 = 28%.\n\nStep 8:  Therefore, the appliance was sold for 28% more than its wholesale cost.\n\nAnswer: B) 28%",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?",
+          "options": [
+            "A)20%",
+            "B)28%",
+            "C)36%",
+            "D)40%",
+            "E)42%"
+          ],
+          "rationale": "wholesale cost = 100;\noriginal price = 100*1.6 = 160;\nactual price = 160*0.8 = 128.\nAnswer: B.",
+          "correct": "B"
+        },
+        "current": "Let's break down the problem step by step.\n\nStep 1:  To begin, we are given that the original retail price of an appliance is 60 percent more than its wholesale cost. This means that if the wholesale cost is represented by the variable \"x,\" the original retail price can be calculated as 1.6x (since 100% + 60% = 160%, or 1.6 times the wholesale cost).\n\nStep 2:  Next, we are told that the appliance was actually sold for 20 percent less than the original retail price. This implies that the selling price is 80% of the original retail price, or 0.8 times the original retail price.\n\nStep 3:  To find the selling price in terms of the wholesale cost, we multiply the original retail price (1.6x) by 0.8, which gives us 1.28x.\n\nStep 4:  Now, we need to determine the percentage by which the selling price exceeds the wholesale cost. This can be calculated by finding the difference between the selling price (1.28x) and the wholesale cost (x), and then expressing this difference as a percentage of the wholesale cost.\n\nStep 5:  The difference between the selling price and the wholesale cost is 1.28x - x = 0.28x.\n\nStep 6:  To find the percentage by which the selling price exceeds the wholesale cost, we divide the difference (0.28x) by the wholesale cost (x) and then multiply by 100 to get the percentage.\n\nStep 7:  This gives us (0.28x / x) * 100 = 28%.\n\nStep 8:  Therefore, the appliance was sold for 28% more than its wholesale cost.\n\nAnswer: B) 28%",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?",
+          "options": [
+            "A)20%",
+            "B)28%",
+            "C)36%",
+            "D)40%",
+            "E)42%"
+          ],
+          "rationale": "wholesale cost = 100;\noriginal price = 100*1.6 = 160;\nactual price = 160*0.8 = 128.\nAnswer: B.",
+          "correct": "B"
+        },
+        "current": "Let's break down the problem step by step.\n\nStep 1:  To begin, we are given that the original retail price of an appliance is 60 percent more than its wholesale cost. This means that if the wholesale cost is represented by the variable \"x,\" the original retail price can be calculated as 1.6x (since 100% + 60% = 160%, or 1.6 times the wholesale cost).\n\nStep 2:  Next, we are told that the appliance was actually sold for 20 percent less than the original retail price. This implies that the selling price is 80% of the original retail price, or 0.8 times the original retail price.\n\nStep 3:  To find the selling price in terms of the wholesale cost, we multiply the original retail price (1.6x) by 0.8, which gives us 1.28x.\n\nStep 4:  Now, we need to determine the percentage by which the selling price exceeds the wholesale cost. This can be calculated by finding the difference between the selling price (1.28x) and the wholesale cost (x), and then expressing this difference as a percentage of the wholesale cost.\n\nStep 5:  The difference between the selling price and the wholesale cost is 1.28x - x = 0.28x.\n\nStep 6:  To find the percentage by which the selling price exceeds the wholesale cost, we divide the difference (0.28x) by the wholesale cost (x) and then multiply by 100 to get the percentage.\n\nStep 7:  This gives us (0.28x / x) * 100 = 28%.\n\nStep 8:  Therefore, the appliance was sold for 28% more than its wholesale cost.\n\nAnswer: B) 28%",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?",
+          "options": [
+            "A)20%",
+            "B)28%",
+            "C)36%",
+            "D)40%",
+            "E)42%"
+          ],
+          "rationale": "wholesale cost = 100;\noriginal price = 100*1.6 = 160;\nactual price = 160*0.8 = 128.\nAnswer: B.",
+          "correct": "B"
+        },
+        "current": "Let's break down the problem step by step.\n\nStep 1:  To begin, we are given that the original retail price of an appliance is 60 percent more than its wholesale cost. This means that if the wholesale cost is represented by the variable \"x,\" the original retail price can be calculated as 1.6x (since 100% + 60% = 160%, or 1.6 times the wholesale cost).\n\nStep 2:  Next, we are told that the appliance was actually sold for 20 percent less than the original retail price. This implies that the selling price is 80% of the original retail price, or 0.8 times the original retail price.\n\nStep 3:  To find the selling price in terms of the wholesale cost, we multiply the original retail price (1.6x) by 0.8, which gives us 1.28x.\n\nStep 4:  Now, we need to determine the percentage by which the selling price exceeds the wholesale cost. This can be calculated by finding the difference between the selling price (1.28x) and the wholesale cost (x), and then expressing this difference as a percentage of the wholesale cost.\n\nStep 5:  The difference between the selling price and the wholesale cost is 1.28x - x = 0.28x.\n\nStep 6:  To find the percentage by which the selling price exceeds the wholesale cost, we divide the difference (0.28x) by the wholesale cost (x) and then multiply by 100 to get the percentage.\n\nStep 7:  This gives us (0.28x / x) * 100 = 28%.\n\nStep 8:  Therefore, the appliance was sold for 28% more than its wholesale cost.\n\nAnswer: B) 28%",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

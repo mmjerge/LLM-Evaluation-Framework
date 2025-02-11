@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "The original price of an item is discounted 22%. A customer buys the item at this discounted price using a $20-off coupon. There is no tax on the item, and this was the only item the customer bought. If the customer paid $1.90 more than half the original price of the item, what was the original price of the item?",
+          "options": [
+            "A)$61",
+            "B)$65",
+            "C)$67.40",
+            "D)$70",
+            "E)$78.20"
+          ],
+          "rationale": "Let x be the original price of the item\nDiscounted price = 0.78x\nPayment made by the customer after using the $20 coupon = 0.78x - 20\n0.78x - 20 = x/2 + 1.9\nx = 78.20\nAnswer: E",
+          "correct": "E"
+        },
+        "current": "Let's solve this problem step by step:\n\nStep 1: Let's define the original price as x.\n\nStep 2: Calculate the discounted price after the 22% discount.\nDiscounted price = x - 0.22x = 0.78x\n\nStep 3: Apply the $20 coupon to the discounted price.\nFinal price = 0.78x - 20\n\nStep 4: We're told that the final price is $1.90 more than half the original price.\n0.78x - 20 = 0.5x + 1.90\n\nStep 5: Solve the equation for x.\n0.78x - 20 = 0.5x + 1.90\n0.28x = 21.90\nx = 21.90 / 0.28\nx = 78.21428...\n\nStep 6: Round to the nearest cent.\nx \u2248 $78.21\n\nStep 7: Check the given options and select the closest match.\n\nAnswer: E) $78.20",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "The original price of an item is discounted 22%. A customer buys the item at this discounted price using a $20-off coupon. There is no tax on the item, and this was the only item the customer bought. If the customer paid $1.90 more than half the original price of the item, what was the original price of the item?",
+          "options": [
+            "A)$61",
+            "B)$65",
+            "C)$67.40",
+            "D)$70",
+            "E)$78.20"
+          ],
+          "rationale": "Let x be the original price of the item\nDiscounted price = 0.78x\nPayment made by the customer after using the $20 coupon = 0.78x - 20\n0.78x - 20 = x/2 + 1.9\nx = 78.20\nAnswer: E",
+          "correct": "E"
+        },
+        "current": "Let's solve this problem step by step:\n\nStep 1: Let's define the original price as x.\n\nStep 2: Calculate the discounted price after the 22% discount.\nDiscounted price = x - 0.22x = 0.78x\n\nStep 3: Apply the $20 coupon to the discounted price.\nFinal price = 0.78x - 20\n\nStep 4: We're told that the final price is $1.90 more than half the original price.\n0.78x - 20 = 0.5x + 1.90\n\nStep 5: Solve the equation for x.\n0.78x - 20 = 0.5x + 1.90\n0.28x = 21.90\nx = 21.90 / 0.28\nx = 78.21428...\n\nStep 6: Round to the nearest cent.\nx \u2248 $78.21\n\nStep 7: Check the given options and select the closest match.\n\nAnswer: E) $78.20",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "The original price of an item is discounted 22%. A customer buys the item at this discounted price using a $20-off coupon. There is no tax on the item, and this was the only item the customer bought. If the customer paid $1.90 more than half the original price of the item, what was the original price of the item?",
+          "options": [
+            "A)$61",
+            "B)$65",
+            "C)$67.40",
+            "D)$70",
+            "E)$78.20"
+          ],
+          "rationale": "Let x be the original price of the item\nDiscounted price = 0.78x\nPayment made by the customer after using the $20 coupon = 0.78x - 20\n0.78x - 20 = x/2 + 1.9\nx = 78.20\nAnswer: E",
+          "correct": "E"
+        },
+        "current": "Let's solve this problem step by step:\n\nStep 1: Let's define the original price as x.\n\nStep 2: Calculate the discounted price after the 22% discount.\nDiscounted price = x - 0.22x = 0.78x\n\nStep 3: Apply the $20 coupon to the discounted price.\nFinal price = 0.78x - 20\n\nStep 4: We're told that the final price is $1.90 more than half the original price.\n0.78x - 20 = 0.5x + 1.90\n\nStep 5: Solve the equation for x.\n0.78x - 20 = 0.5x + 1.90\n0.28x = 21.90\nx = 21.90 / 0.28\nx = 78.21428...\n\nStep 6: Round to the nearest cent.\nx \u2248 $78.21\n\nStep 7: Check the given options and select the closest match.\n\nAnswer: E) $78.20",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "The original price of an item is discounted 22%. A customer buys the item at this discounted price using a $20-off coupon. There is no tax on the item, and this was the only item the customer bought. If the customer paid $1.90 more than half the original price of the item, what was the original price of the item?",
+          "options": [
+            "A)$61",
+            "B)$65",
+            "C)$67.40",
+            "D)$70",
+            "E)$78.20"
+          ],
+          "rationale": "Let x be the original price of the item\nDiscounted price = 0.78x\nPayment made by the customer after using the $20 coupon = 0.78x - 20\n0.78x - 20 = x/2 + 1.9\nx = 78.20\nAnswer: E",
+          "correct": "E"
+        },
+        "current": "Let's solve this problem step by step:\n\nStep 1: Let's define the original price as x.\n\nStep 2: Calculate the discounted price after the 22% discount.\nDiscounted price = x - 0.22x = 0.78x\n\nStep 3: Apply the $20 coupon to the discounted price.\nFinal price = 0.78x - 20\n\nStep 4: We're told that the final price is $1.90 more than half the original price.\n0.78x - 20 = 0.5x + 1.90\n\nStep 5: Solve the equation for x.\n0.78x - 20 = 0.5x + 1.90\n0.28x = 21.90\nx = 21.90 / 0.28\nx = 78.21428...\n\nStep 6: Round to the nearest cent.\nx \u2248 $78.21\n\nStep 7: Check the given options and select the closest match.\n\nAnswer: E) $78.20",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "The original price of an item is discounted 22%. A customer buys the item at this discounted price using a $20-off coupon. There is no tax on the item, and this was the only item the customer bought. If the customer paid $1.90 more than half the original price of the item, what was the original price of the item?",
+          "options": [
+            "A)$61",
+            "B)$65",
+            "C)$67.40",
+            "D)$70",
+            "E)$78.20"
+          ],
+          "rationale": "Let x be the original price of the item\nDiscounted price = 0.78x\nPayment made by the customer after using the $20 coupon = 0.78x - 20\n0.78x - 20 = x/2 + 1.9\nx = 78.20\nAnswer: E",
+          "correct": "E"
+        },
+        "current": "Let's solve this problem step by step:\n\nStep 1: Let's define the original price as x.\n\nStep 2: Calculate the discounted price after the 22% discount.\nDiscounted price = x - 0.22x = 0.78x\n\nStep 3: Apply the $20 coupon to the discounted price.\nFinal price = 0.78x - 20\n\nStep 4: We're told that the final price is $1.90 more than half the original price.\n0.78x - 20 = 0.5x + 1.90\n\nStep 5: Solve the equation for x.\n0.78x - 20 = 0.5x + 1.90\n0.28x = 21.90\nx = 21.90 / 0.28\nx = 78.21428...\n\nStep 6: Round to the nearest cent.\nx \u2248 $78.21\n\nStep 7: Check the given options and select the closest match.\n\nAnswer: E) $78.20",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

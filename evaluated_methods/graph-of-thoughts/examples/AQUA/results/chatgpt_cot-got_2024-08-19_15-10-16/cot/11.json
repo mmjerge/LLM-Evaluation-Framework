@@ -1,0 +1,88 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "At a certain factory, 10 percent of the staplers produced on Monday were defective and 2 percent of the non-defective staplers were rejected by mistake. If 72 of the non-defective staplers were rejected, what was the number of staplers produced that day?",
+          "options": [
+            "A)4,000",
+            "B)4,200",
+            "C)4,500",
+            "D)4,800",
+            "E)5,000"
+          ],
+          "rationale": "We're told that 10% of staplers in a factory are defective.\nX = Total staplers\n0.1X = defective staplers\n0.9X = normal staplers\nNext, we're told that 2% of the normal staplers were rejected by mistake and that this = 72 staplers.\n0.9X(0.02) = 72\n0.018X = 72\n18X = 72,000\nX = 4,000\nFinal Answer:\nA",
+          "correct": "A"
+        },
+        "current": "Given:\n- 10% of the staplers produced on Monday were defective.\n- 2% of the non-defective staplers were rejected by mistake.\n- 72 of the non-defective staplers were rejected.\n\nLet's denote the total number of staplers produced as x.\n\nStep 1: Calculate the number of defective staplers.\nDefective staplers = 0.10 * x\n\nStep 2: Calculate the number of non-defective staplers.\nNon-defective staplers = x - 0.10x = 0.90x\n\nStep 3: Calculate the number of non-defective staplers rejected mistakenly.\n0.02 * 0.90x = 72\n\nStep 4: Solve for x.\n0.018x = 72\nx = 72 / 0.018\nx = 4000\n\nAnswer: A) 4,000",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "question": "At a certain factory, 10 percent of the staplers produced on Monday were defective and 2 percent of the non-defective staplers were rejected by mistake. If 72 of the non-defective staplers were rejected, what was the number of staplers produced that day?",
+          "options": [
+            "A)4,000",
+            "B)4,200",
+            "C)4,500",
+            "D)4,800",
+            "E)5,000"
+          ],
+          "rationale": "We're told that 10% of staplers in a factory are defective.\nX = Total staplers\n0.1X = defective staplers\n0.9X = normal staplers\nNext, we're told that 2% of the normal staplers were rejected by mistake and that this = 72 staplers.\n0.9X(0.02) = 72\n0.018X = 72\n18X = 72,000\nX = 4,000\nFinal Answer:\nA",
+          "correct": "A"
+        },
+        "current": "Given:\n- 10% of the staplers produced on Monday were defective.\n- 2% of the non-defective staplers were rejected by mistake.\n- 72 of the non-defective staplers were rejected.\n\nLet's denote the total number of staplers produced as x.\n\nStep 1: Calculate the number of defective staplers.\nDefective staplers = 0.10 * x\n\nStep 2: Calculate the number of non-defective staplers.\nNon-defective staplers = x - 0.10x = 0.90x\n\nStep 3: Calculate the number of non-defective staplers rejected mistakenly.\n0.02 * 0.90x = 72\n\nStep 4: Solve for x.\n0.018x = 72\nx = 72 / 0.018\nx = 4000\n\nAnswer: A) 4,000",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "A"
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "At a certain factory, 10 percent of the staplers produced on Monday were defective and 2 percent of the non-defective staplers were rejected by mistake. If 72 of the non-defective staplers were rejected, what was the number of staplers produced that day?",
+          "options": [
+            "A)4,000",
+            "B)4,200",
+            "C)4,500",
+            "D)4,800",
+            "E)5,000"
+          ],
+          "rationale": "We're told that 10% of staplers in a factory are defective.\nX = Total staplers\n0.1X = defective staplers\n0.9X = normal staplers\nNext, we're told that 2% of the normal staplers were rejected by mistake and that this = 72 staplers.\n0.9X(0.02) = 72\n0.018X = 72\n18X = 72,000\nX = 4,000\nFinal Answer:\nA",
+          "correct": "A"
+        },
+        "current": "Given:\n- 10% of the staplers produced on Monday were defective.\n- 2% of the non-defective staplers were rejected by mistake.\n- 72 of the non-defective staplers were rejected.\n\nLet's denote the total number of staplers produced as x.\n\nStep 1: Calculate the number of defective staplers.\nDefective staplers = 0.10 * x\n\nStep 2: Calculate the number of non-defective staplers.\nNon-defective staplers = x - 0.10x = 0.90x\n\nStep 3: Calculate the number of non-defective staplers rejected mistakenly.\n0.02 * 0.90x = 72\n\nStep 4: Solve for x.\n0.018x = 72\nx = 72 / 0.018\nx = 4000\n\nAnswer: A) 4,000",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "A"
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 141,
+    "completion_tokens": 185,
+    "cost": 0.0005815
+  }
+]

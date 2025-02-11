@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "If 120 is reduced to 96, what is the reduction percent?",
+          "options": [
+            "A)30%",
+            "B)40%",
+            "C)20%",
+            "D)10%",
+            "E)5%"
+          ],
+          "rationale": "reduction = 120 \u2013 96 = 24\n\u2234 Reduction percent = (24/120)\u00d7100% =20%\nAnswer:C",
+          "correct": "C"
+        },
+        "current": "Let's solve this step by step:\n\nStep 1: Understand what reduction percent means.\nReduction percent is the percentage decrease from the original value.\n\nStep 2: Calculate the amount of reduction.\nOriginal value: 120\nReduced value: 96\nAmount of reduction = 120 - 96 = 24\n\nStep 3: Set up the percentage formula.\nPercentage = (Amount of change / Original amount) \u00d7 100\n\nStep 4: Plug in the values.\nPercentage = (24 / 120) \u00d7 100\n\nStep 5: Solve the equation.\nPercentage = 0.2 \u00d7 100 = 20%\n\nStep 6: Check the result against the given options.\nOur calculated result of 20% matches option C.\n\nAnswer: C) 20%",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "If 120 is reduced to 96, what is the reduction percent?",
+          "options": [
+            "A)30%",
+            "B)40%",
+            "C)20%",
+            "D)10%",
+            "E)5%"
+          ],
+          "rationale": "reduction = 120 \u2013 96 = 24\n\u2234 Reduction percent = (24/120)\u00d7100% =20%\nAnswer:C",
+          "correct": "C"
+        },
+        "current": "Let's solve this step by step:\n\nStep 1: Understand what reduction percent means.\nReduction percent is the percentage decrease from the original value.\n\nStep 2: Calculate the amount of reduction.\nOriginal value: 120\nReduced value: 96\nAmount of reduction = 120 - 96 = 24\n\nStep 3: Set up the percentage formula.\nPercentage = (Amount of change / Original amount) \u00d7 100\n\nStep 4: Plug in the values.\nPercentage = (24 / 120) \u00d7 100\n\nStep 5: Solve the equation.\nPercentage = 0.2 \u00d7 100 = 20%\n\nStep 6: Check the result against the given options.\nOur calculated result of 20% matches option C.\n\nAnswer: C) 20%",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "If 120 is reduced to 96, what is the reduction percent?",
+          "options": [
+            "A)30%",
+            "B)40%",
+            "C)20%",
+            "D)10%",
+            "E)5%"
+          ],
+          "rationale": "reduction = 120 \u2013 96 = 24\n\u2234 Reduction percent = (24/120)\u00d7100% =20%\nAnswer:C",
+          "correct": "C"
+        },
+        "current": "Let's solve this step by step:\n\nStep 1: Understand what reduction percent means.\nReduction percent is the percentage decrease from the original value.\n\nStep 2: Calculate the amount of reduction.\nOriginal value: 120\nReduced value: 96\nAmount of reduction = 120 - 96 = 24\n\nStep 3: Set up the percentage formula.\nPercentage = (Amount of change / Original amount) \u00d7 100\n\nStep 4: Plug in the values.\nPercentage = (24 / 120) \u00d7 100\n\nStep 5: Solve the equation.\nPercentage = 0.2 \u00d7 100 = 20%\n\nStep 6: Check the result against the given options.\nOur calculated result of 20% matches option C.\n\nAnswer: C) 20%",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "If 120 is reduced to 96, what is the reduction percent?",
+          "options": [
+            "A)30%",
+            "B)40%",
+            "C)20%",
+            "D)10%",
+            "E)5%"
+          ],
+          "rationale": "reduction = 120 \u2013 96 = 24\n\u2234 Reduction percent = (24/120)\u00d7100% =20%\nAnswer:C",
+          "correct": "C"
+        },
+        "current": "Let's solve this step by step:\n\nStep 1: Understand what reduction percent means.\nReduction percent is the percentage decrease from the original value.\n\nStep 2: Calculate the amount of reduction.\nOriginal value: 120\nReduced value: 96\nAmount of reduction = 120 - 96 = 24\n\nStep 3: Set up the percentage formula.\nPercentage = (Amount of change / Original amount) \u00d7 100\n\nStep 4: Plug in the values.\nPercentage = (24 / 120) \u00d7 100\n\nStep 5: Solve the equation.\nPercentage = 0.2 \u00d7 100 = 20%\n\nStep 6: Check the result against the given options.\nOur calculated result of 20% matches option C.\n\nAnswer: C) 20%",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "If 120 is reduced to 96, what is the reduction percent?",
+          "options": [
+            "A)30%",
+            "B)40%",
+            "C)20%",
+            "D)10%",
+            "E)5%"
+          ],
+          "rationale": "reduction = 120 \u2013 96 = 24\n\u2234 Reduction percent = (24/120)\u00d7100% =20%\nAnswer:C",
+          "correct": "C"
+        },
+        "current": "Let's solve this step by step:\n\nStep 1: Understand what reduction percent means.\nReduction percent is the percentage decrease from the original value.\n\nStep 2: Calculate the amount of reduction.\nOriginal value: 120\nReduced value: 96\nAmount of reduction = 120 - 96 = 24\n\nStep 3: Set up the percentage formula.\nPercentage = (Amount of change / Original amount) \u00d7 100\n\nStep 4: Plug in the values.\nPercentage = (24 / 120) \u00d7 100\n\nStep 5: Solve the equation.\nPercentage = 0.2 \u00d7 100 = 20%\n\nStep 6: Check the result against the given options.\nOur calculated result of 20% matches option C.\n\nAnswer: C) 20%",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

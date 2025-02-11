@@ -1,0 +1,88 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "An aeroplane flies along the four sides of a square at the speeds of 200, 400, 600 and 800km/hr. Find the average speed of the plane around the field?",
+          "options": [
+            "A)384",
+            "B)562",
+            "C)458",
+            "D)156",
+            "E)452"
+          ],
+          "rationale": "Let the each side of the square is x km\naverage speed of plane is y km/hr\n(x/200)+(x/400)+(x/600)+(x/800) = 4x/y\n25x/2400 = 4x/y\ny= 384 km/hr\nAnswer is A",
+          "correct": "A"
+        },
+        "current": "To find the average speed of the plane around the field, we can use the formula: Average Speed = Total Distance / Total Time\n\n1. Calculate the total distance around the square:\nSince it's a square, all sides are equal. Let's assume each side has a length of 1 unit. \nTotal distance = 4 * 1 = 4 units\n\n2. Calculate the total time taken to fly around the square:\nTime = Distance / Speed\nTime = 1 / 200 + 1 / 400 + 1 / 600 + 1 / 800\nTime = 0.005 + 0.0025 + 0.00167 + 0.00125\nTime = 0.01 + 0.00333 + 0.0025\nTime = 0.01583\n\n3. Calculate the average speed:\nAverage Speed = Total Distance / Total Time\nAverage Speed = 4 / 0.01583\nAverage Speed \u2248 252.7 km/hr\n\nAnswer: Average speed of the plane around the field is 252.7 km/hr, which is closer to option B) 562.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "question": "An aeroplane flies along the four sides of a square at the speeds of 200, 400, 600 and 800km/hr. Find the average speed of the plane around the field?",
+          "options": [
+            "A)384",
+            "B)562",
+            "C)458",
+            "D)156",
+            "E)452"
+          ],
+          "rationale": "Let the each side of the square is x km\naverage speed of plane is y km/hr\n(x/200)+(x/400)+(x/600)+(x/800) = 4x/y\n25x/2400 = 4x/y\ny= 384 km/hr\nAnswer is A",
+          "correct": "A"
+        },
+        "current": "To find the average speed of the plane around the field, we can use the formula: Average Speed = Total Distance / Total Time\n\n1. Calculate the total distance around the square:\nSince it's a square, all sides are equal. Let's assume each side has a length of 1 unit. \nTotal distance = 4 * 1 = 4 units\n\n2. Calculate the total time taken to fly around the square:\nTime = Distance / Speed\nTime = 1 / 200 + 1 / 400 + 1 / 600 + 1 / 800\nTime = 0.005 + 0.0025 + 0.00167 + 0.00125\nTime = 0.01 + 0.00333 + 0.0025\nTime = 0.01583\n\n3. Calculate the average speed:\nAverage Speed = Total Distance / Total Time\nAverage Speed = 4 / 0.01583\nAverage Speed \u2248 252.7 km/hr\n\nAnswer: Average speed of the plane around the field is 252.7 km/hr, which is closer to option B) 562.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "A"
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "An aeroplane flies along the four sides of a square at the speeds of 200, 400, 600 and 800km/hr. Find the average speed of the plane around the field?",
+          "options": [
+            "A)384",
+            "B)562",
+            "C)458",
+            "D)156",
+            "E)452"
+          ],
+          "rationale": "Let the each side of the square is x km\naverage speed of plane is y km/hr\n(x/200)+(x/400)+(x/600)+(x/800) = 4x/y\n25x/2400 = 4x/y\ny= 384 km/hr\nAnswer is A",
+          "correct": "A"
+        },
+        "current": "To find the average speed of the plane around the field, we can use the formula: Average Speed = Total Distance / Total Time\n\n1. Calculate the total distance around the square:\nSince it's a square, all sides are equal. Let's assume each side has a length of 1 unit. \nTotal distance = 4 * 1 = 4 units\n\n2. Calculate the total time taken to fly around the square:\nTime = Distance / Speed\nTime = 1 / 200 + 1 / 400 + 1 / 600 + 1 / 800\nTime = 0.005 + 0.0025 + 0.00167 + 0.00125\nTime = 0.01 + 0.00333 + 0.0025\nTime = 0.01583\n\n3. Calculate the average speed:\nAverage Speed = Total Distance / Total Time\nAverage Speed = 4 / 0.01583\nAverage Speed \u2248 252.7 km/hr\n\nAnswer: Average speed of the plane around the field is 252.7 km/hr, which is closer to option B) 562.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      "A"
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      false
+    ]
+  },
+  {
+    "prompt_tokens": 115,
+    "completion_tokens": 239,
+    "cost": 0.0006505
+  }
+]

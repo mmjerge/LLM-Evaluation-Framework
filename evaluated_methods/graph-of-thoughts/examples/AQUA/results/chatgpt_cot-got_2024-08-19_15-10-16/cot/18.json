@@ -1,0 +1,88 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "An exam is given in a certain class. The average (arithmetic mean) of the highest score and the lowest score is equal to x. If the average score for the entire class is equal to y and there are z students in the class, where z > 5, then in terms of x, y, and z, what is the average score for the class excluding the highest and lowest scorers?",
+          "options": [
+            "A)(zy \u2013 2x)/z",
+            "B)(zy \u2013 2)/z",
+            "C)(zx \u2013 y)/(z \u2013 2)",
+            "D)(zy \u2013 2x)/(z -2)",
+            "E)(zy \u2013 x)/(z + 2)"
+          ],
+          "rationale": "Highest: H\nLowest: L\nNumber of students in the class: Z\nNumber of students in the class excluding the highest and lowest : Z-2\nAverage of Highest and Lowest: (H + L)/2=X => H+L=2X\nAverage of Entire Class : (H+L+Others)/Z=Y => Others= ZY-2X\nAverage of the others in the class: (ZY-2X)/(Z-2)\nAnswer: D",
+          "correct": "D"
+        },
+        "current": "Given that the average of the highest score and the lowest score is x, we can represent this as:\n(Highest score + Lowest score) / 2 = x\n(Since it is the average of the two extreme scores)\n\nSolving for the sum of the highest and lowest scores:\nHighest score + Lowest score = 2x\n\nGiven that the average score for the entire class is y, we can represent this as:\n(Total sum of all scores) / Number of students = y\n(Since average = sum of scores / number of students)\n\nSolving for the total sum of all scores:\nTotal sum of all scores = y * z\n\nNow, to find the sum of all scores excluding the highest and lowest scorers, we subtract the highest and lowest scores from the total sum of all scores:\nTotal sum of all scores excluding highest and lowest = (y * z) - (2x)\n\nFinally, to find the average score excluding the highest and lowest scorers, we divide the sum by the total number of students excluding the highest and lowest scorers (which is z - 2):\nAverage score excluding highest and lowest = ((y * z) - (2x)) / (z - 2)\n\nTherefore, the answer is:\nAnswer: ((yz) - (2x)) / (z - 2) => Option D",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "question": "An exam is given in a certain class. The average (arithmetic mean) of the highest score and the lowest score is equal to x. If the average score for the entire class is equal to y and there are z students in the class, where z > 5, then in terms of x, y, and z, what is the average score for the class excluding the highest and lowest scorers?",
+          "options": [
+            "A)(zy \u2013 2x)/z",
+            "B)(zy \u2013 2)/z",
+            "C)(zx \u2013 y)/(z \u2013 2)",
+            "D)(zy \u2013 2x)/(z -2)",
+            "E)(zy \u2013 x)/(z + 2)"
+          ],
+          "rationale": "Highest: H\nLowest: L\nNumber of students in the class: Z\nNumber of students in the class excluding the highest and lowest : Z-2\nAverage of Highest and Lowest: (H + L)/2=X => H+L=2X\nAverage of Entire Class : (H+L+Others)/Z=Y => Others= ZY-2X\nAverage of the others in the class: (ZY-2X)/(Z-2)\nAnswer: D",
+          "correct": "D"
+        },
+        "current": "Given that the average of the highest score and the lowest score is x, we can represent this as:\n(Highest score + Lowest score) / 2 = x\n(Since it is the average of the two extreme scores)\n\nSolving for the sum of the highest and lowest scores:\nHighest score + Lowest score = 2x\n\nGiven that the average score for the entire class is y, we can represent this as:\n(Total sum of all scores) / Number of students = y\n(Since average = sum of scores / number of students)\n\nSolving for the total sum of all scores:\nTotal sum of all scores = y * z\n\nNow, to find the sum of all scores excluding the highest and lowest scorers, we subtract the highest and lowest scores from the total sum of all scores:\nTotal sum of all scores excluding highest and lowest = (y * z) - (2x)\n\nFinally, to find the average score excluding the highest and lowest scorers, we divide the sum by the total number of students excluding the highest and lowest scorers (which is z - 2):\nAverage score excluding highest and lowest = ((y * z) - (2x)) / (z - 2)\n\nTherefore, the answer is:\nAnswer: ((yz) - (2x)) / (z - 2) => Option D",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      ""
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "An exam is given in a certain class. The average (arithmetic mean) of the highest score and the lowest score is equal to x. If the average score for the entire class is equal to y and there are z students in the class, where z > 5, then in terms of x, y, and z, what is the average score for the class excluding the highest and lowest scorers?",
+          "options": [
+            "A)(zy \u2013 2x)/z",
+            "B)(zy \u2013 2)/z",
+            "C)(zx \u2013 y)/(z \u2013 2)",
+            "D)(zy \u2013 2x)/(z -2)",
+            "E)(zy \u2013 x)/(z + 2)"
+          ],
+          "rationale": "Highest: H\nLowest: L\nNumber of students in the class: Z\nNumber of students in the class excluding the highest and lowest : Z-2\nAverage of Highest and Lowest: (H + L)/2=X => H+L=2X\nAverage of Entire Class : (H+L+Others)/Z=Y => Others= ZY-2X\nAverage of the others in the class: (ZY-2X)/(Z-2)\nAnswer: D",
+          "correct": "D"
+        },
+        "current": "Given that the average of the highest score and the lowest score is x, we can represent this as:\n(Highest score + Lowest score) / 2 = x\n(Since it is the average of the two extreme scores)\n\nSolving for the sum of the highest and lowest scores:\nHighest score + Lowest score = 2x\n\nGiven that the average score for the entire class is y, we can represent this as:\n(Total sum of all scores) / Number of students = y\n(Since average = sum of scores / number of students)\n\nSolving for the total sum of all scores:\nTotal sum of all scores = y * z\n\nNow, to find the sum of all scores excluding the highest and lowest scorers, we subtract the highest and lowest scores from the total sum of all scores:\nTotal sum of all scores excluding highest and lowest = (y * z) - (2x)\n\nFinally, to find the average score excluding the highest and lowest scorers, we divide the sum by the total number of students excluding the highest and lowest scorers (which is z - 2):\nAverage score excluding highest and lowest = ((y * z) - (2x)) / (z - 2)\n\nTherefore, the answer is:\nAnswer: ((yz) - (2x)) / (z - 2) => Option D",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      ""
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 190,
+    "completion_tokens": 274,
+    "cost": 0.0008330000000000001
+  }
+]

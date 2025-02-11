@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years",
+          "options": [
+            "A)750",
+            "B)700",
+            "C)620",
+            "D)600",
+            "E)None of these"
+          ],
+          "rationale": "We need to calculate the total amount to be paid by him after 4 years, so it will be Principal + simple interest.\nSo,\n=>500+500\u22176\u22174 /100=>Rs.620\nOption C",
+          "correct": "C"
+        },
+        "current": "To determine the total amount Rahul will pay after 4 years on a loan of Rs. 500 at an annual simple interest rate of 6%, we can follow these steps:\n\n1. **Understand Simple Interest Formula**:\n   The formula for simple interest is:\n   \\[\n   \\text{Simple Interest (SI)} = \\frac{P \\times R \\times T}{100}\n   \\]\n   where \\( P \\) is the principal amount, \\( R \\) is the rate of interest per annum, and \\( T \\) is the time period in years.\n\n2. **Identify Given Values**:\n   From the problem, we have:\n   \\[\n   P = 500 \\, \\text{Rs.}, \\quad R = 6\\%, \\quad T = 4 \\, \\text{years}\n   \\]\n\n3. **Calculate Simple Interest**:\n   Substituting the given values into the SI formula:\n   \\[\n   \\text{SI} = \\frac{500 \\times 6 \\times 4}{100}\n   \\]\n   Simplify the expression:\n   \\[\n   \\text{SI} = \\frac{12000}{100} = 120 \\, \\text{Rs.}\n   \\]\n\n4. **Determine Total Amount to be Paid**:\n   The total amount Rahul will pay is the sum of the principal amount and the simple interest:\n   \\[\n   \\text{Total Amount} = P + \\text{SI}\n   \\]\n   Substituting the values we know:\n   \\[\n   \\text{Total Amount} = 500 + 120 = 620 \\, \\text{Rs.}\n   \\]\n\n5. **Select the Correct Option**:\n   Comparing with the options given:\n   \\[\n   \\text{A) 750, B) 700, C) 620, D) 600, E) None of these}\n   \\]\n   The correct answer is option C) 620.\n\nAnswer: C) 620",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years",
+          "options": [
+            "A)750",
+            "B)700",
+            "C)620",
+            "D)600",
+            "E)None of these"
+          ],
+          "rationale": "We need to calculate the total amount to be paid by him after 4 years, so it will be Principal + simple interest.\nSo,\n=>500+500\u22176\u22174 /100=>Rs.620\nOption C",
+          "correct": "C"
+        },
+        "current": "To determine the total amount Rahul will pay after 4 years on a loan of Rs. 500 at an annual simple interest rate of 6%, we can follow these steps:\n\n1. **Understand Simple Interest Formula**:\n   The formula for simple interest is:\n   \\[\n   \\text{Simple Interest (SI)} = \\frac{P \\times R \\times T}{100}\n   \\]\n   where \\( P \\) is the principal amount, \\( R \\) is the rate of interest per annum, and \\( T \\) is the time period in years.\n\n2. **Identify Given Values**:\n   From the problem, we have:\n   \\[\n   P = 500 \\, \\text{Rs.}, \\quad R = 6\\%, \\quad T = 4 \\, \\text{years}\n   \\]\n\n3. **Calculate Simple Interest**:\n   Substituting the given values into the SI formula:\n   \\[\n   \\text{SI} = \\frac{500 \\times 6 \\times 4}{100}\n   \\]\n   Simplify the expression:\n   \\[\n   \\text{SI} = \\frac{12000}{100} = 120 \\, \\text{Rs.}\n   \\]\n\n4. **Determine Total Amount to be Paid**:\n   The total amount Rahul will pay is the sum of the principal amount and the simple interest:\n   \\[\n   \\text{Total Amount} = P + \\text{SI}\n   \\]\n   Substituting the values we know:\n   \\[\n   \\text{Total Amount} = 500 + 120 = 620 \\, \\text{Rs.}\n   \\]\n\n5. **Select the Correct Option**:\n   Comparing with the options given:\n   \\[\n   \\text{A) 750, B) 700, C) 620, D) 600, E) None of these}\n   \\]\n   The correct answer is option C) 620.\n\nAnswer: C) 620",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years",
+          "options": [
+            "A)750",
+            "B)700",
+            "C)620",
+            "D)600",
+            "E)None of these"
+          ],
+          "rationale": "We need to calculate the total amount to be paid by him after 4 years, so it will be Principal + simple interest.\nSo,\n=>500+500\u22176\u22174 /100=>Rs.620\nOption C",
+          "correct": "C"
+        },
+        "current": "To determine the total amount Rahul will pay after 4 years on a loan of Rs. 500 at an annual simple interest rate of 6%, we can follow these steps:\n\n1. **Understand Simple Interest Formula**:\n   The formula for simple interest is:\n   \\[\n   \\text{Simple Interest (SI)} = \\frac{P \\times R \\times T}{100}\n   \\]\n   where \\( P \\) is the principal amount, \\( R \\) is the rate of interest per annum, and \\( T \\) is the time period in years.\n\n2. **Identify Given Values**:\n   From the problem, we have:\n   \\[\n   P = 500 \\, \\text{Rs.}, \\quad R = 6\\%, \\quad T = 4 \\, \\text{years}\n   \\]\n\n3. **Calculate Simple Interest**:\n   Substituting the given values into the SI formula:\n   \\[\n   \\text{SI} = \\frac{500 \\times 6 \\times 4}{100}\n   \\]\n   Simplify the expression:\n   \\[\n   \\text{SI} = \\frac{12000}{100} = 120 \\, \\text{Rs.}\n   \\]\n\n4. **Determine Total Amount to be Paid**:\n   The total amount Rahul will pay is the sum of the principal amount and the simple interest:\n   \\[\n   \\text{Total Amount} = P + \\text{SI}\n   \\]\n   Substituting the values we know:\n   \\[\n   \\text{Total Amount} = 500 + 120 = 620 \\, \\text{Rs.}\n   \\]\n\n5. **Select the Correct Option**:\n   Comparing with the options given:\n   \\[\n   \\text{A) 750, B) 700, C) 620, D) 600, E) None of these}\n   \\]\n   The correct answer is option C) 620.\n\nAnswer: C) 620",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years",
+          "options": [
+            "A)750",
+            "B)700",
+            "C)620",
+            "D)600",
+            "E)None of these"
+          ],
+          "rationale": "We need to calculate the total amount to be paid by him after 4 years, so it will be Principal + simple interest.\nSo,\n=>500+500\u22176\u22174 /100=>Rs.620\nOption C",
+          "correct": "C"
+        },
+        "current": "To determine the total amount Rahul will pay after 4 years on a loan of Rs. 500 at an annual simple interest rate of 6%, we can follow these steps:\n\n1. **Understand Simple Interest Formula**:\n   The formula for simple interest is:\n   \\[\n   \\text{Simple Interest (SI)} = \\frac{P \\times R \\times T}{100}\n   \\]\n   where \\( P \\) is the principal amount, \\( R \\) is the rate of interest per annum, and \\( T \\) is the time period in years.\n\n2. **Identify Given Values**:\n   From the problem, we have:\n   \\[\n   P = 500 \\, \\text{Rs.}, \\quad R = 6\\%, \\quad T = 4 \\, \\text{years}\n   \\]\n\n3. **Calculate Simple Interest**:\n   Substituting the given values into the SI formula:\n   \\[\n   \\text{SI} = \\frac{500 \\times 6 \\times 4}{100}\n   \\]\n   Simplify the expression:\n   \\[\n   \\text{SI} = \\frac{12000}{100} = 120 \\, \\text{Rs.}\n   \\]\n\n4. **Determine Total Amount to be Paid**:\n   The total amount Rahul will pay is the sum of the principal amount and the simple interest:\n   \\[\n   \\text{Total Amount} = P + \\text{SI}\n   \\]\n   Substituting the values we know:\n   \\[\n   \\text{Total Amount} = 500 + 120 = 620 \\, \\text{Rs.}\n   \\]\n\n5. **Select the Correct Option**:\n   Comparing with the options given:\n   \\[\n   \\text{A) 750, B) 700, C) 620, D) 600, E) None of these}\n   \\]\n   The correct answer is option C) 620.\n\nAnswer: C) 620",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years",
+          "options": [
+            "A)750",
+            "B)700",
+            "C)620",
+            "D)600",
+            "E)None of these"
+          ],
+          "rationale": "We need to calculate the total amount to be paid by him after 4 years, so it will be Principal + simple interest.\nSo,\n=>500+500\u22176\u22174 /100=>Rs.620\nOption C",
+          "correct": "C"
+        },
+        "current": "To determine the total amount Rahul will pay after 4 years on a loan of Rs. 500 at an annual simple interest rate of 6%, we can follow these steps:\n\n1. **Understand Simple Interest Formula**:\n   The formula for simple interest is:\n   \\[\n   \\text{Simple Interest (SI)} = \\frac{P \\times R \\times T}{100}\n   \\]\n   where \\( P \\) is the principal amount, \\( R \\) is the rate of interest per annum, and \\( T \\) is the time period in years.\n\n2. **Identify Given Values**:\n   From the problem, we have:\n   \\[\n   P = 500 \\, \\text{Rs.}, \\quad R = 6\\%, \\quad T = 4 \\, \\text{years}\n   \\]\n\n3. **Calculate Simple Interest**:\n   Substituting the given values into the SI formula:\n   \\[\n   \\text{SI} = \\frac{500 \\times 6 \\times 4}{100}\n   \\]\n   Simplify the expression:\n   \\[\n   \\text{SI} = \\frac{12000}{100} = 120 \\, \\text{Rs.}\n   \\]\n\n4. **Determine Total Amount to be Paid**:\n   The total amount Rahul will pay is the sum of the principal amount and the simple interest:\n   \\[\n   \\text{Total Amount} = P + \\text{SI}\n   \\]\n   Substituting the values we know:\n   \\[\n   \\text{Total Amount} = 500 + 120 = 620 \\, \\text{Rs.}\n   \\]\n\n5. **Select the Correct Option**:\n   Comparing with the options given:\n   \\[\n   \\text{A) 750, B) 700, C) 620, D) 600, E) None of these}\n   \\]\n   The correct answer is option C) 620.\n\nAnswer: C) 620",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 107,
+    "completion_tokens": 418,
+    "cost": 0.02829
+  }
+]

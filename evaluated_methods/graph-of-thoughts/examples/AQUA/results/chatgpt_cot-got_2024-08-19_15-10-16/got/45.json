@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000?",
+          "options": [
+            "A)81900",
+            "B)85995",
+            "C)85800",
+            "D)90000",
+            "E)None of these"
+          ],
+          "rationale": "The % change in population of city in two years time is 1.05*1.05 = 1.1025 = 10.25%\nTherefore, after 2 years the population of the city will be 1.1025 * 78000 = 85995\nANSWER B",
+          "correct": "B"
+        },
+        "current": "To solve this question step by step, we will first calculate the population of the city after 1 year, then after 2 years.\n\nStep 1: Calculate the population after 1 year.\nPopulation after 1 year = 78000 + (5% of 78000)\n= 78000 + (0.05 * 78000)\n= 78000 + 3900\n= 81900\n\nStep 2: Calculate the population after 2 years.\nPopulation after 2 years = Population after 1 year + (5% of Population after 1 year)\n= 81900 + (0.05 * 81900)\n= 81900 + 4095\n= 85995\n\nTherefore, the population of the city in 2 years time will be 85995.\n\nAnswer: B) 85995",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000?",
+          "options": [
+            "A)81900",
+            "B)85995",
+            "C)85800",
+            "D)90000",
+            "E)None of these"
+          ],
+          "rationale": "The % change in population of city in two years time is 1.05*1.05 = 1.1025 = 10.25%\nTherefore, after 2 years the population of the city will be 1.1025 * 78000 = 85995\nANSWER B",
+          "correct": "B"
+        },
+        "current": "To solve this question step by step, we will first calculate the population of the city after 1 year, then after 2 years.\n\nStep 1: Calculate the population after 1 year.\nPopulation after 1 year = 78000 + (5% of 78000)\n= 78000 + (0.05 * 78000)\n= 78000 + 3900\n= 81900\n\nStep 2: Calculate the population after 2 years.\nPopulation after 2 years = Population after 1 year + (5% of Population after 1 year)\n= 81900 + (0.05 * 81900)\n= 81900 + 4095\n= 85995\n\nTherefore, the population of the city in 2 years time will be 85995.\n\nAnswer: B) 85995",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000?",
+          "options": [
+            "A)81900",
+            "B)85995",
+            "C)85800",
+            "D)90000",
+            "E)None of these"
+          ],
+          "rationale": "The % change in population of city in two years time is 1.05*1.05 = 1.1025 = 10.25%\nTherefore, after 2 years the population of the city will be 1.1025 * 78000 = 85995\nANSWER B",
+          "correct": "B"
+        },
+        "current": "To solve this question step by step, we will first calculate the population of the city after 1 year, then after 2 years.\n\nStep 1: Calculate the population after 1 year.\nPopulation after 1 year = 78000 + (5% of 78000)\n= 78000 + (0.05 * 78000)\n= 78000 + 3900\n= 81900\n\nStep 2: Calculate the population after 2 years.\nPopulation after 2 years = Population after 1 year + (5% of Population after 1 year)\n= 81900 + (0.05 * 81900)\n= 81900 + 4095\n= 85995\n\nTherefore, the population of the city in 2 years time will be 85995.\n\nAnswer: B) 85995",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000?",
+          "options": [
+            "A)81900",
+            "B)85995",
+            "C)85800",
+            "D)90000",
+            "E)None of these"
+          ],
+          "rationale": "The % change in population of city in two years time is 1.05*1.05 = 1.1025 = 10.25%\nTherefore, after 2 years the population of the city will be 1.1025 * 78000 = 85995\nANSWER B",
+          "correct": "B"
+        },
+        "current": "To solve this question step by step, we will first calculate the population of the city after 1 year, then after 2 years.\n\nStep 1: Calculate the population after 1 year.\nPopulation after 1 year = 78000 + (5% of 78000)\n= 78000 + (0.05 * 78000)\n= 78000 + 3900\n= 81900\n\nStep 2: Calculate the population after 2 years.\nPopulation after 2 years = Population after 1 year + (5% of Population after 1 year)\n= 81900 + (0.05 * 81900)\n= 81900 + 4095\n= 85995\n\nTherefore, the population of the city in 2 years time will be 85995.\n\nAnswer: B) 85995",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000?",
+          "options": [
+            "A)81900",
+            "B)85995",
+            "C)85800",
+            "D)90000",
+            "E)None of these"
+          ],
+          "rationale": "The % change in population of city in two years time is 1.05*1.05 = 1.1025 = 10.25%\nTherefore, after 2 years the population of the city will be 1.1025 * 78000 = 85995\nANSWER B",
+          "correct": "B"
+        },
+        "current": "To solve this question step by step, we will first calculate the population of the city after 1 year, then after 2 years.\n\nStep 1: Calculate the population after 1 year.\nPopulation after 1 year = 78000 + (5% of 78000)\n= 78000 + (0.05 * 78000)\n= 78000 + 3900\n= 81900\n\nStep 2: Calculate the population after 2 years.\nPopulation after 2 years = Population after 1 year + (5% of Population after 1 year)\n= 81900 + (0.05 * 81900)\n= 81900 + 4095\n= 85995\n\nTherefore, the population of the city in 2 years time will be 85995.\n\nAnswer: B) 85995",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 115,
+    "completion_tokens": 173,
+    "cost": 0.0005185000000000001
+  }
+]

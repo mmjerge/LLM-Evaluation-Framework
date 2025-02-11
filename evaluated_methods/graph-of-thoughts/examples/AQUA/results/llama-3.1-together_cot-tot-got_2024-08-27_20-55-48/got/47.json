@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "A shopkeeper employed a servant at a monthly salary of 1500. In addition to it, he agreed to pay him a commission of 15% on the monthly sale. How much sale in Rupees should the servant do if he wants his monthly income as 6000?",
+          "options": [
+            "A)30000",
+            "B)415000",
+            "C)31500",
+            "D)50000",
+            "E)None of these"
+          ],
+          "rationale": "Servant\u2019s commission amount\n= 6000 \u2013 1500 = 4500\ni.e.,15% = 4500\nor,100% = 4500\u204415 \u00d7 100 = 30000\nAnswer A",
+          "correct": "A"
+        },
+        "current": "To solve this problem, we need to calculate the total monthly income the servant wants, which is 6000, and then find out the additional income he gets from the commission. We can then use this information to calculate the total sales required.\n\nStep 1: Calculate the additional income the servant wants from the commission.\nAdditional income = Total monthly income - Monthly salary\nAdditional income = 6000 - 1500\nAdditional income = 4500\n\nStep 2: Calculate the total sales required to get the additional income from the commission.\nCommission percentage = 15%\nLet's assume the total sales required is x.\nCommission = 15% of x = 0.15x\nSince the commission is equal to the additional income, we can set up the equation:\n0.15x = 4500\n\nStep 3: Solve for x.\nx = 4500 / 0.15\nx = 30000\n\nTherefore, the servant needs to do a sale of 30000 Rupees to get a monthly income of 6000.\n\nAnswer: A) 30000",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "A shopkeeper employed a servant at a monthly salary of 1500. In addition to it, he agreed to pay him a commission of 15% on the monthly sale. How much sale in Rupees should the servant do if he wants his monthly income as 6000?",
+          "options": [
+            "A)30000",
+            "B)415000",
+            "C)31500",
+            "D)50000",
+            "E)None of these"
+          ],
+          "rationale": "Servant\u2019s commission amount\n= 6000 \u2013 1500 = 4500\ni.e.,15% = 4500\nor,100% = 4500\u204415 \u00d7 100 = 30000\nAnswer A",
+          "correct": "A"
+        },
+        "current": "To solve this problem, we need to calculate the total monthly income the servant wants, which is 6000, and then find out the additional income he gets from the commission. We can then use this information to calculate the total sales required.\n\nStep 1: Calculate the additional income the servant wants from the commission.\nAdditional income = Total monthly income - Monthly salary\nAdditional income = 6000 - 1500\nAdditional income = 4500\n\nStep 2: Calculate the total sales required to get the additional income from the commission.\nCommission percentage = 15%\nLet's assume the total sales required is x.\nCommission = 15% of x = 0.15x\nSince the commission is equal to the additional income, we can set up the equation:\n0.15x = 4500\n\nStep 3: Solve for x.\nx = 4500 / 0.15\nx = 30000\n\nTherefore, the servant needs to do a sale of 30000 Rupees to get a monthly income of 6000.\n\nAnswer: A) 30000",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A shopkeeper employed a servant at a monthly salary of 1500. In addition to it, he agreed to pay him a commission of 15% on the monthly sale. How much sale in Rupees should the servant do if he wants his monthly income as 6000?",
+          "options": [
+            "A)30000",
+            "B)415000",
+            "C)31500",
+            "D)50000",
+            "E)None of these"
+          ],
+          "rationale": "Servant\u2019s commission amount\n= 6000 \u2013 1500 = 4500\ni.e.,15% = 4500\nor,100% = 4500\u204415 \u00d7 100 = 30000\nAnswer A",
+          "correct": "A"
+        },
+        "current": "To solve this problem, we need to calculate the total monthly income the servant wants, which is 6000, and then find out the additional income he gets from the commission. We can then use this information to calculate the total sales required.\n\nStep 1: Calculate the additional income the servant wants from the commission.\nAdditional income = Total monthly income - Monthly salary\nAdditional income = 6000 - 1500\nAdditional income = 4500\n\nStep 2: Calculate the total sales required to get the additional income from the commission.\nCommission percentage = 15%\nLet's assume the total sales required is x.\nCommission = 15% of x = 0.15x\nSince the commission is equal to the additional income, we can set up the equation:\n0.15x = 4500\n\nStep 3: Solve for x.\nx = 4500 / 0.15\nx = 30000\n\nTherefore, the servant needs to do a sale of 30000 Rupees to get a monthly income of 6000.\n\nAnswer: A) 30000",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A shopkeeper employed a servant at a monthly salary of 1500. In addition to it, he agreed to pay him a commission of 15% on the monthly sale. How much sale in Rupees should the servant do if he wants his monthly income as 6000?",
+          "options": [
+            "A)30000",
+            "B)415000",
+            "C)31500",
+            "D)50000",
+            "E)None of these"
+          ],
+          "rationale": "Servant\u2019s commission amount\n= 6000 \u2013 1500 = 4500\ni.e.,15% = 4500\nor,100% = 4500\u204415 \u00d7 100 = 30000\nAnswer A",
+          "correct": "A"
+        },
+        "current": "To solve this problem, we need to calculate the total monthly income the servant wants, which is 6000, and then find out the additional income he gets from the commission. We can then use this information to calculate the total sales required.\n\nStep 1: Calculate the additional income the servant wants from the commission.\nAdditional income = Total monthly income - Monthly salary\nAdditional income = 6000 - 1500\nAdditional income = 4500\n\nStep 2: Calculate the total sales required to get the additional income from the commission.\nCommission percentage = 15%\nLet's assume the total sales required is x.\nCommission = 15% of x = 0.15x\nSince the commission is equal to the additional income, we can set up the equation:\n0.15x = 4500\n\nStep 3: Solve for x.\nx = 4500 / 0.15\nx = 30000\n\nTherefore, the servant needs to do a sale of 30000 Rupees to get a monthly income of 6000.\n\nAnswer: A) 30000",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A shopkeeper employed a servant at a monthly salary of 1500. In addition to it, he agreed to pay him a commission of 15% on the monthly sale. How much sale in Rupees should the servant do if he wants his monthly income as 6000?",
+          "options": [
+            "A)30000",
+            "B)415000",
+            "C)31500",
+            "D)50000",
+            "E)None of these"
+          ],
+          "rationale": "Servant\u2019s commission amount\n= 6000 \u2013 1500 = 4500\ni.e.,15% = 4500\nor,100% = 4500\u204415 \u00d7 100 = 30000\nAnswer A",
+          "correct": "A"
+        },
+        "current": "To solve this problem, we need to calculate the total monthly income the servant wants, which is 6000, and then find out the additional income he gets from the commission. We can then use this information to calculate the total sales required.\n\nStep 1: Calculate the additional income the servant wants from the commission.\nAdditional income = Total monthly income - Monthly salary\nAdditional income = 6000 - 1500\nAdditional income = 4500\n\nStep 2: Calculate the total sales required to get the additional income from the commission.\nCommission percentage = 15%\nLet's assume the total sales required is x.\nCommission = 15% of x = 0.15x\nSince the commission is equal to the additional income, we can set up the equation:\n0.15x = 4500\n\nStep 3: Solve for x.\nx = 4500 / 0.15\nx = 30000\n\nTherefore, the servant needs to do a sale of 30000 Rupees to get a monthly income of 6000.\n\nAnswer: A) 30000",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

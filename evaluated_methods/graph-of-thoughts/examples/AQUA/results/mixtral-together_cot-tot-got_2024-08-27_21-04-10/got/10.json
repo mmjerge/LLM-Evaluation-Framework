@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?",
+          "options": [
+            "A)226",
+            "B)230",
+            "C)240",
+            "D)260",
+            "E)280"
+          ],
+          "rationale": "450*12(x-110)=626400\nwhere x is a selling cost of one item\nx-110, is a profit from one item\n450 - number of items produced and sold per month\n12 - is a number of month in a year\nSimplifying the equation will lead to x-110=116, then x = 230\nB",
+          "correct": "B"
+        },
+        "current": " Step 1: Calculate the total production cost per month.\nTotal production cost per month = Number of units produced * Production cost per unit\nTotal production cost per month = 420 units * $110/unit = $46,200\n\nStep 2: Calculate the total production cost per year.\nTotal production cost per year = Total production cost per month * Number of months in a year\nTotal production cost per year = $46,200/month * 12 months = $554,400\n\nStep 3: Calculate the minimum required yearly profit.\nMinimum required yearly profit = $626,400\n\nStep 4: Calculate the minimum required yearly revenue.\nMinimum required yearly revenue = Total production cost per year + Minimum required yearly profit\nMinimum required yearly revenue = $554,400 + $626,400 = $1,180,800\n\nStep 5: Calculate the minimum selling price per component.\nMinimum selling price per component = Minimum required yearly revenue / Number of units produced per year\nMinimum selling price per component = $1,180,800 / (420 units/month * 12 months) = $230\n\nAnswer: B)230",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?",
+          "options": [
+            "A)226",
+            "B)230",
+            "C)240",
+            "D)260",
+            "E)280"
+          ],
+          "rationale": "450*12(x-110)=626400\nwhere x is a selling cost of one item\nx-110, is a profit from one item\n450 - number of items produced and sold per month\n12 - is a number of month in a year\nSimplifying the equation will lead to x-110=116, then x = 230\nB",
+          "correct": "B"
+        },
+        "current": " Step 1: Calculate the total production cost per month.\nTotal production cost per month = Number of units produced * Production cost per unit\nTotal production cost per month = 420 units * $110/unit = $46,200\n\nStep 2: Calculate the total production cost per year.\nTotal production cost per year = Total production cost per month * Number of months in a year\nTotal production cost per year = $46,200/month * 12 months = $554,400\n\nStep 3: Calculate the minimum required yearly profit.\nMinimum required yearly profit = $626,400\n\nStep 4: Calculate the minimum required yearly revenue.\nMinimum required yearly revenue = Total production cost per year + Minimum required yearly profit\nMinimum required yearly revenue = $554,400 + $626,400 = $1,180,800\n\nStep 5: Calculate the minimum selling price per component.\nMinimum selling price per component = Minimum required yearly revenue / Number of units produced per year\nMinimum selling price per component = $1,180,800 / (420 units/month * 12 months) = $230\n\nAnswer: B)230",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?",
+          "options": [
+            "A)226",
+            "B)230",
+            "C)240",
+            "D)260",
+            "E)280"
+          ],
+          "rationale": "450*12(x-110)=626400\nwhere x is a selling cost of one item\nx-110, is a profit from one item\n450 - number of items produced and sold per month\n12 - is a number of month in a year\nSimplifying the equation will lead to x-110=116, then x = 230\nB",
+          "correct": "B"
+        },
+        "current": " Step 1: Calculate the total production cost per month.\nTotal production cost per month = Number of units produced * Production cost per unit\nTotal production cost per month = 420 units * $110/unit = $46,200\n\nStep 2: Calculate the total production cost per year.\nTotal production cost per year = Total production cost per month * Number of months in a year\nTotal production cost per year = $46,200/month * 12 months = $554,400\n\nStep 3: Calculate the minimum required yearly profit.\nMinimum required yearly profit = $626,400\n\nStep 4: Calculate the minimum required yearly revenue.\nMinimum required yearly revenue = Total production cost per year + Minimum required yearly profit\nMinimum required yearly revenue = $554,400 + $626,400 = $1,180,800\n\nStep 5: Calculate the minimum selling price per component.\nMinimum selling price per component = Minimum required yearly revenue / Number of units produced per year\nMinimum selling price per component = $1,180,800 / (420 units/month * 12 months) = $230\n\nAnswer: B)230",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?",
+          "options": [
+            "A)226",
+            "B)230",
+            "C)240",
+            "D)260",
+            "E)280"
+          ],
+          "rationale": "450*12(x-110)=626400\nwhere x is a selling cost of one item\nx-110, is a profit from one item\n450 - number of items produced and sold per month\n12 - is a number of month in a year\nSimplifying the equation will lead to x-110=116, then x = 230\nB",
+          "correct": "B"
+        },
+        "current": " Step 1: Calculate the total production cost per month.\nTotal production cost per month = Number of units produced * Production cost per unit\nTotal production cost per month = 420 units * $110/unit = $46,200\n\nStep 2: Calculate the total production cost per year.\nTotal production cost per year = Total production cost per month * Number of months in a year\nTotal production cost per year = $46,200/month * 12 months = $554,400\n\nStep 3: Calculate the minimum required yearly profit.\nMinimum required yearly profit = $626,400\n\nStep 4: Calculate the minimum required yearly revenue.\nMinimum required yearly revenue = Total production cost per year + Minimum required yearly profit\nMinimum required yearly revenue = $554,400 + $626,400 = $1,180,800\n\nStep 5: Calculate the minimum selling price per component.\nMinimum selling price per component = Minimum required yearly revenue / Number of units produced per year\nMinimum selling price per component = $1,180,800 / (420 units/month * 12 months) = $230\n\nAnswer: B)230",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?",
+          "options": [
+            "A)226",
+            "B)230",
+            "C)240",
+            "D)260",
+            "E)280"
+          ],
+          "rationale": "450*12(x-110)=626400\nwhere x is a selling cost of one item\nx-110, is a profit from one item\n450 - number of items produced and sold per month\n12 - is a number of month in a year\nSimplifying the equation will lead to x-110=116, then x = 230\nB",
+          "correct": "B"
+        },
+        "current": " Step 1: Calculate the total production cost per month.\nTotal production cost per month = Number of units produced * Production cost per unit\nTotal production cost per month = 420 units * $110/unit = $46,200\n\nStep 2: Calculate the total production cost per year.\nTotal production cost per year = Total production cost per month * Number of months in a year\nTotal production cost per year = $46,200/month * 12 months = $554,400\n\nStep 3: Calculate the minimum required yearly profit.\nMinimum required yearly profit = $626,400\n\nStep 4: Calculate the minimum required yearly revenue.\nMinimum required yearly revenue = Total production cost per year + Minimum required yearly profit\nMinimum required yearly revenue = $554,400 + $626,400 = $1,180,800\n\nStep 5: Calculate the minimum selling price per component.\nMinimum selling price per component = Minimum required yearly revenue / Number of units produced per year\nMinimum selling price per component = $1,180,800 / (420 units/month * 12 months) = $230\n\nAnswer: B)230",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

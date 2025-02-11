@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "While selling a watch, a shopkeeper gives a discount of 5%. If he gives a discount of 7%, he earns Rs. 15 less as profit. The marked price of the watch is:",
+          "options": [
+            "A)Rs. 697.50",
+            "B)Rs. 712.50",
+            "C)Rs. 787.50",
+            "D)Rs. 750",
+            "E)Rs. 780"
+          ],
+          "rationale": "If he increases the discount by 2%, then his profit is 15 less. Let the marked price be X.\n.02x = 15\nx = 750 marked price\nANSWER:D",
+          "correct": "D"
+        },
+        "current": "Let's solve the given multiple-choice question step by step.\n\n**Step 1: Define Variables**  \nLet the marked price of the watch be denoted as \\( M \\).\n\n**Step 2: Calculate Profit with 5% Discount**  \nIf the shopkeeper gives a 5% discount, the selling price (SP1) is:\n\\[ SP1 = M - \\left(\\frac{5}{100} \\times M\\right) = M \\times (1 - 0.05) = 0.95M \\]\n\n**Step 3: Calculate Profit with 7% Discount**  \nIf the shopkeeper gives a 7% discount, the selling price (SP2) is:\n\\[ SP2 = M - \\left(\\frac{7}{100} \\times M\\right) = M \\times (1 - 0.07) = 0.93M \\]\n\n**Step 4: Difference in Profit**  \nAccording to the given information, with a 7% discount, the profit is Rs. 15 less than when giving a 5% discount. This means the difference in selling prices between a 5% discount and a 7% discount is Rs. 15:\n\\[ SP1 - SP2 = 15 \\]\n\\[ 0.95M - 0.93M = 15 \\]\n\\[ 0.02M = 15 \\]\n\n**Step 5: Solve for Marked Price (M)**  \nSolving for \\( M \\):\n\\[ M = \\frac{15}{0.02} \\]\n\\[ M = \\frac{15}{0.02} = 750 \\]\n\n**Step 6: Final Answer**  \nFrom the calculations, we find that the marked price of the watch is Rs. 750.\n\nAnswer: D) Rs. 750",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "While selling a watch, a shopkeeper gives a discount of 5%. If he gives a discount of 7%, he earns Rs. 15 less as profit. The marked price of the watch is:",
+          "options": [
+            "A)Rs. 697.50",
+            "B)Rs. 712.50",
+            "C)Rs. 787.50",
+            "D)Rs. 750",
+            "E)Rs. 780"
+          ],
+          "rationale": "If he increases the discount by 2%, then his profit is 15 less. Let the marked price be X.\n.02x = 15\nx = 750 marked price\nANSWER:D",
+          "correct": "D"
+        },
+        "current": "Let's solve the given multiple-choice question step by step.\n\n**Step 1: Define Variables**  \nLet the marked price of the watch be denoted as \\( M \\).\n\n**Step 2: Calculate Profit with 5% Discount**  \nIf the shopkeeper gives a 5% discount, the selling price (SP1) is:\n\\[ SP1 = M - \\left(\\frac{5}{100} \\times M\\right) = M \\times (1 - 0.05) = 0.95M \\]\n\n**Step 3: Calculate Profit with 7% Discount**  \nIf the shopkeeper gives a 7% discount, the selling price (SP2) is:\n\\[ SP2 = M - \\left(\\frac{7}{100} \\times M\\right) = M \\times (1 - 0.07) = 0.93M \\]\n\n**Step 4: Difference in Profit**  \nAccording to the given information, with a 7% discount, the profit is Rs. 15 less than when giving a 5% discount. This means the difference in selling prices between a 5% discount and a 7% discount is Rs. 15:\n\\[ SP1 - SP2 = 15 \\]\n\\[ 0.95M - 0.93M = 15 \\]\n\\[ 0.02M = 15 \\]\n\n**Step 5: Solve for Marked Price (M)**  \nSolving for \\( M \\):\n\\[ M = \\frac{15}{0.02} \\]\n\\[ M = \\frac{15}{0.02} = 750 \\]\n\n**Step 6: Final Answer**  \nFrom the calculations, we find that the marked price of the watch is Rs. 750.\n\nAnswer: D) Rs. 750",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "While selling a watch, a shopkeeper gives a discount of 5%. If he gives a discount of 7%, he earns Rs. 15 less as profit. The marked price of the watch is:",
+          "options": [
+            "A)Rs. 697.50",
+            "B)Rs. 712.50",
+            "C)Rs. 787.50",
+            "D)Rs. 750",
+            "E)Rs. 780"
+          ],
+          "rationale": "If he increases the discount by 2%, then his profit is 15 less. Let the marked price be X.\n.02x = 15\nx = 750 marked price\nANSWER:D",
+          "correct": "D"
+        },
+        "current": "Let's solve the given multiple-choice question step by step.\n\n**Step 1: Define Variables**  \nLet the marked price of the watch be denoted as \\( M \\).\n\n**Step 2: Calculate Profit with 5% Discount**  \nIf the shopkeeper gives a 5% discount, the selling price (SP1) is:\n\\[ SP1 = M - \\left(\\frac{5}{100} \\times M\\right) = M \\times (1 - 0.05) = 0.95M \\]\n\n**Step 3: Calculate Profit with 7% Discount**  \nIf the shopkeeper gives a 7% discount, the selling price (SP2) is:\n\\[ SP2 = M - \\left(\\frac{7}{100} \\times M\\right) = M \\times (1 - 0.07) = 0.93M \\]\n\n**Step 4: Difference in Profit**  \nAccording to the given information, with a 7% discount, the profit is Rs. 15 less than when giving a 5% discount. This means the difference in selling prices between a 5% discount and a 7% discount is Rs. 15:\n\\[ SP1 - SP2 = 15 \\]\n\\[ 0.95M - 0.93M = 15 \\]\n\\[ 0.02M = 15 \\]\n\n**Step 5: Solve for Marked Price (M)**  \nSolving for \\( M \\):\n\\[ M = \\frac{15}{0.02} \\]\n\\[ M = \\frac{15}{0.02} = 750 \\]\n\n**Step 6: Final Answer**  \nFrom the calculations, we find that the marked price of the watch is Rs. 750.\n\nAnswer: D) Rs. 750",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "While selling a watch, a shopkeeper gives a discount of 5%. If he gives a discount of 7%, he earns Rs. 15 less as profit. The marked price of the watch is:",
+          "options": [
+            "A)Rs. 697.50",
+            "B)Rs. 712.50",
+            "C)Rs. 787.50",
+            "D)Rs. 750",
+            "E)Rs. 780"
+          ],
+          "rationale": "If he increases the discount by 2%, then his profit is 15 less. Let the marked price be X.\n.02x = 15\nx = 750 marked price\nANSWER:D",
+          "correct": "D"
+        },
+        "current": "Let's solve the given multiple-choice question step by step.\n\n**Step 1: Define Variables**  \nLet the marked price of the watch be denoted as \\( M \\).\n\n**Step 2: Calculate Profit with 5% Discount**  \nIf the shopkeeper gives a 5% discount, the selling price (SP1) is:\n\\[ SP1 = M - \\left(\\frac{5}{100} \\times M\\right) = M \\times (1 - 0.05) = 0.95M \\]\n\n**Step 3: Calculate Profit with 7% Discount**  \nIf the shopkeeper gives a 7% discount, the selling price (SP2) is:\n\\[ SP2 = M - \\left(\\frac{7}{100} \\times M\\right) = M \\times (1 - 0.07) = 0.93M \\]\n\n**Step 4: Difference in Profit**  \nAccording to the given information, with a 7% discount, the profit is Rs. 15 less than when giving a 5% discount. This means the difference in selling prices between a 5% discount and a 7% discount is Rs. 15:\n\\[ SP1 - SP2 = 15 \\]\n\\[ 0.95M - 0.93M = 15 \\]\n\\[ 0.02M = 15 \\]\n\n**Step 5: Solve for Marked Price (M)**  \nSolving for \\( M \\):\n\\[ M = \\frac{15}{0.02} \\]\n\\[ M = \\frac{15}{0.02} = 750 \\]\n\n**Step 6: Final Answer**  \nFrom the calculations, we find that the marked price of the watch is Rs. 750.\n\nAnswer: D) Rs. 750",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "While selling a watch, a shopkeeper gives a discount of 5%. If he gives a discount of 7%, he earns Rs. 15 less as profit. The marked price of the watch is:",
+          "options": [
+            "A)Rs. 697.50",
+            "B)Rs. 712.50",
+            "C)Rs. 787.50",
+            "D)Rs. 750",
+            "E)Rs. 780"
+          ],
+          "rationale": "If he increases the discount by 2%, then his profit is 15 less. Let the marked price be X.\n.02x = 15\nx = 750 marked price\nANSWER:D",
+          "correct": "D"
+        },
+        "current": "Let's solve the given multiple-choice question step by step.\n\n**Step 1: Define Variables**  \nLet the marked price of the watch be denoted as \\( M \\).\n\n**Step 2: Calculate Profit with 5% Discount**  \nIf the shopkeeper gives a 5% discount, the selling price (SP1) is:\n\\[ SP1 = M - \\left(\\frac{5}{100} \\times M\\right) = M \\times (1 - 0.05) = 0.95M \\]\n\n**Step 3: Calculate Profit with 7% Discount**  \nIf the shopkeeper gives a 7% discount, the selling price (SP2) is:\n\\[ SP2 = M - \\left(\\frac{7}{100} \\times M\\right) = M \\times (1 - 0.07) = 0.93M \\]\n\n**Step 4: Difference in Profit**  \nAccording to the given information, with a 7% discount, the profit is Rs. 15 less than when giving a 5% discount. This means the difference in selling prices between a 5% discount and a 7% discount is Rs. 15:\n\\[ SP1 - SP2 = 15 \\]\n\\[ 0.95M - 0.93M = 15 \\]\n\\[ 0.02M = 15 \\]\n\n**Step 5: Solve for Marked Price (M)**  \nSolving for \\( M \\):\n\\[ M = \\frac{15}{0.02} \\]\n\\[ M = \\frac{15}{0.02} = 750 \\]\n\n**Step 6: Final Answer**  \nFrom the calculations, we find that the marked price of the watch is Rs. 750.\n\nAnswer: D) Rs. 750",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 138,
+    "completion_tokens": 377,
+    "cost": 0.02676
+  }
+]

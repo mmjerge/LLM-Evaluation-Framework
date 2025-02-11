@@ -1,0 +1,109 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "question": "If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000?",
+          "options": [
+            "A)81900",
+            "B)85995",
+            "C)85800",
+            "D)90000",
+            "E)None of these"
+          ],
+          "rationale": "The % change in population of city in two years time is 1.05*1.05 = 1.1025 = 10.25%\nTherefore, after 2 years the population of the city will be 1.1025 * 78000 = 85995\nANSWER B",
+          "correct": "B"
+        },
+        "current": "To solve this problem, we will use the concept of percentage increase.\n\nStep 1: Calculate the population increase in the first year.\nPopulation increase in the first year = 5% of 78000\n= (5/100) \u00d7 78000\n= 3900\n\nStep 2: Calculate the population after the first year.\nPopulation after the first year = Current population + Population increase in the first year\n= 78000 + 3900\n= 81900\n\nStep 3: Calculate the population increase in the second year.\nPopulation increase in the second year = 5% of 81900\n= (5/100) \u00d7 81900\n= 4095\n\nStep 4: Calculate the population after the second year.\nPopulation after the second year = Population after the first year + Population increase in the second year\n= 81900 + 4095\n= 85995\n\nTherefore, the population of the city in 2 years time will be 85995.\n\nAnswer: B)85995",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "question": "If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000?",
+          "options": [
+            "A)81900",
+            "B)85995",
+            "C)85800",
+            "D)90000",
+            "E)None of these"
+          ],
+          "rationale": "The % change in population of city in two years time is 1.05*1.05 = 1.1025 = 10.25%\nTherefore, after 2 years the population of the city will be 1.1025 * 78000 = 85995\nANSWER B",
+          "correct": "B"
+        },
+        "current": "To solve this problem, we will use the concept of percentage increase.\n\nStep 1: Calculate the population increase in the first year.\nPopulation increase in the first year = 5% of 78000\n= (5/100) \u00d7 78000\n= 3900\n\nStep 2: Calculate the population after the first year.\nPopulation after the first year = Current population + Population increase in the first year\n= 78000 + 3900\n= 81900\n\nStep 3: Calculate the population increase in the second year.\nPopulation increase in the second year = 5% of 81900\n= (5/100) \u00d7 81900\n= 4095\n\nStep 4: Calculate the population after the second year.\nPopulation after the second year = Population after the first year + Population increase in the second year\n= 81900 + 4095\n= 85995\n\nTherefore, the population of the city in 2 years time will be 85995.\n\nAnswer: B)85995",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000?",
+          "options": [
+            "A)81900",
+            "B)85995",
+            "C)85800",
+            "D)90000",
+            "E)None of these"
+          ],
+          "rationale": "The % change in population of city in two years time is 1.05*1.05 = 1.1025 = 10.25%\nTherefore, after 2 years the population of the city will be 1.1025 * 78000 = 85995\nANSWER B",
+          "correct": "B"
+        },
+        "current": "To solve this problem, we will use the concept of percentage increase.\n\nStep 1: Calculate the population increase in the first year.\nPopulation increase in the first year = 5% of 78000\n= (5/100) \u00d7 78000\n= 3900\n\nStep 2: Calculate the population after the first year.\nPopulation after the first year = Current population + Population increase in the first year\n= 78000 + 3900\n= 81900\n\nStep 3: Calculate the population increase in the second year.\nPopulation increase in the second year = 5% of 81900\n= (5/100) \u00d7 81900\n= 4095\n\nStep 4: Calculate the population after the second year.\nPopulation after the second year = Population after the first year + Population increase in the second year\n= 81900 + 4095\n= 85995\n\nTherefore, the population of the city in 2 years time will be 85995.\n\nAnswer: B)85995",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000?",
+          "options": [
+            "A)81900",
+            "B)85995",
+            "C)85800",
+            "D)90000",
+            "E)None of these"
+          ],
+          "rationale": "The % change in population of city in two years time is 1.05*1.05 = 1.1025 = 10.25%\nTherefore, after 2 years the population of the city will be 1.1025 * 78000 = 85995\nANSWER B",
+          "correct": "B"
+        },
+        "current": "To solve this problem, we will use the concept of percentage increase.\n\nStep 1: Calculate the population increase in the first year.\nPopulation increase in the first year = 5% of 78000\n= (5/100) \u00d7 78000\n= 3900\n\nStep 2: Calculate the population after the first year.\nPopulation after the first year = Current population + Population increase in the first year\n= 78000 + 3900\n= 81900\n\nStep 3: Calculate the population increase in the second year.\nPopulation increase in the second year = 5% of 81900\n= (5/100) \u00d7 81900\n= 4095\n\nStep 4: Calculate the population after the second year.\nPopulation after the second year = Population after the first year + Population increase in the second year\n= 81900 + 4095\n= 85995\n\nTherefore, the population of the city in 2 years time will be 85995.\n\nAnswer: B)85995",
+        "method": "got"
+      },
+      {
+        "original": {
+          "question": "If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000?",
+          "options": [
+            "A)81900",
+            "B)85995",
+            "C)85800",
+            "D)90000",
+            "E)None of these"
+          ],
+          "rationale": "The % change in population of city in two years time is 1.05*1.05 = 1.1025 = 10.25%\nTherefore, after 2 years the population of the city will be 1.1025 * 78000 = 85995\nANSWER B",
+          "correct": "B"
+        },
+        "current": "To solve this problem, we will use the concept of percentage increase.\n\nStep 1: Calculate the population increase in the first year.\nPopulation increase in the first year = 5% of 78000\n= (5/100) \u00d7 78000\n= 3900\n\nStep 2: Calculate the population after the first year.\nPopulation after the first year = Current population + Population increase in the first year\n= 78000 + 3900\n= 81900\n\nStep 3: Calculate the population increase in the second year.\nPopulation increase in the second year = 5% of 81900\n= (5/100) \u00d7 81900\n= 4095\n\nStep 4: Calculate the population after the second year.\nPopulation after the second year = Population after the first year + Population increase in the second year\n= 81900 + 4095\n= 85995\n\nTherefore, the population of the city in 2 years time will be 85995.\n\nAnswer: B)85995",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]
