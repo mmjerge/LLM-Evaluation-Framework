@@ -9,11 +9,6 @@ from openai import OpenAI
 train = pd.read_json(path_or_buf='test.jsonl', lines=True)
 sample = train.sample(n=100, random_state=1)
 
-# Initialize the Together API client
-client = OpenAI(
-  api_key=os.environ.get("TOGETHER_API_KEY"),
-  base_url="https://api.together.xyz/v1",
-)
 
 def get_response(msg, mod="meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo", temp=0):
     response = client.chat.completions.create(

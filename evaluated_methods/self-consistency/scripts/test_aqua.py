@@ -13,9 +13,7 @@ train = pd.read_json(path_or_buf='test.jsonl', lines=True)
 sample = train.sample(n=150, random_state=1)
 
 client = OpenAI(
-    # api_key=os.environ.get("OPENAI_API_KEY")
-    api_key=os.environ.get("TOGETHER_API_KEY"),
-    base_url="https://api.together.xyz/v1",
+    api_key=os.environ.get("OPENAI_API_KEY")
 )
 
 def get_response(messages, mod="mistralai/Mixtral-8x22B-Instruct-v0.1", temp=0):

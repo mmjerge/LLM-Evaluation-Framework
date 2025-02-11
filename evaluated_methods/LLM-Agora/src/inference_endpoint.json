@@ -1,15 +1,15 @@
 {
     "llama": {
-        "API_URL": "https://n0azvg1iya5dafwt.us-east-1.aws.endpoints.huggingface.cloud",
+        "API_URL": "",
         "headers": {
-            "Authorization": "Bearer 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",
+            "Authorization": "",
             "Content-Type": "application/json"
         }
     },
     "llama31": {
-        "API_URL": "https://n0azvg1iya5dafwt.us-east-1.aws.endpoints.huggingface.cloud",
+        "API_URL": "",
         "headers": {
-            "Authorization": "Bearer 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",
+            "Authorization": "",
             "Content-Type": "application/json"
         }
     },
