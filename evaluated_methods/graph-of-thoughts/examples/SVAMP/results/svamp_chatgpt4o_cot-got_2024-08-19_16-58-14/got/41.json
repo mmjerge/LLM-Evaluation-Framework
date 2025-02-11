@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-42",
+          "Body": "Danny collects bottle caps and wrappers. He found 46 wrappers and 50 bottle caps at the park. Now he has 21 bottle caps and 52 wrappers in his collection.",
+          "Question": "How many more bottle caps than wrappers did danny find at the park?",
+          "Equation": "( 50.0 - 46.0 )",
+          "Answer": 4.0,
+          "Type": "Subtraction"
+        },
+        "current": "Danny initially had 21 bottle caps and 52 wrappers in his collection.\n\nAt the park, Danny found 50 bottle caps and 46 wrappers.\n\nTo find out how many more bottle caps than wrappers Danny found at the park, we subtract the number of wrappers found from the number of bottle caps found:\n\nStep 1: Identify the number of bottle caps found:\n50 bottle caps\n\nStep 2: Identify the number of wrappers found:\n46 wrappers\n\nStep 3: Subtract the number of wrappers found from the number of bottle caps found:\n50 - 46 = 4\n\nAnswer: Danny found 4 more bottle caps than wrappers at the park.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-42",
+          "Body": "Danny collects bottle caps and wrappers. He found 46 wrappers and 50 bottle caps at the park. Now he has 21 bottle caps and 52 wrappers in his collection.",
+          "Question": "How many more bottle caps than wrappers did danny find at the park?",
+          "Equation": "( 50.0 - 46.0 )",
+          "Answer": 4.0,
+          "Type": "Subtraction"
+        },
+        "current": "Danny initially had 21 bottle caps and 52 wrappers in his collection.\n\nAt the park, Danny found 50 bottle caps and 46 wrappers.\n\nTo find out how many more bottle caps than wrappers Danny found at the park, we subtract the number of wrappers found from the number of bottle caps found:\n\nStep 1: Identify the number of bottle caps found:\n50 bottle caps\n\nStep 2: Identify the number of wrappers found:\n46 wrappers\n\nStep 3: Subtract the number of wrappers found from the number of bottle caps found:\n50 - 46 = 4\n\nAnswer: Danny found 4 more bottle caps than wrappers at the park.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-42",
+          "Body": "Danny collects bottle caps and wrappers. He found 46 wrappers and 50 bottle caps at the park. Now he has 21 bottle caps and 52 wrappers in his collection.",
+          "Question": "How many more bottle caps than wrappers did danny find at the park?",
+          "Equation": "( 50.0 - 46.0 )",
+          "Answer": 4.0,
+          "Type": "Subtraction"
+        },
+        "current": "Danny initially had 21 bottle caps and 52 wrappers in his collection.\n\nAt the park, Danny found 50 bottle caps and 46 wrappers.\n\nTo find out how many more bottle caps than wrappers Danny found at the park, we subtract the number of wrappers found from the number of bottle caps found:\n\nStep 1: Identify the number of bottle caps found:\n50 bottle caps\n\nStep 2: Identify the number of wrappers found:\n46 wrappers\n\nStep 3: Subtract the number of wrappers found from the number of bottle caps found:\n50 - 46 = 4\n\nAnswer: Danny found 4 more bottle caps than wrappers at the park.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-42",
+          "Body": "Danny collects bottle caps and wrappers. He found 46 wrappers and 50 bottle caps at the park. Now he has 21 bottle caps and 52 wrappers in his collection.",
+          "Question": "How many more bottle caps than wrappers did danny find at the park?",
+          "Equation": "( 50.0 - 46.0 )",
+          "Answer": 4.0,
+          "Type": "Subtraction"
+        },
+        "current": "Danny initially had 21 bottle caps and 52 wrappers in his collection.\n\nAt the park, Danny found 50 bottle caps and 46 wrappers.\n\nTo find out how many more bottle caps than wrappers Danny found at the park, we subtract the number of wrappers found from the number of bottle caps found:\n\nStep 1: Identify the number of bottle caps found:\n50 bottle caps\n\nStep 2: Identify the number of wrappers found:\n46 wrappers\n\nStep 3: Subtract the number of wrappers found from the number of bottle caps found:\n50 - 46 = 4\n\nAnswer: Danny found 4 more bottle caps than wrappers at the park.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-42",
+          "Body": "Danny collects bottle caps and wrappers. He found 46 wrappers and 50 bottle caps at the park. Now he has 21 bottle caps and 52 wrappers in his collection.",
+          "Question": "How many more bottle caps than wrappers did danny find at the park?",
+          "Equation": "( 50.0 - 46.0 )",
+          "Answer": 4.0,
+          "Type": "Subtraction"
+        },
+        "current": "Danny initially had 21 bottle caps and 52 wrappers in his collection.\n\nAt the park, Danny found 50 bottle caps and 46 wrappers.\n\nTo find out how many more bottle caps than wrappers Danny found at the park, we subtract the number of wrappers found from the number of bottle caps found:\n\nStep 1: Identify the number of bottle caps found:\n50 bottle caps\n\nStep 2: Identify the number of wrappers found:\n46 wrappers\n\nStep 3: Subtract the number of wrappers found from the number of bottle caps found:\n50 - 46 = 4\n\nAnswer: Danny found 4 more bottle caps than wrappers at the park.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 101,
+    "completion_tokens": 133,
+    "cost": 0.01101
+  }
+]

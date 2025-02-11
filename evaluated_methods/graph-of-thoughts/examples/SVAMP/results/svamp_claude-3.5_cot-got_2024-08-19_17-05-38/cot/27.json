@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-28",
+          "Body": "Matthew gave equal numbers of crackers and cakes to his 28 friends. If he had 13 crackers and 15 cakes initially",
+          "Question": "How many crackers and cakes did each person eat?",
+          "Equation": "( ( 13.0 + 15.0 ) / 28.0 )",
+          "Answer": 1.0,
+          "Type": "Common-Division"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   - Matthew has 28 friends\n   - He initially had 13 crackers and 15 cakes\n   - He wants to distribute them equally among his friends\n\n2. Calculate the total number of items:\n   Total items = Crackers + Cakes\n   Total items = 13 + 15 = 28\n\n3. Determine how many items each friend should receive:\n   Since Matthew wants to distribute the items equally, and the total number of items matches the number of friends, each friend will receive one item.\n\n4. Calculate how many friends will receive crackers:\n   Number of friends receiving crackers = Number of crackers = 13\n\n5. Calculate how many friends will receive cakes:\n   Number of friends receiving cakes = Number of cakes = 15\n\n6. Verify that all friends receive an item:\n   Friends receiving crackers + Friends receiving cakes = Total friends\n   13 + 15 = 28 (which matches the total number of friends)\n\n7. Determine the number of crackers and cakes each person eats:\n   Since each friend receives either one cracker or one cake, each person eats either:\n   - 1 cracker and 0 cakes, or\n   - 0 crackers and 1 cake\n\nAnswer: Each person eats either 1 cracker or 1 cake.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-28",
+          "Body": "Matthew gave equal numbers of crackers and cakes to his 28 friends. If he had 13 crackers and 15 cakes initially",
+          "Question": "How many crackers and cakes did each person eat?",
+          "Equation": "( ( 13.0 + 15.0 ) / 28.0 )",
+          "Answer": 1.0,
+          "Type": "Common-Division"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   - Matthew has 28 friends\n   - He initially had 13 crackers and 15 cakes\n   - He wants to distribute them equally among his friends\n\n2. Calculate the total number of items:\n   Total items = Crackers + Cakes\n   Total items = 13 + 15 = 28\n\n3. Determine how many items each friend should receive:\n   Since Matthew wants to distribute the items equally, and the total number of items matches the number of friends, each friend will receive one item.\n\n4. Calculate how many friends will receive crackers:\n   Number of friends receiving crackers = Number of crackers = 13\n\n5. Calculate how many friends will receive cakes:\n   Number of friends receiving cakes = Number of cakes = 15\n\n6. Verify that all friends receive an item:\n   Friends receiving crackers + Friends receiving cakes = Total friends\n   13 + 15 = 28 (which matches the total number of friends)\n\n7. Determine the number of crackers and cakes each person eats:\n   Since each friend receives either one cracker or one cake, each person eats either:\n   - 1 cracker and 0 cakes, or\n   - 0 crackers and 1 cake\n\nAnswer: Each person eats either 1 cracker or 1 cake.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-28",
+          "Body": "Matthew gave equal numbers of crackers and cakes to his 28 friends. If he had 13 crackers and 15 cakes initially",
+          "Question": "How many crackers and cakes did each person eat?",
+          "Equation": "( ( 13.0 + 15.0 ) / 28.0 )",
+          "Answer": 1.0,
+          "Type": "Common-Division"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   - Matthew has 28 friends\n   - He initially had 13 crackers and 15 cakes\n   - He wants to distribute them equally among his friends\n\n2. Calculate the total number of items:\n   Total items = Crackers + Cakes\n   Total items = 13 + 15 = 28\n\n3. Determine how many items each friend should receive:\n   Since Matthew wants to distribute the items equally, and the total number of items matches the number of friends, each friend will receive one item.\n\n4. Calculate how many friends will receive crackers:\n   Number of friends receiving crackers = Number of crackers = 13\n\n5. Calculate how many friends will receive cakes:\n   Number of friends receiving cakes = Number of cakes = 15\n\n6. Verify that all friends receive an item:\n   Friends receiving crackers + Friends receiving cakes = Total friends\n   13 + 15 = 28 (which matches the total number of friends)\n\n7. Determine the number of crackers and cakes each person eats:\n   Since each friend receives either one cracker or one cake, each person eats either:\n   - 1 cracker and 0 cakes, or\n   - 0 crackers and 1 cake\n\nAnswer: Each person eats either 1 cracker or 1 cake.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

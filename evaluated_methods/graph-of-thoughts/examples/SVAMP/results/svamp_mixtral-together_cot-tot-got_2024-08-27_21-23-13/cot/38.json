@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-39",
+          "Body": "There are 142 bananas and 356 oranges in Philip's collection. If the bananas are organized into 47 groups and oranges are organized into 178 groups",
+          "Question": "How big is each group of oranges?",
+          "Equation": "( 356.0 / 178.0 )",
+          "Answer": 2.0,
+          "Type": "Common-Division"
+        },
+        "current": " To find out how big each group of oranges is, we need to divide the total number of oranges by the number of groups they are organized into.\n\nTotal number of oranges = 356\nNumber of groups of oranges = 178\n\nEach group of oranges = Total number of oranges / Number of groups of oranges\nEach group of oranges = 356 / 178\nEach group of oranges = 2\n\nSo, each group of oranges has $2$  oranges.\n\nAnswer: Each group of oranges has 2 oranges.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-39",
+          "Body": "There are 142 bananas and 356 oranges in Philip's collection. If the bananas are organized into 47 groups and oranges are organized into 178 groups",
+          "Question": "How big is each group of oranges?",
+          "Equation": "( 356.0 / 178.0 )",
+          "Answer": 2.0,
+          "Type": "Common-Division"
+        },
+        "current": " To find out how big each group of oranges is, we need to divide the total number of oranges by the number of groups they are organized into.\n\nTotal number of oranges = 356\nNumber of groups of oranges = 178\n\nEach group of oranges = Total number of oranges / Number of groups of oranges\nEach group of oranges = 356 / 178\nEach group of oranges = 2\n\nSo, each group of oranges has $2$  oranges.\n\nAnswer: Each group of oranges has 2 oranges.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-39",
+          "Body": "There are 142 bananas and 356 oranges in Philip's collection. If the bananas are organized into 47 groups and oranges are organized into 178 groups",
+          "Question": "How big is each group of oranges?",
+          "Equation": "( 356.0 / 178.0 )",
+          "Answer": 2.0,
+          "Type": "Common-Division"
+        },
+        "current": " To find out how big each group of oranges is, we need to divide the total number of oranges by the number of groups they are organized into.\n\nTotal number of oranges = 356\nNumber of groups of oranges = 178\n\nEach group of oranges = Total number of oranges / Number of groups of oranges\nEach group of oranges = 356 / 178\nEach group of oranges = 2\n\nSo, each group of oranges has $2$  oranges.\n\nAnswer: Each group of oranges has 2 oranges.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

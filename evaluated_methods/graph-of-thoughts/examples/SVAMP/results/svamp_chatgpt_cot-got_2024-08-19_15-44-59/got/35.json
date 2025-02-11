@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-36",
+          "Body": "Dan has $ 4. He bought a candy bar for $ 8. Then his friend have him $ 5",
+          "Question": "How much money is left?",
+          "Equation": "( ( 4.0 - 8.0 ) + 5.0 )",
+          "Answer": 1.0,
+          "Type": "Addition"
+        },
+        "current": "<Step-by-step solution>\n\n1. Starting amount of money Dan had: $4\n2. Cost of candy bar: $8\n3. Amount Dan spent on candy bar: $4 + $8 = $12\n4. Amount his friend gave him: $5\n5. Total amount of money left: $12 - $5 = $7\n\n<Final Answer>\nAnswer: Dan has $7 left.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-36",
+          "Body": "Dan has $ 4. He bought a candy bar for $ 8. Then his friend have him $ 5",
+          "Question": "How much money is left?",
+          "Equation": "( ( 4.0 - 8.0 ) + 5.0 )",
+          "Answer": 1.0,
+          "Type": "Addition"
+        },
+        "current": "<Step-by-step solution>\n\n1. Starting amount of money Dan had: $4\n2. Cost of candy bar: $8\n3. Amount Dan spent on candy bar: $4 + $8 = $12\n4. Amount his friend gave him: $5\n5. Total amount of money left: $12 - $5 = $7\n\n<Final Answer>\nAnswer: Dan has $7 left.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-36",
+          "Body": "Dan has $ 4. He bought a candy bar for $ 8. Then his friend have him $ 5",
+          "Question": "How much money is left?",
+          "Equation": "( ( 4.0 - 8.0 ) + 5.0 )",
+          "Answer": 1.0,
+          "Type": "Addition"
+        },
+        "current": "<Step-by-step solution>\n\n1. Starting amount of money Dan had: $4\n2. Cost of candy bar: $8\n3. Amount Dan spent on candy bar: $4 + $8 = $12\n4. Amount his friend gave him: $5\n5. Total amount of money left: $12 - $5 = $7\n\n<Final Answer>\nAnswer: Dan has $7 left.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-36",
+          "Body": "Dan has $ 4. He bought a candy bar for $ 8. Then his friend have him $ 5",
+          "Question": "How much money is left?",
+          "Equation": "( ( 4.0 - 8.0 ) + 5.0 )",
+          "Answer": 1.0,
+          "Type": "Addition"
+        },
+        "current": "<Step-by-step solution>\n\n1. Starting amount of money Dan had: $4\n2. Cost of candy bar: $8\n3. Amount Dan spent on candy bar: $4 + $8 = $12\n4. Amount his friend gave him: $5\n5. Total amount of money left: $12 - $5 = $7\n\n<Final Answer>\nAnswer: Dan has $7 left.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-36",
+          "Body": "Dan has $ 4. He bought a candy bar for $ 8. Then his friend have him $ 5",
+          "Question": "How much money is left?",
+          "Equation": "( ( 4.0 - 8.0 ) + 5.0 )",
+          "Answer": 1.0,
+          "Type": "Addition"
+        },
+        "current": "<Step-by-step solution>\n\n1. Starting amount of money Dan had: $4\n2. Cost of candy bar: $8\n3. Amount Dan spent on candy bar: $4 + $8 = $12\n4. Amount his friend gave him: $5\n5. Total amount of money left: $12 - $5 = $7\n\n<Final Answer>\nAnswer: Dan has $7 left.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "prompt_tokens": 80,
+    "completion_tokens": 86,
+    "cost": 0.000292
+  }
+]

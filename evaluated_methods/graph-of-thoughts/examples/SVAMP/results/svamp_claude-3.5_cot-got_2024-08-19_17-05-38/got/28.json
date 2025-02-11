@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-29",
+          "Body": "A grocery store had 49 bottles of regular soda, 40 bottles of diet soda and 6 bottles of lite soda.",
+          "Question": "How many bottles of regular soda and diet soda did they have altogether?",
+          "Equation": "( 40.0 + 49.0 )",
+          "Answer": 89.0,
+          "Type": "Addition"
+        },
+        "current": "Certainly! Let's solve this problem step by step.\n\nStep 1: Identify the relevant information\n- The store has 49 bottles of regular soda\n- The store has 40 bottles of diet soda\n- The store has 6 bottles of lite soda (not needed for this question)\n\nStep 2: Determine what we need to calculate\nWe need to find the total number of bottles of regular soda and diet soda combined.\n\nStep 3: Add the number of regular soda bottles and diet soda bottles\nRegular soda bottles + Diet soda bottles = Total\n49 + 40 = 89\n\nReasoning: We simply add the number of regular soda bottles and diet soda bottles together to get the total. We don't include the lite soda bottles because the question only asks for regular and diet soda.\n\nAnswer: 89 bottles of regular soda and diet soda altogether.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-29",
+          "Body": "A grocery store had 49 bottles of regular soda, 40 bottles of diet soda and 6 bottles of lite soda.",
+          "Question": "How many bottles of regular soda and diet soda did they have altogether?",
+          "Equation": "( 40.0 + 49.0 )",
+          "Answer": 89.0,
+          "Type": "Addition"
+        },
+        "current": "Certainly! Let's solve this problem step by step.\n\nStep 1: Identify the relevant information\n- The store has 49 bottles of regular soda\n- The store has 40 bottles of diet soda\n- The store has 6 bottles of lite soda (not needed for this question)\n\nStep 2: Determine what we need to calculate\nWe need to find the total number of bottles of regular soda and diet soda combined.\n\nStep 3: Add the number of regular soda bottles and diet soda bottles\nRegular soda bottles + Diet soda bottles = Total\n49 + 40 = 89\n\nReasoning: We simply add the number of regular soda bottles and diet soda bottles together to get the total. We don't include the lite soda bottles because the question only asks for regular and diet soda.\n\nAnswer: 89 bottles of regular soda and diet soda altogether.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-29",
+          "Body": "A grocery store had 49 bottles of regular soda, 40 bottles of diet soda and 6 bottles of lite soda.",
+          "Question": "How many bottles of regular soda and diet soda did they have altogether?",
+          "Equation": "( 40.0 + 49.0 )",
+          "Answer": 89.0,
+          "Type": "Addition"
+        },
+        "current": "Certainly! Let's solve this problem step by step.\n\nStep 1: Identify the relevant information\n- The store has 49 bottles of regular soda\n- The store has 40 bottles of diet soda\n- The store has 6 bottles of lite soda (not needed for this question)\n\nStep 2: Determine what we need to calculate\nWe need to find the total number of bottles of regular soda and diet soda combined.\n\nStep 3: Add the number of regular soda bottles and diet soda bottles\nRegular soda bottles + Diet soda bottles = Total\n49 + 40 = 89\n\nReasoning: We simply add the number of regular soda bottles and diet soda bottles together to get the total. We don't include the lite soda bottles because the question only asks for regular and diet soda.\n\nAnswer: 89 bottles of regular soda and diet soda altogether.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-29",
+          "Body": "A grocery store had 49 bottles of regular soda, 40 bottles of diet soda and 6 bottles of lite soda.",
+          "Question": "How many bottles of regular soda and diet soda did they have altogether?",
+          "Equation": "( 40.0 + 49.0 )",
+          "Answer": 89.0,
+          "Type": "Addition"
+        },
+        "current": "Certainly! Let's solve this problem step by step.\n\nStep 1: Identify the relevant information\n- The store has 49 bottles of regular soda\n- The store has 40 bottles of diet soda\n- The store has 6 bottles of lite soda (not needed for this question)\n\nStep 2: Determine what we need to calculate\nWe need to find the total number of bottles of regular soda and diet soda combined.\n\nStep 3: Add the number of regular soda bottles and diet soda bottles\nRegular soda bottles + Diet soda bottles = Total\n49 + 40 = 89\n\nReasoning: We simply add the number of regular soda bottles and diet soda bottles together to get the total. We don't include the lite soda bottles because the question only asks for regular and diet soda.\n\nAnswer: 89 bottles of regular soda and diet soda altogether.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-29",
+          "Body": "A grocery store had 49 bottles of regular soda, 40 bottles of diet soda and 6 bottles of lite soda.",
+          "Question": "How many bottles of regular soda and diet soda did they have altogether?",
+          "Equation": "( 40.0 + 49.0 )",
+          "Answer": 89.0,
+          "Type": "Addition"
+        },
+        "current": "Certainly! Let's solve this problem step by step.\n\nStep 1: Identify the relevant information\n- The store has 49 bottles of regular soda\n- The store has 40 bottles of diet soda\n- The store has 6 bottles of lite soda (not needed for this question)\n\nStep 2: Determine what we need to calculate\nWe need to find the total number of bottles of regular soda and diet soda combined.\n\nStep 3: Add the number of regular soda bottles and diet soda bottles\nRegular soda bottles + Diet soda bottles = Total\n49 + 40 = 89\n\nReasoning: We simply add the number of regular soda bottles and diet soda bottles together to get the total. We don't include the lite soda bottles because the question only asks for regular and diet soda.\n\nAnswer: 89 bottles of regular soda and diet soda altogether.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

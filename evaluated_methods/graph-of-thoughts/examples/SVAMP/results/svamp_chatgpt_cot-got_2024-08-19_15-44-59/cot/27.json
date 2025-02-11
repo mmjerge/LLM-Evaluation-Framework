@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-28",
+          "Body": "Matthew gave equal numbers of crackers and cakes to his 28 friends. If he had 13 crackers and 15 cakes initially",
+          "Question": "How many crackers and cakes did each person eat?",
+          "Equation": "( ( 13.0 + 15.0 ) / 28.0 )",
+          "Answer": 1.0,
+          "Type": "Common-Division"
+        },
+        "current": "Given:\nInitially, Matthew had 13 crackers and 15 cakes.\nHe gave equal numbers to his 28 friends.\n\nLet's represent the number of crackers given to each friend as x and the number of cakes given to each friend as y.\n\nBased on the given information:\nTotal number of crackers given = 28x\nTotal number of cakes given = 28y\n\nAccording to the problem:\n28x = 13 (initial crackers)\n28y = 15 (initial cakes)\n\nNow, solve for x:\nx = 13 / 28\nx = 0.464 (approx.)\n\nNow, solve for y:\ny = 15 / 28\ny = 0.536 (approx.)\n\nTherefore, each person ate approximately 0.464 crackers and 0.536 cakes.\n\nAnswer: Each person ate approximately 0.464 crackers and 0.536 cakes.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-28",
+          "Body": "Matthew gave equal numbers of crackers and cakes to his 28 friends. If he had 13 crackers and 15 cakes initially",
+          "Question": "How many crackers and cakes did each person eat?",
+          "Equation": "( ( 13.0 + 15.0 ) / 28.0 )",
+          "Answer": 1.0,
+          "Type": "Common-Division"
+        },
+        "current": "Given:\nInitially, Matthew had 13 crackers and 15 cakes.\nHe gave equal numbers to his 28 friends.\n\nLet's represent the number of crackers given to each friend as x and the number of cakes given to each friend as y.\n\nBased on the given information:\nTotal number of crackers given = 28x\nTotal number of cakes given = 28y\n\nAccording to the problem:\n28x = 13 (initial crackers)\n28y = 15 (initial cakes)\n\nNow, solve for x:\nx = 13 / 28\nx = 0.464 (approx.)\n\nNow, solve for y:\ny = 15 / 28\ny = 0.536 (approx.)\n\nTherefore, each person ate approximately 0.464 crackers and 0.536 cakes.\n\nAnswer: Each person ate approximately 0.464 crackers and 0.536 cakes.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-28",
+          "Body": "Matthew gave equal numbers of crackers and cakes to his 28 friends. If he had 13 crackers and 15 cakes initially",
+          "Question": "How many crackers and cakes did each person eat?",
+          "Equation": "( ( 13.0 + 15.0 ) / 28.0 )",
+          "Answer": 1.0,
+          "Type": "Common-Division"
+        },
+        "current": "Given:\nInitially, Matthew had 13 crackers and 15 cakes.\nHe gave equal numbers to his 28 friends.\n\nLet's represent the number of crackers given to each friend as x and the number of cakes given to each friend as y.\n\nBased on the given information:\nTotal number of crackers given = 28x\nTotal number of cakes given = 28y\n\nAccording to the problem:\n28x = 13 (initial crackers)\n28y = 15 (initial cakes)\n\nNow, solve for x:\nx = 13 / 28\nx = 0.464 (approx.)\n\nNow, solve for y:\ny = 15 / 28\ny = 0.536 (approx.)\n\nTherefore, each person ate approximately 0.464 crackers and 0.536 cakes.\n\nAnswer: Each person ate approximately 0.464 crackers and 0.536 cakes.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      false
+    ]
+  },
+  {
+    "prompt_tokens": 85,
+    "completion_tokens": 180,
+    "cost": 0.0004875
+  }
+]

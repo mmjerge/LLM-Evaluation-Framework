@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-25",
+          "Body": "Jerry had 3 action figures on a shelf in his room. Later he added 4 more action figures to the shelf and removed some of the old ones. If there are 6 action figures on his shelf now",
+          "Question": "How many action figures did he remove from the shelf?",
+          "Equation": "( ( 3.0 + 4.0 ) - 6.0 )",
+          "Answer": 1.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve the problem step by step.\n\n**Step 1: Identify the initial number of action figures**\nJerry initially had 3 action figures on the shelf.\n\n**Step 2: Identify the number of action figures added**\nJerry added 4 more action figures to the shelf.\n\n**Step 3: Calculate the total number of action figures after addition**\nTo find the total number of action figures after addition, we add the initial number (3) to the number added (4). \n3 + 4 = 7\n\n**Step 4: Identify the current number of action figures**\nThere are 6 action figures on the shelf now.\n\n**Step 5: Calculate the number of action figures removed**\nTo find the number of action figures removed, we subtract the current number (6) from the total number after addition (7). \n7 - 6 = 1\n\nTherefore, Jerry removed 1 action figure from the shelf.\n\n**Answer:** 1",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-25",
+          "Body": "Jerry had 3 action figures on a shelf in his room. Later he added 4 more action figures to the shelf and removed some of the old ones. If there are 6 action figures on his shelf now",
+          "Question": "How many action figures did he remove from the shelf?",
+          "Equation": "( ( 3.0 + 4.0 ) - 6.0 )",
+          "Answer": 1.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve the problem step by step.\n\n**Step 1: Identify the initial number of action figures**\nJerry initially had 3 action figures on the shelf.\n\n**Step 2: Identify the number of action figures added**\nJerry added 4 more action figures to the shelf.\n\n**Step 3: Calculate the total number of action figures after addition**\nTo find the total number of action figures after addition, we add the initial number (3) to the number added (4). \n3 + 4 = 7\n\n**Step 4: Identify the current number of action figures**\nThere are 6 action figures on the shelf now.\n\n**Step 5: Calculate the number of action figures removed**\nTo find the number of action figures removed, we subtract the current number (6) from the total number after addition (7). \n7 - 6 = 1\n\nTherefore, Jerry removed 1 action figure from the shelf.\n\n**Answer:** 1",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-25",
+          "Body": "Jerry had 3 action figures on a shelf in his room. Later he added 4 more action figures to the shelf and removed some of the old ones. If there are 6 action figures on his shelf now",
+          "Question": "How many action figures did he remove from the shelf?",
+          "Equation": "( ( 3.0 + 4.0 ) - 6.0 )",
+          "Answer": 1.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve the problem step by step.\n\n**Step 1: Identify the initial number of action figures**\nJerry initially had 3 action figures on the shelf.\n\n**Step 2: Identify the number of action figures added**\nJerry added 4 more action figures to the shelf.\n\n**Step 3: Calculate the total number of action figures after addition**\nTo find the total number of action figures after addition, we add the initial number (3) to the number added (4). \n3 + 4 = 7\n\n**Step 4: Identify the current number of action figures**\nThere are 6 action figures on the shelf now.\n\n**Step 5: Calculate the number of action figures removed**\nTo find the number of action figures removed, we subtract the current number (6) from the total number after addition (7). \n7 - 6 = 1\n\nTherefore, Jerry removed 1 action figure from the shelf.\n\n**Answer:** 1",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-25",
+          "Body": "Jerry had 3 action figures on a shelf in his room. Later he added 4 more action figures to the shelf and removed some of the old ones. If there are 6 action figures on his shelf now",
+          "Question": "How many action figures did he remove from the shelf?",
+          "Equation": "( ( 3.0 + 4.0 ) - 6.0 )",
+          "Answer": 1.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve the problem step by step.\n\n**Step 1: Identify the initial number of action figures**\nJerry initially had 3 action figures on the shelf.\n\n**Step 2: Identify the number of action figures added**\nJerry added 4 more action figures to the shelf.\n\n**Step 3: Calculate the total number of action figures after addition**\nTo find the total number of action figures after addition, we add the initial number (3) to the number added (4). \n3 + 4 = 7\n\n**Step 4: Identify the current number of action figures**\nThere are 6 action figures on the shelf now.\n\n**Step 5: Calculate the number of action figures removed**\nTo find the number of action figures removed, we subtract the current number (6) from the total number after addition (7). \n7 - 6 = 1\n\nTherefore, Jerry removed 1 action figure from the shelf.\n\n**Answer:** 1",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-25",
+          "Body": "Jerry had 3 action figures on a shelf in his room. Later he added 4 more action figures to the shelf and removed some of the old ones. If there are 6 action figures on his shelf now",
+          "Question": "How many action figures did he remove from the shelf?",
+          "Equation": "( ( 3.0 + 4.0 ) - 6.0 )",
+          "Answer": 1.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve the problem step by step.\n\n**Step 1: Identify the initial number of action figures**\nJerry initially had 3 action figures on the shelf.\n\n**Step 2: Identify the number of action figures added**\nJerry added 4 more action figures to the shelf.\n\n**Step 3: Calculate the total number of action figures after addition**\nTo find the total number of action figures after addition, we add the initial number (3) to the number added (4). \n3 + 4 = 7\n\n**Step 4: Identify the current number of action figures**\nThere are 6 action figures on the shelf now.\n\n**Step 5: Calculate the number of action figures removed**\nTo find the number of action figures removed, we subtract the current number (6) from the total number after addition (7). \n7 - 6 = 1\n\nTherefore, Jerry removed 1 action figure from the shelf.\n\n**Answer:** 1",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

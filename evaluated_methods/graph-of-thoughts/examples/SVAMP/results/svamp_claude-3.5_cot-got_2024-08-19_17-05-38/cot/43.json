@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-44",
+          "Body": "3 birds and 4 storks were sitting on the fence. 2 more birds came to join them.",
+          "Question": "How many more birds than storks are sitting on the fence?",
+          "Equation": "( ( 3.0 + 2.0 ) - 4.0 )",
+          "Answer": 1.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. First, let's identify the initial numbers:\n   - 3 birds were sitting on the fence\n   - 4 storks were sitting on the fence\n\n2. Then, we need to add the additional birds:\n   - 2 more birds came to join them\n   - So, the new number of birds is: 3 + 2 = 5 birds\n\n3. Now, let's compare the number of birds and storks:\n   - Number of birds: 5\n   - Number of storks: 4\n\n4. To find out how many more birds than storks are sitting on the fence, we subtract:\n   5 birds - 4 storks = 1\n\nAnswer: There is 1 more bird than stork sitting on the fence.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-44",
+          "Body": "3 birds and 4 storks were sitting on the fence. 2 more birds came to join them.",
+          "Question": "How many more birds than storks are sitting on the fence?",
+          "Equation": "( ( 3.0 + 2.0 ) - 4.0 )",
+          "Answer": 1.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. First, let's identify the initial numbers:\n   - 3 birds were sitting on the fence\n   - 4 storks were sitting on the fence\n\n2. Then, we need to add the additional birds:\n   - 2 more birds came to join them\n   - So, the new number of birds is: 3 + 2 = 5 birds\n\n3. Now, let's compare the number of birds and storks:\n   - Number of birds: 5\n   - Number of storks: 4\n\n4. To find out how many more birds than storks are sitting on the fence, we subtract:\n   5 birds - 4 storks = 1\n\nAnswer: There is 1 more bird than stork sitting on the fence.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-44",
+          "Body": "3 birds and 4 storks were sitting on the fence. 2 more birds came to join them.",
+          "Question": "How many more birds than storks are sitting on the fence?",
+          "Equation": "( ( 3.0 + 2.0 ) - 4.0 )",
+          "Answer": 1.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. First, let's identify the initial numbers:\n   - 3 birds were sitting on the fence\n   - 4 storks were sitting on the fence\n\n2. Then, we need to add the additional birds:\n   - 2 more birds came to join them\n   - So, the new number of birds is: 3 + 2 = 5 birds\n\n3. Now, let's compare the number of birds and storks:\n   - Number of birds: 5\n   - Number of storks: 4\n\n4. To find out how many more birds than storks are sitting on the fence, we subtract:\n   5 birds - 4 storks = 1\n\nAnswer: There is 1 more bird than stork sitting on the fence.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-32",
+          "Body": "There were 15 roses and 62 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 17 roses and 96 orchids in the vase.",
+          "Question": "How many roses did she cut?",
+          "Equation": "( 17.0 - 15.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve the problem step by step, let's find out how many roses Jessica cut.\n\n### Step 1: Identify the initial and final quantities of roses.\n- Initial number of roses: 15\n- Final number of roses: 17\n\n### Step 2: Calculate the difference to determine how many roses Jessica cut.\nNumber of roses she cut = Final number of roses - Initial number of roses\nNumber of roses she cut = 17 - 15\n\n### Step 3: Perform the calculation.\nNumber of roses she cut = 2\n\n### Conclusion\nThe number of roses Jessica cut is 2.\n\n**Answer: 2**",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-32",
+          "Body": "There were 15 roses and 62 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 17 roses and 96 orchids in the vase.",
+          "Question": "How many roses did she cut?",
+          "Equation": "( 17.0 - 15.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve the problem step by step, let's find out how many roses Jessica cut.\n\n### Step 1: Identify the initial and final quantities of roses.\n- Initial number of roses: 15\n- Final number of roses: 17\n\n### Step 2: Calculate the difference to determine how many roses Jessica cut.\nNumber of roses she cut = Final number of roses - Initial number of roses\nNumber of roses she cut = 17 - 15\n\n### Step 3: Perform the calculation.\nNumber of roses she cut = 2\n\n### Conclusion\nThe number of roses Jessica cut is 2.\n\n**Answer: 2**",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      2.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-32",
+          "Body": "There were 15 roses and 62 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 17 roses and 96 orchids in the vase.",
+          "Question": "How many roses did she cut?",
+          "Equation": "( 17.0 - 15.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve the problem step by step, let's find out how many roses Jessica cut.\n\n### Step 1: Identify the initial and final quantities of roses.\n- Initial number of roses: 15\n- Final number of roses: 17\n\n### Step 2: Calculate the difference to determine how many roses Jessica cut.\nNumber of roses she cut = Final number of roses - Initial number of roses\nNumber of roses she cut = 17 - 15\n\n### Step 3: Perform the calculation.\nNumber of roses she cut = 2\n\n### Conclusion\nThe number of roses Jessica cut is 2.\n\n**Answer: 2**",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      2.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 96,
+    "completion_tokens": 130,
+    "cost": 0.010679999999999999
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-10",
+          "Body": "A waiter had some customers. After 9 customers left he still had 12 customers.",
+          "Question": "How many customers did he have at the start?",
+          "Equation": "( 9.0 + 12.0 )",
+          "Answer": 21.0,
+          "Type": "Addition"
+        },
+        "current": " To solve this problem, we start with the information that after 9 customers left, the waiter still had 12 customers. This means that the total number of customers the waiter had at the start was the number of customers who left plus the number of customers who remained.\n\nSo, if we let \\( x \\) be the total number of customers the waiter had at the start, we can write the equation:\n\n\\[ x - 9 = 12 \\]\n\nTo find \\( x \\), we need to add 9 to both sides of the equation:\n\n\\[ x - 9 + 9 = 12 + 9 \\]\n\n\\[ x = 21 \\]\n\nTherefore, the waiter had 21 customers at the start.\n\nAnswer: The waiter had $21$  customers at the start.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-10",
+          "Body": "A waiter had some customers. After 9 customers left he still had 12 customers.",
+          "Question": "How many customers did he have at the start?",
+          "Equation": "( 9.0 + 12.0 )",
+          "Answer": 21.0,
+          "Type": "Addition"
+        },
+        "current": " To solve this problem, we start with the information that after 9 customers left, the waiter still had 12 customers. This means that the total number of customers the waiter had at the start was the number of customers who left plus the number of customers who remained.\n\nSo, if we let \\( x \\) be the total number of customers the waiter had at the start, we can write the equation:\n\n\\[ x - 9 = 12 \\]\n\nTo find \\( x \\), we need to add 9 to both sides of the equation:\n\n\\[ x - 9 + 9 = 12 + 9 \\]\n\n\\[ x = 21 \\]\n\nTherefore, the waiter had 21 customers at the start.\n\nAnswer: The waiter had $21$  customers at the start.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-10",
+          "Body": "A waiter had some customers. After 9 customers left he still had 12 customers.",
+          "Question": "How many customers did he have at the start?",
+          "Equation": "( 9.0 + 12.0 )",
+          "Answer": 21.0,
+          "Type": "Addition"
+        },
+        "current": " To solve this problem, we start with the information that after 9 customers left, the waiter still had 12 customers. This means that the total number of customers the waiter had at the start was the number of customers who left plus the number of customers who remained.\n\nSo, if we let \\( x \\) be the total number of customers the waiter had at the start, we can write the equation:\n\n\\[ x - 9 = 12 \\]\n\nTo find \\( x \\), we need to add 9 to both sides of the equation:\n\n\\[ x - 9 + 9 = 12 + 9 \\]\n\n\\[ x = 21 \\]\n\nTherefore, the waiter had 21 customers at the start.\n\nAnswer: The waiter had $21$  customers at the start.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

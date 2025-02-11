@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-45",
+          "Body": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 9 inches. The mouse jumped 3 inches lesser than the frog who jumped 33 inches farther than the grasshopper.",
+          "Question": "How far did the mouse jump?",
+          "Equation": "( ( 9.0 + 33.0 ) - 3.0 )",
+          "Answer": 39.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   * The grasshopper jumped 9 inches.\n   * The frog jumped 33 inches farther than the grasshopper.\n   * The mouse jumped 3 inches less than the frog.\n\n2. Calculate how far the frog jumped:\n   * Frog's jump = Grasshopper's jump + 33 inches\n   * Frog's jump = 9 inches + 33 inches = 42 inches\n\n3. Calculate how far the mouse jumped:\n   * Mouse's jump = Frog's jump - 3 inches\n   * Mouse's jump = 42 inches - 3 inches = 39 inches\n\nAnswer: The mouse jumped 39 inches.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-45",
+          "Body": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 9 inches. The mouse jumped 3 inches lesser than the frog who jumped 33 inches farther than the grasshopper.",
+          "Question": "How far did the mouse jump?",
+          "Equation": "( ( 9.0 + 33.0 ) - 3.0 )",
+          "Answer": 39.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   * The grasshopper jumped 9 inches.\n   * The frog jumped 33 inches farther than the grasshopper.\n   * The mouse jumped 3 inches less than the frog.\n\n2. Calculate how far the frog jumped:\n   * Frog's jump = Grasshopper's jump + 33 inches\n   * Frog's jump = 9 inches + 33 inches = 42 inches\n\n3. Calculate how far the mouse jumped:\n   * Mouse's jump = Frog's jump - 3 inches\n   * Mouse's jump = 42 inches - 3 inches = 39 inches\n\nAnswer: The mouse jumped 39 inches.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-45",
+          "Body": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 9 inches. The mouse jumped 3 inches lesser than the frog who jumped 33 inches farther than the grasshopper.",
+          "Question": "How far did the mouse jump?",
+          "Equation": "( ( 9.0 + 33.0 ) - 3.0 )",
+          "Answer": 39.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   * The grasshopper jumped 9 inches.\n   * The frog jumped 33 inches farther than the grasshopper.\n   * The mouse jumped 3 inches less than the frog.\n\n2. Calculate how far the frog jumped:\n   * Frog's jump = Grasshopper's jump + 33 inches\n   * Frog's jump = 9 inches + 33 inches = 42 inches\n\n3. Calculate how far the mouse jumped:\n   * Mouse's jump = Frog's jump - 3 inches\n   * Mouse's jump = 42 inches - 3 inches = 39 inches\n\nAnswer: The mouse jumped 39 inches.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

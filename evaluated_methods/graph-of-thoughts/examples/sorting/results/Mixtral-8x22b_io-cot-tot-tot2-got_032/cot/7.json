@@ -1,0 +1,58 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "[9, 2, 4, 7, 4, 8, 8, 4, 7, 5, 8, 9, 0, 1, 0, 0, 0, 0, 7, 3, 4, 7, 7, 7, 9, 8, 6, 3, 2, 6, 6, 8]",
+        "current": "[9, 2, 4, 7, 4, 8, 8, 4, 7, 5]",
+        "phase": 2,
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "[9, 2, 4, 7, 4, 8, 8, 4, 7, 5, 8, 9, 0, 1, 0, 0, 0, 0, 7, 3, 4, 7, 7, 7, 9, 8, 6, 3, 2, 6, 6, 8]",
+        "current": "[9, 2, 4, 7, 4, 8, 8, 4, 7, 5]",
+        "phase": 2,
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      26
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "[9, 2, 4, 7, 4, 8, 8, 4, 7, 5, 8, 9, 0, 1, 0, 0, 0, 0, 7, 3, 4, 7, 7, 7, 9, 8, 6, 3, 2, 6, 6, 8]",
+        "current": "[9, 2, 4, 7, 4, 8, 8, 4, 7, 5]",
+        "phase": 2,
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      26
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      false
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

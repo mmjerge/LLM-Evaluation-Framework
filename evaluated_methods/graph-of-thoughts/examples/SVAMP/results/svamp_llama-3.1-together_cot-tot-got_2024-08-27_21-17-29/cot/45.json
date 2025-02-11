@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-46",
+          "Body": "Zachary did 35 push-ups and 3 crunches in gym class today. David did 58 more push-ups but 87 less crunches than zachary.",
+          "Question": "How many more push-ups than crunches did Zachary do?",
+          "Equation": "( 35.0 - 3.0 )",
+          "Answer": 32.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's break down the problem step by step.\n\n**Step 1: Calculate the number of push-ups Zachary did**\n\nZachary did 35 push-ups.\n\n**Step 2: Calculate the number of crunches Zachary did**\n\nZachary did 3 crunches.\n\n**Step 3: Calculate the number of push-ups David did**\n\nDavid did 58 more push-ups than Zachary, so David did 35 + 58 = 93 push-ups.\n\n**Step 4: Calculate the number of crunches David did**\n\nDavid did 87 less crunches than Zachary, so David did 3 - 87 = -84 crunches. However, since you can't do a negative number of crunches, this means David did 0 crunches (he did 87 fewer than Zachary, and Zachary did 3, so David did 3 - 87 = -84, but since you can't do a negative number of crunches, we'll assume he did 0).\n\n**Step 5: Calculate the difference between the number of push-ups and crunches Zachary did**\n\nTo find out how many more push-ups than crunches Zachary did, we need to subtract the number of crunches from the number of push-ups. So, 35 (push-ups) - 3 (crunches) = 32.\n\n**Answer:** 32",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-46",
+          "Body": "Zachary did 35 push-ups and 3 crunches in gym class today. David did 58 more push-ups but 87 less crunches than zachary.",
+          "Question": "How many more push-ups than crunches did Zachary do?",
+          "Equation": "( 35.0 - 3.0 )",
+          "Answer": 32.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's break down the problem step by step.\n\n**Step 1: Calculate the number of push-ups Zachary did**\n\nZachary did 35 push-ups.\n\n**Step 2: Calculate the number of crunches Zachary did**\n\nZachary did 3 crunches.\n\n**Step 3: Calculate the number of push-ups David did**\n\nDavid did 58 more push-ups than Zachary, so David did 35 + 58 = 93 push-ups.\n\n**Step 4: Calculate the number of crunches David did**\n\nDavid did 87 less crunches than Zachary, so David did 3 - 87 = -84 crunches. However, since you can't do a negative number of crunches, this means David did 0 crunches (he did 87 fewer than Zachary, and Zachary did 3, so David did 3 - 87 = -84, but since you can't do a negative number of crunches, we'll assume he did 0).\n\n**Step 5: Calculate the difference between the number of push-ups and crunches Zachary did**\n\nTo find out how many more push-ups than crunches Zachary did, we need to subtract the number of crunches from the number of push-ups. So, 35 (push-ups) - 3 (crunches) = 32.\n\n**Answer:** 32",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-46",
+          "Body": "Zachary did 35 push-ups and 3 crunches in gym class today. David did 58 more push-ups but 87 less crunches than zachary.",
+          "Question": "How many more push-ups than crunches did Zachary do?",
+          "Equation": "( 35.0 - 3.0 )",
+          "Answer": 32.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's break down the problem step by step.\n\n**Step 1: Calculate the number of push-ups Zachary did**\n\nZachary did 35 push-ups.\n\n**Step 2: Calculate the number of crunches Zachary did**\n\nZachary did 3 crunches.\n\n**Step 3: Calculate the number of push-ups David did**\n\nDavid did 58 more push-ups than Zachary, so David did 35 + 58 = 93 push-ups.\n\n**Step 4: Calculate the number of crunches David did**\n\nDavid did 87 less crunches than Zachary, so David did 3 - 87 = -84 crunches. However, since you can't do a negative number of crunches, this means David did 0 crunches (he did 87 fewer than Zachary, and Zachary did 3, so David did 3 - 87 = -84, but since you can't do a negative number of crunches, we'll assume he did 0).\n\n**Step 5: Calculate the difference between the number of push-ups and crunches Zachary did**\n\nTo find out how many more push-ups than crunches Zachary did, we need to subtract the number of crunches from the number of push-ups. So, 35 (push-ups) - 3 (crunches) = 32.\n\n**Answer:** 32",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

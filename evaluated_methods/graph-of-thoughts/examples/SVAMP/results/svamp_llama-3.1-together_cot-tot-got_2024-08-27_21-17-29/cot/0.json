@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how much you have to pay for each pack of DVDs, we need to subtract the discount from the original price.\n\nStep 1: Identify the original price of each pack of DVDs.\nThe original price of each pack of DVDs is 76 dollars.\n\nStep 2: Identify the discount amount.\nThe discount amount is 25 dollars.\n\nStep 3: Subtract the discount amount from the original price to find the discounted price.\nDiscounted price = Original price - Discount amount\n= 76 - 25\n= 51\n\nTherefore, you have to pay 51 dollars to buy each pack of DVDs.\n\nAnswer: 51",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how much you have to pay for each pack of DVDs, we need to subtract the discount from the original price.\n\nStep 1: Identify the original price of each pack of DVDs.\nThe original price of each pack of DVDs is 76 dollars.\n\nStep 2: Identify the discount amount.\nThe discount amount is 25 dollars.\n\nStep 3: Subtract the discount amount from the original price to find the discounted price.\nDiscounted price = Original price - Discount amount\n= 76 - 25\n= 51\n\nTherefore, you have to pay 51 dollars to buy each pack of DVDs.\n\nAnswer: 51",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      51.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how much you have to pay for each pack of DVDs, we need to subtract the discount from the original price.\n\nStep 1: Identify the original price of each pack of DVDs.\nThe original price of each pack of DVDs is 76 dollars.\n\nStep 2: Identify the discount amount.\nThe discount amount is 25 dollars.\n\nStep 3: Subtract the discount amount from the original price to find the discounted price.\nDiscounted price = Original price - Discount amount\n= 76 - 25\n= 51\n\nTherefore, you have to pay 51 dollars to buy each pack of DVDs.\n\nAnswer: 51",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      51.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

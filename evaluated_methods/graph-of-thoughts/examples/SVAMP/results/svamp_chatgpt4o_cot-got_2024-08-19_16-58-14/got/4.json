@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-5",
+          "Body": "28 children were riding on the bus. At the bus stop 82 children got on the bus while some got off the bus. Then there were 30 children altogether on the bus.",
+          "Question": "How many more children got on the bus than those that got off?",
+          "Equation": "( 30.0 - 28.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve this problem, we need to determine how many more children got on the bus than those who got off the bus.\n\nLet's denote the number of children who got off the bus as \\( x \\).\n\nWe can set up the following equation based on the information given in the problem:\n\n1. Initially, there are 28 children on the bus.\n2. 82 children got on the bus.\n3. \\( x \\) children got off the bus.\n4. Finally, there are 30 children on the bus.\n\nSo, the equation representing this situation is:\n\\[ 28 + 82 - x = 30 \\]\n\nSimplify the left-hand side:\n\\[ 110 - x = 30 \\]\n\nNext, solve for \\( x \\):\n\\[ 110 - 30 = x \\]\n\\[ x = 80 \\]\n\nSo, 80 children got off the bus.\n\nTo find out how many more children got on the bus than those who got off:\n\\[ 82 \\text{ (children who got on)} - 80 \\text{ (children who got off)} = 2 \\]\n\nSo, 2 more children got on the bus than those who got off.\n\n**Answer: 2**",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-5",
+          "Body": "28 children were riding on the bus. At the bus stop 82 children got on the bus while some got off the bus. Then there were 30 children altogether on the bus.",
+          "Question": "How many more children got on the bus than those that got off?",
+          "Equation": "( 30.0 - 28.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve this problem, we need to determine how many more children got on the bus than those who got off the bus.\n\nLet's denote the number of children who got off the bus as \\( x \\).\n\nWe can set up the following equation based on the information given in the problem:\n\n1. Initially, there are 28 children on the bus.\n2. 82 children got on the bus.\n3. \\( x \\) children got off the bus.\n4. Finally, there are 30 children on the bus.\n\nSo, the equation representing this situation is:\n\\[ 28 + 82 - x = 30 \\]\n\nSimplify the left-hand side:\n\\[ 110 - x = 30 \\]\n\nNext, solve for \\( x \\):\n\\[ 110 - 30 = x \\]\n\\[ x = 80 \\]\n\nSo, 80 children got off the bus.\n\nTo find out how many more children got on the bus than those who got off:\n\\[ 82 \\text{ (children who got on)} - 80 \\text{ (children who got off)} = 2 \\]\n\nSo, 2 more children got on the bus than those who got off.\n\n**Answer: 2**",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-5",
+          "Body": "28 children were riding on the bus. At the bus stop 82 children got on the bus while some got off the bus. Then there were 30 children altogether on the bus.",
+          "Question": "How many more children got on the bus than those that got off?",
+          "Equation": "( 30.0 - 28.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve this problem, we need to determine how many more children got on the bus than those who got off the bus.\n\nLet's denote the number of children who got off the bus as \\( x \\).\n\nWe can set up the following equation based on the information given in the problem:\n\n1. Initially, there are 28 children on the bus.\n2. 82 children got on the bus.\n3. \\( x \\) children got off the bus.\n4. Finally, there are 30 children on the bus.\n\nSo, the equation representing this situation is:\n\\[ 28 + 82 - x = 30 \\]\n\nSimplify the left-hand side:\n\\[ 110 - x = 30 \\]\n\nNext, solve for \\( x \\):\n\\[ 110 - 30 = x \\]\n\\[ x = 80 \\]\n\nSo, 80 children got off the bus.\n\nTo find out how many more children got on the bus than those who got off:\n\\[ 82 \\text{ (children who got on)} - 80 \\text{ (children who got off)} = 2 \\]\n\nSo, 2 more children got on the bus than those who got off.\n\n**Answer: 2**",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-5",
+          "Body": "28 children were riding on the bus. At the bus stop 82 children got on the bus while some got off the bus. Then there were 30 children altogether on the bus.",
+          "Question": "How many more children got on the bus than those that got off?",
+          "Equation": "( 30.0 - 28.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve this problem, we need to determine how many more children got on the bus than those who got off the bus.\n\nLet's denote the number of children who got off the bus as \\( x \\).\n\nWe can set up the following equation based on the information given in the problem:\n\n1. Initially, there are 28 children on the bus.\n2. 82 children got on the bus.\n3. \\( x \\) children got off the bus.\n4. Finally, there are 30 children on the bus.\n\nSo, the equation representing this situation is:\n\\[ 28 + 82 - x = 30 \\]\n\nSimplify the left-hand side:\n\\[ 110 - x = 30 \\]\n\nNext, solve for \\( x \\):\n\\[ 110 - 30 = x \\]\n\\[ x = 80 \\]\n\nSo, 80 children got off the bus.\n\nTo find out how many more children got on the bus than those who got off:\n\\[ 82 \\text{ (children who got on)} - 80 \\text{ (children who got off)} = 2 \\]\n\nSo, 2 more children got on the bus than those who got off.\n\n**Answer: 2**",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-5",
+          "Body": "28 children were riding on the bus. At the bus stop 82 children got on the bus while some got off the bus. Then there were 30 children altogether on the bus.",
+          "Question": "How many more children got on the bus than those that got off?",
+          "Equation": "( 30.0 - 28.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve this problem, we need to determine how many more children got on the bus than those who got off the bus.\n\nLet's denote the number of children who got off the bus as \\( x \\).\n\nWe can set up the following equation based on the information given in the problem:\n\n1. Initially, there are 28 children on the bus.\n2. 82 children got on the bus.\n3. \\( x \\) children got off the bus.\n4. Finally, there are 30 children on the bus.\n\nSo, the equation representing this situation is:\n\\[ 28 + 82 - x = 30 \\]\n\nSimplify the left-hand side:\n\\[ 110 - x = 30 \\]\n\nNext, solve for \\( x \\):\n\\[ 110 - 30 = x \\]\n\\[ x = 80 \\]\n\nSo, 80 children got off the bus.\n\nTo find out how many more children got on the bus than those who got off:\n\\[ 82 \\text{ (children who got on)} - 80 \\text{ (children who got off)} = 2 \\]\n\nSo, 2 more children got on the bus than those who got off.\n\n**Answer: 2**",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 101,
+    "completion_tokens": 247,
+    "cost": 0.01785
+  }
+]

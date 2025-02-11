@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-19",
+          "Body": "Danny collects bottle caps and wrappers. He found 22 bottle caps and 30 wrappers at the park. Now he has 17 bottle caps and 57 wrappers in his collection.",
+          "Question": "How many wrappers did danny have at first?",
+          "Equation": "( 57.0 - 30.0 )",
+          "Answer": 27.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   * Danny found 22 bottle caps and 30 wrappers at the park.\n   * He now has 17 bottle caps and 57 wrappers in his collection.\n   * We need to find out how many wrappers Danny had initially.\n\n2. Calculate how many bottle caps Danny had initially:\n   * Current bottle caps = Initial bottle caps + Found bottle caps\n   * 17 = Initial bottle caps + 22\n   * Initial bottle caps = 17 - 22 = -5\n   * This negative number doesn't make sense, so Danny must have given away some bottle caps.\n\n3. Calculate the number of wrappers Danny has now:\n   * Current wrappers = 57 (given in the problem)\n\n4. Calculate how many wrappers Danny added to his collection:\n   * Added wrappers = Found wrappers = 30 (given in the problem)\n\n5. Calculate the initial number of wrappers:\n   * Current wrappers = Initial wrappers + Added wrappers\n   * 57 = Initial wrappers + 30\n   * Initial wrappers = 57 - 30 = 27\n\nAnswer: Danny had 27 wrappers at first.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-19",
+          "Body": "Danny collects bottle caps and wrappers. He found 22 bottle caps and 30 wrappers at the park. Now he has 17 bottle caps and 57 wrappers in his collection.",
+          "Question": "How many wrappers did danny have at first?",
+          "Equation": "( 57.0 - 30.0 )",
+          "Answer": 27.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   * Danny found 22 bottle caps and 30 wrappers at the park.\n   * He now has 17 bottle caps and 57 wrappers in his collection.\n   * We need to find out how many wrappers Danny had initially.\n\n2. Calculate how many bottle caps Danny had initially:\n   * Current bottle caps = Initial bottle caps + Found bottle caps\n   * 17 = Initial bottle caps + 22\n   * Initial bottle caps = 17 - 22 = -5\n   * This negative number doesn't make sense, so Danny must have given away some bottle caps.\n\n3. Calculate the number of wrappers Danny has now:\n   * Current wrappers = 57 (given in the problem)\n\n4. Calculate how many wrappers Danny added to his collection:\n   * Added wrappers = Found wrappers = 30 (given in the problem)\n\n5. Calculate the initial number of wrappers:\n   * Current wrappers = Initial wrappers + Added wrappers\n   * 57 = Initial wrappers + 30\n   * Initial wrappers = 57 - 30 = 27\n\nAnswer: Danny had 27 wrappers at first.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-19",
+          "Body": "Danny collects bottle caps and wrappers. He found 22 bottle caps and 30 wrappers at the park. Now he has 17 bottle caps and 57 wrappers in his collection.",
+          "Question": "How many wrappers did danny have at first?",
+          "Equation": "( 57.0 - 30.0 )",
+          "Answer": 27.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   * Danny found 22 bottle caps and 30 wrappers at the park.\n   * He now has 17 bottle caps and 57 wrappers in his collection.\n   * We need to find out how many wrappers Danny had initially.\n\n2. Calculate how many bottle caps Danny had initially:\n   * Current bottle caps = Initial bottle caps + Found bottle caps\n   * 17 = Initial bottle caps + 22\n   * Initial bottle caps = 17 - 22 = -5\n   * This negative number doesn't make sense, so Danny must have given away some bottle caps.\n\n3. Calculate the number of wrappers Danny has now:\n   * Current wrappers = 57 (given in the problem)\n\n4. Calculate how many wrappers Danny added to his collection:\n   * Added wrappers = Found wrappers = 30 (given in the problem)\n\n5. Calculate the initial number of wrappers:\n   * Current wrappers = Initial wrappers + Added wrappers\n   * 57 = Initial wrappers + 30\n   * Initial wrappers = 57 - 30 = 27\n\nAnswer: Danny had 27 wrappers at first.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

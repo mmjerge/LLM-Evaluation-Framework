@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-19",
+          "Body": "Danny collects bottle caps and wrappers. He found 22 bottle caps and 30 wrappers at the park. Now he has 17 bottle caps and 57 wrappers in his collection.",
+          "Question": "How many wrappers did danny have at first?",
+          "Equation": "( 57.0 - 30.0 )",
+          "Answer": 27.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many wrappers Danny had at first, we can set up an equation based on the information given.\n\nLet's assume Danny started with x number of wrappers.\n\nInitially:\nNumber of wrappers + Number of wrappers found = Total number of wrappers\nx + 30 = 57\n\nNow, we solve for x by subtracting 30 from both sides of the equation.\nx = 57 - 30\nx = 27\n\nTherefore, Danny had 27 wrappers at first.\n\nAnswer: 27",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-19",
+          "Body": "Danny collects bottle caps and wrappers. He found 22 bottle caps and 30 wrappers at the park. Now he has 17 bottle caps and 57 wrappers in his collection.",
+          "Question": "How many wrappers did danny have at first?",
+          "Equation": "( 57.0 - 30.0 )",
+          "Answer": 27.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many wrappers Danny had at first, we can set up an equation based on the information given.\n\nLet's assume Danny started with x number of wrappers.\n\nInitially:\nNumber of wrappers + Number of wrappers found = Total number of wrappers\nx + 30 = 57\n\nNow, we solve for x by subtracting 30 from both sides of the equation.\nx = 57 - 30\nx = 27\n\nTherefore, Danny had 27 wrappers at first.\n\nAnswer: 27",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      27.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-19",
+          "Body": "Danny collects bottle caps and wrappers. He found 22 bottle caps and 30 wrappers at the park. Now he has 17 bottle caps and 57 wrappers in his collection.",
+          "Question": "How many wrappers did danny have at first?",
+          "Equation": "( 57.0 - 30.0 )",
+          "Answer": 27.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many wrappers Danny had at first, we can set up an equation based on the information given.\n\nLet's assume Danny started with x number of wrappers.\n\nInitially:\nNumber of wrappers + Number of wrappers found = Total number of wrappers\nx + 30 = 57\n\nNow, we solve for x by subtracting 30 from both sides of the equation.\nx = 57 - 30\nx = 27\n\nTherefore, Danny had 27 wrappers at first.\n\nAnswer: 27",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      27.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 95,
+    "completion_tokens": 103,
+    "cost": 0.00034849999999999996
+  }
+]

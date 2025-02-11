@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-6",
+          "Body": "There were 3 dollars in Olivia's wallet. She collected 49 more dollars from an atm. After she visited a supermarket there were 49 dollars left.",
+          "Question": "How much more money did she collect at the atm than she spent at the supermarket?",
+          "Equation": "( 49.0 - 3.0 )",
+          "Answer": 46.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Calculate the total amount of money Olivia had after collecting from the ATM.\nOlivia initially had $3 and collected $49 more, so she had a total of $3 + $49 = $52.\n\nStep 2: Determine how much money Olivia spent at the supermarket.\nAfter visiting the supermarket, Olivia had $49 left. Since she initially had $52, she must have spent $52 - $49 = $3 at the supermarket.\n\nStep 3: Calculate how much more money Olivia collected at the ATM than she spent at the supermarket.\nOlivia collected $49 at the ATM and spent $3 at the supermarket, so she collected $49 - $3 = $46 more than she spent.\n\nAnswer: Olivia collected $46 more at the ATM than she spent at the supermarket.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-6",
+          "Body": "There were 3 dollars in Olivia's wallet. She collected 49 more dollars from an atm. After she visited a supermarket there were 49 dollars left.",
+          "Question": "How much more money did she collect at the atm than she spent at the supermarket?",
+          "Equation": "( 49.0 - 3.0 )",
+          "Answer": 46.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Calculate the total amount of money Olivia had after collecting from the ATM.\nOlivia initially had $3 and collected $49 more, so she had a total of $3 + $49 = $52.\n\nStep 2: Determine how much money Olivia spent at the supermarket.\nAfter visiting the supermarket, Olivia had $49 left. Since she initially had $52, she must have spent $52 - $49 = $3 at the supermarket.\n\nStep 3: Calculate how much more money Olivia collected at the ATM than she spent at the supermarket.\nOlivia collected $49 at the ATM and spent $3 at the supermarket, so she collected $49 - $3 = $46 more than she spent.\n\nAnswer: Olivia collected $46 more at the ATM than she spent at the supermarket.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-6",
+          "Body": "There were 3 dollars in Olivia's wallet. She collected 49 more dollars from an atm. After she visited a supermarket there were 49 dollars left.",
+          "Question": "How much more money did she collect at the atm than she spent at the supermarket?",
+          "Equation": "( 49.0 - 3.0 )",
+          "Answer": 46.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Calculate the total amount of money Olivia had after collecting from the ATM.\nOlivia initially had $3 and collected $49 more, so she had a total of $3 + $49 = $52.\n\nStep 2: Determine how much money Olivia spent at the supermarket.\nAfter visiting the supermarket, Olivia had $49 left. Since she initially had $52, she must have spent $52 - $49 = $3 at the supermarket.\n\nStep 3: Calculate how much more money Olivia collected at the ATM than she spent at the supermarket.\nOlivia collected $49 at the ATM and spent $3 at the supermarket, so she collected $49 - $3 = $46 more than she spent.\n\nAnswer: Olivia collected $46 more at the ATM than she spent at the supermarket.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

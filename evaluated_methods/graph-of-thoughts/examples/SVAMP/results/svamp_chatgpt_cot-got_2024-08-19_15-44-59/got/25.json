@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-26",
+          "Body": "Danny collects bottle caps and wrappers. He found 65 wrappers and 5 bottle caps at the park. Now he has 31 bottle caps and 9 wrappers in his collection.",
+          "Question": "How many more wrappers than bottle caps did danny find at the park?",
+          "Equation": "( 65.0 - 5.0 )",
+          "Answer": 60.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many more wrappers than bottle caps Danny found at the park, we first need to calculate the difference between the number of wrappers and bottle caps he found.\n\nStep 1: Number of wrappers found at the park\n65 wrappers\n\nStep 2: Number of bottle caps found at the park\n5 bottle caps\n\nStep 3: Difference between wrappers and bottle caps found at the park\n65 wrappers - 5 bottle caps = 60\n\nTherefore, Danny found 60 more wrappers than bottle caps at the park.\n\nAnswer: Danny found 60 more wrappers than bottle caps at the park.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-26",
+          "Body": "Danny collects bottle caps and wrappers. He found 65 wrappers and 5 bottle caps at the park. Now he has 31 bottle caps and 9 wrappers in his collection.",
+          "Question": "How many more wrappers than bottle caps did danny find at the park?",
+          "Equation": "( 65.0 - 5.0 )",
+          "Answer": 60.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many more wrappers than bottle caps Danny found at the park, we first need to calculate the difference between the number of wrappers and bottle caps he found.\n\nStep 1: Number of wrappers found at the park\n65 wrappers\n\nStep 2: Number of bottle caps found at the park\n5 bottle caps\n\nStep 3: Difference between wrappers and bottle caps found at the park\n65 wrappers - 5 bottle caps = 60\n\nTherefore, Danny found 60 more wrappers than bottle caps at the park.\n\nAnswer: Danny found 60 more wrappers than bottle caps at the park.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-26",
+          "Body": "Danny collects bottle caps and wrappers. He found 65 wrappers and 5 bottle caps at the park. Now he has 31 bottle caps and 9 wrappers in his collection.",
+          "Question": "How many more wrappers than bottle caps did danny find at the park?",
+          "Equation": "( 65.0 - 5.0 )",
+          "Answer": 60.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many more wrappers than bottle caps Danny found at the park, we first need to calculate the difference between the number of wrappers and bottle caps he found.\n\nStep 1: Number of wrappers found at the park\n65 wrappers\n\nStep 2: Number of bottle caps found at the park\n5 bottle caps\n\nStep 3: Difference between wrappers and bottle caps found at the park\n65 wrappers - 5 bottle caps = 60\n\nTherefore, Danny found 60 more wrappers than bottle caps at the park.\n\nAnswer: Danny found 60 more wrappers than bottle caps at the park.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-26",
+          "Body": "Danny collects bottle caps and wrappers. He found 65 wrappers and 5 bottle caps at the park. Now he has 31 bottle caps and 9 wrappers in his collection.",
+          "Question": "How many more wrappers than bottle caps did danny find at the park?",
+          "Equation": "( 65.0 - 5.0 )",
+          "Answer": 60.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many more wrappers than bottle caps Danny found at the park, we first need to calculate the difference between the number of wrappers and bottle caps he found.\n\nStep 1: Number of wrappers found at the park\n65 wrappers\n\nStep 2: Number of bottle caps found at the park\n5 bottle caps\n\nStep 3: Difference between wrappers and bottle caps found at the park\n65 wrappers - 5 bottle caps = 60\n\nTherefore, Danny found 60 more wrappers than bottle caps at the park.\n\nAnswer: Danny found 60 more wrappers than bottle caps at the park.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-26",
+          "Body": "Danny collects bottle caps and wrappers. He found 65 wrappers and 5 bottle caps at the park. Now he has 31 bottle caps and 9 wrappers in his collection.",
+          "Question": "How many more wrappers than bottle caps did danny find at the park?",
+          "Equation": "( 65.0 - 5.0 )",
+          "Answer": 60.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many more wrappers than bottle caps Danny found at the park, we first need to calculate the difference between the number of wrappers and bottle caps he found.\n\nStep 1: Number of wrappers found at the park\n65 wrappers\n\nStep 2: Number of bottle caps found at the park\n5 bottle caps\n\nStep 3: Difference between wrappers and bottle caps found at the park\n65 wrappers - 5 bottle caps = 60\n\nTherefore, Danny found 60 more wrappers than bottle caps at the park.\n\nAnswer: Danny found 60 more wrappers than bottle caps at the park.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 100,
+    "completion_tokens": 122,
+    "cost": 0.00039400000000000004
+  }
+]

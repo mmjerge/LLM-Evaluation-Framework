@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-8",
+          "Body": "Paco had 41 cookies. He gave 9 cookies to his friend and ate 18 cookies.",
+          "Question": "How many more cookies did he eat than those he gave to his friend?",
+          "Equation": "( 18.0 - 9.0 )",
+          "Answer": 9.0,
+          "Type": "Subtraction"
+        },
+        "current": "Sure, I'll solve this problem step by step and show my reasoning for each step.\n\nStep 1: Identify the important information\n- Paco started with 41 cookies\n- He gave 9 cookies to his friend\n- He ate 18 cookies\n- We need to find how many more cookies he ate compared to what he gave away\n\nStep 2: Calculate how many cookies Paco gave away\nCookies given away = 9\n\nStep 3: Calculate how many cookies Paco ate\nCookies eaten = 18\n\nStep 4: Calculate the difference between cookies eaten and cookies given away\nDifference = Cookies eaten - Cookies given away\nDifference = 18 - 9 = 9\n\nStep 5: Check our answer\nPaco ate 18 cookies and gave away 9 cookies. The difference is indeed 9 cookies.\n\nAnswer: Paco ate 9 more cookies than those he gave to his friend.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-8",
+          "Body": "Paco had 41 cookies. He gave 9 cookies to his friend and ate 18 cookies.",
+          "Question": "How many more cookies did he eat than those he gave to his friend?",
+          "Equation": "( 18.0 - 9.0 )",
+          "Answer": 9.0,
+          "Type": "Subtraction"
+        },
+        "current": "Sure, I'll solve this problem step by step and show my reasoning for each step.\n\nStep 1: Identify the important information\n- Paco started with 41 cookies\n- He gave 9 cookies to his friend\n- He ate 18 cookies\n- We need to find how many more cookies he ate compared to what he gave away\n\nStep 2: Calculate how many cookies Paco gave away\nCookies given away = 9\n\nStep 3: Calculate how many cookies Paco ate\nCookies eaten = 18\n\nStep 4: Calculate the difference between cookies eaten and cookies given away\nDifference = Cookies eaten - Cookies given away\nDifference = 18 - 9 = 9\n\nStep 5: Check our answer\nPaco ate 18 cookies and gave away 9 cookies. The difference is indeed 9 cookies.\n\nAnswer: Paco ate 9 more cookies than those he gave to his friend.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-8",
+          "Body": "Paco had 41 cookies. He gave 9 cookies to his friend and ate 18 cookies.",
+          "Question": "How many more cookies did he eat than those he gave to his friend?",
+          "Equation": "( 18.0 - 9.0 )",
+          "Answer": 9.0,
+          "Type": "Subtraction"
+        },
+        "current": "Sure, I'll solve this problem step by step and show my reasoning for each step.\n\nStep 1: Identify the important information\n- Paco started with 41 cookies\n- He gave 9 cookies to his friend\n- He ate 18 cookies\n- We need to find how many more cookies he ate compared to what he gave away\n\nStep 2: Calculate how many cookies Paco gave away\nCookies given away = 9\n\nStep 3: Calculate how many cookies Paco ate\nCookies eaten = 18\n\nStep 4: Calculate the difference between cookies eaten and cookies given away\nDifference = Cookies eaten - Cookies given away\nDifference = 18 - 9 = 9\n\nStep 5: Check our answer\nPaco ate 18 cookies and gave away 9 cookies. The difference is indeed 9 cookies.\n\nAnswer: Paco ate 9 more cookies than those he gave to his friend.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-8",
+          "Body": "Paco had 41 cookies. He gave 9 cookies to his friend and ate 18 cookies.",
+          "Question": "How many more cookies did he eat than those he gave to his friend?",
+          "Equation": "( 18.0 - 9.0 )",
+          "Answer": 9.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve the problem where Paco had 41 cookies, gave 9 cookies to his friend, and ate 18 cookies, we need to determine how many more cookies he ate than those he gave away. \n\nLet's break it down step by step:\n\n1. **Identify the number of cookies given to the friend:**\n   Paco gave 9 cookies to his friend.\n\n2. **Identify the number of cookies eaten by Paco:**\n   Paco ate 18 cookies.\n\n3. **Calculate the difference between the number of cookies eaten and given away:**\n   We need to subtract the number of cookies given to his friend from the number of cookies eaten by Paco to find out how many more he ate.\n\n   \\[\n   \\text{Number of more cookies Paco ate} = \\text{Cookies eaten} - \\text{Cookies given away}\n   \\]\n\n   \\[\n   \\text{Number of more cookies Paco ate} = 18 - 9\n   \\]\n\n4. **Perform the subtraction:**\n   \\[\n   18 - 9 = 9\n   \\]\n\n**Reasoning:**\nPaco ate 18 cookies and gave away 9 cookies. To find out how many more cookies he ate than he gave away, we subtract the smaller number (cookies given) from the larger number (cookies eaten).\n\n**Final Answer:**\n\\[\n\\text{Answer: } 9\n\\]",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-8",
+          "Body": "Paco had 41 cookies. He gave 9 cookies to his friend and ate 18 cookies.",
+          "Question": "How many more cookies did he eat than those he gave to his friend?",
+          "Equation": "( 18.0 - 9.0 )",
+          "Answer": 9.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve the problem where Paco had 41 cookies, gave 9 cookies to his friend, and ate 18 cookies, we need to determine how many more cookies he ate than those he gave away. \n\nLet's break it down step by step:\n\n1. **Identify the number of cookies given to the friend:**\n   Paco gave 9 cookies to his friend.\n\n2. **Identify the number of cookies eaten by Paco:**\n   Paco ate 18 cookies.\n\n3. **Calculate the difference between the number of cookies eaten and given away:**\n   We need to subtract the number of cookies given to his friend from the number of cookies eaten by Paco to find out how many more he ate.\n\n   \\[\n   \\text{Number of more cookies Paco ate} = \\text{Cookies eaten} - \\text{Cookies given away}\n   \\]\n\n   \\[\n   \\text{Number of more cookies Paco ate} = 18 - 9\n   \\]\n\n4. **Perform the subtraction:**\n   \\[\n   18 - 9 = 9\n   \\]\n\n**Reasoning:**\nPaco ate 18 cookies and gave away 9 cookies. To find out how many more cookies he ate than he gave away, we subtract the smaller number (cookies given) from the larger number (cookies eaten).\n\n**Final Answer:**\n\\[\n\\text{Answer: } 9\n\\]",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-8",
+          "Body": "Paco had 41 cookies. He gave 9 cookies to his friend and ate 18 cookies.",
+          "Question": "How many more cookies did he eat than those he gave to his friend?",
+          "Equation": "( 18.0 - 9.0 )",
+          "Answer": 9.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve the problem where Paco had 41 cookies, gave 9 cookies to his friend, and ate 18 cookies, we need to determine how many more cookies he ate than those he gave away. \n\nLet's break it down step by step:\n\n1. **Identify the number of cookies given to the friend:**\n   Paco gave 9 cookies to his friend.\n\n2. **Identify the number of cookies eaten by Paco:**\n   Paco ate 18 cookies.\n\n3. **Calculate the difference between the number of cookies eaten and given away:**\n   We need to subtract the number of cookies given to his friend from the number of cookies eaten by Paco to find out how many more he ate.\n\n   \\[\n   \\text{Number of more cookies Paco ate} = \\text{Cookies eaten} - \\text{Cookies given away}\n   \\]\n\n   \\[\n   \\text{Number of more cookies Paco ate} = 18 - 9\n   \\]\n\n4. **Perform the subtraction:**\n   \\[\n   18 - 9 = 9\n   \\]\n\n**Reasoning:**\nPaco ate 18 cookies and gave away 9 cookies. To find out how many more cookies he ate than he gave away, we subtract the smaller number (cookies given) from the larger number (cookies eaten).\n\n**Final Answer:**\n\\[\n\\text{Answer: } 9\n\\]",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 86,
+    "completion_tokens": 288,
+    "cost": 0.019859999999999996
+  }
+]

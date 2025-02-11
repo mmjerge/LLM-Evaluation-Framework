@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-32",
+          "Body": "There were 15 roses and 62 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 17 roses and 96 orchids in the vase.",
+          "Question": "How many roses did she cut?",
+          "Equation": "( 17.0 - 15.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Determine the initial number of roses and orchids in the vase.\n- There were 15 roses and 62 orchids in the vase initially.\n\nStep 2: Determine the final number of roses and orchids in the vase.\n- There are now 17 roses and 96 orchids in the vase.\n\nStep 3: Calculate the number of roses Jessica cut.\n- To find out how many roses Jessica cut, we subtract the initial number of roses from the final number of roses.\n- Number of roses cut = Final number of roses - Initial number of roses\n- Number of roses cut = 17 - 15\n- Number of roses cut = 2\n\nAnswer: Jessica cut 2 roses.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-32",
+          "Body": "There were 15 roses and 62 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 17 roses and 96 orchids in the vase.",
+          "Question": "How many roses did she cut?",
+          "Equation": "( 17.0 - 15.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Determine the initial number of roses and orchids in the vase.\n- There were 15 roses and 62 orchids in the vase initially.\n\nStep 2: Determine the final number of roses and orchids in the vase.\n- There are now 17 roses and 96 orchids in the vase.\n\nStep 3: Calculate the number of roses Jessica cut.\n- To find out how many roses Jessica cut, we subtract the initial number of roses from the final number of roses.\n- Number of roses cut = Final number of roses - Initial number of roses\n- Number of roses cut = 17 - 15\n- Number of roses cut = 2\n\nAnswer: Jessica cut 2 roses.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-32",
+          "Body": "There were 15 roses and 62 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 17 roses and 96 orchids in the vase.",
+          "Question": "How many roses did she cut?",
+          "Equation": "( 17.0 - 15.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Determine the initial number of roses and orchids in the vase.\n- There were 15 roses and 62 orchids in the vase initially.\n\nStep 2: Determine the final number of roses and orchids in the vase.\n- There are now 17 roses and 96 orchids in the vase.\n\nStep 3: Calculate the number of roses Jessica cut.\n- To find out how many roses Jessica cut, we subtract the initial number of roses from the final number of roses.\n- Number of roses cut = Final number of roses - Initial number of roses\n- Number of roses cut = 17 - 15\n- Number of roses cut = 2\n\nAnswer: Jessica cut 2 roses.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-32",
+          "Body": "There were 15 roses and 62 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 17 roses and 96 orchids in the vase.",
+          "Question": "How many roses did she cut?",
+          "Equation": "( 17.0 - 15.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Determine the initial number of roses and orchids in the vase.\n- There were 15 roses and 62 orchids in the vase initially.\n\nStep 2: Determine the final number of roses and orchids in the vase.\n- There are now 17 roses and 96 orchids in the vase.\n\nStep 3: Calculate the number of roses Jessica cut.\n- To find out how many roses Jessica cut, we subtract the initial number of roses from the final number of roses.\n- Number of roses cut = Final number of roses - Initial number of roses\n- Number of roses cut = 17 - 15\n- Number of roses cut = 2\n\nAnswer: Jessica cut 2 roses.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-32",
+          "Body": "There were 15 roses and 62 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 17 roses and 96 orchids in the vase.",
+          "Question": "How many roses did she cut?",
+          "Equation": "( 17.0 - 15.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Determine the initial number of roses and orchids in the vase.\n- There were 15 roses and 62 orchids in the vase initially.\n\nStep 2: Determine the final number of roses and orchids in the vase.\n- There are now 17 roses and 96 orchids in the vase.\n\nStep 3: Calculate the number of roses Jessica cut.\n- To find out how many roses Jessica cut, we subtract the initial number of roses from the final number of roses.\n- Number of roses cut = Final number of roses - Initial number of roses\n- Number of roses cut = 17 - 15\n- Number of roses cut = 2\n\nAnswer: Jessica cut 2 roses.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

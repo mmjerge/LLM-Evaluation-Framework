@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve the given math problem step by step, let's identify the given information and the required result. \n\nGiven:\n- The cost of each pack of DVDs is $76.\n- There is a discount of $25 on each pack.\n\nWe need to find out how much we have to pay to buy each pack after applying the discount.\n\nStep 1: Identify the original cost of one pack of DVDs.\nOriginal cost = $76\n\nStep 2: Identify the discount on one pack of DVDs.\nDiscount = $25\n\nStep 3: Calculate the cost after applying the discount. \nSubtract the discount from the original cost:\nCost after discount = Original cost - Discount\nCost after discount = $76 - $25\n\nStep 4: Perform the subtraction to get the final cost.\nCost after discount = $51\n\nTherefore, after applying the discount, you have to pay $51 to buy each pack of DVDs.\n\nAnswer: $51",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve the given math problem step by step, let's identify the given information and the required result. \n\nGiven:\n- The cost of each pack of DVDs is $76.\n- There is a discount of $25 on each pack.\n\nWe need to find out how much we have to pay to buy each pack after applying the discount.\n\nStep 1: Identify the original cost of one pack of DVDs.\nOriginal cost = $76\n\nStep 2: Identify the discount on one pack of DVDs.\nDiscount = $25\n\nStep 3: Calculate the cost after applying the discount. \nSubtract the discount from the original cost:\nCost after discount = Original cost - Discount\nCost after discount = $76 - $25\n\nStep 4: Perform the subtraction to get the final cost.\nCost after discount = $51\n\nTherefore, after applying the discount, you have to pay $51 to buy each pack of DVDs.\n\nAnswer: $51",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve the given math problem step by step, let's identify the given information and the required result. \n\nGiven:\n- The cost of each pack of DVDs is $76.\n- There is a discount of $25 on each pack.\n\nWe need to find out how much we have to pay to buy each pack after applying the discount.\n\nStep 1: Identify the original cost of one pack of DVDs.\nOriginal cost = $76\n\nStep 2: Identify the discount on one pack of DVDs.\nDiscount = $25\n\nStep 3: Calculate the cost after applying the discount. \nSubtract the discount from the original cost:\nCost after discount = Original cost - Discount\nCost after discount = $76 - $25\n\nStep 4: Perform the subtraction to get the final cost.\nCost after discount = $51\n\nTherefore, after applying the discount, you have to pay $51 to buy each pack of DVDs.\n\nAnswer: $51",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 85,
+    "completion_tokens": 189,
+    "cost": 0.01389
+  }
+]

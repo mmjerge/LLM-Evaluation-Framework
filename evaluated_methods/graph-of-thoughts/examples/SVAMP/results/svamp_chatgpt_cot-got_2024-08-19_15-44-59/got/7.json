@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-8",
+          "Body": "Paco had 41 cookies. He gave 9 cookies to his friend and ate 18 cookies.",
+          "Question": "How many more cookies did he eat than those he gave to his friend?",
+          "Equation": "( 18.0 - 9.0 )",
+          "Answer": 9.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many more cookies Paco ate than he gave to his friend, we need to first calculate how many cookies Paco had left after giving some to his friend and eating some.\n\n1. Start with 41 cookies.\n2. Paco gave 9 cookies to his friend: 41 - 9 = 32 cookies left.\n3. Paco ate 18 cookies: 32 - 18 = 14 cookies left.\n\nTherefore, Paco ate 18 cookies - 9 cookies he gave to his friend = 9 more cookies than he gave to his friend.\n\nAnswer: 9.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-8",
+          "Body": "Paco had 41 cookies. He gave 9 cookies to his friend and ate 18 cookies.",
+          "Question": "How many more cookies did he eat than those he gave to his friend?",
+          "Equation": "( 18.0 - 9.0 )",
+          "Answer": 9.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many more cookies Paco ate than he gave to his friend, we need to first calculate how many cookies Paco had left after giving some to his friend and eating some.\n\n1. Start with 41 cookies.\n2. Paco gave 9 cookies to his friend: 41 - 9 = 32 cookies left.\n3. Paco ate 18 cookies: 32 - 18 = 14 cookies left.\n\nTherefore, Paco ate 18 cookies - 9 cookies he gave to his friend = 9 more cookies than he gave to his friend.\n\nAnswer: 9.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-8",
+          "Body": "Paco had 41 cookies. He gave 9 cookies to his friend and ate 18 cookies.",
+          "Question": "How many more cookies did he eat than those he gave to his friend?",
+          "Equation": "( 18.0 - 9.0 )",
+          "Answer": 9.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many more cookies Paco ate than he gave to his friend, we need to first calculate how many cookies Paco had left after giving some to his friend and eating some.\n\n1. Start with 41 cookies.\n2. Paco gave 9 cookies to his friend: 41 - 9 = 32 cookies left.\n3. Paco ate 18 cookies: 32 - 18 = 14 cookies left.\n\nTherefore, Paco ate 18 cookies - 9 cookies he gave to his friend = 9 more cookies than he gave to his friend.\n\nAnswer: 9.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-8",
+          "Body": "Paco had 41 cookies. He gave 9 cookies to his friend and ate 18 cookies.",
+          "Question": "How many more cookies did he eat than those he gave to his friend?",
+          "Equation": "( 18.0 - 9.0 )",
+          "Answer": 9.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many more cookies Paco ate than he gave to his friend, we need to first calculate how many cookies Paco had left after giving some to his friend and eating some.\n\n1. Start with 41 cookies.\n2. Paco gave 9 cookies to his friend: 41 - 9 = 32 cookies left.\n3. Paco ate 18 cookies: 32 - 18 = 14 cookies left.\n\nTherefore, Paco ate 18 cookies - 9 cookies he gave to his friend = 9 more cookies than he gave to his friend.\n\nAnswer: 9.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-8",
+          "Body": "Paco had 41 cookies. He gave 9 cookies to his friend and ate 18 cookies.",
+          "Question": "How many more cookies did he eat than those he gave to his friend?",
+          "Equation": "( 18.0 - 9.0 )",
+          "Answer": 9.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many more cookies Paco ate than he gave to his friend, we need to first calculate how many cookies Paco had left after giving some to his friend and eating some.\n\n1. Start with 41 cookies.\n2. Paco gave 9 cookies to his friend: 41 - 9 = 32 cookies left.\n3. Paco ate 18 cookies: 32 - 18 = 14 cookies left.\n\nTherefore, Paco ate 18 cookies - 9 cookies he gave to his friend = 9 more cookies than he gave to his friend.\n\nAnswer: 9.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 85,
+    "completion_tokens": 124,
+    "cost": 0.0003755
+  }
+]

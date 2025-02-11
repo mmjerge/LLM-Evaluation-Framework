@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-46",
+          "Body": "Zachary did 35 push-ups and 3 crunches in gym class today. David did 58 more push-ups but 87 less crunches than zachary.",
+          "Question": "How many more push-ups than crunches did Zachary do?",
+          "Equation": "( 35.0 - 3.0 )",
+          "Answer": 32.0,
+          "Type": "Subtraction"
+        },
+        "current": "Step 1: Determine the number of push-ups that Zachary did.\nZachary did 35 push-ups.\n\nStep 2: Determine the number of crunches that Zachary did.\nZachary did 3 crunches.\n\nStep 3: Calculate how many more push-ups than crunches Zachary did.\nWe subtract the number of crunches from the number of push-ups:\n\\[ 35 \\text{ push-ups} - 3 \\text{ crunches} = 32 \\]\n\nAnswer: 32",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-46",
+          "Body": "Zachary did 35 push-ups and 3 crunches in gym class today. David did 58 more push-ups but 87 less crunches than zachary.",
+          "Question": "How many more push-ups than crunches did Zachary do?",
+          "Equation": "( 35.0 - 3.0 )",
+          "Answer": 32.0,
+          "Type": "Subtraction"
+        },
+        "current": "Step 1: Determine the number of push-ups that Zachary did.\nZachary did 35 push-ups.\n\nStep 2: Determine the number of crunches that Zachary did.\nZachary did 3 crunches.\n\nStep 3: Calculate how many more push-ups than crunches Zachary did.\nWe subtract the number of crunches from the number of push-ups:\n\\[ 35 \\text{ push-ups} - 3 \\text{ crunches} = 32 \\]\n\nAnswer: 32",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-46",
+          "Body": "Zachary did 35 push-ups and 3 crunches in gym class today. David did 58 more push-ups but 87 less crunches than zachary.",
+          "Question": "How many more push-ups than crunches did Zachary do?",
+          "Equation": "( 35.0 - 3.0 )",
+          "Answer": 32.0,
+          "Type": "Subtraction"
+        },
+        "current": "Step 1: Determine the number of push-ups that Zachary did.\nZachary did 35 push-ups.\n\nStep 2: Determine the number of crunches that Zachary did.\nZachary did 3 crunches.\n\nStep 3: Calculate how many more push-ups than crunches Zachary did.\nWe subtract the number of crunches from the number of push-ups:\n\\[ 35 \\text{ push-ups} - 3 \\text{ crunches} = 32 \\]\n\nAnswer: 32",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-46",
+          "Body": "Zachary did 35 push-ups and 3 crunches in gym class today. David did 58 more push-ups but 87 less crunches than zachary.",
+          "Question": "How many more push-ups than crunches did Zachary do?",
+          "Equation": "( 35.0 - 3.0 )",
+          "Answer": 32.0,
+          "Type": "Subtraction"
+        },
+        "current": "Step 1: Determine the number of push-ups that Zachary did.\nZachary did 35 push-ups.\n\nStep 2: Determine the number of crunches that Zachary did.\nZachary did 3 crunches.\n\nStep 3: Calculate how many more push-ups than crunches Zachary did.\nWe subtract the number of crunches from the number of push-ups:\n\\[ 35 \\text{ push-ups} - 3 \\text{ crunches} = 32 \\]\n\nAnswer: 32",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-46",
+          "Body": "Zachary did 35 push-ups and 3 crunches in gym class today. David did 58 more push-ups but 87 less crunches than zachary.",
+          "Question": "How many more push-ups than crunches did Zachary do?",
+          "Equation": "( 35.0 - 3.0 )",
+          "Answer": 32.0,
+          "Type": "Subtraction"
+        },
+        "current": "Step 1: Determine the number of push-ups that Zachary did.\nZachary did 35 push-ups.\n\nStep 2: Determine the number of crunches that Zachary did.\nZachary did 3 crunches.\n\nStep 3: Calculate how many more push-ups than crunches Zachary did.\nWe subtract the number of crunches from the number of push-ups:\n\\[ 35 \\text{ push-ups} - 3 \\text{ crunches} = 32 \\]\n\nAnswer: 32",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 98,
+    "completion_tokens": 106,
+    "cost": 0.0093
+  }
+]

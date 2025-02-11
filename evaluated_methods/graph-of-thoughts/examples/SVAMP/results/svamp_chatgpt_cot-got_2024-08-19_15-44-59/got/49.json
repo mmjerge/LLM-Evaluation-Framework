@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-50",
+          "Body": "Nell collects cards. She had 309 baseball cards and 356 Ace cards. She gave some of her cards to Jeff and now has 415 baseball cards and Ace cards left.",
+          "Question": "How many more baseball cards than Ace cards does Nell have?",
+          "Equation": "( 415.0 - 149.0 )",
+          "Answer": 266.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Step 1>\nLet's first calculate how many cards Nell gave to Jeff:\nTotal cards Nell had = 309 (baseball) + 356 (Ace) = 665 cards\nTotal cards remaining after giving some to Jeff = 415 (baseball) + 356 (Ace) = 771 cards\nCards given to Jeff = 771 - 665 = 106 cards\n\n<Step 2>\nNext, let's determine the difference in the number of baseball cards and Ace cards Nell has:\nBaseball cards remaining = 415\nAce cards remaining = 356\n\n<Step 3>\nNow, we need to calculate how many more baseball cards Nell has compared to Ace cards:\nDifference = 415 (baseball) - 356 (Ace) = 59\n\n<Step 4>\nTherefore, Nell has 59 more baseball cards than Ace cards.\n\nAnswer: Nell has 59 more baseball cards than Ace cards.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-50",
+          "Body": "Nell collects cards. She had 309 baseball cards and 356 Ace cards. She gave some of her cards to Jeff and now has 415 baseball cards and Ace cards left.",
+          "Question": "How many more baseball cards than Ace cards does Nell have?",
+          "Equation": "( 415.0 - 149.0 )",
+          "Answer": 266.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Step 1>\nLet's first calculate how many cards Nell gave to Jeff:\nTotal cards Nell had = 309 (baseball) + 356 (Ace) = 665 cards\nTotal cards remaining after giving some to Jeff = 415 (baseball) + 356 (Ace) = 771 cards\nCards given to Jeff = 771 - 665 = 106 cards\n\n<Step 2>\nNext, let's determine the difference in the number of baseball cards and Ace cards Nell has:\nBaseball cards remaining = 415\nAce cards remaining = 356\n\n<Step 3>\nNow, we need to calculate how many more baseball cards Nell has compared to Ace cards:\nDifference = 415 (baseball) - 356 (Ace) = 59\n\n<Step 4>\nTherefore, Nell has 59 more baseball cards than Ace cards.\n\nAnswer: Nell has 59 more baseball cards than Ace cards.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-50",
+          "Body": "Nell collects cards. She had 309 baseball cards and 356 Ace cards. She gave some of her cards to Jeff and now has 415 baseball cards and Ace cards left.",
+          "Question": "How many more baseball cards than Ace cards does Nell have?",
+          "Equation": "( 415.0 - 149.0 )",
+          "Answer": 266.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Step 1>\nLet's first calculate how many cards Nell gave to Jeff:\nTotal cards Nell had = 309 (baseball) + 356 (Ace) = 665 cards\nTotal cards remaining after giving some to Jeff = 415 (baseball) + 356 (Ace) = 771 cards\nCards given to Jeff = 771 - 665 = 106 cards\n\n<Step 2>\nNext, let's determine the difference in the number of baseball cards and Ace cards Nell has:\nBaseball cards remaining = 415\nAce cards remaining = 356\n\n<Step 3>\nNow, we need to calculate how many more baseball cards Nell has compared to Ace cards:\nDifference = 415 (baseball) - 356 (Ace) = 59\n\n<Step 4>\nTherefore, Nell has 59 more baseball cards than Ace cards.\n\nAnswer: Nell has 59 more baseball cards than Ace cards.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-50",
+          "Body": "Nell collects cards. She had 309 baseball cards and 356 Ace cards. She gave some of her cards to Jeff and now has 415 baseball cards and Ace cards left.",
+          "Question": "How many more baseball cards than Ace cards does Nell have?",
+          "Equation": "( 415.0 - 149.0 )",
+          "Answer": 266.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Step 1>\nLet's first calculate how many cards Nell gave to Jeff:\nTotal cards Nell had = 309 (baseball) + 356 (Ace) = 665 cards\nTotal cards remaining after giving some to Jeff = 415 (baseball) + 356 (Ace) = 771 cards\nCards given to Jeff = 771 - 665 = 106 cards\n\n<Step 2>\nNext, let's determine the difference in the number of baseball cards and Ace cards Nell has:\nBaseball cards remaining = 415\nAce cards remaining = 356\n\n<Step 3>\nNow, we need to calculate how many more baseball cards Nell has compared to Ace cards:\nDifference = 415 (baseball) - 356 (Ace) = 59\n\n<Step 4>\nTherefore, Nell has 59 more baseball cards than Ace cards.\n\nAnswer: Nell has 59 more baseball cards than Ace cards.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-50",
+          "Body": "Nell collects cards. She had 309 baseball cards and 356 Ace cards. She gave some of her cards to Jeff and now has 415 baseball cards and Ace cards left.",
+          "Question": "How many more baseball cards than Ace cards does Nell have?",
+          "Equation": "( 415.0 - 149.0 )",
+          "Answer": 266.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Step 1>\nLet's first calculate how many cards Nell gave to Jeff:\nTotal cards Nell had = 309 (baseball) + 356 (Ace) = 665 cards\nTotal cards remaining after giving some to Jeff = 415 (baseball) + 356 (Ace) = 771 cards\nCards given to Jeff = 771 - 665 = 106 cards\n\n<Step 2>\nNext, let's determine the difference in the number of baseball cards and Ace cards Nell has:\nBaseball cards remaining = 415\nAce cards remaining = 356\n\n<Step 3>\nNow, we need to calculate how many more baseball cards Nell has compared to Ace cards:\nDifference = 415 (baseball) - 356 (Ace) = 59\n\n<Step 4>\nTherefore, Nell has 59 more baseball cards than Ace cards.\n\nAnswer: Nell has 59 more baseball cards than Ace cards.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "prompt_tokens": 99,
+    "completion_tokens": 197,
+    "cost": 0.0005425
+  }
+]

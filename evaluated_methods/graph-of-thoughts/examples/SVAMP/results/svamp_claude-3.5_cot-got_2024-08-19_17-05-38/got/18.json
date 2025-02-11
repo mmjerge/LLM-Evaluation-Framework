@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-19",
+          "Body": "Danny collects bottle caps and wrappers. He found 22 bottle caps and 30 wrappers at the park. Now he has 17 bottle caps and 57 wrappers in his collection.",
+          "Question": "How many wrappers did danny have at first?",
+          "Equation": "( 57.0 - 30.0 )",
+          "Answer": 27.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   * Danny found 22 bottle caps and 30 wrappers at the park.\n   * Now he has 17 bottle caps and 57 wrappers in his collection.\n   * We need to find out how many wrappers Danny had at first.\n\n2. Calculate the change in bottle caps:\n   * Danny now has 17 bottle caps\n   * He found 22 bottle caps\n   * 17 - 22 = -5\n   * This means Danny had 5 bottle caps before finding more at the park.\n\n3. Calculate the change in wrappers:\n   * Danny now has 57 wrappers\n   * He found 30 wrappers at the park\n   * To find how many he had at first, we subtract the found wrappers from his current total\n   * 57 - 30 = 27\n\nAnswer: Danny had 27 wrappers at first.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-19",
+          "Body": "Danny collects bottle caps and wrappers. He found 22 bottle caps and 30 wrappers at the park. Now he has 17 bottle caps and 57 wrappers in his collection.",
+          "Question": "How many wrappers did danny have at first?",
+          "Equation": "( 57.0 - 30.0 )",
+          "Answer": 27.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   * Danny found 22 bottle caps and 30 wrappers at the park.\n   * Now he has 17 bottle caps and 57 wrappers in his collection.\n   * We need to find out how many wrappers Danny had at first.\n\n2. Calculate the change in bottle caps:\n   * Danny now has 17 bottle caps\n   * He found 22 bottle caps\n   * 17 - 22 = -5\n   * This means Danny had 5 bottle caps before finding more at the park.\n\n3. Calculate the change in wrappers:\n   * Danny now has 57 wrappers\n   * He found 30 wrappers at the park\n   * To find how many he had at first, we subtract the found wrappers from his current total\n   * 57 - 30 = 27\n\nAnswer: Danny had 27 wrappers at first.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-19",
+          "Body": "Danny collects bottle caps and wrappers. He found 22 bottle caps and 30 wrappers at the park. Now he has 17 bottle caps and 57 wrappers in his collection.",
+          "Question": "How many wrappers did danny have at first?",
+          "Equation": "( 57.0 - 30.0 )",
+          "Answer": 27.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   * Danny found 22 bottle caps and 30 wrappers at the park.\n   * Now he has 17 bottle caps and 57 wrappers in his collection.\n   * We need to find out how many wrappers Danny had at first.\n\n2. Calculate the change in bottle caps:\n   * Danny now has 17 bottle caps\n   * He found 22 bottle caps\n   * 17 - 22 = -5\n   * This means Danny had 5 bottle caps before finding more at the park.\n\n3. Calculate the change in wrappers:\n   * Danny now has 57 wrappers\n   * He found 30 wrappers at the park\n   * To find how many he had at first, we subtract the found wrappers from his current total\n   * 57 - 30 = 27\n\nAnswer: Danny had 27 wrappers at first.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-19",
+          "Body": "Danny collects bottle caps and wrappers. He found 22 bottle caps and 30 wrappers at the park. Now he has 17 bottle caps and 57 wrappers in his collection.",
+          "Question": "How many wrappers did danny have at first?",
+          "Equation": "( 57.0 - 30.0 )",
+          "Answer": 27.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   * Danny found 22 bottle caps and 30 wrappers at the park.\n   * Now he has 17 bottle caps and 57 wrappers in his collection.\n   * We need to find out how many wrappers Danny had at first.\n\n2. Calculate the change in bottle caps:\n   * Danny now has 17 bottle caps\n   * He found 22 bottle caps\n   * 17 - 22 = -5\n   * This means Danny had 5 bottle caps before finding more at the park.\n\n3. Calculate the change in wrappers:\n   * Danny now has 57 wrappers\n   * He found 30 wrappers at the park\n   * To find how many he had at first, we subtract the found wrappers from his current total\n   * 57 - 30 = 27\n\nAnswer: Danny had 27 wrappers at first.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-19",
+          "Body": "Danny collects bottle caps and wrappers. He found 22 bottle caps and 30 wrappers at the park. Now he has 17 bottle caps and 57 wrappers in his collection.",
+          "Question": "How many wrappers did danny have at first?",
+          "Equation": "( 57.0 - 30.0 )",
+          "Answer": 27.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   * Danny found 22 bottle caps and 30 wrappers at the park.\n   * Now he has 17 bottle caps and 57 wrappers in his collection.\n   * We need to find out how many wrappers Danny had at first.\n\n2. Calculate the change in bottle caps:\n   * Danny now has 17 bottle caps\n   * He found 22 bottle caps\n   * 17 - 22 = -5\n   * This means Danny had 5 bottle caps before finding more at the park.\n\n3. Calculate the change in wrappers:\n   * Danny now has 57 wrappers\n   * He found 30 wrappers at the park\n   * To find how many he had at first, we subtract the found wrappers from his current total\n   * 57 - 30 = 27\n\nAnswer: Danny had 27 wrappers at first.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

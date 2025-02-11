@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": "I'd be happy to solve this problem step by step for you. Let's break it down:\n\nStep 1: Identify the given information\n- Each pack of DVDs costs $76\n- There is a discount of $25 on each pack\n\nStep 2: Determine the calculation needed\nWe need to subtract the discount from the original price to find the final price per pack.\n\nStep 3: Perform the calculation\nOriginal price - Discount = Final price\n$76 - $25 = $51\n\nStep 4: Check the result\nWe started with $76 and removed $25, so $51 makes sense as the final price.\n\nAnswer: $51\n\nTherefore, you have to pay $51 to buy each pack of DVDs after the discount.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": "I'd be happy to solve this problem step by step for you. Let's break it down:\n\nStep 1: Identify the given information\n- Each pack of DVDs costs $76\n- There is a discount of $25 on each pack\n\nStep 2: Determine the calculation needed\nWe need to subtract the discount from the original price to find the final price per pack.\n\nStep 3: Perform the calculation\nOriginal price - Discount = Final price\n$76 - $25 = $51\n\nStep 4: Check the result\nWe started with $76 and removed $25, so $51 makes sense as the final price.\n\nAnswer: $51\n\nTherefore, you have to pay $51 to buy each pack of DVDs after the discount.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": "I'd be happy to solve this problem step by step for you. Let's break it down:\n\nStep 1: Identify the given information\n- Each pack of DVDs costs $76\n- There is a discount of $25 on each pack\n\nStep 2: Determine the calculation needed\nWe need to subtract the discount from the original price to find the final price per pack.\n\nStep 3: Perform the calculation\nOriginal price - Discount = Final price\n$76 - $25 = $51\n\nStep 4: Check the result\nWe started with $76 and removed $25, so $51 makes sense as the final price.\n\nAnswer: $51\n\nTherefore, you have to pay $51 to buy each pack of DVDs after the discount.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": "I'd be happy to solve this problem step by step for you. Let's break it down:\n\nStep 1: Identify the given information\n- Each pack of DVDs costs $76\n- There is a discount of $25 on each pack\n\nStep 2: Determine the calculation needed\nWe need to subtract the discount from the original price to find the final price per pack.\n\nStep 3: Perform the calculation\nOriginal price - Discount = Final price\n$76 - $25 = $51\n\nStep 4: Check the result\nWe started with $76 and removed $25, so $51 makes sense as the final price.\n\nAnswer: $51\n\nTherefore, you have to pay $51 to buy each pack of DVDs after the discount.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": "I'd be happy to solve this problem step by step for you. Let's break it down:\n\nStep 1: Identify the given information\n- Each pack of DVDs costs $76\n- There is a discount of $25 on each pack\n\nStep 2: Determine the calculation needed\nWe need to subtract the discount from the original price to find the final price per pack.\n\nStep 3: Perform the calculation\nOriginal price - Discount = Final price\n$76 - $25 = $51\n\nStep 4: Check the result\nWe started with $76 and removed $25, so $51 makes sense as the final price.\n\nAnswer: $51\n\nTherefore, you have to pay $51 to buy each pack of DVDs after the discount.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

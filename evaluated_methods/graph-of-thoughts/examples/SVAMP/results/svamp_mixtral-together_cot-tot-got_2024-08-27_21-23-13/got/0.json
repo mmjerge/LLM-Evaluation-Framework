@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Identify the original price of each pack of DVDs.\nThe original price is given as 76 dollars.\n\nStep 2: Identify the discount amount on each pack.\nThe discount amount is given as 25 dollars.\n\nStep 3: Calculate the final price after applying the discount.\nTo find the final price, subtract the discount amount from the original price.\nFinal price = Original price - Discount amount\nFinal price = 76 dollars - 25 dollars\nFinal price = 51 dollars\n\nAnswer: You have to pay 51 dollars to buy each pack of DVDs after the discount.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Identify the original price of each pack of DVDs.\nThe original price is given as 76 dollars.\n\nStep 2: Identify the discount amount on each pack.\nThe discount amount is given as 25 dollars.\n\nStep 3: Calculate the final price after applying the discount.\nTo find the final price, subtract the discount amount from the original price.\nFinal price = Original price - Discount amount\nFinal price = 76 dollars - 25 dollars\nFinal price = 51 dollars\n\nAnswer: You have to pay 51 dollars to buy each pack of DVDs after the discount.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Identify the original price of each pack of DVDs.\nThe original price is given as 76 dollars.\n\nStep 2: Identify the discount amount on each pack.\nThe discount amount is given as 25 dollars.\n\nStep 3: Calculate the final price after applying the discount.\nTo find the final price, subtract the discount amount from the original price.\nFinal price = Original price - Discount amount\nFinal price = 76 dollars - 25 dollars\nFinal price = 51 dollars\n\nAnswer: You have to pay 51 dollars to buy each pack of DVDs after the discount.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Identify the original price of each pack of DVDs.\nThe original price is given as 76 dollars.\n\nStep 2: Identify the discount amount on each pack.\nThe discount amount is given as 25 dollars.\n\nStep 3: Calculate the final price after applying the discount.\nTo find the final price, subtract the discount amount from the original price.\nFinal price = Original price - Discount amount\nFinal price = 76 dollars - 25 dollars\nFinal price = 51 dollars\n\nAnswer: You have to pay 51 dollars to buy each pack of DVDs after the discount.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Identify the original price of each pack of DVDs.\nThe original price is given as 76 dollars.\n\nStep 2: Identify the discount amount on each pack.\nThe discount amount is given as 25 dollars.\n\nStep 3: Calculate the final price after applying the discount.\nTo find the final price, subtract the discount amount from the original price.\nFinal price = Original price - Discount amount\nFinal price = 76 dollars - 25 dollars\nFinal price = 51 dollars\n\nAnswer: You have to pay 51 dollars to buy each pack of DVDs after the discount.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

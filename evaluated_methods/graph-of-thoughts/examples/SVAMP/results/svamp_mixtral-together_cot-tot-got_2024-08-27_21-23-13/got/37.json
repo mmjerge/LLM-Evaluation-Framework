@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-38",
+          "Body": "For Gwen's birthday she received 5 dollars from her dad. Her mom gave her 7 more dollars. If she spent 4 dollars.",
+          "Question": "How much more money did she receive from her mom than she did from her dad?",
+          "Equation": "( 7.0 - 5.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Calculate the total amount Gwen received from her dad and mom.\nGwen received 5 dollars from her dad and 7 dollars from her mom.\nSo, the total amount she received is 5 + 7 = 12 dollars.\n\nStep 2: Calculate how much more money Gwen received from her mom than from her dad.\nGwen received 7 dollars from her mom and 5 dollars from her dad.\nSo, the difference is 7 - 5 = 2 dollars.\n\nStep 3: Calculate how much money Gwen has left after spending 4 dollars.\nGwen had 12 dollars in total and spent 4 dollars.\nSo, she has 12 - 4 = 8 dollars left.\n\nHowever, the question asks for how much more money Gwen received from her mom than she did from her dad.\n\nAnswer: Gwen received 2 dollars more from her mom than she did from her dad.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-38",
+          "Body": "For Gwen's birthday she received 5 dollars from her dad. Her mom gave her 7 more dollars. If she spent 4 dollars.",
+          "Question": "How much more money did she receive from her mom than she did from her dad?",
+          "Equation": "( 7.0 - 5.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Calculate the total amount Gwen received from her dad and mom.\nGwen received 5 dollars from her dad and 7 dollars from her mom.\nSo, the total amount she received is 5 + 7 = 12 dollars.\n\nStep 2: Calculate how much more money Gwen received from her mom than from her dad.\nGwen received 7 dollars from her mom and 5 dollars from her dad.\nSo, the difference is 7 - 5 = 2 dollars.\n\nStep 3: Calculate how much money Gwen has left after spending 4 dollars.\nGwen had 12 dollars in total and spent 4 dollars.\nSo, she has 12 - 4 = 8 dollars left.\n\nHowever, the question asks for how much more money Gwen received from her mom than she did from her dad.\n\nAnswer: Gwen received 2 dollars more from her mom than she did from her dad.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-38",
+          "Body": "For Gwen's birthday she received 5 dollars from her dad. Her mom gave her 7 more dollars. If she spent 4 dollars.",
+          "Question": "How much more money did she receive from her mom than she did from her dad?",
+          "Equation": "( 7.0 - 5.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Calculate the total amount Gwen received from her dad and mom.\nGwen received 5 dollars from her dad and 7 dollars from her mom.\nSo, the total amount she received is 5 + 7 = 12 dollars.\n\nStep 2: Calculate how much more money Gwen received from her mom than from her dad.\nGwen received 7 dollars from her mom and 5 dollars from her dad.\nSo, the difference is 7 - 5 = 2 dollars.\n\nStep 3: Calculate how much money Gwen has left after spending 4 dollars.\nGwen had 12 dollars in total and spent 4 dollars.\nSo, she has 12 - 4 = 8 dollars left.\n\nHowever, the question asks for how much more money Gwen received from her mom than she did from her dad.\n\nAnswer: Gwen received 2 dollars more from her mom than she did from her dad.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-38",
+          "Body": "For Gwen's birthday she received 5 dollars from her dad. Her mom gave her 7 more dollars. If she spent 4 dollars.",
+          "Question": "How much more money did she receive from her mom than she did from her dad?",
+          "Equation": "( 7.0 - 5.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Calculate the total amount Gwen received from her dad and mom.\nGwen received 5 dollars from her dad and 7 dollars from her mom.\nSo, the total amount she received is 5 + 7 = 12 dollars.\n\nStep 2: Calculate how much more money Gwen received from her mom than from her dad.\nGwen received 7 dollars from her mom and 5 dollars from her dad.\nSo, the difference is 7 - 5 = 2 dollars.\n\nStep 3: Calculate how much money Gwen has left after spending 4 dollars.\nGwen had 12 dollars in total and spent 4 dollars.\nSo, she has 12 - 4 = 8 dollars left.\n\nHowever, the question asks for how much more money Gwen received from her mom than she did from her dad.\n\nAnswer: Gwen received 2 dollars more from her mom than she did from her dad.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-38",
+          "Body": "For Gwen's birthday she received 5 dollars from her dad. Her mom gave her 7 more dollars. If she spent 4 dollars.",
+          "Question": "How much more money did she receive from her mom than she did from her dad?",
+          "Equation": "( 7.0 - 5.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Calculate the total amount Gwen received from her dad and mom.\nGwen received 5 dollars from her dad and 7 dollars from her mom.\nSo, the total amount she received is 5 + 7 = 12 dollars.\n\nStep 2: Calculate how much more money Gwen received from her mom than from her dad.\nGwen received 7 dollars from her mom and 5 dollars from her dad.\nSo, the difference is 7 - 5 = 2 dollars.\n\nStep 3: Calculate how much money Gwen has left after spending 4 dollars.\nGwen had 12 dollars in total and spent 4 dollars.\nSo, she has 12 - 4 = 8 dollars left.\n\nHowever, the question asks for how much more money Gwen received from her mom than she did from her dad.\n\nAnswer: Gwen received 2 dollars more from her mom than she did from her dad.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-18",
+          "Body": "In a school there are 732 girls and 761 boys. 682 more girls and 8 more boys joined the school.",
+          "Question": "How many girls are there in the school now?",
+          "Equation": "( 732.0 + 682.0 )",
+          "Answer": 1414.0,
+          "Type": "Addition"
+        },
+        "current": "To find out how many girls are there in the school now, we will first find the total number of girls after the new ones joined.\n\n1. Total number of girls before new ones joined = 732\n2. Total number of girls after new ones joined = 732 + 682 = 1414\n\nAnswer: There are 1414 girls in the school now.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-18",
+          "Body": "In a school there are 732 girls and 761 boys. 682 more girls and 8 more boys joined the school.",
+          "Question": "How many girls are there in the school now?",
+          "Equation": "( 732.0 + 682.0 )",
+          "Answer": 1414.0,
+          "Type": "Addition"
+        },
+        "current": "To find out how many girls are there in the school now, we will first find the total number of girls after the new ones joined.\n\n1. Total number of girls before new ones joined = 732\n2. Total number of girls after new ones joined = 732 + 682 = 1414\n\nAnswer: There are 1414 girls in the school now.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-18",
+          "Body": "In a school there are 732 girls and 761 boys. 682 more girls and 8 more boys joined the school.",
+          "Question": "How many girls are there in the school now?",
+          "Equation": "( 732.0 + 682.0 )",
+          "Answer": 1414.0,
+          "Type": "Addition"
+        },
+        "current": "To find out how many girls are there in the school now, we will first find the total number of girls after the new ones joined.\n\n1. Total number of girls before new ones joined = 732\n2. Total number of girls after new ones joined = 732 + 682 = 1414\n\nAnswer: There are 1414 girls in the school now.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 85,
+    "completion_tokens": 76,
+    "cost": 0.0002795
+  }
+]

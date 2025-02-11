@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-10",
+          "Body": "A waiter had some customers. After 9 customers left he still had 12 customers.",
+          "Question": "How many customers did he have at the start?",
+          "Equation": "( 9.0 + 12.0 )",
+          "Answer": 21.0,
+          "Type": "Addition"
+        },
+        "current": "<Step 1> Let x be the initial number of customers the waiter had.\nAfter 9 customers left, he still had x - 9 customers.\n\n<Step 2> According to the problem, x - 9 = 12.\nTherefore, x = 12 + 9.\n\n<Step 3> x = 21.\nHence, the waiter had 21 customers at the start.\n\nAnswer: 21.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-10",
+          "Body": "A waiter had some customers. After 9 customers left he still had 12 customers.",
+          "Question": "How many customers did he have at the start?",
+          "Equation": "( 9.0 + 12.0 )",
+          "Answer": 21.0,
+          "Type": "Addition"
+        },
+        "current": "<Step 1> Let x be the initial number of customers the waiter had.\nAfter 9 customers left, he still had x - 9 customers.\n\n<Step 2> According to the problem, x - 9 = 12.\nTherefore, x = 12 + 9.\n\n<Step 3> x = 21.\nHence, the waiter had 21 customers at the start.\n\nAnswer: 21.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      21.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-10",
+          "Body": "A waiter had some customers. After 9 customers left he still had 12 customers.",
+          "Question": "How many customers did he have at the start?",
+          "Equation": "( 9.0 + 12.0 )",
+          "Answer": 21.0,
+          "Type": "Addition"
+        },
+        "current": "<Step 1> Let x be the initial number of customers the waiter had.\nAfter 9 customers left, he still had x - 9 customers.\n\n<Step 2> According to the problem, x - 9 = 12.\nTherefore, x = 12 + 9.\n\n<Step 3> x = 21.\nHence, the waiter had 21 customers at the start.\n\nAnswer: 21.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      21.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 77,
+    "completion_tokens": 88,
+    "cost": 0.0002915
+  }
+]

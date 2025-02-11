@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-16",
+          "Body": "Marco and his dad went strawberry picking. Together they collected strawberries that weighed 36 pounds. On the way back Marco ' dad lost 8 pounds of strawberries. Marco's strawberries now weighed 12 pounds.",
+          "Question": "How much did his dad's strawberries weigh now?",
+          "Equation": "( ( 36.0 - 12.0 ) - 8.0 )",
+          "Answer": 16.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Determine the total weight of the strawberries after Marco's dad lost some.\nInitially, Marco and his dad had 36 pounds of strawberries. After losing 8 pounds, they had:\n36 - 8 = 28 pounds of strawberries left.\n\nStep 2: Calculate the weight of Marco's dad's strawberries now.\nWe know that Marco's strawberries now weigh 12 pounds. Since the total weight of the strawberries is 28 pounds, we can find the weight of Marco's dad's strawberries by subtracting the weight of Marco's strawberries from the total weight:\n28 - 12 = 16 pounds.\n\nAnswer: Marco's dad's strawberries now weigh 16 pounds.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-16",
+          "Body": "Marco and his dad went strawberry picking. Together they collected strawberries that weighed 36 pounds. On the way back Marco ' dad lost 8 pounds of strawberries. Marco's strawberries now weighed 12 pounds.",
+          "Question": "How much did his dad's strawberries weigh now?",
+          "Equation": "( ( 36.0 - 12.0 ) - 8.0 )",
+          "Answer": 16.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Determine the total weight of the strawberries after Marco's dad lost some.\nInitially, Marco and his dad had 36 pounds of strawberries. After losing 8 pounds, they had:\n36 - 8 = 28 pounds of strawberries left.\n\nStep 2: Calculate the weight of Marco's dad's strawberries now.\nWe know that Marco's strawberries now weigh 12 pounds. Since the total weight of the strawberries is 28 pounds, we can find the weight of Marco's dad's strawberries by subtracting the weight of Marco's strawberries from the total weight:\n28 - 12 = 16 pounds.\n\nAnswer: Marco's dad's strawberries now weigh 16 pounds.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-16",
+          "Body": "Marco and his dad went strawberry picking. Together they collected strawberries that weighed 36 pounds. On the way back Marco ' dad lost 8 pounds of strawberries. Marco's strawberries now weighed 12 pounds.",
+          "Question": "How much did his dad's strawberries weigh now?",
+          "Equation": "( ( 36.0 - 12.0 ) - 8.0 )",
+          "Answer": 16.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Determine the total weight of the strawberries after Marco's dad lost some.\nInitially, Marco and his dad had 36 pounds of strawberries. After losing 8 pounds, they had:\n36 - 8 = 28 pounds of strawberries left.\n\nStep 2: Calculate the weight of Marco's dad's strawberries now.\nWe know that Marco's strawberries now weigh 12 pounds. Since the total weight of the strawberries is 28 pounds, we can find the weight of Marco's dad's strawberries by subtracting the weight of Marco's strawberries from the total weight:\n28 - 12 = 16 pounds.\n\nAnswer: Marco's dad's strawberries now weigh 16 pounds.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-16",
+          "Body": "Marco and his dad went strawberry picking. Together they collected strawberries that weighed 36 pounds. On the way back Marco ' dad lost 8 pounds of strawberries. Marco's strawberries now weighed 12 pounds.",
+          "Question": "How much did his dad's strawberries weigh now?",
+          "Equation": "( ( 36.0 - 12.0 ) - 8.0 )",
+          "Answer": 16.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Determine the total weight of the strawberries after Marco's dad lost some.\nInitially, Marco and his dad had 36 pounds of strawberries. After losing 8 pounds, they had:\n36 - 8 = 28 pounds of strawberries left.\n\nStep 2: Calculate the weight of Marco's dad's strawberries now.\nWe know that Marco's strawberries now weigh 12 pounds. Since the total weight of the strawberries is 28 pounds, we can find the weight of Marco's dad's strawberries by subtracting the weight of Marco's strawberries from the total weight:\n28 - 12 = 16 pounds.\n\nAnswer: Marco's dad's strawberries now weigh 16 pounds.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-16",
+          "Body": "Marco and his dad went strawberry picking. Together they collected strawberries that weighed 36 pounds. On the way back Marco ' dad lost 8 pounds of strawberries. Marco's strawberries now weighed 12 pounds.",
+          "Question": "How much did his dad's strawberries weigh now?",
+          "Equation": "( ( 36.0 - 12.0 ) - 8.0 )",
+          "Answer": 16.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Determine the total weight of the strawberries after Marco's dad lost some.\nInitially, Marco and his dad had 36 pounds of strawberries. After losing 8 pounds, they had:\n36 - 8 = 28 pounds of strawberries left.\n\nStep 2: Calculate the weight of Marco's dad's strawberries now.\nWe know that Marco's strawberries now weigh 12 pounds. Since the total weight of the strawberries is 28 pounds, we can find the weight of Marco's dad's strawberries by subtracting the weight of Marco's strawberries from the total weight:\n28 - 12 = 16 pounds.\n\nAnswer: Marco's dad's strawberries now weigh 16 pounds.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

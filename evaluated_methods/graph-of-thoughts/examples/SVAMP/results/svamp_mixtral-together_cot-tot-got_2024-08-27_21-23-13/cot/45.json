@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-46",
+          "Body": "Zachary did 35 push-ups and 3 crunches in gym class today. David did 58 more push-ups but 87 less crunches than zachary.",
+          "Question": "How many more push-ups than crunches did Zachary do?",
+          "Equation": "( 35.0 - 3.0 )",
+          "Answer": 32.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Calculate the number of push-ups David did.\nDavid did 58 more push-ups than Zachary, so:\nDavid's push-ups = Zachary's push-ups + 58\nDavid's push-ups = 35 + 58\nDavid's push-ups = 93\n\nStep 2: Calculate the number of crunches David did.\nDavid did 87 less crunches than Zachary, so:\nDavid's crunches = Zachary's crunches - 87\nDavid's crunches = 3 - 87\nDavid's crunches = -84 (Since the number of crunches cannot be negative, this means David did not do any crunches.)\n\nStep 3: Calculate the difference between the number of push-ups and crunches Zachary did.\nZachary's push-ups - Zachary's crunches = 35 - 3\nZachary's push-ups - Zachary's crunches = 32\n\nAnswer: Zachary did 32 more push-ups than crunches.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-46",
+          "Body": "Zachary did 35 push-ups and 3 crunches in gym class today. David did 58 more push-ups but 87 less crunches than zachary.",
+          "Question": "How many more push-ups than crunches did Zachary do?",
+          "Equation": "( 35.0 - 3.0 )",
+          "Answer": 32.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Calculate the number of push-ups David did.\nDavid did 58 more push-ups than Zachary, so:\nDavid's push-ups = Zachary's push-ups + 58\nDavid's push-ups = 35 + 58\nDavid's push-ups = 93\n\nStep 2: Calculate the number of crunches David did.\nDavid did 87 less crunches than Zachary, so:\nDavid's crunches = Zachary's crunches - 87\nDavid's crunches = 3 - 87\nDavid's crunches = -84 (Since the number of crunches cannot be negative, this means David did not do any crunches.)\n\nStep 3: Calculate the difference between the number of push-ups and crunches Zachary did.\nZachary's push-ups - Zachary's crunches = 35 - 3\nZachary's push-ups - Zachary's crunches = 32\n\nAnswer: Zachary did 32 more push-ups than crunches.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-46",
+          "Body": "Zachary did 35 push-ups and 3 crunches in gym class today. David did 58 more push-ups but 87 less crunches than zachary.",
+          "Question": "How many more push-ups than crunches did Zachary do?",
+          "Equation": "( 35.0 - 3.0 )",
+          "Answer": 32.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Calculate the number of push-ups David did.\nDavid did 58 more push-ups than Zachary, so:\nDavid's push-ups = Zachary's push-ups + 58\nDavid's push-ups = 35 + 58\nDavid's push-ups = 93\n\nStep 2: Calculate the number of crunches David did.\nDavid did 87 less crunches than Zachary, so:\nDavid's crunches = Zachary's crunches - 87\nDavid's crunches = 3 - 87\nDavid's crunches = -84 (Since the number of crunches cannot be negative, this means David did not do any crunches.)\n\nStep 3: Calculate the difference between the number of push-ups and crunches Zachary did.\nZachary's push-ups - Zachary's crunches = 35 - 3\nZachary's push-ups - Zachary's crunches = 32\n\nAnswer: Zachary did 32 more push-ups than crunches.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-13",
+          "Body": "In a school there are 458 more girls than boys. If there are 692 girls",
+          "Question": "How many pupils are there in that school?",
+          "Equation": "( ( 692.0 + 692.0 ) - 458.0 )",
+          "Answer": 926.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve the problem step by step, let's break down the given information and apply basic arithmetic.\n\n1. **Identify the given information:**\n    - There are 458 more girls than boys in the school.\n    - There are 692 girls in total.\n\n2. **Determine the number of boys:**\n    - Since there are 458 more girls than boys, we can set up an equation where:\n      \\[\n      \\text{Number of boys} = \\text{Number of girls} - 458\n      \\]\n    - Substitute the given number of girls into the equation:\n      \\[\n      \\text{Number of boys} = 692 - 458\n      \\]\n\n3. **Perform the subtraction to find the number of boys:**\n    \\[\n    692 - 458 = 234\n    \\]\n    So, there are 234 boys in the school.\n\n4. **Find the total number of pupils:**\n    - The total number of pupils is the sum of the number of girls and the number of boys:\n      \\[\n      \\text{Total number of pupils} = \\text{Number of girls} + \\text{Number of boys}\n      \\]\n    - Substitute the values we have:\n      \\[\n      \\text{Total number of pupils} = 692 + 234\n      \\]\n\n5. **Perform the addition to find the total number of pupils:**\n    \\[\n    692 + 234 = 926\n    \\]\n\nThus, the total number of pupils in the school is:\n\\[\n\\boxed{926}\n\\]\n\nAnswer: 926",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-13",
+          "Body": "In a school there are 458 more girls than boys. If there are 692 girls",
+          "Question": "How many pupils are there in that school?",
+          "Equation": "( ( 692.0 + 692.0 ) - 458.0 )",
+          "Answer": 926.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve the problem step by step, let's break down the given information and apply basic arithmetic.\n\n1. **Identify the given information:**\n    - There are 458 more girls than boys in the school.\n    - There are 692 girls in total.\n\n2. **Determine the number of boys:**\n    - Since there are 458 more girls than boys, we can set up an equation where:\n      \\[\n      \\text{Number of boys} = \\text{Number of girls} - 458\n      \\]\n    - Substitute the given number of girls into the equation:\n      \\[\n      \\text{Number of boys} = 692 - 458\n      \\]\n\n3. **Perform the subtraction to find the number of boys:**\n    \\[\n    692 - 458 = 234\n    \\]\n    So, there are 234 boys in the school.\n\n4. **Find the total number of pupils:**\n    - The total number of pupils is the sum of the number of girls and the number of boys:\n      \\[\n      \\text{Total number of pupils} = \\text{Number of girls} + \\text{Number of boys}\n      \\]\n    - Substitute the values we have:\n      \\[\n      \\text{Total number of pupils} = 692 + 234\n      \\]\n\n5. **Perform the addition to find the total number of pupils:**\n    \\[\n    692 + 234 = 926\n    \\]\n\nThus, the total number of pupils in the school is:\n\\[\n\\boxed{926}\n\\]\n\nAnswer: 926",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      926.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-13",
+          "Body": "In a school there are 458 more girls than boys. If there are 692 girls",
+          "Question": "How many pupils are there in that school?",
+          "Equation": "( ( 692.0 + 692.0 ) - 458.0 )",
+          "Answer": 926.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve the problem step by step, let's break down the given information and apply basic arithmetic.\n\n1. **Identify the given information:**\n    - There are 458 more girls than boys in the school.\n    - There are 692 girls in total.\n\n2. **Determine the number of boys:**\n    - Since there are 458 more girls than boys, we can set up an equation where:\n      \\[\n      \\text{Number of boys} = \\text{Number of girls} - 458\n      \\]\n    - Substitute the given number of girls into the equation:\n      \\[\n      \\text{Number of boys} = 692 - 458\n      \\]\n\n3. **Perform the subtraction to find the number of boys:**\n    \\[\n    692 - 458 = 234\n    \\]\n    So, there are 234 boys in the school.\n\n4. **Find the total number of pupils:**\n    - The total number of pupils is the sum of the number of girls and the number of boys:\n      \\[\n      \\text{Total number of pupils} = \\text{Number of girls} + \\text{Number of boys}\n      \\]\n    - Substitute the values we have:\n      \\[\n      \\text{Total number of pupils} = 692 + 234\n      \\]\n\n5. **Perform the addition to find the total number of pupils:**\n    \\[\n    692 + 234 = 926\n    \\]\n\nThus, the total number of pupils in the school is:\n\\[\n\\boxed{926}\n\\]\n\nAnswer: 926",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      926.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 78,
+    "completion_tokens": 332,
+    "cost": 0.022260000000000002
+  }
+]

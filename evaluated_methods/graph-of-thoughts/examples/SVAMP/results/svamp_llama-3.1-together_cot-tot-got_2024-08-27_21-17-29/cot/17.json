@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-18",
+          "Body": "In a school there are 732 girls and 761 boys. 682 more girls and 8 more boys joined the school.",
+          "Question": "How many girls are there in the school now?",
+          "Equation": "( 732.0 + 682.0 )",
+          "Answer": 1414.0,
+          "Type": "Addition"
+        },
+        "current": "To find the number of girls in the school now, we need to add the number of new girls who joined to the original number of girls.\n\nStep 1: Find the original number of girls in the school.\nOriginal number of girls = 732\n\nStep 2: Find the number of new girls who joined the school.\nNumber of new girls = 682\n\nStep 3: Add the original number of girls to the number of new girls to find the total number of girls in the school now.\nTotal number of girls now = Original number of girls + Number of new girls\n= 732 + 682\n= 1414\n\nTherefore, the number of girls in the school now is 1414.\n\nAnswer: 1414",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-18",
+          "Body": "In a school there are 732 girls and 761 boys. 682 more girls and 8 more boys joined the school.",
+          "Question": "How many girls are there in the school now?",
+          "Equation": "( 732.0 + 682.0 )",
+          "Answer": 1414.0,
+          "Type": "Addition"
+        },
+        "current": "To find the number of girls in the school now, we need to add the number of new girls who joined to the original number of girls.\n\nStep 1: Find the original number of girls in the school.\nOriginal number of girls = 732\n\nStep 2: Find the number of new girls who joined the school.\nNumber of new girls = 682\n\nStep 3: Add the original number of girls to the number of new girls to find the total number of girls in the school now.\nTotal number of girls now = Original number of girls + Number of new girls\n= 732 + 682\n= 1414\n\nTherefore, the number of girls in the school now is 1414.\n\nAnswer: 1414",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      1414.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-18",
+          "Body": "In a school there are 732 girls and 761 boys. 682 more girls and 8 more boys joined the school.",
+          "Question": "How many girls are there in the school now?",
+          "Equation": "( 732.0 + 682.0 )",
+          "Answer": 1414.0,
+          "Type": "Addition"
+        },
+        "current": "To find the number of girls in the school now, we need to add the number of new girls who joined to the original number of girls.\n\nStep 1: Find the original number of girls in the school.\nOriginal number of girls = 732\n\nStep 2: Find the number of new girls who joined the school.\nNumber of new girls = 682\n\nStep 3: Add the original number of girls to the number of new girls to find the total number of girls in the school now.\nTotal number of girls now = Original number of girls + Number of new girls\n= 732 + 682\n= 1414\n\nTherefore, the number of girls in the school now is 1414.\n\nAnswer: 1414",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      1414.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

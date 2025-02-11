@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-21",
+          "Body": "Baker made 121 cakes. He sold 105 of them and bought 170 new cakes.",
+          "Question": "How many cakes does baker still have?",
+          "Equation": "( ( 121.0 - 105.0 ) + 170.0 )",
+          "Answer": 186.0,
+          "Type": "Addition"
+        },
+        "current": "<Step 1> Start with the initial number of cakes Baker made: 121 cakes\n<Step 2> Subtract the number of cakes sold: 121 cakes - 105 cakes = 16 cakes\n<Step 3> Add the number of new cakes bought: 16 cakes + 170 cakes = 186 cakes\n\n<Final Answer>\nAnswer: Baker still has 186 cakes.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-21",
+          "Body": "Baker made 121 cakes. He sold 105 of them and bought 170 new cakes.",
+          "Question": "How many cakes does baker still have?",
+          "Equation": "( ( 121.0 - 105.0 ) + 170.0 )",
+          "Answer": 186.0,
+          "Type": "Addition"
+        },
+        "current": "<Step 1> Start with the initial number of cakes Baker made: 121 cakes\n<Step 2> Subtract the number of cakes sold: 121 cakes - 105 cakes = 16 cakes\n<Step 3> Add the number of new cakes bought: 16 cakes + 170 cakes = 186 cakes\n\n<Final Answer>\nAnswer: Baker still has 186 cakes.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-21",
+          "Body": "Baker made 121 cakes. He sold 105 of them and bought 170 new cakes.",
+          "Question": "How many cakes does baker still have?",
+          "Equation": "( ( 121.0 - 105.0 ) + 170.0 )",
+          "Answer": 186.0,
+          "Type": "Addition"
+        },
+        "current": "<Step 1> Start with the initial number of cakes Baker made: 121 cakes\n<Step 2> Subtract the number of cakes sold: 121 cakes - 105 cakes = 16 cakes\n<Step 3> Add the number of new cakes bought: 16 cakes + 170 cakes = 186 cakes\n\n<Final Answer>\nAnswer: Baker still has 186 cakes.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 77,
+    "completion_tokens": 81,
+    "cost": 0.0002775
+  }
+]

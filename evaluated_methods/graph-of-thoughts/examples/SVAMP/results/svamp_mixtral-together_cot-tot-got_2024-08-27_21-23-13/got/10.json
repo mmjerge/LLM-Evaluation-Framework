@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-11",
+          "Body": "3 birds were sitting on the fence. 6 more storks and 2 more birds came to join them.",
+          "Question": "How many more storks than birds are sitting on the fence?",
+          "Equation": "( 6.0 - ( 3.0 + 2.0 ) )",
+          "Answer": 1.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Calculate the total number of birds on the fence.\nInitially, there were 3 birds on the fence. Then, 2 more birds came to join them. So, the total number of birds is:\n3 birds + 2 birds = 5 birds\n\nStep 2: Calculate the total number of storks on the fence.\n6 storks came to join the birds on the fence. So, the total number of storks is:\n6 storks\n\nStep 3: Find the difference between the number of storks and birds.\nTo find out how many more storks than birds are sitting on the fence, we subtract the total number of birds from the total number of storks:\n6 storks - 5 birds = 1\n\nAnswer: There is 1 more stork than bird sitting on the fence.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-11",
+          "Body": "3 birds were sitting on the fence. 6 more storks and 2 more birds came to join them.",
+          "Question": "How many more storks than birds are sitting on the fence?",
+          "Equation": "( 6.0 - ( 3.0 + 2.0 ) )",
+          "Answer": 1.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Calculate the total number of birds on the fence.\nInitially, there were 3 birds on the fence. Then, 2 more birds came to join them. So, the total number of birds is:\n3 birds + 2 birds = 5 birds\n\nStep 2: Calculate the total number of storks on the fence.\n6 storks came to join the birds on the fence. So, the total number of storks is:\n6 storks\n\nStep 3: Find the difference between the number of storks and birds.\nTo find out how many more storks than birds are sitting on the fence, we subtract the total number of birds from the total number of storks:\n6 storks - 5 birds = 1\n\nAnswer: There is 1 more stork than bird sitting on the fence.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-11",
+          "Body": "3 birds were sitting on the fence. 6 more storks and 2 more birds came to join them.",
+          "Question": "How many more storks than birds are sitting on the fence?",
+          "Equation": "( 6.0 - ( 3.0 + 2.0 ) )",
+          "Answer": 1.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Calculate the total number of birds on the fence.\nInitially, there were 3 birds on the fence. Then, 2 more birds came to join them. So, the total number of birds is:\n3 birds + 2 birds = 5 birds\n\nStep 2: Calculate the total number of storks on the fence.\n6 storks came to join the birds on the fence. So, the total number of storks is:\n6 storks\n\nStep 3: Find the difference between the number of storks and birds.\nTo find out how many more storks than birds are sitting on the fence, we subtract the total number of birds from the total number of storks:\n6 storks - 5 birds = 1\n\nAnswer: There is 1 more stork than bird sitting on the fence.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-11",
+          "Body": "3 birds were sitting on the fence. 6 more storks and 2 more birds came to join them.",
+          "Question": "How many more storks than birds are sitting on the fence?",
+          "Equation": "( 6.0 - ( 3.0 + 2.0 ) )",
+          "Answer": 1.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Calculate the total number of birds on the fence.\nInitially, there were 3 birds on the fence. Then, 2 more birds came to join them. So, the total number of birds is:\n3 birds + 2 birds = 5 birds\n\nStep 2: Calculate the total number of storks on the fence.\n6 storks came to join the birds on the fence. So, the total number of storks is:\n6 storks\n\nStep 3: Find the difference between the number of storks and birds.\nTo find out how many more storks than birds are sitting on the fence, we subtract the total number of birds from the total number of storks:\n6 storks - 5 birds = 1\n\nAnswer: There is 1 more stork than bird sitting on the fence.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-11",
+          "Body": "3 birds were sitting on the fence. 6 more storks and 2 more birds came to join them.",
+          "Question": "How many more storks than birds are sitting on the fence?",
+          "Equation": "( 6.0 - ( 3.0 + 2.0 ) )",
+          "Answer": 1.0,
+          "Type": "Subtraction"
+        },
+        "current": " Step 1: Calculate the total number of birds on the fence.\nInitially, there were 3 birds on the fence. Then, 2 more birds came to join them. So, the total number of birds is:\n3 birds + 2 birds = 5 birds\n\nStep 2: Calculate the total number of storks on the fence.\n6 storks came to join the birds on the fence. So, the total number of storks is:\n6 storks\n\nStep 3: Find the difference between the number of storks and birds.\nTo find out how many more storks than birds are sitting on the fence, we subtract the total number of birds from the total number of storks:\n6 storks - 5 birds = 1\n\nAnswer: There is 1 more stork than bird sitting on the fence.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

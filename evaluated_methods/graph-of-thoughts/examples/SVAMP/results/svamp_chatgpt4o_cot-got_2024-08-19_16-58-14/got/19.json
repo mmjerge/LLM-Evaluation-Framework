@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-20",
+          "Body": "Paul got a box of 457 erasers and 617 crayons for his birthday. At the end of the school year he only had 523 crayons left while not having lost a single eraser.",
+          "Question": "How many more crayons than erasers did he have left?",
+          "Equation": "( 523.0 - 457.0 )",
+          "Answer": 66.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve the given problem step by step:\n\n1. **Original number of items:**\n   - Paul originally had 457 erasers.\n   - Paul originally had 617 crayons.\n\n2. **Number of items left at the end of the school year:**\n   - Paul still had 457 erasers left (since he did not lose any).\n   - Paul had 523 crayons left.\n\n3. **Calculate the difference in the number of each item at the end of the school year compared to the original amount:**\n   - For the erasers: Since he didn't lose any, he still has 457 erasers.\n   - For the crayons: Originally he had 617, and now he has 523.\n\n4. **Find out how many more crayons than erasers Paul had left:**\n   - Number of crayons left = 523.\n   - Number of erasers left = 457.\n   - Calculate the difference: 523 (crayons) - 457 (erasers) = 66.\n\nSo, the final answer is:\n**Answer: 66**",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-20",
+          "Body": "Paul got a box of 457 erasers and 617 crayons for his birthday. At the end of the school year he only had 523 crayons left while not having lost a single eraser.",
+          "Question": "How many more crayons than erasers did he have left?",
+          "Equation": "( 523.0 - 457.0 )",
+          "Answer": 66.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve the given problem step by step:\n\n1. **Original number of items:**\n   - Paul originally had 457 erasers.\n   - Paul originally had 617 crayons.\n\n2. **Number of items left at the end of the school year:**\n   - Paul still had 457 erasers left (since he did not lose any).\n   - Paul had 523 crayons left.\n\n3. **Calculate the difference in the number of each item at the end of the school year compared to the original amount:**\n   - For the erasers: Since he didn't lose any, he still has 457 erasers.\n   - For the crayons: Originally he had 617, and now he has 523.\n\n4. **Find out how many more crayons than erasers Paul had left:**\n   - Number of crayons left = 523.\n   - Number of erasers left = 457.\n   - Calculate the difference: 523 (crayons) - 457 (erasers) = 66.\n\nSo, the final answer is:\n**Answer: 66**",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-20",
+          "Body": "Paul got a box of 457 erasers and 617 crayons for his birthday. At the end of the school year he only had 523 crayons left while not having lost a single eraser.",
+          "Question": "How many more crayons than erasers did he have left?",
+          "Equation": "( 523.0 - 457.0 )",
+          "Answer": 66.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve the given problem step by step:\n\n1. **Original number of items:**\n   - Paul originally had 457 erasers.\n   - Paul originally had 617 crayons.\n\n2. **Number of items left at the end of the school year:**\n   - Paul still had 457 erasers left (since he did not lose any).\n   - Paul had 523 crayons left.\n\n3. **Calculate the difference in the number of each item at the end of the school year compared to the original amount:**\n   - For the erasers: Since he didn't lose any, he still has 457 erasers.\n   - For the crayons: Originally he had 617, and now he has 523.\n\n4. **Find out how many more crayons than erasers Paul had left:**\n   - Number of crayons left = 523.\n   - Number of erasers left = 457.\n   - Calculate the difference: 523 (crayons) - 457 (erasers) = 66.\n\nSo, the final answer is:\n**Answer: 66**",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-20",
+          "Body": "Paul got a box of 457 erasers and 617 crayons for his birthday. At the end of the school year he only had 523 crayons left while not having lost a single eraser.",
+          "Question": "How many more crayons than erasers did he have left?",
+          "Equation": "( 523.0 - 457.0 )",
+          "Answer": 66.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve the given problem step by step:\n\n1. **Original number of items:**\n   - Paul originally had 457 erasers.\n   - Paul originally had 617 crayons.\n\n2. **Number of items left at the end of the school year:**\n   - Paul still had 457 erasers left (since he did not lose any).\n   - Paul had 523 crayons left.\n\n3. **Calculate the difference in the number of each item at the end of the school year compared to the original amount:**\n   - For the erasers: Since he didn't lose any, he still has 457 erasers.\n   - For the crayons: Originally he had 617, and now he has 523.\n\n4. **Find out how many more crayons than erasers Paul had left:**\n   - Number of crayons left = 523.\n   - Number of erasers left = 457.\n   - Calculate the difference: 523 (crayons) - 457 (erasers) = 66.\n\nSo, the final answer is:\n**Answer: 66**",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-20",
+          "Body": "Paul got a box of 457 erasers and 617 crayons for his birthday. At the end of the school year he only had 523 crayons left while not having lost a single eraser.",
+          "Question": "How many more crayons than erasers did he have left?",
+          "Equation": "( 523.0 - 457.0 )",
+          "Answer": 66.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve the given problem step by step:\n\n1. **Original number of items:**\n   - Paul originally had 457 erasers.\n   - Paul originally had 617 crayons.\n\n2. **Number of items left at the end of the school year:**\n   - Paul still had 457 erasers left (since he did not lose any).\n   - Paul had 523 crayons left.\n\n3. **Calculate the difference in the number of each item at the end of the school year compared to the original amount:**\n   - For the erasers: Since he didn't lose any, he still has 457 erasers.\n   - For the crayons: Originally he had 617, and now he has 523.\n\n4. **Find out how many more crayons than erasers Paul had left:**\n   - Number of crayons left = 523.\n   - Number of erasers left = 457.\n   - Calculate the difference: 523 (crayons) - 457 (erasers) = 66.\n\nSo, the final answer is:\n**Answer: 66**",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 102,
+    "completion_tokens": 221,
+    "cost": 0.016319999999999998
+  }
+]

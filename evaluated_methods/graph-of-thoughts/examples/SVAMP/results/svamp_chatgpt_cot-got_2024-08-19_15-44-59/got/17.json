@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-18",
+          "Body": "In a school there are 732 girls and 761 boys. 682 more girls and 8 more boys joined the school.",
+          "Question": "How many girls are there in the school now?",
+          "Equation": "( 732.0 + 682.0 )",
+          "Answer": 1414.0,
+          "Type": "Addition"
+        },
+        "current": "Step 1: Add the number of girls and boys before new students joined: 732 + 761 = 1493\n\nStep 2: Add the number of new girls and boys that joined: 682 + 8 = 690\n\nStep 3: Add the total number of students in the school now: 1493 + 690 = 2183\n\nAnswer: There are 2183 girls in the school now.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-18",
+          "Body": "In a school there are 732 girls and 761 boys. 682 more girls and 8 more boys joined the school.",
+          "Question": "How many girls are there in the school now?",
+          "Equation": "( 732.0 + 682.0 )",
+          "Answer": 1414.0,
+          "Type": "Addition"
+        },
+        "current": "Step 1: Add the number of girls and boys before new students joined: 732 + 761 = 1493\n\nStep 2: Add the number of new girls and boys that joined: 682 + 8 = 690\n\nStep 3: Add the total number of students in the school now: 1493 + 690 = 2183\n\nAnswer: There are 2183 girls in the school now.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-18",
+          "Body": "In a school there are 732 girls and 761 boys. 682 more girls and 8 more boys joined the school.",
+          "Question": "How many girls are there in the school now?",
+          "Equation": "( 732.0 + 682.0 )",
+          "Answer": 1414.0,
+          "Type": "Addition"
+        },
+        "current": "Step 1: Add the number of girls and boys before new students joined: 732 + 761 = 1493\n\nStep 2: Add the number of new girls and boys that joined: 682 + 8 = 690\n\nStep 3: Add the total number of students in the school now: 1493 + 690 = 2183\n\nAnswer: There are 2183 girls in the school now.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-18",
+          "Body": "In a school there are 732 girls and 761 boys. 682 more girls and 8 more boys joined the school.",
+          "Question": "How many girls are there in the school now?",
+          "Equation": "( 732.0 + 682.0 )",
+          "Answer": 1414.0,
+          "Type": "Addition"
+        },
+        "current": "Step 1: Add the number of girls and boys before new students joined: 732 + 761 = 1493\n\nStep 2: Add the number of new girls and boys that joined: 682 + 8 = 690\n\nStep 3: Add the total number of students in the school now: 1493 + 690 = 2183\n\nAnswer: There are 2183 girls in the school now.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-18",
+          "Body": "In a school there are 732 girls and 761 boys. 682 more girls and 8 more boys joined the school.",
+          "Question": "How many girls are there in the school now?",
+          "Equation": "( 732.0 + 682.0 )",
+          "Answer": 1414.0,
+          "Type": "Addition"
+        },
+        "current": "Step 1: Add the number of girls and boys before new students joined: 732 + 761 = 1493\n\nStep 2: Add the number of new girls and boys that joined: 682 + 8 = 690\n\nStep 3: Add the total number of students in the school now: 1493 + 690 = 2183\n\nAnswer: There are 2183 girls in the school now.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "prompt_tokens": 85,
+    "completion_tokens": 89,
+    "cost": 0.0003055
+  }
+]

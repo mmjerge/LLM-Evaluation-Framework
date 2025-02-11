@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-4",
+          "Body": "43 children were riding on the bus. At the bus stop some children got off the bus. Then there were 21 children left on the bus.",
+          "Question": "How many children got off the bus at the bus stop?",
+          "Equation": "( 43.0 - 21.0 )",
+          "Answer": 22.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Step 1> Let's represent the number of children who got off the bus as x. \n<Step 2> We know that initially there were 43 children on the bus, so the total number of children on the bus before some got off is 43.\n<Step 3> After some children got off, there were 21 children left on the bus. So, the total number of children on the bus after some got off is 21.\n<Step 4> Therefore, we can write an equation: 43 - x = 21\n<Step 5> Solving the equation: \n           43 - x = 21\n           -x = 21 - 43\n           -x = -22\n           x = 22\n<Step 6> So, 22 children got off the bus at the bus stop.\n<Step 7> Final Answer: 22 children got off the bus at the bus stop.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-4",
+          "Body": "43 children were riding on the bus. At the bus stop some children got off the bus. Then there were 21 children left on the bus.",
+          "Question": "How many children got off the bus at the bus stop?",
+          "Equation": "( 43.0 - 21.0 )",
+          "Answer": 22.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Step 1> Let's represent the number of children who got off the bus as x. \n<Step 2> We know that initially there were 43 children on the bus, so the total number of children on the bus before some got off is 43.\n<Step 3> After some children got off, there were 21 children left on the bus. So, the total number of children on the bus after some got off is 21.\n<Step 4> Therefore, we can write an equation: 43 - x = 21\n<Step 5> Solving the equation: \n           43 - x = 21\n           -x = 21 - 43\n           -x = -22\n           x = 22\n<Step 6> So, 22 children got off the bus at the bus stop.\n<Step 7> Final Answer: 22 children got off the bus at the bus stop.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-4",
+          "Body": "43 children were riding on the bus. At the bus stop some children got off the bus. Then there were 21 children left on the bus.",
+          "Question": "How many children got off the bus at the bus stop?",
+          "Equation": "( 43.0 - 21.0 )",
+          "Answer": 22.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Step 1> Let's represent the number of children who got off the bus as x. \n<Step 2> We know that initially there were 43 children on the bus, so the total number of children on the bus before some got off is 43.\n<Step 3> After some children got off, there were 21 children left on the bus. So, the total number of children on the bus after some got off is 21.\n<Step 4> Therefore, we can write an equation: 43 - x = 21\n<Step 5> Solving the equation: \n           43 - x = 21\n           -x = 21 - 43\n           -x = -22\n           x = 22\n<Step 6> So, 22 children got off the bus at the bus stop.\n<Step 7> Final Answer: 22 children got off the bus at the bus stop.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-4",
+          "Body": "43 children were riding on the bus. At the bus stop some children got off the bus. Then there were 21 children left on the bus.",
+          "Question": "How many children got off the bus at the bus stop?",
+          "Equation": "( 43.0 - 21.0 )",
+          "Answer": 22.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Step 1> Let's represent the number of children who got off the bus as x. \n<Step 2> We know that initially there were 43 children on the bus, so the total number of children on the bus before some got off is 43.\n<Step 3> After some children got off, there were 21 children left on the bus. So, the total number of children on the bus after some got off is 21.\n<Step 4> Therefore, we can write an equation: 43 - x = 21\n<Step 5> Solving the equation: \n           43 - x = 21\n           -x = 21 - 43\n           -x = -22\n           x = 22\n<Step 6> So, 22 children got off the bus at the bus stop.\n<Step 7> Final Answer: 22 children got off the bus at the bus stop.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-4",
+          "Body": "43 children were riding on the bus. At the bus stop some children got off the bus. Then there were 21 children left on the bus.",
+          "Question": "How many children got off the bus at the bus stop?",
+          "Equation": "( 43.0 - 21.0 )",
+          "Answer": 22.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Step 1> Let's represent the number of children who got off the bus as x. \n<Step 2> We know that initially there were 43 children on the bus, so the total number of children on the bus before some got off is 43.\n<Step 3> After some children got off, there were 21 children left on the bus. So, the total number of children on the bus after some got off is 21.\n<Step 4> Therefore, we can write an equation: 43 - x = 21\n<Step 5> Solving the equation: \n           43 - x = 21\n           -x = 21 - 43\n           -x = -22\n           x = 22\n<Step 6> So, 22 children got off the bus at the bus stop.\n<Step 7> Final Answer: 22 children got off the bus at the bus stop.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 91,
+    "completion_tokens": 198,
+    "cost": 0.0005325
+  }
+]

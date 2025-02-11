@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-28",
+          "Body": "Matthew gave equal numbers of crackers and cakes to his 28 friends. If he had 13 crackers and 15 cakes initially",
+          "Question": "How many crackers and cakes did each person eat?",
+          "Equation": "( ( 13.0 + 15.0 ) / 28.0 )",
+          "Answer": 1.0,
+          "Type": "Common-Division"
+        },
+        "current": "To find out how many crackers and cakes each person ate, we need to divide the total number of crackers and cakes by the number of friends.\n\n**Step 1: Divide the total number of crackers by the number of friends**\n\nMatthew had 13 crackers initially. Since he gave equal numbers of crackers to each of his 28 friends, we divide 13 by 28.\n\n13 \u00f7 28 = 0.464 (approximately)\n\nSince we can't divide crackers into fractions, we'll round down to the nearest whole number. However, in this case, we're looking for the number of crackers each person got, so we'll keep the decimal value for now.\n\n**Step 2: Divide the total number of cakes by the number of friends**\n\nMatthew had 15 cakes initially. Since he gave equal numbers of cakes to each of his 28 friends, we divide 15 by 28.\n\n15 \u00f7 28 = 0.536 (approximately)\n\nAgain, we'll keep the decimal value for now.\n\n**Step 3: Interpret the results**\n\nSince we're looking for the number of crackers and cakes each person ate, we can interpret the results as follows:\n\n* Each person got approximately 0.464 crackers (or 0.464/0.464 \u2248 1 cracker, but we'll keep the decimal value for accuracy).\n* Each person got approximately 0.536 cakes (or 0.536/0.536 \u2248 1 cake, but we'll keep the decimal value for accuracy).\n\nHowever, since we're looking for the number of crackers and cakes each person ate, we can round the values to the nearest whole number. In this case, it seems that each person got approximately 1 cracker and 1 cake.\n\n**Answer:** 1 cracker and 1 cake.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-28",
+          "Body": "Matthew gave equal numbers of crackers and cakes to his 28 friends. If he had 13 crackers and 15 cakes initially",
+          "Question": "How many crackers and cakes did each person eat?",
+          "Equation": "( ( 13.0 + 15.0 ) / 28.0 )",
+          "Answer": 1.0,
+          "Type": "Common-Division"
+        },
+        "current": "To find out how many crackers and cakes each person ate, we need to divide the total number of crackers and cakes by the number of friends.\n\n**Step 1: Divide the total number of crackers by the number of friends**\n\nMatthew had 13 crackers initially. Since he gave equal numbers of crackers to each of his 28 friends, we divide 13 by 28.\n\n13 \u00f7 28 = 0.464 (approximately)\n\nSince we can't divide crackers into fractions, we'll round down to the nearest whole number. However, in this case, we're looking for the number of crackers each person got, so we'll keep the decimal value for now.\n\n**Step 2: Divide the total number of cakes by the number of friends**\n\nMatthew had 15 cakes initially. Since he gave equal numbers of cakes to each of his 28 friends, we divide 15 by 28.\n\n15 \u00f7 28 = 0.536 (approximately)\n\nAgain, we'll keep the decimal value for now.\n\n**Step 3: Interpret the results**\n\nSince we're looking for the number of crackers and cakes each person ate, we can interpret the results as follows:\n\n* Each person got approximately 0.464 crackers (or 0.464/0.464 \u2248 1 cracker, but we'll keep the decimal value for accuracy).\n* Each person got approximately 0.536 cakes (or 0.536/0.536 \u2248 1 cake, but we'll keep the decimal value for accuracy).\n\nHowever, since we're looking for the number of crackers and cakes each person ate, we can round the values to the nearest whole number. In this case, it seems that each person got approximately 1 cracker and 1 cake.\n\n**Answer:** 1 cracker and 1 cake.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-28",
+          "Body": "Matthew gave equal numbers of crackers and cakes to his 28 friends. If he had 13 crackers and 15 cakes initially",
+          "Question": "How many crackers and cakes did each person eat?",
+          "Equation": "( ( 13.0 + 15.0 ) / 28.0 )",
+          "Answer": 1.0,
+          "Type": "Common-Division"
+        },
+        "current": "To find out how many crackers and cakes each person ate, we need to divide the total number of crackers and cakes by the number of friends.\n\n**Step 1: Divide the total number of crackers by the number of friends**\n\nMatthew had 13 crackers initially. Since he gave equal numbers of crackers to each of his 28 friends, we divide 13 by 28.\n\n13 \u00f7 28 = 0.464 (approximately)\n\nSince we can't divide crackers into fractions, we'll round down to the nearest whole number. However, in this case, we're looking for the number of crackers each person got, so we'll keep the decimal value for now.\n\n**Step 2: Divide the total number of cakes by the number of friends**\n\nMatthew had 15 cakes initially. Since he gave equal numbers of cakes to each of his 28 friends, we divide 15 by 28.\n\n15 \u00f7 28 = 0.536 (approximately)\n\nAgain, we'll keep the decimal value for now.\n\n**Step 3: Interpret the results**\n\nSince we're looking for the number of crackers and cakes each person ate, we can interpret the results as follows:\n\n* Each person got approximately 0.464 crackers (or 0.464/0.464 \u2248 1 cracker, but we'll keep the decimal value for accuracy).\n* Each person got approximately 0.536 cakes (or 0.536/0.536 \u2248 1 cake, but we'll keep the decimal value for accuracy).\n\nHowever, since we're looking for the number of crackers and cakes each person ate, we can round the values to the nearest whole number. In this case, it seems that each person got approximately 1 cracker and 1 cake.\n\n**Answer:** 1 cracker and 1 cake.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

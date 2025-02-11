@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-34",
+          "Body": "There were 78 dollars in Olivia's wallet. She spent 15 dollars at a supermarket.",
+          "Question": "How much money does she have left?",
+          "Equation": "( 78.0 - 15.0 )",
+          "Answer": 63.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how much money Olivia has left, we need to subtract the amount she spent from the initial amount in her wallet.\n\nStep 1: Identify the initial amount of money in Olivia's wallet.\nInitial amount = 78 dollars\n\nStep 2: Identify the amount Olivia spent at the supermarket.\nAmount spent = 15 dollars\n\nStep 3: Subtract the amount spent from the initial amount to find out how much money Olivia has left.\nMoney left = Initial amount - Amount spent\nMoney left = 78 - 15\nMoney left = 63\n\nAnswer: 63",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-34",
+          "Body": "There were 78 dollars in Olivia's wallet. She spent 15 dollars at a supermarket.",
+          "Question": "How much money does she have left?",
+          "Equation": "( 78.0 - 15.0 )",
+          "Answer": 63.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how much money Olivia has left, we need to subtract the amount she spent from the initial amount in her wallet.\n\nStep 1: Identify the initial amount of money in Olivia's wallet.\nInitial amount = 78 dollars\n\nStep 2: Identify the amount Olivia spent at the supermarket.\nAmount spent = 15 dollars\n\nStep 3: Subtract the amount spent from the initial amount to find out how much money Olivia has left.\nMoney left = Initial amount - Amount spent\nMoney left = 78 - 15\nMoney left = 63\n\nAnswer: 63",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      63.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-34",
+          "Body": "There were 78 dollars in Olivia's wallet. She spent 15 dollars at a supermarket.",
+          "Question": "How much money does she have left?",
+          "Equation": "( 78.0 - 15.0 )",
+          "Answer": 63.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how much money Olivia has left, we need to subtract the amount she spent from the initial amount in her wallet.\n\nStep 1: Identify the initial amount of money in Olivia's wallet.\nInitial amount = 78 dollars\n\nStep 2: Identify the amount Olivia spent at the supermarket.\nAmount spent = 15 dollars\n\nStep 3: Subtract the amount spent from the initial amount to find out how much money Olivia has left.\nMoney left = Initial amount - Amount spent\nMoney left = 78 - 15\nMoney left = 63\n\nAnswer: 63",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      63.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

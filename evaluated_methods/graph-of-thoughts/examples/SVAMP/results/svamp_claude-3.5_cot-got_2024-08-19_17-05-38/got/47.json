@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-48",
+          "Body": "Jerry had 7 action figures on a shelf in his room. Later he added some more action figures to the shelf and removed 10 of the old ones. If there are 8 action figures on his shelf now",
+          "Question": "How many action figures did he add to the shelf?",
+          "Equation": "( ( 8.0 + 10.0 ) - 7.0 )",
+          "Answer": 11.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   * Jerry initially had 7 action figures on the shelf.\n   * He added some unknown number of action figures.\n   * He then removed 10 of the old ones.\n   * There are now 8 action figures on the shelf.\n\n2. Let's use x to represent the unknown number of action figures Jerry added:\n   * Initial figures + Added figures - Removed figures = Final figures\n   * 7 + x - 10 = 8\n\n3. Solve the equation:\n   * 7 + x - 10 = 8\n   * (7 - 10) + x = 8\n   * -3 + x = 8\n\n4. Isolate x:\n   * x = 8 + 3\n   * x = 11\n\n5. Check the solution:\n   * Initial figures + Added figures - Removed figures = Final figures\n   * 7 + 11 - 10 = 8\n   * 18 - 10 = 8\n   * 8 = 8 (This checks out)\n\nAnswer: Jerry added 11 action figures to the shelf.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-48",
+          "Body": "Jerry had 7 action figures on a shelf in his room. Later he added some more action figures to the shelf and removed 10 of the old ones. If there are 8 action figures on his shelf now",
+          "Question": "How many action figures did he add to the shelf?",
+          "Equation": "( ( 8.0 + 10.0 ) - 7.0 )",
+          "Answer": 11.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   * Jerry initially had 7 action figures on the shelf.\n   * He added some unknown number of action figures.\n   * He then removed 10 of the old ones.\n   * There are now 8 action figures on the shelf.\n\n2. Let's use x to represent the unknown number of action figures Jerry added:\n   * Initial figures + Added figures - Removed figures = Final figures\n   * 7 + x - 10 = 8\n\n3. Solve the equation:\n   * 7 + x - 10 = 8\n   * (7 - 10) + x = 8\n   * -3 + x = 8\n\n4. Isolate x:\n   * x = 8 + 3\n   * x = 11\n\n5. Check the solution:\n   * Initial figures + Added figures - Removed figures = Final figures\n   * 7 + 11 - 10 = 8\n   * 18 - 10 = 8\n   * 8 = 8 (This checks out)\n\nAnswer: Jerry added 11 action figures to the shelf.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-48",
+          "Body": "Jerry had 7 action figures on a shelf in his room. Later he added some more action figures to the shelf and removed 10 of the old ones. If there are 8 action figures on his shelf now",
+          "Question": "How many action figures did he add to the shelf?",
+          "Equation": "( ( 8.0 + 10.0 ) - 7.0 )",
+          "Answer": 11.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   * Jerry initially had 7 action figures on the shelf.\n   * He added some unknown number of action figures.\n   * He then removed 10 of the old ones.\n   * There are now 8 action figures on the shelf.\n\n2. Let's use x to represent the unknown number of action figures Jerry added:\n   * Initial figures + Added figures - Removed figures = Final figures\n   * 7 + x - 10 = 8\n\n3. Solve the equation:\n   * 7 + x - 10 = 8\n   * (7 - 10) + x = 8\n   * -3 + x = 8\n\n4. Isolate x:\n   * x = 8 + 3\n   * x = 11\n\n5. Check the solution:\n   * Initial figures + Added figures - Removed figures = Final figures\n   * 7 + 11 - 10 = 8\n   * 18 - 10 = 8\n   * 8 = 8 (This checks out)\n\nAnswer: Jerry added 11 action figures to the shelf.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-48",
+          "Body": "Jerry had 7 action figures on a shelf in his room. Later he added some more action figures to the shelf and removed 10 of the old ones. If there are 8 action figures on his shelf now",
+          "Question": "How many action figures did he add to the shelf?",
+          "Equation": "( ( 8.0 + 10.0 ) - 7.0 )",
+          "Answer": 11.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   * Jerry initially had 7 action figures on the shelf.\n   * He added some unknown number of action figures.\n   * He then removed 10 of the old ones.\n   * There are now 8 action figures on the shelf.\n\n2. Let's use x to represent the unknown number of action figures Jerry added:\n   * Initial figures + Added figures - Removed figures = Final figures\n   * 7 + x - 10 = 8\n\n3. Solve the equation:\n   * 7 + x - 10 = 8\n   * (7 - 10) + x = 8\n   * -3 + x = 8\n\n4. Isolate x:\n   * x = 8 + 3\n   * x = 11\n\n5. Check the solution:\n   * Initial figures + Added figures - Removed figures = Final figures\n   * 7 + 11 - 10 = 8\n   * 18 - 10 = 8\n   * 8 = 8 (This checks out)\n\nAnswer: Jerry added 11 action figures to the shelf.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-48",
+          "Body": "Jerry had 7 action figures on a shelf in his room. Later he added some more action figures to the shelf and removed 10 of the old ones. If there are 8 action figures on his shelf now",
+          "Question": "How many action figures did he add to the shelf?",
+          "Equation": "( ( 8.0 + 10.0 ) - 7.0 )",
+          "Answer": 11.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   * Jerry initially had 7 action figures on the shelf.\n   * He added some unknown number of action figures.\n   * He then removed 10 of the old ones.\n   * There are now 8 action figures on the shelf.\n\n2. Let's use x to represent the unknown number of action figures Jerry added:\n   * Initial figures + Added figures - Removed figures = Final figures\n   * 7 + x - 10 = 8\n\n3. Solve the equation:\n   * 7 + x - 10 = 8\n   * (7 - 10) + x = 8\n   * -3 + x = 8\n\n4. Isolate x:\n   * x = 8 + 3\n   * x = 11\n\n5. Check the solution:\n   * Initial figures + Added figures - Removed figures = Final figures\n   * 7 + 11 - 10 = 8\n   * 18 - 10 = 8\n   * 8 = 8 (This checks out)\n\nAnswer: Jerry added 11 action figures to the shelf.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

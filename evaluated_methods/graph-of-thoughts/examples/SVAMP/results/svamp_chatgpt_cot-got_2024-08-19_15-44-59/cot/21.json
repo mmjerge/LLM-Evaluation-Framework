@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-22",
+          "Body": "An industrial machine worked for 5 minutes. It can make 4 shirts a minute.",
+          "Question": "How many shirts did machine make?",
+          "Equation": "( 4.0 * 5.0 )",
+          "Answer": 20.0,
+          "Type": "Multiplication"
+        },
+        "current": "To find out how many shirts the machine made in 5 minutes, we can multiply the number of shirts it can make in one minute by the number of minutes it worked.\n\nStep 1: Calculate the total number of shirts made by the machine in 5 minutes\n4 shirts/minute * 5 minutes = 20 shirts\n\nAnswer: The machine made 20 shirts.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-22",
+          "Body": "An industrial machine worked for 5 minutes. It can make 4 shirts a minute.",
+          "Question": "How many shirts did machine make?",
+          "Equation": "( 4.0 * 5.0 )",
+          "Answer": 20.0,
+          "Type": "Multiplication"
+        },
+        "current": "To find out how many shirts the machine made in 5 minutes, we can multiply the number of shirts it can make in one minute by the number of minutes it worked.\n\nStep 1: Calculate the total number of shirts made by the machine in 5 minutes\n4 shirts/minute * 5 minutes = 20 shirts\n\nAnswer: The machine made 20 shirts.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-22",
+          "Body": "An industrial machine worked for 5 minutes. It can make 4 shirts a minute.",
+          "Question": "How many shirts did machine make?",
+          "Equation": "( 4.0 * 5.0 )",
+          "Answer": 20.0,
+          "Type": "Multiplication"
+        },
+        "current": "To find out how many shirts the machine made in 5 minutes, we can multiply the number of shirts it can make in one minute by the number of minutes it worked.\n\nStep 1: Calculate the total number of shirts made by the machine in 5 minutes\n4 shirts/minute * 5 minutes = 20 shirts\n\nAnswer: The machine made 20 shirts.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 74,
+    "completion_tokens": 76,
+    "cost": 0.000263
+  }
+]

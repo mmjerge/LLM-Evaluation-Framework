@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-48",
+          "Body": "Jerry had 7 action figures on a shelf in his room. Later he added some more action figures to the shelf and removed 10 of the old ones. If there are 8 action figures on his shelf now",
+          "Question": "How many action figures did he add to the shelf?",
+          "Equation": "( ( 8.0 + 10.0 ) - 7.0 )",
+          "Answer": 11.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Step 1> Let's assume Jerry added \"x\" action figures to the shelf.\nNow, the total action figures on the shelf after adding could be represented as: 7 + x\n\n<Step 2> It is mentioned that Jerry removed 10 of the old action figures.\nSo, the total action figures on the shelf after removing would be: 7 - 10 = -3\n\n<Step 3> The total action figures on the shelf after adding and removing would be 8.\nThus, we can create an equation: 7 + x - 10 = 8\n\n<Step 4> Solve the equation: x - 3 = 8\nx = 8 + 3\nx = 11\n\n<Step 5> So, Jerry added 11 action figures to the shelf.\n\nAnswer: Jerry added 11 action figures to the shelf.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-48",
+          "Body": "Jerry had 7 action figures on a shelf in his room. Later he added some more action figures to the shelf and removed 10 of the old ones. If there are 8 action figures on his shelf now",
+          "Question": "How many action figures did he add to the shelf?",
+          "Equation": "( ( 8.0 + 10.0 ) - 7.0 )",
+          "Answer": 11.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Step 1> Let's assume Jerry added \"x\" action figures to the shelf.\nNow, the total action figures on the shelf after adding could be represented as: 7 + x\n\n<Step 2> It is mentioned that Jerry removed 10 of the old action figures.\nSo, the total action figures on the shelf after removing would be: 7 - 10 = -3\n\n<Step 3> The total action figures on the shelf after adding and removing would be 8.\nThus, we can create an equation: 7 + x - 10 = 8\n\n<Step 4> Solve the equation: x - 3 = 8\nx = 8 + 3\nx = 11\n\n<Step 5> So, Jerry added 11 action figures to the shelf.\n\nAnswer: Jerry added 11 action figures to the shelf.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-48",
+          "Body": "Jerry had 7 action figures on a shelf in his room. Later he added some more action figures to the shelf and removed 10 of the old ones. If there are 8 action figures on his shelf now",
+          "Question": "How many action figures did he add to the shelf?",
+          "Equation": "( ( 8.0 + 10.0 ) - 7.0 )",
+          "Answer": 11.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Step 1> Let's assume Jerry added \"x\" action figures to the shelf.\nNow, the total action figures on the shelf after adding could be represented as: 7 + x\n\n<Step 2> It is mentioned that Jerry removed 10 of the old action figures.\nSo, the total action figures on the shelf after removing would be: 7 - 10 = -3\n\n<Step 3> The total action figures on the shelf after adding and removing would be 8.\nThus, we can create an equation: 7 + x - 10 = 8\n\n<Step 4> Solve the equation: x - 3 = 8\nx = 8 + 3\nx = 11\n\n<Step 5> So, Jerry added 11 action figures to the shelf.\n\nAnswer: Jerry added 11 action figures to the shelf.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 104,
+    "completion_tokens": 181,
+    "cost": 0.000518
+  }
+]

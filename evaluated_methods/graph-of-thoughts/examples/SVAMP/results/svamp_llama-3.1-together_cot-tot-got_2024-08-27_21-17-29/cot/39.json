@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-40",
+          "Body": "There are 8 different books and 5 different movies in the ' crazy silly school ' series. If you read 19 of the movies and watched 16 of the books",
+          "Question": "How many more movies than books have you read?",
+          "Equation": "( 19.0 - 16.0 )",
+          "Answer": 3.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve this problem, we need to find the difference between the number of movies read and the number of books watched.\n\nStep 1: Identify the number of movies read and the number of books watched.\nWe are given that 19 movies were read and 16 books were watched.\n\nStep 2: Calculate the difference between the number of movies read and the number of books watched.\nTo find the difference, we subtract the number of books watched from the number of movies read: 19 - 16 = 3\n\nStep 3: Determine the final answer.\nSince we are asked to find how many more movies than books have been read, the difference calculated in step 2 is the final answer.\n\nAnswer: 3",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-40",
+          "Body": "There are 8 different books and 5 different movies in the ' crazy silly school ' series. If you read 19 of the movies and watched 16 of the books",
+          "Question": "How many more movies than books have you read?",
+          "Equation": "( 19.0 - 16.0 )",
+          "Answer": 3.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve this problem, we need to find the difference between the number of movies read and the number of books watched.\n\nStep 1: Identify the number of movies read and the number of books watched.\nWe are given that 19 movies were read and 16 books were watched.\n\nStep 2: Calculate the difference between the number of movies read and the number of books watched.\nTo find the difference, we subtract the number of books watched from the number of movies read: 19 - 16 = 3\n\nStep 3: Determine the final answer.\nSince we are asked to find how many more movies than books have been read, the difference calculated in step 2 is the final answer.\n\nAnswer: 3",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      3.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-40",
+          "Body": "There are 8 different books and 5 different movies in the ' crazy silly school ' series. If you read 19 of the movies and watched 16 of the books",
+          "Question": "How many more movies than books have you read?",
+          "Equation": "( 19.0 - 16.0 )",
+          "Answer": 3.0,
+          "Type": "Subtraction"
+        },
+        "current": "To solve this problem, we need to find the difference between the number of movies read and the number of books watched.\n\nStep 1: Identify the number of movies read and the number of books watched.\nWe are given that 19 movies were read and 16 books were watched.\n\nStep 2: Calculate the difference between the number of movies read and the number of books watched.\nTo find the difference, we subtract the number of books watched from the number of movies read: 19 - 16 = 3\n\nStep 3: Determine the final answer.\nSince we are asked to find how many more movies than books have been read, the difference calculated in step 2 is the final answer.\n\nAnswer: 3",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      3.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

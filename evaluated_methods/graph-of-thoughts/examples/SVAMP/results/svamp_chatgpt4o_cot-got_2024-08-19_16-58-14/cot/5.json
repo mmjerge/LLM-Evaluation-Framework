@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-6",
+          "Body": "There were 3 dollars in Olivia's wallet. She collected 49 more dollars from an atm. After she visited a supermarket there were 49 dollars left.",
+          "Question": "How much more money did she collect at the atm than she spent at the supermarket?",
+          "Equation": "( 49.0 - 3.0 )",
+          "Answer": 46.0,
+          "Type": "Subtraction"
+        },
+        "current": "Sure, let's solve the problem step by step.\n\n1. Start by identifying the initial amount of money in Olivia's wallet: 3 dollars.\n2. Identify the amount of money she collected from the ATM: 49 dollars.\n3. Add the initial amount of money to the amount collected from the ATM to find the total amount she had before spending: \n   \\[\n   3 \\text{ dollars} + 49 \\text{ dollars} = 52 \\text{ dollars}\n   \\]\n\n4. Identify the amount of money left after visiting the supermarket: 49 dollars.\n5. Calculate the amount of money she spent at the supermarket by subtracting the amount left from the total amount before spending: \n   \\[\n   52 \\text{ dollars} - 49 \\text{ dollars} = 3 \\text{ dollars}\n   \\]\n\n6. Find the difference between the amount she collected from the ATM and the amount she spent at the supermarket:\n   \\[\n   49 \\text{ dollars} - 3 \\text{ dollars} = 46 \\text{ dollars}\n   \\]\n\nAnswer: 46 dollars",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-6",
+          "Body": "There were 3 dollars in Olivia's wallet. She collected 49 more dollars from an atm. After she visited a supermarket there were 49 dollars left.",
+          "Question": "How much more money did she collect at the atm than she spent at the supermarket?",
+          "Equation": "( 49.0 - 3.0 )",
+          "Answer": 46.0,
+          "Type": "Subtraction"
+        },
+        "current": "Sure, let's solve the problem step by step.\n\n1. Start by identifying the initial amount of money in Olivia's wallet: 3 dollars.\n2. Identify the amount of money she collected from the ATM: 49 dollars.\n3. Add the initial amount of money to the amount collected from the ATM to find the total amount she had before spending: \n   \\[\n   3 \\text{ dollars} + 49 \\text{ dollars} = 52 \\text{ dollars}\n   \\]\n\n4. Identify the amount of money left after visiting the supermarket: 49 dollars.\n5. Calculate the amount of money she spent at the supermarket by subtracting the amount left from the total amount before spending: \n   \\[\n   52 \\text{ dollars} - 49 \\text{ dollars} = 3 \\text{ dollars}\n   \\]\n\n6. Find the difference between the amount she collected from the ATM and the amount she spent at the supermarket:\n   \\[\n   49 \\text{ dollars} - 3 \\text{ dollars} = 46 \\text{ dollars}\n   \\]\n\nAnswer: 46 dollars",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      46.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-6",
+          "Body": "There were 3 dollars in Olivia's wallet. She collected 49 more dollars from an atm. After she visited a supermarket there were 49 dollars left.",
+          "Question": "How much more money did she collect at the atm than she spent at the supermarket?",
+          "Equation": "( 49.0 - 3.0 )",
+          "Answer": 46.0,
+          "Type": "Subtraction"
+        },
+        "current": "Sure, let's solve the problem step by step.\n\n1. Start by identifying the initial amount of money in Olivia's wallet: 3 dollars.\n2. Identify the amount of money she collected from the ATM: 49 dollars.\n3. Add the initial amount of money to the amount collected from the ATM to find the total amount she had before spending: \n   \\[\n   3 \\text{ dollars} + 49 \\text{ dollars} = 52 \\text{ dollars}\n   \\]\n\n4. Identify the amount of money left after visiting the supermarket: 49 dollars.\n5. Calculate the amount of money she spent at the supermarket by subtracting the amount left from the total amount before spending: \n   \\[\n   52 \\text{ dollars} - 49 \\text{ dollars} = 3 \\text{ dollars}\n   \\]\n\n6. Find the difference between the amount she collected from the ATM and the amount she spent at the supermarket:\n   \\[\n   49 \\text{ dollars} - 3 \\text{ dollars} = 46 \\text{ dollars}\n   \\]\n\nAnswer: 46 dollars",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      46.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 99,
+    "completion_tokens": 232,
+    "cost": 0.01689
+  }
+]

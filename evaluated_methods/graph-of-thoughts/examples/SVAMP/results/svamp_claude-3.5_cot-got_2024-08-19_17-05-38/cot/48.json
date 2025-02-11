@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-49",
+          "Body": "Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days.",
+          "Question": "How many kids did she play with altogether?",
+          "Equation": "( 12.0 + 14.0 )",
+          "Answer": 26.0,
+          "Type": "Addition"
+        },
+        "current": "Let's solve this problem step by step:\n\nStep 1: Identify the important information given in the problem.\n- Julia played tag with 12 kids on Monday\n- Julia played tag with 14 kids on Tuesday\n- She spent a total of 34 hours playing tag on both days\n\nStep 2: Determine what the question is asking.\nThe question asks how many kids Julia played with altogether.\n\nStep 3: Calculate the total number of kids Julia played with.\nKids on Monday: 12\nKids on Tuesday: 14\nTotal kids = Kids on Monday + Kids on Tuesday\nTotal kids = 12 + 14 = 26\n\nNote: The information about the total hours spent playing (34 hours) is not relevant to answering this specific question.\n\nAnswer: Julia played with 26 kids altogether.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-49",
+          "Body": "Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days.",
+          "Question": "How many kids did she play with altogether?",
+          "Equation": "( 12.0 + 14.0 )",
+          "Answer": 26.0,
+          "Type": "Addition"
+        },
+        "current": "Let's solve this problem step by step:\n\nStep 1: Identify the important information given in the problem.\n- Julia played tag with 12 kids on Monday\n- Julia played tag with 14 kids on Tuesday\n- She spent a total of 34 hours playing tag on both days\n\nStep 2: Determine what the question is asking.\nThe question asks how many kids Julia played with altogether.\n\nStep 3: Calculate the total number of kids Julia played with.\nKids on Monday: 12\nKids on Tuesday: 14\nTotal kids = Kids on Monday + Kids on Tuesday\nTotal kids = 12 + 14 = 26\n\nNote: The information about the total hours spent playing (34 hours) is not relevant to answering this specific question.\n\nAnswer: Julia played with 26 kids altogether.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-49",
+          "Body": "Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days.",
+          "Question": "How many kids did she play with altogether?",
+          "Equation": "( 12.0 + 14.0 )",
+          "Answer": 26.0,
+          "Type": "Addition"
+        },
+        "current": "Let's solve this problem step by step:\n\nStep 1: Identify the important information given in the problem.\n- Julia played tag with 12 kids on Monday\n- Julia played tag with 14 kids on Tuesday\n- She spent a total of 34 hours playing tag on both days\n\nStep 2: Determine what the question is asking.\nThe question asks how many kids Julia played with altogether.\n\nStep 3: Calculate the total number of kids Julia played with.\nKids on Monday: 12\nKids on Tuesday: 14\nTotal kids = Kids on Monday + Kids on Tuesday\nTotal kids = 12 + 14 = 26\n\nNote: The information about the total hours spent playing (34 hours) is not relevant to answering this specific question.\n\nAnswer: Julia played with 26 kids altogether.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

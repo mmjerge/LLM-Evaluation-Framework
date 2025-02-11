@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-13",
+          "Body": "In a school there are 458 more girls than boys. If there are 692 girls",
+          "Question": "How many pupils are there in that school?",
+          "Equation": "( ( 692.0 + 692.0 ) - 458.0 )",
+          "Answer": 926.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find the total number of pupils in the school, we first need to determine the number of boys.\n\nLet the number of boys be x.\nThen, the number of girls = x + 458.\n\nGiven that there are 692 girls, we can write the equation:\nx + 458 = 692\nSubtract 458 from both sides:\nx = 692 - 458\nx = 234\n\nNow, to find the total number of pupils, we add the number of boys and girls:\nTotal number of pupils = x + x + 458\nTotal number of pupils = 234 + 234 + 458\nTotal number of pupils = 468 + 458\nTotal number of pupils = 926\n\nAnswer: There are 926 pupils in that school.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-13",
+          "Body": "In a school there are 458 more girls than boys. If there are 692 girls",
+          "Question": "How many pupils are there in that school?",
+          "Equation": "( ( 692.0 + 692.0 ) - 458.0 )",
+          "Answer": 926.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find the total number of pupils in the school, we first need to determine the number of boys.\n\nLet the number of boys be x.\nThen, the number of girls = x + 458.\n\nGiven that there are 692 girls, we can write the equation:\nx + 458 = 692\nSubtract 458 from both sides:\nx = 692 - 458\nx = 234\n\nNow, to find the total number of pupils, we add the number of boys and girls:\nTotal number of pupils = x + x + 458\nTotal number of pupils = 234 + 234 + 458\nTotal number of pupils = 468 + 458\nTotal number of pupils = 926\n\nAnswer: There are 926 pupils in that school.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-13",
+          "Body": "In a school there are 458 more girls than boys. If there are 692 girls",
+          "Question": "How many pupils are there in that school?",
+          "Equation": "( ( 692.0 + 692.0 ) - 458.0 )",
+          "Answer": 926.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find the total number of pupils in the school, we first need to determine the number of boys.\n\nLet the number of boys be x.\nThen, the number of girls = x + 458.\n\nGiven that there are 692 girls, we can write the equation:\nx + 458 = 692\nSubtract 458 from both sides:\nx = 692 - 458\nx = 234\n\nNow, to find the total number of pupils, we add the number of boys and girls:\nTotal number of pupils = x + x + 458\nTotal number of pupils = 234 + 234 + 458\nTotal number of pupils = 468 + 458\nTotal number of pupils = 926\n\nAnswer: There are 926 pupils in that school.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-13",
+          "Body": "In a school there are 458 more girls than boys. If there are 692 girls",
+          "Question": "How many pupils are there in that school?",
+          "Equation": "( ( 692.0 + 692.0 ) - 458.0 )",
+          "Answer": 926.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find the total number of pupils in the school, we first need to determine the number of boys.\n\nLet the number of boys be x.\nThen, the number of girls = x + 458.\n\nGiven that there are 692 girls, we can write the equation:\nx + 458 = 692\nSubtract 458 from both sides:\nx = 692 - 458\nx = 234\n\nNow, to find the total number of pupils, we add the number of boys and girls:\nTotal number of pupils = x + x + 458\nTotal number of pupils = 234 + 234 + 458\nTotal number of pupils = 468 + 458\nTotal number of pupils = 926\n\nAnswer: There are 926 pupils in that school.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-13",
+          "Body": "In a school there are 458 more girls than boys. If there are 692 girls",
+          "Question": "How many pupils are there in that school?",
+          "Equation": "( ( 692.0 + 692.0 ) - 458.0 )",
+          "Answer": 926.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find the total number of pupils in the school, we first need to determine the number of boys.\n\nLet the number of boys be x.\nThen, the number of girls = x + 458.\n\nGiven that there are 692 girls, we can write the equation:\nx + 458 = 692\nSubtract 458 from both sides:\nx = 692 - 458\nx = 234\n\nNow, to find the total number of pupils, we add the number of boys and girls:\nTotal number of pupils = x + x + 458\nTotal number of pupils = 234 + 234 + 458\nTotal number of pupils = 468 + 458\nTotal number of pupils = 926\n\nAnswer: There are 926 pupils in that school.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 77,
+    "completion_tokens": 159,
+    "cost": 0.0004335
+  }
+]

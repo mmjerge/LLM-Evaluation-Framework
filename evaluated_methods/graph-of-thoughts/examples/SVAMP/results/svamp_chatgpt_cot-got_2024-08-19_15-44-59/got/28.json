@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-29",
+          "Body": "A grocery store had 49 bottles of regular soda, 40 bottles of diet soda and 6 bottles of lite soda.",
+          "Question": "How many bottles of regular soda and diet soda did they have altogether?",
+          "Equation": "( 40.0 + 49.0 )",
+          "Answer": 89.0,
+          "Type": "Addition"
+        },
+        "current": "To find out how many bottles of regular soda and diet soda the grocery store had altogether, follow these steps:\n\nStep 1: Add the number of regular soda bottles and diet soda bottles.\n49 regular soda bottles + 40 diet soda bottles = 89 bottles\n\nAnswer: The grocery store had 89 bottles of regular soda and diet soda altogether.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-29",
+          "Body": "A grocery store had 49 bottles of regular soda, 40 bottles of diet soda and 6 bottles of lite soda.",
+          "Question": "How many bottles of regular soda and diet soda did they have altogether?",
+          "Equation": "( 40.0 + 49.0 )",
+          "Answer": 89.0,
+          "Type": "Addition"
+        },
+        "current": "To find out how many bottles of regular soda and diet soda the grocery store had altogether, follow these steps:\n\nStep 1: Add the number of regular soda bottles and diet soda bottles.\n49 regular soda bottles + 40 diet soda bottles = 89 bottles\n\nAnswer: The grocery store had 89 bottles of regular soda and diet soda altogether.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-29",
+          "Body": "A grocery store had 49 bottles of regular soda, 40 bottles of diet soda and 6 bottles of lite soda.",
+          "Question": "How many bottles of regular soda and diet soda did they have altogether?",
+          "Equation": "( 40.0 + 49.0 )",
+          "Answer": 89.0,
+          "Type": "Addition"
+        },
+        "current": "To find out how many bottles of regular soda and diet soda the grocery store had altogether, follow these steps:\n\nStep 1: Add the number of regular soda bottles and diet soda bottles.\n49 regular soda bottles + 40 diet soda bottles = 89 bottles\n\nAnswer: The grocery store had 89 bottles of regular soda and diet soda altogether.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-29",
+          "Body": "A grocery store had 49 bottles of regular soda, 40 bottles of diet soda and 6 bottles of lite soda.",
+          "Question": "How many bottles of regular soda and diet soda did they have altogether?",
+          "Equation": "( 40.0 + 49.0 )",
+          "Answer": 89.0,
+          "Type": "Addition"
+        },
+        "current": "To find out how many bottles of regular soda and diet soda the grocery store had altogether, follow these steps:\n\nStep 1: Add the number of regular soda bottles and diet soda bottles.\n49 regular soda bottles + 40 diet soda bottles = 89 bottles\n\nAnswer: The grocery store had 89 bottles of regular soda and diet soda altogether.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-29",
+          "Body": "A grocery store had 49 bottles of regular soda, 40 bottles of diet soda and 6 bottles of lite soda.",
+          "Question": "How many bottles of regular soda and diet soda did they have altogether?",
+          "Equation": "( 40.0 + 49.0 )",
+          "Answer": 89.0,
+          "Type": "Addition"
+        },
+        "current": "To find out how many bottles of regular soda and diet soda the grocery store had altogether, follow these steps:\n\nStep 1: Add the number of regular soda bottles and diet soda bottles.\n49 regular soda bottles + 40 diet soda bottles = 89 bottles\n\nAnswer: The grocery store had 89 bottles of regular soda and diet soda altogether.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 88,
+    "completion_tokens": 70,
+    "cost": 0.000272
+  }
+]

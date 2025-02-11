@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-38",
+          "Body": "For Gwen's birthday she received 5 dollars from her dad. Her mom gave her 7 more dollars. If she spent 4 dollars.",
+          "Question": "How much more money did she receive from her mom than she did from her dad?",
+          "Equation": "( 7.0 - 5.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Step>\nFirst, calculate how much money Gwen received from her dad:\n5 dollars from dad\n\n<Step>\nNext, calculate how much money Gwen received from her mom:\n5 dollars from dad + 7 dollars from mom\n\n<Step>\nThen, calculate how much money Gwen spent:\n5 dollars from dad + 7 dollars from mom - 4 dollars spent\n\n<Step>\nNow, calculate how much money Gwen received from her mom than she did from her dad:\n5 dollars from dad + 7 dollars from mom - 4 dollars spent - 5 dollars from dad\n\n<Step>\nSimplify the expression:\n7 dollars from mom - 4 dollars spent\n\n<Step>\nAfter simplifying, we get:\nAnswer: 3 dollars\n\nTherefore, Gwen received 3 dollars more from her mom than she did from her dad.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-38",
+          "Body": "For Gwen's birthday she received 5 dollars from her dad. Her mom gave her 7 more dollars. If she spent 4 dollars.",
+          "Question": "How much more money did she receive from her mom than she did from her dad?",
+          "Equation": "( 7.0 - 5.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Step>\nFirst, calculate how much money Gwen received from her dad:\n5 dollars from dad\n\n<Step>\nNext, calculate how much money Gwen received from her mom:\n5 dollars from dad + 7 dollars from mom\n\n<Step>\nThen, calculate how much money Gwen spent:\n5 dollars from dad + 7 dollars from mom - 4 dollars spent\n\n<Step>\nNow, calculate how much money Gwen received from her mom than she did from her dad:\n5 dollars from dad + 7 dollars from mom - 4 dollars spent - 5 dollars from dad\n\n<Step>\nSimplify the expression:\n7 dollars from mom - 4 dollars spent\n\n<Step>\nAfter simplifying, we get:\nAnswer: 3 dollars\n\nTherefore, Gwen received 3 dollars more from her mom than she did from her dad.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      3.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-38",
+          "Body": "For Gwen's birthday she received 5 dollars from her dad. Her mom gave her 7 more dollars. If she spent 4 dollars.",
+          "Question": "How much more money did she receive from her mom than she did from her dad?",
+          "Equation": "( 7.0 - 5.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Step>\nFirst, calculate how much money Gwen received from her dad:\n5 dollars from dad\n\n<Step>\nNext, calculate how much money Gwen received from her mom:\n5 dollars from dad + 7 dollars from mom\n\n<Step>\nThen, calculate how much money Gwen spent:\n5 dollars from dad + 7 dollars from mom - 4 dollars spent\n\n<Step>\nNow, calculate how much money Gwen received from her mom than she did from her dad:\n5 dollars from dad + 7 dollars from mom - 4 dollars spent - 5 dollars from dad\n\n<Step>\nSimplify the expression:\n7 dollars from mom - 4 dollars spent\n\n<Step>\nAfter simplifying, we get:\nAnswer: 3 dollars\n\nTherefore, Gwen received 3 dollars more from her mom than she did from her dad.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      3.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      false
+    ]
+  },
+  {
+    "prompt_tokens": 95,
+    "completion_tokens": 169,
+    "cost": 0.0004805
+  }
+]

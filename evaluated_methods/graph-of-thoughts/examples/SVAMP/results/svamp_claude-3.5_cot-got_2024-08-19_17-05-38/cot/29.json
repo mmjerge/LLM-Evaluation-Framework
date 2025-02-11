@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-30",
+          "Body": "Dan has $ 3. He bought 2 candy bar for $ 4, each one costing the same amount of money.",
+          "Question": "How much did each candy bar cost?",
+          "Equation": "( 4.0 / 2.0 )",
+          "Answer": 2.0,
+          "Type": "Common-Division"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   - Dan has $3\n   - He bought 2 candy bars\n   - The total cost of the candy bars is $4\n   - Each candy bar costs the same amount\n\n2. Determine what we need to find:\n   - The cost of each individual candy bar\n\n3. Calculate the cost of one candy bar:\n   - Since there are 2 candy bars and they cost $4 in total, we need to divide the total cost by the number of candy bars\n   - Total cost \u00f7 Number of candy bars = Cost per candy bar\n   - $4 \u00f7 2 = $2\n\n4. Check our answer:\n   - If each candy bar costs $2, then two candy bars would cost $2 \u00d7 2 = $4, which matches the given total\n\nAnswer: Each candy bar cost $2.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-30",
+          "Body": "Dan has $ 3. He bought 2 candy bar for $ 4, each one costing the same amount of money.",
+          "Question": "How much did each candy bar cost?",
+          "Equation": "( 4.0 / 2.0 )",
+          "Answer": 2.0,
+          "Type": "Common-Division"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   - Dan has $3\n   - He bought 2 candy bars\n   - The total cost of the candy bars is $4\n   - Each candy bar costs the same amount\n\n2. Determine what we need to find:\n   - The cost of each individual candy bar\n\n3. Calculate the cost of one candy bar:\n   - Since there are 2 candy bars and they cost $4 in total, we need to divide the total cost by the number of candy bars\n   - Total cost \u00f7 Number of candy bars = Cost per candy bar\n   - $4 \u00f7 2 = $2\n\n4. Check our answer:\n   - If each candy bar costs $2, then two candy bars would cost $2 \u00d7 2 = $4, which matches the given total\n\nAnswer: Each candy bar cost $2.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-30",
+          "Body": "Dan has $ 3. He bought 2 candy bar for $ 4, each one costing the same amount of money.",
+          "Question": "How much did each candy bar cost?",
+          "Equation": "( 4.0 / 2.0 )",
+          "Answer": 2.0,
+          "Type": "Common-Division"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. Understand the given information:\n   - Dan has $3\n   - He bought 2 candy bars\n   - The total cost of the candy bars is $4\n   - Each candy bar costs the same amount\n\n2. Determine what we need to find:\n   - The cost of each individual candy bar\n\n3. Calculate the cost of one candy bar:\n   - Since there are 2 candy bars and they cost $4 in total, we need to divide the total cost by the number of candy bars\n   - Total cost \u00f7 Number of candy bars = Cost per candy bar\n   - $4 \u00f7 2 = $2\n\n4. Check our answer:\n   - If each candy bar costs $2, then two candy bars would cost $2 \u00d7 2 = $4, which matches the given total\n\nAnswer: Each candy bar cost $2.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

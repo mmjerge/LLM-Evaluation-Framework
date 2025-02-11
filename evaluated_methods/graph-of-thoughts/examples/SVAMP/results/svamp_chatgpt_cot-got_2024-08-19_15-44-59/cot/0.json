@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Steps>\n1. Calculate the final price of each pack after the discount: 76 - 25 = 51\n2. Answer: Each pack costs 51 dollars after the discount.\n</Steps>",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Steps>\n1. Calculate the final price of each pack after the discount: 76 - 25 = 51\n2. Answer: Each pack costs 51 dollars after the discount.\n</Steps>",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-1",
+          "Body": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack",
+          "Question": "How much do you have to pay to buy each pack?",
+          "Equation": "( 76.0 - 25.0 )",
+          "Answer": 51.0,
+          "Type": "Subtraction"
+        },
+        "current": "<Steps>\n1. Calculate the final price of each pack after the discount: 76 - 25 = 51\n2. Answer: Each pack costs 51 dollars after the discount.\n</Steps>",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 84,
+    "completion_tokens": 42,
+    "cost": 0.00021
+  }
+]

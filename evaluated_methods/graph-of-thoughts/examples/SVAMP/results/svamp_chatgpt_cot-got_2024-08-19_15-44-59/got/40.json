@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-41",
+          "Body": "Mary is baking a cake. The recipe calls for 12 cups of flour and 5 cups of sugar. She already put in some cups of flour. If she still needs 2 more cups of flour",
+          "Question": "How many cups of flour did she put in?",
+          "Equation": "( 12.0 - 2.0 )",
+          "Answer": 10.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many cups of flour Mary put in already, we can combine the given information in the problem:\nTotal cups of flour needed = 12 cups\nCups of flour needed but still missing = 2 cups\n\nLet x be the number of cups of flour Mary put in already. \n\nWe can create an equation to solve for x:\nx + 2 = 12 \n\nNow, we can solve for x:\nx = 12 - 2\nx = 10\n\nTherefore, Mary put in 10 cups of flour already.\n\nAnswer: Mary put in 10 cups of flour already.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-41",
+          "Body": "Mary is baking a cake. The recipe calls for 12 cups of flour and 5 cups of sugar. She already put in some cups of flour. If she still needs 2 more cups of flour",
+          "Question": "How many cups of flour did she put in?",
+          "Equation": "( 12.0 - 2.0 )",
+          "Answer": 10.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many cups of flour Mary put in already, we can combine the given information in the problem:\nTotal cups of flour needed = 12 cups\nCups of flour needed but still missing = 2 cups\n\nLet x be the number of cups of flour Mary put in already. \n\nWe can create an equation to solve for x:\nx + 2 = 12 \n\nNow, we can solve for x:\nx = 12 - 2\nx = 10\n\nTherefore, Mary put in 10 cups of flour already.\n\nAnswer: Mary put in 10 cups of flour already.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-41",
+          "Body": "Mary is baking a cake. The recipe calls for 12 cups of flour and 5 cups of sugar. She already put in some cups of flour. If she still needs 2 more cups of flour",
+          "Question": "How many cups of flour did she put in?",
+          "Equation": "( 12.0 - 2.0 )",
+          "Answer": 10.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many cups of flour Mary put in already, we can combine the given information in the problem:\nTotal cups of flour needed = 12 cups\nCups of flour needed but still missing = 2 cups\n\nLet x be the number of cups of flour Mary put in already. \n\nWe can create an equation to solve for x:\nx + 2 = 12 \n\nNow, we can solve for x:\nx = 12 - 2\nx = 10\n\nTherefore, Mary put in 10 cups of flour already.\n\nAnswer: Mary put in 10 cups of flour already.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-41",
+          "Body": "Mary is baking a cake. The recipe calls for 12 cups of flour and 5 cups of sugar. She already put in some cups of flour. If she still needs 2 more cups of flour",
+          "Question": "How many cups of flour did she put in?",
+          "Equation": "( 12.0 - 2.0 )",
+          "Answer": 10.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many cups of flour Mary put in already, we can combine the given information in the problem:\nTotal cups of flour needed = 12 cups\nCups of flour needed but still missing = 2 cups\n\nLet x be the number of cups of flour Mary put in already. \n\nWe can create an equation to solve for x:\nx + 2 = 12 \n\nNow, we can solve for x:\nx = 12 - 2\nx = 10\n\nTherefore, Mary put in 10 cups of flour already.\n\nAnswer: Mary put in 10 cups of flour already.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-41",
+          "Body": "Mary is baking a cake. The recipe calls for 12 cups of flour and 5 cups of sugar. She already put in some cups of flour. If she still needs 2 more cups of flour",
+          "Question": "How many cups of flour did she put in?",
+          "Equation": "( 12.0 - 2.0 )",
+          "Answer": 10.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many cups of flour Mary put in already, we can combine the given information in the problem:\nTotal cups of flour needed = 12 cups\nCups of flour needed but still missing = 2 cups\n\nLet x be the number of cups of flour Mary put in already. \n\nWe can create an equation to solve for x:\nx + 2 = 12 \n\nNow, we can solve for x:\nx = 12 - 2\nx = 10\n\nTherefore, Mary put in 10 cups of flour already.\n\nAnswer: Mary put in 10 cups of flour already.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 101,
+    "completion_tokens": 124,
+    "cost": 0.0003995
+  }
+]

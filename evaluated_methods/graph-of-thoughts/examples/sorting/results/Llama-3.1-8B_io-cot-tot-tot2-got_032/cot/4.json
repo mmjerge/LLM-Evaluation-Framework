@@ -1,0 +1,58 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "[5, 3, 9, 6, 3, 2, 9, 8, 2, 4, 2, 1, 8, 1, 8, 0, 0, 3, 7, 4, 4, 9, 9, 5, 4, 6, 5, 4, 3, 4, 1, 1]",
+        "current": "[5, 3, 9, 6, 3, 2, 9, 8, 2, 4, 2, 1, 8, 1, 8, 0, 0, 3, 7, 4, 4, 9, 9, 5, 4, 6, 5, 4, 3, 4, 1, 1]",
+        "phase": 2,
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "[5, 3, 9, 6, 3, 2, 9, 8, 2, 4, 2, 1, 8, 1, 8, 0, 0, 3, 7, 4, 4, 9, 9, 5, 4, 6, 5, 4, 3, 4, 1, 1]",
+        "current": "[5, 3, 9, 6, 3, 2, 9, 8, 2, 4, 2, 1, 8, 1, 8, 0, 0, 3, 7, 4, 4, 9, 9, 5, 4, 6, 5, 4, 3, 4, 1, 1]",
+        "phase": 2,
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      17
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "[5, 3, 9, 6, 3, 2, 9, 8, 2, 4, 2, 1, 8, 1, 8, 0, 0, 3, 7, 4, 4, 9, 9, 5, 4, 6, 5, 4, 3, 4, 1, 1]",
+        "current": "[5, 3, 9, 6, 3, 2, 9, 8, 2, 4, 2, 1, 8, 1, 8, 0, 0, 3, 7, 4, 4, 9, 9, 5, 4, 6, 5, 4, 3, 4, 1, 1]",
+        "phase": 2,
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      17
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      false
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

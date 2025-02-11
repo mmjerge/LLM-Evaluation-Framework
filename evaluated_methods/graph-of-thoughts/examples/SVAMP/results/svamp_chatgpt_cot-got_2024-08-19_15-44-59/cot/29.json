@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-30",
+          "Body": "Dan has $ 3. He bought 2 candy bar for $ 4, each one costing the same amount of money.",
+          "Question": "How much did each candy bar cost?",
+          "Equation": "( 4.0 / 2.0 )",
+          "Answer": 2.0,
+          "Type": "Common-Division"
+        },
+        "current": "<Step 1> Let x be the cost of one candy bar.\n<Step 2> Dan bought 2 candy bars for $4, so the equation is 2x = 4.\n<Step 3> Divide both sides by 2 to solve for x: x = 4 / 2 = 2.\n<Step 4> Each candy bar costs $2.\n<Step 5> \\text{Answer: Each candy bar costs } $2.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-30",
+          "Body": "Dan has $ 3. He bought 2 candy bar for $ 4, each one costing the same amount of money.",
+          "Question": "How much did each candy bar cost?",
+          "Equation": "( 4.0 / 2.0 )",
+          "Answer": 2.0,
+          "Type": "Common-Division"
+        },
+        "current": "<Step 1> Let x be the cost of one candy bar.\n<Step 2> Dan bought 2 candy bars for $4, so the equation is 2x = 4.\n<Step 3> Divide both sides by 2 to solve for x: x = 4 / 2 = 2.\n<Step 4> Each candy bar costs $2.\n<Step 5> \\text{Answer: Each candy bar costs } $2.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-30",
+          "Body": "Dan has $ 3. He bought 2 candy bar for $ 4, each one costing the same amount of money.",
+          "Question": "How much did each candy bar cost?",
+          "Equation": "( 4.0 / 2.0 )",
+          "Answer": 2.0,
+          "Type": "Common-Division"
+        },
+        "current": "<Step 1> Let x be the cost of one candy bar.\n<Step 2> Dan bought 2 candy bars for $4, so the equation is 2x = 4.\n<Step 3> Divide both sides by 2 to solve for x: x = 4 / 2 = 2.\n<Step 4> Each candy bar costs $2.\n<Step 5> \\text{Answer: Each candy bar costs } $2.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 83,
+    "completion_tokens": 98,
+    "cost": 0.00032050000000000004
+  }
+]

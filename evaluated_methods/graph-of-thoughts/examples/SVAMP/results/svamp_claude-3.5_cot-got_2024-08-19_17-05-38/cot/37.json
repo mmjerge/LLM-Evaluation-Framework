@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-38",
+          "Body": "For Gwen's birthday she received 5 dollars from her dad. Her mom gave her 7 more dollars. If she spent 4 dollars.",
+          "Question": "How much more money did she receive from her mom than she did from her dad?",
+          "Equation": "( 7.0 - 5.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\nStep 1: Identify the amount of money Gwen received from her dad.\nGwen received $5 from her dad.\n\nStep 2: Identify the amount of money Gwen received from her mom.\nGwen received $7 from her mom.\n\nStep 3: Calculate the difference between the amount received from mom and dad.\nDifference = Money from mom - Money from dad\nDifference = $7 - $5 = $2\n\nNote: The question about how much Gwen spent ($4) is not relevant to answering how much more she received from her mom than her dad.\n\nAnswer: Gwen received $2 more from her mom than she did from her dad.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-38",
+          "Body": "For Gwen's birthday she received 5 dollars from her dad. Her mom gave her 7 more dollars. If she spent 4 dollars.",
+          "Question": "How much more money did she receive from her mom than she did from her dad?",
+          "Equation": "( 7.0 - 5.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\nStep 1: Identify the amount of money Gwen received from her dad.\nGwen received $5 from her dad.\n\nStep 2: Identify the amount of money Gwen received from her mom.\nGwen received $7 from her mom.\n\nStep 3: Calculate the difference between the amount received from mom and dad.\nDifference = Money from mom - Money from dad\nDifference = $7 - $5 = $2\n\nNote: The question about how much Gwen spent ($4) is not relevant to answering how much more she received from her mom than her dad.\n\nAnswer: Gwen received $2 more from her mom than she did from her dad.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-38",
+          "Body": "For Gwen's birthday she received 5 dollars from her dad. Her mom gave her 7 more dollars. If she spent 4 dollars.",
+          "Question": "How much more money did she receive from her mom than she did from her dad?",
+          "Equation": "( 7.0 - 5.0 )",
+          "Answer": 2.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\nStep 1: Identify the amount of money Gwen received from her dad.\nGwen received $5 from her dad.\n\nStep 2: Identify the amount of money Gwen received from her mom.\nGwen received $7 from her mom.\n\nStep 3: Calculate the difference between the amount received from mom and dad.\nDifference = Money from mom - Money from dad\nDifference = $7 - $5 = $2\n\nNote: The question about how much Gwen spent ($4) is not relevant to answering how much more she received from her mom than her dad.\n\nAnswer: Gwen received $2 more from her mom than she did from her dad.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

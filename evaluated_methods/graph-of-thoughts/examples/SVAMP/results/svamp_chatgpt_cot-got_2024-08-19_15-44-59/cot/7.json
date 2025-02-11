@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-8",
+          "Body": "Paco had 41 cookies. He gave 9 cookies to his friend and ate 18 cookies.",
+          "Question": "How many more cookies did he eat than those he gave to his friend?",
+          "Equation": "( 18.0 - 9.0 )",
+          "Answer": 9.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many more cookies Paco ate than those he gave to his friend, we need to calculate the difference between the number of cookies he ate and the number he gave to his friend.\n\nStep 1: Number of cookies Paco had = 41\nStep 2: Number of cookies he gave to his friend = 9\nStep 3: Number of cookies he ate = 18\nStep 4: Number of cookies he ate - Number of cookies he gave to his friend = 18 - 9 = 9\n\nTherefore, Paco ate 9 more cookies than those he gave to his friend.\n\nAnswer: 9",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-8",
+          "Body": "Paco had 41 cookies. He gave 9 cookies to his friend and ate 18 cookies.",
+          "Question": "How many more cookies did he eat than those he gave to his friend?",
+          "Equation": "( 18.0 - 9.0 )",
+          "Answer": 9.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many more cookies Paco ate than those he gave to his friend, we need to calculate the difference between the number of cookies he ate and the number he gave to his friend.\n\nStep 1: Number of cookies Paco had = 41\nStep 2: Number of cookies he gave to his friend = 9\nStep 3: Number of cookies he ate = 18\nStep 4: Number of cookies he ate - Number of cookies he gave to his friend = 18 - 9 = 9\n\nTherefore, Paco ate 9 more cookies than those he gave to his friend.\n\nAnswer: 9",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      9.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-8",
+          "Body": "Paco had 41 cookies. He gave 9 cookies to his friend and ate 18 cookies.",
+          "Question": "How many more cookies did he eat than those he gave to his friend?",
+          "Equation": "( 18.0 - 9.0 )",
+          "Answer": 9.0,
+          "Type": "Subtraction"
+        },
+        "current": "To find out how many more cookies Paco ate than those he gave to his friend, we need to calculate the difference between the number of cookies he ate and the number he gave to his friend.\n\nStep 1: Number of cookies Paco had = 41\nStep 2: Number of cookies he gave to his friend = 9\nStep 3: Number of cookies he ate = 18\nStep 4: Number of cookies he ate - Number of cookies he gave to his friend = 18 - 9 = 9\n\nTherefore, Paco ate 9 more cookies than those he gave to his friend.\n\nAnswer: 9",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      9.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 85,
+    "completion_tokens": 132,
+    "cost": 0.00039150000000000003
+  }
+]

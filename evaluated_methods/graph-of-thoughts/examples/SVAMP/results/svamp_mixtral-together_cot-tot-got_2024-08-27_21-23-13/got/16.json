@@ -1,0 +1,89 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-17",
+          "Body": "In a school there are 697 girls and the rest are boys. If there are 228 more girls than boys",
+          "Question": "How many boys are there in that school?",
+          "Equation": "( 697.0 - 228.0 )",
+          "Answer": 469.0,
+          "Type": "Subtraction"
+        },
+        "current": " Let's denote the number of boys as B. According to the problem, there are 228 more girls than boys, so we can write this relationship as:\n\nNumber of girls = Number of boys + 228\n\nWe know the number of girls is 697, so we can substitute this value into the equation:\n\n697 = B + 228\n\nNow, we can solve for B by subtracting 228 from both sides of the equation:\n\n697 - 228 = B\n\n469 = B\n\nSo, there are 469 boys in the school.\n\nAnswer: There are 469 boys in the school.",
+        "method": "got"
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-17",
+          "Body": "In a school there are 697 girls and the rest are boys. If there are 228 more girls than boys",
+          "Question": "How many boys are there in that school?",
+          "Equation": "( 697.0 - 228.0 )",
+          "Answer": 469.0,
+          "Type": "Subtraction"
+        },
+        "current": " Let's denote the number of boys as B. According to the problem, there are 228 more girls than boys, so we can write this relationship as:\n\nNumber of girls = Number of boys + 228\n\nWe know the number of girls is 697, so we can substitute this value into the equation:\n\n697 = B + 228\n\nNow, we can solve for B by subtracting 228 from both sides of the equation:\n\n697 - 228 = B\n\n469 = B\n\nSo, there are 469 boys in the school.\n\nAnswer: There are 469 boys in the school.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-17",
+          "Body": "In a school there are 697 girls and the rest are boys. If there are 228 more girls than boys",
+          "Question": "How many boys are there in that school?",
+          "Equation": "( 697.0 - 228.0 )",
+          "Answer": 469.0,
+          "Type": "Subtraction"
+        },
+        "current": " Let's denote the number of boys as B. According to the problem, there are 228 more girls than boys, so we can write this relationship as:\n\nNumber of girls = Number of boys + 228\n\nWe know the number of girls is 697, so we can substitute this value into the equation:\n\n697 = B + 228\n\nNow, we can solve for B by subtracting 228 from both sides of the equation:\n\n697 - 228 = B\n\n469 = B\n\nSo, there are 469 boys in the school.\n\nAnswer: There are 469 boys in the school.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-17",
+          "Body": "In a school there are 697 girls and the rest are boys. If there are 228 more girls than boys",
+          "Question": "How many boys are there in that school?",
+          "Equation": "( 697.0 - 228.0 )",
+          "Answer": 469.0,
+          "Type": "Subtraction"
+        },
+        "current": " Let's denote the number of boys as B. According to the problem, there are 228 more girls than boys, so we can write this relationship as:\n\nNumber of girls = Number of boys + 228\n\nWe know the number of girls is 697, so we can substitute this value into the equation:\n\n697 = B + 228\n\nNow, we can solve for B by subtracting 228 from both sides of the equation:\n\n697 - 228 = B\n\n469 = B\n\nSo, there are 469 boys in the school.\n\nAnswer: There are 469 boys in the school.",
+        "method": "got"
+      },
+      {
+        "original": {
+          "ID": "chal-17",
+          "Body": "In a school there are 697 girls and the rest are boys. If there are 228 more girls than boys",
+          "Question": "How many boys are there in that school?",
+          "Equation": "( 697.0 - 228.0 )",
+          "Answer": 469.0,
+          "Type": "Subtraction"
+        },
+        "current": " Let's denote the number of boys as B. According to the problem, there are 228 more girls than boys, so we can write this relationship as:\n\nNumber of girls = Number of boys + 228\n\nWe know the number of girls is 697, so we can substitute this value into the equation:\n\n697 = B + 228\n\nNow, we can solve for B by subtracting 228 from both sides of the equation:\n\n697 - 228 = B\n\n469 = B\n\nSo, there are 469 boys in the school.\n\nAnswer: There are 469 boys in the school.",
+        "method": "got"
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

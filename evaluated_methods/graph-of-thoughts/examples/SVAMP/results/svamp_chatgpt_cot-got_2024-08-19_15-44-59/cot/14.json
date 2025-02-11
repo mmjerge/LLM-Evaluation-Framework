@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-15",
+          "Body": "6 birds were sitting on the fence. 4 more birds and 8 more storks came to join them.",
+          "Question": "How many birds are sitting on the fence?",
+          "Equation": "( 6.0 + 4.0 )",
+          "Answer": 10.0,
+          "Type": "Addition"
+        },
+        "current": "First, we need to find the total number of birds on the fence after some more birds and storks joined.\n\n6 (original birds) + 4 (more birds) = 10 birds\n10 birds + 8 (storks) = 18 birds\n\nTherefore, there are 18 birds sitting on the fence.\n\nAnswer: 18 birds.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-15",
+          "Body": "6 birds were sitting on the fence. 4 more birds and 8 more storks came to join them.",
+          "Question": "How many birds are sitting on the fence?",
+          "Equation": "( 6.0 + 4.0 )",
+          "Answer": 10.0,
+          "Type": "Addition"
+        },
+        "current": "First, we need to find the total number of birds on the fence after some more birds and storks joined.\n\n6 (original birds) + 4 (more birds) = 10 birds\n10 birds + 8 (storks) = 18 birds\n\nTherefore, there are 18 birds sitting on the fence.\n\nAnswer: 18 birds.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      18.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-15",
+          "Body": "6 birds were sitting on the fence. 4 more birds and 8 more storks came to join them.",
+          "Question": "How many birds are sitting on the fence?",
+          "Equation": "( 6.0 + 4.0 )",
+          "Answer": 10.0,
+          "Type": "Addition"
+        },
+        "current": "First, we need to find the total number of birds on the fence after some more birds and storks joined.\n\n6 (original birds) + 4 (more birds) = 10 birds\n10 birds + 8 (storks) = 18 birds\n\nTherefore, there are 18 birds sitting on the fence.\n\nAnswer: 18 birds.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      18.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 81,
+    "completion_tokens": 72,
+    "cost": 0.0002655
+  }
+]

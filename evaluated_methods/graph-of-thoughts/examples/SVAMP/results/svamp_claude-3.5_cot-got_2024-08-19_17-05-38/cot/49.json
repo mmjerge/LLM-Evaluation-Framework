@@ -1,0 +1,76 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-50",
+          "Body": "Nell collects cards. She had 309 baseball cards and 356 Ace cards. She gave some of her cards to Jeff and now has 415 baseball cards and Ace cards left.",
+          "Question": "How many more baseball cards than Ace cards does Nell have?",
+          "Equation": "( 415.0 - 149.0 )",
+          "Answer": 266.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. First, let's identify the important information:\n   - Nell had 309 baseball cards initially\n   - Nell had 356 Ace cards initially\n   - After giving some cards to Jeff, Nell has 415 cards in total\n\n2. Calculate the total number of cards Nell had initially:\n   309 (baseball cards) + 356 (Ace cards) = 665 total cards\n\n3. Find out how many cards Nell gave to Jeff:\n   665 (initial total) - 415 (cards left) = 250 cards given to Jeff\n\n4. Now, we need to determine how many of each type of card Nell has left. We can do this by setting up an equation:\n   Let x = number of baseball cards left\n   Then, (415 - x) = number of Ace cards left\n\n5. We know that the difference between the number of baseball cards and Ace cards is what we're looking for. So we can set up another equation:\n   x - (415 - x) = difference\n\n6. Simplify the equation:\n   x - 415 + x = difference\n   2x - 415 = difference\n\n7. We don't know the exact value of x, but we don't need to. The question asks how many more baseball cards than Ace cards Nell has, which is exactly what our equation represents.\n\n8. Therefore, the difference between the number of baseball cards and Ace cards is:\n   2x - 415\n\nAnswer: Nell has 2x - 415 more baseball cards than Ace cards, where x is the number of baseball cards she has left.",
+        "method": "cot"
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-50",
+          "Body": "Nell collects cards. She had 309 baseball cards and 356 Ace cards. She gave some of her cards to Jeff and now has 415 baseball cards and Ace cards left.",
+          "Question": "How many more baseball cards than Ace cards does Nell have?",
+          "Equation": "( 415.0 - 149.0 )",
+          "Answer": 266.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. First, let's identify the important information:\n   - Nell had 309 baseball cards initially\n   - Nell had 356 Ace cards initially\n   - After giving some cards to Jeff, Nell has 415 cards in total\n\n2. Calculate the total number of cards Nell had initially:\n   309 (baseball cards) + 356 (Ace cards) = 665 total cards\n\n3. Find out how many cards Nell gave to Jeff:\n   665 (initial total) - 415 (cards left) = 250 cards given to Jeff\n\n4. Now, we need to determine how many of each type of card Nell has left. We can do this by setting up an equation:\n   Let x = number of baseball cards left\n   Then, (415 - x) = number of Ace cards left\n\n5. We know that the difference between the number of baseball cards and Ace cards is what we're looking for. So we can set up another equation:\n   x - (415 - x) = difference\n\n6. Simplify the equation:\n   x - 415 + x = difference\n   2x - 415 = difference\n\n7. We don't know the exact value of x, but we don't need to. The question asks how many more baseball cards than Ace cards Nell has, which is exactly what our equation represents.\n\n8. Therefore, the difference between the number of baseball cards and Ace cards is:\n   2x - 415\n\nAnswer: Nell has 2x - 415 more baseball cards than Ace cards, where x is the number of baseball cards she has left.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": {
+          "ID": "chal-50",
+          "Body": "Nell collects cards. She had 309 baseball cards and 356 Ace cards. She gave some of her cards to Jeff and now has 415 baseball cards and Ace cards left.",
+          "Question": "How many more baseball cards than Ace cards does Nell have?",
+          "Equation": "( 415.0 - 149.0 )",
+          "Answer": 266.0,
+          "Type": "Subtraction"
+        },
+        "current": "Let's solve this problem step by step:\n\n1. First, let's identify the important information:\n   - Nell had 309 baseball cards initially\n   - Nell had 356 Ace cards initially\n   - After giving some cards to Jeff, Nell has 415 cards in total\n\n2. Calculate the total number of cards Nell had initially:\n   309 (baseball cards) + 356 (Ace cards) = 665 total cards\n\n3. Find out how many cards Nell gave to Jeff:\n   665 (initial total) - 415 (cards left) = 250 cards given to Jeff\n\n4. Now, we need to determine how many of each type of card Nell has left. We can do this by setting up an equation:\n   Let x = number of baseball cards left\n   Then, (415 - x) = number of Ace cards left\n\n5. We know that the difference between the number of baseball cards and Ace cards is what we're looking for. So we can set up another equation:\n   x - (415 - x) = difference\n\n6. Simplify the equation:\n   x - 415 + x = difference\n   2x - 415 = difference\n\n7. We don't know the exact value of x, but we don't need to. The question asks how many more baseball cards than Ace cards Nell has, which is exactly what our equation represents.\n\n8. Therefore, the difference between the number of baseball cards and Ace cards is:\n   2x - 415\n\nAnswer: Nell has 2x - 415 more baseball cards than Ace cards, where x is the number of baseball cards she has left.",
+        "method": "cot"
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      false
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]
