@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Charlie wants to sell beeswax candles.  For every pound of beeswax, he can make 10 tapered candles.  One pound of beeswax and the wicks cost $10.00 in supplies.   If he sells each candle for $2.00 each, what is his net profit if he makes and sells 20 candles?",
+        "current": "Step 1: Determine how many candles one pound of beeswax can make.\nCandles per pound = 10\nReasoning: The problem states that one pound of beeswax can make 10 tapered candles.\n\nStep 2: Calculate how many pounds of beeswax are needed to make 20 candles.\nPounds required = Number of candles / Candles per pound\nPounds required = 20 / 10 = 2\nReasoning: To find out how many pounds of beeswax are needed, we divide the number of candles by the number of candles that can be made per pound.\n\nStep 3: Calculate the total cost for the beeswax and wicks required to make 20 candles.\nTotal cost (in dollars) = Pounds required \u00d7 Cost per pound\nTotal cost = 2 \u00d7 $10.00 = $20.00\nReasoning: Each pound of beeswax and wicks costs $10.00, so we multiply the number of pounds needed by the cost per pound.\n\nStep 4: Calculate the total revenue from selling 20 candles.\nTotal revenue (in dollars) = Number of candles \u00d7 Price per candle\nTotal revenue = 20 \u00d7 $2.00 = $40.00\nReasoning: Each candle sells for $2.00, so we multiply the number of candles by the price per candle to get the total revenue.\n\nStep 5: Calculate the net profit by subtracting the total cost from the total revenue.\nNet profit = Total revenue - Total cost\nNet profit = $40.00 - $20.00 = $20.00\nReasoning: To find the net profit, subtract the total cost (the cost of supplies) from the total revenue (income from sales).\n\nAnswer: $20.00",
+        "method": "cot",
+        "problem": {
+          "question": "Charlie wants to sell beeswax candles.  For every pound of beeswax, he can make 10 tapered candles.  One pound of beeswax and the wicks cost $10.00 in supplies.   If he sells each candle for $2.00 each, what is his net profit if he makes and sells 20 candles?",
+          "answer": "1 pound of beeswax and the wick make 10 candles and he wants to make 20 candles so he needs 20/10 = <<20/10=2>>2 pounds of beeswax\n1 pound of beeswax costs $10.00 and he needs 2 pounds so his supplies will cost 10*2 = $<<10*2=20.00>>20.00\nHe wants to sell each candle for $2.00 each and he's selling 20 candles so that's 2*20 = $<<2*20=40.00>>40.00\nIf he makes $40.00 selling candles and his supplies cost $20.00 then his net profit is 40-20 = $<<40-20=20.00>>20.00\n#### 20"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Charlie wants to sell beeswax candles.  For every pound of beeswax, he can make 10 tapered candles.  One pound of beeswax and the wicks cost $10.00 in supplies.   If he sells each candle for $2.00 each, what is his net profit if he makes and sells 20 candles?",
+        "current": "Step 1: Determine how many candles one pound of beeswax can make.\nCandles per pound = 10\nReasoning: The problem states that one pound of beeswax can make 10 tapered candles.\n\nStep 2: Calculate how many pounds of beeswax are needed to make 20 candles.\nPounds required = Number of candles / Candles per pound\nPounds required = 20 / 10 = 2\nReasoning: To find out how many pounds of beeswax are needed, we divide the number of candles by the number of candles that can be made per pound.\n\nStep 3: Calculate the total cost for the beeswax and wicks required to make 20 candles.\nTotal cost (in dollars) = Pounds required \u00d7 Cost per pound\nTotal cost = 2 \u00d7 $10.00 = $20.00\nReasoning: Each pound of beeswax and wicks costs $10.00, so we multiply the number of pounds needed by the cost per pound.\n\nStep 4: Calculate the total revenue from selling 20 candles.\nTotal revenue (in dollars) = Number of candles \u00d7 Price per candle\nTotal revenue = 20 \u00d7 $2.00 = $40.00\nReasoning: Each candle sells for $2.00, so we multiply the number of candles by the price per candle to get the total revenue.\n\nStep 5: Calculate the net profit by subtracting the total cost from the total revenue.\nNet profit = Total revenue - Total cost\nNet profit = $40.00 - $20.00 = $20.00\nReasoning: To find the net profit, subtract the total cost (the cost of supplies) from the total revenue (income from sales).\n\nAnswer: $20.00",
+        "method": "cot",
+        "problem": {
+          "question": "Charlie wants to sell beeswax candles.  For every pound of beeswax, he can make 10 tapered candles.  One pound of beeswax and the wicks cost $10.00 in supplies.   If he sells each candle for $2.00 each, what is his net profit if he makes and sells 20 candles?",
+          "answer": "1 pound of beeswax and the wick make 10 candles and he wants to make 20 candles so he needs 20/10 = <<20/10=2>>2 pounds of beeswax\n1 pound of beeswax costs $10.00 and he needs 2 pounds so his supplies will cost 10*2 = $<<10*2=20.00>>20.00\nHe wants to sell each candle for $2.00 each and he's selling 20 candles so that's 2*20 = $<<2*20=40.00>>40.00\nIf he makes $40.00 selling candles and his supplies cost $20.00 then his net profit is 40-20 = $<<40-20=20.00>>20.00\n#### 20"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      20.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Charlie wants to sell beeswax candles.  For every pound of beeswax, he can make 10 tapered candles.  One pound of beeswax and the wicks cost $10.00 in supplies.   If he sells each candle for $2.00 each, what is his net profit if he makes and sells 20 candles?",
+        "current": "Step 1: Determine how many candles one pound of beeswax can make.\nCandles per pound = 10\nReasoning: The problem states that one pound of beeswax can make 10 tapered candles.\n\nStep 2: Calculate how many pounds of beeswax are needed to make 20 candles.\nPounds required = Number of candles / Candles per pound\nPounds required = 20 / 10 = 2\nReasoning: To find out how many pounds of beeswax are needed, we divide the number of candles by the number of candles that can be made per pound.\n\nStep 3: Calculate the total cost for the beeswax and wicks required to make 20 candles.\nTotal cost (in dollars) = Pounds required \u00d7 Cost per pound\nTotal cost = 2 \u00d7 $10.00 = $20.00\nReasoning: Each pound of beeswax and wicks costs $10.00, so we multiply the number of pounds needed by the cost per pound.\n\nStep 4: Calculate the total revenue from selling 20 candles.\nTotal revenue (in dollars) = Number of candles \u00d7 Price per candle\nTotal revenue = 20 \u00d7 $2.00 = $40.00\nReasoning: Each candle sells for $2.00, so we multiply the number of candles by the price per candle to get the total revenue.\n\nStep 5: Calculate the net profit by subtracting the total cost from the total revenue.\nNet profit = Total revenue - Total cost\nNet profit = $40.00 - $20.00 = $20.00\nReasoning: To find the net profit, subtract the total cost (the cost of supplies) from the total revenue (income from sales).\n\nAnswer: $20.00",
+        "method": "cot",
+        "problem": {
+          "question": "Charlie wants to sell beeswax candles.  For every pound of beeswax, he can make 10 tapered candles.  One pound of beeswax and the wicks cost $10.00 in supplies.   If he sells each candle for $2.00 each, what is his net profit if he makes and sells 20 candles?",
+          "answer": "1 pound of beeswax and the wick make 10 candles and he wants to make 20 candles so he needs 20/10 = <<20/10=2>>2 pounds of beeswax\n1 pound of beeswax costs $10.00 and he needs 2 pounds so his supplies will cost 10*2 = $<<10*2=20.00>>20.00\nHe wants to sell each candle for $2.00 each and he's selling 20 candles so that's 2*20 = $<<2*20=40.00>>40.00\nIf he makes $40.00 selling candles and his supplies cost $20.00 then his net profit is 40-20 = $<<40-20=20.00>>20.00\n#### 20"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      20.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 381,
+    "completion_tokens": 359,
+    "cost": 0.03297
+  }
+]

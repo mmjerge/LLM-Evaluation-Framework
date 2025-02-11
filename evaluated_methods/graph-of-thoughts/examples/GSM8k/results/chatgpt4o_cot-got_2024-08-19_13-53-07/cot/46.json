@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Candice put 80 post-it notes in her purse before she headed out to her job at the coffee shop.  On her way, she stopped off at the store and purchased a package of Post-it notes;  At work, she placed a single Post-it note on each of 220 different cups of coffee.  If she had 23 post-it notes remaining overall, how many Post-it notes were in the package that she purchased?",
+        "current": "Step 1: Calculate the number of post-it notes Candice started with.\nPost-it notes at start = 80\nReasoning: The problem states that Candice put 80 post-it notes in her purse before heading out.\n\nStep 2: Calculate the number of post-it notes used at work.\nPost-it notes used = 220\nReasoning: The problem states that Candice placed a single post-it note on each of 220 different cups of coffee.\n\nStep 3: Calculate the total number of post-it notes Candice had after adding the purchased package.\nLet \\( P \\) be the number of post-it notes in the package.\nTotal post-it notes after purchase = 80 + \\( P \\)\nReasoning: Candice originally had 80 post-it notes and added \\( P \\) post-it notes from the purchased package.\n\nStep 4: Calculate the number of post-it notes remaining after using some at work.\nRemaining post-it notes = Total post-it notes after purchase - Post-it notes used\n23 = (80 + \\( P \\)) - 220\nReasoning: The problem states Candice had 23 post-it notes remaining overall after using 220 post-it notes at work.\n\nStep 5: Solve for \\( P \\).\n23 = 80 + \\( P \\) - 220\n23 = \\( P \\) - 140\n\\( P \\) = 163\nReasoning: We isolate \\( P \\) by adding 140 to both sides of the equation.\n\nAnswer: 163",
+        "method": "cot",
+        "problem": {
+          "question": "Candice put 80 post-it notes in her purse before she headed out to her job at the coffee shop.  On her way, she stopped off at the store and purchased a package of Post-it notes;  At work, she placed a single Post-it note on each of 220 different cups of coffee.  If she had 23 post-it notes remaining overall, how many Post-it notes were in the package that she purchased?",
+          "answer": "Let's let x be the number of post-it notes in the package that Candice purchased.\nThen, the total number of post-it notes she had when she left the store was 80+x.\nAnd if she used 220 Post-it notes at work and had 23 left, then 80+x=220+23\nSubtracting 80 from each side of the equation, we see that x=220+23-80=<<220+23-80=163>>163 Post-it notes.\n#### 163"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Candice put 80 post-it notes in her purse before she headed out to her job at the coffee shop.  On her way, she stopped off at the store and purchased a package of Post-it notes;  At work, she placed a single Post-it note on each of 220 different cups of coffee.  If she had 23 post-it notes remaining overall, how many Post-it notes were in the package that she purchased?",
+        "current": "Step 1: Calculate the number of post-it notes Candice started with.\nPost-it notes at start = 80\nReasoning: The problem states that Candice put 80 post-it notes in her purse before heading out.\n\nStep 2: Calculate the number of post-it notes used at work.\nPost-it notes used = 220\nReasoning: The problem states that Candice placed a single post-it note on each of 220 different cups of coffee.\n\nStep 3: Calculate the total number of post-it notes Candice had after adding the purchased package.\nLet \\( P \\) be the number of post-it notes in the package.\nTotal post-it notes after purchase = 80 + \\( P \\)\nReasoning: Candice originally had 80 post-it notes and added \\( P \\) post-it notes from the purchased package.\n\nStep 4: Calculate the number of post-it notes remaining after using some at work.\nRemaining post-it notes = Total post-it notes after purchase - Post-it notes used\n23 = (80 + \\( P \\)) - 220\nReasoning: The problem states Candice had 23 post-it notes remaining overall after using 220 post-it notes at work.\n\nStep 5: Solve for \\( P \\).\n23 = 80 + \\( P \\) - 220\n23 = \\( P \\) - 140\n\\( P \\) = 163\nReasoning: We isolate \\( P \\) by adding 140 to both sides of the equation.\n\nAnswer: 163",
+        "method": "cot",
+        "problem": {
+          "question": "Candice put 80 post-it notes in her purse before she headed out to her job at the coffee shop.  On her way, she stopped off at the store and purchased a package of Post-it notes;  At work, she placed a single Post-it note on each of 220 different cups of coffee.  If she had 23 post-it notes remaining overall, how many Post-it notes were in the package that she purchased?",
+          "answer": "Let's let x be the number of post-it notes in the package that Candice purchased.\nThen, the total number of post-it notes she had when she left the store was 80+x.\nAnd if she used 220 Post-it notes at work and had 23 left, then 80+x=220+23\nSubtracting 80 from each side of the equation, we see that x=220+23-80=<<220+23-80=163>>163 Post-it notes.\n#### 163"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      163.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Candice put 80 post-it notes in her purse before she headed out to her job at the coffee shop.  On her way, she stopped off at the store and purchased a package of Post-it notes;  At work, she placed a single Post-it note on each of 220 different cups of coffee.  If she had 23 post-it notes remaining overall, how many Post-it notes were in the package that she purchased?",
+        "current": "Step 1: Calculate the number of post-it notes Candice started with.\nPost-it notes at start = 80\nReasoning: The problem states that Candice put 80 post-it notes in her purse before heading out.\n\nStep 2: Calculate the number of post-it notes used at work.\nPost-it notes used = 220\nReasoning: The problem states that Candice placed a single post-it note on each of 220 different cups of coffee.\n\nStep 3: Calculate the total number of post-it notes Candice had after adding the purchased package.\nLet \\( P \\) be the number of post-it notes in the package.\nTotal post-it notes after purchase = 80 + \\( P \\)\nReasoning: Candice originally had 80 post-it notes and added \\( P \\) post-it notes from the purchased package.\n\nStep 4: Calculate the number of post-it notes remaining after using some at work.\nRemaining post-it notes = Total post-it notes after purchase - Post-it notes used\n23 = (80 + \\( P \\)) - 220\nReasoning: The problem states Candice had 23 post-it notes remaining overall after using 220 post-it notes at work.\n\nStep 5: Solve for \\( P \\).\n23 = 80 + \\( P \\) - 220\n23 = \\( P \\) - 140\n\\( P \\) = 163\nReasoning: We isolate \\( P \\) by adding 140 to both sides of the equation.\n\nAnswer: 163",
+        "method": "cot",
+        "problem": {
+          "question": "Candice put 80 post-it notes in her purse before she headed out to her job at the coffee shop.  On her way, she stopped off at the store and purchased a package of Post-it notes;  At work, she placed a single Post-it note on each of 220 different cups of coffee.  If she had 23 post-it notes remaining overall, how many Post-it notes were in the package that she purchased?",
+          "answer": "Let's let x be the number of post-it notes in the package that Candice purchased.\nThen, the total number of post-it notes she had when she left the store was 80+x.\nAnd if she used 220 Post-it notes at work and had 23 left, then 80+x=220+23\nSubtracting 80 from each side of the equation, we see that x=220+23-80=<<220+23-80=163>>163 Post-it notes.\n#### 163"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      163.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 401,
+    "completion_tokens": 311,
+    "cost": 0.030690000000000002
+  }
+]

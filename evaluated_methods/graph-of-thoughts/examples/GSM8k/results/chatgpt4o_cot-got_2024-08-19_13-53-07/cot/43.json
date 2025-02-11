@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "According to its nutritional info, a bag of chips has 250 calories per serving. If a 300g bag has 5 servings, how many grams can you eat if your daily calorie target is 2000 and you have already consumed 1800 calories?",
+        "current": "Step 1: Determine how many calories you can still consume.\nCalories left = Daily calorie target - Calories already consumed\nCalories left = 2000 - 1800 = 200\nReasoning: Subtract the calories already consumed from the daily calorie target to find out how many calories are left that you can still consume.\n\nStep 2: Calculate the number of calories per gram of chips.\nTotal calories in the bag of chips = Calories per serving \u00d7 Number of servings\nTotal calories in the bag of chips = 250 \u00d7 5 = 1250\nReasoning: Multiply the number of calories per serving by the number of servings in the bag to find out the total number of calories in the bag.\n\nCalories per gram = Total calories in the bag / Total grams in the bag\nCalories per gram = 1250 / 300 \u2248 4.17\nReasoning: Divide the total number of calories in the bag by the total weight of the bag (in grams) to find out how many calories are in each gram of chips.\n\nStep 3: Calculate the number of grams you can eat given the remaining calorie allowance.\nGrams you can eat = Calories left / Calories per gram\nGrams you can eat = 200 / 4.17 \u2248 48\nReasoning: Divide the number of calories you have left by the number of calories per gram to determine how many grams of chips you can still eat.\n\nAnswer: 48 grams",
+        "method": "cot",
+        "problem": {
+          "question": "According to its nutritional info, a bag of chips has 250 calories per serving. If a 300g bag has 5 servings, how many grams can you eat if your daily calorie target is 2000 and you have already consumed 1800 calories?",
+          "answer": "If the total calorie target is 2000 and I have consumed 1800 calories then I have 2000-1800 = <<2000-1800=200>>200 calories left to eat\nIf each serving of chips has 250 calories and I only have 200 calories left to eat, then I can only eat 200/250 of a serving = 4/5 of a serving\nWe also know that a 300g bag of chips has 5 servings, hence each serving has 300g/5 = <<300/5=60>>60 grams\nIf I can only eat 4/5 of a serving, then I can eat only 60g * 4/5 = 240g/5 = 48 grams\n#### 48"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "According to its nutritional info, a bag of chips has 250 calories per serving. If a 300g bag has 5 servings, how many grams can you eat if your daily calorie target is 2000 and you have already consumed 1800 calories?",
+        "current": "Step 1: Determine how many calories you can still consume.\nCalories left = Daily calorie target - Calories already consumed\nCalories left = 2000 - 1800 = 200\nReasoning: Subtract the calories already consumed from the daily calorie target to find out how many calories are left that you can still consume.\n\nStep 2: Calculate the number of calories per gram of chips.\nTotal calories in the bag of chips = Calories per serving \u00d7 Number of servings\nTotal calories in the bag of chips = 250 \u00d7 5 = 1250\nReasoning: Multiply the number of calories per serving by the number of servings in the bag to find out the total number of calories in the bag.\n\nCalories per gram = Total calories in the bag / Total grams in the bag\nCalories per gram = 1250 / 300 \u2248 4.17\nReasoning: Divide the total number of calories in the bag by the total weight of the bag (in grams) to find out how many calories are in each gram of chips.\n\nStep 3: Calculate the number of grams you can eat given the remaining calorie allowance.\nGrams you can eat = Calories left / Calories per gram\nGrams you can eat = 200 / 4.17 \u2248 48\nReasoning: Divide the number of calories you have left by the number of calories per gram to determine how many grams of chips you can still eat.\n\nAnswer: 48 grams",
+        "method": "cot",
+        "problem": {
+          "question": "According to its nutritional info, a bag of chips has 250 calories per serving. If a 300g bag has 5 servings, how many grams can you eat if your daily calorie target is 2000 and you have already consumed 1800 calories?",
+          "answer": "If the total calorie target is 2000 and I have consumed 1800 calories then I have 2000-1800 = <<2000-1800=200>>200 calories left to eat\nIf each serving of chips has 250 calories and I only have 200 calories left to eat, then I can only eat 200/250 of a serving = 4/5 of a serving\nWe also know that a 300g bag of chips has 5 servings, hence each serving has 300g/5 = <<300/5=60>>60 grams\nIf I can only eat 4/5 of a serving, then I can eat only 60g * 4/5 = 240g/5 = 48 grams\n#### 48"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      48.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "According to its nutritional info, a bag of chips has 250 calories per serving. If a 300g bag has 5 servings, how many grams can you eat if your daily calorie target is 2000 and you have already consumed 1800 calories?",
+        "current": "Step 1: Determine how many calories you can still consume.\nCalories left = Daily calorie target - Calories already consumed\nCalories left = 2000 - 1800 = 200\nReasoning: Subtract the calories already consumed from the daily calorie target to find out how many calories are left that you can still consume.\n\nStep 2: Calculate the number of calories per gram of chips.\nTotal calories in the bag of chips = Calories per serving \u00d7 Number of servings\nTotal calories in the bag of chips = 250 \u00d7 5 = 1250\nReasoning: Multiply the number of calories per serving by the number of servings in the bag to find out the total number of calories in the bag.\n\nCalories per gram = Total calories in the bag / Total grams in the bag\nCalories per gram = 1250 / 300 \u2248 4.17\nReasoning: Divide the total number of calories in the bag by the total weight of the bag (in grams) to find out how many calories are in each gram of chips.\n\nStep 3: Calculate the number of grams you can eat given the remaining calorie allowance.\nGrams you can eat = Calories left / Calories per gram\nGrams you can eat = 200 / 4.17 \u2248 48\nReasoning: Divide the number of calories you have left by the number of calories per gram to determine how many grams of chips you can still eat.\n\nAnswer: 48 grams",
+        "method": "cot",
+        "problem": {
+          "question": "According to its nutritional info, a bag of chips has 250 calories per serving. If a 300g bag has 5 servings, how many grams can you eat if your daily calorie target is 2000 and you have already consumed 1800 calories?",
+          "answer": "If the total calorie target is 2000 and I have consumed 1800 calories then I have 2000-1800 = <<2000-1800=200>>200 calories left to eat\nIf each serving of chips has 250 calories and I only have 200 calories left to eat, then I can only eat 200/250 of a serving = 4/5 of a serving\nWe also know that a 300g bag of chips has 5 servings, hence each serving has 300g/5 = <<300/5=60>>60 grams\nIf I can only eat 4/5 of a serving, then I can eat only 60g * 4/5 = 240g/5 = 48 grams\n#### 48"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      48.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 365,
+    "completion_tokens": 297,
+    "cost": 0.028769999999999997
+  }
+]

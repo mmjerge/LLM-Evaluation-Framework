@@ -1,0 +1,74 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Gloria is shoe shopping when she comes across a pair of boots that fit her shoe budget. However, she has to choose between the boots and two pairs of high heels that together cost five dollars less than the boots. If one pair of heels costs $33 and the other costs twice as much, how many dollars are the boots?",
+        "current": " Step 1: Calculate the cost of the second pair of high heels\nCost of second pair of heels = 2 \u00d7 Cost of first pair of heels\nCost of second pair of heels = 2 \u00d7 $33 = $66\nReasoning: The problem states that one pair of heels costs $33 and the other costs twice as much.\n\nStep 2: Calculate the total cost of the two pairs of high heels\nTotal cost of heels = Cost of first pair of heels + Cost of second pair of heels\nTotal cost of heels = $33 + $66 = $99\nReasoning: To find the total cost of the two pairs of high heels, we add the cost of each pair together.\n\nStep 3: Calculate the cost of the boots\nCost of boots = Total cost of heels + $5\nCost of boots = $99 + $5 = $104\nReasoning: The problem states that the boots cost five dollars more than the two pairs of high heels combined.\n\nAnswer: $104",
+        "method": "got",
+        "problem": {
+          "question": "Gloria is shoe shopping when she comes across a pair of boots that fit her shoe budget. However, she has to choose between the boots and two pairs of high heels that together cost five dollars less than the boots. If one pair of heels costs $33 and the other costs twice as much, how many dollars are the boots?",
+          "answer": "The second pair of heels costs 33 * 2 = $<<33*2=66>>66.\nThe heels together cost 66 + 33 = $<<66+33=99>>99.\nThe boots cost $5 more than both pairs of heels together, so the boots cost 99 + 5 = $104.\n#### 104"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Gloria is shoe shopping when she comes across a pair of boots that fit her shoe budget. However, she has to choose between the boots and two pairs of high heels that together cost five dollars less than the boots. If one pair of heels costs $33 and the other costs twice as much, how many dollars are the boots?",
+        "current": " Step 1: Calculate the cost of the second pair of high heels\nCost of second pair of heels = 2 \u00d7 Cost of first pair of heels\nCost of second pair of heels = 2 \u00d7 $33 = $66\nReasoning: The problem states that one pair of heels costs $33 and the other costs twice as much.\n\nStep 2: Calculate the total cost of the two pairs of high heels\nTotal cost of heels = Cost of first pair of heels + Cost of second pair of heels\nTotal cost of heels = $33 + $66 = $99\nReasoning: To find the total cost of the two pairs of high heels, we add the cost of each pair together.\n\nStep 3: Calculate the cost of the boots\nCost of boots = Total cost of heels + $5\nCost of boots = $99 + $5 = $104\nReasoning: The problem states that the boots cost five dollars more than the two pairs of high heels combined.\n\nAnswer: $104",
+        "method": "got",
+        "problem": {
+          "question": "Gloria is shoe shopping when she comes across a pair of boots that fit her shoe budget. However, she has to choose between the boots and two pairs of high heels that together cost five dollars less than the boots. If one pair of heels costs $33 and the other costs twice as much, how many dollars are the boots?",
+          "answer": "The second pair of heels costs 33 * 2 = $<<33*2=66>>66.\nThe heels together cost 66 + 33 = $<<66+33=99>>99.\nThe boots cost $5 more than both pairs of heels together, so the boots cost 99 + 5 = $104.\n#### 104"
+        }
+      },
+      {
+        "original": "Gloria is shoe shopping when she comes across a pair of boots that fit her shoe budget. However, she has to choose between the boots and two pairs of high heels that together cost five dollars less than the boots. If one pair of heels costs $33 and the other costs twice as much, how many dollars are the boots?",
+        "current": " Step 1: Calculate the cost of the second pair of high heels\nCost of second pair of heels = 2 \u00d7 Cost of first pair of heels\nCost of second pair of heels = 2 \u00d7 $33 = $66\nReasoning: The problem states that one pair of heels costs $33 and the other costs twice as much.\n\nStep 2: Calculate the total cost of the two pairs of high heels\nTotal cost of heels = Cost of first pair of heels + Cost of second pair of heels\nTotal cost of heels = $33 + $66 = $99\nReasoning: To find the total cost of the two pairs of high heels, we add the cost of each pair together.\n\nStep 3: Calculate the cost of the boots\nCost of boots = Total cost of heels + $5\nCost of boots = $99 + $5 = $104\nReasoning: The problem states that the boots cost five dollars more than the two pairs of high heels combined.\n\nAnswer: $104",
+        "method": "got",
+        "problem": {
+          "question": "Gloria is shoe shopping when she comes across a pair of boots that fit her shoe budget. However, she has to choose between the boots and two pairs of high heels that together cost five dollars less than the boots. If one pair of heels costs $33 and the other costs twice as much, how many dollars are the boots?",
+          "answer": "The second pair of heels costs 33 * 2 = $<<33*2=66>>66.\nThe heels together cost 66 + 33 = $<<66+33=99>>99.\nThe boots cost $5 more than both pairs of heels together, so the boots cost 99 + 5 = $104.\n#### 104"
+        }
+      },
+      {
+        "original": "Gloria is shoe shopping when she comes across a pair of boots that fit her shoe budget. However, she has to choose between the boots and two pairs of high heels that together cost five dollars less than the boots. If one pair of heels costs $33 and the other costs twice as much, how many dollars are the boots?",
+        "current": " Step 1: Calculate the cost of the second pair of high heels\nCost of second pair of heels = 2 \u00d7 Cost of first pair of heels\nCost of second pair of heels = 2 \u00d7 $33 = $66\nReasoning: The problem states that one pair of heels costs $33 and the other costs twice as much.\n\nStep 2: Calculate the total cost of the two pairs of high heels\nTotal cost of heels = Cost of first pair of heels + Cost of second pair of heels\nTotal cost of heels = $33 + $66 = $99\nReasoning: To find the total cost of the two pairs of high heels, we add the cost of each pair together.\n\nStep 3: Calculate the cost of the boots\nCost of boots = Total cost of heels + $5\nCost of boots = $99 + $5 = $104\nReasoning: The problem states that the boots cost five dollars more than the two pairs of high heels combined.\n\nAnswer: $104",
+        "method": "got",
+        "problem": {
+          "question": "Gloria is shoe shopping when she comes across a pair of boots that fit her shoe budget. However, she has to choose between the boots and two pairs of high heels that together cost five dollars less than the boots. If one pair of heels costs $33 and the other costs twice as much, how many dollars are the boots?",
+          "answer": "The second pair of heels costs 33 * 2 = $<<33*2=66>>66.\nThe heels together cost 66 + 33 = $<<66+33=99>>99.\nThe boots cost $5 more than both pairs of heels together, so the boots cost 99 + 5 = $104.\n#### 104"
+        }
+      },
+      {
+        "original": "Gloria is shoe shopping when she comes across a pair of boots that fit her shoe budget. However, she has to choose between the boots and two pairs of high heels that together cost five dollars less than the boots. If one pair of heels costs $33 and the other costs twice as much, how many dollars are the boots?",
+        "current": " Step 1: Calculate the cost of the second pair of high heels\nCost of second pair of heels = 2 \u00d7 Cost of first pair of heels\nCost of second pair of heels = 2 \u00d7 $33 = $66\nReasoning: The problem states that one pair of heels costs $33 and the other costs twice as much.\n\nStep 2: Calculate the total cost of the two pairs of high heels\nTotal cost of heels = Cost of first pair of heels + Cost of second pair of heels\nTotal cost of heels = $33 + $66 = $99\nReasoning: To find the total cost of the two pairs of high heels, we add the cost of each pair together.\n\nStep 3: Calculate the cost of the boots\nCost of boots = Total cost of heels + $5\nCost of boots = $99 + $5 = $104\nReasoning: The problem states that the boots cost five dollars more than the two pairs of high heels combined.\n\nAnswer: $104",
+        "method": "got",
+        "problem": {
+          "question": "Gloria is shoe shopping when she comes across a pair of boots that fit her shoe budget. However, she has to choose between the boots and two pairs of high heels that together cost five dollars less than the boots. If one pair of heels costs $33 and the other costs twice as much, how many dollars are the boots?",
+          "answer": "The second pair of heels costs 33 * 2 = $<<33*2=66>>66.\nThe heels together cost 66 + 33 = $<<66+33=99>>99.\nThe boots cost $5 more than both pairs of heels together, so the boots cost 99 + 5 = $104.\n#### 104"
+        }
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

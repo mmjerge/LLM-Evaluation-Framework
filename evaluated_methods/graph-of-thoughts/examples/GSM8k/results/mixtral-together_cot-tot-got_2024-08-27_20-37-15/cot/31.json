@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Gunter is trying to count the jelly beans in a jar. He asks his friends how many they think are in the jar. One says 80. Another says 20 more than half the first one. A third says 25% more than the first one. What is their average guess?",
+        "current": " Step 1: Calculate the second friend's guess\nSecond friend's guess = Half of the first friend's guess + 20\nSecond friend's guess = (1/2) * 80 + 20 = 40 + 20 = 60\nReasoning: The second friend's guess is 20 more than half of the first friend's guess.\n\nStep 2: Calculate the third friend's guess\nThird friend's guess = First friend's guess + 25% of the first friend's guess\nThird friend's guess = 80 + (0.25 * 80) = 80 + 20 = 100\nReasoning: The third friend's guess is 25% more than the first friend's guess.\n\nStep 3: Calculate the average guess\nAverage guess = (First friend's guess + Second friend's guess + Third friend's guess) / 3\nAverage guess = (80 + 60 + 100) / 3 = 240 / 3 = 80\nReasoning: To find the average guess, we add up all the guesses and divide by the number of friends.\n\nAnswer: 80",
+        "method": "cot",
+        "problem": {
+          "question": "Gunter is trying to count the jelly beans in a jar. He asks his friends how many they think are in the jar. One says 80. Another says 20 more than half the first one. A third says 25% more than the first one. What is their average guess?",
+          "answer": "The second person guessed 60 because 20 + (80/2)= <<20+(80/2)=60>>60\nThe second guessed 100 because 80 x 1.25 = <<80*1.25=100>>100\nThe total amount guessed is 240 because 80 + 60 + 100 = <<80+60+100=240>>240\nThe average amount guessed is 80 because 240 / 3 = <<240/3=80>>80\n#### 80"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Gunter is trying to count the jelly beans in a jar. He asks his friends how many they think are in the jar. One says 80. Another says 20 more than half the first one. A third says 25% more than the first one. What is their average guess?",
+        "current": " Step 1: Calculate the second friend's guess\nSecond friend's guess = Half of the first friend's guess + 20\nSecond friend's guess = (1/2) * 80 + 20 = 40 + 20 = 60\nReasoning: The second friend's guess is 20 more than half of the first friend's guess.\n\nStep 2: Calculate the third friend's guess\nThird friend's guess = First friend's guess + 25% of the first friend's guess\nThird friend's guess = 80 + (0.25 * 80) = 80 + 20 = 100\nReasoning: The third friend's guess is 25% more than the first friend's guess.\n\nStep 3: Calculate the average guess\nAverage guess = (First friend's guess + Second friend's guess + Third friend's guess) / 3\nAverage guess = (80 + 60 + 100) / 3 = 240 / 3 = 80\nReasoning: To find the average guess, we add up all the guesses and divide by the number of friends.\n\nAnswer: 80",
+        "method": "cot",
+        "problem": {
+          "question": "Gunter is trying to count the jelly beans in a jar. He asks his friends how many they think are in the jar. One says 80. Another says 20 more than half the first one. A third says 25% more than the first one. What is their average guess?",
+          "answer": "The second person guessed 60 because 20 + (80/2)= <<20+(80/2)=60>>60\nThe second guessed 100 because 80 x 1.25 = <<80*1.25=100>>100\nThe total amount guessed is 240 because 80 + 60 + 100 = <<80+60+100=240>>240\nThe average amount guessed is 80 because 240 / 3 = <<240/3=80>>80\n#### 80"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      80.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Gunter is trying to count the jelly beans in a jar. He asks his friends how many they think are in the jar. One says 80. Another says 20 more than half the first one. A third says 25% more than the first one. What is their average guess?",
+        "current": " Step 1: Calculate the second friend's guess\nSecond friend's guess = Half of the first friend's guess + 20\nSecond friend's guess = (1/2) * 80 + 20 = 40 + 20 = 60\nReasoning: The second friend's guess is 20 more than half of the first friend's guess.\n\nStep 2: Calculate the third friend's guess\nThird friend's guess = First friend's guess + 25% of the first friend's guess\nThird friend's guess = 80 + (0.25 * 80) = 80 + 20 = 100\nReasoning: The third friend's guess is 25% more than the first friend's guess.\n\nStep 3: Calculate the average guess\nAverage guess = (First friend's guess + Second friend's guess + Third friend's guess) / 3\nAverage guess = (80 + 60 + 100) / 3 = 240 / 3 = 80\nReasoning: To find the average guess, we add up all the guesses and divide by the number of friends.\n\nAnswer: 80",
+        "method": "cot",
+        "problem": {
+          "question": "Gunter is trying to count the jelly beans in a jar. He asks his friends how many they think are in the jar. One says 80. Another says 20 more than half the first one. A third says 25% more than the first one. What is their average guess?",
+          "answer": "The second person guessed 60 because 20 + (80/2)= <<20+(80/2)=60>>60\nThe second guessed 100 because 80 x 1.25 = <<80*1.25=100>>100\nThe total amount guessed is 240 because 80 + 60 + 100 = <<80+60+100=240>>240\nThe average amount guessed is 80 because 240 / 3 = <<240/3=80>>80\n#### 80"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      80.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

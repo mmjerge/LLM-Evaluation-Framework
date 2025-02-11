@@ -1,0 +1,74 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "A new program had 60 downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by 30% in the third month. How many downloads did the program have total over the three months?",
+        "current": "Certainly! I'll solve this problem step by step, showing my reasoning for each step.\n\nStep 1: Calculate the number of downloads in the first month\nFirst month downloads = 60\nReasoning: The problem states that the program had 60 downloads in the first month.\n\nStep 2: Calculate the number of downloads in the second month\nSecond month downloads = 3 \u00d7 First month downloads\nSecond month downloads = 3 \u00d7 60 = 180\nReasoning: The problem states that the number of downloads in the second month was three times as many as the downloads in the first month.\n\nStep 3: Calculate the number of downloads in the third month\nThird month downloads = Second month downloads - (30% of Second month downloads)\nThird month downloads = 180 - (0.30 \u00d7 180)\nThird month downloads = 180 - 54 = 126\nReasoning: The downloads reduced by 30% in the third month compared to the second month. We calculate 30% of 180 and subtract it from 180.\n\nStep 4: Calculate the total number of downloads over the three months\nTotal downloads = First month downloads + Second month downloads + Third month downloads\nTotal downloads = 60 + 180 + 126 = 366\nReasoning: To get the total downloads, we add the downloads from all three months together.\n\nAnswer: 366",
+        "method": "got",
+        "problem": {
+          "question": "A new program had 60 downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by 30% in the third month. How many downloads did the program have total over the three months?",
+          "answer": "The number of downloads of the program in the second month increased to 3*60 = <<3*60=180>>180\nIn the first two months, the total number of downloads of the program was 180+60 = <<180+60=240>>240\nIn the third month, the number of downloads of the program reduced by 30/100*180 = <<30/100*180=54>>54\nThere were 180-54 = <<180-54=126>>126 downloads in the third month.\nIn the three months, the total number of downloads of the program was 126+240 = <<126+240=366>>366\n#### 366"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "A new program had 60 downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by 30% in the third month. How many downloads did the program have total over the three months?",
+        "current": "Certainly! I'll solve this problem step by step, showing my reasoning for each step.\n\nStep 1: Calculate the number of downloads in the first month\nFirst month downloads = 60\nReasoning: The problem states that the program had 60 downloads in the first month.\n\nStep 2: Calculate the number of downloads in the second month\nSecond month downloads = 3 \u00d7 First month downloads\nSecond month downloads = 3 \u00d7 60 = 180\nReasoning: The problem states that the number of downloads in the second month was three times as many as the downloads in the first month.\n\nStep 3: Calculate the number of downloads in the third month\nThird month downloads = Second month downloads - (30% of Second month downloads)\nThird month downloads = 180 - (0.30 \u00d7 180)\nThird month downloads = 180 - 54 = 126\nReasoning: The downloads reduced by 30% in the third month compared to the second month. We calculate 30% of 180 and subtract it from 180.\n\nStep 4: Calculate the total number of downloads over the three months\nTotal downloads = First month downloads + Second month downloads + Third month downloads\nTotal downloads = 60 + 180 + 126 = 366\nReasoning: To get the total downloads, we add the downloads from all three months together.\n\nAnswer: 366",
+        "method": "got",
+        "problem": {
+          "question": "A new program had 60 downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by 30% in the third month. How many downloads did the program have total over the three months?",
+          "answer": "The number of downloads of the program in the second month increased to 3*60 = <<3*60=180>>180\nIn the first two months, the total number of downloads of the program was 180+60 = <<180+60=240>>240\nIn the third month, the number of downloads of the program reduced by 30/100*180 = <<30/100*180=54>>54\nThere were 180-54 = <<180-54=126>>126 downloads in the third month.\nIn the three months, the total number of downloads of the program was 126+240 = <<126+240=366>>366\n#### 366"
+        }
+      },
+      {
+        "original": "A new program had 60 downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by 30% in the third month. How many downloads did the program have total over the three months?",
+        "current": "Certainly! I'll solve this problem step by step, showing my reasoning for each step.\n\nStep 1: Calculate the number of downloads in the first month\nFirst month downloads = 60\nReasoning: The problem states that the program had 60 downloads in the first month.\n\nStep 2: Calculate the number of downloads in the second month\nSecond month downloads = 3 \u00d7 First month downloads\nSecond month downloads = 3 \u00d7 60 = 180\nReasoning: The problem states that the number of downloads in the second month was three times as many as the downloads in the first month.\n\nStep 3: Calculate the number of downloads in the third month\nThird month downloads = Second month downloads - (30% of Second month downloads)\nThird month downloads = 180 - (0.30 \u00d7 180)\nThird month downloads = 180 - 54 = 126\nReasoning: The downloads reduced by 30% in the third month compared to the second month. We calculate 30% of 180 and subtract it from 180.\n\nStep 4: Calculate the total number of downloads over the three months\nTotal downloads = First month downloads + Second month downloads + Third month downloads\nTotal downloads = 60 + 180 + 126 = 366\nReasoning: To get the total downloads, we add the downloads from all three months together.\n\nAnswer: 366",
+        "method": "got",
+        "problem": {
+          "question": "A new program had 60 downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by 30% in the third month. How many downloads did the program have total over the three months?",
+          "answer": "The number of downloads of the program in the second month increased to 3*60 = <<3*60=180>>180\nIn the first two months, the total number of downloads of the program was 180+60 = <<180+60=240>>240\nIn the third month, the number of downloads of the program reduced by 30/100*180 = <<30/100*180=54>>54\nThere were 180-54 = <<180-54=126>>126 downloads in the third month.\nIn the three months, the total number of downloads of the program was 126+240 = <<126+240=366>>366\n#### 366"
+        }
+      },
+      {
+        "original": "A new program had 60 downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by 30% in the third month. How many downloads did the program have total over the three months?",
+        "current": "Certainly! I'll solve this problem step by step, showing my reasoning for each step.\n\nStep 1: Calculate the number of downloads in the first month\nFirst month downloads = 60\nReasoning: The problem states that the program had 60 downloads in the first month.\n\nStep 2: Calculate the number of downloads in the second month\nSecond month downloads = 3 \u00d7 First month downloads\nSecond month downloads = 3 \u00d7 60 = 180\nReasoning: The problem states that the number of downloads in the second month was three times as many as the downloads in the first month.\n\nStep 3: Calculate the number of downloads in the third month\nThird month downloads = Second month downloads - (30% of Second month downloads)\nThird month downloads = 180 - (0.30 \u00d7 180)\nThird month downloads = 180 - 54 = 126\nReasoning: The downloads reduced by 30% in the third month compared to the second month. We calculate 30% of 180 and subtract it from 180.\n\nStep 4: Calculate the total number of downloads over the three months\nTotal downloads = First month downloads + Second month downloads + Third month downloads\nTotal downloads = 60 + 180 + 126 = 366\nReasoning: To get the total downloads, we add the downloads from all three months together.\n\nAnswer: 366",
+        "method": "got",
+        "problem": {
+          "question": "A new program had 60 downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by 30% in the third month. How many downloads did the program have total over the three months?",
+          "answer": "The number of downloads of the program in the second month increased to 3*60 = <<3*60=180>>180\nIn the first two months, the total number of downloads of the program was 180+60 = <<180+60=240>>240\nIn the third month, the number of downloads of the program reduced by 30/100*180 = <<30/100*180=54>>54\nThere were 180-54 = <<180-54=126>>126 downloads in the third month.\nIn the three months, the total number of downloads of the program was 126+240 = <<126+240=366>>366\n#### 366"
+        }
+      },
+      {
+        "original": "A new program had 60 downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by 30% in the third month. How many downloads did the program have total over the three months?",
+        "current": "Certainly! I'll solve this problem step by step, showing my reasoning for each step.\n\nStep 1: Calculate the number of downloads in the first month\nFirst month downloads = 60\nReasoning: The problem states that the program had 60 downloads in the first month.\n\nStep 2: Calculate the number of downloads in the second month\nSecond month downloads = 3 \u00d7 First month downloads\nSecond month downloads = 3 \u00d7 60 = 180\nReasoning: The problem states that the number of downloads in the second month was three times as many as the downloads in the first month.\n\nStep 3: Calculate the number of downloads in the third month\nThird month downloads = Second month downloads - (30% of Second month downloads)\nThird month downloads = 180 - (0.30 \u00d7 180)\nThird month downloads = 180 - 54 = 126\nReasoning: The downloads reduced by 30% in the third month compared to the second month. We calculate 30% of 180 and subtract it from 180.\n\nStep 4: Calculate the total number of downloads over the three months\nTotal downloads = First month downloads + Second month downloads + Third month downloads\nTotal downloads = 60 + 180 + 126 = 366\nReasoning: To get the total downloads, we add the downloads from all three months together.\n\nAnswer: 366",
+        "method": "got",
+        "problem": {
+          "question": "A new program had 60 downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by 30% in the third month. How many downloads did the program have total over the three months?",
+          "answer": "The number of downloads of the program in the second month increased to 3*60 = <<3*60=180>>180\nIn the first two months, the total number of downloads of the program was 180+60 = <<180+60=240>>240\nIn the third month, the number of downloads of the program reduced by 30/100*180 = <<30/100*180=54>>54\nThere were 180-54 = <<180-54=126>>126 downloads in the third month.\nIn the three months, the total number of downloads of the program was 126+240 = <<126+240=366>>366\n#### 366"
+        }
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

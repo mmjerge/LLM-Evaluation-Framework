@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+        "current": "Step 1: Calculate the total number of days in 4 weeks\nTotal days = 4 weeks \u00d7 7 days/week = 28 days\nReasoning: There are 7 days in a week, so we multiply the number of weeks by 7 to find the total number of days.\n\nStep 2: Calculate the total number of eggs Claire eats in 4 weeks\nTotal eggs = 3 eggs/day \u00d7 28 days = 84 eggs\nReasoning: Claire eats 3 eggs every day, so we multiply the number of eggs she eats per day by the total number of days in 4 weeks.\n\nStep 3: Convert the total number of eggs to dozens\nNumber of dozens = Total eggs \u00f7 12 eggs/dozen\nNumber of dozens = 84 \u00f7 12 = 7 dozens\nReasoning: Since there are 12 eggs in a dozen, we divide the total number of eggs by 12 to find the number of dozens.\n\nAnswer: Claire will eat 7 dozens of eggs in 4 weeks.",
+        "method": "cot",
+        "problem": {
+          "question": "Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+          "answer": "She eats 3 eggs every day and there are 7 days in a week so she eats 3*7 = <<3*7=21>>21 eggs a week\nAfter 4 weeks she will have eaten 4*21 = <<4*21=84>>84 eggs\nThere are 12 eggs in 1 dozen and she'll eat 84 eggs so that's 84/12 = <<84/12=7>>7 dozen eggs\n#### 7"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+        "current": "Step 1: Calculate the total number of days in 4 weeks\nTotal days = 4 weeks \u00d7 7 days/week = 28 days\nReasoning: There are 7 days in a week, so we multiply the number of weeks by 7 to find the total number of days.\n\nStep 2: Calculate the total number of eggs Claire eats in 4 weeks\nTotal eggs = 3 eggs/day \u00d7 28 days = 84 eggs\nReasoning: Claire eats 3 eggs every day, so we multiply the number of eggs she eats per day by the total number of days in 4 weeks.\n\nStep 3: Convert the total number of eggs to dozens\nNumber of dozens = Total eggs \u00f7 12 eggs/dozen\nNumber of dozens = 84 \u00f7 12 = 7 dozens\nReasoning: Since there are 12 eggs in a dozen, we divide the total number of eggs by 12 to find the number of dozens.\n\nAnswer: Claire will eat 7 dozens of eggs in 4 weeks.",
+        "method": "cot",
+        "problem": {
+          "question": "Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+          "answer": "She eats 3 eggs every day and there are 7 days in a week so she eats 3*7 = <<3*7=21>>21 eggs a week\nAfter 4 weeks she will have eaten 4*21 = <<4*21=84>>84 eggs\nThere are 12 eggs in 1 dozen and she'll eat 84 eggs so that's 84/12 = <<84/12=7>>7 dozen eggs\n#### 7"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+        "current": "Step 1: Calculate the total number of days in 4 weeks\nTotal days = 4 weeks \u00d7 7 days/week = 28 days\nReasoning: There are 7 days in a week, so we multiply the number of weeks by 7 to find the total number of days.\n\nStep 2: Calculate the total number of eggs Claire eats in 4 weeks\nTotal eggs = 3 eggs/day \u00d7 28 days = 84 eggs\nReasoning: Claire eats 3 eggs every day, so we multiply the number of eggs she eats per day by the total number of days in 4 weeks.\n\nStep 3: Convert the total number of eggs to dozens\nNumber of dozens = Total eggs \u00f7 12 eggs/dozen\nNumber of dozens = 84 \u00f7 12 = 7 dozens\nReasoning: Since there are 12 eggs in a dozen, we divide the total number of eggs by 12 to find the number of dozens.\n\nAnswer: Claire will eat 7 dozens of eggs in 4 weeks.",
+        "method": "cot",
+        "problem": {
+          "question": "Claire makes a 3 egg omelet every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+          "answer": "She eats 3 eggs every day and there are 7 days in a week so she eats 3*7 = <<3*7=21>>21 eggs a week\nAfter 4 weeks she will have eaten 4*21 = <<4*21=84>>84 eggs\nThere are 12 eggs in 1 dozen and she'll eat 84 eggs so that's 84/12 = <<84/12=7>>7 dozen eggs\n#### 7"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 342,
+    "completion_tokens": 215,
+    "cost": 0.000943
+  }
+]

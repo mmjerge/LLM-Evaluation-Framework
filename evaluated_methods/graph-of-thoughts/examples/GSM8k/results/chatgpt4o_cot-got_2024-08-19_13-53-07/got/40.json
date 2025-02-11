@@ -1,0 +1,74 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's iPhone. If Suzy\u2019s iPhone is 1 year old, how old is Brandon\u2019s iPhone?",
+        "current": "Step 1: Determine Suzy's iPhone age\nSuzy's iPhone age = 1 year\nReasoning: The problem states that Suzy\u2019s iPhone is 1 year old.\n\nStep 2: Calculate Ben's iPhone age\nBen's iPhone age = 2 \u00d7 Suzy\u2019s iPhone age\nBen's iPhone age = 2 \u00d7 1 = 2 years\nReasoning: The problem states that Ben's iPhone is two times older than Suzy's iPhone.\n\nStep 3: Calculate Brandon's iPhone age\nBrandon's iPhone age = 4 \u00d7 Ben's iPhone age\nBrandon's iPhone age = 4 \u00d7 2 = 8 years\nReasoning: The problem states that Brandon's iPhone is four times as old as Ben's iPhone.\n\nAnswer: 8 years",
+        "method": "got",
+        "problem": {
+          "question": "Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's iPhone. If Suzy\u2019s iPhone is 1 year old, how old is Brandon\u2019s iPhone?",
+          "answer": "Ben\u2019s iPhone is 1*2 = <<1*2=2>>2 years old.\nBrandon\u2019s iPhone is 4*2 = <<4*2=8>>8 years old.\n#### 8"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's iPhone. If Suzy\u2019s iPhone is 1 year old, how old is Brandon\u2019s iPhone?",
+        "current": "Step 1: Determine Suzy's iPhone age\nSuzy's iPhone age = 1 year\nReasoning: The problem states that Suzy\u2019s iPhone is 1 year old.\n\nStep 2: Calculate Ben's iPhone age\nBen's iPhone age = 2 \u00d7 Suzy\u2019s iPhone age\nBen's iPhone age = 2 \u00d7 1 = 2 years\nReasoning: The problem states that Ben's iPhone is two times older than Suzy's iPhone.\n\nStep 3: Calculate Brandon's iPhone age\nBrandon's iPhone age = 4 \u00d7 Ben's iPhone age\nBrandon's iPhone age = 4 \u00d7 2 = 8 years\nReasoning: The problem states that Brandon's iPhone is four times as old as Ben's iPhone.\n\nAnswer: 8 years",
+        "method": "got",
+        "problem": {
+          "question": "Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's iPhone. If Suzy\u2019s iPhone is 1 year old, how old is Brandon\u2019s iPhone?",
+          "answer": "Ben\u2019s iPhone is 1*2 = <<1*2=2>>2 years old.\nBrandon\u2019s iPhone is 4*2 = <<4*2=8>>8 years old.\n#### 8"
+        }
+      },
+      {
+        "original": "Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's iPhone. If Suzy\u2019s iPhone is 1 year old, how old is Brandon\u2019s iPhone?",
+        "current": "Step 1: Determine Suzy's iPhone age\nSuzy's iPhone age = 1 year\nReasoning: The problem states that Suzy\u2019s iPhone is 1 year old.\n\nStep 2: Calculate Ben's iPhone age\nBen's iPhone age = 2 \u00d7 Suzy\u2019s iPhone age\nBen's iPhone age = 2 \u00d7 1 = 2 years\nReasoning: The problem states that Ben's iPhone is two times older than Suzy's iPhone.\n\nStep 3: Calculate Brandon's iPhone age\nBrandon's iPhone age = 4 \u00d7 Ben's iPhone age\nBrandon's iPhone age = 4 \u00d7 2 = 8 years\nReasoning: The problem states that Brandon's iPhone is four times as old as Ben's iPhone.\n\nAnswer: 8 years",
+        "method": "got",
+        "problem": {
+          "question": "Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's iPhone. If Suzy\u2019s iPhone is 1 year old, how old is Brandon\u2019s iPhone?",
+          "answer": "Ben\u2019s iPhone is 1*2 = <<1*2=2>>2 years old.\nBrandon\u2019s iPhone is 4*2 = <<4*2=8>>8 years old.\n#### 8"
+        }
+      },
+      {
+        "original": "Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's iPhone. If Suzy\u2019s iPhone is 1 year old, how old is Brandon\u2019s iPhone?",
+        "current": "Step 1: Determine Suzy's iPhone age\nSuzy's iPhone age = 1 year\nReasoning: The problem states that Suzy\u2019s iPhone is 1 year old.\n\nStep 2: Calculate Ben's iPhone age\nBen's iPhone age = 2 \u00d7 Suzy\u2019s iPhone age\nBen's iPhone age = 2 \u00d7 1 = 2 years\nReasoning: The problem states that Ben's iPhone is two times older than Suzy's iPhone.\n\nStep 3: Calculate Brandon's iPhone age\nBrandon's iPhone age = 4 \u00d7 Ben's iPhone age\nBrandon's iPhone age = 4 \u00d7 2 = 8 years\nReasoning: The problem states that Brandon's iPhone is four times as old as Ben's iPhone.\n\nAnswer: 8 years",
+        "method": "got",
+        "problem": {
+          "question": "Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's iPhone. If Suzy\u2019s iPhone is 1 year old, how old is Brandon\u2019s iPhone?",
+          "answer": "Ben\u2019s iPhone is 1*2 = <<1*2=2>>2 years old.\nBrandon\u2019s iPhone is 4*2 = <<4*2=8>>8 years old.\n#### 8"
+        }
+      },
+      {
+        "original": "Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's iPhone. If Suzy\u2019s iPhone is 1 year old, how old is Brandon\u2019s iPhone?",
+        "current": "Step 1: Determine Suzy's iPhone age\nSuzy's iPhone age = 1 year\nReasoning: The problem states that Suzy\u2019s iPhone is 1 year old.\n\nStep 2: Calculate Ben's iPhone age\nBen's iPhone age = 2 \u00d7 Suzy\u2019s iPhone age\nBen's iPhone age = 2 \u00d7 1 = 2 years\nReasoning: The problem states that Ben's iPhone is two times older than Suzy's iPhone.\n\nStep 3: Calculate Brandon's iPhone age\nBrandon's iPhone age = 4 \u00d7 Ben's iPhone age\nBrandon's iPhone age = 4 \u00d7 2 = 8 years\nReasoning: The problem states that Brandon's iPhone is four times as old as Ben's iPhone.\n\nAnswer: 8 years",
+        "method": "got",
+        "problem": {
+          "question": "Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's iPhone. If Suzy\u2019s iPhone is 1 year old, how old is Brandon\u2019s iPhone?",
+          "answer": "Ben\u2019s iPhone is 1*2 = <<1*2=2>>2 years old.\nBrandon\u2019s iPhone is 4*2 = <<4*2=8>>8 years old.\n#### 8"
+        }
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 362,
+    "completion_tokens": 177,
+    "cost": 0.02148
+  }
+]

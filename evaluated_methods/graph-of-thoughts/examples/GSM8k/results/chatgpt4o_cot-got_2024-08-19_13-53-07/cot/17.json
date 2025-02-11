@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, what's her annual salary?",
+        "current": "Step 1: Calculate the total number of hours Jill works as a teacher per week.\nHours per week (teacher) = 35\nReasoning: The problem states that Jill works 35 hours a week as a teacher.\n\nStep 2: Calculate the total number of hours Jill works as a coach per week.\nHours per week (coach) = 15\nReasoning: The problem states that Jill works 15 hours a week as a cheerleading coach.\n\nStep 3: Calculate Jill's weekly earnings from teaching.\nWeekly earnings (teacher) = Hours per week (teacher) \u00d7 Hourly pay (teacher)\nWeekly earnings (teacher) = 35 \u00d7 $20 = $700\nReasoning: Jill earns $20 per hour for teaching and works 35 hours a week.\n\nStep 4: Calculate Jill's weekly earnings from coaching.\nWeekly earnings (coach) = Hours per week (coach) \u00d7 Hourly pay (coach)\nWeekly earnings (coach) = 15 \u00d7 $30 = $450\nReasoning: Jill earns $30 per hour for coaching and works 15 hours a week.\n\nStep 5: Calculate Jill's total weekly earnings from both jobs.\nTotal weekly earnings = Weekly earnings (teacher) + Weekly earnings (coach)\nTotal weekly earnings = $700 + $450 = $1,150\nReasoning: To find Jill's total weekly earnings, we add her earnings from teaching and coaching.\n\nStep 6: Calculate Jill's annual earnings from both jobs.\nAnnual earnings = Total weekly earnings \u00d7 Weeks worked per year\nAnnual earnings = $1,150 \u00d7 50 = $57,500\nReasoning: Jill works 50 weeks a year and earns $1,150 per week.\n\nAnswer: $57,500",
+        "method": "cot",
+        "problem": {
+          "question": "Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, what's her annual salary?",
+          "answer": "First find the total amount Jill makes per week teaching: $20/hour * 35 hours/week = $<<20*35=700>>700/week\nThen find the total amount Jill makes per week coaching: $30/hour * 15 hours/week = $<<30*15=450>>450/week\nThen add those two amounts to find the total amount Jill makes per week: $700/week + $450/week = $<<700+450=1150>>1150/week\nThen multiply that number by the number of weeks Jill works in a year to find her annual salary: $1150/week * 50 weeks/year = $<<1150*50=57500>>57,500\n#### 57500"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, what's her annual salary?",
+        "current": "Step 1: Calculate the total number of hours Jill works as a teacher per week.\nHours per week (teacher) = 35\nReasoning: The problem states that Jill works 35 hours a week as a teacher.\n\nStep 2: Calculate the total number of hours Jill works as a coach per week.\nHours per week (coach) = 15\nReasoning: The problem states that Jill works 15 hours a week as a cheerleading coach.\n\nStep 3: Calculate Jill's weekly earnings from teaching.\nWeekly earnings (teacher) = Hours per week (teacher) \u00d7 Hourly pay (teacher)\nWeekly earnings (teacher) = 35 \u00d7 $20 = $700\nReasoning: Jill earns $20 per hour for teaching and works 35 hours a week.\n\nStep 4: Calculate Jill's weekly earnings from coaching.\nWeekly earnings (coach) = Hours per week (coach) \u00d7 Hourly pay (coach)\nWeekly earnings (coach) = 15 \u00d7 $30 = $450\nReasoning: Jill earns $30 per hour for coaching and works 15 hours a week.\n\nStep 5: Calculate Jill's total weekly earnings from both jobs.\nTotal weekly earnings = Weekly earnings (teacher) + Weekly earnings (coach)\nTotal weekly earnings = $700 + $450 = $1,150\nReasoning: To find Jill's total weekly earnings, we add her earnings from teaching and coaching.\n\nStep 6: Calculate Jill's annual earnings from both jobs.\nAnnual earnings = Total weekly earnings \u00d7 Weeks worked per year\nAnnual earnings = $1,150 \u00d7 50 = $57,500\nReasoning: Jill works 50 weeks a year and earns $1,150 per week.\n\nAnswer: $57,500",
+        "method": "cot",
+        "problem": {
+          "question": "Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, what's her annual salary?",
+          "answer": "First find the total amount Jill makes per week teaching: $20/hour * 35 hours/week = $<<20*35=700>>700/week\nThen find the total amount Jill makes per week coaching: $30/hour * 15 hours/week = $<<30*15=450>>450/week\nThen add those two amounts to find the total amount Jill makes per week: $700/week + $450/week = $<<700+450=1150>>1150/week\nThen multiply that number by the number of weeks Jill works in a year to find her annual salary: $1150/week * 50 weeks/year = $<<1150*50=57500>>57,500\n#### 57500"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      57.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, what's her annual salary?",
+        "current": "Step 1: Calculate the total number of hours Jill works as a teacher per week.\nHours per week (teacher) = 35\nReasoning: The problem states that Jill works 35 hours a week as a teacher.\n\nStep 2: Calculate the total number of hours Jill works as a coach per week.\nHours per week (coach) = 15\nReasoning: The problem states that Jill works 15 hours a week as a cheerleading coach.\n\nStep 3: Calculate Jill's weekly earnings from teaching.\nWeekly earnings (teacher) = Hours per week (teacher) \u00d7 Hourly pay (teacher)\nWeekly earnings (teacher) = 35 \u00d7 $20 = $700\nReasoning: Jill earns $20 per hour for teaching and works 35 hours a week.\n\nStep 4: Calculate Jill's weekly earnings from coaching.\nWeekly earnings (coach) = Hours per week (coach) \u00d7 Hourly pay (coach)\nWeekly earnings (coach) = 15 \u00d7 $30 = $450\nReasoning: Jill earns $30 per hour for coaching and works 15 hours a week.\n\nStep 5: Calculate Jill's total weekly earnings from both jobs.\nTotal weekly earnings = Weekly earnings (teacher) + Weekly earnings (coach)\nTotal weekly earnings = $700 + $450 = $1,150\nReasoning: To find Jill's total weekly earnings, we add her earnings from teaching and coaching.\n\nStep 6: Calculate Jill's annual earnings from both jobs.\nAnnual earnings = Total weekly earnings \u00d7 Weeks worked per year\nAnnual earnings = $1,150 \u00d7 50 = $57,500\nReasoning: Jill works 50 weeks a year and earns $1,150 per week.\n\nAnswer: $57,500",
+        "method": "cot",
+        "problem": {
+          "question": "Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, what's her annual salary?",
+          "answer": "First find the total amount Jill makes per week teaching: $20/hour * 35 hours/week = $<<20*35=700>>700/week\nThen find the total amount Jill makes per week coaching: $30/hour * 15 hours/week = $<<30*15=450>>450/week\nThen add those two amounts to find the total amount Jill makes per week: $700/week + $450/week = $<<700+450=1150>>1150/week\nThen multiply that number by the number of weeks Jill works in a year to find her annual salary: $1150/week * 50 weeks/year = $<<1150*50=57500>>57,500\n#### 57500"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      57.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 363,
+    "completion_tokens": 354,
+    "cost": 0.03213
+  }
+]

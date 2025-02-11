@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+        "current": "Let's solve this problem step by step:\n\nStep 1: Determine the total distance of Henry's bike trip\nTotal distance = 60 miles\nReasoning: The problem states that Henry's bike trip was 60 miles long.\n\nStep 2: Identify the distance of the first stop\nFirst stop = 20 miles\nReasoning: The problem states that Henry first stopped after 20 miles.\n\nStep 3: Identify the distance of the second stop from the end\nDistance from end to second stop = 15 miles\nReasoning: The problem states that Henry's second stop was 15 miles before the end of the trip.\n\nStep 4: Calculate the distance from the start to the second stop\nDistance to second stop = Total distance - Distance from end to second stop\nDistance to second stop = 60 - 15 = 45 miles\nReasoning: To find where the second stop is, we subtract the distance from the end to the second stop from the total distance.\n\nStep 5: Calculate the distance between the first and second stops\nDistance between stops = Distance to second stop - First stop\nDistance between stops = 45 - 20 = 25 miles\nReasoning: To find the distance between the two stops, we subtract the distance of the first stop from the distance to the second stop.\n\nAnswer: 25 miles",
+        "method": "cot",
+        "problem": {
+          "question": "Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+          "answer": "He traveled 20 miles + 15 miles = <<20+15=35>>35 miles not counting the distance between stops.\nHenry traveled 60 miles - 35 miles = <<60-35=25>>25 miles between his first and second stop.\n#### 25"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+        "current": "Let's solve this problem step by step:\n\nStep 1: Determine the total distance of Henry's bike trip\nTotal distance = 60 miles\nReasoning: The problem states that Henry's bike trip was 60 miles long.\n\nStep 2: Identify the distance of the first stop\nFirst stop = 20 miles\nReasoning: The problem states that Henry first stopped after 20 miles.\n\nStep 3: Identify the distance of the second stop from the end\nDistance from end to second stop = 15 miles\nReasoning: The problem states that Henry's second stop was 15 miles before the end of the trip.\n\nStep 4: Calculate the distance from the start to the second stop\nDistance to second stop = Total distance - Distance from end to second stop\nDistance to second stop = 60 - 15 = 45 miles\nReasoning: To find where the second stop is, we subtract the distance from the end to the second stop from the total distance.\n\nStep 5: Calculate the distance between the first and second stops\nDistance between stops = Distance to second stop - First stop\nDistance between stops = 45 - 20 = 25 miles\nReasoning: To find the distance between the two stops, we subtract the distance of the first stop from the distance to the second stop.\n\nAnswer: 25 miles",
+        "method": "cot",
+        "problem": {
+          "question": "Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+          "answer": "He traveled 20 miles + 15 miles = <<20+15=35>>35 miles not counting the distance between stops.\nHenry traveled 60 miles - 35 miles = <<60-35=25>>25 miles between his first and second stop.\n#### 25"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      25.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+        "current": "Let's solve this problem step by step:\n\nStep 1: Determine the total distance of Henry's bike trip\nTotal distance = 60 miles\nReasoning: The problem states that Henry's bike trip was 60 miles long.\n\nStep 2: Identify the distance of the first stop\nFirst stop = 20 miles\nReasoning: The problem states that Henry first stopped after 20 miles.\n\nStep 3: Identify the distance of the second stop from the end\nDistance from end to second stop = 15 miles\nReasoning: The problem states that Henry's second stop was 15 miles before the end of the trip.\n\nStep 4: Calculate the distance from the start to the second stop\nDistance to second stop = Total distance - Distance from end to second stop\nDistance to second stop = 60 - 15 = 45 miles\nReasoning: To find where the second stop is, we subtract the distance from the end to the second stop from the total distance.\n\nStep 5: Calculate the distance between the first and second stops\nDistance between stops = Distance to second stop - First stop\nDistance between stops = 45 - 20 = 25 miles\nReasoning: To find the distance between the two stops, we subtract the distance of the first stop from the distance to the second stop.\n\nAnswer: 25 miles",
+        "method": "cot",
+        "problem": {
+          "question": "Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+          "answer": "He traveled 20 miles + 15 miles = <<20+15=35>>35 miles not counting the distance between stops.\nHenry traveled 60 miles - 35 miles = <<60-35=25>>25 miles between his first and second stop.\n#### 25"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      25.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

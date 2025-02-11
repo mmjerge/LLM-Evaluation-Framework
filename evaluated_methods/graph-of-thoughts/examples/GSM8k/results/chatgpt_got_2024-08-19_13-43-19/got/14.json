@@ -1,0 +1,74 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "In a dance class of 20 students, 20% enrolled in contemporary dance, 25% of the remaining enrolled in jazz dance, and the rest enrolled in hip-hop dance. What percentage of the entire students enrolled in hip-hop dance?",
+        "current": "Step 1: Calculate the number of students who enrolled in contemporary dance\nStudents in contemporary dance = 20% of 20\nStudents in contemporary dance = 0.20 * 20 = 4\nReasoning: We find 20% of the total number of students in the class who enrolled in contemporary dance.\n\nStep 2: Calculate the remaining students after accounting for contemporary dance\nRemaining students = Total students - Students in contemporary dance\nRemaining students = 20 - 4 = 16\nReasoning: We subtract the students who enrolled in contemporary dance from the total number of students to find out how many students remain.\n\nStep 3: Calculate the number of students who enrolled in jazz dance\nStudents in jazz dance = 25% of remaining students\nStudents in jazz dance = 0.25 * 16 = 4\nReasoning: We find 25% of the remaining students in the class who enrolled in jazz dance.\n\nStep 4: Calculate the number of students who enrolled in hip-hop dance\nStudents in hip-hop dance = Remaining students - Students in jazz dance\nStudents in hip-hop dance = 16 - 4 = 12\nReasoning: We subtract the students who enrolled in jazz dance from the remaining students to find out how many students enrolled in hip-hop dance.\n\nStep 5: Calculate the percentage of students enrolled in hip-hop dance out of the total\nPercentage of students in hip-hop dance = (Students in hip-hop dance / Total students) * 100\nPercentage of students in hip-hop dance = (12 / 20) * 100 = 60%\nReasoning: We divide the number of students in hip-hop dance by the total number of students and then multiply by 100 to find the percentage.\n\nAnswer: 60%",
+        "method": "got",
+        "problem": {
+          "question": "In a dance class of 20 students, 20% enrolled in contemporary dance, 25% of the remaining enrolled in jazz dance, and the rest enrolled in hip-hop dance. What percentage of the entire students enrolled in hip-hop dance?",
+          "answer": "There are 20 x 20/100 = <<20*20/100=4>>4 students who enrolled in contemporary dance.\nSo, 20 - 4 = <<20-4=16>>16 students are enrolled in either jazz or hip-hop dance.\nThere are 16 x 25/100 = <<16*25/100=4>>4 students who enrolled in jazz dance.\nHence, 16 - 4 = <<16-4=12>>12 students enrolled in hip-hop dance.\nThis is 12/20 x 100% = 60% of the entire students.\n#### 60"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "In a dance class of 20 students, 20% enrolled in contemporary dance, 25% of the remaining enrolled in jazz dance, and the rest enrolled in hip-hop dance. What percentage of the entire students enrolled in hip-hop dance?",
+        "current": "Step 1: Calculate the number of students who enrolled in contemporary dance\nStudents in contemporary dance = 20% of 20\nStudents in contemporary dance = 0.20 * 20 = 4\nReasoning: We find 20% of the total number of students in the class who enrolled in contemporary dance.\n\nStep 2: Calculate the remaining students after accounting for contemporary dance\nRemaining students = Total students - Students in contemporary dance\nRemaining students = 20 - 4 = 16\nReasoning: We subtract the students who enrolled in contemporary dance from the total number of students to find out how many students remain.\n\nStep 3: Calculate the number of students who enrolled in jazz dance\nStudents in jazz dance = 25% of remaining students\nStudents in jazz dance = 0.25 * 16 = 4\nReasoning: We find 25% of the remaining students in the class who enrolled in jazz dance.\n\nStep 4: Calculate the number of students who enrolled in hip-hop dance\nStudents in hip-hop dance = Remaining students - Students in jazz dance\nStudents in hip-hop dance = 16 - 4 = 12\nReasoning: We subtract the students who enrolled in jazz dance from the remaining students to find out how many students enrolled in hip-hop dance.\n\nStep 5: Calculate the percentage of students enrolled in hip-hop dance out of the total\nPercentage of students in hip-hop dance = (Students in hip-hop dance / Total students) * 100\nPercentage of students in hip-hop dance = (12 / 20) * 100 = 60%\nReasoning: We divide the number of students in hip-hop dance by the total number of students and then multiply by 100 to find the percentage.\n\nAnswer: 60%",
+        "method": "got",
+        "problem": {
+          "question": "In a dance class of 20 students, 20% enrolled in contemporary dance, 25% of the remaining enrolled in jazz dance, and the rest enrolled in hip-hop dance. What percentage of the entire students enrolled in hip-hop dance?",
+          "answer": "There are 20 x 20/100 = <<20*20/100=4>>4 students who enrolled in contemporary dance.\nSo, 20 - 4 = <<20-4=16>>16 students are enrolled in either jazz or hip-hop dance.\nThere are 16 x 25/100 = <<16*25/100=4>>4 students who enrolled in jazz dance.\nHence, 16 - 4 = <<16-4=12>>12 students enrolled in hip-hop dance.\nThis is 12/20 x 100% = 60% of the entire students.\n#### 60"
+        }
+      },
+      {
+        "original": "In a dance class of 20 students, 20% enrolled in contemporary dance, 25% of the remaining enrolled in jazz dance, and the rest enrolled in hip-hop dance. What percentage of the entire students enrolled in hip-hop dance?",
+        "current": "Step 1: Calculate the number of students who enrolled in contemporary dance\nStudents in contemporary dance = 20% of 20\nStudents in contemporary dance = 0.20 * 20 = 4\nReasoning: We find 20% of the total number of students in the class who enrolled in contemporary dance.\n\nStep 2: Calculate the remaining students after accounting for contemporary dance\nRemaining students = Total students - Students in contemporary dance\nRemaining students = 20 - 4 = 16\nReasoning: We subtract the students who enrolled in contemporary dance from the total number of students to find out how many students remain.\n\nStep 3: Calculate the number of students who enrolled in jazz dance\nStudents in jazz dance = 25% of remaining students\nStudents in jazz dance = 0.25 * 16 = 4\nReasoning: We find 25% of the remaining students in the class who enrolled in jazz dance.\n\nStep 4: Calculate the number of students who enrolled in hip-hop dance\nStudents in hip-hop dance = Remaining students - Students in jazz dance\nStudents in hip-hop dance = 16 - 4 = 12\nReasoning: We subtract the students who enrolled in jazz dance from the remaining students to find out how many students enrolled in hip-hop dance.\n\nStep 5: Calculate the percentage of students enrolled in hip-hop dance out of the total\nPercentage of students in hip-hop dance = (Students in hip-hop dance / Total students) * 100\nPercentage of students in hip-hop dance = (12 / 20) * 100 = 60%\nReasoning: We divide the number of students in hip-hop dance by the total number of students and then multiply by 100 to find the percentage.\n\nAnswer: 60%",
+        "method": "got",
+        "problem": {
+          "question": "In a dance class of 20 students, 20% enrolled in contemporary dance, 25% of the remaining enrolled in jazz dance, and the rest enrolled in hip-hop dance. What percentage of the entire students enrolled in hip-hop dance?",
+          "answer": "There are 20 x 20/100 = <<20*20/100=4>>4 students who enrolled in contemporary dance.\nSo, 20 - 4 = <<20-4=16>>16 students are enrolled in either jazz or hip-hop dance.\nThere are 16 x 25/100 = <<16*25/100=4>>4 students who enrolled in jazz dance.\nHence, 16 - 4 = <<16-4=12>>12 students enrolled in hip-hop dance.\nThis is 12/20 x 100% = 60% of the entire students.\n#### 60"
+        }
+      },
+      {
+        "original": "In a dance class of 20 students, 20% enrolled in contemporary dance, 25% of the remaining enrolled in jazz dance, and the rest enrolled in hip-hop dance. What percentage of the entire students enrolled in hip-hop dance?",
+        "current": "Step 1: Calculate the number of students who enrolled in contemporary dance\nStudents in contemporary dance = 20% of 20\nStudents in contemporary dance = 0.20 * 20 = 4\nReasoning: We find 20% of the total number of students in the class who enrolled in contemporary dance.\n\nStep 2: Calculate the remaining students after accounting for contemporary dance\nRemaining students = Total students - Students in contemporary dance\nRemaining students = 20 - 4 = 16\nReasoning: We subtract the students who enrolled in contemporary dance from the total number of students to find out how many students remain.\n\nStep 3: Calculate the number of students who enrolled in jazz dance\nStudents in jazz dance = 25% of remaining students\nStudents in jazz dance = 0.25 * 16 = 4\nReasoning: We find 25% of the remaining students in the class who enrolled in jazz dance.\n\nStep 4: Calculate the number of students who enrolled in hip-hop dance\nStudents in hip-hop dance = Remaining students - Students in jazz dance\nStudents in hip-hop dance = 16 - 4 = 12\nReasoning: We subtract the students who enrolled in jazz dance from the remaining students to find out how many students enrolled in hip-hop dance.\n\nStep 5: Calculate the percentage of students enrolled in hip-hop dance out of the total\nPercentage of students in hip-hop dance = (Students in hip-hop dance / Total students) * 100\nPercentage of students in hip-hop dance = (12 / 20) * 100 = 60%\nReasoning: We divide the number of students in hip-hop dance by the total number of students and then multiply by 100 to find the percentage.\n\nAnswer: 60%",
+        "method": "got",
+        "problem": {
+          "question": "In a dance class of 20 students, 20% enrolled in contemporary dance, 25% of the remaining enrolled in jazz dance, and the rest enrolled in hip-hop dance. What percentage of the entire students enrolled in hip-hop dance?",
+          "answer": "There are 20 x 20/100 = <<20*20/100=4>>4 students who enrolled in contemporary dance.\nSo, 20 - 4 = <<20-4=16>>16 students are enrolled in either jazz or hip-hop dance.\nThere are 16 x 25/100 = <<16*25/100=4>>4 students who enrolled in jazz dance.\nHence, 16 - 4 = <<16-4=12>>12 students enrolled in hip-hop dance.\nThis is 12/20 x 100% = 60% of the entire students.\n#### 60"
+        }
+      },
+      {
+        "original": "In a dance class of 20 students, 20% enrolled in contemporary dance, 25% of the remaining enrolled in jazz dance, and the rest enrolled in hip-hop dance. What percentage of the entire students enrolled in hip-hop dance?",
+        "current": "Step 1: Calculate the number of students who enrolled in contemporary dance\nStudents in contemporary dance = 20% of 20\nStudents in contemporary dance = 0.20 * 20 = 4\nReasoning: We find 20% of the total number of students in the class who enrolled in contemporary dance.\n\nStep 2: Calculate the remaining students after accounting for contemporary dance\nRemaining students = Total students - Students in contemporary dance\nRemaining students = 20 - 4 = 16\nReasoning: We subtract the students who enrolled in contemporary dance from the total number of students to find out how many students remain.\n\nStep 3: Calculate the number of students who enrolled in jazz dance\nStudents in jazz dance = 25% of remaining students\nStudents in jazz dance = 0.25 * 16 = 4\nReasoning: We find 25% of the remaining students in the class who enrolled in jazz dance.\n\nStep 4: Calculate the number of students who enrolled in hip-hop dance\nStudents in hip-hop dance = Remaining students - Students in jazz dance\nStudents in hip-hop dance = 16 - 4 = 12\nReasoning: We subtract the students who enrolled in jazz dance from the remaining students to find out how many students enrolled in hip-hop dance.\n\nStep 5: Calculate the percentage of students enrolled in hip-hop dance out of the total\nPercentage of students in hip-hop dance = (Students in hip-hop dance / Total students) * 100\nPercentage of students in hip-hop dance = (12 / 20) * 100 = 60%\nReasoning: We divide the number of students in hip-hop dance by the total number of students and then multiply by 100 to find the percentage.\n\nAnswer: 60%",
+        "method": "got",
+        "problem": {
+          "question": "In a dance class of 20 students, 20% enrolled in contemporary dance, 25% of the remaining enrolled in jazz dance, and the rest enrolled in hip-hop dance. What percentage of the entire students enrolled in hip-hop dance?",
+          "answer": "There are 20 x 20/100 = <<20*20/100=4>>4 students who enrolled in contemporary dance.\nSo, 20 - 4 = <<20-4=16>>16 students are enrolled in either jazz or hip-hop dance.\nThere are 16 x 25/100 = <<16*25/100=4>>4 students who enrolled in jazz dance.\nHence, 16 - 4 = <<16-4=12>>12 students enrolled in hip-hop dance.\nThis is 12/20 x 100% = 60% of the entire students.\n#### 60"
+        }
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 363,
+    "completion_tokens": 363,
+    "cost": 0.0012705
+  }
+]

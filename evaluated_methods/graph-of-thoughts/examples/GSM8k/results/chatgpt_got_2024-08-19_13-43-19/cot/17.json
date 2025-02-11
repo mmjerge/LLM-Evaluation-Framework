@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, what's her annual salary?",
+        "current": "Step 1: Calculate the total amount earned as a teacher per week\nTeacher's pay per week = $20 per hour \u00d7 35 hours = $700\nReasoning: Jill earns $20 per hour as a teacher and works 35 hours per week.\n\nStep 2: Calculate the total amount earned as a coach per week\nCoach's pay per week = $30 per hour \u00d7 15 hours = $450\nReasoning: Jill earns $30 per hour as a coach and works 15 hours per week.\n\nStep 3: Calculate the total weekly salary\nTotal weekly salary = Teacher's pay + Coach's pay\nTotal weekly salary = $700 + $450 = $1150\nReasoning: To find out Jill's total weekly salary, we add the amount she earns as a teacher to the amount she earns as a coach.\n\nStep 4: Calculate the annual salary\nAnnual salary = Total weekly salary \u00d7 50 weeks\nAnnual salary = $1150 \u00d7 50 = $57,500\nReasoning: To find Jill's annual salary, we multiply her total weekly salary by the number of weeks she works in a year.\n\nAnswer: Jill's annual salary is $57,500",
+        "method": "cot",
+        "problem": {
+          "question": "Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, what's her annual salary?",
+          "answer": "First find the total amount Jill makes per week teaching: $20/hour * 35 hours/week = $<<20*35=700>>700/week\nThen find the total amount Jill makes per week coaching: $30/hour * 15 hours/week = $<<30*15=450>>450/week\nThen add those two amounts to find the total amount Jill makes per week: $700/week + $450/week = $<<700+450=1150>>1150/week\nThen multiply that number by the number of weeks Jill works in a year to find her annual salary: $1150/week * 50 weeks/year = $<<1150*50=57500>>57,500\n#### 57500"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, what's her annual salary?",
+        "current": "Step 1: Calculate the total amount earned as a teacher per week\nTeacher's pay per week = $20 per hour \u00d7 35 hours = $700\nReasoning: Jill earns $20 per hour as a teacher and works 35 hours per week.\n\nStep 2: Calculate the total amount earned as a coach per week\nCoach's pay per week = $30 per hour \u00d7 15 hours = $450\nReasoning: Jill earns $30 per hour as a coach and works 15 hours per week.\n\nStep 3: Calculate the total weekly salary\nTotal weekly salary = Teacher's pay + Coach's pay\nTotal weekly salary = $700 + $450 = $1150\nReasoning: To find out Jill's total weekly salary, we add the amount she earns as a teacher to the amount she earns as a coach.\n\nStep 4: Calculate the annual salary\nAnnual salary = Total weekly salary \u00d7 50 weeks\nAnnual salary = $1150 \u00d7 50 = $57,500\nReasoning: To find Jill's annual salary, we multiply her total weekly salary by the number of weeks she works in a year.\n\nAnswer: Jill's annual salary is $57,500",
+        "method": "cot",
+        "problem": {
+          "question": "Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, what's her annual salary?",
+          "answer": "First find the total amount Jill makes per week teaching: $20/hour * 35 hours/week = $<<20*35=700>>700/week\nThen find the total amount Jill makes per week coaching: $30/hour * 15 hours/week = $<<30*15=450>>450/week\nThen add those two amounts to find the total amount Jill makes per week: $700/week + $450/week = $<<700+450=1150>>1150/week\nThen multiply that number by the number of weeks Jill works in a year to find her annual salary: $1150/week * 50 weeks/year = $<<1150*50=57500>>57,500\n#### 57500"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, what's her annual salary?",
+        "current": "Step 1: Calculate the total amount earned as a teacher per week\nTeacher's pay per week = $20 per hour \u00d7 35 hours = $700\nReasoning: Jill earns $20 per hour as a teacher and works 35 hours per week.\n\nStep 2: Calculate the total amount earned as a coach per week\nCoach's pay per week = $30 per hour \u00d7 15 hours = $450\nReasoning: Jill earns $30 per hour as a coach and works 15 hours per week.\n\nStep 3: Calculate the total weekly salary\nTotal weekly salary = Teacher's pay + Coach's pay\nTotal weekly salary = $700 + $450 = $1150\nReasoning: To find out Jill's total weekly salary, we add the amount she earns as a teacher to the amount she earns as a coach.\n\nStep 4: Calculate the annual salary\nAnnual salary = Total weekly salary \u00d7 50 weeks\nAnnual salary = $1150 \u00d7 50 = $57,500\nReasoning: To find Jill's annual salary, we multiply her total weekly salary by the number of weeks she works in a year.\n\nAnswer: Jill's annual salary is $57,500",
+        "method": "cot",
+        "problem": {
+          "question": "Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, what's her annual salary?",
+          "answer": "First find the total amount Jill makes per week teaching: $20/hour * 35 hours/week = $<<20*35=700>>700/week\nThen find the total amount Jill makes per week coaching: $30/hour * 15 hours/week = $<<30*15=450>>450/week\nThen add those two amounts to find the total amount Jill makes per week: $700/week + $450/week = $<<700+450=1150>>1150/week\nThen multiply that number by the number of weeks Jill works in a year to find her annual salary: $1150/week * 50 weeks/year = $<<1150*50=57500>>57,500\n#### 57500"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      false
+    ]
+  },
+  {
+    "prompt_tokens": 366,
+    "completion_tokens": 245,
+    "cost": 0.001039
+  }
+]

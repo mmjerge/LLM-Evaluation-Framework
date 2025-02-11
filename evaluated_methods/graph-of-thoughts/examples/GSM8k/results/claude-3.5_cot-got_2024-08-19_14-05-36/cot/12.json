@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Carlos is planting a lemon tree. The tree will cost $90 to plant. Each year it will grow 7 lemons, which he can sell for $1.5 each. It costs $3 a year to water and feed the tree. How many years will it take before he starts earning money on the lemon tree?",
+        "current": "Let's solve this problem step by step:\n\nStep 1: Calculate the initial cost of planting the lemon tree\nInitial cost = $90\nReasoning: The problem states that the tree will cost $90 to plant.\n\nStep 2: Calculate the yearly income from selling lemons\nYearly income = Number of lemons \u00d7 Price per lemon\nYearly income = 7 \u00d7 $1.5 = $10.5\nReasoning: Carlos can grow 7 lemons per year and sell each for $1.5.\n\nStep 3: Calculate the yearly expenses for maintaining the tree\nYearly expenses = $3\nReasoning: The problem states that it costs $3 a year to water and feed the tree.\n\nStep 4: Calculate the yearly net profit\nYearly net profit = Yearly income - Yearly expenses\nYearly net profit = $10.5 - $3 = $7.5\nReasoning: To find the net profit, we subtract the expenses from the income.\n\nStep 5: Calculate how many years it will take to recover the initial cost\nYears to recover initial cost = Initial cost \u00f7 Yearly net profit\nYears to recover initial cost = $90 \u00f7 $7.5 = 12 years\nReasoning: We divide the initial cost by the yearly net profit to find out how many years it will take to recover the investment.\n\nStep 6: Determine when Carlos starts earning money\nCarlos starts earning money in the year after he recovers his initial cost, which is 13 years after planting the tree.\nReasoning: Once Carlos has recovered his initial investment (after 12 years), any profit in the following years will be actual earnings.\n\nAnswer: 13 years",
+        "method": "cot",
+        "problem": {
+          "question": "Carlos is planting a lemon tree. The tree will cost $90 to plant. Each year it will grow 7 lemons, which he can sell for $1.5 each. It costs $3 a year to water and feed the tree. How many years will it take before he starts earning money on the lemon tree?",
+          "answer": "He makes $10.5 selling lemons each year because 7 x 1.5 = <<7*1.5=10.5>>10.5\nHe earns $7.5 each year from the lemon tree because 10.5 - 3 = <<10.5-3=7.5>>7.5\nIt will take 12 years to earn enough to pay off the tree because 90 / 7.5 = <<90/7.5=12>>12\nHe will make money in year 13 because 12 + 1 = <<12+1=13>>13\n#### 13"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Carlos is planting a lemon tree. The tree will cost $90 to plant. Each year it will grow 7 lemons, which he can sell for $1.5 each. It costs $3 a year to water and feed the tree. How many years will it take before he starts earning money on the lemon tree?",
+        "current": "Let's solve this problem step by step:\n\nStep 1: Calculate the initial cost of planting the lemon tree\nInitial cost = $90\nReasoning: The problem states that the tree will cost $90 to plant.\n\nStep 2: Calculate the yearly income from selling lemons\nYearly income = Number of lemons \u00d7 Price per lemon\nYearly income = 7 \u00d7 $1.5 = $10.5\nReasoning: Carlos can grow 7 lemons per year and sell each for $1.5.\n\nStep 3: Calculate the yearly expenses for maintaining the tree\nYearly expenses = $3\nReasoning: The problem states that it costs $3 a year to water and feed the tree.\n\nStep 4: Calculate the yearly net profit\nYearly net profit = Yearly income - Yearly expenses\nYearly net profit = $10.5 - $3 = $7.5\nReasoning: To find the net profit, we subtract the expenses from the income.\n\nStep 5: Calculate how many years it will take to recover the initial cost\nYears to recover initial cost = Initial cost \u00f7 Yearly net profit\nYears to recover initial cost = $90 \u00f7 $7.5 = 12 years\nReasoning: We divide the initial cost by the yearly net profit to find out how many years it will take to recover the investment.\n\nStep 6: Determine when Carlos starts earning money\nCarlos starts earning money in the year after he recovers his initial cost, which is 13 years after planting the tree.\nReasoning: Once Carlos has recovered his initial investment (after 12 years), any profit in the following years will be actual earnings.\n\nAnswer: 13 years",
+        "method": "cot",
+        "problem": {
+          "question": "Carlos is planting a lemon tree. The tree will cost $90 to plant. Each year it will grow 7 lemons, which he can sell for $1.5 each. It costs $3 a year to water and feed the tree. How many years will it take before he starts earning money on the lemon tree?",
+          "answer": "He makes $10.5 selling lemons each year because 7 x 1.5 = <<7*1.5=10.5>>10.5\nHe earns $7.5 each year from the lemon tree because 10.5 - 3 = <<10.5-3=7.5>>7.5\nIt will take 12 years to earn enough to pay off the tree because 90 / 7.5 = <<90/7.5=12>>12\nHe will make money in year 13 because 12 + 1 = <<12+1=13>>13\n#### 13"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      13.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Carlos is planting a lemon tree. The tree will cost $90 to plant. Each year it will grow 7 lemons, which he can sell for $1.5 each. It costs $3 a year to water and feed the tree. How many years will it take before he starts earning money on the lemon tree?",
+        "current": "Let's solve this problem step by step:\n\nStep 1: Calculate the initial cost of planting the lemon tree\nInitial cost = $90\nReasoning: The problem states that the tree will cost $90 to plant.\n\nStep 2: Calculate the yearly income from selling lemons\nYearly income = Number of lemons \u00d7 Price per lemon\nYearly income = 7 \u00d7 $1.5 = $10.5\nReasoning: Carlos can grow 7 lemons per year and sell each for $1.5.\n\nStep 3: Calculate the yearly expenses for maintaining the tree\nYearly expenses = $3\nReasoning: The problem states that it costs $3 a year to water and feed the tree.\n\nStep 4: Calculate the yearly net profit\nYearly net profit = Yearly income - Yearly expenses\nYearly net profit = $10.5 - $3 = $7.5\nReasoning: To find the net profit, we subtract the expenses from the income.\n\nStep 5: Calculate how many years it will take to recover the initial cost\nYears to recover initial cost = Initial cost \u00f7 Yearly net profit\nYears to recover initial cost = $90 \u00f7 $7.5 = 12 years\nReasoning: We divide the initial cost by the yearly net profit to find out how many years it will take to recover the investment.\n\nStep 6: Determine when Carlos starts earning money\nCarlos starts earning money in the year after he recovers his initial cost, which is 13 years after planting the tree.\nReasoning: Once Carlos has recovered his initial investment (after 12 years), any profit in the following years will be actual earnings.\n\nAnswer: 13 years",
+        "method": "cot",
+        "problem": {
+          "question": "Carlos is planting a lemon tree. The tree will cost $90 to plant. Each year it will grow 7 lemons, which he can sell for $1.5 each. It costs $3 a year to water and feed the tree. How many years will it take before he starts earning money on the lemon tree?",
+          "answer": "He makes $10.5 selling lemons each year because 7 x 1.5 = <<7*1.5=10.5>>10.5\nHe earns $7.5 each year from the lemon tree because 10.5 - 3 = <<10.5-3=7.5>>7.5\nIt will take 12 years to earn enough to pay off the tree because 90 / 7.5 = <<90/7.5=12>>12\nHe will make money in year 13 because 12 + 1 = <<12+1=13>>13\n#### 13"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      13.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

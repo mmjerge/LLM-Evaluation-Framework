@@ -1,0 +1,74 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+        "current": "Step 1: Determine Eliza's regular hourly rate.\nRegular hourly rate = $10\nReasoning: The problem states that Eliza's rate per hour for the first 40 hours each week is $10.\n\nStep 2: Identify the number of regular hours Eliza worked.\nRegular hours worked = 40\nReasoning: The problem states that her regular hours are 40 per week.\n\nStep 3: Identify the overtime hours Eliza worked.\nOvertime hours worked = Total hours worked - Regular hours worked\nOvertime hours worked = 45 - 40 = 5\nReasoning: The problem states that Eliza worked 45 hours in total this week, so the overtime hours are the difference between total hours and regular hours.\n\nStep 4: Calculate Eliza's overtime hourly rate.\nOvertime hourly rate = Regular hourly rate \u00d7 1.2\nOvertime hourly rate = $10 \u00d7 1.2 = $12\nReasoning: The problem states that Eliza receives 1.2 times her regular hourly rate for overtime.\n\nStep 5: Calculate the earnings from regular hours.\nRegular earnings = Regular hours worked \u00d7 Regular hourly rate\nRegular earnings = 40 \u00d7 $10 = $400\nReasoning: We multiply the number of regular hours by the regular hourly rate to find the earnings from regular hours.\n\nStep 6: Calculate the earnings from overtime hours.\nOvertime earnings = Overtime hours worked \u00d7 Overtime hourly rate\nOvertime earnings = 5 \u00d7 $12 = $60\nReasoning: We multiply the number of overtime hours by the overtime hourly rate to find the earnings from overtime hours.\n\nStep 7: Calculate the total earnings for the week.\nTotal earnings = Regular earnings + Overtime earnings\nTotal earnings = $400 + $60 = $460\nReasoning: We add the earnings from regular hours and the earnings from overtime hours to get the total earnings for the week.\n\nAnswer: $460",
+        "method": "got",
+        "problem": {
+          "question": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+          "answer": "Eliza is entitled to 45 -40 = <<45-40=5>>5 hours overtime pay.\nHer hourly rate for the overtime pay is $10 x 1.2 = $<<10*1.2=12>>12.\nSo, Eliza will receive $12 x 5 =$<<12*5=60>>60 for overtime pay.\nHer regular weekly earning is $10 x 40 = $<<10*40=400>>400.\nThus, Eliza will receive a total of $400 + $60 = $<<400+60=460>>460 for this week's work.\n#### 460"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+        "current": "Step 1: Determine Eliza's regular hourly rate.\nRegular hourly rate = $10\nReasoning: The problem states that Eliza's rate per hour for the first 40 hours each week is $10.\n\nStep 2: Identify the number of regular hours Eliza worked.\nRegular hours worked = 40\nReasoning: The problem states that her regular hours are 40 per week.\n\nStep 3: Identify the overtime hours Eliza worked.\nOvertime hours worked = Total hours worked - Regular hours worked\nOvertime hours worked = 45 - 40 = 5\nReasoning: The problem states that Eliza worked 45 hours in total this week, so the overtime hours are the difference between total hours and regular hours.\n\nStep 4: Calculate Eliza's overtime hourly rate.\nOvertime hourly rate = Regular hourly rate \u00d7 1.2\nOvertime hourly rate = $10 \u00d7 1.2 = $12\nReasoning: The problem states that Eliza receives 1.2 times her regular hourly rate for overtime.\n\nStep 5: Calculate the earnings from regular hours.\nRegular earnings = Regular hours worked \u00d7 Regular hourly rate\nRegular earnings = 40 \u00d7 $10 = $400\nReasoning: We multiply the number of regular hours by the regular hourly rate to find the earnings from regular hours.\n\nStep 6: Calculate the earnings from overtime hours.\nOvertime earnings = Overtime hours worked \u00d7 Overtime hourly rate\nOvertime earnings = 5 \u00d7 $12 = $60\nReasoning: We multiply the number of overtime hours by the overtime hourly rate to find the earnings from overtime hours.\n\nStep 7: Calculate the total earnings for the week.\nTotal earnings = Regular earnings + Overtime earnings\nTotal earnings = $400 + $60 = $460\nReasoning: We add the earnings from regular hours and the earnings from overtime hours to get the total earnings for the week.\n\nAnswer: $460",
+        "method": "got",
+        "problem": {
+          "question": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+          "answer": "Eliza is entitled to 45 -40 = <<45-40=5>>5 hours overtime pay.\nHer hourly rate for the overtime pay is $10 x 1.2 = $<<10*1.2=12>>12.\nSo, Eliza will receive $12 x 5 =$<<12*5=60>>60 for overtime pay.\nHer regular weekly earning is $10 x 40 = $<<10*40=400>>400.\nThus, Eliza will receive a total of $400 + $60 = $<<400+60=460>>460 for this week's work.\n#### 460"
+        }
+      },
+      {
+        "original": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+        "current": "Step 1: Determine Eliza's regular hourly rate.\nRegular hourly rate = $10\nReasoning: The problem states that Eliza's rate per hour for the first 40 hours each week is $10.\n\nStep 2: Identify the number of regular hours Eliza worked.\nRegular hours worked = 40\nReasoning: The problem states that her regular hours are 40 per week.\n\nStep 3: Identify the overtime hours Eliza worked.\nOvertime hours worked = Total hours worked - Regular hours worked\nOvertime hours worked = 45 - 40 = 5\nReasoning: The problem states that Eliza worked 45 hours in total this week, so the overtime hours are the difference between total hours and regular hours.\n\nStep 4: Calculate Eliza's overtime hourly rate.\nOvertime hourly rate = Regular hourly rate \u00d7 1.2\nOvertime hourly rate = $10 \u00d7 1.2 = $12\nReasoning: The problem states that Eliza receives 1.2 times her regular hourly rate for overtime.\n\nStep 5: Calculate the earnings from regular hours.\nRegular earnings = Regular hours worked \u00d7 Regular hourly rate\nRegular earnings = 40 \u00d7 $10 = $400\nReasoning: We multiply the number of regular hours by the regular hourly rate to find the earnings from regular hours.\n\nStep 6: Calculate the earnings from overtime hours.\nOvertime earnings = Overtime hours worked \u00d7 Overtime hourly rate\nOvertime earnings = 5 \u00d7 $12 = $60\nReasoning: We multiply the number of overtime hours by the overtime hourly rate to find the earnings from overtime hours.\n\nStep 7: Calculate the total earnings for the week.\nTotal earnings = Regular earnings + Overtime earnings\nTotal earnings = $400 + $60 = $460\nReasoning: We add the earnings from regular hours and the earnings from overtime hours to get the total earnings for the week.\n\nAnswer: $460",
+        "method": "got",
+        "problem": {
+          "question": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+          "answer": "Eliza is entitled to 45 -40 = <<45-40=5>>5 hours overtime pay.\nHer hourly rate for the overtime pay is $10 x 1.2 = $<<10*1.2=12>>12.\nSo, Eliza will receive $12 x 5 =$<<12*5=60>>60 for overtime pay.\nHer regular weekly earning is $10 x 40 = $<<10*40=400>>400.\nThus, Eliza will receive a total of $400 + $60 = $<<400+60=460>>460 for this week's work.\n#### 460"
+        }
+      },
+      {
+        "original": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+        "current": "Step 1: Determine Eliza's regular hourly rate.\nRegular hourly rate = $10\nReasoning: The problem states that Eliza's rate per hour for the first 40 hours each week is $10.\n\nStep 2: Identify the number of regular hours Eliza worked.\nRegular hours worked = 40\nReasoning: The problem states that her regular hours are 40 per week.\n\nStep 3: Identify the overtime hours Eliza worked.\nOvertime hours worked = Total hours worked - Regular hours worked\nOvertime hours worked = 45 - 40 = 5\nReasoning: The problem states that Eliza worked 45 hours in total this week, so the overtime hours are the difference between total hours and regular hours.\n\nStep 4: Calculate Eliza's overtime hourly rate.\nOvertime hourly rate = Regular hourly rate \u00d7 1.2\nOvertime hourly rate = $10 \u00d7 1.2 = $12\nReasoning: The problem states that Eliza receives 1.2 times her regular hourly rate for overtime.\n\nStep 5: Calculate the earnings from regular hours.\nRegular earnings = Regular hours worked \u00d7 Regular hourly rate\nRegular earnings = 40 \u00d7 $10 = $400\nReasoning: We multiply the number of regular hours by the regular hourly rate to find the earnings from regular hours.\n\nStep 6: Calculate the earnings from overtime hours.\nOvertime earnings = Overtime hours worked \u00d7 Overtime hourly rate\nOvertime earnings = 5 \u00d7 $12 = $60\nReasoning: We multiply the number of overtime hours by the overtime hourly rate to find the earnings from overtime hours.\n\nStep 7: Calculate the total earnings for the week.\nTotal earnings = Regular earnings + Overtime earnings\nTotal earnings = $400 + $60 = $460\nReasoning: We add the earnings from regular hours and the earnings from overtime hours to get the total earnings for the week.\n\nAnswer: $460",
+        "method": "got",
+        "problem": {
+          "question": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+          "answer": "Eliza is entitled to 45 -40 = <<45-40=5>>5 hours overtime pay.\nHer hourly rate for the overtime pay is $10 x 1.2 = $<<10*1.2=12>>12.\nSo, Eliza will receive $12 x 5 =$<<12*5=60>>60 for overtime pay.\nHer regular weekly earning is $10 x 40 = $<<10*40=400>>400.\nThus, Eliza will receive a total of $400 + $60 = $<<400+60=460>>460 for this week's work.\n#### 460"
+        }
+      },
+      {
+        "original": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+        "current": "Step 1: Determine Eliza's regular hourly rate.\nRegular hourly rate = $10\nReasoning: The problem states that Eliza's rate per hour for the first 40 hours each week is $10.\n\nStep 2: Identify the number of regular hours Eliza worked.\nRegular hours worked = 40\nReasoning: The problem states that her regular hours are 40 per week.\n\nStep 3: Identify the overtime hours Eliza worked.\nOvertime hours worked = Total hours worked - Regular hours worked\nOvertime hours worked = 45 - 40 = 5\nReasoning: The problem states that Eliza worked 45 hours in total this week, so the overtime hours are the difference between total hours and regular hours.\n\nStep 4: Calculate Eliza's overtime hourly rate.\nOvertime hourly rate = Regular hourly rate \u00d7 1.2\nOvertime hourly rate = $10 \u00d7 1.2 = $12\nReasoning: The problem states that Eliza receives 1.2 times her regular hourly rate for overtime.\n\nStep 5: Calculate the earnings from regular hours.\nRegular earnings = Regular hours worked \u00d7 Regular hourly rate\nRegular earnings = 40 \u00d7 $10 = $400\nReasoning: We multiply the number of regular hours by the regular hourly rate to find the earnings from regular hours.\n\nStep 6: Calculate the earnings from overtime hours.\nOvertime earnings = Overtime hours worked \u00d7 Overtime hourly rate\nOvertime earnings = 5 \u00d7 $12 = $60\nReasoning: We multiply the number of overtime hours by the overtime hourly rate to find the earnings from overtime hours.\n\nStep 7: Calculate the total earnings for the week.\nTotal earnings = Regular earnings + Overtime earnings\nTotal earnings = $400 + $60 = $460\nReasoning: We add the earnings from regular hours and the earnings from overtime hours to get the total earnings for the week.\n\nAnswer: $460",
+        "method": "got",
+        "problem": {
+          "question": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+          "answer": "Eliza is entitled to 45 -40 = <<45-40=5>>5 hours overtime pay.\nHer hourly rate for the overtime pay is $10 x 1.2 = $<<10*1.2=12>>12.\nSo, Eliza will receive $12 x 5 =$<<12*5=60>>60 for overtime pay.\nHer regular weekly earning is $10 x 40 = $<<10*40=400>>400.\nThus, Eliza will receive a total of $400 + $60 = $<<400+60=460>>460 for this week's work.\n#### 460"
+        }
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 369,
+    "completion_tokens": 397,
+    "cost": 0.034890000000000004
+  }
+]

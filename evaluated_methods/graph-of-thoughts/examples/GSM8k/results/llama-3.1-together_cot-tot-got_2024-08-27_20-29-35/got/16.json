@@ -1,0 +1,74 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Two trains leave San Rafael at the same time. They begin traveling westward, both traveling for 80 miles. The next day, they travel northwards, covering 150 miles. What's the distance covered by each train in the two days?",
+        "current": "Let's solve the problem step by step.\n\nStep 1: Calculate the total distance covered by each train on the first day\nDistance covered on day 1 = 80 miles\nReasoning: The problem states that both trains travel 80 miles westward on the first day.\n\nStep 2: Calculate the total distance covered by each train on the second day\nDistance covered on day 2 = 150 miles\nReasoning: The problem states that both trains travel 150 miles northward on the second day.\n\nStep 3: Calculate the total distance covered by each train in the two days\nTotal distance = Distance covered on day 1 + Distance covered on day 2\nTotal distance = 80 + 150 = 230 miles\nReasoning: To find the total distance covered by each train, we add the distance covered on the first day to the distance covered on the second day.\n\nAnswer: 230",
+        "method": "got",
+        "problem": {
+          "question": "Two trains leave San Rafael at the same time. They begin traveling westward, both traveling for 80 miles. The next day, they travel northwards, covering 150 miles. What's the distance covered by each train in the two days?",
+          "answer": "On the first day, the trains covered 2 trains * 80 miles/train = <<2*80=160>>160 miles together.\nThey also covered 150 miles/train * 2 trains = <<150*2=300>>300 miles together on the second day.\nThe combined distance the two trains covered in the two days is 300 miles + 160 miles = <<300+160=460>>460 miles\nThe average distance for the two days is 460 miles / 2 trains = <<460/2=230>>230 miles/train\n#### 230"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Two trains leave San Rafael at the same time. They begin traveling westward, both traveling for 80 miles. The next day, they travel northwards, covering 150 miles. What's the distance covered by each train in the two days?",
+        "current": "Let's solve the problem step by step.\n\nStep 1: Calculate the total distance covered by each train on the first day\nDistance covered on day 1 = 80 miles\nReasoning: The problem states that both trains travel 80 miles westward on the first day.\n\nStep 2: Calculate the total distance covered by each train on the second day\nDistance covered on day 2 = 150 miles\nReasoning: The problem states that both trains travel 150 miles northward on the second day.\n\nStep 3: Calculate the total distance covered by each train in the two days\nTotal distance = Distance covered on day 1 + Distance covered on day 2\nTotal distance = 80 + 150 = 230 miles\nReasoning: To find the total distance covered by each train, we add the distance covered on the first day to the distance covered on the second day.\n\nAnswer: 230",
+        "method": "got",
+        "problem": {
+          "question": "Two trains leave San Rafael at the same time. They begin traveling westward, both traveling for 80 miles. The next day, they travel northwards, covering 150 miles. What's the distance covered by each train in the two days?",
+          "answer": "On the first day, the trains covered 2 trains * 80 miles/train = <<2*80=160>>160 miles together.\nThey also covered 150 miles/train * 2 trains = <<150*2=300>>300 miles together on the second day.\nThe combined distance the two trains covered in the two days is 300 miles + 160 miles = <<300+160=460>>460 miles\nThe average distance for the two days is 460 miles / 2 trains = <<460/2=230>>230 miles/train\n#### 230"
+        }
+      },
+      {
+        "original": "Two trains leave San Rafael at the same time. They begin traveling westward, both traveling for 80 miles. The next day, they travel northwards, covering 150 miles. What's the distance covered by each train in the two days?",
+        "current": "Let's solve the problem step by step.\n\nStep 1: Calculate the total distance covered by each train on the first day\nDistance covered on day 1 = 80 miles\nReasoning: The problem states that both trains travel 80 miles westward on the first day.\n\nStep 2: Calculate the total distance covered by each train on the second day\nDistance covered on day 2 = 150 miles\nReasoning: The problem states that both trains travel 150 miles northward on the second day.\n\nStep 3: Calculate the total distance covered by each train in the two days\nTotal distance = Distance covered on day 1 + Distance covered on day 2\nTotal distance = 80 + 150 = 230 miles\nReasoning: To find the total distance covered by each train, we add the distance covered on the first day to the distance covered on the second day.\n\nAnswer: 230",
+        "method": "got",
+        "problem": {
+          "question": "Two trains leave San Rafael at the same time. They begin traveling westward, both traveling for 80 miles. The next day, they travel northwards, covering 150 miles. What's the distance covered by each train in the two days?",
+          "answer": "On the first day, the trains covered 2 trains * 80 miles/train = <<2*80=160>>160 miles together.\nThey also covered 150 miles/train * 2 trains = <<150*2=300>>300 miles together on the second day.\nThe combined distance the two trains covered in the two days is 300 miles + 160 miles = <<300+160=460>>460 miles\nThe average distance for the two days is 460 miles / 2 trains = <<460/2=230>>230 miles/train\n#### 230"
+        }
+      },
+      {
+        "original": "Two trains leave San Rafael at the same time. They begin traveling westward, both traveling for 80 miles. The next day, they travel northwards, covering 150 miles. What's the distance covered by each train in the two days?",
+        "current": "Let's solve the problem step by step.\n\nStep 1: Calculate the total distance covered by each train on the first day\nDistance covered on day 1 = 80 miles\nReasoning: The problem states that both trains travel 80 miles westward on the first day.\n\nStep 2: Calculate the total distance covered by each train on the second day\nDistance covered on day 2 = 150 miles\nReasoning: The problem states that both trains travel 150 miles northward on the second day.\n\nStep 3: Calculate the total distance covered by each train in the two days\nTotal distance = Distance covered on day 1 + Distance covered on day 2\nTotal distance = 80 + 150 = 230 miles\nReasoning: To find the total distance covered by each train, we add the distance covered on the first day to the distance covered on the second day.\n\nAnswer: 230",
+        "method": "got",
+        "problem": {
+          "question": "Two trains leave San Rafael at the same time. They begin traveling westward, both traveling for 80 miles. The next day, they travel northwards, covering 150 miles. What's the distance covered by each train in the two days?",
+          "answer": "On the first day, the trains covered 2 trains * 80 miles/train = <<2*80=160>>160 miles together.\nThey also covered 150 miles/train * 2 trains = <<150*2=300>>300 miles together on the second day.\nThe combined distance the two trains covered in the two days is 300 miles + 160 miles = <<300+160=460>>460 miles\nThe average distance for the two days is 460 miles / 2 trains = <<460/2=230>>230 miles/train\n#### 230"
+        }
+      },
+      {
+        "original": "Two trains leave San Rafael at the same time. They begin traveling westward, both traveling for 80 miles. The next day, they travel northwards, covering 150 miles. What's the distance covered by each train in the two days?",
+        "current": "Let's solve the problem step by step.\n\nStep 1: Calculate the total distance covered by each train on the first day\nDistance covered on day 1 = 80 miles\nReasoning: The problem states that both trains travel 80 miles westward on the first day.\n\nStep 2: Calculate the total distance covered by each train on the second day\nDistance covered on day 2 = 150 miles\nReasoning: The problem states that both trains travel 150 miles northward on the second day.\n\nStep 3: Calculate the total distance covered by each train in the two days\nTotal distance = Distance covered on day 1 + Distance covered on day 2\nTotal distance = 80 + 150 = 230 miles\nReasoning: To find the total distance covered by each train, we add the distance covered on the first day to the distance covered on the second day.\n\nAnswer: 230",
+        "method": "got",
+        "problem": {
+          "question": "Two trains leave San Rafael at the same time. They begin traveling westward, both traveling for 80 miles. The next day, they travel northwards, covering 150 miles. What's the distance covered by each train in the two days?",
+          "answer": "On the first day, the trains covered 2 trains * 80 miles/train = <<2*80=160>>160 miles together.\nThey also covered 150 miles/train * 2 trains = <<150*2=300>>300 miles together on the second day.\nThe combined distance the two trains covered in the two days is 300 miles + 160 miles = <<300+160=460>>460 miles\nThe average distance for the two days is 460 miles / 2 trains = <<460/2=230>>230 miles/train\n#### 230"
+        }
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

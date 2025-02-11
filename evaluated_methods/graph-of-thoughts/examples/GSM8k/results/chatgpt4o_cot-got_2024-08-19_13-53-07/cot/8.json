@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "John drives for 3 hours at a speed of 60 mph and then turns around because he realizes he forgot something very important at home.  He tries to get home in 4 hours but spends the first 2 hours in standstill traffic.  He spends the next half-hour driving at a speed of 30mph, before being able to drive the remaining time of the 4 hours going at 80 mph.  How far is he from home at the end of those 4 hours?",
+        "current": "Step 1: Calculate the distance John drives initially\nDistance initially driven = Speed \u00d7 Time\nDistance initially driven = 60 mph \u00d7 3 hours = 180 miles\nReasoning: Distance is calculated by multiplying the speed by the time.\n\nStep 2: Calculate the distance John tries to cover on his return\nJohn tries to cover the distance he drove initially, which is 180 miles.\n\nStep 3: Calculate the distance covered during the standstill traffic\nDistance in standstill traffic = Speed \u00d7 Time\nDistance in standstill traffic = 0 mph \u00d7 2 hours = 0 miles\nReasoning: During the first 2 hours, John is in standstill traffic, so he covers no distance.\n\nStep 4: Calculate the distance covered while driving at 30 mph\nDistance covered at 30 mph = Speed \u00d7 Time\nDistance covered at 30 mph = 30 mph \u00d7 0.5 hours = 15 miles\nReasoning: John drives for half an hour at a speed of 30 mph.\n\nStep 5: Calculate the remaining time for driving at 80 mph\nTotal time for return trip = 4 hours\nTime spent in standstill traffic = 2 hours\nTime spent driving at 30 mph = 0.5 hours\nRemaining time = 4 hours - 2 hours - 0.5 hours = 1.5 hours\nReasoning: Subtract the time spent in standstill traffic and driving at 30 mph from the total return trip duration to find the remaining time.\n\nStep 6: Calculate the distance covered while driving at 80 mph\nDistance covered at 80 mph = Speed \u00d7 Time\nDistance covered at 80 mph = 80 mph \u00d7 1.5 hours = 120 miles\nReasoning: John drives for 1.5 hours at a speed of 80 mph.\n\nStep 7: Calculate the total distance covered on the return trip\nTotal distance covered on return trip = Distance in standstill traffic + Distance at 30 mph + Distance at 80 mph\nTotal distance covered on return trip = 0 miles + 15 miles + 120 miles = 135 miles\nReasoning: Add up the distances covered during different segments of the return trip.\n\nStep 8: Calculate the distance John still needs to cover\nDistance still to cover = Initial distance - Distance covered on return trip\nDistance still to cover = 180 miles - 135 miles = 45 miles\nReasoning: Subtract the total distance covered on the return trip from the initial distance driven.\n\nAnswer: John is 45 miles from home at the end of those 4 hours.",
+        "method": "cot",
+        "problem": {
+          "question": "John drives for 3 hours at a speed of 60 mph and then turns around because he realizes he forgot something very important at home.  He tries to get home in 4 hours but spends the first 2 hours in standstill traffic.  He spends the next half-hour driving at a speed of 30mph, before being able to drive the remaining time of the 4 hours going at 80 mph.  How far is he from home at the end of those 4 hours?",
+          "answer": "When he turned around he was 3*60=<<3*60=180>>180 miles from home\nHe was only able to drive 4-2=<<4-2=2>>2 hours in the first four hours\nIn half an hour he goes 30*.5=<<30*.5=15>>15 miles\nHe then drives another 2-.5=<<2-.5=1.5>>1.5 hours\nIn that time he goes 80*1.5=<<80*1.5=120>>120 miles\nSo he drove 120+15=<<120+15=135>>135 miles\nSo he is 180-135=<<180-135=45>>45 miles away from home\n#### 45"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "John drives for 3 hours at a speed of 60 mph and then turns around because he realizes he forgot something very important at home.  He tries to get home in 4 hours but spends the first 2 hours in standstill traffic.  He spends the next half-hour driving at a speed of 30mph, before being able to drive the remaining time of the 4 hours going at 80 mph.  How far is he from home at the end of those 4 hours?",
+        "current": "Step 1: Calculate the distance John drives initially\nDistance initially driven = Speed \u00d7 Time\nDistance initially driven = 60 mph \u00d7 3 hours = 180 miles\nReasoning: Distance is calculated by multiplying the speed by the time.\n\nStep 2: Calculate the distance John tries to cover on his return\nJohn tries to cover the distance he drove initially, which is 180 miles.\n\nStep 3: Calculate the distance covered during the standstill traffic\nDistance in standstill traffic = Speed \u00d7 Time\nDistance in standstill traffic = 0 mph \u00d7 2 hours = 0 miles\nReasoning: During the first 2 hours, John is in standstill traffic, so he covers no distance.\n\nStep 4: Calculate the distance covered while driving at 30 mph\nDistance covered at 30 mph = Speed \u00d7 Time\nDistance covered at 30 mph = 30 mph \u00d7 0.5 hours = 15 miles\nReasoning: John drives for half an hour at a speed of 30 mph.\n\nStep 5: Calculate the remaining time for driving at 80 mph\nTotal time for return trip = 4 hours\nTime spent in standstill traffic = 2 hours\nTime spent driving at 30 mph = 0.5 hours\nRemaining time = 4 hours - 2 hours - 0.5 hours = 1.5 hours\nReasoning: Subtract the time spent in standstill traffic and driving at 30 mph from the total return trip duration to find the remaining time.\n\nStep 6: Calculate the distance covered while driving at 80 mph\nDistance covered at 80 mph = Speed \u00d7 Time\nDistance covered at 80 mph = 80 mph \u00d7 1.5 hours = 120 miles\nReasoning: John drives for 1.5 hours at a speed of 80 mph.\n\nStep 7: Calculate the total distance covered on the return trip\nTotal distance covered on return trip = Distance in standstill traffic + Distance at 30 mph + Distance at 80 mph\nTotal distance covered on return trip = 0 miles + 15 miles + 120 miles = 135 miles\nReasoning: Add up the distances covered during different segments of the return trip.\n\nStep 8: Calculate the distance John still needs to cover\nDistance still to cover = Initial distance - Distance covered on return trip\nDistance still to cover = 180 miles - 135 miles = 45 miles\nReasoning: Subtract the total distance covered on the return trip from the initial distance driven.\n\nAnswer: John is 45 miles from home at the end of those 4 hours.",
+        "method": "cot",
+        "problem": {
+          "question": "John drives for 3 hours at a speed of 60 mph and then turns around because he realizes he forgot something very important at home.  He tries to get home in 4 hours but spends the first 2 hours in standstill traffic.  He spends the next half-hour driving at a speed of 30mph, before being able to drive the remaining time of the 4 hours going at 80 mph.  How far is he from home at the end of those 4 hours?",
+          "answer": "When he turned around he was 3*60=<<3*60=180>>180 miles from home\nHe was only able to drive 4-2=<<4-2=2>>2 hours in the first four hours\nIn half an hour he goes 30*.5=<<30*.5=15>>15 miles\nHe then drives another 2-.5=<<2-.5=1.5>>1.5 hours\nIn that time he goes 80*1.5=<<80*1.5=120>>120 miles\nSo he drove 120+15=<<120+15=135>>135 miles\nSo he is 180-135=<<180-135=45>>45 miles away from home\n#### 45"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "John drives for 3 hours at a speed of 60 mph and then turns around because he realizes he forgot something very important at home.  He tries to get home in 4 hours but spends the first 2 hours in standstill traffic.  He spends the next half-hour driving at a speed of 30mph, before being able to drive the remaining time of the 4 hours going at 80 mph.  How far is he from home at the end of those 4 hours?",
+        "current": "Step 1: Calculate the distance John drives initially\nDistance initially driven = Speed \u00d7 Time\nDistance initially driven = 60 mph \u00d7 3 hours = 180 miles\nReasoning: Distance is calculated by multiplying the speed by the time.\n\nStep 2: Calculate the distance John tries to cover on his return\nJohn tries to cover the distance he drove initially, which is 180 miles.\n\nStep 3: Calculate the distance covered during the standstill traffic\nDistance in standstill traffic = Speed \u00d7 Time\nDistance in standstill traffic = 0 mph \u00d7 2 hours = 0 miles\nReasoning: During the first 2 hours, John is in standstill traffic, so he covers no distance.\n\nStep 4: Calculate the distance covered while driving at 30 mph\nDistance covered at 30 mph = Speed \u00d7 Time\nDistance covered at 30 mph = 30 mph \u00d7 0.5 hours = 15 miles\nReasoning: John drives for half an hour at a speed of 30 mph.\n\nStep 5: Calculate the remaining time for driving at 80 mph\nTotal time for return trip = 4 hours\nTime spent in standstill traffic = 2 hours\nTime spent driving at 30 mph = 0.5 hours\nRemaining time = 4 hours - 2 hours - 0.5 hours = 1.5 hours\nReasoning: Subtract the time spent in standstill traffic and driving at 30 mph from the total return trip duration to find the remaining time.\n\nStep 6: Calculate the distance covered while driving at 80 mph\nDistance covered at 80 mph = Speed \u00d7 Time\nDistance covered at 80 mph = 80 mph \u00d7 1.5 hours = 120 miles\nReasoning: John drives for 1.5 hours at a speed of 80 mph.\n\nStep 7: Calculate the total distance covered on the return trip\nTotal distance covered on return trip = Distance in standstill traffic + Distance at 30 mph + Distance at 80 mph\nTotal distance covered on return trip = 0 miles + 15 miles + 120 miles = 135 miles\nReasoning: Add up the distances covered during different segments of the return trip.\n\nStep 8: Calculate the distance John still needs to cover\nDistance still to cover = Initial distance - Distance covered on return trip\nDistance still to cover = 180 miles - 135 miles = 45 miles\nReasoning: Subtract the total distance covered on the return trip from the initial distance driven.\n\nAnswer: John is 45 miles from home at the end of those 4 hours.",
+        "method": "cot",
+        "problem": {
+          "question": "John drives for 3 hours at a speed of 60 mph and then turns around because he realizes he forgot something very important at home.  He tries to get home in 4 hours but spends the first 2 hours in standstill traffic.  He spends the next half-hour driving at a speed of 30mph, before being able to drive the remaining time of the 4 hours going at 80 mph.  How far is he from home at the end of those 4 hours?",
+          "answer": "When he turned around he was 3*60=<<3*60=180>>180 miles from home\nHe was only able to drive 4-2=<<4-2=2>>2 hours in the first four hours\nIn half an hour he goes 30*.5=<<30*.5=15>>15 miles\nHe then drives another 2-.5=<<2-.5=1.5>>1.5 hours\nIn that time he goes 80*1.5=<<80*1.5=120>>120 miles\nSo he drove 120+15=<<120+15=135>>135 miles\nSo he is 180-135=<<180-135=45>>45 miles away from home\n#### 45"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 413,
+    "completion_tokens": 537,
+    "cost": 0.04461
+  }
+]

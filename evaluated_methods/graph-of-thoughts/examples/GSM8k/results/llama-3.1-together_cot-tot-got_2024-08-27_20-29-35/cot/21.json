@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raymond had a son at the age of 23. If Samantha is now 31, how many years ago was Raymond's son born?",
+        "current": "Let's solve the problem step by step.\n\nStep 1: Calculate the age of Raymond when Samantha was born\nRaymond's age = Samantha's age + 6\nReasoning: Since Raymond was born 6 years before Samantha, we add 6 to Samantha's age to find Raymond's age.\n\nStep 2: Calculate the age of Raymond when his son was born\nRaymond's age when son was born = 23\nReasoning: The problem states that Raymond had a son at the age of 23.\n\nStep 3: Calculate the age of Samantha when Raymond's son was born\nSamantha's age when son was born = Samantha's current age - (Raymond's age - Raymond's age when son was born)\nSamantha's age when son was born = 31 - (31 + 6 - 23)\nSamantha's age when son was born = 31 - 14\nSamantha's age when son was born = 17\nReasoning: To find out how old Samantha was when Raymond's son was born, we subtract the difference between Raymond's age and the age at which he had a son from Samantha's current age.\n\nStep 4: Calculate the number of years ago Raymond's son was born\nYears ago = Samantha's age when son was born\nYears ago = 17\nReasoning: Since Samantha was 17 years old when Raymond's son was born, we can conclude that it has been 17 years since Raymond's son was born.\n\nAnswer: 17",
+        "method": "cot",
+        "problem": {
+          "question": "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raymond had a son at the age of 23. If Samantha is now 31, how many years ago was Raymond's son born?",
+          "answer": "When Raymond's son was born Samantha was 23 - 6 = <<23-6=17>>17 years old.\nThus it has been 31 - 17 = <<31-17=14>>14 years since Raymond's son was born.\n#### 14"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raymond had a son at the age of 23. If Samantha is now 31, how many years ago was Raymond's son born?",
+        "current": "Let's solve the problem step by step.\n\nStep 1: Calculate the age of Raymond when Samantha was born\nRaymond's age = Samantha's age + 6\nReasoning: Since Raymond was born 6 years before Samantha, we add 6 to Samantha's age to find Raymond's age.\n\nStep 2: Calculate the age of Raymond when his son was born\nRaymond's age when son was born = 23\nReasoning: The problem states that Raymond had a son at the age of 23.\n\nStep 3: Calculate the age of Samantha when Raymond's son was born\nSamantha's age when son was born = Samantha's current age - (Raymond's age - Raymond's age when son was born)\nSamantha's age when son was born = 31 - (31 + 6 - 23)\nSamantha's age when son was born = 31 - 14\nSamantha's age when son was born = 17\nReasoning: To find out how old Samantha was when Raymond's son was born, we subtract the difference between Raymond's age and the age at which he had a son from Samantha's current age.\n\nStep 4: Calculate the number of years ago Raymond's son was born\nYears ago = Samantha's age when son was born\nYears ago = 17\nReasoning: Since Samantha was 17 years old when Raymond's son was born, we can conclude that it has been 17 years since Raymond's son was born.\n\nAnswer: 17",
+        "method": "cot",
+        "problem": {
+          "question": "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raymond had a son at the age of 23. If Samantha is now 31, how many years ago was Raymond's son born?",
+          "answer": "When Raymond's son was born Samantha was 23 - 6 = <<23-6=17>>17 years old.\nThus it has been 31 - 17 = <<31-17=14>>14 years since Raymond's son was born.\n#### 14"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      17.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raymond had a son at the age of 23. If Samantha is now 31, how many years ago was Raymond's son born?",
+        "current": "Let's solve the problem step by step.\n\nStep 1: Calculate the age of Raymond when Samantha was born\nRaymond's age = Samantha's age + 6\nReasoning: Since Raymond was born 6 years before Samantha, we add 6 to Samantha's age to find Raymond's age.\n\nStep 2: Calculate the age of Raymond when his son was born\nRaymond's age when son was born = 23\nReasoning: The problem states that Raymond had a son at the age of 23.\n\nStep 3: Calculate the age of Samantha when Raymond's son was born\nSamantha's age when son was born = Samantha's current age - (Raymond's age - Raymond's age when son was born)\nSamantha's age when son was born = 31 - (31 + 6 - 23)\nSamantha's age when son was born = 31 - 14\nSamantha's age when son was born = 17\nReasoning: To find out how old Samantha was when Raymond's son was born, we subtract the difference between Raymond's age and the age at which he had a son from Samantha's current age.\n\nStep 4: Calculate the number of years ago Raymond's son was born\nYears ago = Samantha's age when son was born\nYears ago = 17\nReasoning: Since Samantha was 17 years old when Raymond's son was born, we can conclude that it has been 17 years since Raymond's son was born.\n\nAnswer: 17",
+        "method": "cot",
+        "problem": {
+          "question": "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raymond had a son at the age of 23. If Samantha is now 31, how many years ago was Raymond's son born?",
+          "answer": "When Raymond's son was born Samantha was 23 - 6 = <<23-6=17>>17 years old.\nThus it has been 31 - 17 = <<31-17=14>>14 years since Raymond's son was born.\n#### 14"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      17.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      false
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

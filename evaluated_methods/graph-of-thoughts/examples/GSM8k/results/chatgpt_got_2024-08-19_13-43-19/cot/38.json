@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?",
+        "current": "Step 1: Calculate the total number of miles John runs per day\nTotal miles per day = 60 miles / 3 days = 20 miles\nReasoning: To find out how many miles John runs per day, we divide the total miles he runs in a week by the number of days he runs.\n\nStep 2: Calculate the number of miles John runs the first day\nMiles on the first day = 20 miles\nReasoning: Since John runs 20 miles per day, he runs 20 miles on the first day.\n\nStep 3: Calculate the number of miles John runs the other two days\nMiles on the other two days = 20 miles / 2 = 10 miles\nReasoning: The problem states that John runs half as much on the other two days, so we divide the total miles per day by 2.\n\nStep 4: Calculate the total hours John runs per week\nTotal hours = 3 hours + 1.5 hours + 1.5 hours = 6 hours\nReasoning: John runs 3 hours the first day and 1.5 hours on the other two days, so we sum up the hours for the whole week.\n\nStep 5: Calculate John's speed\nSpeed = Total miles / Total hours\nSpeed = 60 miles / 6 hours = 10 miles per hour\nReasoning: To find out how fast John runs, we divide the total miles he runs in a week by the total hours he runs.\n\nAnswer: John runs at a speed of 10 miles per hour.",
+        "method": "cot",
+        "problem": {
+          "question": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?",
+          "answer": "He has 7-1=<<7-1=6>>6 possible running days.\nHe runs half of those so he runs 6/2=<<6/2=3>>3 days.\nSo for two days, he runs 3/2=<<3/2=1.5>>1.5 hours.\nSo in total, he runs 3+1.5+1.5=<<3+1.5+1.5=6>>6 hours.\nSo he runs 60/6=<<60/6=10>>10 mph.\n#### 10"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?",
+        "current": "Step 1: Calculate the total number of miles John runs per day\nTotal miles per day = 60 miles / 3 days = 20 miles\nReasoning: To find out how many miles John runs per day, we divide the total miles he runs in a week by the number of days he runs.\n\nStep 2: Calculate the number of miles John runs the first day\nMiles on the first day = 20 miles\nReasoning: Since John runs 20 miles per day, he runs 20 miles on the first day.\n\nStep 3: Calculate the number of miles John runs the other two days\nMiles on the other two days = 20 miles / 2 = 10 miles\nReasoning: The problem states that John runs half as much on the other two days, so we divide the total miles per day by 2.\n\nStep 4: Calculate the total hours John runs per week\nTotal hours = 3 hours + 1.5 hours + 1.5 hours = 6 hours\nReasoning: John runs 3 hours the first day and 1.5 hours on the other two days, so we sum up the hours for the whole week.\n\nStep 5: Calculate John's speed\nSpeed = Total miles / Total hours\nSpeed = 60 miles / 6 hours = 10 miles per hour\nReasoning: To find out how fast John runs, we divide the total miles he runs in a week by the total hours he runs.\n\nAnswer: John runs at a speed of 10 miles per hour.",
+        "method": "cot",
+        "problem": {
+          "question": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?",
+          "answer": "He has 7-1=<<7-1=6>>6 possible running days.\nHe runs half of those so he runs 6/2=<<6/2=3>>3 days.\nSo for two days, he runs 3/2=<<3/2=1.5>>1.5 hours.\nSo in total, he runs 3+1.5+1.5=<<3+1.5+1.5=6>>6 hours.\nSo he runs 60/6=<<60/6=10>>10 mph.\n#### 10"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?",
+        "current": "Step 1: Calculate the total number of miles John runs per day\nTotal miles per day = 60 miles / 3 days = 20 miles\nReasoning: To find out how many miles John runs per day, we divide the total miles he runs in a week by the number of days he runs.\n\nStep 2: Calculate the number of miles John runs the first day\nMiles on the first day = 20 miles\nReasoning: Since John runs 20 miles per day, he runs 20 miles on the first day.\n\nStep 3: Calculate the number of miles John runs the other two days\nMiles on the other two days = 20 miles / 2 = 10 miles\nReasoning: The problem states that John runs half as much on the other two days, so we divide the total miles per day by 2.\n\nStep 4: Calculate the total hours John runs per week\nTotal hours = 3 hours + 1.5 hours + 1.5 hours = 6 hours\nReasoning: John runs 3 hours the first day and 1.5 hours on the other two days, so we sum up the hours for the whole week.\n\nStep 5: Calculate John's speed\nSpeed = Total miles / Total hours\nSpeed = 60 miles / 6 hours = 10 miles per hour\nReasoning: To find out how fast John runs, we divide the total miles he runs in a week by the total hours he runs.\n\nAnswer: John runs at a speed of 10 miles per hour.",
+        "method": "cot",
+        "problem": {
+          "question": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?",
+          "answer": "He has 7-1=<<7-1=6>>6 possible running days.\nHe runs half of those so he runs 6/2=<<6/2=3>>3 days.\nSo for two days, he runs 3/2=<<3/2=1.5>>1.5 hours.\nSo in total, he runs 3+1.5+1.5=<<3+1.5+1.5=6>>6 hours.\nSo he runs 60/6=<<60/6=10>>10 mph.\n#### 10"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 357,
+    "completion_tokens": 322,
+    "cost": 0.0011795
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+        "current": "Step 1: Determine the total duration the candle burns in hours\nThe candle burns from 1:00 PM to 5:00 PM.\nReasoning: To find the total duration, we subtract the start time from the end time.\n\nStep 2: Calculate the total number of hours\nTotal hours = 5:00 PM - 1:00 PM\nTotal hours = 4 hours\nReasoning: The difference between 5:00 PM and 1:00 PM is 4 hours.\n\nStep 3: Determine the rate at which the candle melts\nThe candle melts by 2 centimeters every hour.\nReasoning: The problem states that the candle melts by 2 centimeters each hour.\n\nStep 4: Calculate the total centimeters melted\nTotal centimeters melted = Total hours \u00d7 Melting rate per hour\nTotal centimeters melted = 4 hours \u00d7 2 cm/hour\nTotal centimeters melted = 8 centimeters\nReasoning: To find the total amount the candle will melt, we multiply the number of hours by the rate at which the candle melts.\n\nAnswer: 8 centimeters",
+        "method": "cot",
+        "problem": {
+          "question": "A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+          "answer": "The candle burns for 5 - 1 = <<5-1=4>>4 hours.\nThus, the candle will be 2 * 4 = <<2*4=8>>8 centimeters shorter.\n#### 8"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+        "current": "Step 1: Determine the total duration the candle burns in hours\nThe candle burns from 1:00 PM to 5:00 PM.\nReasoning: To find the total duration, we subtract the start time from the end time.\n\nStep 2: Calculate the total number of hours\nTotal hours = 5:00 PM - 1:00 PM\nTotal hours = 4 hours\nReasoning: The difference between 5:00 PM and 1:00 PM is 4 hours.\n\nStep 3: Determine the rate at which the candle melts\nThe candle melts by 2 centimeters every hour.\nReasoning: The problem states that the candle melts by 2 centimeters each hour.\n\nStep 4: Calculate the total centimeters melted\nTotal centimeters melted = Total hours \u00d7 Melting rate per hour\nTotal centimeters melted = 4 hours \u00d7 2 cm/hour\nTotal centimeters melted = 8 centimeters\nReasoning: To find the total amount the candle will melt, we multiply the number of hours by the rate at which the candle melts.\n\nAnswer: 8 centimeters",
+        "method": "cot",
+        "problem": {
+          "question": "A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+          "answer": "The candle burns for 5 - 1 = <<5-1=4>>4 hours.\nThus, the candle will be 2 * 4 = <<2*4=8>>8 centimeters shorter.\n#### 8"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      8.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+        "current": "Step 1: Determine the total duration the candle burns in hours\nThe candle burns from 1:00 PM to 5:00 PM.\nReasoning: To find the total duration, we subtract the start time from the end time.\n\nStep 2: Calculate the total number of hours\nTotal hours = 5:00 PM - 1:00 PM\nTotal hours = 4 hours\nReasoning: The difference between 5:00 PM and 1:00 PM is 4 hours.\n\nStep 3: Determine the rate at which the candle melts\nThe candle melts by 2 centimeters every hour.\nReasoning: The problem states that the candle melts by 2 centimeters each hour.\n\nStep 4: Calculate the total centimeters melted\nTotal centimeters melted = Total hours \u00d7 Melting rate per hour\nTotal centimeters melted = 4 hours \u00d7 2 cm/hour\nTotal centimeters melted = 8 centimeters\nReasoning: To find the total amount the candle will melt, we multiply the number of hours by the rate at which the candle melts.\n\nAnswer: 8 centimeters",
+        "method": "cot",
+        "problem": {
+          "question": "A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+          "answer": "The candle burns for 5 - 1 = <<5-1=4>>4 hours.\nThus, the candle will be 2 * 4 = <<2*4=8>>8 centimeters shorter.\n#### 8"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      8.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 348,
+    "completion_tokens": 221,
+    "cost": 0.0237
+  }
+]

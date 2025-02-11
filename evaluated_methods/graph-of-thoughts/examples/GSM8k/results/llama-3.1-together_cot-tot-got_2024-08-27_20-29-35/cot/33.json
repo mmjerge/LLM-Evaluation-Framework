@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Gretchen has 110 coins. There are 30 more gold coins than silver coins. How many gold coins does Gretchen have?",
+        "current": "Let's solve the problem step by step.\n\nStep 1: Let's denote the number of silver coins as x. Since there are 30 more gold coins than silver coins, the number of gold coins is x + 30.\n\nStep 2: The total number of coins is 110, which is the sum of the number of silver coins and the number of gold coins. We can write an equation to represent this:\n\nx + (x + 30) = 110\n\nStep 3: Simplify the equation by combining like terms:\n\n2x + 30 = 110\n\nStep 4: Subtract 30 from both sides of the equation to isolate the term with x:\n\n2x = 80\n\nStep 5: Divide both sides of the equation by 2 to solve for x:\n\nx = 40\n\nStep 6: Since x represents the number of silver coins, and we know that the number of gold coins is x + 30, we can substitute x = 40 into this expression to find the number of gold coins:\n\nNumber of gold coins = 40 + 30 = 70\n\nAnswer: 70",
+        "method": "cot",
+        "problem": {
+          "question": "Gretchen has 110 coins. There are 30 more gold coins than silver coins. How many gold coins does Gretchen have?",
+          "answer": "Let x be the number of silver coins Gretchen has\nGretchen has x+30 gold coins.\nx+x+30=110\n2*x=80\nx=<<40=40>>40\nGretchen has 40+30=<<40+30=70>>70 gold coins\n#### 70"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Gretchen has 110 coins. There are 30 more gold coins than silver coins. How many gold coins does Gretchen have?",
+        "current": "Let's solve the problem step by step.\n\nStep 1: Let's denote the number of silver coins as x. Since there are 30 more gold coins than silver coins, the number of gold coins is x + 30.\n\nStep 2: The total number of coins is 110, which is the sum of the number of silver coins and the number of gold coins. We can write an equation to represent this:\n\nx + (x + 30) = 110\n\nStep 3: Simplify the equation by combining like terms:\n\n2x + 30 = 110\n\nStep 4: Subtract 30 from both sides of the equation to isolate the term with x:\n\n2x = 80\n\nStep 5: Divide both sides of the equation by 2 to solve for x:\n\nx = 40\n\nStep 6: Since x represents the number of silver coins, and we know that the number of gold coins is x + 30, we can substitute x = 40 into this expression to find the number of gold coins:\n\nNumber of gold coins = 40 + 30 = 70\n\nAnswer: 70",
+        "method": "cot",
+        "problem": {
+          "question": "Gretchen has 110 coins. There are 30 more gold coins than silver coins. How many gold coins does Gretchen have?",
+          "answer": "Let x be the number of silver coins Gretchen has\nGretchen has x+30 gold coins.\nx+x+30=110\n2*x=80\nx=<<40=40>>40\nGretchen has 40+30=<<40+30=70>>70 gold coins\n#### 70"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      70.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Gretchen has 110 coins. There are 30 more gold coins than silver coins. How many gold coins does Gretchen have?",
+        "current": "Let's solve the problem step by step.\n\nStep 1: Let's denote the number of silver coins as x. Since there are 30 more gold coins than silver coins, the number of gold coins is x + 30.\n\nStep 2: The total number of coins is 110, which is the sum of the number of silver coins and the number of gold coins. We can write an equation to represent this:\n\nx + (x + 30) = 110\n\nStep 3: Simplify the equation by combining like terms:\n\n2x + 30 = 110\n\nStep 4: Subtract 30 from both sides of the equation to isolate the term with x:\n\n2x = 80\n\nStep 5: Divide both sides of the equation by 2 to solve for x:\n\nx = 40\n\nStep 6: Since x represents the number of silver coins, and we know that the number of gold coins is x + 30, we can substitute x = 40 into this expression to find the number of gold coins:\n\nNumber of gold coins = 40 + 30 = 70\n\nAnswer: 70",
+        "method": "cot",
+        "problem": {
+          "question": "Gretchen has 110 coins. There are 30 more gold coins than silver coins. How many gold coins does Gretchen have?",
+          "answer": "Let x be the number of silver coins Gretchen has\nGretchen has x+30 gold coins.\nx+x+30=110\n2*x=80\nx=<<40=40>>40\nGretchen has 40+30=<<40+30=70>>70 gold coins\n#### 70"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      70.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

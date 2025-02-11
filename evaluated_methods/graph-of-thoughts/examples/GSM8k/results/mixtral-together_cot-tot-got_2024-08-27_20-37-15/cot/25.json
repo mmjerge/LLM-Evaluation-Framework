@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Marie ordered one chicken meal that costs $12, 5 packs of milk that costs $3 each, 4 apples that cost $1.50 each, and some boxes of pizza. Marie paid a total of $50. How many boxes of pizza did Marie order if each box costs $8.50?",
+        "current": " Step 1: Calculate the total cost of Marie's chicken meal\nCost of chicken meal = $12\nReasoning: The problem states that Marie ordered one chicken meal that costs $12.\n\nStep 2: Calculate the total cost of the packs of milk\nCost of milk = Number of packs \u00d7 Price per pack\nCost of milk = 5 \u00d7 $3 = $15\nReasoning: Marie ordered 5 packs of milk, each costing $3, so we multiply the number of packs by the price per pack.\n\nStep 3: Calculate the total cost of the apples\nCost of apples = Number of apples \u00d7 Price per apple\nCost of apples = 4 \u00d7 $1.50 = $6\nReasoning: Marie ordered 4 apples, each costing $1.50, so we multiply the number of apples by the price per apple.\n\nStep 4: Calculate the total cost of the items before adding the boxes of pizza\nTotal cost before pizza = Cost of chicken meal + Cost of milk + Cost of apples\nTotal cost before pizza = $12 + $15 + $6 = $33\nReasoning: To find out how much Marie spent before ordering the boxes of pizza, we add the cost of the chicken meal, milk, and apples.\n\nStep 5: Calculate the total cost spent on boxes of pizza\nTotal cost of pizza = Total amount paid - Total cost before pizza\nTotal cost of pizza = $50 - $33 = $17\nReasoning: Marie paid a total of $50, so we subtract the total cost before pizza from the total amount paid to find out how much she spent on boxes of pizza.\n\nStep 6: Calculate the number of boxes of pizza Marie ordered\nNumber of pizza boxes = Total cost of pizza / Price per box\nNumber of pizza boxes = $17 / $8.50 = 2\nReasoning: Each box of pizza costs $8.50, so we divide the total cost of pizza by the price per box to find out how many boxes Marie ordered.\n\nAnswer: Marie ordered 2 boxes of pizza.",
+        "method": "cot",
+        "problem": {
+          "question": "Marie ordered one chicken meal that costs $12, 5 packs of milk that costs $3 each, 4 apples that cost $1.50 each, and some boxes of pizza. Marie paid a total of $50. How many boxes of pizza did Marie order if each box costs $8.50?",
+          "answer": "Five packs of milk cost $3 x 5 = $<<3*5=15>>15.\nFour apples cost $1.50 x 4 = $<<1.5*4=6>>6.\nThe total cost of the chicken meal, milk, and apples is $12 + $15 + $6 = $<<12+15+6=33>>33.\nThus, the boxes of pizza cost $50 - $33 = $<<50-33=17>>17.\nTherefore, Marie ordered $17/$8.50 = <<17/8.5=2>>2 boxes of pizza.\n#### 2"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Marie ordered one chicken meal that costs $12, 5 packs of milk that costs $3 each, 4 apples that cost $1.50 each, and some boxes of pizza. Marie paid a total of $50. How many boxes of pizza did Marie order if each box costs $8.50?",
+        "current": " Step 1: Calculate the total cost of Marie's chicken meal\nCost of chicken meal = $12\nReasoning: The problem states that Marie ordered one chicken meal that costs $12.\n\nStep 2: Calculate the total cost of the packs of milk\nCost of milk = Number of packs \u00d7 Price per pack\nCost of milk = 5 \u00d7 $3 = $15\nReasoning: Marie ordered 5 packs of milk, each costing $3, so we multiply the number of packs by the price per pack.\n\nStep 3: Calculate the total cost of the apples\nCost of apples = Number of apples \u00d7 Price per apple\nCost of apples = 4 \u00d7 $1.50 = $6\nReasoning: Marie ordered 4 apples, each costing $1.50, so we multiply the number of apples by the price per apple.\n\nStep 4: Calculate the total cost of the items before adding the boxes of pizza\nTotal cost before pizza = Cost of chicken meal + Cost of milk + Cost of apples\nTotal cost before pizza = $12 + $15 + $6 = $33\nReasoning: To find out how much Marie spent before ordering the boxes of pizza, we add the cost of the chicken meal, milk, and apples.\n\nStep 5: Calculate the total cost spent on boxes of pizza\nTotal cost of pizza = Total amount paid - Total cost before pizza\nTotal cost of pizza = $50 - $33 = $17\nReasoning: Marie paid a total of $50, so we subtract the total cost before pizza from the total amount paid to find out how much she spent on boxes of pizza.\n\nStep 6: Calculate the number of boxes of pizza Marie ordered\nNumber of pizza boxes = Total cost of pizza / Price per box\nNumber of pizza boxes = $17 / $8.50 = 2\nReasoning: Each box of pizza costs $8.50, so we divide the total cost of pizza by the price per box to find out how many boxes Marie ordered.\n\nAnswer: Marie ordered 2 boxes of pizza.",
+        "method": "cot",
+        "problem": {
+          "question": "Marie ordered one chicken meal that costs $12, 5 packs of milk that costs $3 each, 4 apples that cost $1.50 each, and some boxes of pizza. Marie paid a total of $50. How many boxes of pizza did Marie order if each box costs $8.50?",
+          "answer": "Five packs of milk cost $3 x 5 = $<<3*5=15>>15.\nFour apples cost $1.50 x 4 = $<<1.5*4=6>>6.\nThe total cost of the chicken meal, milk, and apples is $12 + $15 + $6 = $<<12+15+6=33>>33.\nThus, the boxes of pizza cost $50 - $33 = $<<50-33=17>>17.\nTherefore, Marie ordered $17/$8.50 = <<17/8.5=2>>2 boxes of pizza.\n#### 2"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Marie ordered one chicken meal that costs $12, 5 packs of milk that costs $3 each, 4 apples that cost $1.50 each, and some boxes of pizza. Marie paid a total of $50. How many boxes of pizza did Marie order if each box costs $8.50?",
+        "current": " Step 1: Calculate the total cost of Marie's chicken meal\nCost of chicken meal = $12\nReasoning: The problem states that Marie ordered one chicken meal that costs $12.\n\nStep 2: Calculate the total cost of the packs of milk\nCost of milk = Number of packs \u00d7 Price per pack\nCost of milk = 5 \u00d7 $3 = $15\nReasoning: Marie ordered 5 packs of milk, each costing $3, so we multiply the number of packs by the price per pack.\n\nStep 3: Calculate the total cost of the apples\nCost of apples = Number of apples \u00d7 Price per apple\nCost of apples = 4 \u00d7 $1.50 = $6\nReasoning: Marie ordered 4 apples, each costing $1.50, so we multiply the number of apples by the price per apple.\n\nStep 4: Calculate the total cost of the items before adding the boxes of pizza\nTotal cost before pizza = Cost of chicken meal + Cost of milk + Cost of apples\nTotal cost before pizza = $12 + $15 + $6 = $33\nReasoning: To find out how much Marie spent before ordering the boxes of pizza, we add the cost of the chicken meal, milk, and apples.\n\nStep 5: Calculate the total cost spent on boxes of pizza\nTotal cost of pizza = Total amount paid - Total cost before pizza\nTotal cost of pizza = $50 - $33 = $17\nReasoning: Marie paid a total of $50, so we subtract the total cost before pizza from the total amount paid to find out how much she spent on boxes of pizza.\n\nStep 6: Calculate the number of boxes of pizza Marie ordered\nNumber of pizza boxes = Total cost of pizza / Price per box\nNumber of pizza boxes = $17 / $8.50 = 2\nReasoning: Each box of pizza costs $8.50, so we divide the total cost of pizza by the price per box to find out how many boxes Marie ordered.\n\nAnswer: Marie ordered 2 boxes of pizza.",
+        "method": "cot",
+        "problem": {
+          "question": "Marie ordered one chicken meal that costs $12, 5 packs of milk that costs $3 each, 4 apples that cost $1.50 each, and some boxes of pizza. Marie paid a total of $50. How many boxes of pizza did Marie order if each box costs $8.50?",
+          "answer": "Five packs of milk cost $3 x 5 = $<<3*5=15>>15.\nFour apples cost $1.50 x 4 = $<<1.5*4=6>>6.\nThe total cost of the chicken meal, milk, and apples is $12 + $15 + $6 = $<<12+15+6=33>>33.\nThus, the boxes of pizza cost $50 - $33 = $<<50-33=17>>17.\nTherefore, Marie ordered $17/$8.50 = <<17/8.5=2>>2 boxes of pizza.\n#### 2"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

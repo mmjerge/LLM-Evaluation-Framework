@@ -1,0 +1,74 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?",
+        "current": "Let's solve the problem step by step.\n\n**Step 1: Calculate the total number of hours John runs per week**\n\nTotal hours = 3 hours (first day) + 2 \u00d7 (3 hours / 2) (other two days)\nTotal hours = 3 + 2 \u00d7 1.5\nTotal hours = 3 + 3\nTotal hours = 6 hours\n\n**Step 2: Calculate the average speed of John**\n\nAverage speed = Total distance / Total time\nAverage speed = 60 miles / 6 hours\nAverage speed = 10 miles per hour\n\n**Step 3: Calculate the speed of John**\n\nSpeed = Total distance / Total time\nSpeed = 60 miles / 6 hours\nSpeed = 10 miles per hour\n\n**Answer:** 10 miles per hour",
+        "method": "got",
+        "problem": {
+          "question": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?",
+          "answer": "He has 7-1=<<7-1=6>>6 possible running days.\nHe runs half of those so he runs 6/2=<<6/2=3>>3 days.\nSo for two days, he runs 3/2=<<3/2=1.5>>1.5 hours.\nSo in total, he runs 3+1.5+1.5=<<3+1.5+1.5=6>>6 hours.\nSo he runs 60/6=<<60/6=10>>10 mph.\n#### 10"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?",
+        "current": "Let's solve the problem step by step.\n\n**Step 1: Calculate the total number of hours John runs per week**\n\nTotal hours = 3 hours (first day) + 2 \u00d7 (3 hours / 2) (other two days)\nTotal hours = 3 + 2 \u00d7 1.5\nTotal hours = 3 + 3\nTotal hours = 6 hours\n\n**Step 2: Calculate the average speed of John**\n\nAverage speed = Total distance / Total time\nAverage speed = 60 miles / 6 hours\nAverage speed = 10 miles per hour\n\n**Step 3: Calculate the speed of John**\n\nSpeed = Total distance / Total time\nSpeed = 60 miles / 6 hours\nSpeed = 10 miles per hour\n\n**Answer:** 10 miles per hour",
+        "method": "got",
+        "problem": {
+          "question": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?",
+          "answer": "He has 7-1=<<7-1=6>>6 possible running days.\nHe runs half of those so he runs 6/2=<<6/2=3>>3 days.\nSo for two days, he runs 3/2=<<3/2=1.5>>1.5 hours.\nSo in total, he runs 3+1.5+1.5=<<3+1.5+1.5=6>>6 hours.\nSo he runs 60/6=<<60/6=10>>10 mph.\n#### 10"
+        }
+      },
+      {
+        "original": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?",
+        "current": "Let's solve the problem step by step.\n\n**Step 1: Calculate the total number of hours John runs per week**\n\nTotal hours = 3 hours (first day) + 2 \u00d7 (3 hours / 2) (other two days)\nTotal hours = 3 + 2 \u00d7 1.5\nTotal hours = 3 + 3\nTotal hours = 6 hours\n\n**Step 2: Calculate the average speed of John**\n\nAverage speed = Total distance / Total time\nAverage speed = 60 miles / 6 hours\nAverage speed = 10 miles per hour\n\n**Step 3: Calculate the speed of John**\n\nSpeed = Total distance / Total time\nSpeed = 60 miles / 6 hours\nSpeed = 10 miles per hour\n\n**Answer:** 10 miles per hour",
+        "method": "got",
+        "problem": {
+          "question": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?",
+          "answer": "He has 7-1=<<7-1=6>>6 possible running days.\nHe runs half of those so he runs 6/2=<<6/2=3>>3 days.\nSo for two days, he runs 3/2=<<3/2=1.5>>1.5 hours.\nSo in total, he runs 3+1.5+1.5=<<3+1.5+1.5=6>>6 hours.\nSo he runs 60/6=<<60/6=10>>10 mph.\n#### 10"
+        }
+      },
+      {
+        "original": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?",
+        "current": "Let's solve the problem step by step.\n\n**Step 1: Calculate the total number of hours John runs per week**\n\nTotal hours = 3 hours (first day) + 2 \u00d7 (3 hours / 2) (other two days)\nTotal hours = 3 + 2 \u00d7 1.5\nTotal hours = 3 + 3\nTotal hours = 6 hours\n\n**Step 2: Calculate the average speed of John**\n\nAverage speed = Total distance / Total time\nAverage speed = 60 miles / 6 hours\nAverage speed = 10 miles per hour\n\n**Step 3: Calculate the speed of John**\n\nSpeed = Total distance / Total time\nSpeed = 60 miles / 6 hours\nSpeed = 10 miles per hour\n\n**Answer:** 10 miles per hour",
+        "method": "got",
+        "problem": {
+          "question": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?",
+          "answer": "He has 7-1=<<7-1=6>>6 possible running days.\nHe runs half of those so he runs 6/2=<<6/2=3>>3 days.\nSo for two days, he runs 3/2=<<3/2=1.5>>1.5 hours.\nSo in total, he runs 3+1.5+1.5=<<3+1.5+1.5=6>>6 hours.\nSo he runs 60/6=<<60/6=10>>10 mph.\n#### 10"
+        }
+      },
+      {
+        "original": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?",
+        "current": "Let's solve the problem step by step.\n\n**Step 1: Calculate the total number of hours John runs per week**\n\nTotal hours = 3 hours (first day) + 2 \u00d7 (3 hours / 2) (other two days)\nTotal hours = 3 + 2 \u00d7 1.5\nTotal hours = 3 + 3\nTotal hours = 6 hours\n\n**Step 2: Calculate the average speed of John**\n\nAverage speed = Total distance / Total time\nAverage speed = 60 miles / 6 hours\nAverage speed = 10 miles per hour\n\n**Step 3: Calculate the speed of John**\n\nSpeed = Total distance / Total time\nSpeed = 60 miles / 6 hours\nSpeed = 10 miles per hour\n\n**Answer:** 10 miles per hour",
+        "method": "got",
+        "problem": {
+          "question": "John runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?",
+          "answer": "He has 7-1=<<7-1=6>>6 possible running days.\nHe runs half of those so he runs 6/2=<<6/2=3>>3 days.\nSo for two days, he runs 3/2=<<3/2=1.5>>1.5 hours.\nSo in total, he runs 3+1.5+1.5=<<3+1.5+1.5=6>>6 hours.\nSo he runs 60/6=<<60/6=10>>10 mph.\n#### 10"
+        }
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

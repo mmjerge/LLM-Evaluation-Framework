@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Cynthia eats one serving of ice cream every night.  She buys cartons of ice cream with 15 servings of ice cream per carton at a cost of $4.00 per carton.  After 60 days, how much will she spend on ice cream?",
+        "current": " Step 1: Calculate the number of servings Cynthia eats in 60 days\nServings eaten in 60 days = 1 serving/day \u00d7 60 days = 60 servings\nReasoning: Cynthia eats one serving of ice cream every night, so in 60 days, she will eat 60 servings.\n\nStep 2: Calculate the number of cartons Cynthia needs to buy\nCartons needed = Servings eaten in 60 days / Servings per carton\nCartons needed = 60 servings / 15 servings/carton = 4 cartons\nReasoning: To find out how many cartons Cynthia needs to buy, we divide the total number of servings she eats in 60 days by the number of servings per carton.\n\nStep 3: Calculate the total cost of the cartons\nTotal cost = Cartons needed \u00d7 Cost per carton\nTotal cost = 4 cartons \u00d7 $4.00/carton = $16.00\nReasoning: Each carton costs $4.00, so we multiply the number of cartons Cynthia needs to buy by the cost per carton.\n\nAnswer: $16.00",
+        "method": "cot",
+        "problem": {
+          "question": "Cynthia eats one serving of ice cream every night.  She buys cartons of ice cream with 15 servings of ice cream per carton at a cost of $4.00 per carton.  After 60 days, how much will she spend on ice cream?",
+          "answer": "Each container of ice cream has 15 servings and she eats 1 serving a night so after 60 days she will need 60/15 = 4 containers of ice cream\nIf each carton costs $4.00 and she needs 4 containers then it will cost her 4*4 = $<<4*4=16.00>>16.00\n#### 16"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Cynthia eats one serving of ice cream every night.  She buys cartons of ice cream with 15 servings of ice cream per carton at a cost of $4.00 per carton.  After 60 days, how much will she spend on ice cream?",
+        "current": " Step 1: Calculate the number of servings Cynthia eats in 60 days\nServings eaten in 60 days = 1 serving/day \u00d7 60 days = 60 servings\nReasoning: Cynthia eats one serving of ice cream every night, so in 60 days, she will eat 60 servings.\n\nStep 2: Calculate the number of cartons Cynthia needs to buy\nCartons needed = Servings eaten in 60 days / Servings per carton\nCartons needed = 60 servings / 15 servings/carton = 4 cartons\nReasoning: To find out how many cartons Cynthia needs to buy, we divide the total number of servings she eats in 60 days by the number of servings per carton.\n\nStep 3: Calculate the total cost of the cartons\nTotal cost = Cartons needed \u00d7 Cost per carton\nTotal cost = 4 cartons \u00d7 $4.00/carton = $16.00\nReasoning: Each carton costs $4.00, so we multiply the number of cartons Cynthia needs to buy by the cost per carton.\n\nAnswer: $16.00",
+        "method": "cot",
+        "problem": {
+          "question": "Cynthia eats one serving of ice cream every night.  She buys cartons of ice cream with 15 servings of ice cream per carton at a cost of $4.00 per carton.  After 60 days, how much will she spend on ice cream?",
+          "answer": "Each container of ice cream has 15 servings and she eats 1 serving a night so after 60 days she will need 60/15 = 4 containers of ice cream\nIf each carton costs $4.00 and she needs 4 containers then it will cost her 4*4 = $<<4*4=16.00>>16.00\n#### 16"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      16.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Cynthia eats one serving of ice cream every night.  She buys cartons of ice cream with 15 servings of ice cream per carton at a cost of $4.00 per carton.  After 60 days, how much will she spend on ice cream?",
+        "current": " Step 1: Calculate the number of servings Cynthia eats in 60 days\nServings eaten in 60 days = 1 serving/day \u00d7 60 days = 60 servings\nReasoning: Cynthia eats one serving of ice cream every night, so in 60 days, she will eat 60 servings.\n\nStep 2: Calculate the number of cartons Cynthia needs to buy\nCartons needed = Servings eaten in 60 days / Servings per carton\nCartons needed = 60 servings / 15 servings/carton = 4 cartons\nReasoning: To find out how many cartons Cynthia needs to buy, we divide the total number of servings she eats in 60 days by the number of servings per carton.\n\nStep 3: Calculate the total cost of the cartons\nTotal cost = Cartons needed \u00d7 Cost per carton\nTotal cost = 4 cartons \u00d7 $4.00/carton = $16.00\nReasoning: Each carton costs $4.00, so we multiply the number of cartons Cynthia needs to buy by the cost per carton.\n\nAnswer: $16.00",
+        "method": "cot",
+        "problem": {
+          "question": "Cynthia eats one serving of ice cream every night.  She buys cartons of ice cream with 15 servings of ice cream per carton at a cost of $4.00 per carton.  After 60 days, how much will she spend on ice cream?",
+          "answer": "Each container of ice cream has 15 servings and she eats 1 serving a night so after 60 days she will need 60/15 = 4 containers of ice cream\nIf each carton costs $4.00 and she needs 4 containers then it will cost her 4*4 = $<<4*4=16.00>>16.00\n#### 16"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      16.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

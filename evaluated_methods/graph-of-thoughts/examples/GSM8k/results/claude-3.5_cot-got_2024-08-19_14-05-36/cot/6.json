@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+        "current": "I'll solve this problem step by step, showing my reasoning for each step.\n\nStep 1: Determine the number of sheep Seattle has\nSeattle's sheep = 20\nReasoning: The problem directly states that Seattle has 20 sheep.\n\nStep 2: Calculate the number of sheep Charleston has\nCharleston's sheep = 4 \u00d7 Seattle's sheep\nCharleston's sheep = 4 \u00d7 20 = 80\nReasoning: The problem states that Charleston has 4 times as many sheep as Seattle.\n\nStep 3: Calculate the number of sheep Toulouse has\nToulouse's sheep = 2 \u00d7 Charleston's sheep\nToulouse's sheep = 2 \u00d7 80 = 160\nReasoning: The problem states that Toulouse has twice as many sheep as Charleston.\n\nStep 4: Sum up the total number of sheep for all three cities\nTotal sheep = Seattle's sheep + Charleston's sheep + Toulouse's sheep\nTotal sheep = 20 + 80 + 160 = 260\nReasoning: To find the total number of sheep, we add the number of sheep from each city.\n\nAnswer: 260",
+        "method": "cot",
+        "problem": {
+          "question": "Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+          "answer": "If Seattle has 20 sheep, Charleston has 4 * 20 sheep = <<20*4=80>>80 sheep\nToulouse has twice as many sheep as Charleston, which is 2 * 80 sheep = <<2*80=160>>160 sheep\nTogether, the three has 20 sheep + 160 sheep + 80 sheep = <<20+160+80=260>>260 sheep\n#### 260"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+        "current": "I'll solve this problem step by step, showing my reasoning for each step.\n\nStep 1: Determine the number of sheep Seattle has\nSeattle's sheep = 20\nReasoning: The problem directly states that Seattle has 20 sheep.\n\nStep 2: Calculate the number of sheep Charleston has\nCharleston's sheep = 4 \u00d7 Seattle's sheep\nCharleston's sheep = 4 \u00d7 20 = 80\nReasoning: The problem states that Charleston has 4 times as many sheep as Seattle.\n\nStep 3: Calculate the number of sheep Toulouse has\nToulouse's sheep = 2 \u00d7 Charleston's sheep\nToulouse's sheep = 2 \u00d7 80 = 160\nReasoning: The problem states that Toulouse has twice as many sheep as Charleston.\n\nStep 4: Sum up the total number of sheep for all three cities\nTotal sheep = Seattle's sheep + Charleston's sheep + Toulouse's sheep\nTotal sheep = 20 + 80 + 160 = 260\nReasoning: To find the total number of sheep, we add the number of sheep from each city.\n\nAnswer: 260",
+        "method": "cot",
+        "problem": {
+          "question": "Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+          "answer": "If Seattle has 20 sheep, Charleston has 4 * 20 sheep = <<20*4=80>>80 sheep\nToulouse has twice as many sheep as Charleston, which is 2 * 80 sheep = <<2*80=160>>160 sheep\nTogether, the three has 20 sheep + 160 sheep + 80 sheep = <<20+160+80=260>>260 sheep\n#### 260"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      260.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+        "current": "I'll solve this problem step by step, showing my reasoning for each step.\n\nStep 1: Determine the number of sheep Seattle has\nSeattle's sheep = 20\nReasoning: The problem directly states that Seattle has 20 sheep.\n\nStep 2: Calculate the number of sheep Charleston has\nCharleston's sheep = 4 \u00d7 Seattle's sheep\nCharleston's sheep = 4 \u00d7 20 = 80\nReasoning: The problem states that Charleston has 4 times as many sheep as Seattle.\n\nStep 3: Calculate the number of sheep Toulouse has\nToulouse's sheep = 2 \u00d7 Charleston's sheep\nToulouse's sheep = 2 \u00d7 80 = 160\nReasoning: The problem states that Toulouse has twice as many sheep as Charleston.\n\nStep 4: Sum up the total number of sheep for all three cities\nTotal sheep = Seattle's sheep + Charleston's sheep + Toulouse's sheep\nTotal sheep = 20 + 80 + 160 = 260\nReasoning: To find the total number of sheep, we add the number of sheep from each city.\n\nAnswer: 260",
+        "method": "cot",
+        "problem": {
+          "question": "Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+          "answer": "If Seattle has 20 sheep, Charleston has 4 * 20 sheep = <<20*4=80>>80 sheep\nToulouse has twice as many sheep as Charleston, which is 2 * 80 sheep = <<2*80=160>>160 sheep\nTogether, the three has 20 sheep + 160 sheep + 80 sheep = <<20+160+80=260>>260 sheep\n#### 260"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      260.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

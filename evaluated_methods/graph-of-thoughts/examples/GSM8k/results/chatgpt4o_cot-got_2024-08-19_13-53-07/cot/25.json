@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Marie ordered one chicken meal that costs $12, 5 packs of milk that costs $3 each, 4 apples that cost $1.50 each, and some boxes of pizza. Marie paid a total of $50. How many boxes of pizza did Marie order if each box costs $8.50?",
+        "current": "Step 1: Identify the costs of the items Marie ordered and the total cost.\n\n- Chicken meal cost = $12\n- Milk cost per pack = $3\n- Apples cost per apple = $1.50\n- Pizza cost per box = $8.50\n- Total cost = $50\n\nStep 2: Calculate the total cost of the chicken meal, milk, and apples.\n\nFor the chicken meal:\nCost of chicken meal = $12\n\nFor the milk:\nNumber of milk packs = 5\nTotal cost of milk = Number of milk packs \u00d7 Cost per pack\nTotal cost of milk = 5 \u00d7 $3 = $15\n\nFor the apples:\nNumber of apples = 4\nTotal cost of apples = Number of apples \u00d7 Cost per apple\nTotal cost of apples = 4 \u00d7 $1.50 = $6\n\nStep 3: Calculate the combined cost of the chicken meal, milk, and apples.\n\nCombined cost = Cost of chicken meal + Total cost of milk + Total cost of apples\nCombined cost = $12 + $15 + $6 = $33\n\nStep 4: Determine the remaining amount of money that is spent on pizza.\n\nRemaining amount = Total cost - Combined cost\nRemaining amount = $50 - $33 = $17\n\nStep 5: Calculate the number of boxes of pizza can be bought with the remaining amount.\n\nNumber of boxes of pizza = Remaining amount / Cost per box\nNumber of boxes of pizza = $17 / $8.50 = 2\n\nReasoning: Dividing the remaining amount by the cost per box gives the number of boxes.\n\nAnswer: 2",
+        "method": "cot",
+        "problem": {
+          "question": "Marie ordered one chicken meal that costs $12, 5 packs of milk that costs $3 each, 4 apples that cost $1.50 each, and some boxes of pizza. Marie paid a total of $50. How many boxes of pizza did Marie order if each box costs $8.50?",
+          "answer": "Five packs of milk cost $3 x 5 = $<<3*5=15>>15.\nFour apples cost $1.50 x 4 = $<<1.5*4=6>>6.\nThe total cost of the chicken meal, milk, and apples is $12 + $15 + $6 = $<<12+15+6=33>>33.\nThus, the boxes of pizza cost $50 - $33 = $<<50-33=17>>17.\nTherefore, Marie ordered $17/$8.50 = <<17/8.5=2>>2 boxes of pizza.\n#### 2"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Marie ordered one chicken meal that costs $12, 5 packs of milk that costs $3 each, 4 apples that cost $1.50 each, and some boxes of pizza. Marie paid a total of $50. How many boxes of pizza did Marie order if each box costs $8.50?",
+        "current": "Step 1: Identify the costs of the items Marie ordered and the total cost.\n\n- Chicken meal cost = $12\n- Milk cost per pack = $3\n- Apples cost per apple = $1.50\n- Pizza cost per box = $8.50\n- Total cost = $50\n\nStep 2: Calculate the total cost of the chicken meal, milk, and apples.\n\nFor the chicken meal:\nCost of chicken meal = $12\n\nFor the milk:\nNumber of milk packs = 5\nTotal cost of milk = Number of milk packs \u00d7 Cost per pack\nTotal cost of milk = 5 \u00d7 $3 = $15\n\nFor the apples:\nNumber of apples = 4\nTotal cost of apples = Number of apples \u00d7 Cost per apple\nTotal cost of apples = 4 \u00d7 $1.50 = $6\n\nStep 3: Calculate the combined cost of the chicken meal, milk, and apples.\n\nCombined cost = Cost of chicken meal + Total cost of milk + Total cost of apples\nCombined cost = $12 + $15 + $6 = $33\n\nStep 4: Determine the remaining amount of money that is spent on pizza.\n\nRemaining amount = Total cost - Combined cost\nRemaining amount = $50 - $33 = $17\n\nStep 5: Calculate the number of boxes of pizza can be bought with the remaining amount.\n\nNumber of boxes of pizza = Remaining amount / Cost per box\nNumber of boxes of pizza = $17 / $8.50 = 2\n\nReasoning: Dividing the remaining amount by the cost per box gives the number of boxes.\n\nAnswer: 2",
+        "method": "cot",
+        "problem": {
+          "question": "Marie ordered one chicken meal that costs $12, 5 packs of milk that costs $3 each, 4 apples that cost $1.50 each, and some boxes of pizza. Marie paid a total of $50. How many boxes of pizza did Marie order if each box costs $8.50?",
+          "answer": "Five packs of milk cost $3 x 5 = $<<3*5=15>>15.\nFour apples cost $1.50 x 4 = $<<1.5*4=6>>6.\nThe total cost of the chicken meal, milk, and apples is $12 + $15 + $6 = $<<12+15+6=33>>33.\nThus, the boxes of pizza cost $50 - $33 = $<<50-33=17>>17.\nTherefore, Marie ordered $17/$8.50 = <<17/8.5=2>>2 boxes of pizza.\n#### 2"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      2.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Marie ordered one chicken meal that costs $12, 5 packs of milk that costs $3 each, 4 apples that cost $1.50 each, and some boxes of pizza. Marie paid a total of $50. How many boxes of pizza did Marie order if each box costs $8.50?",
+        "current": "Step 1: Identify the costs of the items Marie ordered and the total cost.\n\n- Chicken meal cost = $12\n- Milk cost per pack = $3\n- Apples cost per apple = $1.50\n- Pizza cost per box = $8.50\n- Total cost = $50\n\nStep 2: Calculate the total cost of the chicken meal, milk, and apples.\n\nFor the chicken meal:\nCost of chicken meal = $12\n\nFor the milk:\nNumber of milk packs = 5\nTotal cost of milk = Number of milk packs \u00d7 Cost per pack\nTotal cost of milk = 5 \u00d7 $3 = $15\n\nFor the apples:\nNumber of apples = 4\nTotal cost of apples = Number of apples \u00d7 Cost per apple\nTotal cost of apples = 4 \u00d7 $1.50 = $6\n\nStep 3: Calculate the combined cost of the chicken meal, milk, and apples.\n\nCombined cost = Cost of chicken meal + Total cost of milk + Total cost of apples\nCombined cost = $12 + $15 + $6 = $33\n\nStep 4: Determine the remaining amount of money that is spent on pizza.\n\nRemaining amount = Total cost - Combined cost\nRemaining amount = $50 - $33 = $17\n\nStep 5: Calculate the number of boxes of pizza can be bought with the remaining amount.\n\nNumber of boxes of pizza = Remaining amount / Cost per box\nNumber of boxes of pizza = $17 / $8.50 = 2\n\nReasoning: Dividing the remaining amount by the cost per box gives the number of boxes.\n\nAnswer: 2",
+        "method": "cot",
+        "problem": {
+          "question": "Marie ordered one chicken meal that costs $12, 5 packs of milk that costs $3 each, 4 apples that cost $1.50 each, and some boxes of pizza. Marie paid a total of $50. How many boxes of pizza did Marie order if each box costs $8.50?",
+          "answer": "Five packs of milk cost $3 x 5 = $<<3*5=15>>15.\nFour apples cost $1.50 x 4 = $<<1.5*4=6>>6.\nThe total cost of the chicken meal, milk, and apples is $12 + $15 + $6 = $<<12+15+6=33>>33.\nThus, the boxes of pizza cost $50 - $33 = $<<50-33=17>>17.\nTherefore, Marie ordered $17/$8.50 = <<17/8.5=2>>2 boxes of pizza.\n#### 2"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      2.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 375,
+    "completion_tokens": 334,
+    "cost": 0.03129
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Mike plays ping pong for 40 minutes.  In the first 20 minutes, he scores 4 points.  In the second 20 minutes, he scores 25% more points.  How many total points did he score?",
+        "current": "Step 1: Calculate the points Mike scores in the first 20 minutes.\nPoints in first 20 minutes = 4\nReasoning: The problem states that Mike scores 4 points in the first 20 minutes.\n\nStep 2: Calculate the points Mike scores in the second 20 minutes.\nPoints increase in second 20 minutes = 25% of points scored in the first 20 minutes\nPoints increase = 4 \u00d7 0.25 = 1\nReasoning: Mike scores 25% more points in the second 20 minutes than he did in the first 20 minutes. We calculate 25% of 4 points to find the increase in points.\n\nPoints in second 20 minutes = Points in first 20 minutes + Points increase\nPoints in second 20 minutes = 4 + 1 = 5\nReasoning: To find out the total points scored in the second 20 minutes, we add the points increase to the points scored in the first 20 minutes.\n\nStep 3: Calculate the total points Mike scored.\nTotal points = Points in first 20 minutes + Points in second 20 minutes\nTotal points = 4 + 5 = 9\nReasoning: To find the total points scored, we add the points scored in the first 20 minutes to the points scored in the second 20 minutes.\n\nAnswer: 9",
+        "method": "cot",
+        "problem": {
+          "question": "Mike plays ping pong for 40 minutes.  In the first 20 minutes, he scores 4 points.  In the second 20 minutes, he scores 25% more points.  How many total points did he score?",
+          "answer": "He scored 4*.25=<<4*.25=1>>1 point more in the second 20 minutes\nSo he scored 4+1=<<4+1=5>>5 points in the second 20 minutes\nSo in total, he scored 4+5=<<4+5=9>>9 points in the 40 minutes\n#### 9"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Mike plays ping pong for 40 minutes.  In the first 20 minutes, he scores 4 points.  In the second 20 minutes, he scores 25% more points.  How many total points did he score?",
+        "current": "Step 1: Calculate the points Mike scores in the first 20 minutes.\nPoints in first 20 minutes = 4\nReasoning: The problem states that Mike scores 4 points in the first 20 minutes.\n\nStep 2: Calculate the points Mike scores in the second 20 minutes.\nPoints increase in second 20 minutes = 25% of points scored in the first 20 minutes\nPoints increase = 4 \u00d7 0.25 = 1\nReasoning: Mike scores 25% more points in the second 20 minutes than he did in the first 20 minutes. We calculate 25% of 4 points to find the increase in points.\n\nPoints in second 20 minutes = Points in first 20 minutes + Points increase\nPoints in second 20 minutes = 4 + 1 = 5\nReasoning: To find out the total points scored in the second 20 minutes, we add the points increase to the points scored in the first 20 minutes.\n\nStep 3: Calculate the total points Mike scored.\nTotal points = Points in first 20 minutes + Points in second 20 minutes\nTotal points = 4 + 5 = 9\nReasoning: To find the total points scored, we add the points scored in the first 20 minutes to the points scored in the second 20 minutes.\n\nAnswer: 9",
+        "method": "cot",
+        "problem": {
+          "question": "Mike plays ping pong for 40 minutes.  In the first 20 minutes, he scores 4 points.  In the second 20 minutes, he scores 25% more points.  How many total points did he score?",
+          "answer": "He scored 4*.25=<<4*.25=1>>1 point more in the second 20 minutes\nSo he scored 4+1=<<4+1=5>>5 points in the second 20 minutes\nSo in total, he scored 4+5=<<4+5=9>>9 points in the 40 minutes\n#### 9"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      9.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Mike plays ping pong for 40 minutes.  In the first 20 minutes, he scores 4 points.  In the second 20 minutes, he scores 25% more points.  How many total points did he score?",
+        "current": "Step 1: Calculate the points Mike scores in the first 20 minutes.\nPoints in first 20 minutes = 4\nReasoning: The problem states that Mike scores 4 points in the first 20 minutes.\n\nStep 2: Calculate the points Mike scores in the second 20 minutes.\nPoints increase in second 20 minutes = 25% of points scored in the first 20 minutes\nPoints increase = 4 \u00d7 0.25 = 1\nReasoning: Mike scores 25% more points in the second 20 minutes than he did in the first 20 minutes. We calculate 25% of 4 points to find the increase in points.\n\nPoints in second 20 minutes = Points in first 20 minutes + Points increase\nPoints in second 20 minutes = 4 + 1 = 5\nReasoning: To find out the total points scored in the second 20 minutes, we add the points increase to the points scored in the first 20 minutes.\n\nStep 3: Calculate the total points Mike scored.\nTotal points = Points in first 20 minutes + Points in second 20 minutes\nTotal points = 4 + 5 = 9\nReasoning: To find the total points scored, we add the points scored in the first 20 minutes to the points scored in the second 20 minutes.\n\nAnswer: 9",
+        "method": "cot",
+        "problem": {
+          "question": "Mike plays ping pong for 40 minutes.  In the first 20 minutes, he scores 4 points.  In the second 20 minutes, he scores 25% more points.  How many total points did he score?",
+          "answer": "He scored 4*.25=<<4*.25=1>>1 point more in the second 20 minutes\nSo he scored 4+1=<<4+1=5>>5 points in the second 20 minutes\nSo in total, he scored 4+5=<<4+5=9>>9 points in the 40 minutes\n#### 9"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      9.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 360,
+    "completion_tokens": 280,
+    "cost": 0.0276
+  }
+]

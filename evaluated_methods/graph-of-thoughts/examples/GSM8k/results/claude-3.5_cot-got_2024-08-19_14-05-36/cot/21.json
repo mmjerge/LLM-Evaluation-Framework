@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raymond had a son at the age of 23. If Samantha is now 31, how many years ago was Raymond's son born?",
+        "current": "Let's solve this problem step by step:\n\nStep 1: Determine Raymond's current age\nRaymond's age = Samantha's age + 6\nRaymond's age = 31 + 6 = 37\nReasoning: We know that Raymond was born 6 years before Samantha, and Samantha is currently 31 years old.\n\nStep 2: Calculate how old Raymond was when his son was born\nAge when son was born = 23\nReasoning: The problem states that Raymond had a son at the age of 23.\n\nStep 3: Calculate how many years ago Raymond's son was born\nYears ago = Raymond's current age - Age when son was born\nYears ago = 37 - 23 = 14\nReasoning: To find out how many years ago Raymond's son was born, we subtract Raymond's age when his son was born from his current age.\n\nAnswer: 14 years ago",
+        "method": "cot",
+        "problem": {
+          "question": "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raymond had a son at the age of 23. If Samantha is now 31, how many years ago was Raymond's son born?",
+          "answer": "When Raymond's son was born Samantha was 23 - 6 = <<23-6=17>>17 years old.\nThus it has been 31 - 17 = <<31-17=14>>14 years since Raymond's son was born.\n#### 14"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raymond had a son at the age of 23. If Samantha is now 31, how many years ago was Raymond's son born?",
+        "current": "Let's solve this problem step by step:\n\nStep 1: Determine Raymond's current age\nRaymond's age = Samantha's age + 6\nRaymond's age = 31 + 6 = 37\nReasoning: We know that Raymond was born 6 years before Samantha, and Samantha is currently 31 years old.\n\nStep 2: Calculate how old Raymond was when his son was born\nAge when son was born = 23\nReasoning: The problem states that Raymond had a son at the age of 23.\n\nStep 3: Calculate how many years ago Raymond's son was born\nYears ago = Raymond's current age - Age when son was born\nYears ago = 37 - 23 = 14\nReasoning: To find out how many years ago Raymond's son was born, we subtract Raymond's age when his son was born from his current age.\n\nAnswer: 14 years ago",
+        "method": "cot",
+        "problem": {
+          "question": "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raymond had a son at the age of 23. If Samantha is now 31, how many years ago was Raymond's son born?",
+          "answer": "When Raymond's son was born Samantha was 23 - 6 = <<23-6=17>>17 years old.\nThus it has been 31 - 17 = <<31-17=14>>14 years since Raymond's son was born.\n#### 14"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      14.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raymond had a son at the age of 23. If Samantha is now 31, how many years ago was Raymond's son born?",
+        "current": "Let's solve this problem step by step:\n\nStep 1: Determine Raymond's current age\nRaymond's age = Samantha's age + 6\nRaymond's age = 31 + 6 = 37\nReasoning: We know that Raymond was born 6 years before Samantha, and Samantha is currently 31 years old.\n\nStep 2: Calculate how old Raymond was when his son was born\nAge when son was born = 23\nReasoning: The problem states that Raymond had a son at the age of 23.\n\nStep 3: Calculate how many years ago Raymond's son was born\nYears ago = Raymond's current age - Age when son was born\nYears ago = 37 - 23 = 14\nReasoning: To find out how many years ago Raymond's son was born, we subtract Raymond's age when his son was born from his current age.\n\nAnswer: 14 years ago",
+        "method": "cot",
+        "problem": {
+          "question": "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raymond had a son at the age of 23. If Samantha is now 31, how many years ago was Raymond's son born?",
+          "answer": "When Raymond's son was born Samantha was 23 - 6 = <<23-6=17>>17 years old.\nThus it has been 31 - 17 = <<31-17=14>>14 years since Raymond's son was born.\n#### 14"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      14.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

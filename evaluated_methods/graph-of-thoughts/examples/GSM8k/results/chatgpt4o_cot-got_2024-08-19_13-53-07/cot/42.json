@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Grandma Jones baked 5 apple pies for the fireman's luncheon.  She cut each pie into 8 pieces and set the five pies out on the buffet table for the guests to serve themselves.  At the end of the evening, after the guests had taken and eaten their pieces of pie, there were 14 pieces of pie remaining.  How many pieces were taken by the guests?",
+        "current": "<Instruction> Solve the following math problem step by step. Show your reasoning for each step. Provide your final answer at the end, prefixed with \"Answer: \". </Instruction>\n\n<Examples>\nInput: Janet's ducks lay 16 eggs per day. She eats three for breakfast every morning and sells the rest at the farmers market daily for $2 per egg. How much in dollars does she make every day at the farmers market?\n\nStep 1: Calculate the total number of eggs Janet's ducks lay per day\nTotal eggs = 16\nReasoning: The problem states that Janet's ducks lay 16 eggs per day.\n\nStep 2: Calculate the number of eggs Janet eats for breakfast\nEggs eaten = 3\nReasoning: The problem states that Janet eats three eggs for breakfast every morning.\n\nStep 3: Calculate the number of eggs left to sell\nEggs to sell = Total eggs - Eggs eaten\nEggs to sell = 16 - 3 = 13\nReasoning: To find out how many eggs Janet can sell, we subtract the number of eggs she eats from the total number of eggs laid.\n\nStep 4: Calculate the money Janet makes from selling the eggs\nMoney made = Eggs to sell \u00d7 Price per egg\nMoney made = 13 \u00d7 $2 = $26\nReasoning: Janet sells each egg for $2, so we multiply the number of eggs she sells by the price per egg.\n\nAnswer: $26\n\nInput: Grandma Jones baked 5 apple pies for the fireman's luncheon.  She cut each pie into 8 pieces and set the five pies out on the buffet table for the guests to serve themselves.  At the end of the evening, after the guests had taken and eaten their pieces of pie, there were 14 pieces of pie remaining.  How many pieces were taken by the guests?\n</Examples>\n\nStep 1: Calculate the total number of pieces of pie made by Grandma Jones.\nEach pie is cut into 8 pieces, and there are 5 pies.\nTotal pieces of pie = Number of pies \u00d7 Pieces per pie\nTotal pieces of pie = 5 \u00d7 8 = 40\nReasoning: The problem states that Grandma Jones baked 5 apple pies and each pie is cut into 8 pieces.\n\nStep 2: Calculate the number of pieces of pie remaining.\nRemaining pieces of pie = 14\nReasoning: At the end of the evening, 14 pieces of pie were left uneaten.\n\nStep 3: Calculate the number of pieces of pie taken by the guests.\nPieces taken by guests = Total pieces of pie - Remaining pieces of pie\nPieces taken by guests = 40 - 14 = 26\nReasoning: To find out how many pieces were taken by the guests, subtract the number of remaining pieces from the total number of pieces.\n\nAnswer: 26",
+        "method": "cot",
+        "problem": {
+          "question": "Grandma Jones baked 5 apple pies for the fireman's luncheon.  She cut each pie into 8 pieces and set the five pies out on the buffet table for the guests to serve themselves.  At the end of the evening, after the guests had taken and eaten their pieces of pie, there were 14 pieces of pie remaining.  How many pieces were taken by the guests?",
+          "answer": "To start the evening, there were 5 pies, each with 8 pieces, which is 5*8=<<5*8=40>>40 pieces of pie.\nIf only 14 remained, then 40-14=<<40-14=26>>26 pieces of pie had been taken by guests.\n#### 26"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Grandma Jones baked 5 apple pies for the fireman's luncheon.  She cut each pie into 8 pieces and set the five pies out on the buffet table for the guests to serve themselves.  At the end of the evening, after the guests had taken and eaten their pieces of pie, there were 14 pieces of pie remaining.  How many pieces were taken by the guests?",
+        "current": "<Instruction> Solve the following math problem step by step. Show your reasoning for each step. Provide your final answer at the end, prefixed with \"Answer: \". </Instruction>\n\n<Examples>\nInput: Janet's ducks lay 16 eggs per day. She eats three for breakfast every morning and sells the rest at the farmers market daily for $2 per egg. How much in dollars does she make every day at the farmers market?\n\nStep 1: Calculate the total number of eggs Janet's ducks lay per day\nTotal eggs = 16\nReasoning: The problem states that Janet's ducks lay 16 eggs per day.\n\nStep 2: Calculate the number of eggs Janet eats for breakfast\nEggs eaten = 3\nReasoning: The problem states that Janet eats three eggs for breakfast every morning.\n\nStep 3: Calculate the number of eggs left to sell\nEggs to sell = Total eggs - Eggs eaten\nEggs to sell = 16 - 3 = 13\nReasoning: To find out how many eggs Janet can sell, we subtract the number of eggs she eats from the total number of eggs laid.\n\nStep 4: Calculate the money Janet makes from selling the eggs\nMoney made = Eggs to sell \u00d7 Price per egg\nMoney made = 13 \u00d7 $2 = $26\nReasoning: Janet sells each egg for $2, so we multiply the number of eggs she sells by the price per egg.\n\nAnswer: $26\n\nInput: Grandma Jones baked 5 apple pies for the fireman's luncheon.  She cut each pie into 8 pieces and set the five pies out on the buffet table for the guests to serve themselves.  At the end of the evening, after the guests had taken and eaten their pieces of pie, there were 14 pieces of pie remaining.  How many pieces were taken by the guests?\n</Examples>\n\nStep 1: Calculate the total number of pieces of pie made by Grandma Jones.\nEach pie is cut into 8 pieces, and there are 5 pies.\nTotal pieces of pie = Number of pies \u00d7 Pieces per pie\nTotal pieces of pie = 5 \u00d7 8 = 40\nReasoning: The problem states that Grandma Jones baked 5 apple pies and each pie is cut into 8 pieces.\n\nStep 2: Calculate the number of pieces of pie remaining.\nRemaining pieces of pie = 14\nReasoning: At the end of the evening, 14 pieces of pie were left uneaten.\n\nStep 3: Calculate the number of pieces of pie taken by the guests.\nPieces taken by guests = Total pieces of pie - Remaining pieces of pie\nPieces taken by guests = 40 - 14 = 26\nReasoning: To find out how many pieces were taken by the guests, subtract the number of remaining pieces from the total number of pieces.\n\nAnswer: 26",
+        "method": "cot",
+        "problem": {
+          "question": "Grandma Jones baked 5 apple pies for the fireman's luncheon.  She cut each pie into 8 pieces and set the five pies out on the buffet table for the guests to serve themselves.  At the end of the evening, after the guests had taken and eaten their pieces of pie, there were 14 pieces of pie remaining.  How many pieces were taken by the guests?",
+          "answer": "To start the evening, there were 5 pies, each with 8 pieces, which is 5*8=<<5*8=40>>40 pieces of pie.\nIf only 14 remained, then 40-14=<<40-14=26>>26 pieces of pie had been taken by guests.\n#### 26"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      26.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Grandma Jones baked 5 apple pies for the fireman's luncheon.  She cut each pie into 8 pieces and set the five pies out on the buffet table for the guests to serve themselves.  At the end of the evening, after the guests had taken and eaten their pieces of pie, there were 14 pieces of pie remaining.  How many pieces were taken by the guests?",
+        "current": "<Instruction> Solve the following math problem step by step. Show your reasoning for each step. Provide your final answer at the end, prefixed with \"Answer: \". </Instruction>\n\n<Examples>\nInput: Janet's ducks lay 16 eggs per day. She eats three for breakfast every morning and sells the rest at the farmers market daily for $2 per egg. How much in dollars does she make every day at the farmers market?\n\nStep 1: Calculate the total number of eggs Janet's ducks lay per day\nTotal eggs = 16\nReasoning: The problem states that Janet's ducks lay 16 eggs per day.\n\nStep 2: Calculate the number of eggs Janet eats for breakfast\nEggs eaten = 3\nReasoning: The problem states that Janet eats three eggs for breakfast every morning.\n\nStep 3: Calculate the number of eggs left to sell\nEggs to sell = Total eggs - Eggs eaten\nEggs to sell = 16 - 3 = 13\nReasoning: To find out how many eggs Janet can sell, we subtract the number of eggs she eats from the total number of eggs laid.\n\nStep 4: Calculate the money Janet makes from selling the eggs\nMoney made = Eggs to sell \u00d7 Price per egg\nMoney made = 13 \u00d7 $2 = $26\nReasoning: Janet sells each egg for $2, so we multiply the number of eggs she sells by the price per egg.\n\nAnswer: $26\n\nInput: Grandma Jones baked 5 apple pies for the fireman's luncheon.  She cut each pie into 8 pieces and set the five pies out on the buffet table for the guests to serve themselves.  At the end of the evening, after the guests had taken and eaten their pieces of pie, there were 14 pieces of pie remaining.  How many pieces were taken by the guests?\n</Examples>\n\nStep 1: Calculate the total number of pieces of pie made by Grandma Jones.\nEach pie is cut into 8 pieces, and there are 5 pies.\nTotal pieces of pie = Number of pies \u00d7 Pieces per pie\nTotal pieces of pie = 5 \u00d7 8 = 40\nReasoning: The problem states that Grandma Jones baked 5 apple pies and each pie is cut into 8 pieces.\n\nStep 2: Calculate the number of pieces of pie remaining.\nRemaining pieces of pie = 14\nReasoning: At the end of the evening, 14 pieces of pie were left uneaten.\n\nStep 3: Calculate the number of pieces of pie taken by the guests.\nPieces taken by guests = Total pieces of pie - Remaining pieces of pie\nPieces taken by guests = 40 - 14 = 26\nReasoning: To find out how many pieces were taken by the guests, subtract the number of remaining pieces from the total number of pieces.\n\nAnswer: 26",
+        "method": "cot",
+        "problem": {
+          "question": "Grandma Jones baked 5 apple pies for the fireman's luncheon.  She cut each pie into 8 pieces and set the five pies out on the buffet table for the guests to serve themselves.  At the end of the evening, after the guests had taken and eaten their pieces of pie, there were 14 pieces of pie remaining.  How many pieces were taken by the guests?",
+          "answer": "To start the evening, there were 5 pies, each with 8 pieces, which is 5*8=<<5*8=40>>40 pieces of pie.\nIf only 14 remained, then 40-14=<<40-14=26>>26 pieces of pie had been taken by guests.\n#### 26"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      26.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 390,
+    "completion_tokens": 585,
+    "cost": 0.0468
+  }
+]

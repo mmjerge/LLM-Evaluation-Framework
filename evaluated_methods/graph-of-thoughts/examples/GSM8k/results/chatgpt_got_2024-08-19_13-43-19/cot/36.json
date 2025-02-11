@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Terry eats 2 yogurts a day.  They are currently on sale at 4 yogurts for $5.00.  How much does he spend on yogurt over 30 days?",
+        "current": "Step 1: Calculate the total number of yogurts Terry eats over 30 days\nTotal yogurts = 2 yogurts/day \u00d7 30 days = 60 yogurts\nReasoning: To find out how many yogurts Terry eats in 30 days, we multiply the number of yogurts he eats per day by the number of days.\n\nStep 2: Calculate the number of yogurt packs Terry needs to buy\nNumber of yogurt packs = Total yogurts \u00f7 Yogurts per pack\nNumber of yogurt packs = 60 \u00f7 4 = 15 packs\nReasoning: Each pack contains 4 yogurts, so we divide the total number of yogurts by the number of yogurts per pack to find out how many packs Terry needs to buy.\n\nStep 3: Calculate the total cost of buying yogurt for 30 days\nTotal cost = Number of yogurt packs \u00d7 Cost per pack\nTotal cost = 15 packs \u00d7 $5.00 = $75.00\nReasoning: Each pack costs $5.00, so we multiply the number of packs Terry needs to buy by the cost per pack.\n\nAnswer: $75.00",
+        "method": "cot",
+        "problem": {
+          "question": "Terry eats 2 yogurts a day.  They are currently on sale at 4 yogurts for $5.00.  How much does he spend on yogurt over 30 days?",
+          "answer": "He eats 2 yogurts a day so over 30 days he will need 2*30 = <<2*30=60>>60 yogurts\nThe yogurt is sold as 4 units for $5.00 and he needs 60 yogurts so that\u2019s 60/4 = <<60/4=15>>15 4-packs\nEach 4-pack is $5.00 and he needs 15 4-packs so he will spend $5*15 = $<<5*15=75.00>>75.00 on yogurt\n#### 75"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Terry eats 2 yogurts a day.  They are currently on sale at 4 yogurts for $5.00.  How much does he spend on yogurt over 30 days?",
+        "current": "Step 1: Calculate the total number of yogurts Terry eats over 30 days\nTotal yogurts = 2 yogurts/day \u00d7 30 days = 60 yogurts\nReasoning: To find out how many yogurts Terry eats in 30 days, we multiply the number of yogurts he eats per day by the number of days.\n\nStep 2: Calculate the number of yogurt packs Terry needs to buy\nNumber of yogurt packs = Total yogurts \u00f7 Yogurts per pack\nNumber of yogurt packs = 60 \u00f7 4 = 15 packs\nReasoning: Each pack contains 4 yogurts, so we divide the total number of yogurts by the number of yogurts per pack to find out how many packs Terry needs to buy.\n\nStep 3: Calculate the total cost of buying yogurt for 30 days\nTotal cost = Number of yogurt packs \u00d7 Cost per pack\nTotal cost = 15 packs \u00d7 $5.00 = $75.00\nReasoning: Each pack costs $5.00, so we multiply the number of packs Terry needs to buy by the cost per pack.\n\nAnswer: $75.00",
+        "method": "cot",
+        "problem": {
+          "question": "Terry eats 2 yogurts a day.  They are currently on sale at 4 yogurts for $5.00.  How much does he spend on yogurt over 30 days?",
+          "answer": "He eats 2 yogurts a day so over 30 days he will need 2*30 = <<2*30=60>>60 yogurts\nThe yogurt is sold as 4 units for $5.00 and he needs 60 yogurts so that\u2019s 60/4 = <<60/4=15>>15 4-packs\nEach 4-pack is $5.00 and he needs 15 4-packs so he will spend $5*15 = $<<5*15=75.00>>75.00 on yogurt\n#### 75"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      75.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Terry eats 2 yogurts a day.  They are currently on sale at 4 yogurts for $5.00.  How much does he spend on yogurt over 30 days?",
+        "current": "Step 1: Calculate the total number of yogurts Terry eats over 30 days\nTotal yogurts = 2 yogurts/day \u00d7 30 days = 60 yogurts\nReasoning: To find out how many yogurts Terry eats in 30 days, we multiply the number of yogurts he eats per day by the number of days.\n\nStep 2: Calculate the number of yogurt packs Terry needs to buy\nNumber of yogurt packs = Total yogurts \u00f7 Yogurts per pack\nNumber of yogurt packs = 60 \u00f7 4 = 15 packs\nReasoning: Each pack contains 4 yogurts, so we divide the total number of yogurts by the number of yogurts per pack to find out how many packs Terry needs to buy.\n\nStep 3: Calculate the total cost of buying yogurt for 30 days\nTotal cost = Number of yogurt packs \u00d7 Cost per pack\nTotal cost = 15 packs \u00d7 $5.00 = $75.00\nReasoning: Each pack costs $5.00, so we multiply the number of packs Terry needs to buy by the cost per pack.\n\nAnswer: $75.00",
+        "method": "cot",
+        "problem": {
+          "question": "Terry eats 2 yogurts a day.  They are currently on sale at 4 yogurts for $5.00.  How much does he spend on yogurt over 30 days?",
+          "answer": "He eats 2 yogurts a day so over 30 days he will need 2*30 = <<2*30=60>>60 yogurts\nThe yogurt is sold as 4 units for $5.00 and he needs 60 yogurts so that\u2019s 60/4 = <<60/4=15>>15 4-packs\nEach 4-pack is $5.00 and he needs 15 4-packs so he will spend $5*15 = $<<5*15=75.00>>75.00 on yogurt\n#### 75"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      75.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 355,
+    "completion_tokens": 246,
+    "cost": 0.0010245
+  }
+]

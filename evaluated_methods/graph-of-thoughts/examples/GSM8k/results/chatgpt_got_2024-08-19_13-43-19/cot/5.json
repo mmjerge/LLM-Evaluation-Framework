@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
+        "current": "Step 1: Calculate the total cost of the first half of the glasses\nTotal cost of first half = Price per glass \u00d7 Number of glasses\nTotal cost of first half = $5 \u00d7 8 = $40\nReasoning: Kylar wants to buy 16 glasses, so the first half would be half of that, which is 8 glasses.\n\nStep 2: Calculate the total cost of the second half of the glasses\nPrice of second half = 60% of $5 = 0.6 * $5 = $3\nTotal cost of second half = Price per glass \u00d7 Number of glasses\nTotal cost of second half = $3 \u00d7 8 = $24\nReasoning: The second half of the glasses costs only 60% of the price of the first half.\n\nStep 3: Calculate the total cost of all the glasses\nTotal cost = Total cost of first half + Total cost of second half\nTotal cost = $40 + $24 = $64\nReasoning: To find the total cost of all the glasses, we add the cost of the first half and the cost of the second half.\n\nAnswer: $64",
+        "method": "cot",
+        "problem": {
+          "question": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
+          "answer": "The discount price of one glass is 60/100 * 5 = $<<60/100*5=3>>3.\nIf every second glass is cheaper, that means Kylar is going to buy 16 / 2 = <<16/2=8>>8 cheaper glasses.\nSo for the cheaper glasses, Kylar is going to pay 8 * 3 = $<<8*3=24>>24.\nAnd for the regular-priced glasses, Kylar will pay 8 * 5 = $<<8*5=40>>40.\nSo in total Kylar needs to pay 24 + 40 = $<<24+40=64>>64 for the glasses he wants to buy.\n#### 64"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
+        "current": "Step 1: Calculate the total cost of the first half of the glasses\nTotal cost of first half = Price per glass \u00d7 Number of glasses\nTotal cost of first half = $5 \u00d7 8 = $40\nReasoning: Kylar wants to buy 16 glasses, so the first half would be half of that, which is 8 glasses.\n\nStep 2: Calculate the total cost of the second half of the glasses\nPrice of second half = 60% of $5 = 0.6 * $5 = $3\nTotal cost of second half = Price per glass \u00d7 Number of glasses\nTotal cost of second half = $3 \u00d7 8 = $24\nReasoning: The second half of the glasses costs only 60% of the price of the first half.\n\nStep 3: Calculate the total cost of all the glasses\nTotal cost = Total cost of first half + Total cost of second half\nTotal cost = $40 + $24 = $64\nReasoning: To find the total cost of all the glasses, we add the cost of the first half and the cost of the second half.\n\nAnswer: $64",
+        "method": "cot",
+        "problem": {
+          "question": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
+          "answer": "The discount price of one glass is 60/100 * 5 = $<<60/100*5=3>>3.\nIf every second glass is cheaper, that means Kylar is going to buy 16 / 2 = <<16/2=8>>8 cheaper glasses.\nSo for the cheaper glasses, Kylar is going to pay 8 * 3 = $<<8*3=24>>24.\nAnd for the regular-priced glasses, Kylar will pay 8 * 5 = $<<8*5=40>>40.\nSo in total Kylar needs to pay 24 + 40 = $<<24+40=64>>64 for the glasses he wants to buy.\n#### 64"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      64.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
+        "current": "Step 1: Calculate the total cost of the first half of the glasses\nTotal cost of first half = Price per glass \u00d7 Number of glasses\nTotal cost of first half = $5 \u00d7 8 = $40\nReasoning: Kylar wants to buy 16 glasses, so the first half would be half of that, which is 8 glasses.\n\nStep 2: Calculate the total cost of the second half of the glasses\nPrice of second half = 60% of $5 = 0.6 * $5 = $3\nTotal cost of second half = Price per glass \u00d7 Number of glasses\nTotal cost of second half = $3 \u00d7 8 = $24\nReasoning: The second half of the glasses costs only 60% of the price of the first half.\n\nStep 3: Calculate the total cost of all the glasses\nTotal cost = Total cost of first half + Total cost of second half\nTotal cost = $40 + $24 = $64\nReasoning: To find the total cost of all the glasses, we add the cost of the first half and the cost of the second half.\n\nAnswer: $64",
+        "method": "cot",
+        "problem": {
+          "question": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
+          "answer": "The discount price of one glass is 60/100 * 5 = $<<60/100*5=3>>3.\nIf every second glass is cheaper, that means Kylar is going to buy 16 / 2 = <<16/2=8>>8 cheaper glasses.\nSo for the cheaper glasses, Kylar is going to pay 8 * 3 = $<<8*3=24>>24.\nAnd for the regular-priced glasses, Kylar will pay 8 * 5 = $<<8*5=40>>40.\nSo in total Kylar needs to pay 24 + 40 = $<<24+40=64>>64 for the glasses he wants to buy.\n#### 64"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      64.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 368,
+    "completion_tokens": 237,
+    "cost": 0.001026
+  }
+]

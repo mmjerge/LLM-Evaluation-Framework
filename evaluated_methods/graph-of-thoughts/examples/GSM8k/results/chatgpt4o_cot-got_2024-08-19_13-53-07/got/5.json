@@ -1,0 +1,74 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
+        "current": "Step 1: Calculate the cost of one glass\nRegular price of one glass = $5\nReasoning: The problem states that one glass costs $5.\n\nStep 2: Calculate the discounted price of every second glass\nDiscounted price = 60% of $5 = 0.60 \u00d7 $5 = $3\nReasoning: Every second glass costs only 60% of the regular price. 60% of $5 is $3.\n\nStep 3: Determine the number of pairs of glasses Kylar is buying\nKylar is buying 16 glasses, which means there are 8 pairs of glasses (since 16/2 = 8).\nReasoning: We divide the total number of glasses by 2 to determine the number of pairs.\n\nStep 4: Calculate the total cost of the full price glasses\nTotal cost for full price glasses = Number of pairs \u00d7 Regular price\nTotal cost for full price glasses = 8 \u00d7 $5 = $40\nReasoning: Each pair has one full price glass, and Kylar is buying 8 pairs.\n\nStep 5: Calculate the total cost of the discounted glasses\nTotal cost for discounted glasses = Number of pairs \u00d7 Discounted price\nTotal cost for discounted glasses = 8 \u00d7 $3 = $24\nReasoning: Each pair has one discounted glass, and Kylar is buying 8 pairs.\n\nStep 6: Calculate the total cost for all the glasses\nTotal cost = Total cost for full price glasses + Total cost for discounted glasses\nTotal cost = $40 + $24 = $64\nReasoning: We sum the costs for full price glasses and discounted glasses to get the total cost.\n\nAnswer: $64",
+        "method": "got",
+        "problem": {
+          "question": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
+          "answer": "The discount price of one glass is 60/100 * 5 = $<<60/100*5=3>>3.\nIf every second glass is cheaper, that means Kylar is going to buy 16 / 2 = <<16/2=8>>8 cheaper glasses.\nSo for the cheaper glasses, Kylar is going to pay 8 * 3 = $<<8*3=24>>24.\nAnd for the regular-priced glasses, Kylar will pay 8 * 5 = $<<8*5=40>>40.\nSo in total Kylar needs to pay 24 + 40 = $<<24+40=64>>64 for the glasses he wants to buy.\n#### 64"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
+        "current": "Step 1: Calculate the cost of one glass\nRegular price of one glass = $5\nReasoning: The problem states that one glass costs $5.\n\nStep 2: Calculate the discounted price of every second glass\nDiscounted price = 60% of $5 = 0.60 \u00d7 $5 = $3\nReasoning: Every second glass costs only 60% of the regular price. 60% of $5 is $3.\n\nStep 3: Determine the number of pairs of glasses Kylar is buying\nKylar is buying 16 glasses, which means there are 8 pairs of glasses (since 16/2 = 8).\nReasoning: We divide the total number of glasses by 2 to determine the number of pairs.\n\nStep 4: Calculate the total cost of the full price glasses\nTotal cost for full price glasses = Number of pairs \u00d7 Regular price\nTotal cost for full price glasses = 8 \u00d7 $5 = $40\nReasoning: Each pair has one full price glass, and Kylar is buying 8 pairs.\n\nStep 5: Calculate the total cost of the discounted glasses\nTotal cost for discounted glasses = Number of pairs \u00d7 Discounted price\nTotal cost for discounted glasses = 8 \u00d7 $3 = $24\nReasoning: Each pair has one discounted glass, and Kylar is buying 8 pairs.\n\nStep 6: Calculate the total cost for all the glasses\nTotal cost = Total cost for full price glasses + Total cost for discounted glasses\nTotal cost = $40 + $24 = $64\nReasoning: We sum the costs for full price glasses and discounted glasses to get the total cost.\n\nAnswer: $64",
+        "method": "got",
+        "problem": {
+          "question": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
+          "answer": "The discount price of one glass is 60/100 * 5 = $<<60/100*5=3>>3.\nIf every second glass is cheaper, that means Kylar is going to buy 16 / 2 = <<16/2=8>>8 cheaper glasses.\nSo for the cheaper glasses, Kylar is going to pay 8 * 3 = $<<8*3=24>>24.\nAnd for the regular-priced glasses, Kylar will pay 8 * 5 = $<<8*5=40>>40.\nSo in total Kylar needs to pay 24 + 40 = $<<24+40=64>>64 for the glasses he wants to buy.\n#### 64"
+        }
+      },
+      {
+        "original": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
+        "current": "Step 1: Calculate the cost of one glass\nRegular price of one glass = $5\nReasoning: The problem states that one glass costs $5.\n\nStep 2: Calculate the discounted price of every second glass\nDiscounted price = 60% of $5 = 0.60 \u00d7 $5 = $3\nReasoning: Every second glass costs only 60% of the regular price. 60% of $5 is $3.\n\nStep 3: Determine the number of pairs of glasses Kylar is buying\nKylar is buying 16 glasses, which means there are 8 pairs of glasses (since 16/2 = 8).\nReasoning: We divide the total number of glasses by 2 to determine the number of pairs.\n\nStep 4: Calculate the total cost of the full price glasses\nTotal cost for full price glasses = Number of pairs \u00d7 Regular price\nTotal cost for full price glasses = 8 \u00d7 $5 = $40\nReasoning: Each pair has one full price glass, and Kylar is buying 8 pairs.\n\nStep 5: Calculate the total cost of the discounted glasses\nTotal cost for discounted glasses = Number of pairs \u00d7 Discounted price\nTotal cost for discounted glasses = 8 \u00d7 $3 = $24\nReasoning: Each pair has one discounted glass, and Kylar is buying 8 pairs.\n\nStep 6: Calculate the total cost for all the glasses\nTotal cost = Total cost for full price glasses + Total cost for discounted glasses\nTotal cost = $40 + $24 = $64\nReasoning: We sum the costs for full price glasses and discounted glasses to get the total cost.\n\nAnswer: $64",
+        "method": "got",
+        "problem": {
+          "question": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
+          "answer": "The discount price of one glass is 60/100 * 5 = $<<60/100*5=3>>3.\nIf every second glass is cheaper, that means Kylar is going to buy 16 / 2 = <<16/2=8>>8 cheaper glasses.\nSo for the cheaper glasses, Kylar is going to pay 8 * 3 = $<<8*3=24>>24.\nAnd for the regular-priced glasses, Kylar will pay 8 * 5 = $<<8*5=40>>40.\nSo in total Kylar needs to pay 24 + 40 = $<<24+40=64>>64 for the glasses he wants to buy.\n#### 64"
+        }
+      },
+      {
+        "original": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
+        "current": "Step 1: Calculate the cost of one glass\nRegular price of one glass = $5\nReasoning: The problem states that one glass costs $5.\n\nStep 2: Calculate the discounted price of every second glass\nDiscounted price = 60% of $5 = 0.60 \u00d7 $5 = $3\nReasoning: Every second glass costs only 60% of the regular price. 60% of $5 is $3.\n\nStep 3: Determine the number of pairs of glasses Kylar is buying\nKylar is buying 16 glasses, which means there are 8 pairs of glasses (since 16/2 = 8).\nReasoning: We divide the total number of glasses by 2 to determine the number of pairs.\n\nStep 4: Calculate the total cost of the full price glasses\nTotal cost for full price glasses = Number of pairs \u00d7 Regular price\nTotal cost for full price glasses = 8 \u00d7 $5 = $40\nReasoning: Each pair has one full price glass, and Kylar is buying 8 pairs.\n\nStep 5: Calculate the total cost of the discounted glasses\nTotal cost for discounted glasses = Number of pairs \u00d7 Discounted price\nTotal cost for discounted glasses = 8 \u00d7 $3 = $24\nReasoning: Each pair has one discounted glass, and Kylar is buying 8 pairs.\n\nStep 6: Calculate the total cost for all the glasses\nTotal cost = Total cost for full price glasses + Total cost for discounted glasses\nTotal cost = $40 + $24 = $64\nReasoning: We sum the costs for full price glasses and discounted glasses to get the total cost.\n\nAnswer: $64",
+        "method": "got",
+        "problem": {
+          "question": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
+          "answer": "The discount price of one glass is 60/100 * 5 = $<<60/100*5=3>>3.\nIf every second glass is cheaper, that means Kylar is going to buy 16 / 2 = <<16/2=8>>8 cheaper glasses.\nSo for the cheaper glasses, Kylar is going to pay 8 * 3 = $<<8*3=24>>24.\nAnd for the regular-priced glasses, Kylar will pay 8 * 5 = $<<8*5=40>>40.\nSo in total Kylar needs to pay 24 + 40 = $<<24+40=64>>64 for the glasses he wants to buy.\n#### 64"
+        }
+      },
+      {
+        "original": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
+        "current": "Step 1: Calculate the cost of one glass\nRegular price of one glass = $5\nReasoning: The problem states that one glass costs $5.\n\nStep 2: Calculate the discounted price of every second glass\nDiscounted price = 60% of $5 = 0.60 \u00d7 $5 = $3\nReasoning: Every second glass costs only 60% of the regular price. 60% of $5 is $3.\n\nStep 3: Determine the number of pairs of glasses Kylar is buying\nKylar is buying 16 glasses, which means there are 8 pairs of glasses (since 16/2 = 8).\nReasoning: We divide the total number of glasses by 2 to determine the number of pairs.\n\nStep 4: Calculate the total cost of the full price glasses\nTotal cost for full price glasses = Number of pairs \u00d7 Regular price\nTotal cost for full price glasses = 8 \u00d7 $5 = $40\nReasoning: Each pair has one full price glass, and Kylar is buying 8 pairs.\n\nStep 5: Calculate the total cost of the discounted glasses\nTotal cost for discounted glasses = Number of pairs \u00d7 Discounted price\nTotal cost for discounted glasses = 8 \u00d7 $3 = $24\nReasoning: Each pair has one discounted glass, and Kylar is buying 8 pairs.\n\nStep 6: Calculate the total cost for all the glasses\nTotal cost = Total cost for full price glasses + Total cost for discounted glasses\nTotal cost = $40 + $24 = $64\nReasoning: We sum the costs for full price glasses and discounted glasses to get the total cost.\n\nAnswer: $64",
+        "method": "got",
+        "problem": {
+          "question": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
+          "answer": "The discount price of one glass is 60/100 * 5 = $<<60/100*5=3>>3.\nIf every second glass is cheaper, that means Kylar is going to buy 16 / 2 = <<16/2=8>>8 cheaper glasses.\nSo for the cheaper glasses, Kylar is going to pay 8 * 3 = $<<8*3=24>>24.\nAnd for the regular-priced glasses, Kylar will pay 8 * 5 = $<<8*5=40>>40.\nSo in total Kylar needs to pay 24 + 40 = $<<24+40=64>>64 for the glasses he wants to buy.\n#### 64"
+        }
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 364,
+    "completion_tokens": 347,
+    "cost": 0.03174
+  }
+]

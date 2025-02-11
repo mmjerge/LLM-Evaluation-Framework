@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "James decides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meters does he run a week?",
+        "current": "Step 1: Calculate the total meters James runs in one sprint\nMeters per sprint = 60\nReasoning: The problem states that James runs 60 meters each sprint.\n\nStep 2: Calculate the total meters James runs in one week\nTotal meters in one week = Meters per sprint \u00d7 Number of sprints per week\nTotal meters in one week = 60 \u00d7 3 = 180\nReasoning: James runs 3 sprints 3 times a week, so we need to calculate the total distance he runs in one week.\n\nAnswer: James runs 180 meters in a week.",
+        "method": "cot",
+        "problem": {
+          "question": "James decides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meters does he run a week?",
+          "answer": "He sprints 3*3=<<3*3=9>>9 times\nSo he runs 9*60=<<9*60=540>>540 meters\n#### 540"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "James decides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meters does he run a week?",
+        "current": "Step 1: Calculate the total meters James runs in one sprint\nMeters per sprint = 60\nReasoning: The problem states that James runs 60 meters each sprint.\n\nStep 2: Calculate the total meters James runs in one week\nTotal meters in one week = Meters per sprint \u00d7 Number of sprints per week\nTotal meters in one week = 60 \u00d7 3 = 180\nReasoning: James runs 3 sprints 3 times a week, so we need to calculate the total distance he runs in one week.\n\nAnswer: James runs 180 meters in a week.",
+        "method": "cot",
+        "problem": {
+          "question": "James decides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meters does he run a week?",
+          "answer": "He sprints 3*3=<<3*3=9>>9 times\nSo he runs 9*60=<<9*60=540>>540 meters\n#### 540"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "James decides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meters does he run a week?",
+        "current": "Step 1: Calculate the total meters James runs in one sprint\nMeters per sprint = 60\nReasoning: The problem states that James runs 60 meters each sprint.\n\nStep 2: Calculate the total meters James runs in one week\nTotal meters in one week = Meters per sprint \u00d7 Number of sprints per week\nTotal meters in one week = 60 \u00d7 3 = 180\nReasoning: James runs 3 sprints 3 times a week, so we need to calculate the total distance he runs in one week.\n\nAnswer: James runs 180 meters in a week.",
+        "method": "cot",
+        "problem": {
+          "question": "James decides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meters does he run a week?",
+          "answer": "He sprints 3*3=<<3*3=9>>9 times\nSo he runs 9*60=<<9*60=540>>540 meters\n#### 540"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      false
+    ]
+  },
+  {
+    "prompt_tokens": 348,
+    "completion_tokens": 124,
+    "cost": 0.0007700000000000001
+  }
+]

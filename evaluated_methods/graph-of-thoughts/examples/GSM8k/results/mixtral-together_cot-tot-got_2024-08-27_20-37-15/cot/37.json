@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "John plans to sell all his toys and use the money to buy video games. He has 13 lego sets and he sells them for $15 each. He ends up buying 8 video games for $20 each and has $5 left. How many lego sets does he still have?",
+        "current": " Step 1: Calculate the total money John makes from selling his Lego sets\nTotal money made = Number of Lego sets \u00d7 Price per Lego set\nTotal money made = 13 \u00d7 $15 = $195\nReasoning: John sells each Lego set for $15, so we multiply the number of Lego sets he sells by the price per Lego set.\n\nStep 2: Calculate the total money John spends on video games\nTotal money spent = Number of video games \u00d7 Price per video game\nTotal money spent = 8 \u00d7 $20 = $160\nReasoning: John buys each video game for $20, so we multiply the number of video games he buys by the price per video game.\n\nStep 3: Calculate the remaining money John has after buying the video games\nRemaining money = Total money made - Total money spent\nRemaining money = $195 - $160 = $35\nReasoning: To find out how much money John has left after buying the video games, we subtract the total money spent from the total money made.\n\nStep 4: Calculate the number of Lego sets John still has\nNumber of Lego sets left = (Remaining money - $5) / Price per Lego set\nNumber of Lego sets left = ($35 - $5) / $15 = 2\nReasoning: John has $5 left after buying the video games, so we subtract this from the remaining money to find out how much money he used for something else. Since we know that John used this money to buy more Lego sets, we divide this amount by the price per Lego set to find out how many Lego sets he still has.\n\nAnswer: John still has 2 Lego sets.",
+        "method": "cot",
+        "problem": {
+          "question": "John plans to sell all his toys and use the money to buy video games. He has 13 lego sets and he sells them for $15 each. He ends up buying 8 video games for $20 each and has $5 left. How many lego sets does he still have?",
+          "answer": "He spent $160 on video games because 8 x 20 = <<8*20=160>>160\nHe earned $165 from his sale because 160 + 5 = <<160+5=165>>165\nHe sold 11 lego sets because 11 x 15 = <<11*15=165>>165\nHe has 2 sets left because 13 - 11 = <<13-11=2>>2\n#### 2"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "John plans to sell all his toys and use the money to buy video games. He has 13 lego sets and he sells them for $15 each. He ends up buying 8 video games for $20 each and has $5 left. How many lego sets does he still have?",
+        "current": " Step 1: Calculate the total money John makes from selling his Lego sets\nTotal money made = Number of Lego sets \u00d7 Price per Lego set\nTotal money made = 13 \u00d7 $15 = $195\nReasoning: John sells each Lego set for $15, so we multiply the number of Lego sets he sells by the price per Lego set.\n\nStep 2: Calculate the total money John spends on video games\nTotal money spent = Number of video games \u00d7 Price per video game\nTotal money spent = 8 \u00d7 $20 = $160\nReasoning: John buys each video game for $20, so we multiply the number of video games he buys by the price per video game.\n\nStep 3: Calculate the remaining money John has after buying the video games\nRemaining money = Total money made - Total money spent\nRemaining money = $195 - $160 = $35\nReasoning: To find out how much money John has left after buying the video games, we subtract the total money spent from the total money made.\n\nStep 4: Calculate the number of Lego sets John still has\nNumber of Lego sets left = (Remaining money - $5) / Price per Lego set\nNumber of Lego sets left = ($35 - $5) / $15 = 2\nReasoning: John has $5 left after buying the video games, so we subtract this from the remaining money to find out how much money he used for something else. Since we know that John used this money to buy more Lego sets, we divide this amount by the price per Lego set to find out how many Lego sets he still has.\n\nAnswer: John still has 2 Lego sets.",
+        "method": "cot",
+        "problem": {
+          "question": "John plans to sell all his toys and use the money to buy video games. He has 13 lego sets and he sells them for $15 each. He ends up buying 8 video games for $20 each and has $5 left. How many lego sets does he still have?",
+          "answer": "He spent $160 on video games because 8 x 20 = <<8*20=160>>160\nHe earned $165 from his sale because 160 + 5 = <<160+5=165>>165\nHe sold 11 lego sets because 11 x 15 = <<11*15=165>>165\nHe has 2 sets left because 13 - 11 = <<13-11=2>>2\n#### 2"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "John plans to sell all his toys and use the money to buy video games. He has 13 lego sets and he sells them for $15 each. He ends up buying 8 video games for $20 each and has $5 left. How many lego sets does he still have?",
+        "current": " Step 1: Calculate the total money John makes from selling his Lego sets\nTotal money made = Number of Lego sets \u00d7 Price per Lego set\nTotal money made = 13 \u00d7 $15 = $195\nReasoning: John sells each Lego set for $15, so we multiply the number of Lego sets he sells by the price per Lego set.\n\nStep 2: Calculate the total money John spends on video games\nTotal money spent = Number of video games \u00d7 Price per video game\nTotal money spent = 8 \u00d7 $20 = $160\nReasoning: John buys each video game for $20, so we multiply the number of video games he buys by the price per video game.\n\nStep 3: Calculate the remaining money John has after buying the video games\nRemaining money = Total money made - Total money spent\nRemaining money = $195 - $160 = $35\nReasoning: To find out how much money John has left after buying the video games, we subtract the total money spent from the total money made.\n\nStep 4: Calculate the number of Lego sets John still has\nNumber of Lego sets left = (Remaining money - $5) / Price per Lego set\nNumber of Lego sets left = ($35 - $5) / $15 = 2\nReasoning: John has $5 left after buying the video games, so we subtract this from the remaining money to find out how much money he used for something else. Since we know that John used this money to buy more Lego sets, we divide this amount by the price per Lego set to find out how many Lego sets he still has.\n\nAnswer: John still has 2 Lego sets.",
+        "method": "cot",
+        "problem": {
+          "question": "John plans to sell all his toys and use the money to buy video games. He has 13 lego sets and he sells them for $15 each. He ends up buying 8 video games for $20 each and has $5 left. How many lego sets does he still have?",
+          "answer": "He spent $160 on video games because 8 x 20 = <<8*20=160>>160\nHe earned $165 from his sale because 160 + 5 = <<160+5=165>>165\nHe sold 11 lego sets because 11 x 15 = <<11*15=165>>165\nHe has 2 sets left because 13 - 11 = <<13-11=2>>2\n#### 2"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

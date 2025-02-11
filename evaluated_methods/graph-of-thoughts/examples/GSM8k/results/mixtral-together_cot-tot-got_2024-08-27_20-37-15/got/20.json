@@ -1,0 +1,74 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "I have 10 liters of orange drink that are two-thirds water and I wish to add it to 15 liters of pineapple drink that is three-fifths water. But as I pour it, I spill one liter of the orange drink. How much water is in the remaining 24 liters?",
+        "current": " Step 1: Calculate the amount of water in the original 10 liters of orange drink\nWater in orange drink = (2/3) \u00d7 10 liters\nWater in orange drink = 20/3 liters\nReasoning: The problem states that the orange drink is two-thirds water, so we multiply the total amount of orange drink by two-thirds.\n\nStep 2: Calculate the amount of water in the 15 liters of pineapple drink\nWater in pineapple drink = (3/5) \u00d7 15 liters\nWater in pineapple drink = 9 liters\nReasoning: The problem states that the pineapple drink is three-fifths water, so we multiply the total amount of pineapple drink by three-fifths.\n\nStep 3: Calculate the total amount of water before spilling\nTotal water before spill = Water in orange drink + Water in pineapple drink\nTotal water before spill = 20/3 + 9\nTotal water before spill = 20/3 + 27/3\nTotal water before spill = 47/3 liters\nReasoning: To find the total amount of water before spilling, we add the amount of water in the orange drink to the amount of water in the pineapple drink.\n\nStep 4: Calculate the amount of water in the remaining 24 liters after spilling\nWater in remaining mixture = Total water before spill - (1/3) liter\nWater in remaining mixture = 47/3 - 1/3\nWater in remaining mixture = 46/3 liters\nReasoning: Since Janet spills one liter of the orange drink, we need to subtract one-third of a liter from the total water before spilling (as the spilled drink is also two-thirds water).\n\nAnswer: 46/3 liters or approximately 15.33 liters of water in the remaining 24 liters.",
+        "method": "got",
+        "problem": {
+          "question": "I have 10 liters of orange drink that are two-thirds water and I wish to add it to 15 liters of pineapple drink that is three-fifths water. But as I pour it, I spill one liter of the orange drink. How much water is in the remaining 24 liters?",
+          "answer": "There are 15 x 3/5 = <<15*3/5=9>>9 liters of water from the 15 liters pineapple drink.\nAfter 1 liter of orange drink was spilled, there were 10 - 1 = <<10-1=9>>9 liters of orange drink left.\nOut of the 9 liters, 9 x 2/3 = <<9*2/3=6>>6 liters are water.\nThus, there are a total of 9 + 6 = <<9+6=15>>15 liters of water out of the 24 liters.\n#### 15"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "I have 10 liters of orange drink that are two-thirds water and I wish to add it to 15 liters of pineapple drink that is three-fifths water. But as I pour it, I spill one liter of the orange drink. How much water is in the remaining 24 liters?",
+        "current": " Step 1: Calculate the amount of water in the original 10 liters of orange drink\nWater in orange drink = (2/3) \u00d7 10 liters\nWater in orange drink = 20/3 liters\nReasoning: The problem states that the orange drink is two-thirds water, so we multiply the total amount of orange drink by two-thirds.\n\nStep 2: Calculate the amount of water in the 15 liters of pineapple drink\nWater in pineapple drink = (3/5) \u00d7 15 liters\nWater in pineapple drink = 9 liters\nReasoning: The problem states that the pineapple drink is three-fifths water, so we multiply the total amount of pineapple drink by three-fifths.\n\nStep 3: Calculate the total amount of water before spilling\nTotal water before spill = Water in orange drink + Water in pineapple drink\nTotal water before spill = 20/3 + 9\nTotal water before spill = 20/3 + 27/3\nTotal water before spill = 47/3 liters\nReasoning: To find the total amount of water before spilling, we add the amount of water in the orange drink to the amount of water in the pineapple drink.\n\nStep 4: Calculate the amount of water in the remaining 24 liters after spilling\nWater in remaining mixture = Total water before spill - (1/3) liter\nWater in remaining mixture = 47/3 - 1/3\nWater in remaining mixture = 46/3 liters\nReasoning: Since Janet spills one liter of the orange drink, we need to subtract one-third of a liter from the total water before spilling (as the spilled drink is also two-thirds water).\n\nAnswer: 46/3 liters or approximately 15.33 liters of water in the remaining 24 liters.",
+        "method": "got",
+        "problem": {
+          "question": "I have 10 liters of orange drink that are two-thirds water and I wish to add it to 15 liters of pineapple drink that is three-fifths water. But as I pour it, I spill one liter of the orange drink. How much water is in the remaining 24 liters?",
+          "answer": "There are 15 x 3/5 = <<15*3/5=9>>9 liters of water from the 15 liters pineapple drink.\nAfter 1 liter of orange drink was spilled, there were 10 - 1 = <<10-1=9>>9 liters of orange drink left.\nOut of the 9 liters, 9 x 2/3 = <<9*2/3=6>>6 liters are water.\nThus, there are a total of 9 + 6 = <<9+6=15>>15 liters of water out of the 24 liters.\n#### 15"
+        }
+      },
+      {
+        "original": "I have 10 liters of orange drink that are two-thirds water and I wish to add it to 15 liters of pineapple drink that is three-fifths water. But as I pour it, I spill one liter of the orange drink. How much water is in the remaining 24 liters?",
+        "current": " Step 1: Calculate the amount of water in the original 10 liters of orange drink\nWater in orange drink = (2/3) \u00d7 10 liters\nWater in orange drink = 20/3 liters\nReasoning: The problem states that the orange drink is two-thirds water, so we multiply the total amount of orange drink by two-thirds.\n\nStep 2: Calculate the amount of water in the 15 liters of pineapple drink\nWater in pineapple drink = (3/5) \u00d7 15 liters\nWater in pineapple drink = 9 liters\nReasoning: The problem states that the pineapple drink is three-fifths water, so we multiply the total amount of pineapple drink by three-fifths.\n\nStep 3: Calculate the total amount of water before spilling\nTotal water before spill = Water in orange drink + Water in pineapple drink\nTotal water before spill = 20/3 + 9\nTotal water before spill = 20/3 + 27/3\nTotal water before spill = 47/3 liters\nReasoning: To find the total amount of water before spilling, we add the amount of water in the orange drink to the amount of water in the pineapple drink.\n\nStep 4: Calculate the amount of water in the remaining 24 liters after spilling\nWater in remaining mixture = Total water before spill - (1/3) liter\nWater in remaining mixture = 47/3 - 1/3\nWater in remaining mixture = 46/3 liters\nReasoning: Since Janet spills one liter of the orange drink, we need to subtract one-third of a liter from the total water before spilling (as the spilled drink is also two-thirds water).\n\nAnswer: 46/3 liters or approximately 15.33 liters of water in the remaining 24 liters.",
+        "method": "got",
+        "problem": {
+          "question": "I have 10 liters of orange drink that are two-thirds water and I wish to add it to 15 liters of pineapple drink that is three-fifths water. But as I pour it, I spill one liter of the orange drink. How much water is in the remaining 24 liters?",
+          "answer": "There are 15 x 3/5 = <<15*3/5=9>>9 liters of water from the 15 liters pineapple drink.\nAfter 1 liter of orange drink was spilled, there were 10 - 1 = <<10-1=9>>9 liters of orange drink left.\nOut of the 9 liters, 9 x 2/3 = <<9*2/3=6>>6 liters are water.\nThus, there are a total of 9 + 6 = <<9+6=15>>15 liters of water out of the 24 liters.\n#### 15"
+        }
+      },
+      {
+        "original": "I have 10 liters of orange drink that are two-thirds water and I wish to add it to 15 liters of pineapple drink that is three-fifths water. But as I pour it, I spill one liter of the orange drink. How much water is in the remaining 24 liters?",
+        "current": " Step 1: Calculate the amount of water in the original 10 liters of orange drink\nWater in orange drink = (2/3) \u00d7 10 liters\nWater in orange drink = 20/3 liters\nReasoning: The problem states that the orange drink is two-thirds water, so we multiply the total amount of orange drink by two-thirds.\n\nStep 2: Calculate the amount of water in the 15 liters of pineapple drink\nWater in pineapple drink = (3/5) \u00d7 15 liters\nWater in pineapple drink = 9 liters\nReasoning: The problem states that the pineapple drink is three-fifths water, so we multiply the total amount of pineapple drink by three-fifths.\n\nStep 3: Calculate the total amount of water before spilling\nTotal water before spill = Water in orange drink + Water in pineapple drink\nTotal water before spill = 20/3 + 9\nTotal water before spill = 20/3 + 27/3\nTotal water before spill = 47/3 liters\nReasoning: To find the total amount of water before spilling, we add the amount of water in the orange drink to the amount of water in the pineapple drink.\n\nStep 4: Calculate the amount of water in the remaining 24 liters after spilling\nWater in remaining mixture = Total water before spill - (1/3) liter\nWater in remaining mixture = 47/3 - 1/3\nWater in remaining mixture = 46/3 liters\nReasoning: Since Janet spills one liter of the orange drink, we need to subtract one-third of a liter from the total water before spilling (as the spilled drink is also two-thirds water).\n\nAnswer: 46/3 liters or approximately 15.33 liters of water in the remaining 24 liters.",
+        "method": "got",
+        "problem": {
+          "question": "I have 10 liters of orange drink that are two-thirds water and I wish to add it to 15 liters of pineapple drink that is three-fifths water. But as I pour it, I spill one liter of the orange drink. How much water is in the remaining 24 liters?",
+          "answer": "There are 15 x 3/5 = <<15*3/5=9>>9 liters of water from the 15 liters pineapple drink.\nAfter 1 liter of orange drink was spilled, there were 10 - 1 = <<10-1=9>>9 liters of orange drink left.\nOut of the 9 liters, 9 x 2/3 = <<9*2/3=6>>6 liters are water.\nThus, there are a total of 9 + 6 = <<9+6=15>>15 liters of water out of the 24 liters.\n#### 15"
+        }
+      },
+      {
+        "original": "I have 10 liters of orange drink that are two-thirds water and I wish to add it to 15 liters of pineapple drink that is three-fifths water. But as I pour it, I spill one liter of the orange drink. How much water is in the remaining 24 liters?",
+        "current": " Step 1: Calculate the amount of water in the original 10 liters of orange drink\nWater in orange drink = (2/3) \u00d7 10 liters\nWater in orange drink = 20/3 liters\nReasoning: The problem states that the orange drink is two-thirds water, so we multiply the total amount of orange drink by two-thirds.\n\nStep 2: Calculate the amount of water in the 15 liters of pineapple drink\nWater in pineapple drink = (3/5) \u00d7 15 liters\nWater in pineapple drink = 9 liters\nReasoning: The problem states that the pineapple drink is three-fifths water, so we multiply the total amount of pineapple drink by three-fifths.\n\nStep 3: Calculate the total amount of water before spilling\nTotal water before spill = Water in orange drink + Water in pineapple drink\nTotal water before spill = 20/3 + 9\nTotal water before spill = 20/3 + 27/3\nTotal water before spill = 47/3 liters\nReasoning: To find the total amount of water before spilling, we add the amount of water in the orange drink to the amount of water in the pineapple drink.\n\nStep 4: Calculate the amount of water in the remaining 24 liters after spilling\nWater in remaining mixture = Total water before spill - (1/3) liter\nWater in remaining mixture = 47/3 - 1/3\nWater in remaining mixture = 46/3 liters\nReasoning: Since Janet spills one liter of the orange drink, we need to subtract one-third of a liter from the total water before spilling (as the spilled drink is also two-thirds water).\n\nAnswer: 46/3 liters or approximately 15.33 liters of water in the remaining 24 liters.",
+        "method": "got",
+        "problem": {
+          "question": "I have 10 liters of orange drink that are two-thirds water and I wish to add it to 15 liters of pineapple drink that is three-fifths water. But as I pour it, I spill one liter of the orange drink. How much water is in the remaining 24 liters?",
+          "answer": "There are 15 x 3/5 = <<15*3/5=9>>9 liters of water from the 15 liters pineapple drink.\nAfter 1 liter of orange drink was spilled, there were 10 - 1 = <<10-1=9>>9 liters of orange drink left.\nOut of the 9 liters, 9 x 2/3 = <<9*2/3=6>>6 liters are water.\nThus, there are a total of 9 + 6 = <<9+6=15>>15 liters of water out of the 24 liters.\n#### 15"
+        }
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

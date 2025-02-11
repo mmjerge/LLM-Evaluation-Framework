@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "John buys twice as many red ties as blue ties.  The red ties cost 50% more than blue ties.  He spent $200 on blue ties that cost $40 each. How much did he spend on ties?",
+        "current": "Let's solve the problem step by step.\n\nStep 1: Calculate the total number of blue ties John bought\nTotal blue ties = $200 / $40\nTotal blue ties = 5\nReasoning: John spent $200 on blue ties that cost $40 each, so we divide the total amount spent by the cost per tie to find the number of ties.\n\nStep 2: Calculate the cost of one red tie\nRed tie cost = Blue tie cost + (Blue tie cost \u00d7 0.5)\nRed tie cost = $40 + ($40 \u00d7 0.5)\nRed tie cost = $40 + $20\nRed tie cost = $60\nReasoning: The problem states that the red ties cost 50% more than the blue ties. To find the cost of one red tie, we add 50% of the blue tie cost to the blue tie cost.\n\nStep 3: Calculate the number of red ties John bought\nNumber of red ties = 2 \u00d7 Number of blue ties\nNumber of red ties = 2 \u00d7 5\nNumber of red ties = 10\nReasoning: The problem states that John buys twice as many red ties as blue ties. Since he bought 5 blue ties, we multiply this number by 2 to find the number of red ties.\n\nStep 4: Calculate the total amount John spent on ties\nTotal amount spent = (Number of blue ties \u00d7 Blue tie cost) + (Number of red ties \u00d7 Red tie cost)\nTotal amount spent = (5 \u00d7 $40) + (10 \u00d7 $60)\nTotal amount spent = $200 + $600\nTotal amount spent = $800\nReasoning: To find the total amount John spent on ties, we multiply the number of blue ties by the cost per blue tie, and the number of red ties by the cost per red tie, and then add these two amounts together.\n\nAnswer: $800",
+        "method": "cot",
+        "problem": {
+          "question": "John buys twice as many red ties as blue ties.  The red ties cost 50% more than blue ties.  He spent $200 on blue ties that cost $40 each. How much did he spend on ties?",
+          "answer": "He bought 200 / 40 = <<200/40=5>>5 blue ties\nSo he bought 5 * 2 = <<5*2=10>>10 red ties\nEach red tie cost $40 * .5 = $<<40*.5=20>>20 more than blue ties\nSo they each cost $40 + $20 = $<<40+20=60>>60\nSo he spent $60 * 10 = $<<60*10=600>>600 on red ties\nSo he spent $200 + $600 = $<<200+600=800>>800 on ties\n#### 800"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "John buys twice as many red ties as blue ties.  The red ties cost 50% more than blue ties.  He spent $200 on blue ties that cost $40 each. How much did he spend on ties?",
+        "current": "Let's solve the problem step by step.\n\nStep 1: Calculate the total number of blue ties John bought\nTotal blue ties = $200 / $40\nTotal blue ties = 5\nReasoning: John spent $200 on blue ties that cost $40 each, so we divide the total amount spent by the cost per tie to find the number of ties.\n\nStep 2: Calculate the cost of one red tie\nRed tie cost = Blue tie cost + (Blue tie cost \u00d7 0.5)\nRed tie cost = $40 + ($40 \u00d7 0.5)\nRed tie cost = $40 + $20\nRed tie cost = $60\nReasoning: The problem states that the red ties cost 50% more than the blue ties. To find the cost of one red tie, we add 50% of the blue tie cost to the blue tie cost.\n\nStep 3: Calculate the number of red ties John bought\nNumber of red ties = 2 \u00d7 Number of blue ties\nNumber of red ties = 2 \u00d7 5\nNumber of red ties = 10\nReasoning: The problem states that John buys twice as many red ties as blue ties. Since he bought 5 blue ties, we multiply this number by 2 to find the number of red ties.\n\nStep 4: Calculate the total amount John spent on ties\nTotal amount spent = (Number of blue ties \u00d7 Blue tie cost) + (Number of red ties \u00d7 Red tie cost)\nTotal amount spent = (5 \u00d7 $40) + (10 \u00d7 $60)\nTotal amount spent = $200 + $600\nTotal amount spent = $800\nReasoning: To find the total amount John spent on ties, we multiply the number of blue ties by the cost per blue tie, and the number of red ties by the cost per red tie, and then add these two amounts together.\n\nAnswer: $800",
+        "method": "cot",
+        "problem": {
+          "question": "John buys twice as many red ties as blue ties.  The red ties cost 50% more than blue ties.  He spent $200 on blue ties that cost $40 each. How much did he spend on ties?",
+          "answer": "He bought 200 / 40 = <<200/40=5>>5 blue ties\nSo he bought 5 * 2 = <<5*2=10>>10 red ties\nEach red tie cost $40 * .5 = $<<40*.5=20>>20 more than blue ties\nSo they each cost $40 + $20 = $<<40+20=60>>60\nSo he spent $60 * 10 = $<<60*10=600>>600 on red ties\nSo he spent $200 + $600 = $<<200+600=800>>800 on ties\n#### 800"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      800.0
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "John buys twice as many red ties as blue ties.  The red ties cost 50% more than blue ties.  He spent $200 on blue ties that cost $40 each. How much did he spend on ties?",
+        "current": "Let's solve the problem step by step.\n\nStep 1: Calculate the total number of blue ties John bought\nTotal blue ties = $200 / $40\nTotal blue ties = 5\nReasoning: John spent $200 on blue ties that cost $40 each, so we divide the total amount spent by the cost per tie to find the number of ties.\n\nStep 2: Calculate the cost of one red tie\nRed tie cost = Blue tie cost + (Blue tie cost \u00d7 0.5)\nRed tie cost = $40 + ($40 \u00d7 0.5)\nRed tie cost = $40 + $20\nRed tie cost = $60\nReasoning: The problem states that the red ties cost 50% more than the blue ties. To find the cost of one red tie, we add 50% of the blue tie cost to the blue tie cost.\n\nStep 3: Calculate the number of red ties John bought\nNumber of red ties = 2 \u00d7 Number of blue ties\nNumber of red ties = 2 \u00d7 5\nNumber of red ties = 10\nReasoning: The problem states that John buys twice as many red ties as blue ties. Since he bought 5 blue ties, we multiply this number by 2 to find the number of red ties.\n\nStep 4: Calculate the total amount John spent on ties\nTotal amount spent = (Number of blue ties \u00d7 Blue tie cost) + (Number of red ties \u00d7 Red tie cost)\nTotal amount spent = (5 \u00d7 $40) + (10 \u00d7 $60)\nTotal amount spent = $200 + $600\nTotal amount spent = $800\nReasoning: To find the total amount John spent on ties, we multiply the number of blue ties by the cost per blue tie, and the number of red ties by the cost per red tie, and then add these two amounts together.\n\nAnswer: $800",
+        "method": "cot",
+        "problem": {
+          "question": "John buys twice as many red ties as blue ties.  The red ties cost 50% more than blue ties.  He spent $200 on blue ties that cost $40 each. How much did he spend on ties?",
+          "answer": "He bought 200 / 40 = <<200/40=5>>5 blue ties\nSo he bought 5 * 2 = <<5*2=10>>10 red ties\nEach red tie cost $40 * .5 = $<<40*.5=20>>20 more than blue ties\nSo they each cost $40 + $20 = $<<40+20=60>>60\nSo he spent $60 * 10 = $<<60*10=600>>600 on red ties\nSo he spent $200 + $600 = $<<200+600=800>>800 on ties\n#### 800"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      800.0
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]

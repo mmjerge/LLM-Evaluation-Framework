@@ -1,0 +1,67 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Kyle bought last year's best-selling book for $19.50. This is with a 25% discount from the original price. What was the original price of the book?",
+        "current": "Step 1: Set up the equation to find the original price\nLet x be the original price of the book\nx - 0.25x = $19.50\n0.75x = $19.50\nReasoning: The original price of the book minus 25% (or 0.25) of the original price equals the discounted price that Kyle paid.\n\nStep 2: Solve for x\nx = $19.50 / 0.75\nx = $26\nReasoning: Divide both sides of the equation by 0.75 to solve for x.\n\nAnswer: The original price of the book was $26.",
+        "method": "cot",
+        "problem": {
+          "question": "Kyle bought last year's best-selling book for $19.50. This is with a 25% discount from the original price. What was the original price of the book?",
+          "answer": "Let X be the original price of the book. The discounted price is X - X*25% = $19.50.\nCombining like terms, we get .75X = $19.50\nDividing both sides by .75, we get X = $26.\n#### 26"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "score",
+    "thoughts": [
+      {
+        "original": "Kyle bought last year's best-selling book for $19.50. This is with a 25% discount from the original price. What was the original price of the book?",
+        "current": "Step 1: Set up the equation to find the original price\nLet x be the original price of the book\nx - 0.25x = $19.50\n0.75x = $19.50\nReasoning: The original price of the book minus 25% (or 0.25) of the original price equals the discounted price that Kyle paid.\n\nStep 2: Solve for x\nx = $19.50 / 0.75\nx = $26\nReasoning: Divide both sides of the equation by 0.75 to solve for x.\n\nAnswer: The original price of the book was $26.",
+        "method": "cot",
+        "problem": {
+          "question": "Kyle bought last year's best-selling book for $19.50. This is with a 25% discount from the original price. What was the original price of the book?",
+          "answer": "Let X be the original price of the book. The discounted price is X - X*25% = $19.50.\nCombining like terms, we get .75X = $19.50\nDividing both sides by .75, we get X = $26.\n#### 26"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Kyle bought last year's best-selling book for $19.50. This is with a 25% discount from the original price. What was the original price of the book?",
+        "current": "Step 1: Set up the equation to find the original price\nLet x be the original price of the book\nx - 0.25x = $19.50\n0.75x = $19.50\nReasoning: The original price of the book minus 25% (or 0.25) of the original price equals the discounted price that Kyle paid.\n\nStep 2: Solve for x\nx = $19.50 / 0.75\nx = $26\nReasoning: Divide both sides of the equation by 0.75 to solve for x.\n\nAnswer: The original price of the book was $26.",
+        "method": "cot",
+        "problem": {
+          "question": "Kyle bought last year's best-selling book for $19.50. This is with a 25% discount from the original price. What was the original price of the book?",
+          "answer": "Let X be the original price of the book. The discounted price is X - X*25% = $19.50.\nCombining like terms, we get .75X = $19.50\nDividing both sides by .75, we get X = $26.\n#### 26"
+        }
+      }
+    ],
+    "scored": [
+      true
+    ],
+    "scores": [
+      NaN
+    ],
+    "compared_to_ground_truth": [
+      true
+    ],
+    "problem_solved": [
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 350,
+    "completion_tokens": 135,
+    "cost": 0.0007949999999999999
+  }
+]

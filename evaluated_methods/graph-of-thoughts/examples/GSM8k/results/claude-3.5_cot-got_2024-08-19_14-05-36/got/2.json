@@ -1,0 +1,74 @@
+[
+  {
+    "operation": "generate",
+    "thoughts": [
+      {
+        "original": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+        "current": "Let's solve this problem step by step:\n\nStep 1: Calculate the total investment\nTotal investment = Purchase price + Repair costs\nTotal investment = $80,000 + $50,000 = $130,000\nReasoning: Josh's total investment is the sum of the house purchase price and the repair costs.\n\nStep 2: Calculate the increase in value\nOriginal value = $80,000\nIncrease percentage = 150%\nValue increase = Original value \u00d7 Increase percentage\nValue increase = $80,000 \u00d7 150% = $80,000 \u00d7 1.5 = $120,000\nReasoning: The value increased by 150% of the original purchase price.\n\nStep 3: Calculate the new value of the house\nNew value = Original value + Value increase\nNew value = $80,000 + $120,000 = $200,000\nReasoning: The new value is the sum of the original value and the increase in value.\n\nStep 4: Calculate the profit\nProfit = New value - Total investment\nProfit = $200,000 - $130,000 = $70,000\nReasoning: The profit is the difference between the new value of the house and the total investment.\n\nAnswer: $70,000",
+        "method": "got",
+        "problem": {
+          "question": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+          "answer": "The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000\n#### 70000"
+        }
+      }
+    ]
+  },
+  {
+    "operation": "ground_truth_evaluator",
+    "thoughts": [
+      {
+        "original": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+        "current": "Let's solve this problem step by step:\n\nStep 1: Calculate the total investment\nTotal investment = Purchase price + Repair costs\nTotal investment = $80,000 + $50,000 = $130,000\nReasoning: Josh's total investment is the sum of the house purchase price and the repair costs.\n\nStep 2: Calculate the increase in value\nOriginal value = $80,000\nIncrease percentage = 150%\nValue increase = Original value \u00d7 Increase percentage\nValue increase = $80,000 \u00d7 150% = $80,000 \u00d7 1.5 = $120,000\nReasoning: The value increased by 150% of the original purchase price.\n\nStep 3: Calculate the new value of the house\nNew value = Original value + Value increase\nNew value = $80,000 + $120,000 = $200,000\nReasoning: The new value is the sum of the original value and the increase in value.\n\nStep 4: Calculate the profit\nProfit = New value - Total investment\nProfit = $200,000 - $130,000 = $70,000\nReasoning: The profit is the difference between the new value of the house and the total investment.\n\nAnswer: $70,000",
+        "method": "got",
+        "problem": {
+          "question": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+          "answer": "The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000\n#### 70000"
+        }
+      },
+      {
+        "original": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+        "current": "Let's solve this problem step by step:\n\nStep 1: Calculate the total investment\nTotal investment = Purchase price + Repair costs\nTotal investment = $80,000 + $50,000 = $130,000\nReasoning: Josh's total investment is the sum of the house purchase price and the repair costs.\n\nStep 2: Calculate the increase in value\nOriginal value = $80,000\nIncrease percentage = 150%\nValue increase = Original value \u00d7 Increase percentage\nValue increase = $80,000 \u00d7 150% = $80,000 \u00d7 1.5 = $120,000\nReasoning: The value increased by 150% of the original purchase price.\n\nStep 3: Calculate the new value of the house\nNew value = Original value + Value increase\nNew value = $80,000 + $120,000 = $200,000\nReasoning: The new value is the sum of the original value and the increase in value.\n\nStep 4: Calculate the profit\nProfit = New value - Total investment\nProfit = $200,000 - $130,000 = $70,000\nReasoning: The profit is the difference between the new value of the house and the total investment.\n\nAnswer: $70,000",
+        "method": "got",
+        "problem": {
+          "question": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+          "answer": "The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000\n#### 70000"
+        }
+      },
+      {
+        "original": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+        "current": "Let's solve this problem step by step:\n\nStep 1: Calculate the total investment\nTotal investment = Purchase price + Repair costs\nTotal investment = $80,000 + $50,000 = $130,000\nReasoning: Josh's total investment is the sum of the house purchase price and the repair costs.\n\nStep 2: Calculate the increase in value\nOriginal value = $80,000\nIncrease percentage = 150%\nValue increase = Original value \u00d7 Increase percentage\nValue increase = $80,000 \u00d7 150% = $80,000 \u00d7 1.5 = $120,000\nReasoning: The value increased by 150% of the original purchase price.\n\nStep 3: Calculate the new value of the house\nNew value = Original value + Value increase\nNew value = $80,000 + $120,000 = $200,000\nReasoning: The new value is the sum of the original value and the increase in value.\n\nStep 4: Calculate the profit\nProfit = New value - Total investment\nProfit = $200,000 - $130,000 = $70,000\nReasoning: The profit is the difference between the new value of the house and the total investment.\n\nAnswer: $70,000",
+        "method": "got",
+        "problem": {
+          "question": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+          "answer": "The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000\n#### 70000"
+        }
+      },
+      {
+        "original": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+        "current": "Let's solve this problem step by step:\n\nStep 1: Calculate the total investment\nTotal investment = Purchase price + Repair costs\nTotal investment = $80,000 + $50,000 = $130,000\nReasoning: Josh's total investment is the sum of the house purchase price and the repair costs.\n\nStep 2: Calculate the increase in value\nOriginal value = $80,000\nIncrease percentage = 150%\nValue increase = Original value \u00d7 Increase percentage\nValue increase = $80,000 \u00d7 150% = $80,000 \u00d7 1.5 = $120,000\nReasoning: The value increased by 150% of the original purchase price.\n\nStep 3: Calculate the new value of the house\nNew value = Original value + Value increase\nNew value = $80,000 + $120,000 = $200,000\nReasoning: The new value is the sum of the original value and the increase in value.\n\nStep 4: Calculate the profit\nProfit = New value - Total investment\nProfit = $200,000 - $130,000 = $70,000\nReasoning: The profit is the difference between the new value of the house and the total investment.\n\nAnswer: $70,000",
+        "method": "got",
+        "problem": {
+          "question": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+          "answer": "The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000\n#### 70000"
+        }
+      }
+    ],
+    "compared_to_ground_truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "problem_solved": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost": 0.0
+  }
+]
