@@ -13,7 +13,7 @@ This framework allows researchers and practitioners to:
 ## Installation
 
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yaml
 ```
 
 Required dependencies:
@@ -97,6 +97,8 @@ BenchmarkRegistry.register("my-benchmark", MyBenchmark)
 ```
 
 ### Inference Methods
+
+Along with the framework to evaluate inference-time methods, this repository also includes methods that were evaluated on different models and benchmarks. These can be found in the /evaluated_methods directory.
 
 Creating a custom inference method:
 ```python
