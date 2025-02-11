@@ -1,18 +1,29 @@
-from huggingface_hub import InferenceClient
-from datasets import load_dataset
-import random
-import json
 import os
-import re
-from tqdm import tqdm
-from multiprocessing.pool import ThreadPool
-import time
-from typing import List, Dict, Any
-import jsonlines
+from openai import OpenAI
+from anthropic import Anthropic
+from mistralai.client import MistralClient
+from mistralai.models.chat_completion import ChatMessage
+from datasets import load_dataset
 import pandas as pd
+import re
+from multiprocessing.pool import ThreadPool
+import jsonlines
+from typing import Literal
+import time
 
-def get_response(client: InferenceClient, question: str, temp: float = 0.7) -> str:
-    """Get response from the specified model."""
+openai_client = OpenAI()
+anthropic_client = Anthropic()
+mistral_client = MistralClient(
+    api_key=os.environ["MISTRAL_API_KEY"]
+)
+
+ModelProvider = Literal["openai", "anthropic", "mistral"]
+
+def get_response(question: str, 
+                provider: ModelProvider = "openai", 
+                model: str = "gpt-3.5-turbo", 
+                temp: float = 0.7) -> str:
+    """Get response from the specified model provider."""
     instructions = '''
     Let's approach this step-by-step:
     1. First, understand what the question is asking
@@ -23,24 +34,47 @@ def get_response(client: InferenceClient, question: str, temp: float = 0.7) -> s
     Return your final answer in the format: "The answer is X."
     '''
     
-    try:
-        completion = client.chat.completions.create(
-            model="meta-llama/Llama-3.1-8B-Instruct",
+    if provider == "openai":
+        response = openai_client.chat.completions.create(
+            model=model,
             messages=[
                 {"role": "system", "content": instructions},
                 {"role": "user", "content": f"```{question}```"}
             ],
-            temperature=temp,
-            max_tokens=500
+            temperature=temp
         )
-        return completion.choices[0].message.content
-    except Exception as e:
-        print(f"Error getting prediction: {e}")
-        return None
+        return response.choices[0].message.content
+        
+    elif provider == "anthropic":
+        response = anthropic_client.messages.create(
+            model=model, 
+            max_tokens=1024,
+            temperature=temp,
+            system=instructions,
+            messages=[
+                {"role": "user", "content": f"```{question}```"}
+            ]
+        )
+        return response.content[0].text
+        
+    elif provider == "mistral":
+        messages = [
+            ChatMessage(role="system", content=instructions),
+            ChatMessage(role="user", content=f"```{question}```")
+        ]
+        response = mistral_client.chat(
+            model=model,
+            messages=messages,
+            temperature=temp
+        )
+        return response.choices[0].message.content
+    
+    else:
+        raise ValueError(f"Unsupported provider: {provider}")
 
-def generate_reasoning_path(client: InferenceClient, question: str, temp: float = 0.7) -> str:
+def generate_reasoning_path(question: str, provider: ModelProvider, model: str, temp: float = 0.7) -> str:
     """Generate a single reasoning path for a given question."""
-    return get_response(client, question, temp)
+    return get_response(question, provider, model, temp)
 
 def identify_final_answer(solution: str) -> str:
     """Extract the final answer from a solution."""
@@ -61,7 +95,7 @@ def clean_answer(answer: str) -> str:
     
     return answer_clean
 
-def get_best_answer(options: List[str]) -> str:
+def get_best_answer(options: list[str]) -> str:
     """Get the most consistent answer through majority voting."""
     valid_options = [x for x in options if x not in ['', 'NA']]
     if not valid_options:
@@ -78,26 +112,25 @@ def get_true_answer(answer: str) -> str:
     answer = answer.split('### ')[1]
     return re.sub('[^\d\.]', '', answer)
 
-def self_consistency_solver(
-    client: InferenceClient,
-    question: str,
-    n_samples: int = 40,
-    temp: float = 0.7,
-    max_workers: int = 5,
-    delay: float = 1.0
-) -> Dict[str, Any]:
+def self_consistency_solver(question: str, 
+                          provider: ModelProvider,
+                          model: str,
+                          n_samples: int = 40,
+                          temp: float = 0.7,
+                          max_workers: int = 5, 
+                          delay: float = 1.0) -> dict:
     """
     Implementation of self-consistency method with rate limiting
     """
     pool = ThreadPool(max_workers)
     
-    def delayed_generate_reasoning(q):
+    def delayed_generate_reasoning(q, p, m, t):
         time.sleep(delay)
-        return generate_reasoning_path(client, q, temp)
+        return generate_reasoning_path(q, p, m, t)
     
-    reasoning_paths = pool.map(
+    reasoning_paths = pool.starmap(
         delayed_generate_reasoning,
-        [question] * n_samples
+        [(question, provider, model, temp) for _ in range(n_samples)]
     )
     pool.close()
     
@@ -110,26 +143,17 @@ def self_consistency_solver(
         "answers": answers
     }
 
-def run_evaluation(client: InferenceClient, model: str, dataset_name: str = "gsm-symbolic"):
-    """Run evaluation using self-consistency method."""
-    print(f"Loading {dataset_name} dataset...")
-    
-    if dataset_name.lower() == "gsm-symbolic":
-        ds = load_dataset("apple/GSM-Symbolic", "main")
-    else:
-        ds = load_dataset("gsm8k", "main")
-        
+def run_evaluation(provider: ModelProvider, model: str):
+    """Run evaluation for a specific provider and model."""
+    print(f"Loading dataset...")
+    ds = load_dataset("apple/GSM-Symbolic", "main")
     train_df = pd.DataFrame(ds['test'])
     sample = train_df.sample(n=150, random_state=1)
 
-    model_name = model.replace('/', '_').replace('-', '_').replace('.', '_')
-    output_file = f"results_{dataset_name.lower()}_{model_name}.jsonl"
-    
-    os.makedirs('results', exist_ok=True)
-    output_path = os.path.join('results', output_file)
+    output_file = f"results_gsm_symbolic_{provider}_{model.replace('-', '_')}.jsonl"
 
     try:
-        with jsonlines.open(output_path, 'r') as reader:
+        with jsonlines.open(output_file, 'r') as reader:
             df = pd.DataFrame([item for item in reader])
         start = len(df)
     except:
@@ -139,16 +163,16 @@ def run_evaluation(client: InferenceClient, model: str, dataset_name: str = "gsm
     for i in range(start, len(sample)):
         question = sample.iloc[i].question
         true_answer = get_true_answer(sample.iloc[i].answer)
-        results = self_consistency_solver(client, question)
+        results = self_consistency_solver(question, provider, model)
         
-        with jsonlines.open(output_path, mode='a') as writer:
+        with jsonlines.open(output_file, mode='a') as writer:
             writer.write({
                 "question": question,
                 "true_answer": true_answer,
                 "best_answer": results['best_answer'],
                 "paths": results['paths'],
                 "answers": results['answers'],
-                "provider": "huggingface",
+                "provider": provider,
                 "model": model
             })
         
@@ -157,19 +181,6 @@ def run_evaluation(client: InferenceClient, model: str, dataset_name: str = "gsm
 
     print("Testing completed!")
 
-def main():
-    client = InferenceClient(
-        provider="hf-inference",
-        api_key=""
-    )
-    
-    model = "meta-llama/Llama-3.1-8B-Instruct"
-    
-    print("\nEvaluating GSM8K dataset...")
-    run_evaluation(client, model, "gsm8k")
-    
-    print("\nEvaluating GSM-Symbolic dataset...")
-    run_evaluation(client, model, "gsm-symbolic")
-
-if __name__ == "__main__":
-    main()
+# run_evaluation("openai", "gpt-3.5-turbo")
+# run_evaluation("anthropic", "claude-3-5-sonnet-20241022")
+run_evaluation("mistral", "open-mixtral-8x22b")
