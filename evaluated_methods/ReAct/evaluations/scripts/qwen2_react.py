@@ -9,6 +9,7 @@ from langchain_community.llms import VLLM
 from langchain.tools import Tool
 from langchain.chains import LLMMathChain
 import re
+import os 
 
 def load_samples(dataset_name, num_samples=150, for_examples=False, exclude_indices=None):
     """Load samples from the dataset."""
@@ -16,7 +17,7 @@ def load_samples(dataset_name, num_samples=150, for_examples=False, exclude_indi
         dataset = datasets.load_dataset('gsm8k', 'main', split='test')
     elif dataset_name == "gsm-symbolic":
         dataset = datasets.load_dataset('apple/GSM-Symbolic', 'main')
-        dataset = dataset['test']  # GSM-Symbolic only has test split
+        dataset = dataset['test'] 
     elif dataset_name == "mmlu":
         dataset = datasets.load_dataset('cais/mmlu', 'all', split='test')
     elif dataset_name == "aqua":
@@ -45,7 +46,7 @@ def get_tools_for_dataset(dataset_name, llm):
         )
         return [calculator]
     else:
-        return []  # MMLU and AQUA don't need special tools
+        return []
 
 def format_question(sample, dataset_name):
     """Format the question based on dataset type."""
@@ -79,13 +80,17 @@ def extract_answer(response):
     match = re.search(r'Final answer: #### (.+)', response)
     if match:
         return match.group(1).strip()
+    
+    match = re.findall(r'\d+(?:\.\d+)?', response)
+    if match:
+        return match[-1]
+    
     return None
 
 def evaluate_dataset(model_name, dataset_name, num_samples=150):
     """Evaluate a dataset using ReAct framework."""
     print(f"\nEvaluating {dataset_name}...")
-    
-    # Initialize vLLM
+
     llm = VLLM(
         model=model_name,
         trust_remote_code=True,
@@ -95,39 +100,30 @@ def evaluate_dataset(model_name, dataset_name, num_samples=150):
         temperature=0.8,
     )
     
-    # Get tools for the dataset
     tools = get_tools_for_dataset(dataset_name, llm)
-    
-    # Get ReAct prompt
     prompt = hub.pull("hwchase17/react")
     
-    # Create ReAct agent
     agent = create_react_agent(llm, tools, prompt)
     agent_executor = AgentExecutor(
         agent=agent,
         tools=tools,
         verbose=False,
         max_iterations=5,
-        early_stopping_method="generate"
+        early_stopping_method="generate",
+        handle_parsing_errors=True 
     )
-    
-    # Load samples
     samples, _ = load_samples(dataset_name, num_samples)
     results = []
     
     for sample in tqdm(samples, desc=f"Processing {dataset_name}"):
-        # Format question
         formatted_question = format_question(sample, dataset_name)
         
         try:
-            # Get model response using ReAct
             response = agent_executor.invoke({"input": formatted_question})
             model_response = response['output']
             
-            # Extract ground truth
             if dataset_name == "mmlu":
-                # Convert numeric ground truth (0-3) to letter (A-D)
-                num_to_letter = {0: 'A', 1: 'B', 2: 'C', 3: 'D'}
+                num_to_letter = {0: 'A', 1: 'B', 2: 'C', 3: 'D', 4: 'E'}
                 ground_truth = num_to_letter.get(sample['answer'], str(sample['answer']))
             elif dataset_name == "aqua":
                 ground_truth = str(sample['correct'])
@@ -136,7 +132,6 @@ def evaluate_dataset(model_name, dataset_name, num_samples=150):
             else:
                 ground_truth = str(sample['answer'])
             
-            # Extract model's final answer
             model_answer = extract_answer(model_response)
             
             results.append({
@@ -155,9 +150,8 @@ def evaluate_dataset(model_name, dataset_name, num_samples=150):
                 'extracted_answer': None
             })
         
-        time.sleep(0.1)  # Small delay between requests
+        time.sleep(0.1)
     
-    # Save results
     filename = f'{dataset_name}_responses_{model_name.split("/")[-1]}_react.json'
     with open(filename, 'w') as f:
         json.dump(results, f, indent=2)

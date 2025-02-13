@@ -1,0 +1,902 @@
+[
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: There are 384 oranges and 192 bananas in Philip's collection. If the bananas are organized into 345 groups and oranges are organized into 16 groups How big is each group of oranges?",
+    "ground_truth": "24",
+    "model_response": "The result of 216 times 123 is 26472.",
+    "extracted_answer": "26472"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?",
+    "ground_truth": "1",
+    "model_response": "The candy bar cost $1.",
+    "extracted_answer": "1"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Paco had 22 sweet cookies and 75 salty cookies. He ate 15 sweet cookies and 54 salty cookies. How many sweet cookies did Paco have left?",
+    "ground_truth": "7",
+    "model_response": "Paco had 21 salty cookies left.",
+    "extracted_answer": "21"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+    "ground_truth": "7",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Dan has $ 2. He bought some candy bar for $ 6 each one costing $ 3. How many candy bar did he buy?",
+    "ground_truth": "2",
+    "model_response": "0 Final answer: 0. The number of candy bars Dan bought is 0. This means Dan could not afford even a single candy bar given the price and amount he had.",
+    "extracted_answer": "0"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Debby bought 88 water bottles and 13 soda bottles when they were on sale. If she drank 4 water bottles and 87 soda bottles a day How many days would the water bottles last?",
+    "ground_truth": "2",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Paige was helping her mom plant flowers and together they planted 45 seeds in 9 flowerbeds. If they put same number of seeds in each flower bed How many seeds did they plant in each flowerbed?",
+    "ground_truth": "2",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Paul got a box of some crayons for his birthday. During the school year he gave 52 crayons to his friends while he lost 535 crayons. If he only had 492 crayons left How many crayons had been lost or given away?",
+    "ground_truth": "2",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Jake has 6 fewer peaches than Steven. Steven has 18 more peaches than Jill. If jill has 5 peaches How many peaches does Jake have?",
+    "ground_truth": "17",
+    "model_response": "Jake has 17 peaches.",
+    "extracted_answer": "17"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: For the walls of the house he would use 12 large planks of wood and 10 small planks. If large planks together need 15 pieces of nails to be secured and small planks together need 5 nails. How many nails does John need for the house wall?",
+    "ground_truth": "20",
+    "model_response": "20 nails.",
+    "extracted_answer": "20"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Jessie weighed 114 kilograms. After she started to go jogging everyday she lost 50 kilograms in the first week and 60 kilograms in the second week. How much does she weigh now?",
+    "ground_truth": "4",
+    "model_response": "4 kilograms.\n\nThis is the amount Jessie weighs after losing a total of 110 kilograms (50 + 60) over the first and second week. Note that a weight of 4 kilograms is extremely low and unrealistic for a human being, and the scenario presented in the question is not physically plausible. However, following the instructions given, the final answer is 4 kilograms.",
+    "extracted_answer": "4"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Jake has 12 fewer peaches and 79 more apples than Steven. Steven has 19 peaches and 14 apples. How many peaches does Jake have?",
+    "ground_truth": "7",
+    "model_response": "7\n\nGiven that Steven has 19 peaches and Jake has 12 fewer peaches than Steven, Jake has 19 - 12 = 7 peaches.",
+    "extracted_answer": "7"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Nell collects cards. She had 246 baseball cards and 214 Ace cards. She gave some of her cards to Jeff and now has 404 baseball cards and 495 Ace cards left. How many more Ace cards than baseball cards does Nell have?",
+    "ground_truth": "91",
+    "model_response": "Nell has 91 more Ace cards than baseball cards.",
+    "extracted_answer": "91"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Mary is baking a cake. The recipe calls for 6 cups of sugar and 9 cups of flour. She already put in 2 cups of flour. How many more cups of flour than cups of sugar does she need to add now?",
+    "ground_truth": "1",
+    "model_response": "1\n\nGiven the question: \n\nThe answer is 1.",
+    "extracted_answer": "1"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Matthew gave 6 crackers to each his friends. If he had 36 crackers How many friends did he give crackers to?",
+    "ground_truth": "6",
+    "model_response": "Matthew gave crackers to 6 friends.",
+    "extracted_answer": "6"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Lawrence county has 313473 kids. During summer break 274865 kids stay home and the rest go to camp. How many kids go to the camp during the break?",
+    "ground_truth": "38608",
+    "model_response": "38608 kids go to the camp during the break.",
+    "extracted_answer": "38608"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+    "ground_truth": "1",
+    "model_response": "Julia played with 1 more kid on Monday than on Tuesday.",
+    "extracted_answer": "1"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Zachary did 59 push-ups and 44 crunches in gym class today. David did 19 more push-ups but 27 less crunches than zachary. How many push-ups did David do?",
+    "ground_truth": "78",
+    "model_response": "Final answer: David did 19 more push-ups than Zachary.",
+    "extracted_answer": "19"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Frank was reading through his favorite book. The book had 2 chapters each with 405 pages. It took frank 664 days to finish the book. How many chapters did he read per day?",
+    "ground_truth": "78",
+    "model_response": "Error: LLMMathChain._evaluate(\"\nround(0.8197530864197531)\n\") raised error: 'VariableNode' object is not callable. Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Brenda's mother made cookies for 5. She prepared 22 cookies but had to throw away 17 cookies. If each of them had the same number of cookies How many did each of them have?",
+    "ground_truth": "1",
+    "model_response": "Each of them got 1.0 cookie.",
+    "extracted_answer": "1.0"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Winter is almost here and most animals are migrating to warmer countries. There are 3 bird families living near the mountain. 26 new bird families came to live near the mountain from the arctic while 2 bird families flew away further south for winter. How many bird families were left near the mountain?",
+    "ground_truth": "1",
+    "model_response": "Error: LLMMathChain._evaluate(\"\ntotal_bird_families = 26 + 3\nremaining_bird_families = total_bird_families - 2\nremaining_bird_families\n\") raised error: invalid syntax (<expr>, line 1). Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: A book has 3 chapters. The first chapter is 66 pages long the second chapter is 35 pages long and the third chapter is 24 pages long. How many pages does the book have altogether?",
+    "ground_truth": "1",
+    "model_response": "Error: LLMMathChain._evaluate(\"\npages_per_book = 256\n\") raised error: invalid syntax (<expr>, line 1). Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Allan brought 2 balloons and Jake brought 4 balloons to the park. Allan then bought 3 more balloons at the park. How many more balloons did Allan have than Jake in the park?",
+    "ground_truth": "1",
+    "model_response": "Error: LLMMathChain._evaluate(\"\nballoons_difference\n\") raised error: 'balloons_difference'. Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Robin cut off 20 inches of his hair. If his hair is now 10 inches long How long was his hair before he cut?",
+    "ground_truth": "30",
+    "model_response": "30",
+    "extracted_answer": "30"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Adam could fit 8 action figures and 10 cabinets on each shelf in his room. His room has 4 shelves. How many total items could his shelves hold?",
+    "ground_truth": "72",
+    "model_response": "72\n\nGiven the response, it seems to be a well-structured answer to the math word problem. The student has correctly calculated the total number of items (action figures and cabinets) that can fit on a single shelf and then multiplied that by the number of shelves to find the total capacity. The response follows the guidelines by providing a final answer in the required format and ensuring the steps are clear and logical. No additional tools are needed for this task.",
+    "extracted_answer": "72"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that 705 visitors came to the Buckingham palace that day. If there were 191 visitors the previous day and 457 visitors the day before that How many more visitors visited the Buckingham palace on that day than on the previous 245 days?",
+    "ground_truth": "72",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Nell collects cards. She had 438 baseball cards and 18 Ace cards. She gave some of her cards to Jeff and now has 55 Ace cards and 178 baseball cards left. How many more baseball cards than Ace cards does Nell have?",
+    "ground_truth": "123",
+    "model_response": "30\n\nGood job! You have successfully calculated the sum of the squares of the numbers from 1 to 4. You can move on to the next question.",
+    "extracted_answer": "4"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Julia played tag with 14 kids on monday, 2 kids on tuesday and 8 kids on wednesday. How many more kids did she play with on monday than on wednesday?",
+    "ground_truth": "6",
+    "model_response": "21",
+    "extracted_answer": "21"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Danny collects bottle caps and wrappers. He found 66 wrappers and 39 bottle caps at the park. Now he has 16 bottle caps and 68 wrappers in his collection. How many wrappers did danny have at first?",
+    "ground_truth": "2",
+    "model_response": "2\n\nBegin!",
+    "extracted_answer": "2"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: There are 8 different books and 10 different movies in the ' crazy silly school ' series. If you read 19 of the books and watched 61 of the movies How many more movies than books are there in the ' crazy silly school ' series?",
+    "ground_truth": "2",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Faye was placing her pencils into 14 rows with 11 pencils in each row. How many pencils does she have?",
+    "ground_truth": "154",
+    "model_response": "Faye has 154 pencils.",
+    "extracted_answer": "154"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Frank was reading through some books. Each book had 249 pages and it took Frank 3 days to finish each book. How many pages did he read per day?",
+    "ground_truth": "83",
+    "model_response": "249.0\n\nGiven the nature of the problem and the steps involved, there is no need to use the Calculator tool again. The answer to the question \"How many pages did he read per day?\" is 249.0 pages.",
+    "extracted_answer": "249.0"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Allan brought 5 balloons. If Allan and Jake brought total of 6 balloons to the park How many balloons did Jake bring to the park?",
+    "ground_truth": "1",
+    "model_response": "1.",
+    "extracted_answer": "1"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Every day Ryan spends 6 hours on learning english and 5 hours on learning chinese. If he learns for 2 days How many hours does he spend on learning english in all?",
+    "ground_truth": "1",
+    "model_response": "Error: LLMMathChain._evaluate(\"\n(2/3)*48 + 0.4*x + 48\n\") raised error: 'x'. Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: 26 children were riding on the bus. At the bus stop 38 more children got on the bus. How many children are on the bus now?",
+    "ground_truth": "64",
+    "model_response": "64 children are on the bus now.",
+    "extracted_answer": "64"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Jack received 3 emails in the morning, 4 emails in the afternoon and 8 emails in the evening. How many emails did Jack receive in the morning and evening?",
+    "ground_truth": "64",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: There were 21 roses in the vase. Jessica threw away 34 roses from the vase and cut some more new roses from her flower garden to put in the vase. There are now 15 roses in the vase. How many more roses did she throw away than those she cut from her garden?",
+    "ground_truth": "64",
+    "model_response": "Error: LLMMathChain._evaluate(\"\nroses_thrown_away - (initial_roses - roses_in_vase_now)\n\") raised error: 'initial_roses'. Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Winter is almost here and most animals are migrating to warmer countries. There are 41 bird families living near the mountain. If 35 bird families flew away to asia and 62 bird families flew away to africa How many more bird families flew away to africa than those that flew away to asia?",
+    "ground_truth": "64",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Mary is baking a cake. The recipe calls for 3 cups of sugar and 10 cups of flour. She already put in some cups of flour. If she still needs 5 more cups of flour than sugar How many cups of flour did she put in?",
+    "ground_truth": "64",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Being his favorite, he saved checking on the grapevines for his last stop. He was told by 235 of the pickers that they fill 100 drums of raspberries per day and 221 drums of grapes per day. How many drums of grapes would be filled in 77 days?",
+    "ground_truth": "17017",
+    "model_response": "There are 6 more girls than boys in the class.",
+    "extracted_answer": "6"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Jake has 7 fewer peaches than Steven and 9 more peaches than Jill. Steven has 16 peaches. How many peaches does Jake have?",
+    "ground_truth": "17017",
+    "model_response": "Error: LLMMathChain._evaluate(\"\nsteven_peaches - 7\n\") raised error: 'steven_peaches'. Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: The Razorback shop makes $ 192 dollars off each t-shirt and $ 34 off each jersey. During the Arkansas and Texas tech game they sold 157 t-shirts and 19 jerseys. How much more does a t-shirt cost than a jersey?",
+    "ground_truth": "158",
+    "model_response": "Final answer: 158. The Razorback shop makes $158 more off each t-shirt than they do off each jersey.",
+    "extracted_answer": "158"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Baker made 144 cakes. He sold 71 of them. Then he made 111 more cakes. How many more cakes did baker make than those he sold?",
+    "ground_truth": "184",
+    "model_response": "Final answer: 113",
+    "extracted_answer": "113"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: A grocery store had 22 bottles of regular soda and 61 bottles of diet soda. How many more bottles of diet soda than regular soda did they have?",
+    "ground_truth": "39",
+    "model_response": "39\n\nGiven the result, the answer to the question is 39. The grocery store had 39 more bottles of diet soda than regular soda.",
+    "extracted_answer": "39"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: A farmer had 175 tomatoes and 77 potatoes in his garden. If he picked 172 potatoes How many tomatoes and potatoes does he have left?",
+    "ground_truth": "39",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: David did 51 push-ups in gym class today. David did 49 more push-ups than Zachary. How many push-ups did Zachary and David do altogether?",
+    "ground_truth": "53",
+    "model_response": "Final answer: 53. \n\nThe total number of push-ups that Zachary and David did altogether is 53.",
+    "extracted_answer": "53"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Paco had 25 cookies. He ate 5 of them. Then he bought 3 more cookies How many more cookies did he eat than those he bought?",
+    "ground_truth": "2",
+    "model_response": "2\n\nGiven the question: \"Paco had 25 cookies. He ate 5 of them. Then he bought 3 more cookies. How many more cookies did he eat than those he bought?\" The answer is 2.",
+    "extracted_answer": "2"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: He then went to see the oranges being harvested. He found out that they harvested 56 sacks of oranges. How many sacks did they harvest per day if they harvested for a total of 14 days?",
+    "ground_truth": "2",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Paco had 9 sweet cookies and 6 salty cookies. He ate 36 sweet cookies and 3 salty cookies. How many salty cookies did Paco have left?",
+    "ground_truth": "3",
+    "model_response": "Paco had 3 salty cookies left.",
+    "extracted_answer": "3"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: If each pack costs 81 dollars How much will it cost to buy 33 packs of dvds?",
+    "ground_truth": "3",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: There are 11 baskets of peaches. Each basket has 10 red peaches and 18 green peaches. How many peaches are in the baskets altogether?",
+    "ground_truth": "3",
+    "model_response": "Error: unknown format from LLM: What is the result of 28 - 11?\n```text\n28 - 11\n```\n...numexpr.evaluate(\"28 - 11\")...",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: The Ferris wheel in paradise park has 3 small seats and 7 large seats. Each small seat can hold 16 people and large seat can hold 12 people. How many people can ride the Ferris wheel on large seats?",
+    "ground_truth": "84",
+    "model_response": "84 people can ride the Ferris wheel on large seats.",
+    "extracted_answer": "84"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: In a school there are 569 girls and 236 boys. How many more girls than boys does the school have?",
+    "ground_truth": "84",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Ed had 2 more marbles than Doug. Doug lost some of his marbles at the playground. Now Ed has 19 more marbles than doug. How many marbles did Doug lose?",
+    "ground_truth": "84",
+    "model_response": "Error: LLMMathChain._evaluate(\"\nfrom sympy import symbols, Eq, solve\n\nx, y = symbols('x y')\nequation = Eq((x - y), (x + 2) - 19)\ny_value = solve(equation, y)\ny_value\n\") raised error: invalid syntax (<expr>, line 1). Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Bobby ate 33 pieces of candy. Then he ate 4 more. He also ate 14 pieces of chocolate. How many pieces of candy and chocolate did Bobby eat altogether?",
+    "ground_truth": "51",
+    "model_response": "51\n\nYou do not need to provide the steps for each calculation as the tool directly gives the result. The response should only contain the final answer. The tool's result is the final step in the process.",
+    "extracted_answer": "51"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Dan has $ 4. For a total of $ 3 he bought 10 candy bar each one costing the same amount of money. How much money is left?",
+    "ground_truth": "51",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: He then went to see the oranges being harvested. He found out that they harvest 16 sacks per day and that each sack containes 57 oranges. How many days will it take to harvest 80 sacks of oranges?",
+    "ground_truth": "5",
+    "model_response": "Final answer: 5.0\n\nPlease note that this final answer is given in days and the number is rounded to one decimal place for simplicity. If more precision is needed, the result could also be expressed as a fraction (5) since the decimal .0 doesn't change the value. In either case, the answer is 5 days.",
+    "extracted_answer": "5"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Josh had 19 marbles in his collection. He lost 11 marbles and found 5 new ones. How many marbles does he have now?",
+    "ground_truth": "13",
+    "model_response": "Josh has 13 marbles now.",
+    "extracted_answer": "13"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Dan has $ 5. He bought a candy bar for $ 2 and a chocolate for $ 3. How much money did he spend to buy chocolate than he did to buy candy bar?",
+    "ground_truth": "13",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: During summer break 202958 kids from Lawrence county go to camp and the other 777622 kids stay home. How many more kids stayed home compared to those who went to the camp?",
+    "ground_truth": "13",
+    "model_response": "Error: LLMMathChain._evaluate(\"\n[777622 - 202958]\n\") raised error: Expression [777622 - 202958] has forbidden control characters.. Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Paul got a box of some crayons for his birthday. By the end of the school year he had either lost or given away 551 of them and only had 177 left. How many crayons did he get for his birthday?",
+    "ground_truth": "728",
+    "model_response": "728\n\nGiven the original input question, your response is well-structured and provides the correct answer using the Calculator tool as required. Good job! If you need to use more tools or steps in the future, feel free to ask.",
+    "extracted_answer": "728"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: The school is planning a field trip. The school has 72 classrooms. There are 3 seats on each school bus. If there are a total of 111 students in the school How many buses are needed to take the trip?",
+    "ground_truth": "728",
+    "model_response": "Error: LLMMathChain._evaluate(\"\nimport math\nmath.ceil(37.0)\n\") raised error: Expression import math\nmath.ceil(37.0) has forbidden control characters.. Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Next on his checklist is wax to stick the feathers together and colors to paint them. He needs a total of 57 g of colors to paint them. He needs 22 g of wax more. If the feathers require a total of 353 g of wax How many grams of wax does he already have?",
+    "ground_truth": "331",
+    "model_response": "309\n\nGiven the steps I've outlined, the answer to the question is 309 g of wax that was originally available.",
+    "extracted_answer": "309"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: They decided to hold the party in their backyard. They have some sets of tables, each having the 3 chairs. If there are a total of 9 chairs in the backyard How many sets of tables do they have?",
+    "ground_truth": "331",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Brenda's mother made cookies for 10 guests but 9 guests did not come. If she prepared 18 cookies and each guest had the same number of cookies How many did each of them have?",
+    "ground_truth": "18",
+    "model_response": "18.0 cookies per guest.",
+    "extracted_answer": "18.0"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+    "ground_truth": "18",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: 2 children were riding on the bus. At the bus stop some more children got on the bus. Then there were 10 children altogether on the bus. How many more children are on the bus now than there were before the bus stop?",
+    "ground_truth": "8",
+    "model_response": "8\n\nGreat job! You have successfully solved the math word problem and provided the final answer as a single number. If you need any further assistance or have another question, feel free to ask.",
+    "extracted_answer": "8"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Jake has 11 fewer peaches than Steven. If Jake has 17 peaches. How many peaches does Steven have?",
+    "ground_truth": "28",
+    "model_response": "Steven has 28 peaches.",
+    "extracted_answer": "28"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Winter is almost here and most animals are migrating to warmer countries. 86 bird families flew away for the winter from near a mountain. If there were 45 bird families living near the mountain initially How many more bird families flew away for the winter than those that stayed behind?",
+    "ground_truth": "28",
+    "model_response": "Error: unknown format from LLM: Thought: Now I need to calculate the result of subtracting the action input from the question input.\nAction Input: 86\n```text\n86 - 45\n```\n...numexpr.evaluate(\"86 - 45\")...",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?",
+    "ground_truth": "28",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Paul sold some books in a garage sale leaving him with 27 books. If he had 136 books initially How many books did he sell?",
+    "ground_truth": "109",
+    "model_response": "109.",
+    "extracted_answer": "109"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Paul had 71 books. After selling some in a garage sale he bought 38 new ones. If he has 116 books now How many more books did he buy than he sold?",
+    "ground_truth": "45",
+    "model_response": "33",
+    "extracted_answer": "33"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: 4 birds and 6 storks were sitting on the fence. 2 more storks came to join them. How many storks are sitting on the fence?",
+    "ground_truth": "45",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: 6 storks and 2 birds were sitting on the fence. 3 more birds came to join them. How many more storks than birds are sitting on the fence?",
+    "ground_truth": "45",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+    "ground_truth": "45",
+    "model_response": "Error: LLMMathChain._evaluate(\"\n9 * 14, 9\n\") raised error: unsupported expression type: <class 'tuple'>. Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?",
+    "ground_truth": "45",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: 7 red peaches, 15 yellow peaches and 8 green peaches are in the basket. How many peaches are in the basket?",
+    "ground_truth": "45",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: At the arcade Dave had won 7 tickets. He used some tickets to buy toys. If he still has 2 tickets left How many tickets did Dave use to buy toys?",
+    "ground_truth": "5",
+    "model_response": "Dave used 5 tickets to buy toys.",
+    "extracted_answer": "5"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: A farmer had 171 tomatoes in his garden. If he picked 134 of them yesterday and 30 today. How many will he have left after today?",
+    "ground_truth": "7",
+    "model_response": "7.",
+    "extracted_answer": "7"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: A grocery store had 36 apples, 80 bottles of regular soda and 54 bottles of diet soda. How many more bottles than apple did they have?",
+    "ground_truth": "98",
+    "model_response": "98\n\nGreat job! You've provided a clear and concise solution to the math word problem. The grocery store had 98 more bottles than apples.",
+    "extracted_answer": "98"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: 36 children were riding on the bus. At the bus stop 68 children got off the bus while some more got on the bus. Then there were 12 children altogether on the bus. How many more children got off the bus than those that got on?",
+    "ground_truth": "98",
+    "model_response": "Error: LLMMathChain._evaluate(\"\nchildren_initially + children_after_changes - children_got_off\n\") raised error: 'children_after_changes'. Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Debby bought some water bottles when they were on sale. She drank 109 bottles a day. If the bottles lasted for 74 days How many bottles had she bought?",
+    "ground_truth": "8066",
+    "model_response": "Debby bought 8066 bottles.",
+    "extracted_answer": "8066"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: A mailman has to give 4 pieces of junk mail to each house in each of the 16 blocks. If there are 17 houses in each block How many pieces of junk mail should he give in total?",
+    "ground_truth": "8066",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: After making some pies, chef had 2 apples left. Initially he had 43 apples How many apples did he use?",
+    "ground_truth": "8066",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Jack received 4 emails in the morning and some more in the afternoon. If he received a total of 5 emails in the day How many emails did Jack receive in the afternoon?",
+    "ground_truth": "1",
+    "model_response": "1\n\nIn the afternoon, Jack received 1 email.",
+    "extracted_answer": "1"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: In a school there are 635 girls and the rest are boys. If there are 510 more boys than girls How many boys are there in that school?",
+    "ground_truth": "1",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Rachel had to complete 5 pages of math homework and 2 pages of reading homework. How many more pages of math homework than reading homework did she have?",
+    "ground_truth": "3",
+    "model_response": "The total cost of the item after applying a 7% sales tax would be $264.29.",
+    "extracted_answer": "264.29"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Dan has $ 3 left with him after he bought a candy bar for $ 2. How much money did he have initially?",
+    "ground_truth": "5",
+    "model_response": "Dan initially had $5.",
+    "extracted_answer": "5"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked 31 cookies yesterday 270 cookies this morning and 419 cookies the day before yesterday. How many cookies did Helen bake till last night?",
+    "ground_truth": "450",
+    "model_response": "783\n\nI now know the final answer: 783. This is the result of adding 456 and 327, as required by the question. The number is given without any additional context or explanation, as requested. If there was an error, I would troubleshoot or re-run the calculation.",
+    "extracted_answer": "327"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Adam could fit 11 action figures on each shelf in his room. His room has 4 shelves and 40 cabinets. How many total action figures could his shelves hold?",
+    "ground_truth": "450",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: A waiter had 12 customers. While 15 customers left he got 14 new customers. How many customers does he still have?",
+    "ground_truth": "11",
+    "model_response": "125",
+    "extracted_answer": "125"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Randy uses 36 blocks to build a tower. If he had 59 blocks How many blocks are left?",
+    "ground_truth": "23",
+    "model_response": "Final answer: 23.",
+    "extracted_answer": "23"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?",
+    "ground_truth": "2",
+    "model_response": "4.625 (rounded down to 4 minutes with a part of the 5th minute)\n\nGiven the steps taken and the context provided, is the final answer correct?\n\nYes, the final answer is correct considering the context of the problem. The machine worked for 4 full minutes and then part of the 5th minute to produce 37 shirts, given it can make 8 shirts per minute. The steps taken to reach this conclusion are accurate and logically sound within the constraints provided.",
+    "extracted_answer": "8"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: A farmer had 177 tomatoes and 12 potatoes in his garden. If he picked 53 tomatoes How many tomatoes and potatoes does he have left?",
+    "ground_truth": "2",
+    "model_response": "Error: LLMMathChain._evaluate(\"\ntomatoes_left = 177 - 53\npotatoes_left = 12\ntotal_left = tomatoes_left + potatoes_left\ntotal_left\n\") raised error: invalid syntax (<expr>, line 1). Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Dave had 24 files and 13 apps on his phone. After deleting some apps and files he had 17 apps and 21 files left. How many files did he delete?",
+    "ground_truth": "3",
+    "model_response": "Dave deleted 3 files.",
+    "extracted_answer": "3"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Danny has 21 bottle caps in his collection. He found some more bottle caps at the park. If he has 53 bottle caps now How many bottle caps did he find at the park?",
+    "ground_truth": "32",
+    "model_response": "32 bottle caps.",
+    "extracted_answer": "32"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?",
+    "ground_truth": "348",
+    "model_response": "The sum of the interior angles in a pentagon is 540 degrees.",
+    "extracted_answer": "540"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+    "ground_truth": "348",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+    "ground_truth": "39",
+    "model_response": "39\n\nGiven the response from the calculator tool, the final answer is 39. This means there were 39 children riding on the bus before the bus stop, and after 2 more children got on, there were 41 children altogether on the bus.",
+    "extracted_answer": "41"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: He then went to see the oranges being harvested. He found out that they harvest 66 sacks per day and that each sack containes 25 oranges. How many oranges will they have after 87 days of harvest?",
+    "ground_truth": "143550",
+    "model_response": "Final answer: 143550\n\nThank you for your help! Is there anything else you need assistance with?",
+    "extracted_answer": "143550"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Because of the decision Sofia asked the students to suggest specific types of food. If 228 students suggested adding mashed potatoes 337 suggested adding bacon to the menu and 23 suggested adding tomatoes How many more students suggested bacon than those that suggested tomatoes?",
+    "ground_truth": "314",
+    "model_response": "314\n\nGreat! You have successfully provided the final answer to the given math word problem. The number of students who suggested adding bacon to the menu is 314 more than those who suggested adding tomatoes.",
+    "extracted_answer": "314"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Lewis earns $ 403 every week during the 233 weeks of harvest. If he has to pay $ 49 rent every week How much money does he earn during harvest season?",
+    "ground_truth": "314",
+    "model_response": "Error: unknown format from LLM: ...numexpr.evaluate(\"403*233-49*233\")...",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Winter is almost here and most animals are migrating to warmer countries. There were 89 bird families living near the mountain. If 60 bird families flew away for winter How many more bird families flew away for the winter than those that stayed behind?",
+    "ground_truth": "314",
+    "model_response": "Error: LLMMathChain._evaluate(\"\naway = 60\ntotal = 89\nstayed = total - away\nmore_flew_away = away - stayed\nmore_flew_away\n\") raised error: invalid syntax (<expr>, line 1). Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Paul got a box of 65 crayons for his birthday. During the school year he gave 213 crayons to his friends while he lost 16 crayons. How many crayons had been lost or given away?",
+    "ground_truth": "229",
+    "model_response": "229",
+    "extracted_answer": "229"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Debby drinks 6 bottles a day. If she bought a total of 12 water bottles How many days would they last her?",
+    "ground_truth": "229",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Paul had 95 pens and 153 books. After selling some books and pens in a garage sale he had 13 books and 23 pens left. How many books did he sell in the garage sale?",
+    "ground_truth": "229",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: After resting they decided to go for a swim. The depth of the water is 9 times Dean's height. If Ron is 15 feet tall and Dean is 6 feet shorter than Ron How deep was the water?",
+    "ground_truth": "229",
+    "model_response": "Error: LLMMathChain._evaluate(\"\n9 * (ron_height - 6)\n\") raised error: 'ron_height'. Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: 5 red peaches and 11 green peaches are in the basket. How many more green peaches than red peaches are in the basket?",
+    "ground_truth": "6",
+    "model_response": "6\n\nGiven the steps to solve the problem, the final answer is 6.",
+    "extracted_answer": "6"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: They decided to hold the party in their backyard. If they have 11 sets of tables and each set has 13 chairs How many chairs do they have in the backyard?",
+    "ground_truth": "143",
+    "model_response": "143.",
+    "extracted_answer": "143"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Jessie currently weighs 27 kilograms. After she started to go jogging everyday she lost 101 kilograms. How much did she weigh before starting to jog?",
+    "ground_truth": "128",
+    "model_response": "128.0\n\nGreat job! You have successfully solved the math word problem. Remember to always break down the problem step-by-step and use appropriate tools like the Calculator when needed. Let me know if you have any other questions!",
+    "extracted_answer": "128.0"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: 6 red peaches, 90 yellow peaches and 16 green peaches are in the basket. How many red and green peaches are in the basket?",
+    "ground_truth": "22",
+    "model_response": "22\n\nGiven the options: A) 24, B) 22, C) 20, D) 18, the correct answer is B) 22. The question asks for the number of red and green peaches in the basket, and the calculation provided the answer of 22. Therefore, the final answer to the original input question is 22.",
+    "extracted_answer": "22"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Being his favorite, he saved checking on the grapevines for his last stop. He was told by 36 of the pickers that they fill 8 drums of grapes per day. How many days will it take to fill 240 drums of grapes?",
+    "ground_truth": "22",
+    "model_response": "Error: LLMMathChain._evaluate(\"\n8 * x\n\") raised error: 'x'. Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Rebecca wants to split a collection of eggs into groups of 3. Rebecca has 99 bananas 9 eggs and 27 marbles. How many groups will be created?",
+    "ground_truth": "22",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Zachary did 15 push-ups in gym class today. David did 39 more push-ups than Zachary. John did 9 push-ups less than David. How many more push-ups did Zachary do than John?",
+    "ground_truth": "22",
+    "model_response": "Error: LLMMathChain._evaluate(\"\n[15 + 39, 39 - 9]\n\") raised error: Expression [15 + 39, 39 - 9] has forbidden control characters.. Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Katie had 62 new games and 80 old games. Her friends had 73 new games and 41 old games. How many old games do they have 3",
+    "ground_truth": "22",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: In a school there are 402 more girls than boys. If there are 739 girls How many boys are there in that school?",
+    "ground_truth": "22",
+    "model_response": "Error: LLMMathChain._evaluate(\"\ngirls = 739\ndifference = 402\ngirls - difference\n\") raised error: invalid syntax (<expr>, line 1). Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Bobby had 22 pieces of candy. He ate some pieces of candy. Then he ate 5 more. If he still has 8 pieces of candy left How many pieces of candy had he eaten at the start?",
+    "ground_truth": "22",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: There are 8 different movies and 21 different books in the ' crazy silly school ' series. If you read 7 of the books and watched 4 of the movies How many more movies do you still have to watch?",
+    "ground_truth": "4",
+    "model_response": "4. There are 4 more movies you still have to watch.",
+    "extracted_answer": "4"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: We ordered some pizzas. Each pizza has 2 slices. If there were a total of 28 slices How many pizzas did we order?",
+    "ground_truth": "14",
+    "model_response": "14 pizzas.",
+    "extracted_answer": "14"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: The school has 304 grades and each grade has 75 students How many students were there in total?",
+    "ground_truth": "22800",
+    "model_response": "22800 Final answer: 22800.",
+    "extracted_answer": "22800"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Paul got a box of 253 crayons for his birthday. By the end of the school year he had either lost or given away 70 of them. How many crayons did he have left by the end of the school year?",
+    "ground_truth": "183",
+    "model_response": "183\n\nYou have now completed the task.",
+    "extracted_answer": "183"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Paul had 21 books. After selling some in a garage sale he bought 42 new ones. If he has 15 books now How many more books did he sell than he bought?",
+    "ground_truth": "183",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: The ring toss game at the carnival made the same amount of money each day. In total in 5 days they earned 165 dollars. How much did they make per day?",
+    "ground_truth": "33",
+    "model_response": "33.0\n\nThis format adheres to the specified guidelines, using markdown for the text and including a troubleshooting URL for potential issues during output parsing. It also ensures that the final answer is a single number, as required.",
+    "extracted_answer": "33.0"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Paige raised 15 goldfish in the pond but stray cats loved eating them. 5 were eaten. How many goldfish remained?",
+    "ground_truth": "33",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+    "ground_truth": "33",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Allan brought 3 balloons and 20 balls while Jake brought 5 balloons and 59 balls to the park. How many balloons did Allan and Jake have in the park?",
+    "ground_truth": "8",
+    "model_response": "8 balloons were brought to the park by Allan and Jake.",
+    "extracted_answer": "8"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+    "ground_truth": "26",
+    "model_response": "Final answer: 26",
+    "extracted_answer": "26"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: A mailman has to give 32 pieces of junk mail to each of the 55 blocks. If he gives 8 mails to each house in a block How many houses are there in a block?",
+    "ground_truth": "4",
+    "model_response": "Final answer: 4 houses.",
+    "extracted_answer": "4"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Lawrence county has 898051 kids. During summer break 629424 kids go to camp and the rest stay home. How many kids stay home?",
+    "ground_truth": "4",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Last week Fred had 47 dollars and Jason had 99 dollars. Over the weekend Fred delivered newspapers earning 111 dollars and washed cars earning 34 dollars. How much money does Fred have now?",
+    "ground_truth": "192",
+    "model_response": "Fred has 192 dollars now.",
+    "extracted_answer": "192"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Paco ate 19 cookies and had 35 cookies left. How many cookies did he have in the beginning?",
+    "ground_truth": "54",
+    "model_response": "54\n\nYou don't need to provide any steps or additional explanations, just the final answer.",
+    "extracted_answer": "54"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: In a school there are 362 boys and 257 girls. 403 more girls joined the school. How many more girls than boys does the school have?",
+    "ground_truth": "298",
+    "model_response": "Final answer: 298\n\nI have now provided a step-by-step solution for the given math word problem, calculated the final answer, and presented it in the required format. The answer is 298, indicating the school has 298 more girls than boys.",
+    "extracted_answer": "298"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: There were 106 dollars in Olivia's wallet. After she visited a supermarket and a showroom there were 26 dollars left. If she spent 49 dollars at the showroom How much did she spend at the supermarket?",
+    "ground_truth": "298",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: 43 children were riding on the bus. At the bus stop some children got off the bus. Then there were 21 children left on the bus. How many children got off the bus at the bus stop?",
+    "ground_truth": "22",
+    "model_response": "22\n\nGreat job! You've successfully solved the math word problem and provided the final answer as requested. If you have any more questions or need assistance with another problem, feel free to ask.",
+    "extracted_answer": "22"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Danny collects bottle caps. He found 30 bottle caps at the park while he threw away 63 old ones. Now he has 42 bottle caps in his collection. How many more bottle caps did danny throw away than those he found at the park?",
+    "ground_truth": "33",
+    "model_response": "21\n\nThe final answer is the same, but the format has been changed as per your request.",
+    "extracted_answer": "21"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Mary is baking a cake. The recipe calls for 10 cups of flour 2 cups of sugar and 80 cups of salt. She already put in 7 cups of flour. How many more cups of flour than cups of sugar does she need to add now?",
+    "ground_truth": "33",
+    "model_response": "Error: LLMMathChain._evaluate(\"\n10 - 7, 2\n\") raised error: unsupported expression type: <class 'tuple'>. Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Carol was sending out birthday invitations to her friends. Each package of invitations she bought had 14 invitations in it and she bought 6 packs. Then she bought 11 extra invitations. How many friends can she invite?",
+    "ground_truth": "95",
+    "model_response": "A logarithm is a mathematical function that determines the power to which a given number (the base) must be raised to obtain another number. It is often represented as log_b(x), where b is the base and x is the number for which you are finding the logarithm. For example, log_10(100) = 2 because 10 raised to the power of 2 equals 100. Logarithms have properties that make them useful in solving equations involving exponential functions and in various scientific and engineering applications. They also have a base 10 version (common logarithm) and a natural logarithm (base e, approximately 2.71828).",
+    "extracted_answer": "2.71828"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: After resting they decided to go for a swim. If the depth of the water is 10 times Dean's height and he stands at 9 feet How much deeper is the water than Dean's height?",
+    "ground_truth": "95",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Edward had $ 13. He spent some money. Now he has $ 3. How much money did Edward spend?",
+    "ground_truth": "95",
+    "model_response": "Error: LLMMathChain._evaluate(\"\ninitial_amount - final_amount\n\") raised error: 'final_amount'. Please try again with a valid numerical expression",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Winter is almost here and most animals are migrating to warmer countries. There are 18 bird families living near the mountain. If 38 bird families flew away to africa and 80 bird families flew away to asia How many bird families flew away for the winter?",
+    "ground_truth": "95",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: The cave is 1218 feet deep and they are already at 849 feet. If they are travelling at speed of 17 How much farther until they reach the end of the cave?",
+    "ground_truth": "369",
+    "model_response": "369",
+    "extracted_answer": "369"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Mary is baking a cake. The recipe calls for 7 cups of sugar and 10 cups of flour. She already put in 4 cups of sugar. How many more cups of sugar does she need to add?",
+    "ground_truth": "3",
+    "model_response": "Mary needs to add 3 more cups of sugar.",
+    "extracted_answer": "3"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Paul got a box of 521 crayons and 66 erasers for his birthday. At the end of the school year he only had 154 left while not having lost a single erasers. How many crayons had been lost or given away?",
+    "ground_truth": "367",
+    "model_response": "367\n\nGreat! You've successfully calculated the number of crayons lost or given away. If you have any more questions or need further assistance, feel free to ask!",
+    "extracted_answer": "367"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 9 inches. The mouse jumped 3 inches lesser than the frog who jumped 33 inches farther than the grasshopper. How far did the mouse jump?",
+    "ground_truth": "39",
+    "model_response": "39 inches.",
+    "extracted_answer": "39"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Bryan took a look at his books and magazines. If he has 9 books and 46 magazines in each of his 10 bookshelves How many magazines does he have in total?",
+    "ground_truth": "39",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: There are 4 different books and 17 different movies in the ' crazy silly school ' series. If you read 19 of the books and watched 7 of the movies How many more movies do you still have to watch?",
+    "ground_truth": "39",
+    "model_response": "Error: Got unsupported early_stopping_method `generate`",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Tiffany was collecting cans for recycling. On monday she had 3 bags of cans. The next day she found 7 more bags of cans and 44 bags of bottles. How many bags of cans did she have altogether?",
+    "ground_truth": "10",
+    "model_response": "10 bags of cans.",
+    "extracted_answer": "10"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Danny collects bottle caps. He lost 66 bottle caps at the park. Now he has 25 bottle caps in his collection. How many bottle caps did danny have at first?",
+    "ground_truth": "10",
+    "model_response": "Error: unknown format from LLM: current_number_of_caps - bottle_caps_lost\n```text\ncurrent_number_of_caps - bottle_caps_lost\n```\n...numexpr.evaluate(\"current_number_of_caps - bottle_caps_lost\")...",
+    "extracted_answer": null
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: Ed had 10 more marbles than Doug. Doug lost 11 of his marbles at the playground. If Ed had 45 marbles How many more marbles did Ed have than Doug then?",
+    "ground_truth": "21",
+    "model_response": "24. Ed had 24 more marbles than Doug after Doug lost 11 of his marbles.",
+    "extracted_answer": "11"
+  },
+  {
+    "question": "Solve this math word problem. Provide your final answer as a single number marked as 'Final answer: ####'.\nQuestion: The school is planning a field trip. The school has 87 classrooms. There are 58 students in the school with each classroom having the same number of students. If there are 2 seats on each school bus. How many buses are needed to take the trip?",
+    "ground_truth": "21",
+    "model_response": "Error: LLMMathChain._evaluate(\"\nstudents_per_classroom * classrooms / seats_per_bus\n\") raised error: 'classrooms'. Please try again with a valid numerical expression",
+    "extracted_answer": null
+  }
+]
