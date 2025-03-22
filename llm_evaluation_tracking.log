@@ -1,0 +1,54 @@
+2025-03-21 12:16:45,901 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:16:45,903 - vllm_evaluation - ERROR - Exception during API call: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2263960290>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-21 12:16:45,903 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0020s)
+2025-03-21 12:16:46,449 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:16:46,451 - vllm_evaluation - ERROR - Exception during API call: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f22639a3d70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-21 12:16:46,451 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0018s)
+2025-03-21 12:16:47,041 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:16:47,043 - vllm_evaluation - ERROR - Exception during API call: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2263963290>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-21 12:16:47,043 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0018s)
+2025-03-21 12:16:47,635 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:16:47,637 - vllm_evaluation - ERROR - Exception during API call: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f22639a0e90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-21 12:16:47,637 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0018s)
+2025-03-21 12:16:49,336 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:16:49,338 - vllm_evaluation - ERROR - Exception during API call: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2263963140>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-21 12:16:49,338 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0019s)
+2025-03-21 12:16:50,004 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:16:50,005 - vllm_evaluation - ERROR - Exception during API call: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f22639a1fa0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-21 12:16:50,006 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0018s)
+2025-03-21 12:16:50,735 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:16:50,737 - vllm_evaluation - ERROR - Exception during API call: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2263963aa0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-21 12:16:50,737 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0018s)
+2025-03-21 12:16:51,739 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:16:51,741 - vllm_evaluation - ERROR - Exception during API call: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f22639a3350>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-21 12:16:51,741 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0018s)
+2025-03-21 12:17:38,719 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:17:38,731 - vllm_evaluation - ERROR - Exception during API call: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6a8c3cf3b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-21 12:17:38,731 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0119s)
+2025-03-21 12:17:39,814 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:17:39,816 - vllm_evaluation - ERROR - Exception during API call: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6a8c3cf380>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-21 12:17:39,816 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0020s)
+2025-03-21 12:20:55,840 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:20:55,892 - vllm_evaluation - ERROR - API error: 404
+2025-03-21 12:20:55,892 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0523s)
+2025-03-21 12:20:56,965 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:20:56,969 - vllm_evaluation - ERROR - API error: 404
+2025-03-21 12:20:56,969 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0034s)
+2025-03-21 12:20:57,878 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:20:57,881 - vllm_evaluation - ERROR - API error: 404
+2025-03-21 12:20:57,881 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0030s)
+2025-03-21 12:21:01,405 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:21:01,408 - vllm_evaluation - ERROR - API error: 404
+2025-03-21 12:21:01,408 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0029s)
+2025-03-21 12:21:02,289 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:21:02,292 - vllm_evaluation - ERROR - API error: 404
+2025-03-21 12:21:02,292 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0029s)
+2025-03-21 12:21:32,626 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:21:32,637 - vllm_evaluation - ERROR - API error: 404
+2025-03-21 12:21:32,637 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0108s)
+2025-03-21 12:21:34,293 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:21:34,296 - vllm_evaluation - ERROR - API error: 404
+2025-03-21 12:21:34,296 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0031s)
+2025-03-21 12:21:35,310 - vllm_evaluation - INFO - Calling vLLM method: llm_inference
+2025-03-21 12:21:35,313 - vllm_evaluation - ERROR - API error: 404
+2025-03-21 12:21:35,313 - vllm_evaluation - INFO - Completed vLLM method: llm_inference (latency: 0.0030s)

@@ -99,5 +99,23 @@
         "temperature": 0.6,
         "top_k": 10,
         "max_tokens": 4096
+    },
+    "llama3-vllm" : {
+        "model_id": "meta-llama/Meta-Llama-3-8B-Instruct",
+        "cache_dir": "",
+        "prompt_token_cost": 0.0,
+        "response_token_cost": 0.0,
+        "temperature": 0.6,
+        "top_k": 10,
+        "max_tokens": 4096
+    },
+    "llama31-vllm" : {
+        "model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "cache_dir": "",
+        "prompt_token_cost": 0.0,
+        "response_token_cost": 0.0,
+        "temperature": 0.6,
+        "top_k": 10,
+        "max_tokens": 4096
     }
 }
