@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-03-24T13:08:40.089177",
+  "results": {
+    "openai_gpt-3.5-turbo": {
+      "accuracy": 0.5933333333333334,
+      "correct_count": 89,
+      "total_samples": 150,
+      "model_name": "gpt-3.5-turbo",
+      "provider": "openai"
+    },
+    "openai_gpt-4o": {
+      "accuracy": 0.5733333333333334,
+      "correct_count": 86,
+      "total_samples": 150,
+      "model_name": "gpt-4o",
+      "provider": "openai"
+    },
+    "anthropic_claude-3-5-sonnet-20241022": {
+      "accuracy": 0.46,
+      "correct_count": 69,
+      "total_samples": 150,
+      "model_name": "claude-3-5-sonnet-20241022",
+      "provider": "anthropic"
+    }
+  }
+}

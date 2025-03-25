@@ -1,0 +1,1362 @@
+{
+  "metadata": {
+    "model_name": "gpt-4o",
+    "provider": "openai",
+    "accuracy": 0.5733333333333334,
+    "total_samples": 150,
+    "correct_count": 86,
+    "timestamp": "2025-03-24T13:08:40.082118"
+  },
+  "questions": [
+    {
+      "question_id": 0,
+      "question": "is it possible for health insurance companies to get ahold of my data?",
+      "contract": "You may also have the ability to share information directly with individuals who have not participated in our Service via a unique, shareable URL or through a social media platform (such information is \"User Content\").",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sharing of data with health insurance companies.\n2. The section discusses the ability to share information directly with individuals via a unique URL or social media, referring to this as \"User Content.\"\n3. There is no mention of health insurance companies or any third-party data sharing with such entities.\n4. The section focuses on user-initiated sharing through URLs or social media, not on data sharing with companies like health insurance providers.\n5. The question is about the possibility of health insurance companies accessing data, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 1,
+      "question": "where is the information saved",
+      "contract": "Web-Behavior Information: information on how you use 23andMe Services collected through log files, cookies, web beacons, and similar technologies, (eg, browser type, domains, page views).",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses where the information is saved.\n2. The section describes the type of information collected, specifically \"Web-Behavior Information\" and the methods of collection such as log files, cookies, and web beacons.\n3. However, it does not mention anything about where this information is stored or saved.\n4. The question is asking about the storage location of the information, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 2,
+      "question": "how am i sure no one will steal my identity?",
+      "contract": "Our contracts with these service providers do not permit use of your information for their own (marketing) purposes.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract addresses identity theft or measures to prevent it.\n2. The provided contract clause mentions that service providers are not permitted to use your information for their own marketing purposes.\n3. This clause is focused on restricting the use of information for marketing, not on identity theft or security measures.\n4. There is no mention of identity theft prevention, security protocols, or measures to protect personal information from being stolen.\n5. The question is about ensuring identity theft prevention, which is not addressed in this clause.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 3,
+      "question": "do you keep my information and build a database for selling me products with it?",
+      "contract": "You may withdraw your consent at any time, however, the withdrawal of your consent will not affect the lawfulness of processing based on consent before its withdrawal.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the collection, retention, or use of personal information for building a database or selling products.\n2. The section provided discusses the withdrawal of consent and the effect of such withdrawal on the lawfulness of prior processing.\n3. There is no mention of collecting information, building a database, or using information for selling products.\n4. The section does not contain any information related to the question about keeping information or building a database for selling products.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 4,
+      "question": "do you keep track of my physical measurements like height and weight?",
+      "contract": "If we are aware that a child under 13 has provided us with personal identifiable Information, we will delete such information from our files.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the collection or tracking of physical measurements such as height and weight.\n2. The section specifically discusses the handling of personal identifiable information provided by children under 13, stating that such information will be deleted if discovered.\n3. There is no mention of collecting or tracking physical measurements like height and weight in this section.\n4. The question is about tracking physical measurements, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 5,
+      "question": "who will have access to my dna?",
+      "contract": "We have these third party experts perform regular penetration tests and periodically audit 23andMes security controls.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses who will have access to DNA information.\n2. The section mentions third-party experts performing penetration tests and auditing security controls.\n3. There is no mention of DNA information or who has access to it.\n4. The section is focused on security measures, not on data access or sharing.\n5. This section does not contain information relevant to the question about who will have access to DNA.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 6,
+      "question": "how do i remove it?",
+      "contract": "Technical information that is gathered by our systems, or third party systems, automatically may be used for Site operation, optimization, analytics, content promotion and enhancement of user experience.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract section addresses the removal of technical information gathered by the systems.\n2. The section provided discusses the use of technical information for site operation, optimization, analytics, content promotion, and enhancement of user experience.\n3. There is no mention of how to remove the technical information that is gathered.\n4. The question is asking about the removal of technical information, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 7,
+      "question": "does this app try to access my photos or videos?",
+      "contract": "We are not responsible or liable for the content or privacy & security practices of those websites.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses whether the app accesses photos or videos.\n2. The section states, \"We are not responsible or liable for the content or privacy & security practices of those websites.\"\n3. This section discusses responsibility and liability concerning other websites' content and practices.\n4. There is no mention of accessing photos, videos, or any specific data collection practices related to the app itself.\n5. The question is about the app accessing photos or videos, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 8,
+      "question": "how is my data stored?",
+      "contract": "From time to time, as our services evolve, we may update this Policy.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses how user data is stored.\n2. The section states, \"From time to time, as our services evolve, we may update this Policy.\"\n3. This section is about the potential updates to the policy and does not mention anything about data storage methods or practices.\n4. There is no information provided about how data is stored.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 9,
+      "question": "how is information used?",
+      "contract": "We may use your information to contact you - to provide notices related to your activities, or offer you promotions and general updates, but we will not let any other person, including sellers and buyers, contact you, other than through your user profile on the Site.",
+      "ground_truth": "Relevant",
+      "model_answer": "Relevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses how user information is used.\n2. The section states, \"We may use your information to contact you - to provide notices related to your activities, or offer you promotions and general updates.\"\n3. This indicates that user information is used for contacting users about their activities, promotions, and updates.\n4. The question asks about how information is used, which is directly addressed in this section.\n\nAnswer: Relevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 10,
+      "question": "is it keep my phone numbers undisclosed?",
+      "contract": "If you deactivate your Viber account, it will delete the address book from our servers (more about this below), quickly and permanently.",
+      "ground_truth": "Relevant",
+      "model_answer": "The contract does not explicitly address whether phone numbers are kept undisclosed.",
+      "full_response": "1. I need to determine if the contract addresses whether phone numbers are kept undisclosed.\n2. The contract mentions that deactivating a Viber account will delete the address book from their servers quickly and permanently.\n3. The deletion of the address book implies that the phone numbers stored in it will also be deleted.\n4. However, the contract does not explicitly state whether phone numbers are kept undisclosed before deactivation.\n5. The focus of the contract is on the deletion of the address book upon deactivation, not on the disclosure status of phone numbers.\n\nAnswer: The contract does not explicitly address whether phone numbers are kept undisclosed.",
+      "is_correct": false
+    },
+    {
+      "question_id": 11,
+      "question": "does this app track my gps location?",
+      "contract": "We may do this through in-Game dialog boxes, which you may choose to skip.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses GPS location tracking.\n2. The section mentions \"in-Game dialog boxes\" and the option to skip them.\n3. There is no mention of GPS location, location tracking, or any related terms in this section.\n4. The question is specifically about GPS location tracking, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 12,
+      "question": "what permissions am i giving keep as far as accessing my phone/ photos/ texts, etc when i sign up?",
+      "contract": "We value your every uploaded training information as it is crucial for us to better understand which training class is more helpful to you.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses permissions related to accessing phone features such as photos, texts, or other data.\n2. The section mentions valuing uploaded training information to understand which training class is more helpful.\n3. There is no mention of permissions related to accessing phone features, photos, texts, or any other specific data access.\n4. The section does not provide any information about permissions granted upon signing up.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 13,
+      "question": "what will you do with my dna?",
+      "contract": "To allow you to share your Personal Information with others 23andMe gives you the ability to share information, including Personal Information, through the Services.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract section provided addresses the handling or use of DNA information.\n2. The section provided discusses the ability to share Personal Information through the Services.\n3. It does not mention DNA specifically or how DNA information will be used or handled.\n4. The question asks specifically about the use of DNA, which is not addressed in the provided section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 14,
+      "question": "how does the app make sure my genetic data stays secure?",
+      "contract": "To opt out of Google Analytics entirely please use this link.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the security of genetic data.\n2. The section only provides information about opting out of Google Analytics.\n3. There is no mention of genetic data, its security, or any measures taken to protect such data.\n4. This section does not contain information relevant to the question about genetic data security.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 15,
+      "question": "what information do you take from me.",
+      "contract": "Your information will not be shared with others and is only used internally for the purposes described below:",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses what specific information is collected from the user.\n2. The section states that information will not be shared and is used internally, but it does not specify what information is collected.\n3. The question asks about the specific information collected from the user, which is not addressed in this section.\n4. This section does not provide details on the types of information collected.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 16,
+      "question": "Does the clause discuss breach of contract?",
+      "contract": "The parties agree to submit to binding arbitration to resolve any disputes arising out of or related to this agreement. The arbitrator's decision shall be final and binding on the parties and may be entered as a judgment in any court of competent jurisdiction.",
+      "ground_truth": "No",
+      "model_answer": "No, the clause does not specifically discuss breach of contract.",
+      "full_response": "1. I need to determine if the clause discusses breach of contract.\n2. The clause provided discusses the resolution of disputes through binding arbitration.\n3. It states that any disputes arising out of or related to the agreement will be resolved by arbitration, and the arbitrator's decision will be final and binding.\n4. The clause does not specifically mention breach of contract; it focuses on the method of dispute resolution.\n5. While a breach of contract could be a type of dispute, the clause itself does not explicitly discuss breaches.\n\nAnswer: No, the clause does not specifically discuss breach of contract.",
+      "is_correct": true
+    },
+    {
+      "question_id": 17,
+      "question": "is my data anonymized?",
+      "contract": "In certain situations, 23andMe may be required to disclose Personal Information in response to lawful requests by public authorities, including to meet national security or law enforcement requirements.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses data anonymization.\n2. The section discusses the disclosure of Personal Information in response to lawful requests by public authorities.\n3. There is no mention of data anonymization or any processes related to making data anonymous.\n4. The question is asking about data anonymization, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 18,
+      "question": "does this app track my gps location?",
+      "contract": "Please note that certain records, for example those pertaining to payments or customer service matters, will be retained for legal and accounting purposes.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses GPS location tracking.\n2. The section mentions retaining records for legal and accounting purposes, specifically related to payments or customer service matters.\n3. There is no mention of GPS location tracking or any information related to location data.\n4. The question is about GPS location tracking, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 19,
+      "question": "how is my data used?",
+      "contract": "Your data is kept safe with us, but we do share your personal information with third parties we trust in order to provide you with our services, as follows:",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses how user data is used.\n2. The section mentions that data is shared with third parties to provide services, which implies a use of data.\n3. However, it does not provide specific details on how the data is used beyond sharing with third parties.\n4. The question asks specifically about how data is used, which is not fully addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 20,
+      "question": "how do i remove it?",
+      "contract": "We will process any requests in line with any local laws and our policies and procedures.",
+      "ground_truth": "Relevant",
+      "model_answer": "The contract does not specify how to remove it.",
+      "full_response": "1. I need to determine if the contract provides information on how to remove something, likely referring to data or a request.\n2. The provided contract text states, \"We will process any requests in line with any local laws and our policies and procedures.\"\n3. This statement indicates that requests will be processed according to local laws and internal policies, but it does not specify how to remove anything or the process for doing so.\n4. The contract text does not provide specific instructions or procedures for removal.\n\nAnswer: The contract does not specify how to remove it.",
+      "is_correct": false
+    },
+    {
+      "question_id": 21,
+      "question": "can other members view my real name?",
+      "contract": "Neither 23andMe nor any of its Services are designed for, intended to attract, or directed toward children under the age of 18.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract contains information about whether other members can view a user's real name.\n2. The provided contract section states that the services are not designed for children under 18, which is unrelated to the visibility of a user's real name.\n3. There is no mention of user privacy, name visibility, or how user information is shared with other members in this section.\n4. The question about whether other members can view a user's real name is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 22,
+      "question": "are my health records accessed in this process at all?",
+      "contract": "We and our third party service providers do not use your Sensitive Information, such as Genetic Information and Self-Reported Information, for targeted advertising.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the access or use of health records.\n2. The section mentions \"Sensitive Information, such as Genetic Information and Self-Reported Information,\" but it specifically states that this information is not used for targeted advertising.\n3. The section does not explicitly mention whether health records are accessed or not; it only specifies that certain types of sensitive information are not used for targeted advertising.\n4. The question asks about the access of health records, which is not directly addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 23,
+      "question": "does this send information to a third party?",
+      "contract": "See the section on International Data Transfers below for more information.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses sending information to a third party.\n2. The section provided is a reference to another section titled \"International Data Transfers\" and does not contain any specific information itself.\n3. There is no direct mention of third-party information sharing in this section.\n4. Since this section is only a reference and does not provide any details about data transfers or third-party sharing, it does not address the question.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 24,
+      "question": "when do you delete stored data?",
+      "contract": "To learn more visit our Cookies and Tracking Technologies Policy.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the deletion of stored data.\n2. The section only provides a reference to another policy, specifically the \"Cookies and Tracking Technologies Policy.\"\n3. There is no mention of data deletion, retention periods, or any specifics about how long data is stored or when it is deleted.\n4. This section does not contain information relevant to the question about when stored data is deleted.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 25,
+      "question": "if you need my email to bind the game to an account, do you sell it to others?",
+      "contract": "Lima Sky may employ third party ad serving technologies that use certain methods to collect information as a result of ad serving through Services.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the collection or sale of email information.\n2. The section mentions the use of third-party ad serving technologies that collect information, but it does not specify what types of information are collected or whether email addresses are included.\n3. There is no mention of email collection or the sale of email information to others in this section.\n4. The question specifically asks about the sale of email information, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 26,
+      "question": "what are all the features are available in this app?",
+      "contract": "Manage our everyday business needs, such as administration of the Site, forum management, fulfillment, analytics, fraud prevention, and enforcement of our corporate reporting obligations andTerms of Use, or to comply with the law;",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract section provided discusses the features available in the app.\n2. The section mentions various business needs such as administration of the Site, forum management, fulfillment, analytics, fraud prevention, and enforcement of corporate reporting obligations and Terms of Use.\n3. These are operational or administrative functions rather than features available to users within the app.\n4. The question asks about the features available in the app, which typically refers to functionalities or services that users can interact with.\n5. This section does not provide information about user-facing features of the app.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 27,
+      "question": "is it keep my phone numbers undisclosed?",
+      "contract": "When you interact with Public Accounts, bots and Communities on our Service, we may obtain information about the messages you have liked, comments you have left and also websites youve viewed through links in them.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this contract section addresses the disclosure or non-disclosure of phone numbers.\n2. The section provided discusses obtaining information about messages liked, comments left, and websites viewed through links.\n3. There is no mention of phone numbers or any information about keeping them disclosed or undisclosed.\n4. The question is about the non-disclosure of phone numbers, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 28,
+      "question": "will it be able to determine my location?",
+      "contract": "23andMe is committed to subjecting all Personal Information received from the EU member countries, EEA and Switzerland, in reliance on the Privacy Shield Frameworks, to the Framework's applicable Principles.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the collection or determination of a user's location.\n2. The section mentions 23andMe's commitment to handling Personal Information from the EU, EEA, and Switzerland according to the Privacy Shield Frameworks.\n3. However, it does not specify what types of personal information are collected, such as location data.\n4. The question is about determining location, which is not addressed in this section.\n5. This section is focused on compliance with privacy frameworks, not on the specifics of data collection like location.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 29,
+      "question": "does it need location services while not using it?",
+      "contract": "We may also collect the precise location of your device when the app is running in the foreground, background, or even if you are not directly using the application depending on your device and its settings.",
+      "ground_truth": "Relevant",
+      "model_answer": "Relevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the collection of location data when the app is not actively being used.\n2. The section states, \"We may also collect the precise location of your device when the app is running in the foreground, background, or even if you are not directly using the application depending on your device and its settings.\"\n3. This indicates that the app can collect location data even when the user is not directly using it.\n4. The question asks if the app needs location services while not using it, which is directly addressed in this section.\n\nAnswer: Relevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 30,
+      "question": "when i installation time any personal details ask in this app?",
+      "contract": "When you access our Services, we may collect (i) certain technical information about your mobile device or computer system, including IP Address, mobile device ID (IDFA, Google Advertising ID or other identifiers), and the version of your operating system; and (ii) usage statistics about your interactions with the Games.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses whether personal details are requested during the installation of the app.\n2. The section mentions collecting technical information about the device and usage statistics when accessing the services, but it does not specify any personal details being requested during installation.\n3. The question specifically asks about personal details being requested at installation time, which is not covered in this section.\n4. This section does not provide information about whether personal details are asked for during installation.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 31,
+      "question": "can it use my camera?",
+      "contract": "We may supplement this process by placing notices in the Games and on the Site.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the use of the camera.\n2. The section mentions supplementing a process by placing notices in the Games and on the Site.\n3. There is no mention of camera usage or permissions related to accessing the camera.\n4. The question asks about the app's ability to use the camera, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 32,
+      "question": "will my test results be shared with any third party entities?",
+      "contract": "We ask you to be responsible for safeguarding your password, secret questions and answers, and other authentication information you use to access our Services.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sharing of test results with third parties.\n2. The section provided focuses on the responsibility of users to safeguard their authentication information, such as passwords and secret questions.\n3. There is no mention of test results, data sharing, or third-party entities in this section.\n4. The question is about sharing test results with third parties, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 33,
+      "question": "will viber comply to government information request?",
+      "contract": "When calling through Viber Out, just like regular phone calls you make, details of the call are available to the phone operator of the person you called (and possibly other facilitating phone operators  but this is the same as any regular phone call you make).",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses compliance with government information requests.\n2. The section provided discusses the availability of call details to phone operators when using Viber Out, comparing it to regular phone calls.\n3. There is no mention of government information requests or how Viber handles such requests.\n4. The section does not contain any information about compliance with government information requests.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 34,
+      "question": "who can see my information?",
+      "contract": "You can review and change your personal information by logging into the Site and visiting your account profile page.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses who can see or access a user's information.\n2. The section mentions the ability to review and change personal information by logging into the Site and visiting the account profile page.\n3. However, it does not provide any information about who else, if anyone, can see or access the user's information.\n4. The question is asking about visibility or access to the user's information, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 35,
+      "question": "are my message encrypted on viber?",
+      "contract": "If you are a California resident and want such a list, please contact us atCaliforniaRequest@viber.com.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract contains information about message encryption on Viber.\n2. The provided text is a single line that addresses California residents and provides an email contact for a specific request.\n3. There is no mention of message encryption or any details about how messages are handled or secured.\n4. The question is about message encryption, which is not addressed in the provided text.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 36,
+      "question": "do you sell my genetic data?",
+      "contract": "We will only share your Personal Information with third parties for marketing purposes with your explicit consent.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sale of genetic data.\n2. The section states, \"We will only share your Personal Information with third parties for marketing purposes with your explicit consent.\"\n3. The section mentions sharing personal information for marketing purposes but does not specifically address the sale of genetic data.\n4. The question is about selling genetic data, which is not directly mentioned or addressed in this section.\n5. Therefore, this section does not provide information relevant to the question about selling genetic data.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 37,
+      "question": "can other parties see my information",
+      "contract": "The Site uses cookies to collect statistical data about its use, to tailor the Site's functionality to suit personal preferences and to assist with various aspects of Site operation.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses whether other parties can see user information.\n2. The section discusses the use of cookies to collect statistical data and tailor site functionality, but it does not mention sharing information with other parties.\n3. There is no information in this section about whether or not user information is shared with third parties.\n4. The question is about the visibility of user information to other parties, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 38,
+      "question": "does it have access to my gps information?",
+      "contract": "When you choose to connect your third party social media account to your Keep account, we may collect certain information from your account with that social media platform  for example, to facilitate your login to Keep App with that account.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses access to GPS information.\n2. The section discusses connecting a third-party social media account to the Keep account and mentions collecting certain information from that social media account.\n3. The section provides an example related to facilitating login but does not mention GPS information or location data.\n4. The question is specifically about access to GPS information, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 39,
+      "question": "do you use my date to modify the app",
+      "contract": "23andMe does not endorse or sponsor any API applications, and does not affirm the accuracy or validity of any interpretations made by third party API applications.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract addresses the use of user data to modify the app.\n2. The provided contract section states that \"23andMe does not endorse or sponsor any API applications, and does not affirm the accuracy or validity of any interpretations made by third party API applications.\"\n3. This section is focused on the relationship between 23andMe and third-party API applications, specifically regarding endorsement and validation of interpretations.\n4. There is no mention of using user data to modify the app or any related activities.\n5. The question is about the use of user data for app modification, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 40,
+      "question": "does it have access to my contacts?",
+      "contract": "We will collect information, includingPersonal InformationandNon-Identifying Information, when you interact with us and the Site, for example when you:",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses access to contacts.\n2. The section mentions collecting \"Personal Information and Non-Identifying Information\" when interacting with the site.\n3. However, it does not specify what constitutes \"Personal Information\" or mention contacts specifically.\n4. Without explicit mention of accessing contacts, this section does not provide relevant information regarding access to contacts.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 41,
+      "question": "who has access to my workout plans?",
+      "contract": "For example, we may send and receive data to and from Apple HealthKit to collaborate training consumption calculation on your iOS system with your authorization.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses who has access to workout plans.\n2. The section mentions data exchange with Apple HealthKit for training consumption calculation, but it does not specify who has access to workout plans.\n3. The focus of the section is on data exchange with Apple HealthKit, not on access permissions or who can view workout plans.\n4. The question is about access to workout plans, which is not directly addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 42,
+      "question": "will the information be shared with a 3rd party",
+      "contract": "Once delivered, receiving personnel at the laboratory remove and discard kit packaging, which in some cases may contain \"sender information\" (eg, name, address), before testing personnel receive the samples for processing.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses sharing information with third parties.\n2. The section describes the process of handling kit packaging at a laboratory, specifically mentioning that \"sender information\" may be discarded before testing personnel receive the samples.\n3. There is no mention of sharing information with any third parties in this section.\n4. The focus is on the internal process of handling and discarding packaging, not on sharing information externally.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 43,
+      "question": "can i delete my personally identifying information?",
+      "contract": "Section 9 only applies to individuals located in the European Economic Area (EEA), United Kingdom, or Switzerland (the Designated Countries).",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the deletion of personally identifying information.\n2. The section provided is about the applicability of Section 9 to individuals in specific regions (EEA, UK, Switzerland).\n3. There is no mention of data deletion, personal information, or any rights related to data management in this section.\n4. The question asks about the ability to delete personally identifying information, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 44,
+      "question": "are there specific privacy settings in the app that would allow me to adjust my privacy preferences as i see fit?",
+      "contract": "You should do this through the browser settings for each browser you use.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses privacy settings within the app.\n2. The section mentions adjusting settings through the browser settings for each browser used.\n3. There is no mention of specific privacy settings within the app itself.\n4. The question asks about privacy settings in the app, not browser settings.\n5. This section does not provide information about app-specific privacy settings.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 45,
+      "question": "do you sell my genetic data?",
+      "contract": "We share the information described above in Section 2 with our third party service providers, as necessary for them to provide their services to us and help us perform our contract with you.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sale of genetic data.\n2. The section mentions sharing information with third-party service providers to help perform the contract, but it does not mention selling data.\n3. There is no specific mention of genetic data or any indication that data is sold to third parties.\n4. The question asks about selling genetic data, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 46,
+      "question": "will my information be saved after i use groupon once?",
+      "contract": "We encourage you to familiarize yourself with the privacy statements provided by these other parties prior to providing them with information or taking advantage of a sponsored offer or promotion.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the retention or saving of user information after using a service like Groupon.\n2. The section advises users to review privacy statements of other parties before providing them with information or engaging with offers or promotions.\n3. There is no mention of data retention, saving of information, or specific practices related to using Groupon or similar services.\n4. The section does not provide information about whether your information will be saved after using Groupon.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 47,
+      "question": "will this app sell my information to any 3rd parties?",
+      "contract": "to deliver and target behavioral or personalized ads; and to inform users about new products or promotional offers.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sale of information to third parties.\n2. The section mentions delivering and targeting behavioral or personalized ads and informing users about new products or promotional offers.\n3. There is no mention of selling information to third parties in this section.\n4. The question specifically asks about the sale of information, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 48,
+      "question": "does it save all info on me if i delete my acct?",
+      "contract": "Please contact us if you have any questions or comments about our privacy practices or this Privacy Statement.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses data retention or what happens to information when an account is deleted.\n2. The section provided only mentions contacting the company for questions or comments about privacy practices or the Privacy Statement.\n3. There is no information in this section about data retention, account deletion, or what happens to user information after an account is deleted.\n4. The question is asking about the retention of information after account deletion, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 49,
+      "question": "does this app use data on my phone not within the app?",
+      "contract": "If you sign into the Site or Games with Facebook Connect we will collect information that is visible via your Facebook account such as: (1) your first and last name, (2) Facebook ID, (3) Profile Picture/URL, and (4) list of Facebook friends.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the use of data on the user's phone that is not within the app.\n2. The section discusses data collection when signing in with Facebook Connect, specifically mentioning information visible via the Facebook account, such as name, Facebook ID, profile picture, and list of Facebook friends.\n3. The data mentioned is obtained from the user's Facebook account, not directly from the phone itself.\n4. The question asks about the use of data on the phone that is not within the app, which would imply accessing data stored on the device outside of the app's scope.\n5. This section does not mention accessing or using any data stored on the user's phone outside of the app.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 50,
+      "question": "does the app offer a password service where i am required to input a password when i want to access it?",
+      "contract": "For all requests, please ensure you put the statement Your California Privacy Rights in the body of your request, as well as your name, street address, city, state, and zip code.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the app offering a password service or requiring a password for access.\n2. The section provided discusses the procedure for making requests related to California Privacy Rights, including the information to include in such requests.\n3. There is no mention of passwords, password services, or access requirements in this section.\n4. The question is about password services, which is not addressed in the provided section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 51,
+      "question": "if my genetic data turns out to be unexpected, can my family see it?",
+      "contract": "You may also have the ability to share information directly with individuals who have not participated in our Service via a unique, shareable URL or through a social media platform (such information is \"User Content\").",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sharing of genetic data with family members.\n2. The section discusses the ability to share information directly with individuals via a unique, shareable URL or through a social media platform, referring to this as \"User Content.\"\n3. The section does not specifically mention genetic data or how it is shared with family members.\n4. The question is about the visibility of genetic data to family members, which is not directly addressed in this section.\n5. This section is about sharing information through URLs or social media, not about genetic data visibility to family.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 52,
+      "question": "does the wordscapes app collect any personally identifiable information like my name or email?",
+      "contract": "When you access our Services, we may collect (i) certain technical information about your mobile device or computer system, including IP Address, mobile device ID (IDFA, Google Advertising ID or other identifiers), and the version of your operating system; and (ii) usage statistics about your interactions with the Games.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the collection of personally identifiable information such as name or email.\n2. The section mentions collecting technical information about the device or computer system, such as IP Address, mobile device ID, and operating system version.\n3. It also mentions collecting usage statistics about interactions with the Games.\n4. There is no mention of collecting personally identifiable information like name or email in this section.\n5. The question specifically asks about the collection of personally identifiable information, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 53,
+      "question": "will anyone have digital access to my test results?",
+      "contract": "Genetic Information includes the 23andMe results reported to you as part of our Services, and may be used for other purposes, as outlined in Section 3 below.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses digital access to test results.\n2. The section defines \"Genetic Information\" and mentions that it includes 23andMe results reported to the user.\n3. It also states that this information \"may be used for other purposes, as outlined in Section 3 below.\"\n4. However, this section does not explicitly mention who will have digital access to the test results or how they will be accessed.\n5. The question specifically asks about digital access to test results, which is not directly addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 54,
+      "question": "can other parties see my information",
+      "contract": "This may be via email, post, SMS, telephone or targeted online advertisements.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses whether other parties can see user information.\n2. The section provided lists methods of communication, such as email, post, SMS, telephone, or targeted online advertisements.\n3. There is no mention of sharing information with other parties or any details about who can see user information.\n4. The section does not address the visibility of user information to other parties.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 55,
+      "question": "what kind of permissions do i have to grant it?",
+      "contract": "Please be aware that such a request does not ensure complete or comprehensive removal of the content or information you have posted and that there may be circumstances in which the law does not require or allow removal even if requested.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract section provided discusses permissions that need to be granted.\n2. The section provided talks about the removal of content or information and the limitations of such removal requests.\n3. There is no mention of permissions that need to be granted by the user or any related requirements.\n4. The question is asking about permissions, which is not addressed in the provided section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 56,
+      "question": "what data does it collect",
+      "contract": "Also, please note that, unless we define a term in this Privacy Policy, all capitalized terms used in this Privacy Policy have the same meanings as in our Terms of Service.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses what data is collected.\n2. The section provided states that capitalized terms have the same meanings as in the Terms of Service, but it does not mention any specific data collection practices or types of data collected.\n3. There is no information in this section about what data is collected.\n4. The question asks about data collection, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 57,
+      "question": "do you keep my information and build a database for selling me products with it?",
+      "contract": "In addition, all customers will receive an email with notification of the changes prior to the change becoming effective.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the collection, retention, or use of customer information for building a database or selling products.\n2. The section only mentions that customers will receive an email notification about changes before they become effective.\n3. There is no mention of collecting, retaining, or using customer information for building a database or selling products.\n4. This section does not contain information relevant to the question about using customer information for product sales.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 58,
+      "question": "are my goals shared with third parties?",
+      "contract": "For example, this Privacy Policy does not apply for a) the information of other companies and organizations that advertise our services, or b) services offered by other companies or organizations with our services to be displayed or linked.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sharing of user goals with third parties.\n2. The section specifies that the privacy policy does not apply to information of other companies and organizations that advertise their services or services offered by other companies or organizations.\n3. There is no mention of user goals or the sharing of such information with third parties.\n4. The section is focused on the scope of the privacy policy and what it does not cover, rather than detailing what user information is shared.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 59,
+      "question": "do you share my location with other people",
+      "contract": "However, we dont show you personalized ads based on sensitive categories, such as race, religion, sexual orientation, or health.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sharing of location information with others.\n2. The section specifically mentions that they do not show personalized ads based on sensitive categories like race, religion, sexual orientation, or health.\n3. There is no mention of location information or whether it is shared with other people.\n4. The question is about sharing location information, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 60,
+      "question": "who will have access to my medical information?",
+      "contract": "When you purchase our Services or create a 23andMe account and register your kit, we collect Personal Information, such as your name, date of birth, billing and shipping address, payment information (eg, credit card) and contact information (eg email, phone number and license number).",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses who has access to medical information.\n2. The section provided discusses the collection of Personal Information when purchasing services or creating an account, including name, date of birth, billing and shipping address, payment information, and contact information.\n3. There is no mention of medical information or who has access to it in this section.\n4. The question specifically asks about access to medical information, which is not covered in the provided section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 61,
+      "question": "is my information shared with any third parties?",
+      "contract": "23andMe Research may study a specific group or population, identify potential areas or targets for therapeutics development, conduct or support the development of drugs, diagnostics or devices to diagnose, predict or treat medical or other health conditions, work with public, private and/or non-profit entities on genetic research initiatives, or otherwise create, commercialize, and apply this new knowledge to improve health care.",
+      "ground_truth": "Relevant",
+      "model_answer": "Relevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sharing of information with third parties.\n2. The section describes various activities related to research and development, such as studying populations, developing therapeutics, and working with different entities on genetic research initiatives.\n3. It mentions working with \"public, private and/or non-profit entities on genetic research initiatives,\" which implies that information may be shared with these third parties for research purposes.\n4. The question asks if information is shared with third parties, and this section indirectly addresses that by mentioning collaboration with various entities.\n\nAnswer: Relevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 62,
+      "question": "can i control the information that is presented to potential employers?",
+      "contract": "your personal information may be disclosed if we go through a business transition such as a merger, sale, transfer of all or a portion of Fiverr's assets, acquisition, bankruptcy or similar event.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses user control over information presented to potential employers.\n2. The section discusses scenarios where personal information may be disclosed, specifically in the context of business transitions like mergers, sales, or acquisitions.\n3. There is no mention of user control over information or how information is presented to potential employers.\n4. The section is focused on disclosure during business transitions, not on user control or presentation of information to third parties like potential employers.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 63,
+      "question": "does groupon sell my personal information?",
+      "contract": "Business Partnersmeans, collectively, third parties with whom we conduct business, such as merchants, co-marketers, distributors, resellers, and other companies or organizations with whom Groupon enters into agreements to support its business and operations.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sale of personal information by Groupon.\n2. The section defines \"Business Partners\" as third parties with whom Groupon conducts business, including merchants, co-marketers, distributors, resellers, and other companies or organizations.\n3. The section does not mention anything about selling personal information to these business partners or any other entities.\n4. The question specifically asks about the sale of personal information, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 64,
+      "question": "do you use my data to do medical research",
+      "contract": "open your account, enable purchases and process payments, communicate with you, and implement your requests (eg, referrals); enable and enhance your use of our website and mobile application(s), including authenticatint your visits, providing personalized content and information, and tracking your usage of our Services; contact you about your account, and any relevant information about our Services (eg policy changes, security updates or issues, etc); enforce our Terms of Service and other agree...",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the use of data for medical research.\n2. The section mentions various uses of data, such as enabling purchases, processing payments, enhancing website and app use, contacting users, enforcing terms, monitoring behaviors, and performing research & development activities.\n3. The research & development activities are described as conducting data analysis and research to develop or improve products and services, and performing quality control activities.\n4. There is no specific mention of using data for medical research in this section.\n5. The question asks specifically about medical research, which is not addressed in the provided section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 65,
+      "question": "what information of mine does it collect",
+      "contract": "Your Account may be used to publicly identify you as part of social features of the Services, which may include user-to-user interaction, chat or messaging functionality, public leaderboards, head-to-head competition, and other similar features.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the collection of user information.\n2. The section describes how an account may be used in social features, such as user-to-user interaction, chat, messaging, public leaderboards, and competitions.\n3. However, it does not specify what specific information is collected from the user.\n4. The question asks about the information collected, but this section does not provide details on data collection.\n5. Therefore, this section does not contain information relevant to the question about what information is collected.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 66,
+      "question": "what are all the features are available in this app?",
+      "contract": "Allow you to apply for a job, post a video or sign up for special offers from merchants,Business Partners, or third parties through the Site andOther Programs;",
+      "ground_truth": "Relevant",
+      "model_answer": "The contract mentions features such as applying for a job, posting a video, and signing up for special offers, but it does not provide a complete list of all features available in the app.",
+      "full_response": "1. I need to determine if the contract provides information about the features available in the app.\n2. The provided text from the contract mentions specific actions users can take: applying for a job, posting a video, or signing up for special offers.\n3. These actions suggest features related to job applications, video posting, and accessing special offers.\n4. However, the text does not provide a comprehensive list of all features available in the app, only a few specific actions.\n5. The question asks for all features, but the text only provides a partial list.\n\nAnswer: The contract mentions features such as applying for a job, posting a video, and signing up for special offers, but it does not provide a complete list of all features available in the app.",
+      "is_correct": false
+    },
+    {
+      "question_id": 67,
+      "question": "what information of mine does it access",
+      "contract": "We encrypt the transmission of all information using secure socket layer technology (SSL).",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses what specific information is accessed.\n2. The section states, \"We encrypt the transmission of all information using secure socket layer technology (SSL).\"\n3. This section discusses the encryption of information during transmission but does not specify what information is accessed.\n4. The question asks about what information is accessed, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 68,
+      "question": "is the information encrypted",
+      "contract": "You are in control of the information you would like to share with us.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the encryption of information.\n2. The section states, \"You are in control of the information you would like to share with us.\"\n3. This statement focuses on user control over the information shared, not on how the information is protected or encrypted.\n4. There is no mention of encryption or security measures in this section.\n5. The question asks about encryption, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 69,
+      "question": "how does fiverr ensure payments from customers are secure?",
+      "contract": "to service providers for the purpose of opening and operating your account as well as providing ancillary services (example - payment vendors, CRM systems, forum hosting, community management services, mailing systems or technical consultants).",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the provided contract section addresses the security of payments from customers.\n2. The section mentions service providers involved in opening and operating accounts and providing ancillary services, such as payment vendors.\n3. However, it does not specify any measures or methods related to ensuring the security of payments from customers.\n4. The question specifically asks about the security of payments, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 70,
+      "question": "will you ever sell my information?",
+      "contract": "References in this Privacy Statement to Groupon, we, or us also apply to Affiliates.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sale of user information.\n2. The section provided only clarifies that references to \"Groupon, we, or us\" also apply to Affiliates.\n3. There is no mention of selling user information or any related practices in this section.\n4. The question is about the sale of information, which is not addressed in the provided section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 71,
+      "question": "does the app save the address that my kit is shipped to?",
+      "contract": "Information related to our genetic testing services Saliva sample and biobanking.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract contains any information about saving the address to which the kit is shipped.\n2. The provided contract excerpt only mentions \"Information related to our genetic testing services Saliva sample and biobanking.\"\n3. There is no mention of shipping addresses, data storage, or any related information in this excerpt.\n4. The question is about whether the app saves the shipping address, but the excerpt does not provide any relevant information on this topic.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 72,
+      "question": "will you destroy my dna sample when you are finished?",
+      "contract": "We will not share your Personal Information with another customer without your consent.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "The contract does not address the destruction of DNA samples.",
+      "full_response": "1. I need to determine if the contract addresses the destruction of DNA samples.\n2. The provided contract clause only mentions not sharing personal information with another customer without consent.\n3. There is no mention of DNA samples or their destruction in this clause.\n4. The question is about the destruction of DNA samples, which is not addressed in the provided contract clause.\n\nAnswer: The contract does not address the destruction of DNA samples.",
+      "is_correct": false
+    },
+    {
+      "question_id": 73,
+      "question": "how is my info protected from hackers?",
+      "contract": "The transmission of data via the internet is not completely secure, and although we will do our best to protect your personal information, we cannot guarantee the security of your data transmitted to the Site; any transmission is at your own risk.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract addresses how information is protected from hackers.\n2. The provided contract section discusses the security of data transmission over the internet.\n3. It states that the transmission of data is not completely secure and that they will do their best to protect personal information.\n4. However, it also mentions that they cannot guarantee the security of data transmitted to the site, indicating that any transmission is at the user's own risk.\n5. The section does not provide specific measures or methods used to protect information from hackers.\n6. The question asks specifically about protection from hackers, which is not directly addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 74,
+      "question": "who will have access to my dna?",
+      "contract": "You have the option to share directly with individuals with 23andMe accounts through (i) our Forums, (ii) relative finding features (eg, \"DNA Relatives\"), (iii) other sharing features and tools.",
+      "ground_truth": "Relevant",
+      "model_answer": "Relevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses who will have access to the user's DNA.\n2. The section mentions options for sharing with individuals who have 23andMe accounts through various features like Forums and \"DNA Relatives.\"\n3. It implies that users can choose to share their DNA information with other 23andMe account holders through these features.\n4. However, the section does not explicitly state who will have access to the user's DNA beyond the individuals the user chooses to share with.\n5. The question asks about who will have access to the user's DNA, which is indirectly addressed by mentioning sharing options with other account holders.\n\nAnswer: Relevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 75,
+      "question": "does the app offer a password service where i am required to input a password when i want to access it?",
+      "contract": "Linking your email to Viber and Rakuten group: When you select to connect your email to your Viber account, we will use information you provided in the registration process (eg, name, email, password, phone number), as well as your IP address to do so.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the requirement of inputting a password to access the app.\n2. The section mentions using information provided during the registration process, including \"name, email, password, phone number,\" when linking an email to a Viber account.\n3. While it mentions a password as part of the registration information, it does not specify whether a password is required to access the app or if there is a password service.\n4. The question is specifically about the requirement of inputting a password to access the app, which is not directly addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 76,
+      "question": "what applications does this app have access to?",
+      "contract": "Consistent with applicable legal requirements, we take commercially reasonable steps to require third parties to adequately safeguard your personal information and only process it in accordance with our instructions;",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the app's access to other applications.\n2. The section discusses the measures taken to ensure third parties safeguard personal information and process it according to instructions.\n3. There is no mention of the app's access to other applications or any details about what applications the app might have access to.\n4. The question is asking about the app's access to other applications, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 77,
+      "question": "is my information shared with any third parties?",
+      "contract": "In contrast, Individual-level Genetic Information or Self-Reported Information consists of data about a single individual's genotypes, diseases or other traits/characteristics information and could reveal whether a specific user has a particular genetic trait, or consist of all of the Genetic Information about that user.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sharing of information with third parties.\n2. The section describes what Individual-level Genetic Information or Self-Reported Information consists of, such as genotypes, diseases, or other traits.\n3. There is no mention of sharing this information with third parties or any details about data sharing practices.\n4. The question is specifically about whether information is shared with third parties, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 78,
+      "question": "will you destroy my dna sample when you are finished?",
+      "contract": "Unless you make a request for us to delete your account or delete certain Personal Information (i.e., User Content, etc), we will store your Personal Information as long as your account is open.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract addresses the destruction of a DNA sample.\n2. The provided contract section discusses the storage of Personal Information and mentions account deletion or deletion of certain Personal Information.\n3. The section does not specifically mention DNA samples or any procedures related to their destruction.\n4. The question is about the destruction of a DNA sample, which is not addressed in the provided contract section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 79,
+      "question": "will you ever sell my personal information to a third party?",
+      "contract": "Starting with Viber 6.0, all of Vibers core features are secured with end-to-end encryption: Viber calls, one-on-one messages, group messages, private media sharing and secondary devices.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sale of personal information to third parties.\n2. The section provided discusses the security of Viber's core features, specifically mentioning end-to-end encryption for calls, messages, media sharing, and secondary devices.\n3. There is no mention of selling personal information or any practices related to sharing data with third parties.\n4. The question is about the sale of personal information, which is not addressed in this section about encryption and security features.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 80,
+      "question": "does it need location services while not using it?",
+      "contract": "If you use any features on the Site to send information about a product or service to another person (eg, a friend, a colleague, a professional associate, etc), we will also collect thePersonal Informationof that other person to the extent disclosed by you and may contact them using the information you provided us.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the use of location services, especially when the app is not in use.\n2. The section discusses collecting personal information about other people when users send information about a product or service to them.\n3. There is no mention of location services or how they are used, whether the app is in use or not.\n4. The question is about location services, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 81,
+      "question": "do you ever sell my personal information to other companies for marketing purposes?",
+      "contract": "If you are eligible to receive additional reports or updates in the future, you may be notified of or may directly access these updates.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sale of personal information to other companies for marketing purposes.\n2. The section mentions eligibility to receive additional reports or updates and how users may be notified or access these updates.\n3. There is no mention of selling personal information, marketing purposes, or any related activities.\n4. This section does not contain information relevant to the question about selling personal information for marketing.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 82,
+      "question": "what type of identifiable information is passed between users on the platform",
+      "contract": "Once you have given us your agreement to the use of cookies, we shall store a cookie on your computer or device to remember this for next time, so that we can store your preferences and save you time on subsequent visits by eliminating the need to repeatedly enter the same data.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the type of identifiable information passed between users on the platform.\n2. The section discusses the use of cookies to store user preferences and save time on subsequent visits.\n3. It mentions storing a cookie on the user's device to remember their agreement to the use of cookies.\n4. There is no mention of any identifiable information being passed between users on the platform.\n5. The section is focused on cookies and user preferences, not on user-to-user data exchange.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 83,
+      "question": "do you know my location",
+      "contract": "All credit card information you supply is transmitted via Secure Socket Layer (SSL) technology and then encrypted within our databases.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the collection or knowledge of user location.\n2. The section specifically discusses the transmission and encryption of credit card information using SSL technology.\n3. There is no mention of location data, location tracking, or any information related to knowing a user's location.\n4. The question asks about location knowledge, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 84,
+      "question": "does it sell my data to anyone?",
+      "contract": "They do this by usingCookies, clear gifs and other technologies.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sale of user data.\n2. The section mentions the use of \"Cookies, clear gifs and other technologies.\"\n3. There is no mention of selling data or any related activities in this section.\n4. The question is asking about the sale of data, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 85,
+      "question": "is my data shared with others?",
+      "contract": "Please check their policies before submitting any of your personal data.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses whether user data is shared with others.\n2. The section advises users to check \"their policies\" before submitting personal data, but it does not specify who \"they\" are or whether data is shared with others.\n3. There is no mention of data sharing practices or any entities with whom data might be shared.\n4. The section does not provide any information about data sharing, only a caution to review other policies.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 86,
+      "question": "does it share my location to anyone?",
+      "contract": "Lima Sky may use tools or third party analytical software to automatically collect and use certain non-personal data that does not directly enable Lima Sky to identify you.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sharing of location data.\n2. The section mentions the use of tools or third-party analytical software to collect non-personal data.\n3. It specifies that the data collected does not directly enable Lima Sky to identify the user.\n4. There is no mention of location data or sharing of such data with third parties.\n5. The question is about sharing location data, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 87,
+      "question": "what type of permissions does the app need to operate?",
+      "contract": "You can opt-out of being targeted by certainThird-Party Ad-Serversand Groupon-served ads online using theNational Advertising Initiatives Opt-Out Toolor theDigital Advertising Alliances (DAA) About Ads Opt-Out Tool.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract provides information about the permissions required by the app to operate.\n2. The provided text discusses opting out of targeted ads using specific tools, which relates to advertising preferences and not app permissions.\n3. There is no mention of app permissions or any requirements for the app to operate in the provided text.\n4. The question is asking about app permissions, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 88,
+      "question": "can people see my workout log?",
+      "contract": "You may also choose to share your activity on other platforms, such as Facebook, Twitter or Instagram.",
+      "ground_truth": "Relevant",
+      "model_answer": "Yes, if you choose to share it on platforms like Facebook, Twitter, or Instagram.",
+      "full_response": "1. I need to determine if the contract mentions sharing activity, specifically a workout log, on other platforms.\n2. The provided contract section states, \"You may also choose to share your activity on other platforms, such as Facebook, Twitter or Instagram.\"\n3. This implies that if you choose to share your activity, it could be visible to others on those platforms.\n4. The question asks if people can see the workout log, which is a type of activity that could be shared.\n5. The section suggests that sharing is optional, but if shared, it would be visible to others on the specified platforms.\n\nAnswer: Yes, if you choose to share it on platforms like Facebook, Twitter, or Instagram.",
+      "is_correct": false
+    },
+    {
+      "question_id": 89,
+      "question": "does it save any of my health data?",
+      "contract": "We will help you export the information based on applicable law and your specific request.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the saving or collection of health data.\n2. The section mentions helping users export information based on applicable law and specific requests.\n3. There is no mention of health data or any specific type of data being saved or collected.\n4. The question asks about the saving of health data, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 90,
+      "question": "Does the clause discuss compliance with California consumer privacy law?",
+      "contract": "The Company shall comply with all applicable laws and regulations regarding consumer privacy in the State of California, including but not limited to the California Consumer Privacy Act (CCPA). The Company shall implement reasonable security measures to protect the personal information of California residents from unauthorized access, use, disclosure, or destruction.",
+      "ground_truth": "Yes",
+      "model_answer": "Relevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses compliance with California consumer privacy law.\n2. The section explicitly states, \"The Company shall comply with all applicable laws and regulations regarding consumer privacy in the State of California, including but not limited to the California Consumer Privacy Act (CCPA).\"\n3. This clearly indicates that the company is committed to complying with California consumer privacy laws, specifically mentioning the CCPA.\n4. The question asks about compliance with California consumer privacy law, which is directly addressed in this section.\n\nAnswer: Relevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 91,
+      "question": "what information can other people see?",
+      "contract": "You may refuse the use of cookies by selecting the appropriate settings on your browser as described below.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses what information other people can see.\n2. The section discusses the refusal of cookies by adjusting browser settings.\n3. There is no mention of what information other people can see or any details about data visibility to others.\n4. The section is focused solely on cookie settings and does not address the visibility of information to other people.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 92,
+      "question": "who will have access to my information?",
+      "contract": "We (or ourVendorson our behalf) may share yourPersonal Informationas required or permitted by law:",
+      "ground_truth": "Relevant",
+      "model_answer": "Relevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses who will have access to the user's information.\n2. The section states, \"We (or our Vendors on our behalf) may share your Personal Information as required or permitted by law.\"\n3. This indicates that both the company (\"We\") and their vendors may have access to the user's personal information.\n4. The question is asking about who will have access to the information, which is directly addressed in this section.\n\nAnswer: Relevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 93,
+      "question": "do you record what our cameras see?",
+      "contract": "We may use your information and call log information to comply with applicable laws.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the recording of camera data.\n2. The section mentions using \"your information and call log information\" to comply with laws.\n3. There is no mention of camera data or recording what the cameras see.\n4. The question is specifically about recording camera data, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 94,
+      "question": "does the app require any special permissions for access on my phone?",
+      "contract": "If you do not want us to use your Personal Information in this way, please review and update your Account Settings as necessary or contact us at privacy@23andme.com.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses app permissions required for access on a phone.\n2. The section discusses how to prevent the use of personal information by updating account settings or contacting the company.\n3. There is no mention of app permissions or any requirements for accessing the app on a phone.\n4. The question is about app permissions, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 95,
+      "question": "do you keep a record of our text ?",
+      "contract": "Data Retention: Unless otherwise specified, we retain information as long as it is necessary and relevant for us to achieve the purposes referred to above or to enable us to comply with our legal data protection retention obligations.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this contract section addresses the retention of text records.\n2. The section is titled \"Data Retention,\" which suggests it deals with how long information is kept.\n3. The section states that information is retained as long as necessary and relevant for the purposes mentioned or to comply with legal obligations.\n4. However, the section does not specify what types of information are retained, such as text records.\n5. The question specifically asks about keeping a record of text, but the section does not mention text records or any specific type of data.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 96,
+      "question": "are the calls really free?",
+      "contract": "You can also make additional choices on your phones settings by changing our apps permissions such as location sharing, access to contact list and more.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract addresses the cost of calls or mentions anything about calls being free.\n2. The provided text from the contract discusses app permissions related to location sharing and access to the contact list.\n3. There is no mention of calls, their cost, or whether they are free in this section.\n4. The question about calls being free is not addressed in the provided contract text.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 97,
+      "question": "is it gathering information on me when the app is not active?",
+      "contract": "We will store those contacts for purposes of helping you and your contacts make connections through our Services.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses data collection when the app is not active.\n2. The section mentions storing contacts to help make connections through the services.\n3. There is no mention of data collection activities when the app is not active.\n4. The section does not address whether information is gathered when the app is not in use.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 98,
+      "question": "are my goals shared with third parties?",
+      "contract": "In order to participate in certain features, you may have to adjust your Privacy settings and share more information.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sharing of user goals with third parties.\n2. The section mentions adjusting Privacy settings and sharing more information to participate in certain features.\n3. However, it does not specify what information is shared or if goals are included in the shared information.\n4. There is no mention of third parties or the sharing of specific types of information, such as user goals.\n5. This section does not contain information relevant to the question about sharing goals with third parties.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 99,
+      "question": "how can i keep it hidden from insurance companies?",
+      "contract": "Unless you consent to Biobanking and additional analyses, your saliva sample and DNA are destroyed after the laboratory completes its work, subject to the laboratory's legal and regulatory requirements.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "The contract does not provide information on how to keep the sample hidden from insurance companies.",
+      "full_response": "1. I need to determine if the contract provides information on how to keep the saliva sample and DNA hidden from insurance companies.\n2. The contract clause provided discusses the destruction of the saliva sample and DNA after the laboratory completes its work, unless consent is given for Biobanking and additional analyses.\n3. There is no mention of insurance companies or any measures to keep the sample or DNA hidden from them.\n4. The clause focuses on the destruction of the sample and DNA, not on privacy or disclosure to third parties like insurance companies.\n\nAnswer: The contract does not provide information on how to keep the sample hidden from insurance companies.",
+      "is_correct": false
+    },
+    {
+      "question_id": 100,
+      "question": "do i have to sign in using a social media account?",
+      "contract": "Your consent will not be required for disclosure in these cases, but we will attempt to notify you, to the extent permitted by law to do so.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the requirement to sign in using a social media account.\n2. The section discusses consent and notification related to disclosure, but it does not mention anything about signing in or using a social media account for sign-in purposes.\n3. There is no information provided in this section about sign-in methods or requirements.\n4. The question is asking about the necessity of using a social media account for sign-in, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 101,
+      "question": "does it sell data",
+      "contract": "If you do ask us to share your personal information with a third party for its marketing purposes, we will only share information in connection with that specific promotion, as we do not share information with any third party (other than our service providers) on a continual basis.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the selling of data.\n2. The section mentions sharing personal information with a third party for marketing purposes only if the user requests it.\n3. It also states that information is shared only in connection with a specific promotion and not on a continual basis.\n4. The section does not mention selling data; it only discusses sharing data under specific conditions.\n5. The question asks about selling data, which is not directly addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 102,
+      "question": "can it access my other social media accounts?",
+      "contract": "To register, you may need to provide certain Personal Information, such as you name, mobile phone number, password, exercise goal and status.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses access to other social media accounts.\n2. The section discusses the information required for registration, specifically mentioning \"name, mobile phone number, password, exercise goal and status.\"\n3. There is no mention of accessing other social media accounts or any related permissions.\n4. The question is about accessing social media accounts, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 103,
+      "question": "is any data collected by the app has any connection with the third party sites?",
+      "contract": "You can choose to delink your Viber account from the Rakuten account at any time by editing your profile on the app.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses any connection between data collected by the app and third-party sites.\n2. The section mentions the ability to \"delink your Viber account from the Rakuten account,\" which implies a connection between Viber and Rakuten.\n3. However, the section does not explicitly state that data collected by the app is shared with or connected to third-party sites, only that accounts can be linked or delinked.\n4. The question specifically asks about data collected by the app and its connection to third-party sites, which is not directly addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 104,
+      "question": "can it use my camera?",
+      "contract": "To prevent disclosure of your personal information for use in direct marketing by a third party, do not opt in to such use when you provide personal information through our Services.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the use of the camera.\n2. The section discusses preventing the disclosure of personal information for direct marketing purposes by third parties.\n3. There is no mention of camera usage or permissions related to accessing the camera.\n4. The question is about camera usage, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 105,
+      "question": "what information is collected about users?",
+      "contract": "When you install the Viber App, youll also be asked to allow us access to your mobile devices address book.",
+      "ground_truth": "Relevant",
+      "model_answer": "Relevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses what information is collected about users.\n2. The section states, \"When you install the Viber App, you'll also be asked to allow us access to your mobile device's address book.\"\n3. This indicates that the app requests access to the user's address book, which is a type of information collected about users.\n4. The question asks about what information is collected, and this section directly mentions the collection of address book information.\n\nAnswer: Relevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 106,
+      "question": "does it collect any of my contact's information",
+      "contract": "We and service providers acting on our behalf may use Log Files and tracking technologies to collect and analyze certain types of technical information, including Cookies, Flash Cookies, and Web Beacons.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the collection of contact information.\n2. The section mentions the use of Log Files and tracking technologies to collect technical information, such as Cookies, Flash Cookies, and Web Beacons.\n3. There is no mention of collecting contact information or any data related to a user's contacts.\n4. The question is asking about the collection of contact information, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 107,
+      "question": "is any information recorded",
+      "contract": "Before you disclose information about a family member, you should make sure you have permission from the family member to do so.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the recording of information.\n2. The section advises users to obtain permission before disclosing information about a family member.\n3. It does not mention anything about recording or collecting information.\n4. The question asks if any information is recorded, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 108,
+      "question": "what information is collected about users?",
+      "contract": "You need to attest to the fact that you are a California resident and provide a current California address for our response.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Relevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the collection of user information.\n2. The section mentions that users need to attest to being a California resident and provide a current California address.\n3. This implies that the information collected includes the user's residency status and address.\n4. The question asks about what information is collected about users, which is directly addressed by the requirement to provide a California address.\n\nAnswer: Relevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 109,
+      "question": "does it keep track of where i am?",
+      "contract": "When you first visit or use the Site we may request permission to collect and use your devices precise geolocation.",
+      "ground_truth": "Relevant",
+      "model_answer": "Relevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses tracking or collecting location information.\n2. The section states, \"we may request permission to collect and use your device's precise geolocation.\"\n3. This indicates that the site may collect and use location information if permission is granted.\n4. The question asks if the site keeps track of the user's location, which is directly related to collecting and using geolocation data.\n5. Therefore, this section is relevant to the question about tracking the user's location.\n\nAnswer: Relevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 110,
+      "question": "does the app consume data or use wifi when in use?",
+      "contract": "In such a situation we would make reasonable efforts to request that the new combined entity or other structure follow this Policy with respect to your personal information.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses data consumption or Wi-Fi usage by the app.\n2. The section discusses efforts to ensure a new entity follows the existing privacy policy regarding personal information.\n3. There is no mention of data consumption, Wi-Fi usage, or any technical aspects of app operation.\n4. The question is about the app's data or Wi-Fi usage, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 111,
+      "question": "who will have access to my medical information?",
+      "contract": "We have integrated continuous vulnerability scanning in our processes and regularly engage third party security experts to conduct penetration tests.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses access to medical information.\n2. The section discusses security measures, specifically vulnerability scanning and penetration tests by third-party security experts.\n3. There is no mention of medical information or who has access to it.\n4. The question is about access to medical information, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 112,
+      "question": "will you ever sell my information?",
+      "contract": "Groupon uses your geolocation, including your precise geolocation, consistent with this Privacy Statement as described inSection 5below to deliver location-based offers, products or services that may be of interest to you.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sale of user information.\n2. The section provided discusses the use of geolocation data to deliver location-based offers, products, or services.\n3. There is no mention of selling user information in this section.\n4. The question is specifically about whether the user's information will be sold, which is not addressed in the provided section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 113,
+      "question": "do you use my date to modify the app",
+      "contract": "\"Targeted advertising\" service providers We permit third party advertising networks and providers to collect Web-Behavior Information regarding the use of our Services to help us to deliver targeted online advertisements (\"ads\") to you.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract section addresses the use of user data to modify the app.\n2. The section discusses \"Targeted advertising\" service providers and mentions that third-party advertising networks and providers collect Web-Behavior Information to deliver targeted online advertisements.\n3. There is no mention of using user data to modify the app itself.\n4. The focus of this section is on advertising and not on app modification.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 114,
+      "question": "are you accessing and information about me from my phone?",
+      "contract": "help us recognize you when you use our Services; customize and improve your experience; provide security; analyze usage of our Services (such as to analyze your interactions with the results, reports, and other features of the Service); gather demographic information about our user base; offer our Services to you; monitor the success of marketing programs; and serve targeted advertising on our site and on other sites around the Internet.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses accessing information from a user's phone.\n2. The section lists various purposes for which information is used, such as recognizing users, customizing experiences, providing security, analyzing service usage, gathering demographic information, offering services, monitoring marketing success, and serving targeted advertising.\n3. However, it does not explicitly mention accessing information from a user's phone or any specific device.\n4. The question specifically asks about accessing information from a phone, which is not directly addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 115,
+      "question": "can i submit a request to have my data deleted?",
+      "contract": "Some of our Services allow you to share information with others on a public basis.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the ability to request data deletion.\n2. The section provided only mentions that some services allow sharing information with others on a public basis.\n3. There is no mention of data deletion requests or any process related to deleting personal information.\n4. The question is about submitting a request to have data deleted, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 116,
+      "question": "how long is information saved",
+      "contract": "Unless you consent to sample storage (Biobanking) and additional analyses, your saliva sample and DNA are destroyed after the laboratory completes its work, subject to the laboratory's legal and regulatory requirements.",
+      "ground_truth": "Relevant",
+      "model_answer": "Relevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses how long information is saved.\n2. The section mentions that saliva samples and DNA are destroyed after the laboratory completes its work, unless there is consent for sample storage (Biobanking).\n3. It also notes that this destruction is subject to the laboratory's legal and regulatory requirements.\n4. While the section does not specify an exact time frame, it implies that information (saliva samples and DNA) is not saved beyond the completion of the laboratory's work unless consent is given for Biobanking.\n5. The question asks about how long information is saved, and this section indirectly addresses it by stating the conditions under which samples are destroyed or stored.\n\nAnswer: Relevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 117,
+      "question": "what permissions are required?",
+      "contract": "To better enrich your experience, there may be products or services provided by third parties.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "The contract excerpt does not provide information about required permissions.",
+      "full_response": "1. I need to determine if the contract contains information about permissions required for products or services provided by third parties.\n2. The provided contract excerpt mentions that there may be products or services provided by third parties to enrich the user's experience.\n3. However, it does not specify any permissions that are required for these third-party products or services.\n4. The question asks specifically about permissions, which are not addressed in the given contract excerpt.\n\nAnswer: The contract excerpt does not provide information about required permissions.",
+      "is_correct": false
+    },
+    {
+      "question_id": 118,
+      "question": "do you keep my data forever",
+      "contract": "During kit registration you are asked to review our Consent Document for Sample Storage and Additional Genetic Analyses.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses data retention or how long data is kept.\n2. The section mentions reviewing a \"Consent Document for Sample Storage and Additional Genetic Analyses\" during kit registration.\n3. However, it does not provide any information about the duration for which data is stored or whether data is kept indefinitely.\n4. The question is specifically asking about the duration of data retention, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 119,
+      "question": "when do you delete stored data?",
+      "contract": "The Rakuten Group Binding Corporate Rules can be found at https://corp.rakuten.co.jp/privacy/en/bcr.html.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the deletion of stored data.\n2. The section only provides a link to the Rakuten Group Binding Corporate Rules.\n3. There is no mention of data deletion, retention periods, or any specifics about when stored data is deleted.\n4. This section does not contain information relevant to the question about when stored data is deleted.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 120,
+      "question": "does it have access to my contacts?",
+      "contract": "If you do ask us to share your personal information with a third party for its marketing purposes, we will only share information in connection with that specific promotion, as we do not share information with any third party (other than our service providers) on a continual basis.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses access to or collection of contacts.\n2. The section discusses sharing personal information with third parties for marketing purposes and mentions that information is not shared on a continual basis, except with service providers.\n3. There is no mention of accessing or collecting contacts or any specific information about contacts.\n4. The question is about access to contacts, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 121,
+      "question": "will any of my results be posted on the app?",
+      "contract": "Other than consented by you, we commit that we will not sell your personal information to any other third parties for their processing for any purposes.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract addresses the posting of results on the app.\n2. The provided contract clause discusses the sale of personal information to third parties, not the posting of results on the app.\n3. There is no mention of results, posting, or app-related activities in this clause.\n4. The question is about whether results will be posted on the app, which is unrelated to the sale of personal information.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 122,
+      "question": "do you require me to submit identifying information?",
+      "contract": "You can choose to delink your Viber account from the Rakuten account at any time by editing your profile on the app.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the requirement to submit identifying information.\n2. The section only discusses the ability to delink a Viber account from a Rakuten account by editing the profile on the app.\n3. There is no mention of submitting identifying information or any requirements related to providing such information.\n4. The question asks about the requirement to submit identifying information, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 123,
+      "question": "where are the settings",
+      "contract": "To manage the sharing of certainPersonal Informationwith us when you connect with us through social networking platforms or applications, refer to the privacy policy and settings of the social networking website or application.",
+      "ground_truth": "Relevant",
+      "model_answer": "The contract does not specify where the settings are located; it advises referring to the social networking platform's privacy policy and settings.",
+      "full_response": "1. I need to determine if the contract provides information about where to find the settings for managing the sharing of personal information.\n2. The contract mentions that to manage sharing of personal information, one should refer to the privacy policy and settings of the social networking website or application.\n3. However, it does not specify where these settings are located within the social networking platform or application.\n4. The contract directs users to the privacy policy and settings of the social networking site but does not provide specific details on where to find these settings.\n\nAnswer: The contract does not specify where the settings are located; it advises referring to the social networking platform's privacy policy and settings.",
+      "is_correct": false
+    },
+    {
+      "question_id": 124,
+      "question": "what data does it collect",
+      "contract": "You can adjust the types of notifications you receive and when you receive them by editing your notification settings.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses data collection.\n2. The section discusses adjusting notification settings, specifically the types and timing of notifications.\n3. There is no mention of data collection or any specific data being collected in this section.\n4. The question asks about data collection, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 125,
+      "question": "who has access to my workout plans?",
+      "contract": "Other than consented by you, we commit that we will not sell your personal information to any other third parties for their processing for any purposes.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses who has access to workout plans.\n2. The section discusses the company's commitment not to sell personal information to third parties without consent.\n3. It does not mention anything about who specifically has access to workout plans or any details about workout plans.\n4. The question is about access to workout plans, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 126,
+      "question": "Does the clause discuss arbitration?",
+      "contract": "This Agreement shall be binding upon and inure to the benefit of the parties hereto and their respective successors and assigns.",
+      "ground_truth": "No",
+      "model_answer": "No, the clause does not discuss arbitration.",
+      "full_response": "1. I need to determine if the clause discusses arbitration.\n2. The clause states, \"This Agreement shall be binding upon and inure to the benefit of the parties hereto and their respective successors and assigns.\"\n3. The clause is about the binding nature of the agreement and its applicability to successors and assigns.\n4. There is no mention of arbitration or any process related to dispute resolution in this clause.\n\nAnswer: No, the clause does not discuss arbitration.",
+      "is_correct": true
+    },
+    {
+      "question_id": 127,
+      "question": "who can contact me through the app?",
+      "contract": "We may combine your personal information with information we collect automatically or obtain from other companies and use it to improve and personalize our services, content and advertising.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract section addresses who can contact the user through the app.\n2. The provided contract section discusses combining personal information with other data to improve and personalize services, content, and advertising.\n3. There is no mention of who can contact the user through the app in this section.\n4. The section focuses on data usage for service improvement and personalization, not on communication or contact permissions.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 128,
+      "question": "who can contact me through the app?",
+      "contract": "If for any reason you have a problem with deleting your personal information please contact Fiverr's Customer Support and we will make reasonable efforts to delete any such information pursuant to any applicable privacy laws.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract contains information about who can contact the user through the app.\n2. The provided contract section discusses the process for deleting personal information and contacting customer support for assistance.\n3. There is no mention of who can contact the user through the app or any related communication permissions.\n4. The section is focused on data deletion and customer support, not on communication through the app.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 129,
+      "question": "does the app offer a password service where i am required to input a password when i want to access it?",
+      "contract": "Our mission is to constantly improve our Services and provide you with new experiences.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the requirement of inputting a password to access the app.\n2. The section only mentions the company's mission to improve services and provide new experiences.\n3. There is no mention of password services, access requirements, or any security measures related to passwords.\n4. This section does not contain information relevant to the question about a password service.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 130,
+      "question": "are my video calls recorded?",
+      "contract": "Some of our Services allow you to share information with others on a public basis.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract mentions anything about recording video calls.\n2. The provided contract section states, \"Some of our Services allow you to share information with others on a public basis.\"\n3. This section discusses sharing information publicly but does not mention video calls or recording them.\n4. There is no information in this section about whether video calls are recorded.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 131,
+      "question": "is it possible for health insurance companies to get ahold of my data?",
+      "contract": "Please note that whenever you post something publicly, it may sometimes be impossible to remove all instances of the posted information, for example, if someone has taken a screenshot of your posting.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the possibility of health insurance companies accessing user data.\n2. The section discusses the challenges of removing publicly posted information, particularly if someone has taken a screenshot.\n3. There is no mention of health insurance companies or any third parties accessing user data.\n4. The section does not address data sharing or access by health insurance companies or any other entities.\n5. The question is about the potential access of data by health insurance companies, which is not covered in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 132,
+      "question": "what kind of data does groupon collect?",
+      "contract": "Communicate and provide additional information that may be of interest to you about Groupon and ourBusiness Partners, sometimes by combining your information with information fromOther Sources;",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the types of data Groupon collects.\n2. The section mentions communicating and providing additional information that may be of interest, sometimes by combining your information with information from other sources.\n3. However, it does not specify what types of data Groupon collects, only that they may combine your information with other sources.\n4. The question specifically asks about the types of data collected, which is not directly addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 133,
+      "question": "will anyone have digital access to my test results?",
+      "contract": "If you choose not to complete a Consent Document or any additional agreement with 23andMe, your Personal Information will not be used for 23andMe Research.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses digital access to test results.\n2. The section discusses the use of Personal Information for 23andMe Research if a Consent Document or additional agreement is not completed.\n3. It does not mention who has digital access to test results or any other aspect of data access.\n4. The question is about digital access to test results, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 134,
+      "question": "is it gathering information on me when the app is not active?",
+      "contract": "We recognize a special obligation to protect personal information obtained from young children.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses whether the app gathers information when it is not active.\n2. The section provided states, \"We recognize a special obligation to protect personal information obtained from young children.\"\n3. This section focuses on the protection of personal information from young children and does not mention anything about data collection practices when the app is not active.\n4. There is no information in this section regarding data collection when the app is inactive.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 135,
+      "question": "does 23andme use my test results for marketing purposes?",
+      "contract": "We and our third party service providers do not use your Sensitive Information, such as Genetic Information and Self-Reported Information, for targeted advertising.",
+      "ground_truth": "Relevant",
+      "model_answer": "No, 23andme does not use your test results for marketing purposes.",
+      "full_response": "1. I need to determine if the contract addresses the use of test results for marketing purposes.\n2. The contract mentions \"Sensitive Information, such as Genetic Information and Self-Reported Information,\" which likely includes test results.\n3. It states that neither the company nor third-party service providers use this Sensitive Information for targeted advertising.\n4. The question asks specifically about the use of test results for marketing purposes, which is a form of advertising.\n5. The contract explicitly states that such information is not used for targeted advertising, which would include marketing purposes.\n\nAnswer: No, 23andme does not use your test results for marketing purposes.",
+      "is_correct": false
+    },
+    {
+      "question_id": 136,
+      "question": "how is my information protected?",
+      "contract": "With adequate data support, we will create and update more popular training classes for you to take.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses how user information is protected.\n2. The section mentions creating and updating training classes based on data support but does not mention any measures or practices related to protecting user information.\n3. There is no information about data protection, security measures, or privacy safeguards in this section.\n4. The question asks about the protection of user information, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 137,
+      "question": "what happen if my account get compromise?",
+      "contract": "If you reside in Canada, you may have the right to be provided with access to Personal Information that we have collected about you and written information about our policies and practices with respect to the transfer of your personal information to Vendors outside Canada.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses what happens if an account is compromised.\n2. The section discusses the rights of Canadian residents to access their personal information and information about data transfer practices.\n3. There is no mention of account security, compromised accounts, or any procedures or actions taken if an account is compromised.\n4. The section does not contain information relevant to the question about account compromise.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 138,
+      "question": "where is the information saved",
+      "contract": "If you have completed the Individual Level Data Sharing Consent, or additional consent agreement, in addition to the uses above under the Main Consent Document, 23andMe may share De-identified Individual-level Genetic Information and Self-Reported Information with select third party research collaborators for 23andMe partners for Research purposes.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses where information is saved.\n2. The section discusses the sharing of De-identified Individual-level Genetic Information and Self-Reported Information with third-party research collaborators.\n3. It mentions the conditions under which information may be shared, such as completing the Individual Level Data Sharing Consent.\n4. However, there is no mention of where the information is stored or saved.\n5. The question asks about the location or storage of information, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 139,
+      "question": "what permissions does the app require in order to work?",
+      "contract": "Your unsubscribe or e-mail preference change will be processed promptly, usually within 10 business days.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the provided contract section discusses app permissions.\n2. The section provided only mentions the processing time for unsubscribe or e-mail preference changes.\n3. There is no mention of app permissions or any requirements for the app to function.\n4. The question is asking about app permissions, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 140,
+      "question": "the photos and videos shared will be kept confidential?",
+      "contract": "We may also send notifications about offerings by Viber or third-parties, that we think may be of interest to you.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the confidentiality of photos and videos shared by users.\n2. The section provided discusses sending notifications about offerings by Viber or third parties.\n3. There is no mention of photos, videos, or any confidentiality measures related to shared media.\n4. The question is about the confidentiality of shared photos and videos, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 141,
+      "question": "can my call log be subpoenaed?",
+      "contract": "This may include URLs included in messages, which were reported as SPAM by other users, or were otherwise suspected to be unsolicited and using your operating system authentication services.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract contains any information about the subpoena of call logs.\n2. The provided text from the contract discusses URLs in messages reported as SPAM and mentions operating system authentication services.\n3. There is no mention of call logs, subpoenas, or any legal processes related to obtaining call logs.\n4. The question is about the subpoena of call logs, which is not addressed in the provided contract text.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 142,
+      "question": "who can read the chat i have with the platform?",
+      "contract": "In addition to the above, you have the right to lodge a complaint with a supervisory authority for data protection.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if the contract contains information about who can access or read chat data on the platform.\n2. The provided contract excerpt mentions the right to lodge a complaint with a supervisory authority for data protection.\n3. This excerpt does not mention anything about chat data, who can access it, or any related privacy or data access policies.\n4. The question is about who can read chat data, which is not addressed in the provided contract excerpt.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 143,
+      "question": "what information does the company store about me?",
+      "contract": "You can also learn how to limit sharing of information in this Policy.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses what information the company stores about users.\n2. The section only mentions learning how to limit sharing of information.\n3. There is no mention of specific types of information that the company stores about users.\n4. The question asks about the information stored by the company, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 144,
+      "question": "will the information be shared with a 3rd party",
+      "contract": "You may be required to register with a third party application to post a comment.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses sharing information with a third party.\n2. The section states, \"You may be required to register with a third party application to post a comment.\"\n3. This implies that users might need to interact with a third party, but it does not explicitly state that information will be shared with a third party.\n4. The section does not provide details on whether or not user information will be shared with the third party application.\n5. The question asks about sharing information with a third party, which is not directly addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 145,
+      "question": "can other parties see my information",
+      "contract": "We may combine your personal information with information we collect automatically or obtain from other companies and use it to improve and personalize our services, content and advertising.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses whether other parties can see the user's information.\n2. The section mentions combining personal information with other data collected automatically or obtained from other companies.\n3. It states the purpose of this combination is to improve and personalize services, content, and advertising.\n4. However, it does not mention sharing or disclosing information to other parties or whether other parties can see the user's information.\n5. The question specifically asks if other parties can see the user's information, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 146,
+      "question": "will you sell my information?",
+      "contract": "For example, if a university tells us about a new cancer research project, we may send an email to 23andMe research participants who potentially fit the relevant eligibility criteria based on their Self-Reported Information to make them aware of the research project and provide a link to participate with the research organization conducting the study.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the sale of user information.\n2. The section describes a scenario where the company may send emails to research participants based on their Self-Reported Information to inform them about a research project.\n3. There is no mention of selling user information to third parties or any other entities.\n4. The section focuses on communication with users about research opportunities, not on the sale of information.\n5. The question asks about selling information, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 147,
+      "question": "what areas of my phone/computer does this gain access to?",
+      "contract": "We may disclose aggregated and anonymous information to describe the Services to prospective partners, advertisers, and other third parties, and for other lawful purposes.",
+      "ground_truth": "Irrelevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses access to areas of a user's phone or computer.\n2. The section discusses the disclosure of aggregated and anonymous information to third parties.\n3. It does not mention any specific access to areas of a user's phone or computer.\n4. The question is asking about access to specific areas of a device, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": true
+    },
+    {
+      "question_id": 148,
+      "question": "do you need any information from me in order to play?",
+      "contract": "The Services may use cookies and other technologies such as pixel tags, locally shared objects, and web beacons.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the collection of information necessary for playing the service.\n2. The section mentions the use of cookies and other technologies like pixel tags, locally shared objects, and web beacons.\n3. These technologies are typically used for tracking and data collection purposes, but the section does not specify what information is collected or if any information is required from the user to play.\n4. The question asks specifically about the need for user information to play, which is not addressed in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    },
+    {
+      "question_id": 149,
+      "question": "what kind of security protocol does groupon use to protect data and privacy of its users?",
+      "contract": "No method of transmission over the Internet, or method of electronic storage, is 100% secure, however.",
+      "ground_truth": "Relevant",
+      "model_answer": "Irrelevant",
+      "full_response": "1. I need to determine if this privacy policy section addresses the specific security protocols used by Groupon to protect user data and privacy.\n2. The section states, \"No method of transmission over the Internet, or method of electronic storage, is 100% secure, however.\"\n3. This statement acknowledges the general insecurity of internet transmission and electronic storage but does not specify any particular security protocols or measures used by Groupon.\n4. The question asks for specific security protocols, which are not mentioned in this section.\n\nAnswer: Irrelevant",
+      "is_correct": false
+    }
+  ]
+}

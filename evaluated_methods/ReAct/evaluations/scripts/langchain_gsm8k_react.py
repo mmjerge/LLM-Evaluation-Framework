@@ -14,7 +14,6 @@ from langchain_together import ChatTogether
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_huggingface import HuggingFacePipeline
 
-
 with open(gsm8k_path, "r") as f:
     gsm8k_data = [json.loads(line) for line in f]
 

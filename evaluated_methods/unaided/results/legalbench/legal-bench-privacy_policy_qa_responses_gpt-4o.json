@@ -1,0 +1,752 @@
+[
+  {
+    "question": "Please answer the following question about a privacy policy:\ncan anyone view my account?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes it collect payment information\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis any information recorded\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nhow secure is your website from hackers?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nif my genetic data turns out to be unexpected, can my family see it?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nhow can i keep it hidden from insurance companies?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis my reminder data saved anywhere?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis my information sold\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes it sell my data to anyone?                                                           \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis any information recorded\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis my data safe  \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat information does this app collect from my phone\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwill you ever sell my information?                                                        \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo i have to tell you my location?                           \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nhow is information used?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis it gathering information on me when the app is not active?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat data do you keep and for how long?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nare my goals shared with third parties?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat applications does this app have access to?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis there a way to opt out of data sharing\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you sell my genetic data?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ncan other customers i connect with access my personal information?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes the app require any special permissions for access on my phone?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat information of mine does it access\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nhow secure is your website from hackers?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat information of mine does it access\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you sell any of our data?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ncan my call log be subpoenaed?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes it record my location information?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo i need to use my real name?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nare there specific privacy settings in the app that would allow me to adjust my privacy preferences as i see fit?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you keep track of my physical measurements like height and weight?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis my information sold\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes it have access to my contacts?                                 \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwill you sell my information?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you track my location in real time.\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ncan other people see my financial information\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis my data anonymized?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwho can see my data?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nany malware (virus) function worked in this app?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Irrelevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes the \\brain storming\\\" section of the app or any other section record things in the room outside of when i press the start button?\"\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwould there be a way to see what data you collect?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nhow does fiverr protect freelancers' personal information?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat permissions does it request on my phone?                      \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis it keep my phone numbers undisclosed?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat information of mine does it collect\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwill it be able to determine my location?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis my information sold\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nhow is my data used?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes this send information to a third party?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwho will have access to my dna?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat does each permission for the app mean?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat data is the app taking from me?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes it sell my data to anyone?                                                           \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you keep my information and build a database for selling me products with it?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you ever sell my personal information to other companies for marketing purposes?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you ever sell my personal information to other companies for marketing purposes?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat areas of my phone/computer does this gain access to?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nhow am i sure no one will steal my identity?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes this app track my gps location?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you use my date to modify the app\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwill my information be saved after i use groupon once?              \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you know my location\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes the app consume data or use wifi when in use?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nhow does fiverr ensure payments to freelancers are secure?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Irrelevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis it keep my phone numbers undisclosed?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nany difficulties to occupy the privacy assistant?            \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Irrelevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you sell my information to third parties?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo i need to link my credit card?                                                                  \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you use my date to modify the app\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo i need to enter any personal information to use it?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nhow is my info protected from hackers?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you sell my data\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes the app capture biometric data?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you have any association with google?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes the app show targeted advertisements?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you ever sell my personal information to other companies for marketing purposes?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat kind of personal info does groupon have on me?                 \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat information of mine does it access\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes it share my personal information with others?           \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat will you do with my dna?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis my data anonymized?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis my search and purchase history shared with advertisers?  \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you keep a record of our text ?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you ever sell my personal information to other companies for marketing purposes?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwill my location be constantly tracked?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nare the calls really free?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Irrelevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ncan anyone view my account?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwill you destroy my dna sample when you are finished?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis my information shared with any third parties?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhy do you need so many unrelated permissions?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis my dna information used in any other way besides what is specified?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat kind of permissions do i have to grant it?              \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes it save any of my health data?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwill my test results be shared with any third party entities?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ncan i delete my personally identifying information?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwill the personal info i share with this app to sign up be shared with other companies, etc?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes it sell my data to anyone?                                                           \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nare my ideas uploaded to any servers?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes viber have any affiliation with the advertisement industry?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes the app have a user feedback capabilities built in\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Irrelevant."
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you access any of my contact's information?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nhow is my data used?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nif it's free, does viber profit off its users in some way?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes it record my location information?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo i need to enter any personal information to use it?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat will you do with my dna?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ncan other members view my real name?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwill my test results be shared with any third party entities?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat are the age requirements?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes the app have proper certificates and is it available in the google store?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Irrelevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes this app get access to my other apps like twitter and instagram?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndo you require me to submit identifying information?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwill the app use my data for marketing purposes?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwill anyone have digital access to my test results?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nthe photos and videos shared will be kept confidential?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes it share my purchase information with others?                                        \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nhow does fiverr ensure payments from customers are secure?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Irrelevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes the app protect my account details from being accessed by other people?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwill it be shared\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis my data safe?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis my data anonymized?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhich companies, if any, does it sell information to.\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes it sell data\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwill anyone have digital access to my test results?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis there a way to limit purchases?                           \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Irrelevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes 23andme use my test results for marketing purposes?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhere are my test results stored?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis my information sold to any third parties?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nare you certified to be secure?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwill my workout data be given to anyone else or shared with anyone (i.e. insurance companies)?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nare you storing any of my information?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes it sell my data to anyone?                                                           \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nare my call logs recorded?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis my information secure\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes it save any of my health data?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ncan i control my privacy settings?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes it upload to any external websites?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ndoes it need my location at all times, or can i just type in it whenever i'm looking for a coupon?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwill you ever sell my information?                                                        \n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwho has access to my test results?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat information is shared\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ncan other customers i connect with access my personal information?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nis my information secure\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwill you destroy my dna sample when you are finished?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ncan other parties see my information\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat processes, if any, does the app run in the background when not opened by the user\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nare you obtaining information about my family?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Irrelevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\nwhat permissions does the app require in order to work?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Relevant"
+  },
+  {
+    "question": "Please answer the following question about a privacy policy:\ngroup chat options has a private option enabling the user to message any particular person?\n\nPlease determine if this question is relevant to a privacy policy.\nAnswer with just 'Relevant' or 'Irrelevant'.",
+    "ground_truth": "Relevant",
+    "model_response": "Irrelevant"
+  }
+]
