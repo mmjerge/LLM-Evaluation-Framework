@@ -1,0 +1,220 @@
+{
+  "results": [
+    {
+      "question": "If tickets to a baseball game generally cost between $10 and $30, a season has about 150 games, and each game is attended by 50,000-75,000 people, which of the following is a good estimate for ticket sales revenue for the 150 games combined?",
+      "options": [
+        "$20,000,000",
+        "$200,000,000",
+        "$2,000,000,000",
+        "$20,000,000,000"
+      ],
+      "correct_answer": "B",
+      "selected_answer": "A",
+      "is_correct": false,
+      "agent_response": "Error in agent: Cannot use chat template functions because tokenizer.chat_template is not set and no template argument was passed! For information about writing templates and setting the tokenizer.chat_template attribute, please see the documentation at https://huggingface.co/docs/transformers/main/en/chat_templating",
+      "category": "miscellaneous",
+      "model_calls": {
+        "llm_calls": 2,
+        "tool_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "total_duration": 0
+      }
+    },
+    {
+      "question": "What are the criteria for statehood under the 1933 Montevideo Convention?",
+      "options": [
+        "It requires that the entity in question is not an aggressor and that it is peaceful",
+        "It requires recognition by the majority of other nations",
+        "It requires a permanent population, a defined territory, a government and a capacity to enter into foreign relations",
+        "It requires stable and indissoluble borders as well as recognition"
+      ],
+      "correct_answer": "C",
+      "selected_answer": "A",
+      "is_correct": false,
+      "agent_response": "Error in agent: Cannot use chat template functions because tokenizer.chat_template is not set and no template argument was passed! For information about writing templates and setting the tokenizer.chat_template attribute, please see the documentation at https://huggingface.co/docs/transformers/main/en/chat_templating",
+      "category": "international_law",
+      "model_calls": {
+        "llm_calls": 2,
+        "tool_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "total_duration": 0
+      }
+    },
+    {
+      "question": "All of the following are examples of hydrolysis EXCEPT",
+      "options": [
+        "conversion of fats to fatty acids and glycerol",
+        "conversion of proteins to amino acids",
+        "conversion of starch to simple sugars",
+        "conversion of pyruvic acid to acetyl CoA"
+      ],
+      "correct_answer": "D",
+      "selected_answer": "A",
+      "is_correct": false,
+      "agent_response": "Error in agent: Cannot use chat template functions because tokenizer.chat_template is not set and no template argument was passed! For information about writing templates and setting the tokenizer.chat_template attribute, please see the documentation at https://huggingface.co/docs/transformers/main/en/chat_templating",
+      "category": "high_school_biology",
+      "model_calls": {
+        "llm_calls": 2,
+        "tool_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "total_duration": 0
+      }
+    },
+    {
+      "question": "Which of the following conditions is not caused by a mutation in FGFR3?",
+      "options": [
+        "Achondroplasia",
+        "Crouzon syndrome",
+        "Thanatophoric dysplasia",
+        "Waardenburg syndrome"
+      ],
+      "correct_answer": "D",
+      "selected_answer": "A",
+      "is_correct": false,
+      "agent_response": "Error in agent: Cannot use chat template functions because tokenizer.chat_template is not set and no template argument was passed! For information about writing templates and setting the tokenizer.chat_template attribute, please see the documentation at https://huggingface.co/docs/transformers/main/en/chat_templating",
+      "category": "medical_genetics",
+      "model_calls": {
+        "llm_calls": 2,
+        "tool_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "total_duration": 0
+      }
+    },
+    {
+      "question": "The UN Vienna Declaration 1993 declared that",
+      "options": [
+        "Third generation rights are of primary importance",
+        "Civil and political rights are core rights",
+        "All types of rights are indivisible, interrelated and interdependent",
+        "Social and economic rights are non-enforceable"
+      ],
+      "correct_answer": "C",
+      "selected_answer": "A",
+      "is_correct": false,
+      "agent_response": "Error in agent: Cannot use chat template functions because tokenizer.chat_template is not set and no template argument was passed! For information about writing templates and setting the tokenizer.chat_template attribute, please see the documentation at https://huggingface.co/docs/transformers/main/en/chat_templating",
+      "category": "international_law",
+      "model_calls": {
+        "llm_calls": 2,
+        "tool_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "total_duration": 0
+      }
+    }
+  ],
+  "overall_accuracy": 0.0,
+  "correct_count": 0,
+  "total_count": 5,
+  "category_results": {
+    "miscellaneous": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1,
+      "llm_calls": 2,
+      "tool_calls": 0,
+      "tokens": 0,
+      "avg_llm_calls": 2.0
+    },
+    "international_law": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 2,
+      "llm_calls": 4,
+      "tool_calls": 0,
+      "tokens": 0,
+      "avg_llm_calls": 2.0
+    },
+    "high_school_biology": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1,
+      "llm_calls": 2,
+      "tool_calls": 0,
+      "tokens": 0,
+      "avg_llm_calls": 2.0
+    },
+    "medical_genetics": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 1,
+      "llm_calls": 2,
+      "tool_calls": 0,
+      "tokens": 0,
+      "avg_llm_calls": 2.0
+    }
+  },
+  "sorted_categories": [
+    {
+      "category": "miscellaneous",
+      "accuracy": 0.0
+    },
+    {
+      "category": "international_law",
+      "accuracy": 0.0
+    },
+    {
+      "category": "high_school_biology",
+      "accuracy": 0.0
+    },
+    {
+      "category": "medical_genetics",
+      "accuracy": 0.0
+    }
+  ],
+  "tracking_stats": {
+    "total_llm_calls": 10,
+    "total_tool_calls": 0,
+    "total_tokens_in": 0,
+    "total_tokens_out": 0,
+    "total_tokens": 0,
+    "total_duration": 4.9325196743011475,
+    "calls_per_second": 2.0273614015369996,
+    "calls_per_question": {
+      "q1_miscellaneous": {
+        "llm_calls": 2,
+        "tool_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "total_duration": 0
+      },
+      "q2_international_law": {
+        "llm_calls": 2,
+        "tool_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "total_duration": 0
+      },
+      "q3_high_school_biology": {
+        "llm_calls": 2,
+        "tool_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "total_duration": 0
+      },
+      "q4_medical_genetics": {
+        "llm_calls": 2,
+        "tool_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "total_duration": 0
+      },
+      "q5_international_law": {
+        "llm_calls": 2,
+        "tool_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "total_duration": 0
+      }
+    }
+  },
+  "metadata": {
+    "model": "/scratch/mj6ux/.cache/models/mixtral-8x22b",
+    "split": "test",
+    "num_questions": 5,
+    "timestamp": "2025-03-26T17:40:55.645529"
+  }
+}
