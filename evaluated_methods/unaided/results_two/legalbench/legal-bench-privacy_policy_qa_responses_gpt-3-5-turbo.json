@@ -1,0 +1,752 @@
+[
+  {
+    "question": "Question: does it need my location at all times, or can i just type in it whenever i'm looking for a coupon?\n\nPrivacy Policy Text: You can opt not to permit the collection of this information, or permit it only when using the mobile app, but it may limit certain functions or features of the Site.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text does provide information relevant to the question. It states that you can choose not to permit the collection of your location information or only allow it when using the mobile app. However, limiting this access may affect certain functions or features of the site. So, you may not need to provide your location at all times, but there may be limitations if you choose to restrict this access."
+  },
+  {
+    "question": "Question: does this app sell customer information?\n\nPrivacy Policy Text: We use your personal information to pursue our legitimate interests where your rights and freedoms do not outweigh these interests.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "The privacy policy text does not directly address whether the app sells customer information. However, it does mention using personal information for legitimate interests, which could potentially include selling customer information. It is important to thoroughly review the privacy policy and potentially reach out to the app's customer support for clarification on their data handling practices."
+  },
+  {
+    "question": "Question: will my password be stored securely?\n\nPrivacy Policy Text: You may access, correct or update most of your Registration Information on your own within your Account Settings.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, this privacy policy text does not directly relate to or provide information about the security or storage of passwords. It specifically mentions accessing, correcting, and updating registration information within account settings, but does not address password security or storage. Therefore, the security of password storage is not clearly addressed in this privacy policy text. It is recommended to contact the company directly or review further sections of their privacy policy for more information on how passwords are stored securely."
+  },
+  {
+    "question": "Question: who will have access to my information?                                                            \n\nPrivacy Policy Text: Business Partnersmeans, collectively, third parties with whom we conduct business, such as merchants, co-marketers, distributors, resellers, and other companies or organizations with whom Groupon enters into agreements to support its business and operations.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text mentions that Groupon may share information with business partners, which could include merchants, co-marketers, distributors, resellers, and other companies or organizations with whom they have agreements to support their business and operations. This indicates that these business partners may have access to your information."
+  },
+  {
+    "question": "Question: who can contact me through the app?\n\nPrivacy Policy Text: These providers may be based in countries that do not provide an equivalent level of protection for privacy as that enjoyed in the country in which you live.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the provided privacy policy text does not directly relate to the question of who can contact you through the app. It mainly talks about how providers may be based in countries with different levels of privacy protection. For information on who can contact you through the app, you may need to refer to specific sections of the app's privacy policy or terms of service."
+  },
+  {
+    "question": "Question: does it store my dna information for long periods of time?\n\nPrivacy Policy Text: During kit registration you are asked to review our Consent Document for Sample Storage and Additional Genetic Analyses.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, this privacy policy text indicates that the company may store your DNA sample and possibly conduct additional genetic analyses on it. This suggests that they may store your DNA information for long periods of time."
+  },
+  {
+    "question": "Question: who will have access to my information?                                                            \n\nPrivacy Policy Text: If you use any features on the Site to send information about a product or service to another person (eg, a friend, a colleague, a professional associate, etc), we will also collect thePersonal Informationof that other person to the extent disclosed by you and may contact them using the information you provided us.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "This privacy policy text does provide some information related to the question, as it states that if you use any features on the site to send information about a product or service to another person, the personal information of that other person may be collected and they may be contacted using the information provided. This suggests that both you and the other person may have access to each other's information in this specific circumstance. However, it does not provide a general answer to who will have access to your information overall."
+  },
+  {
+    "question": "Question: does it have access to my contacts?\n\nPrivacy Policy Text: Your personal information may be transferred to, and maintained on, computers located outside of your state, province, country or other governmental jurisdiction where the privacy laws may not be as protective as those in your jurisdiction.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "This privacy policy text does not directly address whether the app has access to your contacts. It mainly discusses where your personal information may be transferred and stored. To determine if the app has access to your contacts, you would need to refer to a different section of the privacy policy or the app's permissions."
+  },
+  {
+    "question": "Question: do you use my date to modify the app\n\nPrivacy Policy Text: For more information, including the types of cookies found on 23andMe and how to control cookies, please read our Cookie Policy.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, the privacy policy text provided does not directly relate to or provide information about the question regarding the use of date to modify the app. The text instead directs the reader to the Cookie Policy for information about cookies on the website. This suggests that the privacy policy does not specifically address the use of date to modify the app."
+  },
+  {
+    "question": "Question: does viber log messages?\n\nPrivacy Policy Text: (b) Social Media Information:If you sign in to your Viber account through third-party social media sites like Facebook, Twitter or VK, you agree to give us on-going access to your personal information on such sites (eg, your public profile, friend list, accounts you follow or who follow you, your email address, birthday, work history, education history, interests, current city, and video viewing).\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not directly address the question of whether Viber logs messages. It does mention accessing personal information from third-party social media sites if you sign in through them, but it does not specifically mention logging messages."
+  },
+  {
+    "question": "Question: will my location be constantly tracked?\n\nPrivacy Policy Text: to challenge processing which we have justified on the basis of our legitimate interest;\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text does not directly relate to or provide information about whether your location will be constantly tracked. It only mentions the ability to challenge processing justified on the basis of legitimate interest."
+  },
+  {
+    "question": "Question: this app ask any kind personal details like credit card details?    \n\nPrivacy Policy Text: You provide us with yourPersonal Informationwhen you register, subscribe, create an account, make a purchase, or otherwise when you provide us with yourPersonal Informationduring your interaction with the Site andOther Programs.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "The privacy policy text does not directly address the question of whether the app asks for credit card details. The text mentions that the app collects personal information when registering, subscribing, creating an account, making a purchase, or interacting with the site and other programs. It does not specifically mention credit card details, but it is possible that this information could be included in the personal information collected. It is important for users to review the app's specific data collection practices and privacy policy to determine if credit card details are requested."
+  },
+  {
+    "question": "Question: is any information shared with third parties?\n\nPrivacy Policy Text: Please read the Privacy Policies of those platforms, as your activity published on those platforms will no longer be governed by this Privacy Policy.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, this privacy policy text does not directly relate to or provide information about whether any information is shared with third parties. This text instead directs users to read the Privacy Policies of other platforms where their activity is published."
+  },
+  {
+    "question": "Question: what type of identifiable information is passed between users on the platform\n\nPrivacy Policy Text:   Our Site is not intended for children under 13 years of age.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, this privacy policy text does not directly relate to or provide information about the type of identifiable information passed between users on the platform. It is stating the age requirement for using the site, specifically mentioning that it is not intended for children under 13 years of age."
+  },
+  {
+    "question": "Question: how is my information protected when i'm using your app over wi-fi?\n\nPrivacy Policy Text: As a registered member, you can review and change personal information at any time by accessing your account on the App or contacting our support.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "The privacy policy text provided does not directly address how your information is protected when using the app over Wi-Fi. However, it does mention that as a registered member, you can access and change your personal information, which implies that there are measures in place to protect your data within the app. For specific information about how your data is protected over Wi-Fi, you may need to refer to the app's terms of service or security measures."
+  },
+  {
+    "question": "Question: can i submit a request to have my data deleted?\n\nPrivacy Policy Text: Note that chats with bots and Public Accounts, and communities are not end-to-end encrypted, but we do encrypt such messages when sent to the Viber servers and when sent from the Viber servers to the third party (the Public Account owner and/or additional third party tool (eg CRM solution) integrated by such owner).\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not directly address the question of submitting a request to have personal data deleted. This text mainly discusses the encryption of messages sent through Viber. However, it does indicate that Viber encrypts messages sent to and from their servers, which may imply a level of security and privacy protection for users' data. If you would like to request to have your data deleted, you may need to refer to their specific data deletion policies or contact their customer support for further assistance."
+  },
+  {
+    "question": "Question: what do you do to keep my personal information private?\n\nPrivacy Policy Text: If we learn we have collected or received personal information from a child under 13, we will delete that personal information.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, this privacy policy text does not directly address how to keep personal information private. This text specifically mentions deleting personal information collected from children under 13, which is related to protecting their privacy but does not provide general tips or guidance for keeping personal information private."
+  },
+  {
+    "question": "Question: how will my data be stored                                          \n\nPrivacy Policy Text: You can access, update and delete yourPersonal Informationyou provided to us, as described below, by managing this information through your online account or sending us an email atprivacy@groupon.com.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text provides information on how your Personal Information will be stored by allowing you to access, update, and delete it either through your online account or by contacting the company via email. This indicates that your data will be stored securely and can be managed by you."
+  },
+  {
+    "question": "Question: does it have access to my gps information?\n\nPrivacy Policy Text: Where the payment is processed by a third-party payment service provider, we do not collect or store such Personal Information, though we may receive summary information about transactions.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text does not directly address or provide information about access to GPS information. It primarily focuses on how payment information is processed and stored by third-party payment service providers."
+  },
+  {
+    "question": "Question: does it sell data\n\nPrivacy Policy Text: If you are here, you have reached us by visiting www.PeopleFun.com or any other PeopleFun-owned website (the Site), or by registering with PeopleFun or installing any Game, or by using any of our other online or offline services (collectively, the Services).\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "The provided privacy policy text does not directly address the question of whether PeopleFun sells data. However, privacy policies typically detail how a company collects, uses, and shares personal information, so it could contain information about data sharing practices which may hint at whether they sell data. It is recommended to carefully review the privacy policy for any relevant details on data selling practices."
+  },
+  {
+    "question": "Question: does this send information to a third party?\n\nPrivacy Policy Text: Viber Out Account Registration:Our Viber Out service allows you to call a number outside of the Viber registered community at low cost local rates.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the provided privacy policy text does not mention anything about sending information to a third party. It simply describes the functionality of Viber Out service for making low-cost calls outside of the Viber registered community."
+  },
+  {
+    "question": "Question: is my data safe?\n\nPrivacy Policy Text: All credit card information you supply is transmitted via Secure Socket Layer (SSL) technology and then encrypted within our databases.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text indicates that your credit card information is safe and secure when transmitted on the website. This suggests that your data is protected and encrypted within the databases, contributing to its overall safety."
+  },
+  {
+    "question": "Question: what does groupon do with collected data? (eg, does it sell it to third parties?)                  \n\nPrivacy Policy Text: with relevantBusiness Partners:with whom we jointly offer products and services;with whom we have entered into an agreement that provides for the disclosure, sale, lease, or license of your Information;to facilitate a direct relationship with you, including in connection with any program we administer on behalf of theBusiness Partner;to enable electronic communications with you as part of purchase, a sponsored reward, offer, contest, program, or other activity in which you have elected to participate;to the extent you have purchased or redeemed a Groupon voucher, goods or services offered by aBusiness Partneror participated in an offer, rewards, contest or other activity orOther Programssponsored or offered through Groupon on behalf of thatBusiness Partner;\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, this privacy policy text provided does relate to the question and provides information about what Groupon does with collected data. It mentions that Groupon may disclose, sell, lease, or license user information to business partners with whom they have entered into agreements. This indicates that Groupon may share collected data with third parties as outlined in their privacy policy."
+  },
+  {
+    "question": "Question: can it use my camera?\n\nPrivacy Policy Text: We use your personal information to pursue our legitimate interests where your rights and freedoms do not outweigh these interests.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text does not directly address the question of whether the app can use your camera. The text only mentions using personal information for legitimate interests, but it does not specifically mention camera usage. However, it does provide a general statement on how personal information is used by the app."
+  },
+  {
+    "question": "Question: how long will you have my information for?                              \n\nPrivacy Policy Text: Communicate and provide additional information that may be of interest to you about Groupon and ourBusiness Partners, sometimes by combining your information with information fromOther Sources;\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "Yes, the privacy policy text does relate to the question as it indicates that Groupon may hold onto your information in order to communicate and provide additional information that may be of interest to you. However, the text does not specify a specific time frame for how long they will have your information."
+  },
+  {
+    "question": "Question: what information does the company store about me?\n\nPrivacy Policy Text: This can include information about sellers and their Gigs, User's location, sharing of portfolio, ratings and feedbacks by buyers and anything you choose to add to your user profile.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "Yes, this privacy policy text directly relates to the question by mentioning the information the company stores about users, such as their location, portfolio, ratings, and feedback. Additionally, it implies that any information users add to their profile may also be stored by the company."
+  },
+  {
+    "question": "Question: does this app sell customer information?\n\nPrivacy Policy Text: We do not share personal information with third parties for their direct marketing purposes unless you affirmatively agree to such disclosure, typically by opting in to receive information from a third party that is participating in a sweepstakes or other promotion through our Services.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, based on the provided privacy policy text, this app does not sell customer information without the affirmative agreement of the customer. The text specifically states that personal information is not shared with third parties for direct marketing purposes unless the customer opts in for such disclosure. Therefore, it can be concluded that the app does not sell customer information."
+  },
+  {
+    "question": "Question: will you ever sell my personal information to a third party?\n\nPrivacy Policy Text: The purpose of this practice is to provide joint content and a better service from us and the group, and allow you to enjoy from the Rakuten ecosystem benefits, as well as for fraud prevention and personalization of the services,and any other purpose described in the privacy policy of the other Rakuten group company providing the service.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "The privacy policy text does not directly address the question of whether personal information will be sold to a third party. However, it does mention that personal information may be shared within the Rakuten group of companies for various purposes such as fraud prevention and personalization of services. It is recommended to review the specific privacy policy of the company providing the service for more detailed information on how personal information is handled."
+  },
+  {
+    "question": "Question: how does the app make sure my genetic data stays secure?\n\nPrivacy Policy Text: In addition, all customers will receive an email with notification of the changes prior to the change becoming effective.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the provided privacy policy text does not directly relate to or provide information about how the app ensures the security of genetic data. The text only mentions customers receiving notification of changes to the policy via email. This does not address the specific question about data security measures."
+  },
+  {
+    "question": "Question: is my information shared with any third parties?\n\nPrivacy Policy Text: You have the option to share directly with individuals with 23andMe accounts through (i) our Forums, (ii) relative finding features (eg, \"DNA Relatives\"), (iii) other sharing features and tools.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, this privacy policy text does not directly address the question of whether your information is shared with any third parties. However, it does mention sharing features with individuals who have 23andMe accounts, which indicates that some information may be shared within the 23andMe community. It would be advisable to review the full privacy policy for more specific information on third-party sharing."
+  },
+  {
+    "question": "Question: if i send a message that is considered dirty, will the controllers of the app see it?\n\nPrivacy Policy Text: This may include URLs included in messages, which were reported as SPAM by other users, or were otherwise suspected to be unsolicited and using your operating system authentication services.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "The provided privacy policy text does not directly relate to the question of whether controllers of the app will see messages considered dirty. The text specifically mentions URLs reported as spam or unsolicited messages, but it does not mention monitoring or viewing messages considered dirty by the controllers. Therefore, it does not provide relevant information about the specific scenario described in the question."
+  },
+  {
+    "question": "Question: do you keep and upload my activity to your database\n\nPrivacy Policy Text: When you choose to connect your third party social media account to your Keep account, we may collect certain information from your account with that social media platform  for example, to facilitate your login to Keep App with that account.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text does relate to the question. It states that when a user connects their third party social media account to their Keep account, certain information may be collected from that social media platform. This implies that some activity may be uploaded to Keep's database in order to facilitate the login process."
+  },
+  {
+    "question": "Question: why do you need those permissions?\n\nPrivacy Policy Text: We will share personal information if we have a good-faith belief that access, use, preservation, or disclosure of the information is reasonably necessary to a) meet any applicable law, regulation, legal process, or enforceable governmental request, or b) detect, prevent, or otherwise address fraud, security, or technical issues, or c) protect against harm to the rights, property or safety of Keep, our users, or the public as required or permitted by law.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text provides information about the permissions that may be required to share personal information in certain circumstances. In order to comply with applicable laws, regulations, and legal processes, as well as to address fraud, security, and technical issues, the company may need certain permissions to access and share personal information. This directly relates to why those permissions are necessary in order to protect the rights, property, and safety of the company, its users, and the public."
+  },
+  {
+    "question": "Question: what information can the other party see about me?\n\nPrivacy Policy Text: At this stage, whatever you share publicly is available to the entire Viber community.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text implies that whatever information you share publicly on Viber is available to the entire Viber community. This means that other users on the platform can see any information or content that you choose to make public."
+  },
+  {
+    "question": "Question: can any 3rd party see my conversations?\n\nPrivacy Policy Text: If for some reason, the message, wasnt delivered to its destination within up to 2 weeks, it will be deleted from our servers.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, the privacy policy text does not directly address the question of whether any 3rd party can see conversations. However, it indirectly suggests that messages are deleted from the servers after 2 weeks if they are not delivered, which implies a level of privacy protection. It does not specifically mention any 3rd party access to conversations."
+  },
+  {
+    "question": "Question: what kind of personal info does groupon have on me?                 \n\nPrivacy Policy Text: provide information to ourVendors.This Privacy Statement does not apply to the collection of information in any way other than as listed above.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "The provided privacy policy text does not directly answer the question regarding what kind of personal information Groupon has on the user. The text mentions that Groupon may provide information to their vendors, which could potentially include personal information shared with them. To find out specifically what kind of personal information Groupon has on you, it would be necessary to review their full privacy policy or contact Groupon directly for more information."
+  },
+  {
+    "question": "Question: does it share my purchase information with others?                                        \n\nPrivacy Policy Text: Prior to posting in these areas, please read ourTerms of Usecarefully.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the provided privacy policy text does not directly relate to or provide information about whether the company shares purchase information with others. The text seems to be a general reminder to read the Terms of Use before posting in certain areas."
+  },
+  {
+    "question": "Question: how can i keep it hidden from insurance companies?\n\nPrivacy Policy Text: Unless you make a request for us to delete your account or delete certain Personal Information (i.e., User Content, etc), we will store your Personal Information as long as your account is open.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "This privacy policy text does not directly relate to the question of how to keep information hidden from insurance companies. However, it does provide information on how long your personal information will be stored by the company unless you request deletion. To keep information hidden from insurance companies, you would need to be mindful of what information you provide to them and only share what is necessary for insurance purposes. You may also want to consider using a privacy-focused browser or search engine when looking up sensitive information."
+  },
+  {
+    "question": "Question: how much is it?\n\nPrivacy Policy Text: You should do this through the browser settings for each browser you use.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not relate to or provide information about the question of \"how much is it?\" It solely discusses adjusting browser settings for privacy purposes."
+  },
+  {
+    "question": "Question: how does fiverr ensure payments to freelancers are secure?\n\nPrivacy Policy Text:   We take great care in maintaining the security of the Site and your information and in preventing unauthorized access, loss, misuse, alteration, destruction or damage to it through industry standard technologies and internal procedures.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "The privacy policy text does not directly address how Fiverr ensures payments to freelancers are secure. Instead, it focuses on maintaining the security of the site and protecting users' information from unauthorized access. This may indirectly contribute to the overall security of payments on the platform, but more specific information about payment security measures would be needed to fully address the question."
+  },
+  {
+    "question": "Question: will my information be shared with other companies for marketing?\n\nPrivacy Policy Text: However, we dont show you personalized ads based on sensitive categories, such as race, religion, sexual orientation, or health.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "The privacy policy text provided does not directly address whether your information will be shared with other companies for marketing purposes. However, it does mention that personalized ads will not be shown based on sensitive categories. This may indicate that the company has limitations on sharing your information for certain types of targeted advertising, but it does not provide a clear answer to the question of sharing information with other companies for marketing. It is recommended to review the privacy policy in more detail or reach out to the company directly for clarification on their data sharing practices."
+  },
+  {
+    "question": "Question: will my test results be shared with any third party entities?\n\nPrivacy Policy Text: Please make such choices carefully and review the privacy statements of all other third parties involved in the transaction.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "Yes, the privacy policy text provided relates to the question as it emphasizes the importance of carefully considering and reviewing the privacy statements of all third parties involved in the transaction. This suggests that the test results may potentially be shared with third party entities, and it is important for individuals to be informed about how their information will be handled by these parties."
+  },
+  {
+    "question": "Question: does it have access to other apps like credit card app?\n\nPrivacy Policy Text: If you do ask us to share your personal information with a third party for its marketing purposes, we will only share information in connection with that specific promotion, as we do not share information with any third party (other than our service providers) on a continual basis.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text does not directly relate to or provide information about whether the app has access to other apps like a credit card app. The text mainly discusses sharing personal information with third parties for marketing purposes, and states that information is only shared in connection with specific promotions."
+  },
+  {
+    "question": "Question: will the app use my data for marketing purposes?\n\nPrivacy Policy Text: We use the information we collect to customize our services for you.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, the privacy policy text does not directly address whether the app will use your data for marketing purposes. However, it does mention that the information collected is used to customize services for you, which could potentially include targeted marketing. It is recommended to review the privacy policy in more detail or contact the app developer for clarification on how your data will be used for marketing purposes."
+  },
+  {
+    "question": "Question: does the app save the address that my kit is shipped to?\n\nPrivacy Policy Text: If you lose access to your 23andMe account, in certain circumstances, we may require that you submit additional information sufficient to verify your identity before providing access or otherwise releasing information to you.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text does not directly address whether the app saves the address that your kit is shipped to. The text specifically discusses the steps you may need to take to verify your identity if you lose access to your account. This information does not relate to the question about saving shipping addresses."
+  },
+  {
+    "question": "Question: what permissions does it request on my phone?                      \n\nPrivacy Policy Text: Please refer to instructions provided by your mobile service provider or the manufacturer of your device to learn how to adjust your settings.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, the privacy policy text does not directly address the specific permissions that the app requests on your phone. It only provides general advice on adjusting settings from your mobile service provider or device manufacturer. For specific information on permissions, you may need to review the app's permissions request within your phone's settings or check the app's privacy policy for more details."
+  },
+  {
+    "question": "Question: does it sell data\n\nPrivacy Policy Text: We may collect or receive information from other sources including (i) other PeopleFun users who choose to upload their email contacts, and (ii) third party information providers.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, this privacy policy text does not specifically mention selling data. It does mention collecting information from other sources such as email contacts and third party information providers, but does not directly address the selling of data."
+  },
+  {
+    "question": "Question: when do you delete stored data?\n\nPrivacy Policy Text: We cannot prevent or control further use of this information so please make sure you only post information that youre happy to be seen publicly.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text does not directly address the question of when stored data is deleted. It primarily focuses on the limitations of the platform's ability to control the use of information once it is shared publicly."
+  },
+  {
+    "question": "Question: are you accessing and information about me from my phone?\n\nPrivacy Policy Text: Our Services include Social Media Features, such as the Facebook \"Like\" or \"Share\" button and widgets (\"Features\").\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, the privacy policy text provided does not directly address the question of accessing information about you from your phone. It primarily mentions Social Media Features such as the Facebook \"Like\" or \"Share\" button. However, it is important to review the entire privacy policy of the service you are using to understand how your information may be accessed or used."
+  },
+  {
+    "question": "Question: how does fiverr ensure payments to freelancers are secure?\n\nPrivacy Policy Text: The transmission of data via the internet is not completely secure, and although we will do our best to protect your personal information, we cannot guarantee the security of your data transmitted to the Site; any transmission is at your own risk.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, this privacy policy text does not directly relate to or provide information about how Fiverr ensures payments to freelancers are secure. This text specifically discusses the security of personal information transmitted over the internet, rather than addressing payment security measures."
+  },
+  {
+    "question": "Question: if i send a message that is considered dirty, will the controllers of the app see it?\n\nPrivacy Policy Text: The information provided in your registration, if you link your email to the Viber account, will be shared with Rakuten group to create the Rakuten account and/or to link your Rakuten account with your Viber account.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not directly address the question of whether controllers of the app will see a message that is considered dirty. However, the text does mention that information provided in registration, including linking your email to the Viber account, will be shared with Rakuten group. This implies that there may be some level of access by the controllers of the app to certain user information, but it does not specifically mention monitoring or viewing of message content."
+  },
+  {
+    "question": "Question: what information is collected about users?\n\nPrivacy Policy Text: (d) Information from Other Sources:The information we collect may be combined with information from outside records (eg demographic information and additional contact information) that we have received in accordance with the law.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, this privacy policy text relates to the question by stating that information collected from users may be combined with information from other sources, such as demographic information and additional contact information that has been received in accordance with the law. This suggests that the company may gather a variety of information about users from different sources to enhance their profiling and targeting practices."
+  },
+  {
+    "question": "Question: what personal information will be required for me to set up an account?\n\nPrivacy Policy Text: To learn more visit our Cookies and Tracking Technologies Policy.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not directly relate to or provide information about the specific personal information that will be required to set up an account. It directs the user to visit the Cookies and Tracking Technologies Policy for more information on that topic."
+  },
+  {
+    "question": "Question: does it share my personal information with others?           \n\nPrivacy Policy Text: Evaluate your eligibility for certain types of offers, products or services that may be of interest to you, and analyze advertising effectiveness;\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "This privacy policy text does not directly address whether or not personal information will be shared with others. However, it does mention that your information may be used to evaluate your eligibility for certain offers and analyze advertising effectiveness, which could potentially involve sharing information with third parties. It is advisable to carefully review the full privacy policy to determine how your personal information may be shared with others."
+  },
+  {
+    "question": "Question: who can contact me through the app?\n\nPrivacy Policy Text: We may also use this information to establish and set up your account, verify or re-issue a password, log your activity and contact you from time to time.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Based on the information provided in the privacy policy text, it is stated that the app may contact you from time to time. Therefore, it can be inferred that the app itself may contact you through the means provided during the account setup process."
+  },
+  {
+    "question": "Question: is my dna information used in any other way besides what is specified?\n\nPrivacy Policy Text: We will use their email address solely, as applicable, to make the referral or to communicate your sharing request to them, and we will let your contact know that you requested the communication.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not directly relate to the question about whether DNA information is used in any other way besides what is specified. The text specifically mentions the use of email addresses for communication purposes, not DNA information. Therefore, it does not provide relevant information regarding the use of DNA information in other ways."
+  },
+  {
+    "question": "Question: how is information used?\n\nPrivacy Policy Text: We may use your information to contact you - to provide notices related to your activities, or offer you promotions and general updates, but we will not let any other person, including sellers and buyers, contact you, other than through your user profile on the Site.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, this privacy policy text relates to the question by stating that the information collected may be used to contact the user for various purposes such as providing notices, promotions, and updates. This demonstrates one way in which information can be used - for communication and outreach to the user."
+  },
+  {
+    "question": "Question: will the data i input into the app be monitored?\n\nPrivacy Policy Text: However, we do not have control over the products or services provided by third parties.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text does not directly address the question of whether the data input into the app will be monitored. It only mentions that the app does not have control over products or services provided by third parties. It is unclear from this text whether the app itself monitors user data. Users should refer to the app's specific privacy policy for more information on data monitoring."
+  },
+  {
+    "question": "Question: is my privacy secured?\n\nPrivacy Policy Text: Accounts created with PeopleFun are considered active until we receive a user request to delete them or deactivate them.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "The privacy policy text provided does not directly address the question of whether your privacy is secured. It mainly focuses on the status of user accounts created with PeopleFun. In order to determine if your privacy is secure, it would be necessary to examine additional specific information or details related to privacy protection measures, data security practices, and how user information is handled and protected by PeopleFun. It is recommended to thoroughly review the full privacy policy of PeopleFun to understand how your privacy is being managed and secured."
+  },
+  {
+    "question": "Question: do the app keep track of my location data?                                                \n\nPrivacy Policy Text: Affiliatemeans an entity owned, directly or indirectly, by Groupon, Inc. or that is controlled by or under common control with Groupon, Inc., and also includes joint ventures entered into by Groupon, Inc. and/or its Affiliates.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text does not directly answer the question about whether the app keeps track of location data. The text provided only defines the term \"Affiliate\" and does not specifically address location data tracking."
+  },
+  {
+    "question": "Question: how is my info protected from hackers?\n\nPrivacy Policy Text: We will take all steps reasonably necessary to ensure that your personal information is treated securely and in accordance with this Policy.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text directly addresses the question by stating that steps will be taken to ensure that personal information is kept secure. This implies that measures will be in place to protect information from hackers."
+  },
+  {
+    "question": "Question: how can i keep it hidden from insurance companies?\n\nPrivacy Policy Text: If you are eligible to receive additional reports or updates in the future, you may be notified of or may directly access these updates.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not relate to or provide information about how to keep information hidden from insurance companies. The text primarily talks about receiving updates in the future."
+  },
+  {
+    "question": "Question: do you publish my data\n\nPrivacy Policy Text: Some sharing features, including receiving sharing invitations, may require that you opt-out, however you will always be required to take a positive action, such as opting in, to share sensitive data.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, the privacy policy text does not directly address whether your data will be published. However, it does mention that sharing sensitive data may require you to opt-in, indicating that your data will not be published without your consent."
+  },
+  {
+    "question": "Question: can i delete my personally identifying information?\n\nPrivacy Policy Text: 23andMe will use and share your Personal Information with third parties only in the ways that are described in this Privacy Statement.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "This privacy policy text does not directly address the question of whether you can delete your personally identifying information. However, it does imply that 23andMe will use and share your personal information in certain ways, which could potentially include the ability to delete or request deletion of your personally identifying information. It would be advisable to refer to the company's specific data deletion policies or contact them directly to inquire about deleting your personally identifying information."
+  },
+  {
+    "question": "Question: what do you do to keep my personal information private?\n\nPrivacy Policy Text:   We take great care in maintaining the security of the Site and your information and in preventing unauthorized access, loss, misuse, alteration, destruction or damage to it through industry standard technologies and internal procedures.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text does relate to the question by stating that they take great care in maintaining the security of your information to prevent unauthorized access. This indicates that they have measures in place to keep your personal information private."
+  },
+  {
+    "question": "Question: what information do you take from me.\n\nPrivacy Policy Text: We use them to collect visitors preferences and thus to better optimize the user experience.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text provided indicates that the website collects visitors' preferences to optimize the user experience. This directly addresses the question of what information is being taken from the user - specifically their preferences. This information is collected to improve the user experience on the website."
+  },
+  {
+    "question": "Question: does the app continuously track my location?\n\nPrivacy Policy Text: And you have the right to voluntarily transmit the data to another company.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text does not directly answer the question about whether the app continuously tracks the user's location. The text seems to be discussing the user's right to voluntarily share their data with another company, not specifically addressing continuous location tracking."
+  },
+  {
+    "question": "Question: can other members view my real name?\n\nPrivacy Policy Text: Please note that whenever you post something publicly, it may sometimes be impossible to remove all instances of the posted information, for example, if someone has taken a screenshot of your posting.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "The privacy policy text does not directly address the question of whether other members can view your real name. However, it does provide a general reminder about the potential permanence of information posted publicly, which could include your real name. It is advisable to review the platform's specific privacy settings to determine who can view your real name."
+  },
+  {
+    "question": "Question: can any 3rd party see my conversations?\n\nPrivacy Policy Text: Because Viber is global, the recipients above may be located outside the country in which you are located.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, the privacy policy text provided does not directly address whether any third party can see your conversations on Viber. However, it does mention that recipients of your messages may be located outside of your country, highlighting the global nature of the platform. It is important to review the full privacy policy of Viber to understand how they handle user data and ensure the security and privacy of your conversations."
+  },
+  {
+    "question": "Question: does the app save the address that my kit is shipped to?\n\nPrivacy Policy Text: Our site allows you to access and rectify certain Registration Information within your Account Settings, and your Self-Reported Information by going to the surveys page.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not directly relate to or provide information about whether the app saves the address that a kit is shipped to. The text primarily focuses on accessing and rectifying Registration Information and Self-Reported Information within the user's account settings."
+  },
+  {
+    "question": "Question: what information can other people see?\n\nPrivacy Policy Text:   Once you register, your username and additional information regarding your activity is made public and is visible to all Users of the Site.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "The privacy policy text directly answers the question by stating that once a user registers, their username and additional information regarding their activity on the site will be made public and visible to all other users of the site. This means that other people can see the username and activity information of registered users. Additionally, this policy implies that there may be limited privacy or control over what information is visible to others on the site."
+  },
+  {
+    "question": "Question: can other members view my real name?\n\nPrivacy Policy Text: We will update our Privacy Statement and/or obtain your prior consent to new processing, as needed.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "The privacy policy text does not directly answer the question of whether other members can view a user's real name. However, it indicates that the company will update their privacy statement as needed, which could potentially include information about whether or not real names are visible to other members. It is recommended to refer to the updated privacy statement or seek clarification from the company directly for a more specific answer to the question."
+  },
+  {
+    "question": "Question: can other members view my real name?\n\nPrivacy Policy Text: This information can help us improve site navigability and assess our Marketing campaigns.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, this privacy policy text does not address or provide information about whether other members can view your real name. It specifically mentions that the information collected can help improve site navigability and assess marketing campaigns, but does not mention anything about member privacy or visibility of personal information."
+  },
+  {
+    "question": "Question: what areas of my phone/computer does this gain access to?\n\nPrivacy Policy Text: The PeopleFun username will be public and will be shown to other users, but will only permit access to information that is considered public or that you have designated as public in your user profile settings.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "This privacy policy text specifically states that the PeopleFun username will be public and shown to other users, but access will only be permitted to information that is considered public or that the user has designated as public in their profile settings. This information does not directly address what areas of your phone/computer the app gains access to. It mainly pertains to user profile information and what is visible to other users on the platform."
+  },
+  {
+    "question": "Question: where is the information saved\n\nPrivacy Policy Text: 23andMe complies with the Privacy Shield Principles for all onward transfers of Personal Information from the EU, EEA and Switzerland, including the onward transfer liability provisions.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, this privacy policy text does not directly answer where the information is saved. It primarily discusses compliance with Privacy Shield Principles for transferring personal information from the EU, EEA, and Switzerland. The text does not provide specific information about where the saved information is stored."
+  },
+  {
+    "question": "Question: what information do you take from me.\n\nPrivacy Policy Text: Users can disable cookies in their own browser settings, but please note that you may not be able to access certain features on our Website as a result.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text does relate to the question as it mentions that users can disable cookies in their browser settings. This implies that the website collects information through cookies. Additionally, it states that certain features on the website may not be accessible if cookies are disabled, which indicates that cookies are used to collect user information for website functionality."
+  },
+  {
+    "question": "Question: can i use it on a single device without an account?\n\nPrivacy Policy Text:  Personal Information: When registering for TickTick, we collect personal information such as your name.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, the privacy policy text does not directly answer the question about using TickTick on a single device without an account. However, it does suggest that registration and providing personal information is required to use the app, indicating that using it without an account may not be possible."
+  },
+  {
+    "question": "Question: do vendors get my information?                                      \n\nPrivacy Policy Text: Business Partnersmeans, collectively, third parties with whom we conduct business, such as merchants, co-marketers, distributors, resellers, and other companies or organizations with whom Groupon enters into agreements to support its business and operations.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, the privacy policy text does not directly address whether vendors will receive your information. However, it does mention that Groupon enters into agreements with business partners such as merchants, distributors, and other organizations. This suggests that your information may be shared with these third parties as part of Groupon's business operations. It is advisable to review the specific details of Groupon's data sharing practices in their privacy policy to understand more about how your information may be shared with vendors."
+  },
+  {
+    "question": "Question: do you publish my data\n\nPrivacy Policy Text: To use our genetic testing services, you must purchase, or receive as a gift, a 23andMe Personal Genetic Service testing kit, and ship your saliva sample to our third party laboratory.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "The provided privacy policy text does not directly address the question of whether your data will be published. However, it does mention that your saliva sample will be sent to a third-party laboratory for testing, which could potentially handle your data in the process. It is important to review the full terms and conditions and privacy policy provided by 23andMe to understand how your data may be handled and if it will be published."
+  },
+  {
+    "question": "Question: would there be a way to see what data you collect?\n\nPrivacy Policy Text: Please check back periodically to keep informed of updates or changes to this Privacy Policy.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the provided privacy policy text does not directly answer the question of whether there is a way to see what data is collected. It simply advises users to check back periodically for updates or changes to the policy. It does not provide specific information on how to access the data that is collected."
+  },
+  {
+    "question": "Question: does this app sell customer information?\n\nPrivacy Policy Text: You can turn off push notifications by visiting the options or settings page within the relevant Game.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the provided privacy policy text does not relate to or provide information about whether the app sells customer information. It only mentions how to turn off push notifications within the game settings."
+  },
+  {
+    "question": "Question: how long do you save my information?\n\nPrivacy Policy Text: Data collected by Lima Sky is stored in secure operating environments that are not available to the public.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "This privacy policy text does not directly address the question of how long Lima Sky saves information. It only states that the data collected is stored in secure operating environments. Therefore, the specific answer to how long Lima Sky saves your information is not provided in this text. It is recommended to refer to Lima Sky's full privacy policy for more detailed information on data retention practices."
+  },
+  {
+    "question": "Question: what information do you take from me.\n\nPrivacy Policy Text:  We collect and hold only the information absolutely necessary for using our services, as well as limiting the internal access to your personal information for the purposes stated in Information Usage below.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text directly addresses the question by stating that the company only collects and holds information that is absolutely necessary for using their services. This implies that they do not collect unnecessary or excessive personal information from users. Additionally, the text mentions limiting internal access to personal information for specific purposes, indicating that the company is committed to protecting user data and only using it for stated purposes."
+  },
+  {
+    "question": "Question: do vendors get my information?                                      \n\nPrivacy Policy Text: Facilitate and fulfill orders placed on the Site andOther Programs for example, for Groupon vouchers and other goods and services, including tracking redemption;\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text provided indicates that vendors may receive your information in order to facilitate and fulfill orders placed on the Site. This means that vendors may have access to your personal information in order to fulfill your orders or provide you with goods and services."
+  },
+  {
+    "question": "Question: how much is it?\n\nPrivacy Policy Text: We reserve the right to charge a fee where permitted by law.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "This privacy policy text does not directly relate to the question as it does not specify any actual prices or fees. It simply states that the company reserves the right to charge a fee where permitted by law. It is important for users to review the company's pricing or fee structure separately to determine how much they may be charged for a specific product or service."
+  },
+  {
+    "question": "Question: can other people see my financial information\n\nPrivacy Policy Text: We encourage you to read more about the information we collect, how we use it, understand the meaning of cookie (no, you cant eat it) and more in the long version of our Policy below.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not directly relate to or provide information about whether other people can see your financial information. It simply encourages you to read more about the information collected and how it is used."
+  },
+  {
+    "question": "Question: what information of mine does it access\n\nPrivacy Policy Text: If you have any questions about how these other websites use your information, you should review their policies and contact them directly.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, this privacy policy text does not directly address the question about what information is accessed. Instead, it suggests reviewing the policies of other websites and contacting them directly if you have questions about how your information is being used. This may be helpful for understanding how your information is accessed on other websites, but does not provide specific information about the access of your information on the website in question."
+  },
+  {
+    "question": "Question: do you ever sell my personal information to other companies for marketing purposes?\n\nPrivacy Policy Text: For example, you may provide us with information about your personal traits (eg, eye color, height), ethnicity, disease conditions (eg Type 2 Diabetes), other health-related information (eg pulse rate, cholesterol levels, visual acuity), and family history information (eg information similar to the foregoing about your family members).\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not directly address the question of whether the company sells personal information to other companies for marketing purposes. However, the text does mention collecting personal information related to health and family history, which could potentially be valuable information for marketing purposes. It is important to carefully review the privacy policy and any disclosures from the company to understand how they handle and possibly share personal information."
+  },
+  {
+    "question": "Question: how is my data stored?\n\nPrivacy Policy Text: To learn more visit our Cookies and Tracking Technologies Policy.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text does not directly provide information about how data is stored. It redirects to the Cookies and Tracking Technologies Policy for more information on this topic."
+  },
+  {
+    "question": "Question: does viber have any affiliation with the advertisement industry?\n\nPrivacy Policy Text: You can also control your privacy settings within the App to change the visibility of your online status or prevent other users from knowing which Viberapps and games you are using.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not directly address any affiliation with the advertisement industry. It focuses on controlling privacy settings within the app to change the visibility of online status and prevent other users from knowing which Viberapps and games are being used."
+  },
+  {
+    "question": "Question: will the app use my data for marketing purposes?\n\nPrivacy Policy Text: In addition, you may also permit Keep to access other content and data on your device  for example, your contact list and photo storage.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "This privacy policy text does not directly address whether the app will use your data for marketing purposes. However, by stating that the app may access other content and data on your device such as your contact list and photo storage, it suggests that the app may potentially use this data for various purposes, including potentially for marketing purposes. It is important to review the app's specific practices and permissions to understand how your data may be used."
+  },
+  {
+    "question": "Question: does 23andme use my test results for marketing purposes?\n\nPrivacy Policy Text: Service providers are third parties (other companies or individuals) that help us to provide, analyze and improve our Services.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, the provided privacy policy text does not directly address whether 23andMe uses test results for marketing purposes. It only mentions service providers that help 23andMe provide, analyze, and improve their services. To determine if 23andMe uses test results for marketing purposes, one would need to review the specific privacy policy and terms of service provided by 23andMe."
+  },
+  {
+    "question": "Question: do you keep a record of our text ?\n\nPrivacy Policy Text: If your account has been blocked you can contact our support.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not directly relate to the question of whether the company keeps a record of our text. It simply states that if your account is blocked, you can contact their support. The privacy policy may provide information on how the company handles and stores user data, including text messages, but this specific text does not address that aspect."
+  },
+  {
+    "question": "Question: do you keep my data forever\n\nPrivacy Policy Text: As stated in any applicable Consent Document, Genetic Information and/or Self-Reported Information that you have previously provided and for which you have given consent to use in 23andMe Research cannot be removed from completed studies that use that information.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, the privacy policy text does not directly address the question of whether data is kept forever. It states that Genetic Information and Self-Reported Information cannot be removed from completed studies where consent to use the information was given. This suggests that data may be retained for research purposes, but it does not specify if it is kept indefinitely."
+  },
+  {
+    "question": "Question: is any information recorded\n\nPrivacy Policy Text: Our site allows you to access and rectify certain Registration Information within your Account Settings, and your Self-Reported Information by going to the surveys page.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "Yes, the privacy policy text relates to the question by mentioning that users can access and rectify certain Registration Information and Self-Reported Information on the site. This indicates that some information is recorded on the site about users and can be accessed and corrected by the users themselves."
+  },
+  {
+    "question": "Question: can anyone view my account?\n\nPrivacy Policy Text: When you join Viber, the contacts in your address book that are already Viber members may be informed that youre now on Viber too.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not directly address the question of whether anyone can view your account on Viber. However, it does mention that when you join Viber, your contacts who are already on Viber may be informed that you have joined. This suggests that your contacts may be able to see your account in some capacity. To find more information on who can view your account on Viber, it is recommended to refer to Viber's full privacy policy or contact their customer support."
+  },
+  {
+    "question": "Question: do you keep my data forever\n\nPrivacy Policy Text: \"23andMe Research\" refers to research aimed at publication in peer-reviewed journals and other research funded by the federal government (such as the National Institutes of Health - NIH) conducted by 23andMe.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "The privacy policy text does not directly address the question of whether 23andMe keeps data forever. However, it does provide some relevant information about their research activities and how they use genetic data for research purposes. It implies that 23andMe may retain genetic data for research purposes, such as conducting studies aimed at publication in peer-reviewed journals or research funded by the NIH. Therefore, it is possible that they may keep some data for a longer period of time for research purposes."
+  },
+  {
+    "question": "Question: is my chat here with the platform confidential?\n\nPrivacy Policy Text:   Information that you choose to publish on the Site (photos, videos, text, music, reviews, deliveries) - is no longer private, just like any information you publish online.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, the privacy policy text indicates that information published on the platform is not private, so your chat here is not confidential. It is important to be mindful of the information you share on this platform as it may no longer be private once published."
+  },
+  {
+    "question": "Question: when do you delete stored data?\n\nPrivacy Policy Text: If you use our services from the EEA, you have certain rights regarding your personal information, subject to local law.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text does not directly address or provide information about when stored data is deleted. It mainly discusses the rights of individuals in the EEA regarding their personal information."
+  },
+  {
+    "question": "Question: is it possible for health insurance companies to get ahold of my data?\n\nPrivacy Policy Text: You may access, correct or update most of your Registration Information on your own within your Account Settings.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, this privacy policy text does not directly relate to the question about health insurance companies getting ahold of your data. This text specifically addresses the ability for individuals to access and update their registration information within their account settings. It does not provide information about how health insurance companies may access or use your data."
+  },
+  {
+    "question": "Question: what are the permissions?\n\nPrivacy Policy Text: In that case, we will provide for adequate safeguards to protect your personal information.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "This privacy policy text does not directly address the question about permissions. However, it does indirectly relate to the question by mentioning the safeguards that will be provided to protect personal information, which could potentially include permissions for accessing and using that information."
+  },
+  {
+    "question": "Question: do i need to enter any personal information to use it?\n\nPrivacy Policy Text: If you use any features on the Site to send information about a product or service to another person (eg, a friend, a colleague, a professional associate, etc), we will also collect thePersonal Informationof that other person to the extent disclosed by you and may contact them using the information you provided us.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "Yes, the privacy policy text provided does relate to the question as it states that personal information may be collected if you use certain features on the site to send information to another person. This indicates that personal information may need to be entered in order to use those features on the site."
+  },
+  {
+    "question": "Question: does it collect my location?\n\nPrivacy Policy Text: We do not actively share personal information with third party advertisers for their direct marketing purposes unless you give us your consent.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text does not directly address whether the app collects your location. It only mentions that personal information is not shared with third party advertisers without consent. However, the app may still collect your location information without directly mentioning it in the privacy policy text."
+  },
+  {
+    "question": "Question: is my information shared with any third parties?\n\nPrivacy Policy Text: 23andMe will use and share your Personal Information with third parties only in the ways that are described in this Privacy Statement.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text directly addresses the question by stating that 23andMe will only share your Personal Information with third parties in the ways described in the Privacy Statement. This indicates that your information may be shared with third parties, but only in specific circumstances outlined in the policy."
+  },
+  {
+    "question": "Question: is my watch history stored?\n\nPrivacy Policy Text: Where the payment is processed by a third-party payment service provider, we do not collect or store such Personal Information, though we may receive summary information about transactions.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, the privacy policy text provided does not directly relate to or provide information about whether your watch history is stored. It specifically mentions that they do not collect or store payment information processed by a third-party payment service provider. For information about your watch history, you would need to refer to the specific privacy policy or terms of service for the platform or service where you are watching content."
+  },
+  {
+    "question": "Question: do third parties have access to my data?\n\nPrivacy Policy Text: Personal information such as purchase history shall not be further processed or used for any commercial purposes.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text does not directly address whether third parties have access to your data. It only states that personal information will not be used for commercial purposes. To determine if third parties have access to your data, you would need to refer to a different section of the privacy policy or contact the company directly."
+  },
+  {
+    "question": "Question: what permissions does the app require in order to work?\n\nPrivacy Policy Text: If you have provided your e-mail address to PeopleFun, we may use it to respond to (i) customer support inquiries, and (ii) keep you informed of your in-Game activity, including comments from friends and notifications about in-Game status.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "The privacy policy text does not directly address the question about permissions required for the app to work. Instead, it focuses on how PeopleFun may use a provided email address for customer support and keeping users informed about in-game activity. To find out about the permissions required for the app to work, users may need to refer to the app's specific permissions settings or contact the developer directly."
+  },
+  {
+    "question": "Question: how is my contribution used for other people that share my dna?\n\nPrivacy Policy Text: During kit registration you are asked to review our Consent Document for Sample Storage and Additional Genetic Analyses.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the provided privacy policy text does not directly relate to or provide information about how your contribution is used for other people that share your DNA. The privacy policy text specifically mentions consent for sample storage and additional genetic analyses, rather than sharing information with others who may share your DNA."
+  },
+  {
+    "question": "Question: is my data anonymized?\n\nPrivacy Policy Text: 23andMes commitment to the EU-U.S. and Swiss-U.S. Privacy Shield Frameworks entitle you to lodge a complaint via our Privacy Shield independent dispute resolution mechanism.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, this privacy policy text does not directly relate to or provide information about whether your data is anonymized. It specifically mentions the EU-U.S. and Swiss-U.S. Privacy Shield Frameworks and the ability to lodge a complaint via their dispute resolution mechanism. This text relates more to privacy protection and compliance with specific frameworks rather than the anonymization of data."
+  },
+  {
+    "question": "Question: where is my personal information stored\n\nPrivacy Policy Text: to provide our services or information you request, and to process and complete any transactions; to respond to your emails, submissions, questions, comments, requests, and complaints and provide customer service; to analyze usage and trends with anonymous user data, and to improve the quality of our service and user experience; to send you confirmations, updates, security alerts, and support and administrative messages and otherwise facilitate your use of, and our administration and operation of, our services; You are welcome to ask for our confirmation whenever you feel concerned about how your personal information is being processed, where and for what purpose.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "The privacy policy text mentions that personal information may be used for various purposes such as providing services, processing transactions, analyzing usage trends, and improving the user experience. However, the text does not specifically state where personal information is stored. It does mention that you are welcome to ask for confirmation if you are concerned about how your personal information is being processed, where it is stored, and for what purpose. Therefore, while the text does not directly answer the question of where personal information is stored, it does provide information on how to inquire about this aspect of data processing."
+  },
+  {
+    "question": "Question: do the app keep track of my location data?                                                \n\nPrivacy Policy Text: When you first visit or use the Site we may request permission to collect and use your devices precise geolocation.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text does directly address the question by stating that the app may request permission to collect and use the user's device's precise geolocation. This means that the app will keep track of the user's location data. It is important for users to be aware of this so they can make an informed decision about whether or not they want to allow this feature."
+  },
+  {
+    "question": "Question: is it possible for health insurance companies to get ahold of my data?\n\nPrivacy Policy Text: This Privacy Statement applies solely to information collected by 23andMe and our service providers on our behalf.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not directly address the question of whether health insurance companies can access your data. The text only specifies that the privacy statement applies to information collected by 23andMe and their service providers. For specific information regarding whether health insurance companies can access your data, you would need to refer to the terms and conditions of your health insurance provider or consult with them directly."
+  },
+  {
+    "question": "Question: do you ever sell my personal information to other companies for marketing purposes?\n\nPrivacy Policy Text: They use cookies and similar technologies, to gather information about your browser's or device's visits and usage patterns on our Services and on other websites over time, which helps to better personalize ads to match your interests, and to measure the effectiveness of ad campaigns.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, this privacy policy text does relate to the question. While it does not explicitly state that they sell personal information to other companies for marketing purposes, it does mention gathering information about your browser's or device's visits and usage patterns to better personalize ads. This could potentially involve sharing data with third-party companies for marketing purposes."
+  },
+  {
+    "question": "Question: are my video calls recorded?\n\nPrivacy Policy Text: We may obtain your consent to collect and use certain types of personal information when we are required to do so by law (for example, in relation to Cookies and Tracking Technologies or when we process accurate location data for purposes other than performing the service).\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "This privacy policy text does not directly address the question of whether video calls are recorded. It primarily mentions obtaining consent for collecting and using personal information in certain circumstances, such as in relation to cookies, tracking technologies, and location data. While this text does not directly answer the question, it may suggest that your personal information, including video calls, could potentially be recorded with your consent under certain circumstances."
+  },
+  {
+    "question": "Question: does this app ask for permission if it's going to use data elsewhere on my phone?\n\nPrivacy Policy Text: With your consent, we may also send promotional e-mail messages (Promotional Communications) directly or in partnership with parties other than PeopleFun.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, this privacy policy text does not directly relate to or provide information about whether the app asks for permission to use data elsewhere on your phone. This text specifically mentions sending promotional e-mail messages, not access to data on your device. If you are concerned about the app accessing data on your phone, you may need to review the app's settings or permissions to see what access it has."
+  },
+  {
+    "question": "Question: who has access to my test results?\n\nPrivacy Policy Text: 23andMe has implemented an incident management program using industry best practices, including guidance from the National Institute of Standards and Technology (NIST).\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "This privacy policy text does not directly address who has access to your test results. It mainly discusses incident management practices and guidance used by 23andMe. It does not provide specific information about who can access your test results."
+  },
+  {
+    "question": "Question: is my data safe from unwanted guests?\n\nPrivacy Policy Text:   We take great care in maintaining the security of the Site and your information and in preventing unauthorized access, loss, misuse, alteration, destruction or damage to it through industry standard technologies and internal procedures.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text states that great care is taken to maintain the security of the website and your information to prevent unauthorized access from unwanted guests. This indicates that your data should be safe from unwanted guests according to the measures outlined in the privacy policy."
+  },
+  {
+    "question": "Question: how does fiverr ensure payments from customers are secure?\n\nPrivacy Policy Text:    to obtain a copy of or access to safeguards under which your personal information is transferred outside of the EEA.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the provided privacy policy text does not provide information about how Fiverr ensures payments from customers are secure. It appears to relate more to the transfer of personal information outside of the European Economic Area (EEA)."
+  },
+  {
+    "question": "Question: what are the age requirements?\n\nPrivacy Policy Text: While you view our ads, we may gather user Global Unique Identifier, HTTP request data like, user agent, IP, host, url, country/continent from which request made, browser info, device/operating system/operating system version.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text does not address age requirements. It primarily focuses on the data that is collected while viewing ads."
+  },
+  {
+    "question": "Question: what kind of permissions do i have to grant it?              \n\nPrivacy Policy Text: You may manage how your browser handlesCookiesby adjusting its privacy and security settings.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, the privacy policy text provided does not directly relate to the question about granting permissions. However, it does indirectly relate as it mentions managing browser settings for privacy and security, which could potentially involve granting permissions for certain actions. It's important to review the specific permissions required by the application or website in question."
+  },
+  {
+    "question": "Question: what personal information will be required for me to set up an account?\n\nPrivacy Policy Text: (d) Information from Other Sources:The information we collect may be combined with information from outside records (eg demographic information and additional contact information) that we have received in accordance with the law.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "The privacy policy text does not specifically address what personal information is required to set up an account. However, it does mention that the information collected by the company may be combined with information from other sources, such as demographic information and additional contact information. This suggests that in order to set up an account, the company may collect and store personal information such as name, contact information, and demographics."
+  },
+  {
+    "question": "Question: does viber sell my information to advertisers and marketers?\n\nPrivacy Policy Text: (b) App Providers and Other Third-Parties:We may disclose your information to service providers and other third-parties under contract who help with providing you and others our Services on our behalf or other services provided by third-parties via our Services (such as, but not limited to, fraud and spam investigations, payment processing, site analytics and operations, providing special partnership features in our service either on an aggregate non identifiable basis, or using a unique identifier which is not attributable to you).\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "No, based on the privacy policy text provided, Viber does not sell user information to advertisers and marketers. They may disclose information to service providers and other third-parties under contract to help with providing services, but it does not mention selling user information to advertisers or marketers."
+  },
+  {
+    "question": "Question: can groupon see what i'm shopping for on the internet?       \n\nPrivacy Policy Text: However, you can limit the information you provide to Groupon, and you can limit the communications that Groupon sends to you.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the provided privacy policy text does not directly relate to or provide information about whether Groupon can see what you are shopping for on the internet. This text simply states that you have the ability to limit the information you provide to Groupon and the communications they send to you. So, based on this privacy policy text, it is unclear whether Groupon can see what you are shopping for on the internet."
+  },
+  {
+    "question": "Question: does it have access to other apps like credit card app?\n\nPrivacy Policy Text: We may collect the name you have associated with your device, device type, telephone number, country, and any other information you choose to provide, such as user name, character name, or e-mail address.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "The privacy policy text does not directly address whether the app has access to other apps like a credit card app. However, it does state that the app may collect information such as the name associated with your device, device type, telephone number, and country. This information does not specifically mention accessing other apps on your device."
+  },
+  {
+    "question": "Question: what information are they collecting?\n\nPrivacy Policy Text: Your Account may be used to publicly identify you as part of social features of the Services, which may include user-to-user interaction, chat or messaging functionality, public leaderboards, head-to-head competition, and other similar features.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "The privacy policy text does not provide specific information about what data is being collected. However, it does indicate that user accounts may be used for various social features of the services, which could involve collecting data related to user interactions, chat or messaging functionality, leaderboards, competitions, and similar features. This suggests that the company may collect information related to user activity, interactions, and potentially personal information needed for these social features."
+  },
+  {
+    "question": "Question: does viber sell my information to advertisers and marketers?\n\nPrivacy Policy Text: Please refer to those third-party sites privacy policies and terms of use to learn more about their privacy practices, as we do not control these.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, this privacy policy text does not directly address the question about whether Viber sells user information to advertisers and marketers. The text suggests that users should refer to third-party sites' privacy policies and terms of use to learn more about their privacy practices, but it does not provide specific information about Viber's practices in this regard."
+  },
+  {
+    "question": "Question: does 23andme use my test results for marketing purposes?\n\nPrivacy Policy Text: Generally, sharing such information is necessary for us to perform on our contract with you.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "While the privacy policy text does not directly address whether 23andme uses test results for marketing purposes, it does mention that sharing certain information is necessary for them to perform on their contract with you. It is possible that this information could be used for marketing purposes, but it is not explicitly stated in the privacy policy text."
+  },
+  {
+    "question": "Question: are you certified to be secure?\n\nPrivacy Policy Text: If you believe we might have any information from or about a child under 13, please contact us at legal@fiverr.com.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not directly address whether the platform is certified to be secure. The text instead pertains to the collection of information from children under 13 years old. It is important to refer to the platform's security certifications and measures listed in their privacy policy or terms of service to determine their level of security."
+  },
+  {
+    "question": "Question: what data do you keep and for how long?\n\nPrivacy Policy Text: If you want to know more, read our Cookies and Tracking Technologies Policy.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text does not directly provide information about what data is kept and for how long. Instead, it refers readers to the Cookies and Tracking Technologies Policy for more information on data collection and retention practices."
+  },
+  {
+    "question": "Question: do you use my data to do medical research\n\nPrivacy Policy Text: Our legal basis can be to satisfy our contractual or legal obligations and/or our legitimate interest to improve our Services.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not directly address or provide information about whether data is used for medical research. The text mainly mentions legal obligations and legitimate interest to improve services, but does not specifically mention medical research. Further information would be needed to determine if data is used for medical research purposes."
+  },
+  {
+    "question": "Question: will it be able to determine my location?\n\nPrivacy Policy Text: NOTE: If you are participating in 23andMe Research, 23andMe will withhold disclosure of your Personal Information involved in such Research in response to judicial or other government subpoenas, warrants or orders in accordance with any applicable Certificate of Confidentiality that 23andMe has obtained from the National Institutes of Health (NIH).\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text does not directly relate to or provide information about the question regarding determining location. The text primarily discusses how 23andMe will withhold disclosure of personal information involved in research in certain circumstances."
+  },
+  {
+    "question": "Question: what information is collected from me?\n\nPrivacy Policy Text: the As, Ts, Cs, and Gs at particular locations in your genome), generated through processing of your saliva by 23andMe or by its contractors, successors, or assignees; or otherwise processed by and/or contributed to 23andMe.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, this privacy policy text directly relates to the question by stating that the information collected from you includes your genetic information (specifically the As, Ts, Cs, and Gs at particular locations in your genome) obtained through processing of your saliva by 23andMe or its contractors. This makes it clear that genetic data is one type of information collected from you by 23andMe."
+  },
+  {
+    "question": "Question: do you release any information about me?\n\nPrivacy Policy Text: Additionally, non-personal data means aggregate and de-personalized information, which is data Lima Sky collects about the use of Services, from which any personally identifiable data has been removed.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "The privacy policy text does not directly answer the question, as it specifically mentions that personally identifiable data is removed from aggregate and de-personalized information. This means that Lima Sky does not release any information that can be directly linked back to an individual."
+  },
+  {
+    "question": "Question: what data does this game collect?\n\nPrivacy Policy Text: Lima Sky or third parties may collect and use data for this purpose including, but not limited to IP address (including but not limited to for purposes of determining your coarse location), Device ID, MAC, software, applications, hardware, and in-game information.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, this privacy policy text directly relates to the question as it states that the game may collect data including IP address, Device ID, MAC address, software, applications, hardware, and in-game information."
+  },
+  {
+    "question": "Question: if it's free, does viber profit off its users in some way?\n\nPrivacy Policy Text: (c) Provide Interesting Offerings to You and others: As part of value added services provided by us or by a third party within Viber, we may use your information to continuously optimize and personalize those services and send you personal updates about new offerings which we believe you will find relevant.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text suggests that Viber may profit off its users by providing personalized offerings and value-added services, which could potentially generate revenue for the company."
+  },
+  {
+    "question": "Question: can groupon see where i am located?                                                       \n\nPrivacy Policy Text: Pixel Tags and Web Beaconsmean tiny graphic images placed on website pages or in our emails that allow us to determine whether you have performed specific actions.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not directly address the question of whether Groupon can see where you are located. The text specifically mentions pixel tags and web beacons as tools used to track specific actions on websites or in emails, but does not mention location tracking. It is possible that Groupon may have other methods in place to track user location, but this information is not confirmed in the provided text."
+  },
+  {
+    "question": "Question: do you keep a record of our text ?\n\nPrivacy Policy Text: You can disable the seen notification so that other users do not know whether youve read a message yet.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "The privacy policy text mentioned does not directly address whether the company keeps a record of text messages. However, the information provided about disabling the seen notification can be seen as related to privacy and control over who knows when messages have been read. This may suggest that the company values user privacy and provides features to help users control their own information."
+  },
+  {
+    "question": "Question: will you ever sell my personal information to a third party?\n\nPrivacy Policy Text: In the EEA, certain default privacy settings will be applied to users under the age of 16 and can only be changed if the legal guardian instructs so in writing.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, this privacy policy text does not directly address the question of whether personal information will be sold to a third party. However, it does provide information about default privacy settings for users under the age of 16 in the EEA. To specifically address the question of selling personal information to a third party, you may need to refer to another section of the privacy policy or contact the company directly."
+  },
+  {
+    "question": "Question: do i have to tell you my location?                           \n\nPrivacy Policy Text: to enable electronic communications with you as part of purchase, a sponsored reward, offer, contest, program, or other activity in which you have elected to participate;\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text does not specifically mention that you have to tell your location. It only mentions that your electronic communications may be used for various activities you choose to participate in. It is important to review the privacy policy for specific information regarding location data and sharing."
+  },
+  {
+    "question": "Question: which information, if any, does the app sell to third parties?\n\nPrivacy Policy Text: The foregoing data may be used and disclosed in accordance with this Privacy Policy and the privacy policy of the company providing the ad serving technology.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "The privacy policy text does not directly provide information about whether the app sells information to third parties. It mentions that data may be used and disclosed according to the privacy policy of the company providing the ad serving technology, but it does not specifically address selling information to third parties. It would be important for users to review the specific privacy policy of the app for more information on how their data is handled and any potential sharing with third parties."
+  },
+  {
+    "question": "Question: how do they keep track of how many people are playing the game?\n\nPrivacy Policy Text: We may disclose aggregated and anonymous information to describe the Services to prospective partners, advertisers, and other third parties, and for other lawful purposes.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "The privacy policy text provided does not directly relate to or provide information about how they keep track of how many people are playing the game. The text mentions disclosing aggregated and anonymous information for various purposes, but it does not specifically address tracking the number of players in the game."
+  },
+  {
+    "question": "Question: does it collect my location?\n\nPrivacy Policy Text: to analyze traffic and other end user activity to improve your experience).\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the provided privacy policy text does not directly mention collecting location information. It primarily discusses analyzing traffic and end user activity to improve the user experience. However, it is possible that location information could be indirectly collected as part of this analysis, so it is important to review the privacy policy in its entirety and contact the company for clarification if needed."
+  },
+  {
+    "question": "Question: is there a way to limit purchases?                           \n\nPrivacy Policy Text: Online Communitiesmeans, collectively, our social networking pages or accounts, forums, bulletin boards, discussion groups, chat rooms or other methods of communication that may be offered on or linked through the Site.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, the privacy policy text provided does not relate to or provide information about limiting purchases. It specifically mentions online communities and methods of communication on the site, but does not address purchase limitations."
+  },
+  {
+    "question": "Question: is my information sold\n\nPrivacy Policy Text: We may disclose aggregated and anonymous information to describe the Services to prospective partners, advertisers, and other third parties, and for other lawful purposes.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "The privacy policy text does not directly address the question of whether individual user information is sold. It mentions disclosing aggregated and anonymous information for certain purposes, but does not specify if individual user information is sold to third parties. Based on the text provided, it does not provide a clear answer to the question."
+  },
+  {
+    "question": "Question: what type of access does it have on my device?\n\nPrivacy Policy Text: We will store those contacts for purposes of helping you and your contacts make connections through our Services.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, this privacy policy text relates to the question by stating that contacts will be stored for the purpose of helping users and their contacts make connections through the Services. This indicates that the access granted to the app on the device includes accessing and storing contact information."
+  },
+  {
+    "question": "Question: what processes, if any, does the app run in the background when not opened by the user\n\nPrivacy Policy Text: Lima Sky requires device owners to specify their age before any Personal Information is collected.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "No, this privacy policy text does not directly relate to or provide information about the question of what processes the app runs in the background when not opened by the user. This privacy policy focuses on age verification and the collection of personal information. The specific processes that the app may run in the background are not addressed in this privacy policy text."
+  },
+  {
+    "question": "Question: can i delete my personally identifying information?\n\nPrivacy Policy Text: You can request erasure of Personal Information that: (a) is no longer necessary in relation to the purposes for which it was collected or otherwise processed; (b) was collected in relation to processing to which you previously consented, but later withdrew such consent; or (c) was collected in relation to processing activities to which you object, and there are no overriding legitimate grounds for our processing.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text provides information about deleting personally identifying information in certain circumstances. The text states that you can request erasure of Personal Information in specific situations, such as when it is no longer necessary for the purposes for which it was collected, when you have withdrawn consent for processing, or when you object to processing activities with no overriding legitimate grounds. This indicates that you may be able to delete your personally identifying information under these circumstances outlined in the policy."
+  },
+  {
+    "question": "Question: what information is collected about users?\n\nPrivacy Policy Text: We may receive certain information about you which is stored on social media sites if users of those sites give us access to their profiles and you are one of their friends or connections, depending upon your settings on those sites.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "Yes, the privacy policy text does provide information about the type of information that may be collected about users. It mentions that the company may receive information stored on social media sites if users give access to their profiles and if the user is friends or connections with those users. This indicates that the company may collect data such as profile information, connections, and potentially other information shared on social media sites."
+  },
+  {
+    "question": "Question: does it share my personal information with others?           \n\nPrivacy Policy Text: to enable electronic communications with you as part of purchase, a sponsored reward, offer, contest, program, or other activity in which you have elected to participate;\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Relevant",
+    "model_response": "The privacy policy text does not directly address sharing personal information with others. It only states that your personal information may be used to communicate with you in certain situations. If you are concerned about the sharing of your personal information, you may want to review the full privacy policy for more specific details."
+  },
+  {
+    "question": "Question: does it need my location at all times, or can i just type in it whenever i'm looking for a coupon?\n\nPrivacy Policy Text: All the information you post may be accessible to anyone with Internet access, and anyPersonal Informationyou include in your posting may be read, collected, and used by others.\n\nDoes this privacy policy text relate to or provide information about the question? Consider both direct answers and related information.\n\nFinal answer: ####",
+    "ground_truth": "Irrelevant",
+    "model_response": "This privacy policy text does not directly relate to the question about whether the coupon website needs your location at all times. However, it does highlight the fact that any personal information you provide on the website could potentially be accessed and used by others. This could include information such as your location if you choose to disclose it. It is important to consider the potential privacy implications of sharing any personal information on the website, including your location."
+  }
+]
