@@ -32,12 +32,8 @@ We consider the replicability and generalizability of evaluations of inference-t
 ```
 ├── evaluated_methods/          # Implementations of inference-time methods
 ├── literature_analysis/        # Automated analysis of 4,886 papers
-├── config/                    # Configuration files for experiments
-├── tests/                     # Test suite for validation
 ├── utils/                     # Utility functions and helpers
 ├── assets/                    # Figures and supplementary materials
-├── main.py                    # Main experiment runner
-├── environment.yaml           # Conda environment specification
 └── README.md                  # This file
 ```
 
