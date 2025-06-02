@@ -25,8 +25,6 @@ We consider the replicability and generalizability of evaluations of inference-t
 - Performance varies significantly across different benchmark domains
 - High computational costs (3.5x to 54x API calls) limit practical deployment
 
-⚠️ **Reproducibility Challenges**: Comparison with original papers reveals substantial discrepancies in reported vs. reproduced results
-
 ## Repository Structure
 
 ```
