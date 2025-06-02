@@ -30,6 +30,7 @@ We consider the replicability and generalizability of evaluations of inference-t
 ```
 ├── evaluated_methods/          # Implementations of inference-time methods
 ├── literature_analysis/        # Automated analysis of 4,886 papers
+├── data/                      # Benchmark datasets (see Data Directory section)
 ├── utils/                     # Utility functions and helpers
 ├── assets/                    # Figures and supplementary materials
 └── README.md                  # This file
@@ -58,6 +59,28 @@ Our framework includes implementations of six prominent inference-time methods:
 - **General Knowledge**: MMLU, TruthfulQA
 - **Domain-Specific**: MedQA, LegalBench
 - **Specialized Tasks**: Sorting, Document Merging
+
+## Data Directory
+
+For convenience, we have included portions of the benchmark datasets in the `data/` directory. While the complete datasets are available from their original sources (Hugging Face or open source repositories), the included data allows for quick experimentation and testing.
+
+The `data/` directory contains the following benchmark datasets:
+
+- **AQuA**
+- **Document Merging**
+- **GSM8K**
+- **GSM-Symbolic**
+- **LegalBench**
+- **MMLU**
+- **MedQA**
+- **SVAMP**
+- **Sorting 032**
+- **TruthfulQA**
+
+**Note**: These are partial datasets included for convenience. For complete datasets and the most up-to-date versions, please refer to:
+- [Hugging Face Datasets](https://huggingface.co/datasets)
+- Original dataset repositories cited in our paper
+- The benchmark-specific documentation in each method's evaluation scripts
 
 ## Installation
 
@@ -230,7 +253,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions about the paper or code, please contact:
 - Michael Jerge: [mj6ux@virginia.edu](mailto:mj6ux@virginia.edu)
-
----
-
-**Note**: This repository represents the complete experimental framework used in our TMLR 2025 paper. For the latest updates and additional resources, please check our [project page](https://github.com/mmjerge/LLM-Evaluation-Framework).
