@@ -76,6 +76,26 @@ conda activate llm-eval
 pip install -r requirements.txt
 ```
 
+## Reproducing the Literature Analysis
+
+Our paper includes a comprehensive analysis of 4,886 papers citing Chain of Thought (Wei et al., 2022). You can reproduce this analysis using the tools in the `literature_analysis/` directory.
+
+### Prerequisites
+
+To run the literature analysis, you'll need:
+
+1. **OpenAI API Token** (required) - Used for GPT-4o automated analysis of papers
+2. **Semantic Scholar API Token** (optional but recommended) - For enhanced paper retrieval and metadata
+
+### Setup API Keys
+
+```bash
+# Set your OpenAI API key
+export OPENAI_API_KEY="your_openai_api_key_here"
+
+# Set your Semantic Scholar API key (optional)
+export SEMANTIC_SCHOLAR_API_KEY="your_semantic_scholar_api_key_here"
+
 ## Reproducing Paper Results
 bash# Run main experiments from the paper
 python main.py --config config/paper_experiments.yaml
