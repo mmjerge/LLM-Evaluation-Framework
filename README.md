@@ -1,195 +1,185 @@
-# LLM Evaluation Framework
+# Pitfalls in Evaluating Inference-time Methods for Improving LLM Reliability
 
-A modular framework for evaluating Large Language Models (LLMs) across different benchmarks using custom inference methods. This repository contains the evaluation framework and implementations of inference-time methods studied in the paper.
+**Official Repository for the Research Paper**
 
-## Overview
+[![Paper](https://img.shields.io/badge/Paper-TMLR%202025-blue)](https://openreview.net/forum?id=xeGWsmqFS8)
+[![arXiv](https://img.shields.io/badge/arXiv-coming%20soon-red)]()
 
-This framework allows researchers and practitioners to:
-- Evaluate different LLMs (OpenAI, Anthropic, HuggingFace models)
-- Test custom inference methods
-- Run evaluations across multiple benchmarks
-- Compare different approaches systematically
+This repository contains the official implementation and experimental code for the paper *"Pitfalls in Evaluating Inference-time Methods for Improving LLM Reliability"* published in Transactions on Machine Learning Research (TMLR) 2025.
+
+## Abstract
+
+Large Language Models (LLMs) have demonstrated remarkable capabilities but are still prone to outputting falsehoods using seemingly persuasive language. Many recent works attempt to address this problem by using LLMs in a framework where a single seed prompt results in a series of interactions involving augmented prompts with an otherwise unchanged LLM, and the results are aggregated with a goal of producing a more reliable output.
+
+We consider the replicability and generalizability of evaluations of inference-time methods intended to improve the reliability of responses from base LLMs. We survey how methods have been evaluated in the literature and find a great variety of benchmarks and models in use. Motivated by this, we conduct our own evaluation to evaluate the effectiveness of a few methods across a range of benchmarks and models. **We find that while these techniques show promise in improving reliability, there is still significant variability in performance across different domains and tasks, and methods that show substantial improvements on weaker base models often do not improve reliability for better base models.**
+
+## Key Findings
+
+🔍 **Literature Analysis**: Analysis of 4,886 papers citing Chain of Thought reveals:
+- 7,635 different benchmarks used across papers
+- No single benchmark used by more than 25% of evaluations
+- Significant fragmentation in evaluation approaches
+
+📊 **Experimental Results**: Comprehensive evaluation across 6 inference-time methods, 5 models, and 10 benchmarks shows:
+- Methods effective on weaker models (e.g., Llama-3.1-8B) often fail to improve stronger models (e.g., GPT-4o, Claude-3.5-Sonnet)
+- Performance varies significantly across different benchmark domains
+- High computational costs (3.5x to 54x API calls) limit practical deployment
+
+⚠️ **Reproducibility Challenges**: Comparison with original papers reveals substantial discrepancies in reported vs. reproduced results
+
+## Repository Structure
+
+```
+├── evaluated_methods/          # Implementations of inference-time methods
+├── literature_analysis/        # Automated analysis of 4,886 papers
+├── config/                    # Configuration files for experiments
+├── tests/                     # Test suite for validation
+├── utils/                     # Utility functions and helpers
+├── assets/                    # Figures and supplementary materials
+├── main.py                    # Main experiment runner
+├── environment.yaml           # Conda environment specification
+└── README.md                  # This file
+```
+
+## Methods Evaluated
+
+Our framework includes implementations of six prominent inference-time methods:
+
+1. **Chain of Thought** (Wei et al., 2022) - Step-by-step reasoning prompts
+2. **Self-Consistency** (Wang et al., 2023) - Multiple reasoning paths with majority voting
+3. **ReAct** (Yao et al., 2023) - Reasoning and acting with language models
+4. **Tree of Thoughts** (Yao et al., 2024) - Tree-structured problem exploration
+5. **Graph of Thoughts** (Besta et al., 2024) - Graph-based reasoning networks
+6. **LLM Multi-Agent Debate** (Du et al., 2024) - Collaborative multi-agent reasoning
+
+## Models and Benchmarks
+
+### Models Tested
+- **State-of-the-art**: GPT-4o, Claude-3.5-Sonnet
+- **Widely-used**: GPT-3.5-turbo
+- **Open-weights**: Llama-3.1-8B-Instruct, Mixtral-8x22B
+
+### Benchmarks
+- **Mathematical Reasoning**: GSM8K, GSM-Symbolic, AQuA, SVAMP
+- **General Knowledge**: MMLU, TruthfulQA
+- **Domain-Specific**: MedQA, LegalBench
+- **Specialized Tasks**: Sorting, Document Merging
 
 ## Installation
 
 ```bash
-conda env create -f environment.yaml
-```
+# Clone the repository
+git clone https://github.com/mmjerge/LLM-Evaluation-Framework.git
+cd LLM-Evaluation-Framework
 
-Required dependencies:
-- transformers
-- openai
-- anthropic
-- pandas
-- datasets
-- jsonlines
-- torch
+# Create conda environment
+conda env create -f environment.yaml
+conda activate llm-eval
+
+# Install additional dependencies
+pip install -r requirements.txt
+```
 
 ## Quick Start
 
+### Basic Evaluation
 ```python
 from framework import (
     Evaluator, ModelConfig, EvaluationConfig,
     ModelProvider, GSM8KBenchmark
 )
 
-def my_inference_method(
-    question: str,
-    model_client: LLMClient,
-    temperature: float = 0.7,
-    **kwargs
-) -> str:
-    return model_client.get_response(question, temperature)
-
+# Configure model
 model_config = ModelConfig(
     provider=ModelProvider.OPENAI,
-    model_name="gpt-4",
+    model_name="gpt-4o",
     api_key="your_api_key"
 )
 
+# Configure evaluation
 eval_config = EvaluationConfig(
     batch_size=32,
     sample_size=150,
     random_seed=42
 )
 
+# Run evaluation
 evaluator = Evaluator(
     model_config=model_config,
     eval_config=eval_config,
     benchmark=GSM8KBenchmark("gsm8k"),
-    inference_method=my_inference_method
+    inference_method=chain_of_thought
 )
 
 results = evaluator.run_evaluation()
 ```
 
-## Framework Components
+### Reproducing Paper Results
 
-### Model Providers
+```bash
+# Run main experiments from the paper
+python main.py --config config/paper_experiments.yaml
 
-The framework supports multiple model providers:
-- OpenAI (GPT-3.5, GPT-4)
-- Anthropic (Claude)
-- HuggingFace (Local models)
+# Run literature analysis
+python literature_analysis/analyze_papers.py
 
-### Benchmarks
-
-Adding a new benchmark:
-```python
-class MyBenchmark(Benchmark):
-    def load_data(self, sample_size: int, random_seed: int) -> pd.DataFrame:
-        # Load your dataset
-        pass
-    
-    def format_prompt(self, question: str) -> str:
-        # Format the question for the model
-        pass
-    
-    def extract_answer(self, solution: str) -> str:
-        # Extract answer from model output
-        pass
-    
-    def get_ground_truth(self, row: pd.Series) -> str:
-        # Get ground truth answer
-        pass
-
-BenchmarkRegistry.register("my-benchmark", MyBenchmark)
+# Generate figures
+python utils/generate_figures.py
 ```
 
-### Inference Methods
+## Research Contributions
 
-Along with the framework to evaluate inference-time methods, this repository also includes methods that were evaluated on different models and benchmarks. These can be found in the /evaluated_methods directory.
+### 1. Comprehensive Literature Survey
+- Automated analysis of 4,886 papers using GPT-4o
+- Systematic categorization of evaluation practices
+- Identification of evaluation fragmentation issues
 
-Creating a custom inference method:
-```python
-def custom_inference(
-    question: str,
-    model_client: LLMClient,
-    temperature: float = 0.7,
-    **kwargs
-) -> str:
-    # Implement your inference strategy
-    # Can use any combination of:
-    # - Chain-of-thought prompting
-    # - Few-shot examples
-    # - Multiple passes
-    # - Custom prompt engineering
-    # - etc.
-    return model_client.get_response(question, temperature)
-```
+### 2. Systematic Experimental Evaluation
+- First comprehensive comparison across multiple state-of-the-art models
+- Evaluation on diverse benchmark suite including novel domains
+- Cost analysis revealing practical deployment challenges
 
-## Configuration
+### 3. Reproducibility Assessment
+- Direct comparison with original paper results
+- Documentation of reproducibility challenges
+- Recommendations for standardized evaluation protocols
 
-### ModelConfig
-```python
-@dataclass
-class ModelConfig:
-    provider: ModelProvider
-    model_name: str
-    api_key: str
-    temperature: float = 0.7
-    max_tokens: int = 500
-```
+## Key Recommendations
 
-### EvaluationConfig
-```python
-@dataclass
-class EvaluationConfig:
-    batch_size: int = 32
-    sample_size: int = 150
-    random_seed: int = 42
-```
+Based on our findings, we recommend:
 
-## Results Format
+1. **Evaluate across diverse models** - Include state-of-the-art systems, not just older baselines
+2. **Use representative benchmark suites** - No single benchmark captures method effectiveness
+3. **Prioritize benchmark diversity** - Strategic selection over exhaustive testing
+4. **Adopt standardized protocols** - Include widely-used benchmarks for comparability
 
-The evaluation results are saved in JSONL format with the following structure:
-```json
-{
-    "question": "original question",
-    "prediction": "model's full response",
-    "predicted_answer": "extracted answer",
-    "true_answer": "ground truth",
-    "correct": true/false,
-    "provider": "model provider",
-    "model": "model name"
+## Citation
+
+If you use this work in your research, please cite:
+
+```bibtex
+@article{jerge2025pitfalls,
+  title={Pitfalls in Evaluating Inference-time Methods for Improving LLM Reliability},
+  author={Jerge, Michael and Evans, David},
+  journal={Transactions on Machine Learning Research},
+  year={2025},
+  url={https://openreview.net/forum?id=xeGWsmqFS8}
 }
 ```
 
-## Advanced Usage
+## Acknowledgments
 
-### Comparing Multiple Methods
-
-```python
-# Define methods to compare
-inference_methods = {
-    "direct": direct_inference,
-    "self_consistency": self_consistency_inference,
-    "custom": custom_inference
-}
-
-# Configure method-specific parameters
-inference_kwargs = {
-    "direct": {},
-    "self_consistency": {"n_samples": 5},
-    "custom": {"custom_param": "value"}
-}
-
-# Run evaluations
-results = {}
-for benchmark_name in BenchmarkRegistry.list_benchmarks():
-    benchmark = BenchmarkRegistry.get(benchmark_name)(benchmark_name)
-    
-    for method_name, method in inference_methods.items():
-        evaluator = Evaluator(
-            model_config=model_config,
-            eval_config=eval_config,
-            benchmark=benchmark,
-            inference_method=method,
-            inference_kwargs=inference_kwargs[method_name]
-        )
-        results[(benchmark_name, method_name)] = evaluator.run_evaluation()
-```
+This work is supported in part by funds provided by the National Science Foundation, Department of Homeland Security, and IBM through the ACTION AI Institute (Award #2229876).
 
 ## License
 
-MIT License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions about the paper or code, please contact:
+- Michael Jerge: [mj6ux@virginia.edu](mailto:mj6ux@virginia.edu)
+
+---
+
+**Note**: This repository represents the complete experimental framework used in our TMLR 2025 paper. For the latest updates and additional resources, please check our [project page](https://github.com/mmjerge/LLM-Evaluation-Framework).
