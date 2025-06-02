@@ -55,7 +55,7 @@ Our framework includes implementations of six prominent inference-time methods:
 ## Models and Benchmarks
 
 ### Models Tested
-- **State-of-the-art**: GPT-4o, Claude-3.5-Sonnet
+- **Advanced**: GPT-4o, Claude-3.5-Sonnet
 - **Widely-used**: GPT-3.5-turbo
 - **Open-weights**: Llama-3.1-8B-Instruct, Mixtral-8x22B
 
@@ -80,44 +80,8 @@ conda activate llm-eval
 pip install -r requirements.txt
 ```
 
-## Quick Start
-
-### Basic Evaluation
-```python
-from framework import (
-    Evaluator, ModelConfig, EvaluationConfig,
-    ModelProvider, GSM8KBenchmark
-)
-
-# Configure model
-model_config = ModelConfig(
-    provider=ModelProvider.OPENAI,
-    model_name="gpt-4o",
-    api_key="your_api_key"
-)
-
-# Configure evaluation
-eval_config = EvaluationConfig(
-    batch_size=32,
-    sample_size=150,
-    random_seed=42
-)
-
-# Run evaluation
-evaluator = Evaluator(
-    model_config=model_config,
-    eval_config=eval_config,
-    benchmark=GSM8KBenchmark("gsm8k"),
-    inference_method=chain_of_thought
-)
-
-results = evaluator.run_evaluation()
-```
-
-### Reproducing Paper Results
-
-```bash
-# Run main experiments from the paper
+## Reproducing Paper Results
+bash# Run main experiments from the paper
 python main.py --config config/paper_experiments.yaml
 
 # Run literature analysis
@@ -125,7 +89,6 @@ python literature_analysis/analyze_papers.py
 
 # Generate figures
 python utils/generate_figures.py
-```
 
 ## Research Contributions
 
@@ -143,15 +106,6 @@ python utils/generate_figures.py
 - Direct comparison with original paper results
 - Documentation of reproducibility challenges
 - Recommendations for standardized evaluation protocols
-
-## Key Recommendations
-
-Based on our findings, we recommend:
-
-1. **Evaluate across diverse models** - Include state-of-the-art systems, not just older baselines
-2. **Use representative benchmark suites** - No single benchmark captures method effectiveness
-3. **Prioritize benchmark diversity** - Strategic selection over exhaustive testing
-4. **Adopt standardized protocols** - Include widely-used benchmarks for comparability
 
 ## Citation
 
