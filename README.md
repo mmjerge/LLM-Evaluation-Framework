@@ -74,6 +74,85 @@ conda activate llm-eval
 pip install -r requirements.txt
 ```
 
+## Running Open Source Models with vLLM
+
+For open source models, we use vLLM to serve models locally. This approach provides significant cost savings compared to commercial APIs while maintaining high throughput.
+
+### Resource Requirements
+
+Different models have varying resource requirements:
+
+- **Mixtral-8x22B**: Requires 4 A100 GPUs, 8 cores, ~700 GB memory
+- **Llama-3.1-8B-Instruct**: Can run on a single GPU with appropriate memory
+
+### Setting Up vLLM Server
+
+#### For Mixtral-8x22B (Large Model)
+```bash
+# Serve Mixtral 8x22B with tensor parallelism across 4 GPUs
+vllm serve <path-to-mixtral-8x22b> \
+  --tensor-parallel-size 4 \
+  --dtype bfloat16 \
+  --max-model-len 4000 \
+  --enforce-eager \
+  --max-parallel-loading-workers 1
+```
+
+#### For Llama-3.1-8B-Instruct (Smaller Model)
+```bash
+# Serve Llama-3.1-8B on single GPU
+vllm serve "meta-llama/Llama-3.1-8B-Instruct" \
+  --max-model-len 8192 \
+  --gpu-memory-utilization 0.95
+```
+
+### Running Evaluations with vLLM
+
+Once the vLLM server is running (default endpoint: `http://localhost:8000/v1`), you can run various inference methods:
+
+#### ReAct Evaluation
+```bash
+python evaluated_methods/ReAct/evaluations/scripts/langchain_gsm8k_react_api_count.py \
+  --model vllm \
+  --vllm_url http://localhost:8000/v1 \
+  --model_name <model-path> \
+  --num_questions 150
+```
+
+#### Unaided Baseline
+```bash
+python evaluated_methods/unaided/scripts/huggingface_evaluate_all.py \
+  --vllm-models <model-path> \
+  --datasets "legal-bench-privacy_policy_qa" "medqa" \
+  --samples 100 \
+  --vllm-endpoint "http://localhost:8000/v1"
+```
+
+#### Chain of Thought
+```bash
+python evaluated_methods/chain-of-thought/scripts/medqa_cot.py \
+  --providers huggingface \
+  --huggingface-models <model-path> \
+  --num-samples 150 \
+  --debug \
+  --output-dir medqa_results
+```
+
+#### Tree of Thoughts
+```bash
+python evaluated_methods/tree-of-thought-llm/run.py \
+  --backend meta-llama/Llama-3.1-8B-Instruct \
+  --temperature 0.7 \
+  --task medqa \
+  --method_generate sample \
+  --method_evaluate value \
+  --method_select greedy \
+  --prompt_sample standard \
+  --n_generate_sample 5 \
+  --n_evaluate_sample 1 \
+  --n_select_sample 1
+```
+
 ## Reproducing the Literature Analysis
 
 Our paper includes a comprehensive analysis of 4,886 papers citing Chain of Thought (Wei et al., 2022). You can reproduce this analysis using the tools in the `literature_analysis/` directory.
