@@ -76,14 +76,14 @@ pip install -r requirements.txt
 
 ## Running Open Source Models with vLLM
 
-For open source models, we use vLLM to serve models locally. This approach provides significant cost savings compared to commercial APIs while maintaining high throughput.
+For open source models, we use vLLM to serve models locally. 
 
 ### Resource Requirements
 
 Different models have varying resource requirements:
 
 - **Mixtral-8x22B**: Requires 4 A100 GPUs, 8 cores, ~700 GB memory
-- **Llama-3.1-8B-Instruct**: Can run on a single GPU with appropriate memory
+- **Llama-3.1-8B-Instruct**: Can run on a single A100 GPU with appropriate memory
 
 ### Setting Up vLLM Server
 
