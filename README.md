@@ -95,9 +95,12 @@ export OPENAI_API_KEY="your_openai_api_key_here"
 
 # Set your Semantic Scholar API key (optional)
 export SEMANTIC_SCHOLAR_API_KEY="your_semantic_scholar_api_key_here"
+```
 
 ## Reproducing Paper Results
-bash# Run main experiments from the paper
+
+```bash
+# Run main experiments from the paper
 python main.py --config config/paper_experiments.yaml
 
 # Run literature analysis
@@ -105,6 +108,7 @@ python literature_analysis/analyze_papers.py
 
 # Generate figures
 python utils/generate_figures.py
+```
 
 ## Research Contributions
 
