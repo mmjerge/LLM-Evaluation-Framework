@@ -241,10 +241,6 @@ If you use this work in your research, please cite:
 }
 ```
 
-## Acknowledgments
-
-This work is supported in part by funds provided by the National Science Foundation, Department of Homeland Security, and IBM through the ACTION AI Institute (Award #2229876).
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
