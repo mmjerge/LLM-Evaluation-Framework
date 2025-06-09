@@ -8,6 +8,13 @@ def get_llm_function(backend):
         return gpt
     elif backend.startswith('claude'):
         return claude
+    elif backend == 'open-mixtral-8x22b' or backend.startswith('mistral'):
+        from tot.models import mistral
+        return mistral
+    # Add this new condition for Llama models
+    elif backend == 'llama' or 'llama' in backend.lower() or backend.startswith('meta-llama'):
+        from tot.models import vllm
+        return vllm
     else:
         raise ValueError(f"Unsupported backend: {backend}")
 
