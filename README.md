@@ -86,9 +86,6 @@ cd LLM-Evaluation-Framework
 # Create conda environment
 conda env create -f environment.yaml
 conda activate llm-eval
-
-# Install additional dependencies
-pip install -r requirements.txt
 ```
 
 ## Running Open Source Models with vLLM
