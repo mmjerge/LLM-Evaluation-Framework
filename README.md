@@ -7,12 +7,6 @@
 
 This repository contains the official implementation and experimental code for the paper *"Pitfalls in Evaluating Inference-time Methods for Improving LLM Reliability"* published in Transactions on Machine Learning Research (TMLR) 2025.
 
-## Abstract
-
-Large Language Models (LLMs) have demonstrated remarkable capabilities but are still prone to outputting falsehoods using seemingly persuasive language. Many recent works attempt to address this problem by using LLMs in a framework where a single seed prompt results in a series of interactions involving augmented prompts with an otherwise unchanged LLM, and the results are aggregated with a goal of producing a more reliable output.
-
-We consider the replicability and generalizability of evaluations of inference-time methods intended to improve the reliability of responses from base LLMs. We survey how methods have been evaluated in the literature and find a great variety of benchmarks and models in use. Motivated by this, we conduct our own evaluation to evaluate the effectiveness of a few methods across a range of benchmarks and models. **We find that while these techniques show promise in improving reliability, there is still significant variability in performance across different domains and tasks, and methods that show substantial improvements on weaker base models often do not improve reliability for better base models.**
-
 ## Key Findings
 
 🔍 **Literature Analysis**: Analysis of 4,886 papers citing Chain of Thought reveals:
