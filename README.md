@@ -210,12 +210,15 @@ export SEMANTIC_SCHOLAR_API_KEY="your_semantic_scholar_api_key_here"
 If you use this work in your research, please cite:
 
 ```bibtex
-@article{jerge2025pitfalls,
-  title={Pitfalls in Evaluating Inference-time Methods for Improving LLM Reliability},
-  author={Jerge, Michael and Evans, David},
+@article{
+  jerge2025pitfalls,
+  title={Pitfalls in Evaluating Inference-time Methods for Improving {LLM} Reliability},
+  author={Michael M. Jerge and David Evans},
   journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
   year={2025},
-  url={https://openreview.net/forum?id=xeGWsmqFS8}
+  url={https://openreview.net/forum?id=xeGWsmqFS8},
+  note={Reproducibility Certification, Survey Certification}
 }
 ```
 
